@@ -8,20 +8,21 @@ Every script in the pipeline reads from here.
 # ============================================================
 # Model IDs — current as of April 2026
 # ============================================================
-
+# IMPORTANT: Claude 3.5 Sonnet was retired Jan 5, 2026.
+# DeepSeek V4 Flash replaces Gemini due to free-tier quota limits.
 MODELS = {
     "openai": "gpt-4o-mini",
     "anthropic": "claude-haiku-4-5-20251001",
-    "gemini": "gemini-2.5-flash",
+    "deepseek": "deepseek-v4-flash",
     "groq": "llama-3.3-70b-versatile",
 }
 
 # Display names for figures, papers, dashboards
 MODEL_DISPLAY_NAMES = {
-    "openai": "GPT-4o-mini",
+    "openai":    "GPT-4o-mini",
     "anthropic": "Claude Haiku 4.5",
-    "gemini": "Gemini 2.5 Flash",
-    "groq": "Llama 3.3 70B",
+    "deepseek":  "DeepSeek V4 Flash",
+    "groq":      "Llama 3.3 70B",
 }
 
 # ============================================================

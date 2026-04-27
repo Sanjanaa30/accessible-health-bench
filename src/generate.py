@@ -41,7 +41,7 @@ from src.config import (
 PRICING = {
     "openai":    {"in": 0.15,  "out": 0.60},  # gpt-4o-mini
     "anthropic": {"in": 1.00,  "out": 5.00},  # claude-haiku-4-5
-    "gemini":    {"in": 0.0,   "out": 0.0},   # free tier
+    "deepseek":  {"in": 0.14,  "out": 0.28},  # deepseek-v4-flash
     "groq":      {"in": 0.0,   "out": 0.0},   # free tier
 }
 
@@ -233,7 +233,7 @@ if __name__ == "__main__":
         "--providers",
         nargs="+",
         default=None,
-        choices=["openai", "anthropic", "gemini", "groq"],
+        choices=["openai", "anthropic", "deepseek", "groq"],
         help="Subset of providers to run. Default: all 4.",
     )
     parser.add_argument(

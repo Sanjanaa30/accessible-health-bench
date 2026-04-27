@@ -1,7 +1,7 @@
 """
 src/clients/unified_llm.py
 
-Unified interface for OpenAI, Anthropic, Gemini, and Groq with SQLite-backed
+Unified interface for OpenAI, Anthropic, DeepSeek, and Groq with SQLite-backed
 caching. Every call is hashed and cached — re-running a script never re-pays.
 
 Usage:
@@ -130,7 +130,7 @@ class UnifiedLLM:
         self.cache = LLMCache(cache_path)
         self._openai_client = None
         self._anthropic_client = None
-        self._gemini_configured = False
+        self._deepseek_client = None
         self._groq_client = None
 
     # -------------------------------------------------------
@@ -154,14 +154,21 @@ class UnifiedLLM:
             self._anthropic_client = Anthropic(api_key=api_key)
         return self._anthropic_client
 
-    def _configure_gemini(self):
-        if not self._gemini_configured:
-            import google.generativeai as genai
-            api_key = os.getenv("GOOGLE_API_KEY")
+    def _get_deepseek(self):
+        """
+        DeepSeek uses OpenAI-compatible API — same SDK, different base_url.
+        Endpoint: https://api.deepseek.com
+        """
+        if self._deepseek_client is None:
+            from openai import OpenAI
+            api_key = os.getenv("DEEPSEEK_API_KEY")
             if not api_key:
-                raise RuntimeError("GOOGLE_API_KEY not set in .env")
-            genai.configure(api_key=api_key)
-            self._gemini_configured = True
+                raise RuntimeError("DEEPSEEK_API_KEY not set in .env")
+            self._deepseek_client = OpenAI(
+                api_key=api_key,
+                base_url="https://api.deepseek.com",
+            )
+        return self._deepseek_client
 
     def _get_groq(self):
         if self._groq_client is None:
@@ -203,28 +210,24 @@ class UnifiedLLM:
             "output_tokens": response.usage.output_tokens,
         }
 
-    def _call_gemini(self, model: str, prompt: str, params: dict) -> dict:
-        self._configure_gemini()
-        import google.generativeai as genai
-        gen_model = genai.GenerativeModel(model)
-        response = gen_model.generate_content(
-            prompt,
-            generation_config={
-                "temperature": params["temperature"],
-                "max_output_tokens": params["max_tokens"],
-            },
+    def _call_deepseek(self, model: str, prompt: str, params: dict) -> dict:
+        """
+        DeepSeek V4 Flash uses OpenAI-compatible chat completions.
+        Thinking mode is disabled to keep parity with other providers.
+        """
+        client = self._get_deepseek()
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=params["temperature"],
+            max_tokens=params["max_tokens"],
+            # Disable thinking mode for fair comparison with other models
+            extra_body={"thinking": {"type": "disabled"}},
         )
-        # Gemini token counts are accessed differently
-        try:
-            input_tokens = response.usage_metadata.prompt_token_count
-            output_tokens = response.usage_metadata.candidates_token_count
-        except AttributeError:
-            input_tokens = 0
-            output_tokens = 0
         return {
-            "text": response.text,
-            "input_tokens": input_tokens,
-            "output_tokens": output_tokens,
+            "text": response.choices[0].message.content,
+            "input_tokens": response.usage.prompt_tokens,
+            "output_tokens": response.usage.completion_tokens,
         }
 
     def _call_groq(self, model: str, prompt: str, params: dict) -> dict:
@@ -257,7 +260,7 @@ class UnifiedLLM:
         Generate a response from the given provider.
 
         Args:
-            provider: one of "openai", "anthropic", "gemini", "groq"
+            provider: one of "openai", "anthropic", "deepseek", "groq"
             prompt: the user prompt
             model: override the default model from config (optional)
             params: override default generation params (optional)
@@ -285,10 +288,10 @@ class UnifiedLLM:
 
         # Cache miss — call the provider with retries
         call_methods = {
-            "openai": self._call_openai,
+            "openai":    self._call_openai,
             "anthropic": self._call_anthropic,
-            "gemini": self._call_gemini,
-            "groq": self._call_groq,
+            "deepseek":  self._call_deepseek,
+            "groq":      self._call_groq,
         }
         call_fn = call_methods[provider]
 
@@ -329,7 +332,7 @@ if __name__ == "__main__":
     client = UnifiedLLM()
     test_prompt = "In one sentence, what is a healthy breakfast?"
 
-    for provider in ["openai", "anthropic", "gemini", "groq"]:
+    for provider in ["openai", "anthropic", "deepseek", "groq"]:
         print(f"--- {provider} ({MODELS[provider]}) ---")
         try:
             response = client.generate(provider=provider, prompt=test_prompt)
