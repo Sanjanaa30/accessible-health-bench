@@ -17,13 +17,22 @@ A benchmark for evaluating large language models on accessible health-informatio
 | Lifestyle  | 20       | 20          | 40    |
 | **Total**  | **60**   | **60**      | **120** |
 
-**Phase 2 — Generation:** in progress (pilot run complete).
+**Phase 2 — Generation:** mostly complete (3 of 4 providers fully done).
 
 - Unified multi-provider LLM client implemented in [src/clients/unified_llm.py](src/clients/unified_llm.py) with SQLite-backed caching at `data/llm_cache.sqlite`. Wraps OpenAI, Anthropic, Google Gemini, and Groq behind one interface so identical calls are billed once.
 - Centralized model + path config in [src/config.py](src/config.py) — single source of truth for model IDs, generation parameters, and pipeline paths.
 - Generation driver in [src/generate.py](src/generate.py) — loops over all 120 prompts × 4 providers (480 responses), saves each to `data/responses/{provider}/{prompt_id}.json`, and is restart-safe (skips already-saved files; cache hits are free).
-- **Pilot run complete:** 6 prompts × 4 providers = 24 responses saved under [data/responses/](data/responses/) (anthropic, gemini, groq, openai).
-- Full 480-response run pending.
+- **Current response counts** under [data/responses/](data/responses/):
+
+| Provider  | Saved | Expected | Status      |
+|-----------|-------|----------|-------------|
+| OpenAI    | 120   | 120      | Complete    |
+| Anthropic | 120   | 120      | Complete    |
+| Groq      | 120   | 120      | Complete    |
+| Gemini    | 20    | 120      | In progress |
+| **Total** | **380** | **480** | 79%        |
+
+Remaining 100 Gemini responses pending (re-run `python -m src.generate` — restart-safe, will skip the 380 already saved).
 
 **Models used (April 2026)**
 
@@ -71,8 +80,8 @@ accessible-health-bench/
 
 ## Roadmap
 
-- **Phase 2 (current):** finish full 480-response generation run.
-- **Phase 3 — Extraction & Grounding:** structured JSON extraction + Wikidata enrichment (cultural food tags, affordability anchors).
+- **Phase 2 (current):** finish the remaining 100 Gemini responses to reach the full 480.
+- **Phase 3 — Extraction & Grounding:** structured JSON extraction into [data/extractions/](data/extractions/) + Wikidata enrichment into [data/enriched/](data/enriched/) (cultural food tags, affordability anchors).
 - **Phase 4 — Judging:** four G-Eval / DAGMetric judges (affordability, cultural, adherence, feasibility) + ArenaGEval pairwise matrix.
 - **Phase 5 — Analysis:** aggregation, Cohen's kappa validation, figures, dashboard, paper.
 
