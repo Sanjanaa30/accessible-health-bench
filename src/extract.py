@@ -135,14 +135,16 @@ def extract_one(
     )
 
     # Use the unified client — automatic caching applies here too.
-    # max_tokens=4000 because the rich schema (meal + fitness + cultural + feasibility +
+    # max_tokens=8000 because the rich schema (meal + fitness + cultural + feasibility +
     # demographic + medical) can run long for multi-day plans. 2500 truncated mid-JSON
-    # on dense responses (cul_base_01 etc.).
+    # on cul_base_*; 4000 still truncated lif_base_* and fin_base_* (output reached
+    # ~14000 chars). gpt-4o-mini's hard ceiling is 16384 output tokens, so 8000 leaves
+    # headroom even for the densest 7-day plan + full fitness routine.
     response = client.generate(
         provider="openai",
         prompt=full_prompt,
         model=EXTRACTION_MODEL,
-        params={"temperature": 0.0, "max_tokens": 4000},
+        params={"temperature": 0.0, "max_tokens": 8000},
     )
 
     raw_text = response["text"].strip()
