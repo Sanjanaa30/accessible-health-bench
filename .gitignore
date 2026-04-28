@@ -33,10 +33,16 @@ yarn-debug.log*
 yarn-error.log*
 
 # Pipeline artifacts (regenerable — produced by src/generate.py, src/extract.py,
-# src/grounding/wikidata.py respectively; reproducible from cache + scripts)
+# and src/ground_all.py respectively; reproducible from cache + scripts)
 data/responses/
 data/extractions/
 data/enriched/
+
+# Note on data/external/:
+# Reference CSVs (BLS prices, USDA Thrifty Plan, Compendium activities) are
+# COMMITTED on purpose — they pin the exact snapshot used in the paper and are
+# small (<100KB total). MANIFEST.json carries SHA256s for verification.
+# Regenerate via: python -m src.download_external_data [--refresh-bls | --force]
 
 # OS / editor
 .DS_Store
@@ -58,10 +64,15 @@ paper/*.fls
 paper/*.fdb_latexmk
 paper/*.pdf
 
-# Generated output artifacts
-results/*.csv
+# Generated output artifacts (regenerable from src/coverage_report.py)
+# Use ** so nested splits like results/baseline/ and results/constrained/
+# are also caught — the single-* glob does not recurse.
+results/**/*.csv
 results/figures/
 dashboard/src/data/results.json
+
+# Phase 4 grounding summary sidecar (regenerable; written by src/ground_all.py)
+data/enriched/_summary.json
 
 # Logs
 *.log

@@ -62,7 +62,46 @@ Generation params: `temperature=0.7`, `max_tokens=1500` (uniform across provider
 - **Token-limit lessons:** the extraction `max_tokens` was raised twice — 2500 → 4000 → 8000 — because the dense schema can produce 14k+ characters of JSON for full 7-day plans. Final pass produced 478 clean files and 2 suspicious-but-valid Anthropic outputs (advisory-style responses with no concrete plan items, manually verified).
 - **Cost note:** because the unified client caches by `(provider, model, prompt, params)`, every parameter bump invalidates the cache and forces fresh API calls — keep this in mind before changing extraction parameters.
 
-**Repository scaffold:** complete. Source files for grounding, judges, similarity, ML baseline, aggregation, and validation are stubbed in [src/](src/) for the upcoming phases.
+**Phase 4 — Grounding:** complete (480 / 480 enriched).
+
+Each extraction is enriched against four external knowledge sources, producing a `grounding` block consumed by the Phase 5 judges plus a `_grounding_meta` block recording snapshot dates and SHA256s for paper-quality reproducibility.
+
+| Source | Module | Purpose | Cache |
+|---|---|---|---|
+| Wikidata SPARQL + LLM fallback | [src/grounding/wikidata.py](src/grounding/wikidata.py) | Cuisine origin tags for ingredients/dishes (RQ2) | `data/wikidata_cache.sqlite` |
+| BLS Average Retail Food Prices | [src/grounding/bls.py](src/grounding/bls.py) | Per-ingredient unit prices (RQ1) | `data/external/bls_prices.csv` |
+| USDA Cost of Food at Home | [src/grounding/thrifty_plan.py](src/grounding/thrifty_plan.py) | Household-level weekly cost benchmarks (RQ1) | `data/external/usda_thrifty_plan.csv` |
+| 2024 Adult Compendium of Physical Activities | [src/grounding/compendium.py](src/grounding/compendium.py) | MET values + WHO 2020 bucketing (RQ3) | `data/external/compendium_activities.csv` |
+
+External reference data is built once via [src/download_external_data.py](src/download_external_data.py); the script writes a `data/external/MANIFEST.json` snapshot manifest so judges can record provenance.
+
+**Three-pass orchestrator** in [src/ground_all.py](src/ground_all.py):
+1. Ground each extraction; Wikidata accumulates misses across the entire run.
+2. Single batched LLM-fallback call resolves all accumulated cuisine misses (one call instead of N).
+3. Finalize and write all 480 enriched files to [data/enriched/](data/enriched/).
+
+**Coverage outcomes (480 responses, after fallback):**
+
+| Metric | Constrained (n=240) | Baseline (n=240) | Notes |
+|---|---|---|---|
+| Wikidata cuisine coverage | 52.4% | 60.1% | Constrained prompts introduce more region-specific ingredients that Wikidata can't always classify |
+| BLS price coverage | 6.6% | 4.8% | Thin — BLS staple list (25 items) doesn't cover most international ingredients; affordability judge will lean on USDA Thrifty calibration |
+| Compendium fitness coverage | 19.4% | 12.4% | Of fitness-bearing responses (89 constrained / 86 baseline) |
+| Western centricity ratio | 3.8% | 4.2% | Constrained prompts produce slightly *less* Western content |
+| Cost extractable | 13% | 0% | "Normalized" or "per_meal_extrapolated"; cultural/lifestyle prompts naturally have none |
+
+`per_meal` budgets (e.g. "I have $5") are extrapolated to per-week using a 3-meals/day × 7-day = 21× multiplier and flagged as `per_meal_extrapolated` in [src/ground_all.py](src/ground_all.py) so the assumption is disclosable.
+
+**Phase 4 reporter** [src/coverage_report.py](src/coverage_report.py) emits five paper-ready CSVs to [results/](results/) (split by `--variant constrained` or `--variant baseline`):
+- `coverage_report.csv` — one row per response, all metrics
+- `coverage_summary.csv` — provider × category aggregates (Table 1)
+- `thrifty_classification.csv` — RQ1 affordability bucket distribution
+- `feasibility_assessment.csv` — RQ3 WHO compliance distribution
+- `cuisine_distribution.csv` — RQ2 top cuisines per provider × category
+
+**Mini-pilot** [scripts/mini_pilot.py](scripts/mini_pilot.py) grounds exactly 6 prompts (one per sub-category) across all 4 providers — used to verify all three RQ pipelines fire end-to-end before scaling.
+
+**Repository scaffold:** complete. Source files for judges, similarity, ML baseline, aggregation, and validation are stubbed in [src/](src/) for the upcoming phase.
 
 ## Project structure
 
@@ -72,35 +111,47 @@ accessible-health-bench/
 │   ├── LLM_Prompts.csv               # source spreadsheet (120 rows)
 │   ├── prompts.jsonl                 # converted, validated prompts
 │   ├── responses/                    # raw model responses (480, gitignored)
-│   ├── extractions/                  # structured JSON from responses (480, gitignored)
-│   ├── enriched/                     # extractions + Wikidata tags (gitignored)
-│   └── llm_cache.sqlite              # cached API calls (gitignored)
+│   ├── extractions/                  # structured JSON (480, gitignored)
+│   ├── enriched/                     # extractions + grounding (480, gitignored)
+│   ├── external/                     # BLS / USDA / Compendium reference CSVs
+│   ├── llm_cache.sqlite              # cached API calls (gitignored)
+│   └── wikidata_cache.sqlite         # cached SPARQL queries (gitignored)
 ├── src/
 │   ├── config.py                     # model IDs, paths, generation params
 │   ├── clients/unified_llm.py        # multi-provider LLM client w/ caching
-│   ├── generate.py                   # Phase 2 driver — 480 responses
+│   ├── generate.py                   # Phase 2 — 480 responses
 │   ├── extract.py                    # Phase 3 — structured extraction
-│   ├── validate_extractions.py       # Phase 3 validator (parse + heuristics)
-│   ├── grounding/                    # Wikidata SPARQL queries + cache
-│   ├── judges/                       # G-Eval / DAGMetric judges
-│   ├── arena_eval.py                 # ArenaGEval pairwise matrix
+│   ├── validate_extractions.py       # Phase 3 validator
+│   ├── download_external_data.py     # Phase 4 prep — build reference CSVs
+│   ├── grounding/
+│   │   ├── wikidata.py               # SPARQL + LLM-fallback cuisine grounder
+│   │   ├── bls.py                    # BLS staple-price grounder
+│   │   ├── thrifty_plan.py           # USDA cost calibration grounder
+│   │   └── compendium.py             # 2024 Compendium MET / WHO grounder
+│   ├── ground_all.py                 # Phase 4 orchestrator (3-pass)
+│   ├── coverage_report.py            # Phase 4 reporter — 5 paper CSVs
+│   ├── judges/                       # G-Eval / DAGMetric judges (Phase 5)
+│   ├── arena_eval.py                 # ArenaGEval pairwise matrix (Phase 5)
 │   ├── similarity.py                 # Sentence-BERT cosine similarity
 │   ├── ml_baseline.py                # logistic regression baseline
 │   └── aggregate.py                  # combine scores → results CSVs
 ├── prompts/                          # version-controlled judge prompt templates
-│   └── extraction.txt                # Phase 3 extraction template (10-block schema)
-├── scripts/csv_to_jsonl.py           # CSV → JSONL converter
+│   └── extraction.txt                # Phase 3 extraction template
+├── scripts/
+│   ├── csv_to_jsonl.py               # CSV → JSONL converter
+│   └── mini_pilot.py                 # Phase 4 6-prompt × 4-provider verifier
 ├── notebooks/                        # 01_eda, 02_results, 03_figures
 ├── dashboard/                        # React + Vite results viewer
 ├── results/                          # scores, kappa, arena matrix, figures
+│   ├── constrained/                  # constrained-only Phase 4 CSVs
+│   └── baseline/                     # baseline-only Phase 4 CSVs
 └── paper/main.tex
 ```
 
 ## Roadmap
 
-- **Phase 4 — Grounding:** Wikidata enrichment of extracted records (cultural food tags, affordability anchors) → `data/enriched/`.
-- **Phase 5 — Judging:** four G-Eval / DAGMetric judges (affordability, cultural, adherence, feasibility) + ArenaGEval pairwise matrix.
-- **Phase 6 — Analysis:** aggregation, Cohen's kappa validation, figures, dashboard, paper.
+- **Phase 5 (current) — Judging:** four G-Eval / DAGMetric judges (affordability, cultural, adherence, feasibility) consuming the enriched files, plus ArenaGEval pairwise matrix. Each judge will read the original prompt + response text + the enriched `grounding` block and emit a 1-5 score with reasoning.
+- **Phase 6 — Analysis:** aggregation into `results/scores.csv`, Cohen's kappa inter-rater validation against a manual sample, figures, React dashboard build, paper draft.
 
 ## Setup
 
@@ -156,4 +207,39 @@ python -m src.validate_extractions
 Smoke-test the unified client across all 4 providers (~$0.05):
 ```
 python -m src.clients.unified_llm
+```
+
+Build external reference data (one-time, ~30 sec; persists for 30 days):
+```
+python -m src.download_external_data
+```
+
+Smoke-test each grounder individually before scaling:
+```
+python -m src.grounding.wikidata --test rice quinoa egusi salmon dal kichari kimchi
+python -m src.grounding.bls       --test rice "ground beef" eggs salt
+python -m src.grounding.thrifty_plan --household-type single
+python -m src.grounding.compendium --test "push-ups" "running 6 mph" yoga "irish step dance" salt
+```
+
+Run the targeted 6-prompt mini-pilot (verifies all three RQ pipelines fire end-to-end):
+```
+python scripts/mini_pilot.py
+```
+
+Run the full Phase 4 grounding pass (~1 hour first time; restart-safe):
+```
+python -m src.ground_all
+```
+
+Run a Phase 4 grounding pilot (5 extractions per provider):
+```
+python -m src.ground_all --pilot 5
+```
+
+Generate the 5 paper-ready CSVs (split by variant):
+```
+python -m src.coverage_report
+python -m src.coverage_report --variant constrained --out-dir results/constrained
+python -m src.coverage_report --variant baseline    --out-dir results/baseline
 ```
