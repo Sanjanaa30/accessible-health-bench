@@ -24,6 +24,12 @@ env/
 *.sqlite3
 *.db
 
+# Sentence-BERT embedding cache (Phase 5 Track B; can grow to 100MB+)
+data/embeddings_cache.keys.json
+data/embeddings_cache.vectors.npy
+*.npy
+*.npz
+
 # Node / dashboard
 node_modules/
 dashboard/dist/

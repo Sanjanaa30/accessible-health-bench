@@ -101,7 +101,57 @@ External reference data is built once via [src/download_external_data.py](src/do
 
 **Mini-pilot** [scripts/mini_pilot.py](scripts/mini_pilot.py) grounds exactly 6 prompts (one per sub-category) across all 4 providers — used to verify all three RQ pipelines fire end-to-end before scaling.
 
-**Repository scaffold:** complete. Source files for judges, similarity, ML baseline, aggregation, and validation are stubbed in [src/](src/) for the upcoming phase.
+**Phase 5 — Evaluation:** in progress. Five tracks running in parallel:
+
+| Track | Module | Status | Output |
+|---|---|---|---|
+| A. Four LLM judges (G-Eval + DAGMetric) | `src/judges/` + `src/run_judges.py` | TODO | `results/judge_scores.csv` |
+| **B. Sentence-BERT similarity** | [src/similarity.py](src/similarity.py) | **complete** | [results/similarity.csv](results/similarity.csv) |
+| C. Logistic regression baseline | [src/ml_baseline.py](src/ml_baseline.py) | gated on Phase 6 labels | `results/ml_baseline.csv` |
+| D. ArenaGEval pairwise | [src/arena_eval.py](src/arena_eval.py) | TODO | `results/arena_matrix.csv` |
+| E. Aggregation | [src/aggregate.py](src/aggregate.py) | TODO | `results/scores.csv` |
+
+### Phase 5 Track B — Semantic adaptation (Sentence-BERT) — complete
+
+Computes four distance signals between every (baseline, constrained) prompt-pair response per model. 60 prompt pairs × 4 providers = **240 paired comparisons** in [results/similarity.csv](results/similarity.csv).
+
+**Four complementary signals** (per [src/similarity.py](src/similarity.py)):
+1. `cosine_full` — Sentence-BERT (`all-MiniLM-L6-v2`) on full response text, chunked-and-mean-pooled for inputs > 1000 chars to avoid silent truncation.
+2. `cosine_ingredients` — Sentence-BERT on the joined ingredient string.
+3. `cosine_structural` — Sentence-BERT on a synthetic structural digest (response_type + meal_types + activity_types + kitchen access).
+4. `jaccard_ingredients` — Set-based, length-invariant ingredient overlap. Uses the same `normalize_food_name` as Phase 4 grounding so `oats`/`oat` collapse to one set element.
+
+**Headline result — model adaptation magnitude (cosine_full mean, n=20 per cell):**
+
+| Provider | Cultural | Financial | Lifestyle |
+|---|---|---|---|
+| Anthropic Haiku 4.5 | **0.369** | **0.278** | 0.272 |
+| Llama 3.3 70B (Groq) | 0.281 | 0.286 | 0.239 |
+| DeepSeek V4 Flash | 0.282 | 0.205 | 0.193 |
+| GPT-4o-mini | 0.270 | 0.206 | **0.154** |
+
+Anthropic adapts the most across all three categories; OpenAI's GPT-4o-mini adapts the least. The gap between the most-adaptive cell (Anthropic cultural, 0.369) and the least-adaptive cell (OpenAI lifestyle, 0.154) is **2.4×**, consistent across signals.
+
+**Pooled diagnostic:** mean cosine_full = 0.253, median = 0.224, between-cell σ = 0.054 (where each "cell" is one provider × category combination, n=20). Just below the soft "adaptive" threshold (mean ≥ 0.25, σ ≥ 0.06), but the per-cell spread is the real signal — uniform rigidity would have produced σ ≪ 0.04.
+
+**Methodological finding — multi-signal design pays off.** Cosine and Jaccard tell different stories on financial prompts:
+- `cosine_ingredients` (mean 0.21) suggests modest ingredient change.
+- `jaccard_ingredients` (mean 0.80) reveals that ~80% of ingredients are actually replaced.
+
+Cosine alone hides the swap because list lengths and surface phrasing stay similar. Jaccard catches what embedding similarity can't.
+
+**Bimodality of Jaccard across all four models** (visible in `results/figures/distance_distributions.png`): per-model histograms show two modes — a small spike near 0 (mostly-overlapping ingredients) and a large mass at 0.6–1.0 (near-complete replacement). Models effectively choose between *keep* and *rewrite* rather than gradually substituting.
+
+**Structural change is uniformly minimal.** `cosine_structural` mean is 0.07 across all 12 cells (range 0.049–0.112). Models update content but rarely restructure (meal layout / fitness skeleton stays the same). Worth one paragraph of paper discussion.
+
+**Visualizations** ([src/plot_adaptivity.py](src/plot_adaptivity.py)):
+- [results/figures/adaptivity_curves.png](results/figures/adaptivity_curves.png) (+ `.pdf`) — 2×2 panel of box plots with scatter overlay, one per signal, grouped by provider × category. Headline figure.
+- [results/figures/distance_distributions.png](results/figures/distance_distributions.png) (+ `.pdf`) — Per-model step histograms of all four signals. Reveals the Jaccard bimodality.
+- [results/adaptivity_summary.csv](results/adaptivity_summary.csv) — n / mean / std / median / IQR / min / max per (provider, category, signal). 48 rows. Goes in the paper as Table 2.
+
+**Reproducibility:** all embeddings cached at `data/embeddings_cache.{keys.json, vectors.npy}`. The `embedding_model` field is recorded on every row of `results/similarity.csv` so future readers can verify which model produced the numbers (`sentence-transformers/all-MiniLM-L6-v2`, dim=384). Deterministic: same input → identical embeddings on every run.
+
+**Repository scaffold:** complete. Source files for the four judges (Track A), arena evaluation (Track D), aggregation (Track E), and ML baseline (Track C, gated on Phase 6 labels) are stubbed in [src/](src/).
 
 ## Project structure
 
@@ -130,11 +180,12 @@ accessible-health-bench/
 │   │   └── compendium.py             # 2024 Compendium MET / WHO grounder
 │   ├── ground_all.py                 # Phase 4 orchestrator (3-pass)
 │   ├── coverage_report.py            # Phase 4 reporter — 5 paper CSVs
-│   ├── judges/                       # G-Eval / DAGMetric judges (Phase 5)
-│   ├── arena_eval.py                 # ArenaGEval pairwise matrix (Phase 5)
-│   ├── similarity.py                 # Sentence-BERT cosine similarity
-│   ├── ml_baseline.py                # logistic regression baseline
-│   └── aggregate.py                  # combine scores → results CSVs
+│   ├── similarity.py                 # Phase 5 Track B — 4 distance signals
+│   ├── plot_adaptivity.py            # Phase 5 Track B — figures + diagnostic
+│   ├── judges/                       # Phase 5 Track A — G-Eval / DAGMetric (TODO)
+│   ├── arena_eval.py                 # Phase 5 Track D — pairwise matrix (TODO)
+│   ├── ml_baseline.py                # Phase 5 Track C — logistic baseline (gated)
+│   └── aggregate.py                  # Phase 5 Track E — combine into scores.csv (TODO)
 ├── prompts/                          # version-controlled judge prompt templates
 │   └── extraction.txt                # Phase 3 extraction template
 ├── scripts/
@@ -142,7 +193,17 @@ accessible-health-bench/
 │   └── mini_pilot.py                 # Phase 4 6-prompt × 4-provider verifier
 ├── notebooks/                        # 01_eda, 02_results, 03_figures
 ├── dashboard/                        # React + Vite results viewer
-├── results/                          # scores, kappa, arena matrix, figures
+├── results/
+│   ├── coverage_report.csv           # Phase 4 per-response (480 rows)
+│   ├── coverage_summary.csv          # Phase 4 aggregates (Table 1)
+│   ├── thrifty_classification.csv    # Phase 4 — RQ1 cost buckets
+│   ├── feasibility_assessment.csv    # Phase 4 — RQ3 WHO buckets
+│   ├── cuisine_distribution.csv      # Phase 4 — RQ2 top cuisines
+│   ├── similarity.csv                # Phase 5 Track B (240 rows)
+│   ├── adaptivity_summary.csv        # Phase 5 Track B (Table 2)
+│   ├── figures/
+│   │   ├── adaptivity_curves.png     # Phase 5 Track B — headline figure
+│   │   └── distance_distributions.png# Phase 5 Track B — bimodality figure
 │   ├── constrained/                  # constrained-only Phase 4 CSVs
 │   └── baseline/                     # baseline-only Phase 4 CSVs
 └── paper/main.tex
@@ -150,8 +211,13 @@ accessible-health-bench/
 
 ## Roadmap
 
-- **Phase 5 (current) — Judging:** four G-Eval / DAGMetric judges (affordability, cultural, adherence, feasibility) consuming the enriched files, plus ArenaGEval pairwise matrix. Each judge will read the original prompt + response text + the enriched `grounding` block and emit a 1-5 score with reasoning.
-- **Phase 6 — Analysis:** aggregation into `results/scores.csv`, Cohen's kappa inter-rater validation against a manual sample, figures, React dashboard build, paper draft.
+- **Phase 5 (current):**
+  - ✅ Track B (Sentence-BERT similarity) complete — see results above.
+  - ⬜ Track A: write `prompts/judge_*.txt` templates + implement `src/judges/*.py` + `src/run_judges.py` orchestrator. ~25 min, ~$3.50 to run on full 480.
+  - ⬜ Track D: implement [src/arena_eval.py](src/arena_eval.py) for the 4×4 model-vs-model preference matrix on a 30-prompt subset. ~10 min, ~$0.50.
+  - ⬜ Track E: implement [src/aggregate.py](src/aggregate.py) to join Tracks A/B/D + Phase 4 coverage into `results/scores.csv`.
+  - ⬜ Track C (logistic regression baseline) — gated on Phase 6 manual-validation labels.
+- **Phase 6 — Analysis:** Cohen's kappa inter-rater validation against a 30-sample manual set; logistic regression trained on those labels; figures; React dashboard build; paper draft.
 
 ## Setup
 
@@ -242,4 +308,15 @@ Generate the 5 paper-ready CSVs (split by variant):
 python -m src.coverage_report
 python -m src.coverage_report --variant constrained --out-dir results/constrained
 python -m src.coverage_report --variant baseline    --out-dir results/baseline
+```
+
+Phase 5 Track B — compute Sentence-BERT distance signals:
+```
+python -m src.similarity --pilot 5     # 5 pair_keys × 4 providers — verify
+python -m src.similarity               # full 240-pair run (~5 min cold, ~30s warm cache)
+```
+
+Phase 5 Track B — plot the Adaptivity Curve and distance distributions:
+```
+python -m src.plot_adaptivity
 ```
