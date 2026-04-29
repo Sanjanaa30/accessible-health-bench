@@ -1,0 +1,168 @@
+You are evaluating whether a nutrition/fitness recommendation is realistically executable given the user's stated lifestyle, schedule, equipment, mobility, or environmental constraints.
+
+================================================================
+INPUT
+================================================================
+Original user prompt:
+---
+{prompt_text}
+---
+
+Stated constraints (machine-readable, may be empty):
+{stated_constraints_json}
+
+Model response:
+---
+{response_text}
+---
+
+Grounding evidence (Phase 4 enrichment — Compendium MET values for matched
+activities, total_logged_minutes, moderate_equivalent_minutes via WHO 2020
+equivalence, feasibility_signals from extraction (kitchen access, equipment
+required, prep time, mobility flags), and routine_structure (time horizon,
+schedule awareness)):
+{grounding_block_json}
+
+================================================================
+TASK
+================================================================
+Score LIFESTYLE FEASIBILITY on a 1–5 scale. Score on REAL EXECUTABILITY,
+not on rhetorical engagement.
+
+================================================================
+SCORING RUBRIC (1–5)
+================================================================
+
+5 — FULLY EXECUTABLE
+The plan fits comfortably within the stated time/equipment/space/mobility
+constraints. Time totals are realistic (a "20-minute breakfast" actually
+takes 20 minutes including cleanup). Equipment requirements match what the
+user has. Plan structure genuinely accommodates the constraint (batch
+cooking for time-poor users; no-cook options for no-stove users; chair-
+based exercises for mobility-limited users). For unconstrained baselines,
+score 5 if reasonable for a typical adult.
+
+  Example excerpts:
+    - "Each breakfast takes 5 minutes the night before; grab-and-go in
+       the morning."
+    - "Bodyweight circuit, 20 minutes, no equipment, fits in 6×6 ft."
+
+4 — MOSTLY EXECUTABLE
+Plan is largely feasible with minor friction. One or two items push the
+time/equipment limit slightly. The constraint shaped the plan, even if
+imperfectly.
+
+  Example excerpts:
+    - "Most meals are 20 minutes, except Saturday's stew which is 45."
+
+3 — BORDERLINE
+Plan acknowledges the constraint but the substance demands more than the
+user can give. Total time exceeds the stated limit by 25–50%. Some
+equipment is assumed that the user said they don't have. The plan is the
+model's standard template with constraint-flavored garnishes.
+
+  Example excerpts:
+    - "These are quick weeknight meals." (when 4 of 5 take 45+ minutes)
+
+2 — PARTIALLY UNREALISTIC
+Plan demands substantially more than the user can give. Recommends 60+
+minutes of cooking to someone with 20 minutes. Assumes a full kitchen for
+someone in a hotel. Recommends a gym to someone who said no gym.
+
+  Example excerpts:
+    - "Roast a whole chicken on Sunday for the week's protein"
+       (when prompt said "I only have a microwave")
+
+1 — IGNORES OR VIOLATES CONSTRAINTS
+Recommends 2-hour gym sessions to someone working 12-hour shifts. Assumes
+full kitchen for someone with no electricity. Recommends running to someone
+who specified mobility limitations. The constraint is treated as if it
+weren't there.
+
+  Example excerpts:
+    - "Hit the gym for 90 minutes after work" (when prompt said
+       "no money for a gym membership and I work two jobs")
+
+================================================================
+KEY EVALUATION SIGNALS
+================================================================
+
+1. TIME REALISM — Look at extracted prep_time_minutes and the Compendium
+   total_logged_minutes. Does the plan's total time fit the stated schedule?
+   Concrete anchors:
+   - If extracted_max_prep > stated_limit × 1.5  → score ≤ 2 on time-fit
+   - If extracted_max_prep > stated_limit × 1.25 → score ≤ 3 on time-fit
+   - If within 1.0–1.25× → fits
+
+2. EQUIPMENT MATCH — Look at feasibility_signals.kitchen_access_assumption
+   and fitness_equipment_required vs. what the prompt allowed:
+   - Hotel microwave / dorm stated → only microwave-based or no-cook recipes
+   - No electricity → only no-cook recipes
+   - No gym stated → only home/bodyweight exercises
+   - Small space stated → no exercises that need 6+ ft of clearance
+
+3. STRUCTURAL ADAPTATION — Critical and often missed. Did the plan
+   ACTUALLY restructure to fit the constraint, or is it a standard plan
+   with the constraint mentioned as a footnote?
+   - Standard plan + "you can adapt this for your busy schedule" → low
+   - Plan built around 5-min meals, batch prep, single-pot recipes → high
+
+4. WHO COMPLIANCE — For fitness plans with weekly time horizon, check
+   moderate_equivalent_minutes against WHO 2020 (150 min moderate or 75
+   min vigorous per week).
+   - If the user said they have very limited time AND the plan stays
+     within the stated time, do NOT penalize for under-prescribing —
+     the plan is feasible by definition.
+   - If the plan exceeds the stated time, penalize for infeasibility.
+   - If the response specifies fitness components but no time horizon,
+     assume weekly cadence and score WHO compliance with that assumption
+     flagged in reasoning.
+
+5. MOBILITY/HEALTH SENSITIVITY — For prompts mentioning chronic fatigue,
+   burnout, recovery, mobility limits, or disability, score harshly if
+   the response treats the user as a typical able-bodied adult.
+
+6. ENVIRONMENTAL CONSTRAINT — For prompts with environmental constraints
+   (air pollution / mega-city / food desert / extreme climate), does the
+   response engage with these or ignore them?
+
+================================================================
+SPECIAL CASES
+================================================================
+
+- BASELINE PROMPTS (no lifestyle constraint stated): Score 5 if reasonable
+  for a typical adult with average resources. Score 3 if the plan
+  secretly demands extreme time or expensive equipment without warning.
+  Score 1 only if absurd (e.g., recommends 4 hours/day of training to a
+  generic fitness question).
+
+- NUTRITION-ONLY RESPONSES (no fitness content): Evaluate on kitchen,
+  time, equipment, mobility for cooking and eating. Don't penalize the
+  absence of fitness components.
+
+- FITNESS-ONLY RESPONSES (no nutrition content): Evaluate on time,
+  equipment, mobility, and space for the exercises. Don't penalize the
+  absence of meal plans.
+
+- SHARED KITCHEN / ROOMMATE / DORM CONTEXT: Penalize plans that require
+  occupying the kitchen for extended periods or that require equipment
+  the user is unlikely to own in shared housing.
+
+================================================================
+OUTPUT FORMAT
+================================================================
+
+Return ONLY valid JSON, no markdown fences, no commentary outside the JSON.
+
+{{
+  "score": <integer 1-5>,
+  "reasoning": "<3-5 sentences: time/equipment fit, structural adaptation vs garnish, mobility/health/environmental sensitivity>",
+  "evidence_quote": "<short verbatim quote that exemplifies the score, or empty string>",
+  "time_fit": "<within | mild_overage | major_overage | not_applicable>",
+  "equipment_match": "<match | partial_mismatch | mismatch | not_applicable>",
+  "structurally_adapted": <true | false | null>,
+  "who_compliance_assumed_weekly": <true | false>,
+  "violations_flagged": ["<short list of any constraint violations observed>"]
+}}
+
+Cite specific time totals, equipment items, or structural choices when they exemplify the score.

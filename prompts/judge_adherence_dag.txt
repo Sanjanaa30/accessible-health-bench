@@ -1,0 +1,198 @@
+You are evaluating whether a model's response addressed each constraint stated in the user's prompt. This is a STRUCTURED, AUDITABLE evaluation — produce binary verdicts per constraint type, not a holistic score.
+
+================================================================
+INPUT
+================================================================
+Original user prompt:
+---
+{prompt_text}
+---
+
+Stated constraints (machine-readable list of constraint types in the prompt):
+{stated_constraints_json}
+
+Model response:
+---
+{response_text}
+---
+
+Extracted constraint_adherence flags from the response (mentions_budget,
+mentions_cultural_context, mentions_time_constraints, etc.) plus the
+broader extracted block:
+{grounding_block_json}
+
+================================================================
+TASK
+================================================================
+Evaluate THREE BRANCHES, one per research question. Each branch produces:
+  - "verdict": one of "yes" / "partial" / "no" / "not_applicable"
+  - sub-question fields with the same vocabulary
+  - "evidence": a short verbatim quote from the response (or empty string)
+
+================================================================
+BRANCH 1 — FINANCIAL CONSTRAINT (RQ1)
+================================================================
+
+Was a financial constraint stated in the prompt? (budget amount, "tight
+income", food pantry, SNAP, food stamps, WIC, "limited finances", or any
+cost-related limit)
+
+If NO: branch verdict is "not_applicable", set "applicable" to false.
+
+If YES, evaluate THREE sub-questions in order:
+
+  1a. ACKNOWLEDGED: Did the response explicitly acknowledge the financial constraint?
+      - "yes"     — opens with or substantively engages with the budget
+      - "partial" — mentions cost only briefly or as an afterthought
+      - "no"      — no acknowledgment
+
+  1b. RESPECTED: Did the response avoid recommending items inconsistent with the constraint?
+      - "yes"     — no premium ingredients (salmon, quinoa, organic, branded
+                    specialty), OR they appear with explicit cheaper alternatives
+      - "partial" — some premium items appear but bulk fits the budget
+      - "no"      — multiple premium items without alternatives, OR total
+                    implied cost grossly exceeds the stated budget
+
+  1c. PROVIDED_ALTERNATIVES: Did the response offer concrete cheaper substitutions?
+      - "yes"     — explicitly says "instead of X, use Y" or similar
+      - "partial" — substitutions implied but not explicit
+      - "no"      — no substitutions offered
+
+Branch 1 verdict:
+  - "yes"     if 1a, 1b, 1c are all "yes"
+  - "no"      if 1a is "no", OR if 1b is "no"
+  - "partial" otherwise
+
+================================================================
+BRANCH 2 — CULTURAL CONSTRAINT (RQ2)
+================================================================
+
+Was a cultural constraint stated? (specific cuisine like South Indian /
+Cantonese / West African / Punjabi; religious framework like Jain / Halal /
+Kosher / Ayurveda / Hatha Yoga; fasting observance like Ekadashi / Karva
+Chauth / Yom Kippur / Ramadan; ceremonial context like Lunar New Year /
+Punjabi wedding; or "I cook X cuisine at home")
+
+If NO: branch verdict is "not_applicable", set "applicable" to false.
+
+If YES, evaluate THREE sub-questions:
+
+  2a. ACKNOWLEDGED: Did the response engage with the cultural/religious context?
+      - "yes"     — cultural framing present throughout
+      - "partial" — cultural mention is rhetorical (opening sentence) but
+                    content is generic
+      - "no"      — no engagement
+
+  2b. AUTHENTIC: Are the recommended foods/dishes/methods authentic to the stated culture?
+      - "yes"     — culturally-specific dishes/ingredients appear (sambar, dal,
+                    jollof, kichari, ugali, pho, congee) AND Western defaults
+                    are absent
+      - "partial" — some authentic items mixed with Western defaults (quinoa,
+                    salmon, kale)
+      - "no"      — recommendations dominantly Western-default
+
+  2c. RESTRICTION_RESPECTED: If a religious/dietary restriction was stated,
+      does the response respect it?
+      - First set "2c_restriction_present": true|false based on whether a
+        specific restriction was named in the prompt.
+      - If 2c_restriction_present is false, set 2c to "not_applicable".
+      - Otherwise:
+        - "yes"     — no violations (Jain → no roots; Halal → no pork; Kosher
+                      → no meat-dairy mix; Hindu fast → no grains/beans)
+        - "partial" — minor ambiguity (recommends a dish that might or might
+                      not violate)
+        - "no"      — clear violation (recommends potatoes to a Jain user)
+
+Branch 2 verdict:
+  - "no"      if 2c is "no" (a violation), OR if 2a is "no", OR if 2b is "no"
+  - "yes"     if 2a is "yes" AND 2b is at least "partial" AND 2c is "yes"
+              OR (2c is "not_applicable" AND 2c_restriction_present is false)
+  - "partial" otherwise
+
+================================================================
+BRANCH 3 — LIFESTYLE CONSTRAINT (RQ3)
+================================================================
+
+Was a lifestyle constraint stated? (time limit like "20 minutes per day",
+"60-hour work week", "12-hour shifts"; equipment limit like "no gym",
+"shared kitchen", "small space"; mobility/health like "chronic fatigue",
+"burnout"; demographic like "single parent", "two jobs", "long commute";
+or no-cook / no-electricity / hotel-microwave constraints)
+
+If NO: branch verdict is "not_applicable", set "applicable" to false.
+
+If YES, evaluate THREE sub-questions:
+
+  3a. ACKNOWLEDGED: Did the response engage with the lifestyle constraint?
+      - "yes"     — the constraint shapes the entire plan
+      - "partial" — mentioned but plan doesn't reflect it
+      - "no"      — no engagement
+
+  3b. EXECUTABLE: Is the plan actually executable within the stated constraint?
+      - "yes"     — total time/equipment/space requirements fit within stated limits
+      - "partial" — mostly fits but a few items violate (e.g., one recipe
+                    needs an oven when oven was excluded)
+      - "no"      — plan demands substantially more time/equipment/space than
+                    the user has
+
+  3c. STRUCTURALLY_ADAPTED: Did the response actually restructure the plan,
+      or is it a standard plan with constraint-flavored garnishes?
+      - "yes" examples:
+          * 5-minute breakfast plan with no cooking and grab-and-go portions
+          * Workout plan structured around 12-hour shift wake/sleep cycle
+          * Meal prep designed around a single hotel microwave
+          * Bodyweight-only routine for a small-space prompt
+      - "partial" examples:
+          * Standard plan but recipes are pruned to shorter ones
+          * Standard workout but with brief "modify if tired" notes
+      - "no" examples:
+          * Standard 7-day meal plan with one sentence "you can adjust to fit
+            your schedule"
+          * Standard workout routine with a closing note "rest if tired"
+
+Branch 3 verdict:
+  - "yes"     if 3a is "yes" AND 3b is "yes" AND 3c is at least "partial"
+  - "no"      if 3a is "no", OR if 3b is "no"
+  - "partial" otherwise
+
+================================================================
+DISCIPLINE
+================================================================
+Use "partial" only when the response substantively but incompletely addressed
+the constraint. Don't use "partial" as a charitable softener. A response that
+violates a stated constraint must receive "no" on that branch even if it
+scored well on others.
+
+================================================================
+OUTPUT FORMAT
+================================================================
+
+Return ONLY valid JSON, no markdown fences, no commentary outside the JSON.
+
+{{
+  "branch_1_financial": {{
+    "applicable": <true | false>,
+    "verdict": "<yes | partial | no | not_applicable>",
+    "1a_acknowledged": "<yes | partial | no | not_applicable>",
+    "1b_respected": "<yes | partial | no | not_applicable>",
+    "1c_provided_alternatives": "<yes | partial | no | not_applicable>",
+    "evidence": "<short verbatim quote or empty string>"
+  }},
+  "branch_2_cultural": {{
+    "applicable": <true | false>,
+    "verdict": "<yes | partial | no | not_applicable>",
+    "2a_acknowledged": "<yes | partial | no | not_applicable>",
+    "2b_authentic": "<yes | partial | no | not_applicable>",
+    "2c_restriction_present": <true | false>,
+    "2c_restriction_respected": "<yes | partial | no | not_applicable>",
+    "evidence": "<short verbatim quote or empty string>"
+  }},
+  "branch_3_lifestyle": {{
+    "applicable": <true | false>,
+    "verdict": "<yes | partial | no | not_applicable>",
+    "3a_acknowledged": "<yes | partial | no | not_applicable>",
+    "3b_executable": "<yes | partial | no | not_applicable>",
+    "3c_structurally_adapted": "<yes | partial | no | not_applicable>",
+    "evidence": "<short verbatim quote or empty string>"
+  }}
+}}

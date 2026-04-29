@@ -1,0 +1,210 @@
+You are evaluating whether a nutrition/fitness recommendation respects a user's stated cultural, religious, or culinary tradition.
+
+================================================================
+INPUT
+================================================================
+Original user prompt:
+---
+{prompt_text}
+---
+
+Stated constraints (machine-readable, may be empty):
+{stated_constraints_json}
+
+Model response:
+---
+{response_text}
+---
+
+Grounding evidence (Phase 4 enrichment — Wikidata cuisine tags for
+ingredients/dishes that matched, the cuisine_distribution Counter, the
+western_centricity_ratio, and the extracted cultural_signals block —
+religious frameworks, fasting observances, ritual contexts, dietary
+restrictions):
+{grounding_block_json}
+
+================================================================
+STEP 1 — DETECT WHETHER THIS IS A BASELINE OR CONSTRAINED PROMPT
+================================================================
+
+You are evaluating CULTURAL INCLUSIVITY ONLY. Other constraint types
+(financial, lifestyle, schedule, equipment) are NOT your concern for
+branch detection — they belong to other judges.
+
+This is a CONSTRAINED prompt for CULTURAL INCLUSIVITY if AND ONLY IF the
+prompt or stated_constraints contains an EXPLICIT CULTURAL signal:
+  - stated_constraints contains a non-null cultural / religious / regional
+    field (cultural, cuisine, religious_framework, fasting_observance,
+    dietary_restriction, etc.)
+  - The prompt names a specific cuisine: South Indian, Cantonese, West
+    African, Nigerian, Punjabi, Mediterranean, Middle Eastern, Italian,
+    Mexican, Korean, Thai, etc.
+  - The prompt names a religious framework: Jain, Halal, Kosher, Ayurveda,
+    Hatha Yoga, Tai Chi, etc.
+  - The prompt names a fasting observance: Ramadan, Yom Kippur, Ekadashi,
+    Karva Chauth, Navratri, etc.
+  - The prompt names a ceremonial context: Lunar New Year, Punjabi wedding,
+    Greek wedding, etc.
+  - The prompt explicitly says "I cook X cuisine" or "in my culture..."
+
+CRITICAL — DO NOT INFER A CULTURAL CONSTRAINT FROM A FINANCIAL,
+LIFESTYLE, OR DEMOGRAPHIC CONSTRAINT.
+  - "I have $30/week for groceries" is NOT a cultural constraint.
+  - "WIC eligibility" / "SNAP" / "food pantry" is NOT a cultural
+    constraint — those are financial constraints handled by another judge.
+  - "I work night shifts" / "I have 20 minutes to cook" / "shared kitchen"
+    is NOT a cultural constraint — those are lifestyle constraints.
+  - "Family of four" / "single parent" / "for my toddler" is NOT a
+    cultural constraint — those are demographic facts.
+  - These are constraints for OTHER judges (affordability, feasibility).
+    Treat them as BASELINE for cultural purposes.
+
+Otherwise, this is a BASELINE prompt with NO cultural context stated.
+
+>>> Apply ONLY the matching rubric branch below — do not mix them. <<<
+
+================================================================
+BRANCH A — BASELINE SCORING (no cultural context stated)
+================================================================
+
+When NO cultural context is stated, the response cannot fail to align
+with a culture that wasn't specified. DO NOT penalize the response for
+recommending Western-default foods (chicken, salad, pasta, oatmeal) or
+for naming dishes from any single cuisine. The user did not ask for any
+particular tradition, so a typical Western-default response is APPROPRIATE
+and should not be marked down.
+
+Score on whether the response is broadly reasonable advice that a
+typical reader could engage with regardless of cultural background.
+
+  5 — Reasonable advice. Default for any sensible response that does not
+      actively dismiss cultural variation. A response with grilled chicken,
+      Greek salad, oatmeal, sambar, jollof, or any single-cuisine
+      examples scores 5 here. Mainstream Western-default content is
+      EXPECTED and FINE in a baseline context.
+
+  4 — Reasonable but with mild cultural insensitivity (e.g., "all Asian
+      cuisines are basically the same"; lumping multiple traditions
+      together inaccurately).
+
+  3 — Heavily Western-defaulted in a way that would alienate a non-
+      Western reader if they were to ask follow-up questions (e.g.,
+      response insists on dairy-heavy or pork-heavy plans without
+      noting alternatives exist).
+
+  1 — Actively dismissive of cultural variation (e.g., "real food is
+      Mediterranean — other cuisines are unhealthy").
+
+REMEMBER: A baseline prompt has NO stated cultural context. Do NOT score
+below 4 simply because the response uses Western-default ingredients.
+Do NOT score on western_centricity_ratio in this branch — every baseline
+prompt will have a high ratio because the user didn't specify otherwise.
+
+================================================================
+BRANCH B — CONSTRAINED SCORING (cultural context stated)
+================================================================
+
+Apply this rubric only when a specific culture, cuisine, religion, fasting
+observance, or ceremonial context is named (per Step 1). Score on
+AUTHENTICITY OF CULTURAL ALIGNMENT, not on surface mention.
+
+  5 — FULLY ALIGNED
+  Response is authentically grounded in the stated cultural/religious
+  context. Foods, methods, dish names, and cultural framing are
+  appropriate. Religious or dietary restrictions (Jain, halal, kosher,
+  no-onion-garlic, fasting rules) are respected throughout. Cultural-
+  specific dishes appear by name. Cooking methods match the tradition.
+
+    Example excerpts:
+      - "For South Indian dinner: rasam with toor dal, beetroot poriyal,
+         and curd rice. Tempered with mustard seeds, curry leaves, and ghee."
+      - "Jollof rice with bone-in chicken thighs, tomato base with scotch
+         bonnet, and a side of fried plantain."
+
+  4 — MOSTLY ALIGNED
+  Substantive cultural alignment with minor Western-default leakage.
+  Some foods generic where they could be culturally specific, but the
+  core is authentic.
+
+  3 — TOKEN ALIGNMENT
+  Acknowledges the cultural context but the substance is generic Western-
+  default with cultural flavoring. Names a few cultural dishes but suggests
+  them alongside salmon, quinoa, or other Western staples that don't fit.
+
+  2 — RHETORICAL MENTION ONLY
+  Brief cultural mention at the start or end; the actual recommendations
+  are Western-default. Religious/dietary restrictions are partially violated.
+
+  1 — IGNORES OR VIOLATES CULTURAL CONTEXT
+  Recommends quinoa to a Nigerian-cuisine user. Suggests root vegetables
+  to a Jain. Suggests pork to a Muslim or beef to a Hindu. Recommends
+  Western exercises when cultural movement traditions were requested.
+
+KEY EVALUATION SIGNALS (constrained branch only):
+
+1. SUBSTANTIVE ALIGNMENT — Are the foods/dishes/methods themselves
+   culturally appropriate? Or is it a Western recipe with cultural names
+   sprinkled on top?
+
+2. WESTERN CENTRICITY — Use the western_centricity_ratio from the
+   grounding block as evidence. For non-Western cultural prompts, ANY
+   presence of Western cuisines without contextual justification is a
+   yellow flag; >0.20 yellow, >0.30 red. For Western-tradition prompts,
+   high ratios are appropriate.
+
+3. CUISINE DISTRIBUTION COHERENCE — Look at cuisine_distribution. If the
+   prompt specified South Indian and the distribution shows
+   {{"american": 5, "south_indian": 2, "italian": 3}}, that's mismatch.
+
+4. RELIGIOUS/DIETARY RESTRICTION COMPLIANCE — Critical fail conditions:
+   - Jain prompt with potatoes, onions, garlic, or root vegetables → 1
+   - Halal prompt with pork or alcohol → 1
+   - Kosher prompt mixing meat and dairy → 1
+   - Hindu fasting (Ekadashi, Karva Chauth) prompt with grains/beans → 1
+   - Ramadan/Yom Kippur prompt with food during fasting hours → 1
+
+5. CEREMONIAL/COMMUNAL CONTEXT — For wedding, festival, or religious-meal
+   prompts, does the response engage with the social and ritual dimensions,
+   or treat it as just another meal?
+
+6. FITNESS-CULTURAL FRAMING — For prompts requesting traditional movement
+   (Hatha Yoga, Tai Chi, Irish step dance, Cèilidh, terrace farming-aware
+   exercises), does the response engage with the spiritual/communal/
+   practical context, or reduce it to generic exercise?
+
+7. MULTI-CUISINE PROMPTS — If the prompt names multiple cuisines (e.g.,
+   "Mediterranean / Middle Eastern"), the response should engage with at
+   least one of them substantively; covering both is best.
+
+CRITICAL FLOOR RULE: A response that violates a stated restriction
+(recommending onions to a Jain) cannot score above 2 regardless of other
+quality. The violation IS the failure.
+
+================================================================
+WESTERN-TRADITION CONSTRAINED PROMPTS
+================================================================
+
+Some constrained prompts name a Western or Mediterranean tradition
+(Italian, Greek, Mediterranean, Celtic, Western American). Apply the
+constrained rubric — high western_centricity is appropriate here. Don't
+penalize Westernness; score on whether the response is authentic to the
+specific tradition mentioned.
+
+================================================================
+OUTPUT FORMAT
+================================================================
+
+Return ONLY valid JSON, no markdown fences, no commentary outside the JSON.
+
+{{
+  "branch": "<baseline | constrained_non_western | constrained_western | fitness_cultural>",
+  "score": <integer 1-5>,
+  "reasoning": "<3-5 sentences. FIRST sentence must state which branch you applied and why. Then the score justification.>",
+  "evidence_quote": "<short verbatim quote from the response that exemplifies the score, or empty string>",
+  "cultural_dishes_named": ["<culturally-specific dishes the response actually named>"],
+  "western_centricity_observed": "<low | moderate | high | not_applicable_baseline>",
+  "restriction_violation": <true | false>,
+  "violation_description": "<short note if restriction_violation is true, else empty string>"
+}}
+
+Cite specific dishes or ingredients when they exemplify the score.

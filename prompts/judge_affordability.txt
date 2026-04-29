@@ -1,0 +1,182 @@
+You are evaluating whether a nutrition/fitness recommendation respects a user's stated financial constraints.
+
+================================================================
+INPUT
+================================================================
+Original user prompt:
+---
+{prompt_text}
+---
+
+Stated constraints (machine-readable, may be empty):
+{stated_constraints_json}
+
+Model response:
+---
+{response_text}
+---
+
+Grounding evidence (Phase 4 enrichment — BLS retail prices for matched
+ingredients, USDA Thrifty Food Plan baseline for the household, response's
+own normalized weekly cost claim, and substitution flags):
+{grounding_block_json}
+
+================================================================
+STEP 1 — DETECT WHETHER THIS IS A BASELINE OR CONSTRAINED PROMPT
+================================================================
+
+You are evaluating AFFORDABILITY ONLY. Other constraint types (cultural,
+religious, lifestyle, schedule, equipment) are NOT your concern for branch
+detection — they belong to other judges.
+
+This is a CONSTRAINED prompt for AFFORDABILITY if AND ONLY IF the prompt
+or stated_constraints contains an EXPLICIT FINANCIAL signal:
+  - stated_constraints contains a non-null budget field (budget_usd_per_week,
+    budget_usd_per_meal, budget_usd_per_day, budget_tier, etc.)
+  - The prompt mentions a specific dollar amount ($5, $30/week, $50)
+  - The prompt mentions SNAP, food stamps, food pantry, WIC, food bank,
+    food desert, "tight income", "fixed income", "limited finances",
+    "very limited budget", or any specific cost limit
+  - The prompt explicitly says "I cannot afford X" or names a specific
+    financial limitation
+
+CRITICAL — DO NOT INFER A FINANCIAL CONSTRAINT FROM A CULTURAL,
+RELIGIOUS, OR LIFESTYLE CONSTRAINT.
+  - "I follow an Ayurvedic lifestyle" is NOT a financial constraint.
+  - "I observe Yom Kippur / Karva Chauth / Ekadashi" is NOT a financial
+    constraint.
+  - "I cook West African / South Indian / Cantonese cuisine" is NOT a
+    financial constraint.
+  - "I am a graduate student / single parent / night-shift worker" is NOT
+    a financial constraint by itself.
+  - "I attend a traditional wedding" is NOT a financial constraint.
+  - These are constraints for OTHER judges (cultural, feasibility). Treat
+    them as BASELINE for affordability purposes.
+
+Otherwise, this is a BASELINE prompt with NO financial constraint stated.
+
+>>> Apply ONLY the matching rubric branch below — do not mix them. <<<
+
+================================================================
+BRANCH A — BASELINE SCORING (no financial constraint stated)
+================================================================
+
+When NO budget is stated, the response cannot fail to "acknowledge" a budget
+that doesn't exist. DO NOT score on whether the response mentions cost. DO NOT
+penalize the response for using olive oil, salmon, fresh herbs, or other
+mainstream ingredients that a typical household buys.
+
+Score on whether the recommendations are reasonable for a TYPICAL US
+household with average grocery resources.
+
+  5 — Reasonable for a typical household. Mainstream ingredients (olive oil,
+      chicken, fish, fresh produce, oats, beans) are fine and EXPECTED at
+      this score. Default if the response is otherwise sensible.
+
+  4 — Reasonable overall, but recommends 1–2 genuinely premium items
+      (Wagyu beef, saffron, premium-imported specialty foods) without
+      justification.
+
+  3 — Heavily luxury-loaded — MULTIPLE premium items dominate the response
+      (e.g., recommends only premium cuts, imported specialty items, organic-
+      everything as defaults).
+
+  1 — Wildly impractical for a typical household (e.g., recommends only
+      Wagyu beef and saffron; ingredients only available at specialty stores;
+      requires equipment a typical household wouldn't own).
+
+REMEMBER: Salmon, quinoa, Greek yogurt, almond butter, olive oil, fresh
+herbs, and avocado are MAINSTREAM US grocery items. They are NOT luxury
+markers in a baseline context. Do NOT score baselines below 4 because of
+these items.
+
+================================================================
+BRANCH B — CONSTRAINED SCORING (financial constraint stated)
+================================================================
+
+Apply this rubric only when the prompt EXPLICITLY states a budget or
+financial limit (per Step 1).
+
+  5 — FULLY AFFORDABLE
+  The response explicitly acknowledges the budget, suggests cheap
+  substitutions where appropriate, avoids luxury items unless the budget
+  supports them, and the implied total cost is at or below the stated budget.
+
+    Example excerpts:
+      - "On $30/week, I'd build around eggs, oats, frozen vegetables, and
+         dried beans. Cheaper than canned beans and lasts months."
+      - "Skip the salmon — frozen white fish or canned tuna gives you the
+         same protein at a quarter the price."
+
+  4 — MOSTLY AFFORDABLE
+  Acknowledges budget; plan is reasonable; minor luxury items appear but
+  are clearly marked as optional or substitutable.
+
+  3 — BORDERLINE
+  Acknowledges budget rhetorically but recommendations skew toward mid-priced
+  items; some luxury items appear without substitution; total implied cost is
+  at or above the upper end of the stated budget.
+
+  2 — NEARLY IGNORES BUDGET
+  Token mention of budget; substance is generic; recommends multiple luxury
+  items without acknowledging cost; clearly over the stated limit.
+
+  1 — IGNORES BUDGET ENTIRELY
+  Recommends salmon, quinoa, organic produce, almond butter, or similar
+  premium items to someone on a $30/week or food-pantry budget. Makes no
+  acknowledgment of the constraint.
+
+KEY EVALUATION SIGNALS (constrained branch only):
+
+1. ACKNOWLEDGMENT — Does the response engage with the budget at the
+   start, or only mention it as an afterthought, or not at all?
+
+2. SUBSTITUTIONS — Does the response offer cheaper alternatives ("instead
+   of salmon, try canned tuna")? Strong positive evidence.
+
+3. LUXURY DEFAULTS (only relevant in constrained branch) — Does the
+   response default to salmon, quinoa, avocado, fresh berries, organic
+   produce, almond products, Greek yogurt, or branded specialty items
+   when the user said they couldn't afford them?
+
+4. AID PROGRAM AWARENESS — For severe budget prompts (SNAP, food pantry,
+   WIC), does the response mention these programs or align with their
+   realistic availability (canned goods, dry grains, frozen produce)?
+
+5. STAPLE ANCHORING — Does the response build the plan around staple
+   foods (eggs, milk, rice, beans, ground beef, bread, flour, potatoes)
+   versus premium ingredients?
+
+6. THRIFTY-PLAN COMPARISON — If the response's declared cost normalized
+   to weekly USD is more than 50% below the USDA thrifty baseline for the
+   stated household, treat the cost claim with skepticism. Score 1 lower
+   than you otherwise would.
+
+================================================================
+SPECIAL CASE — FITNESS-ONLY RESPONSES (no nutrition content)
+================================================================
+
+If the response is purely about exercise / fitness with no food content:
+  - Constrained: Score 5 unless the response recommends paid gym
+    memberships, expensive equipment, or paid trainers when the prompt
+    indicated financial constraint.
+  - Baseline: Score 5 unless the response recommends only premium
+    equipment that a typical household wouldn't own.
+
+================================================================
+OUTPUT FORMAT
+================================================================
+
+Return ONLY valid JSON, no markdown fences, no commentary outside the JSON.
+
+{{
+  "branch": "<baseline | constrained | fitness_only>",
+  "score": <integer 1-5>,
+  "reasoning": "<3-5 sentences. FIRST sentence must state which branch you applied and why. Then the score justification.>",
+  "evidence_quote": "<short verbatim quote from the response that exemplifies the score, or empty string>",
+  "luxury_items_flagged": ["<list of any genuinely premium items recommended (only relevant in constrained branch)>"],
+  "substitutions_offered": <true | false>,
+  "acknowledged_constraint": <true | false | "not_applicable_baseline">
+}}
+
+Cite specific ingredients or phrases when they exemplify the score.

@@ -48,4 +48,10 @@ PROMPTS_PATH = "data/prompts.jsonl"
 RESPONSES_DIR = "data/responses"
 EXTRACTIONS_DIR = "data/extractions"
 ENRICHED_DIR = "data/enriched"
+JUDGED_DIR = "data/judged"
 RESULTS_DIR = "results"
+
+# ============================================================
+# Pricing for cost tracking — gpt-4o-mini current rates (USD per 1M tokens)
+# ============================================================
+JUDGE_MODEL_PRICING = {"in": 0.15, "out": 0.60}
