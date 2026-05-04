@@ -3,10 +3,6 @@
 > A small case study of how four widely-used LLMs handle nutrition and fitness advice when users state real-world constraints — a tight grocery budget, a non-Western kitchen, or a 12-hour work shift.
 > We measured how much each model actually adapted, and how their answers compared head-to-head.
 
-**Authors:** Sanjana Shivanand · Sai Snigdha Nadella · Binghamton University
-
-**Total project cost:** under $5 in API spend across 480 LLM responses + judging + arena comparisons.
-
 ---
 
 ## What this project asks
@@ -24,6 +20,8 @@ We focus on three concrete questions:
 ## What we built
 
 A six-phase reproducible pipeline running on **120 prompts × 4 LLMs = 480 responses**, plus visualizations in Section 7 of the report.
+
+**Total project cost:** under $5 in API spend across 480 LLM responses + judging + arena comparisons.
 
 ```
 Phase 1: Dataset (120 prompts, 60 base × 2 variants)
