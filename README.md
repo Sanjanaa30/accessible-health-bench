@@ -263,14 +263,14 @@ The eight figures are grouped by research question, with two summary figures at 
 
 | Figure | Tied to | What it shows |
 |--------|---------|----------------|
-| **1A** | RQ1 — Financial | When a user gives a budget, models change about **80% of the ingredients** in their answer — but only **32.5% of the time** do they actually say a total price. *They change the food, but rarely commit to a number.* |
-| **1B** | RQ1 — Financial | A bar chart ranking the four models on how often they win head-to-head matches on affordability: DeepSeek 78.9% > Anthropic 63.7% > OpenAI 32.2% > Groq 24.7%. The small line on each bar shows the uncertainty range. |
-| **2A** | RQ2 — Cultural | Five possible predictors of *"is this response culturally appropriate?"* drawn as bars. **"Fraction of Western dishes" is more than 2× the height of every other bar** — by far the strongest predictor. |
-| **2B** | RQ2 — Cultural | A dot plot showing **how much** a model rewrites alongside **how good** the rewrite is. Anthropic rewrites the most, but DeepSeek wins more head-to-head matches — *changing more isn't the same as changing better.* |
-| **3A** | RQ3 — Lifestyle | A breakdown of how the 1-to-5 scores fall across all 480 responses. Cultural and adherence are nearly always 5 (94–98%). Only feasibility shows a real spread — some 3s, some 4s, some 5s. |
-| **3B** | RQ3 — Lifestyle | Bars grouped by research question and by provider. **Lifestyle is where the gap between best and worst provider is biggest.** |
-| **5** | Phase 6 validation | Bars showing how often two raters agreed within 1 point — author A vs author B next to LLM judge vs human average — across affordability, cultural, and feasibility. |
-| **6** | **Overall scorecard** | A coloured grid: 4 providers × 3 dimensions, green = high win rate, red = low. Row and column averages along the edges. **One picture that summarises the entire project.** |
+| [**rq1_a_ingredient_vs_cost.png**](results/figures/rq1_a_ingredient_vs_cost.png) | RQ1 — Financial | When a user gives a budget, models change about **80% of the ingredients** in their answer — but only **32.5% of the time** do they actually say a total price. *They change the food, but rarely commit to a number.* |
+| [**rq1_b_affordability_ranking.png**](results/figures/rq1_b_affordability_ranking.png) | RQ1 — Financial | A bar chart ranking the four models on how often they win head-to-head matches on affordability: DeepSeek 78.9% > Anthropic 63.7% > OpenAI 32.2% > Groq 24.7%. The small line on each bar shows the uncertainty range. |
+| [**rq2_a_western_centricity_predictor.png**](results/figures/rq2_a_western_centricity_predictor.png) | RQ2 — Cultural | Five possible predictors of *"is this response culturally appropriate?"* drawn as bars. **"Fraction of Western dishes" is more than 2× the height of every other bar** — by far the strongest predictor. |
+| [**rq2_b_adapt_vs_quality.png**](results/figures/rq2_b_adapt_vs_quality.png) | RQ2 — Cultural | A dot plot showing **how much** a model rewrites alongside **how good** the rewrite is. Anthropic rewrites the most, but DeepSeek wins more head-to-head matches — *changing more isn't the same as changing better.* |
+| [**rq3_a_score_distribution.png**](results/figures/rq3_a_score_distribution.png) | RQ3 — Lifestyle | A breakdown of how the 1-to-5 scores fall across all 480 responses. Cultural and adherence are nearly always 5 (94–98%). Only feasibility shows a real spread — some 3s, some 4s, some 5s. |
+| [**rq3_b_pairwise_by_rq.png**](results/figures/rq3_b_pairwise_by_rq.png) | RQ3 — Lifestyle | Bars grouped by research question and by provider. **Lifestyle is where the gap between best and worst provider is biggest.** |
+| [**rq_phase6_human_validation.png**](results/figures/rq_phase6_human_validation.png) | Phase 6 validation | Bars showing how often two raters agreed within 1 point — author A vs author B next to LLM judge vs human average — across affordability, cultural, and feasibility. |
+| [**overall_scorecard.png**](results/figures/overall_scorecard.png) | **Overall scorecard** | A coloured grid: 4 providers × 3 dimensions, green = high win rate, red = low. Row and column averages along the edges. **One picture that summarises the entire project.** |
 
 ---
 
