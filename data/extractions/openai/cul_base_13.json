@@ -1,0 +1,109 @@
+{
+  "prompt_id": "cul_base_13",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Where is the best place to go for a run?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "The best place to go for a run can depend on your preferences, location, and the type of environment you enjoy. Here are some popular options:\n\n1. **Parks and Trails**: Many cities have parks with designated running trails that offer a scenic and enjoyable experience. Look for local parks with nature trails.\n\n2. **Beaches**: Running along the shoreline can be invigorating, with the sound of waves and beautiful views. Just be mindful of the sand, which can be more challenging than pavement.\n\n3. **Urban Areas**: City streets can provide an interesting backdrop, with the hustle and bustle of urban life. Look for waterfronts, promenades, or dedicated running paths.\n\n4. **Nature Reserves**: If you enjoy trail running, nature reserves or national parks often have rugged, scenic trails that can be both challenging and beautiful.\n\n5. **Track and Sports Complexes**: For a more controlled environment, running on a track can be great for interval training and speed work.\n\n6. **Scenic Routes**: Consider routes with beautiful views, like hills, lakes, or mountains, which can make your run more enjoyable.\n\nUltimately, the best place is one that feels safe, enjoyable, and motivating for you. It's also worth exploring different locations to mix up your routine!",
+  "extracted": {
+    "summary": "The response provides various suggestions for places to run, including parks, beaches, urban areas, nature reserves, tracks, and scenic routes.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "running",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2820,
+  "extraction_output_tokens": 753,
+  "extraction_from_cache": false
+}

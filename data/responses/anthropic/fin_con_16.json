@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_16",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Food Scarsity",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Food Scarsity",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the best vegetables for a diabetic diet? I live in a food desert where the only store is a pharmacy that only sells canned or frozen goods.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "Good news: frozen and canned vegetables work well for diabetes management. Here's what to prioritize:\n\n**Best frozen options:**\n- Broccoli, cauliflower, Brussels sprouts (low carb, high fiber)\n- Green beans, snap peas\n- Spinach, mixed greens\n- Asparagus, zucchini\n\n**Best canned options:**\n- Low-sodium canned vegetables (rinse to reduce sodium further)\n- Tomatoes (diced, sauce, paste)\n- Green beans, peas, carrots\n- Corn in moderation (higher carb than others)\n\n**Key tips for canned/frozen:**\n- Check labels for added sugars or sauces\n- Choose \"no salt added\" or low-sodium when possible\n- Frozen plain vegetables have no additives and retain nutrients well\n- Rinse canned vegetables to reduce sodium by 30-40%\n\n**What to limit:**\n- Vegetables in cream sauces or sweetened preparations\n- Corn and peas (higher carb—okay occasionally but not as main vegetables)\n\n**Practical note:** If the pharmacy has limited selection, ask if they can special order items, or look into whether any delivery services (Amazon Fresh, local groceries) reach your area.\n\nThe fiber and nutrients in these vegetables still benefit blood sugar control, even if fresh would be ideal. Frozen is actually comparable to fresh nutritionally.\n\nWhat vegetables does your pharmacy currently stock?",
+  "input_tokens": 40,
+  "output_tokens": 327,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:42:04.056034"
+}

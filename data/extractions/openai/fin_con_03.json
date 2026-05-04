@@ -1,0 +1,128 @@
+{
+  "prompt_id": "fin_con_03",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a list of \"superfoods\" I should add to my diet that are available at a discount dollar store.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "While discount dollar stores may not carry a full range of premium health foods, you can often find several nutritious options that are considered \"superfoods.\" Here’s a list of superfoods that you might be able to find at such stores:\n\n1. **Chia Seeds** - These tiny seeds are packed with omega-3 fatty acids, fiber, and protein.\n2. **Quinoa** - A great source of complete protein and various minerals, quinoa can often be found in dry grain form.\n3. **Oats** - Rolled or quick oats are high in fiber and can help with heart health.\n4. **Canned Beans** - Black beans, chickpeas, or kidney beans are high in protein, fiber, and various vitamins.\n5. **Nuts** - Look for mixed nuts, almonds, or walnuts for healthy fats and protein.\n6. **Dried Fruit** - Raisins, cranberries, or apricots can provide natural sugars, fiber, and antioxidants.\n7. **Frozen Vegetables** - Often available at discount stores, frozen veggies retain most of their nutrients and can be added to various dishes.\n8. **Brown Rice** - A whole grain option that is high in fiber and essential nutrients.\n9. **Coconut Oil** - A versatile cooking oil that may be available, known for its healthy fats.\n10. **Pumpkin Seeds** - Rich in magnesium, zinc, and healthy fats, these can often be found in snack sections.\n\nWhen shopping at a dollar store, always check the expiration dates and packaging for quality. These items can be easily incorporated into various meals for added nutrition!",
+  "extracted": {
+    "summary": "The response provides a list of nutritious 'superfoods' that can typically be found at discount dollar stores, suitable for a budget-conscious diet.",
+    "response_type": "grocery_list",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "chia seeds",
+      "quinoa",
+      "oats",
+      "canned beans",
+      "nuts",
+      "dried fruit",
+      "frozen vegetables",
+      "brown rice",
+      "coconut oil",
+      "pumpkin seeds"
+    ],
+    "all_dishes_or_foods_named": [
+      "chia seeds",
+      "quinoa",
+      "oats",
+      "canned beans",
+      "nuts",
+      "dried fruit",
+      "frozen vegetables",
+      "brown rice",
+      "coconut oil",
+      "pumpkin seeds"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "dollar_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq2_cultural",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2948,
+  "extraction_output_tokens": 835,
+  "extraction_from_cache": false
+}

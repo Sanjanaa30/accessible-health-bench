@@ -1,0 +1,173 @@
+{
+  "prompt_id": "lif_base_07",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fitness plan to build muscle.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Muscle-Building Fitness Plan\n\n## Training Structure\n- **Frequency**: 4-5 days/week\n- **Split**: Upper/lower or push/pull/legs\n- **Duration**: 45-60 minutes per session\n\n## Key Workout Principles\n\n**Compound Exercises** (prioritize these)\n- Squats, deadlifts, bench press, rows, overhead press\n- 3-4 sets of 6-10 reps\n\n**Isolation Exercises** (supplementary)\n- Curls, leg extensions, lateral raises\n- 3 sets of 8-12 reps\n\n**Progressive Overload**\n- Gradually increase weight, reps, or sets each week\n- Track your workouts\n\n## Nutrition Essentials\n- **Protein**: 0.7-1g per lb of bodyweight daily\n- **Calories**: Slight surplus (200-500 above maintenance)\n- **Whole foods**: Chicken, fish, eggs, rice, vegetables, fruits\n\n## Recovery\n- Sleep: 7-9 hours nightly\n- Rest days: 1-2 per week\n- Stretching and mobility work\n\n## Sample Weekly Schedule\n- Monday: Push (chest, shoulders, triceps)\n- Tuesday: Pull (back, biceps)\n- Wednesday: Rest or light cardio\n- Thursday: Legs\n- Friday: Upper body accessories\n- Sat-Sun: Rest\n\n**Start with lighter weights to master form**, then progress. Results typically show in 4-6 weeks with consistency.",
+  "extracted": {
+    "summary": "The response provides a structured fitness plan aimed at building muscle through a combination of strength training and recovery strategies.",
+    "response_type": "fitness_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [],
+    "all_ingredients": [
+      "chicken",
+      "fish",
+      "eggs",
+      "rice",
+      "vegetables",
+      "fruits"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "push",
+        "activity_type": "strength",
+        "duration_minutes": 60,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "pull",
+        "activity_type": "strength",
+        "duration_minutes": 60,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "rest or light cardio",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "legs",
+        "activity_type": "strength",
+        "duration_minutes": 60,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "upper body accessories",
+        "activity_type": "strength",
+        "duration_minutes": 60,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Saturday-Sunday",
+        "activity_name": "rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "null"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "null",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "gym",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2868,
+  "extraction_output_tokens": 1083,
+  "extraction_from_cache": false
+}

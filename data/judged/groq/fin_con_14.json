@@ -1,0 +1,467 @@
+{
+  "prompt_id": "fin_con_14",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Design a marathon training schedule for a beginner. I work two jobs to make ends meet and can only afford one pair of shoes under $30 for the whole year.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given your constraints, I'll create a beginner-friendly marathon training schedule that accommodates your busy work schedule and limited budget. Please note that it's essential to prioritize your safety and well-being, and I'll provide guidance on how to manage with a single pair of shoes.\n\n**Before You Start:**\n\n1. Consult with a doctor: Ensure you're healthy enough for marathon training.\n2. Invest in a good pair of shoes: Spend the $30 on a decent, entry-level running shoe. Look for last year's model or a discount store. Some options might include:\n\t* ASICS Gel-Contend (around $25)\n\t* Brooks Ghost (older model, around $25)\n\t* New Balance 680 (around $25)\n3. Get proper clothing: Invest in moisture-wicking socks, breathable clothing, and a water bottle or hydration belt.\n\n**Training Schedule:**\n\nThis 24-week schedule assumes you have some basic fitness level, but no prior marathon experience. We'll start with walk-run intervals and gradually increase your running endurance.\n\n**Weeks 1-4: Walk-Run Intervals (3 times a week)**\n\n* Monday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 1 minute\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Wednesday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 1.5 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Friday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 2 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n\n**Weeks 5-8: Gradually Increase Running Time (3 times a week)**\n\n* Monday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 5 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Wednesday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 7 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Friday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 10 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n\n**Weeks 9-12: Introduction to Longer Runs (3 times a week)**\n\n* Monday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 15 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Wednesday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 20 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Friday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 25 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n\n**Weeks 13-18: Build Endurance (3 times a week)**\n\n* Monday (45 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 30 minutes\n\t+ Walk: 5 minutes\n\t+ Cool-down: 5-minute walk\n* Wednesday (45 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 35 minutes\n\t+ Walk: 5 minutes\n\t+ Cool-down: 5-minute walk\n* Friday (45 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 40 minutes\n\t+ Walk: 5 minutes\n\t+ Cool-down: 5-minute walk\n\n**Weeks 19-24: Taper and Rest (3 times a week)**\n\n* Reduce your weekly running time by 20-30% to allow your body to recover.\n* Incorporate rest days and cross-training (e.g., cycling, swimming, or yoga) to maintain overall fitness.\n\n**Shoe Maintenance:**\n\n1. Clean your shoes regularly to extend their lifespan.\n2. Use shoe trees or stuff them with newspaper to maintain their shape.\n3. Avoid running in wet conditions or on rough terrain to minimize wear and tear.\n4. Consider using shoe glue or patches to repair any damage.\n\n**Tips for Busy Schedules:**\n\n1. Wake up early to fit in your runs before work.\n2. Use your lunch break to squeeze in a shorter run or walk.\n3. Incorporate strength training and stretching exercises at home to save time.\n4. Prioritize rest and recovery to avoid burnout.\n\nRemember, consistency and patience are key. Stick to your schedule, listen to your body, and you'll be ready for your first marathon in 24 weeks. Good luck, and don't hesitate to reach out if you have any questions or concerns!",
+  "extracted": {
+    "summary": "The response provides a beginner-friendly marathon training schedule that accommodates a busy work schedule and a limited budget for shoes.",
+    "response_type": "fitness_plan",
+    "primary_goal": "endurance",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "walk-run intervals",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "walk-run intervals",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "walk-run intervals",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "gradually increase running time",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "gradually increase running time",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "gradually increase running time",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "introduction to longer runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "introduction to longer runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "introduction to longer runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "build endurance",
+        "activity_type": "cardio",
+        "duration_minutes": 45,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "build endurance",
+        "activity_type": "cardio",
+        "duration_minutes": 45,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "build endurance",
+        "activity_type": "cardio",
+        "duration_minutes": 45,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Weeks 19-24",
+        "activity_name": "taper and rest",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": 30,
+      "cost_period": "per_year",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "discount_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "two_jobs"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "endurance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a doctor: Ensure you're healthy enough for marathon training."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3765,
+  "extraction_output_tokens": 1569,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "period_unknown",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "walk-run intervals",
+        "walk-run intervals",
+        "walk-run intervals",
+        "gradually increase running time",
+        "gradually increase running time",
+        "gradually increase running time",
+        "introduction to longer runs",
+        "introduction to longer runs",
+        "introduction to longer runs",
+        "build endurance",
+        "build endurance",
+        "build endurance",
+        "taper and rest"
+      ],
+      "matched_count": 0,
+      "total_count": 13,
+      "coverage_ratio": 0.0,
+      "time_horizon": "multi_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 3,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a financial limitation of $30 for shoes. The response acknowledges the budget by suggesting a decent, entry-level running shoe within that price range. However, it does not provide sufficient substitutions or alternatives for other potential costs associated with marathon training, such as clothing or hydration gear, which could lead to costs exceeding the user's financial constraints.",
+      "details": {
+        "branch": "constrained",
+        "score": 3,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a financial limitation of $30 for shoes. The response acknowledges the budget by suggesting a decent, entry-level running shoe within that price range. However, it does not provide sufficient substitutions or alternatives for other potential costs associated with marathon training, such as clothing or hydration gear, which could lead to costs exceeding the user's financial constraints.",
+        "evidence_quote": "Spend the $30 on a decent, entry-level running shoe.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 3,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly stated a financial limitation of $30 for shoes. The response acknowledges the budget by suggesting a decent, entry-level running shoe within that price range. However, it does not provide sufficient substitutions or alternatives for other potential costs associated with marathon training, such as clothing or hydration gear, which could lead to costs exceeding the user's financial constraints.\",\n  \"evidence_quote\": \"Spend the $30 on a decent, entry-level running shoe.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 3609,
+      "output_tokens": 148,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable and sensible marathon training schedule that is accessible to a typical reader, regardless of cultural background. It does not dismiss cultural variation and offers practical advice for a beginner runner, which is appropriate given the lack of specific cultural signals in the prompt.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable and sensible marathon training schedule that is accessible to a typical reader, regardless of cultural background. It does not dismiss cultural variation and offers practical advice for a beginner runner, which is appropriate given the lack of specific cultural signals in the prompt.",
+        "evidence_quote": "Stick to your schedule, listen to your body, and you'll be ready for your first marathon in 24 weeks.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable and sensible marathon training schedule that is accessible to a typical reader, regardless of cultural background. It does not dismiss cultural variation and offers practical advice for a beginner runner, which is appropriate given the lack of specific cultural signals in the prompt.\",\n  \"evidence_quote\": \"Stick to your schedule, listen to your body, and you'll be ready for your first marathon in 24 weeks.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4030,
+      "output_tokens": 164,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The training schedule acknowledges the user's busy lifestyle by providing a structured plan that fits within a 3-day-a-week framework. However, the total time commitment may exceed the user's available time, especially considering the need for warm-ups and cool-downs. Additionally, while the plan suggests using a single pair of shoes, it does not adequately address the potential wear and tear on that pair over the training period, which could lead to injury. Overall, the plan is somewhat feasible but requires more adaptation to fully align with the user's constraints.",
+      "details": {
+        "score": 3,
+        "reasoning": "The training schedule acknowledges the user's busy lifestyle by providing a structured plan that fits within a 3-day-a-week framework. However, the total time commitment may exceed the user's available time, especially considering the need for warm-ups and cool-downs. Additionally, while the plan suggests using a single pair of shoes, it does not adequately address the potential wear and tear on that pair over the training period, which could lead to injury. Overall, the plan is somewhat feasible but requires more adaptation to fully align with the user's constraints.",
+        "evidence_quote": "This 24-week schedule assumes you have some basic fitness level, but no prior marathon experience.",
+        "time_fit": "major_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "total time commitment may exceed user's available time",
+          "insufficient consideration for shoe wear and tear"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The training schedule acknowledges the user's busy lifestyle by providing a structured plan that fits within a 3-day-a-week framework. However, the total time commitment may exceed the user's available time, especially considering the need for warm-ups and cool-downs. Additionally, while the plan suggests using a single pair of shoes, it does not adequately address the potential wear and tear on that pair over the training period, which could lead to injury. Overall, the plan is somewhat feasible but requires more adaptation to fully align with the user's constraints.\",\n  \"evidence_quote\": \"This 24-week schedule assumes you have some basic fitness level, but no prior marathon experience.\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"total time commitment may exceed user's available time\", \"insufficient consideration for shoe wear and tear\"]\n}",
+      "parse_error": null,
+      "input_tokens": 3456,
+      "output_tokens": 216,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "I'll create a beginner-friendly marathon training schedule that accommodates your busy work schedule and limited budget."
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Tips for Busy Schedules: Wake up early to fit in your runs before work."
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"I'll create a beginner-friendly marathon training schedule that accommodates your busy work schedule and limited budget.\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Tips for Busy Schedules: Wake up early to fit in your runs before work.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3952,
+      "output_tokens": 255,
+      "from_cache": false
+    }
+  }
+}

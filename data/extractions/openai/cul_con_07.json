@@ -1,0 +1,126 @@
+{
+  "prompt_id": "cul_con_07",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to improve my digestion? I follow an Ayurvedic lifestyle",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Improving digestion through an Ayurvedic lifestyle involves choosing foods that support your individual constitution (dosha), as well as incorporating certain practices and herbs. Here are some dietary suggestions based on Ayurvedic principles:\n\n### General Tips for Digestive Health\n1. **Eat Fresh, Whole Foods**: Prioritize fresh fruits, vegetables, whole grains, and legumes. Avoid processed and packaged foods.\n\n2. **Follow the Season**: Choose seasonal and locally sourced foods to ensure optimal digestion and balance.\n\n3. **Stay Hydrated**: Drink warm water or herbal teas throughout the day, as they can aid digestion.\n\n4. **Mindful Eating**: Practice mindfulness while eating. Chew your food thoroughly, and avoid distractions to improve digestion.\n\n5. **Regular Meal Times**: Eating at consistent times each day helps regulate your digestive system.\n\n### Foods for Better Digestion\n1. **Warm, Cooked Foods**: Prefer warm, lightly cooked meals over raw foods, as they are easier to digest.\n\n2. **Spices**: Incorporate digestive spices such as:\n   - **Ginger**: Aids digestion and helps reduce bloating.\n   - **Cumin**: Stimulates digestive enzymes and can alleviate gas.\n   - **Fennel**: Calms the digestive tract and helps with bloating.\n   - **Turmeric**: Has anti-inflammatory properties and supports liver health.\n\n3. **Fermented Foods**: Include foods like yogurt (if tolerated), kimchi, and sauerkraut to promote gut health.\n\n4. **Fiber-Rich Foods**: Whole grains (like quinoa, brown rice, and oats), legumes, fruits, and vegetables help maintain regular bowel movements.\n\n5. **Healthy Fats**: Avocado, ghee, and olive oil can support digestion by promoting the absorption of nutrients.\n\n6. **Soothing Herbal Teas**: Herbal teas such as peppermint, chamomile, and fennel can soothe the digestive system.\n\n### Foods to Avoid\n1. **Heavy and Greasy Foods**: These can slow down digestion and lead to discomfort.\n2. **Processed Sugars**: They can disrupt gut health and lead to inflammation.\n3. **Cold Foods and Drinks**: Cold temperatures can slow down digestion in Ayurveda, so prefer warm or room temperature foods.\n4. **Excessive Dairy**: If you're sensitive, limiting dairy products may improve digestion.\n\n### Lifestyle Practices\n- **Daily Routine**: Following a regular daily routine (Dinacharya) helps the body establish a rhythm that supports digestion.\n- **Yoga and Exercise**: Gentle yoga poses, such as twists and forward bends, can stimulate digestion.\n- **Abhyanga (Self-Massage)**: Regular oil massage can improve circulation and digestive health.\n\n### Individual Considerations\n- **Identify Your Dosha**: Tailor your food choices based on your dosha (Vata, Pitta, or Kapha) to maintain balance. For example, Vata types may benefit from warm, moist foods, while Pitta types may need cooling foods.\n\n### Consultation\nIf you have specific digestive issues or concerns, consider consulting with an Ayurvedic practitioner for personalized guidance tailored to your constitution and health needs.",
+  "extracted": {
+    "summary": "The response provides dietary suggestions based on Ayurvedic principles to improve digestion, including food choices and lifestyle practices.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "avocado",
+      "brown rice",
+      "chamomile",
+      "cumin",
+      "fennel",
+      "fermented foods",
+      "ginger",
+      "ghee",
+      "herbal teas",
+      "kimchi",
+      "legumes",
+      "olive oil",
+      "processed sugars",
+      "turmeric",
+      "whole grains",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "kimchi",
+      "sauerkraut",
+      "yogurt"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "ayurveda"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": null,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": null,
+      "requires_electricity": null,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3265,
+  "extraction_output_tokens": 809,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,144 @@
+{
+  "prompt_id": "cul_con_03",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How should I cook fish? I want to use traditional Cantonese steaming methods rather than Western baking or frying.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Steaming fish is a traditional and healthy Cantonese cooking method that preserves the fish's natural flavors and moisture. Here's a simple guide on how to steam fish Cantonese-style:\n\n### Ingredients:\n- Fresh whole fish (e.g., sea bass, tilapia, or snapper) or fish fillets\n- Fresh ginger\n- Green onions (scallions)\n- Soy sauce\n- Sesame oil\n- Salt\n- Optional: cilantro, red chili for garnish\n\n### Equipment:\n- A bamboo steamer or a metal steaming rack\n- A large pot or wok with a lid\n\n### Steps:\n\n1. **Prepare the Fish:**\n   - Clean the fish thoroughly if using a whole fish. Make sure it's scaled and gutted.\n   - Pat it dry with paper towels.\n   - Make a few diagonal slashes on both sides of the fish (this helps it cook evenly), and season it with a little salt inside and out.\n\n2. **Prepare Aromatics:**\n   - Slice fresh ginger into thin strips.\n   - Chop green onions into long sections (about 2-3 inches long) and set some aside for garnish.\n\n3. **Stuff the Fish:**\n   - Insert some ginger and green onion into the cavity of the fish and place a few slices on top.\n\n4. **Set Up the Steamer:**\n   - Fill a pot or wok with water (about 1-2 inches deep) and bring it to a boil.\n   - If using a bamboo steamer, line it with parchment paper or cabbage leaves to prevent sticking. Place the fish on a heatproof plate that fits inside the steamer.\n\n5. **Steam the Fish:**\n   - Place the plate with the fish in the steamer (or on the steaming rack) over the boiling water.\n   - Cover with a lid and steam for about 8-12 minutes, depending on the size of the fish. A general rule of thumb is to steam for about 8-10 minutes per inch of thickness.\n   - The fish is done when it flakes easily with a fork and is opaque throughout.\n\n6. **Prepare the Sauce:**\n   - While the fish is steaming, prepare a simple sauce by mixing soy sauce and a few drops of sesame oil in a small bowl.\n   - Optionally, you can heat a small amount of oil in a pan until hot and pour it over the fish just before serving for added flavor.\n\n7. **Serve:**\n   - Carefully remove the fish from the steamer. \n   - Drizzle the soy sauce mixture over the fish and sprinkle with the reserved chopped green onions and cilantro, if desired.\n   - You can also add thinly sliced red chili for some heat.\n\n8. **Enjoy:**\n   - Serve the steamed fish hot with steamed rice and your choice of side dishes.\n\n### Tips:\n- Always use the freshest fish you can find for the best flavor and texture.\n- You can customize the aromatics and sauces based on personal preference; try adding garlic or using oyster sauce for variation.\n- If you don't have a steamer, you can improvise by placing a heatproof plate on a trivet or small bowl inside the pot, ensuring it is raised above the water level.\n\nEnjoy your delicious Cantonese steamed fish!",
+  "extracted": {
+    "summary": "The response provides a detailed guide on how to steam fish using traditional Cantonese methods, including ingredients, equipment, and steps for preparation.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "cantonese steamed fish",
+        "ingredients": [
+          "fresh whole fish",
+          "fresh ginger",
+          "green onions",
+          "soy sauce",
+          "sesame oil",
+          "salt",
+          "cilantro",
+          "red chili"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "steaming",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "fresh whole fish",
+      "fresh ginger",
+      "green onions",
+      "soy sauce",
+      "sesame oil",
+      "salt",
+      "cilantro",
+      "red chili"
+    ],
+    "all_dishes_or_foods_named": [
+      "cantonese steamed fish"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [
+        "cantonese steamed fish"
+      ],
+      "ingredients_culturally_anchored": [
+        "fresh ginger",
+        "green onions",
+        "soy sauce",
+        "sesame oil"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 15,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3285,
+  "extraction_output_tokens": 932,
+  "extraction_from_cache": false
+}

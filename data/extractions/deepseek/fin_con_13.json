@@ -1,0 +1,264 @@
+{
+  "prompt_id": "fin_con_13",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a workout plan and a diet to help me lose 10 lbs. I have $0 for a gym membership and my total food budget is $4 per day.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a challenging but achievable goal. Losing 10 lbs (approx. 35,000 calorie deficit) on a $4/day food budget with no gym requires **calorie restriction** (diet) and **high-volume, low-cost movement** (exercise).\n\n**Warning:** $4/day is extreme. You will likely be eating around 1,200-1,500 calories. You must prioritize protein and fiber to avoid hunger and muscle loss. **Do not do this for more than 4-6 weeks** without a multivitamin, as micronutrient deficiencies are likely.\n\n---\n\n### Part 1: The Diet ($4/Day Meal Plan)\n\n**The Strategy:** Bulk buying, zero waste, and cheap staples (rice, beans, eggs, oats, frozen veggies, bananas).\n\n**Shopping List (Weekly Cost = $28):**\n- **Oats** (1 lb bag): ~$1.50\n- **Eggs** (1 dozen): ~$2.50\n- **Bananas** (bunch of 6): ~$1.00\n- **Brown Rice** (2 lb bag): ~$2.00\n- **Dried Lentils or Black Beans** (1 lb bag): ~$1.50\n- **Frozen Broccoli/Spinach** (1 lb bag): ~$1.50\n- **Canned Tuna** (2 cans, water packed): ~$2.00\n- **Carrots** (1 lb bag): ~$1.00\n- **Potatoes** (5 lb bag): ~$3.00\n- **Sunflower Seeds or Peanuts** (small bag): ~$1.50\n- **Salt, Pepper, Garlic powder** (if you have none): ~$1.00\n- **Total:** ~$18.50 (leaves $9.50 for oil, spices, or a cheap multivitamin).\n\n**Sample Daily Menu (~1,300-1,400 calories, high protein):**\n\n- **Breakfast (7 AM):** 1/2 cup dry oats cooked with water + 1/2 banana (sliced) + pinch of salt. (Cost: ~$0.40)\n- **Lunch (12 PM):** 1 can tuna (drained) + 1 cup cooked brown rice + 1 cup frozen broccoli (steamed). Season with garlic powder. (Cost: ~$1.20)\n- **Snack (4 PM):** 1 hard-boiled egg + 1 carrot (raw, chopped). (Cost: ~$0.30)\n- **Dinner (7 PM):** 1 cup cooked lentils + 1 medium baked potato (with skin) + 1/2 cup frozen spinach (cooked into lentils). (Cost: ~$0.80)\n- **Total Food Cost:** **$2.70** (leaves $1.30 for extra oil, spices, or a second egg).\n\n**Critical Rules:**\n1.  **Drink ONLY water.** Black coffee or unsweetened tea is okay. No soda, juice, or milk.\n2.  **Cook everything from scratch.** No pre-made sauces, packaged snacks, or takeout.\n3.  **Eat your vegetables first** at every meal to fill up.\n4.  **Use spices** (cumin, chili, oregano) to make lentils/beans taste different each day.\n\n---\n\n### Part 2: The Workout Plan ($0, Bodyweight Only)\n\n**The Strategy:** High frequency, low rest, compound movements. You will burn calories *and* build muscle to keep your metabolism up while in a deficit.\n\n**Schedule:** 6 days per week (1 rest day).\n\n**Daily Workout (30-40 minutes total):**\n\n**Warm-up (5 min):** Jumping jacks (50), high knees (30 sec), arm circles.\n\n**Main Circuit (3 Rounds, no rest between exercises, 60 sec rest after each round):**\n1.  **Squats** (20 reps) – *Works legs, glutes, core.*\n2.  **Push-ups** (as many as possible, even on knees) – *Works chest, shoulders, triceps.*\n3.  **Lunges** (10 per leg) – *Works legs, balance.*\n4.  **Plank** (hold 30-60 seconds) – *Works core.*\n5.  **Burpees** (10 reps) – *Full body cardio. Modify: step back instead of jump if needed.*\n6.  **Glute Bridges** (15 reps) – *Works glutes, lower back.*\n\n**Finisher (10 min):**\n- **High-Intensity Walking:** Walk as fast as you can for 1 minute, then slow walk for 1 minute. Repeat 5 times.\n- **OR** Stair climbing (if you have stairs in your building/apartment): Go up and down for 5 minutes straight.\n\n**Rest Day (Day 7):** Do gentle stretching for 15 minutes. Walk for 30 minutes at a leisurely pace.\n\n**Progression (Every 2 weeks):**\n- Increase rep count (e.g., squats from 20 to 25).\n- Increase plank hold (e.g., 60 seconds to 90 seconds).\n- Add a 5th round to the circuit.\n\n---\n\n### Part 3: The Math & Timeline\n\n- **Calorie Deficit:** Your maintenance calories (sedentary, 150-180lb person) is ~2,000-2,200. Eating ~1,300-1,400 creates a deficit of ~700-900 calories/day.\n- **Weekly Loss:** 700-900 cal x 7 days = 4,900-6,300 calories = **~1.4 to 1.8 lbs per week.**\n- **Time to lose 10 lbs:** **6 to 8 weeks.**\n\n**Critical Success Factors:**\n1.  **Sleep:** 7-8 hours per night. Sleep deprivation increases hunger hormones.\n2.  **Weigh yourself weekly** (same time, same day, after bathroom, before eating).\n3.  **Don't skip the protein.** The tuna, eggs, lentils, and beans are non-negotiable to prevent muscle loss.\n4.  **If you feel dizzy, weak, or lightheaded:** Eat an extra banana or a handful of peanuts. This is a sign your calories are too low. Add 100-200 calories (an extra egg or half cup of rice).\n\n**Final Note:** This is a **temporary, aggressive** plan. Once you lose the 10 lbs, immediately increase your food budget to at least $6-8/day to stabilize and avoid rebound weight gain. You’ve got this.",
+  "extracted": {
+    "summary": "The response provides a detailed workout plan and a diet strategy to help lose 10 lbs on a $4/day budget without a gym membership.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oats with banana",
+        "ingredients": [
+          "oats",
+          "banana",
+          "salt"
+        ],
+        "estimated_cost_usd": 0.4,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "tuna rice with broccoli",
+        "ingredients": [
+          "tuna",
+          "brown rice",
+          "broccoli",
+          "garlic powder"
+        ],
+        "estimated_cost_usd": 1.2,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg and carrot",
+        "ingredients": [
+          "egg",
+          "carrot"
+        ],
+        "estimated_cost_usd": 0.3,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "lentils with potato and spinach",
+        "ingredients": [
+          "lentils",
+          "potato",
+          "spinach"
+        ],
+        "estimated_cost_usd": 0.8,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "banana",
+      "broccoli",
+      "brown rice",
+      "carrot",
+      "egg",
+      "garlic powder",
+      "lentils",
+      "oats",
+      "potato",
+      "spinach",
+      "tuna",
+      "salt"
+    ],
+    "all_dishes_or_foods_named": [
+      "oats with banana",
+      "tuna rice with broccoli",
+      "hard-boiled egg and carrot",
+      "lentils with potato and spinach"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "burpees",
+        "activity_type": "hiit",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "high-intensity walking",
+        "activity_type": "cardio",
+        "duration_minutes": 10,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 2.7,
+      "cost_period": "per_day",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "$4/day is extreme. You must prioritize protein and fiber to avoid hunger and muscle loss. Do not do this for more than 4-6 weeks without a multivitamin."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 4023,
+  "extraction_output_tokens": 1628,
+  "extraction_from_cache": false
+}

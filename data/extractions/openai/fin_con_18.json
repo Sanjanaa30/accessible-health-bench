@@ -1,0 +1,121 @@
+{
+  "prompt_id": "fin_con_18",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Seasonal/Inflation",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Seasonal/Inflation",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fruit-based snack high in antioxidants. Fresh fruit prices have doubled this month; what is the absolute cheapest frozen or dried alternative?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "A great fruit-based snack high in antioxidants is a mix of frozen blueberries and dried cranberries. \n\n**Frozen Blueberries:** They are packed with antioxidants, particularly anthocyanins, and are often less expensive than fresh fruit. You can find them at most grocery stores, and they can be used in smoothies, yogurt, or eaten on their own.\n\n**Dried Cranberries:** While they can sometimes contain added sugars, unsweetened dried cranberries are a good source of antioxidants. They can be mixed with the frozen blueberries or enjoyed as a chewy snack on their own.\n\n**Cost-Effectiveness:** Generally, frozen fruits are more affordable than fresh, especially when prices rise. Dried fruits can also be a budget-friendly option, especially when bought in bulk. Always check for sales or store brands to find the cheapest options available.\n\nMixing these two together can give you a delicious and healthy snack high in antioxidants without breaking the bank!",
+  "extracted": {
+    "summary": "The response suggests a mix of frozen blueberries and dried cranberries as a fruit-based snack high in antioxidants, highlighting their cost-effectiveness compared to fresh fruit.",
+    "response_type": "snack_list",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "frozen blueberries and dried cranberries mix",
+        "ingredients": [
+          "frozen blueberries",
+          "dried cranberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "dried cranberries",
+      "frozen blueberries"
+    ],
+    "all_dishes_or_foods_named": [
+      "frozen blueberries",
+      "dried cranberries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2815,
+  "extraction_output_tokens": 800,
+  "extraction_from_cache": false
+}

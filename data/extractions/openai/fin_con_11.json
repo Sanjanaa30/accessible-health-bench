@@ -1,0 +1,228 @@
+{
+  "prompt_id": "fin_con_11",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Opportunity Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Opportunity Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I prepare healthy meals if I work 60 hours a week? I have no money for \"convenience\" or pre-cut foods and must find the cheapest possible way to meal prep with a $15 weekly budget.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Preparing healthy meals on a tight budget and limited time can be challenging, but it is definitely achievable with some planning and creativity. Here are some tips to help you meal prep effectively on a $15 weekly budget:\n\n### Planning\n1. **Create a Meal Plan**: Plan your meals for the week based on what you can afford. Focus on simple recipes that use similar ingredients to minimize waste.\n2. **Choose Budget-Friendly Ingredients**: Focus on staples that are nutritious and inexpensive:\n   - **Grains**: Rice, oats, pasta, quinoa, and whole grain bread.\n   - **Legumes**: Dried or canned beans and lentils (great sources of protein).\n   - **Vegetables**: Look for seasonal or frozen vegetables, which are often cheaper and have a longer shelf life.\n   - **Fruits**: Buy whole fruits (like bananas, apples, or oranges) instead of pre-cut ones.\n   - **Protein**: Eggs and canned tuna or chicken can be affordable sources of protein.\n\n### Shopping Tips\n3. **Buy in Bulk**: Purchase grains and legumes in bulk to save money. Stores often have bulk bins where you can buy just what you need.\n4. **Look for Sales**: Check local grocery store flyers and use coupons if available. Choose items that are on sale for your meal prep.\n5. **Avoid Processed Foods**: Pre-packaged or convenience foods are usually more expensive and less healthy.\n\n### Meal Prep Strategies\n6. **Batch Cooking**: Cook large quantities of staple foods (like rice, beans, or a vegetable stew) at once. Divide them into portions for the week.\n7. **Simple Recipes**: Prepare meals that are easy to cook and can be eaten in different ways throughout the week. For example, a big pot of chili can be eaten over rice, in a wrap, or on its own.\n8. **Invest in Storage Containers**: Use affordable containers (like mason jars or reused food containers) to store your meals for easy grab-and-go options.\n\n### Example Meal Plan\nHere’s a simple and budget-friendly meal plan you can follow:\n\n#### Breakfast\n- **Oatmeal**: Cook oats with water or milk and top with a banana or a spoonful of peanut butter.\n\n#### Lunch\n- **Bean and Rice Bowl**: Cook rice and mix with canned beans (like black beans). Add frozen vegetables and season with spices (like cumin or chili powder).\n- **Simple Wrap**: Use a tortilla, fill it with rice, beans, and veggies, and wrap it up.\n\n#### Dinner\n- **Vegetable Stir-Fry**: Stir-fry a mix of frozen vegetables with some soy sauce and serve over rice or noodles.\n- **Egg Scramble**: Scramble eggs with any leftover vegetables for a quick meal.\n\n#### Snacks\n- **Fruits**: Keep whole fruits or make simple snacks like carrot sticks or cucumber slices.\n- **Peanut Butter Toast**: Whole grain bread with peanut butter for a filling snack.\n\n### Additional Tips\n- **Cook Once, Eat Twice**: When you cook, make enough to have leftovers for the next day.\n- **Utilize Your Freezer**: If you have extra meals, freeze them for later use to avoid spoilage.\n- **Stay Organized**: Keep track of your meals and ingredients to avoid waste and ensure you use what you have.\n\nBy following these strategies, you can efficiently prepare healthy meals within your budget while managing your busy schedule.",
+  "extracted": {
+    "summary": "The response provides strategies for meal prepping healthy meals on a $15 weekly budget, including meal planning, shopping tips, and simple recipes.",
+    "response_type": "mixed",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oats",
+          "water",
+          "milk",
+          "banana",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "bean and rice bowl",
+        "ingredients": [
+          "rice",
+          "canned beans",
+          "frozen vegetables",
+          "spices"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "simple wrap",
+        "ingredients": [
+          "tortilla",
+          "rice",
+          "beans",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "vegetable stir-fry",
+        "ingredients": [
+          "frozen vegetables",
+          "soy sauce",
+          "rice",
+          "noodles"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "egg scramble",
+        "ingredients": [
+          "eggs",
+          "leftover vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruits",
+        "ingredients": [
+          "whole fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "peanut butter toast",
+        "ingredients": [
+          "whole grain bread",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "banana",
+      "beans",
+      "bread",
+      "canned beans",
+      "carrot",
+      "eggs",
+      "frozen vegetables",
+      "milk",
+      "noodles",
+      "oats",
+      "peanut butter",
+      "rice",
+      "soy sauce",
+      "spices",
+      "tortilla",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "bean and rice bowl",
+      "simple wrap",
+      "vegetable stir-fry",
+      "egg scramble",
+      "fruits",
+      "peanut butter toast"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 15,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "60 hours a week"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3355,
+  "extraction_output_tokens": 1411,
+  "extraction_from_cache": false
+}

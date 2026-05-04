@@ -1,0 +1,189 @@
+{
+  "prompt_id": "fin_con_06",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What is a good post-workout meal for building muscle? I need it to cost less than $2.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Post-Workout Meals Under $2\n\n**Best options:**\n\n- **Eggs + toast** (~$0.75)\n  - 2-3 eggs + 2 slices bread with peanut butter\n  - High protein, complete amino acids\n\n- **Canned tuna + rice** (~$1.50)\n  - One can of tuna + cooked rice\n  - Lean protein + carbs for recovery\n\n- **Peanut butter + banana sandwich** (~$0.80)\n  - Protein + carbs + healthy fats\n  - Quick and portable\n\n- **Oatmeal with milk + banana** (~$1.00)\n  - Carbs for glycogen + protein from milk\n  - Add peanut butter if budget allows\n\n- **Chicken + sweet potato** (~$1.50)\n  - If buying in bulk from budget stores\n  - Excellent protein-to-carb ratio\n\n**Key principle:** You need **protein** (to build muscle) + **carbs** (to replenish glycogen). Aim for 20-30g protein and 40-60g carbs.\n\nThe exact meal matters less than hitting these macros consistently. Eggs and peanut butter are your cheapest protein sources.",
+  "extracted": {
+    "summary": "The response provides several budget-friendly post-workout meal options under $2 that are high in protein and carbohydrates to support muscle building.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "eggs + toast",
+        "ingredients": [
+          "eggs",
+          "bread",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": 0.75,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "canned tuna + rice",
+        "ingredients": [
+          "canned tuna",
+          "rice"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "peanut butter + banana sandwich",
+        "ingredients": [
+          "peanut butter",
+          "banana",
+          "bread"
+        ],
+        "estimated_cost_usd": 0.8,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "oatmeal with milk + banana",
+        "ingredients": [
+          "oatmeal",
+          "milk",
+          "banana"
+        ],
+        "estimated_cost_usd": 1.0,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "chicken + sweet potato",
+        "ingredients": [
+          "chicken",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "eggs",
+      "bread",
+      "peanut butter",
+      "canned tuna",
+      "rice",
+      "banana",
+      "oatmeal",
+      "milk",
+      "chicken",
+      "sweet potato"
+    ],
+    "all_dishes_or_foods_named": [
+      "eggs + toast",
+      "canned tuna + rice",
+      "peanut butter + banana sandwich",
+      "oatmeal with milk + banana",
+      "chicken + sweet potato"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2864,
+  "extraction_output_tokens": 1209,
+  "extraction_from_cache": false
+}

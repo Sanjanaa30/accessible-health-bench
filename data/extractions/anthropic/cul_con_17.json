@@ -1,0 +1,146 @@
+{
+  "prompt_id": "cul_con_17",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy way to season a chicken breast.Use a traditional Indian Method",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Indian-Spiced Chicken Breast\n\n## Simple Dry Rub Method\n\n**Spices to use:**\n- 1 tsp cumin powder\n- 1 tsp coriander powder\n- ½ tsp turmeric\n- ½ tsp garam masala\n- ¼ tsp black pepper\n- ¼ tsp chili powder (adjust to taste)\n- Salt to taste\n\n## Instructions\n\n1. **Mix the spices** in a small bowl\n2. **Pat the chicken dry** with paper towels\n3. **Rub the spice mixture** evenly on both sides\n4. **Cook using a healthy method:**\n   - Grill or bake at 400°F (200°C) for 20-25 minutes\n   - Air fry for 15-18 minutes\n   - Pan-sear in minimal oil, then finish in the oven\n\n## Optional Yogurt Marinade (More Traditional)\n\nMix spices with:\n- ½ cup plain Greek yogurt\n- 1 tbsp lemon juice\n- 1 tsp ginger-garlic paste\n\nMarinate for 30 minutes before cooking.\n\n## Benefits\n\n✓ No added sugar or excess salt\n✓ Anti-inflammatory spices\n✓ Rich in antioxidants\n✓ Authentic flavor without heavy cream or oil\n\nThis method keeps the chicken lean while delivering authentic Indian flavors!",
+  "extracted": {
+    "summary": "The response provides a healthy Indian-spiced chicken breast recipe using a dry rub and an optional yogurt marinade.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "indian-spiced chicken breast",
+        "ingredients": [
+          "cumin powder",
+          "coriander powder",
+          "turmeric",
+          "garam masala",
+          "black pepper",
+          "chili powder",
+          "salt",
+          "plain greek yogurt",
+          "lemon juice",
+          "ginger-garlic paste"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "black pepper",
+      "chili powder",
+      "coriander powder",
+      "cumin powder",
+      "garam masala",
+      "ginger-garlic paste",
+      "lemon juice",
+      "plain greek yogurt",
+      "salt",
+      "turmeric"
+    ],
+    "all_dishes_or_foods_named": [
+      "indian-spiced chicken breast"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indian"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [
+        "cumin powder",
+        "coriander powder",
+        "turmeric",
+        "garam masala"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2870,
+  "extraction_output_tokens": 959,
+  "extraction_from_cache": false
+}

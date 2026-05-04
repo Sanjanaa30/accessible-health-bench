@@ -1,0 +1,2054 @@
+{
+  "prompt_id": "fin_base_12",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a comprehensive gluten-free meal plan designed to be balanced, flavorful, and easy to follow. It avoids all sources of wheat, barley, rye, and cross-contaminated oats.\n\n**Important Note:** Always check labels for gluten-containing additives (e.g., modified food starch, malt flavoring, soy sauce). Use certified gluten-free oats.\n\n### General Guidelines for the Week\n\n- **Breakfast:** Focus on protein + healthy fat to stabilize blood sugar.\n- **Lunch:** Leftovers from dinner or a simple salad/protein bowl.\n- **Dinner:** A balanced plate of protein, vegetables, and a gluten-free starch.\n- **Snacks:** Keep it simple—fruit, nuts, yogurt, or veggie sticks.\n\n---\n\n### Day 1: Monday\n\n- **Breakfast:** Scrambled eggs with spinach, feta cheese, and sliced avocado. Side of fresh berries.\n- **Lunch:** Large salad with grilled chicken, mixed greens, cucumber, cherry tomatoes, olives, and a lemon-olive oil vinaigrette.\n- **Dinner:** **Sheet Pan Lemon Herb Salmon** with roasted asparagus and sweet potato wedges (tossed in olive oil, salt, pepper, and rosemary).\n- **Snack:** A handful of almonds and a small apple.\n\n### Day 2: Tuesday\n\n- **Breakfast:** Gluten-free oatmeal (certified) made with almond milk, topped with sliced banana, walnuts, and a drizzle of maple syrup.\n- **Lunch:** Leftover salmon and sweet potato from Monday.\n- **Dinner:** **Beef & Vegetable Stir-fry** (use tamari or coconut aminos instead of soy sauce). Serve over steamed white or brown rice.\n- **Snack:** Celery sticks with almond butter.\n\n### Day 3: Wednesday\n\n- **Breakfast:** Greek yogurt (plain) with gluten-free granola and fresh strawberries.\n- **Lunch:** **Quinoa Power Bowl:** Quinoa, black beans, corn, diced bell peppers, avocado, and a lime-cilantro dressing.\n- **Dinner:** **Chicken Tikka Masala** (made with canned coconut milk and tomato paste, using garam masala and turmeric). Serve with cauliflower rice or basmati rice.\n- **Snack:** A pear or a handful of grapes.\n\n### Day 4: Thursday\n\n- **Breakfast:** Two hard-boiled eggs, a slice of gluten-free toast (e.g., Udi's or Canyon Bakehouse) with avocado, and a side of mixed berries.\n- **Lunch:** Leftover Chicken Tikka Masala and rice.\n- **Dinner:** **Stuffed Bell Peppers:** Ground turkey or beef mixed with cooked quinoa, diced tomatoes, onions, and spices. Baked until tender. Top with shredded cheese.\n- **Snack:** Baby carrots with hummus.\n\n### Day 5: Friday\n\n- **Breakfast:** Smoothie: 1 cup unsweetened almond milk, 1 scoop gluten-free protein powder (or plain Greek yogurt), 1/2 banana, 1 cup spinach, 1 tbsp chia seeds.\n- **Lunch:** **Tuna Salad Lettuce Wraps:** Mix canned tuna with mashed avocado, lemon juice, salt, and pepper. Spoon into large romaine lettuce leaves. Add sliced cucumber.\n- **Dinner:** **Zucchini Noodles (Zoodles) with Pesto & Shrimp:** Sauté zucchini noodles in olive oil, add cooked shrimp, and toss with gluten-free pesto (check label). Add cherry tomatoes.\n- **Snack:** A small handful of dark chocolate chips and walnuts.\n\n### Day 6: Saturday\n\n- **Breakfast:** **Sweet Potato Hash:** Diced sweet potato, onion, and bell pepper sautéed in coconut oil. Top with two fried eggs.\n- **Lunch:** Leftover Zoodles or a simple mixed greens salad with grilled chicken.\n- **Dinner:** **Taco Night:** Use corn tortillas (or large lettuce leaves). Fill with seasoned ground beef, black beans, shredded lettuce, diced tomatoes, cheese, salsa, and guacamole.\n- **Snack:** A sliced mango or apple with sunflower seed butter.\n\n### Day 7: Sunday\n\n- **Breakfast:** **Gluten-Free Pancakes** (made with almond flour or a gluten-free all-purpose blend). Top with fresh blueberries and a dollop of yogurt.\n- **Lunch:** **Loaded Baked Potato:** Top a baked potato with broccoli, cheddar cheese, a dollop of sour cream, and leftover taco meat.\n- **Dinner:** **Roasted Chicken Thighs** (seasoned with paprika, garlic powder, and thyme) with roasted Brussels sprouts and a side of wild rice.\n- **Snack:** A small bowl of mixed berries.\n\n---\n\n### Sample Snack List (Mix & Match)\n\n- **Produce:** Apple slices, bananas, berries, carrot sticks, bell pepper strips, cucumber rounds.\n- **Protein:** Hard-boiled eggs, string cheese, beef jerky (check label), edamame.\n- **Fat/Protein:** Almonds, walnuts, sunflower seeds, pumpkin seeds, cashews.\n- **Dips:** Hummus, guacamole, almond butter, tahini.\n- **Dairy:** Greek yogurt, cottage cheese, cheese cubes.\n- **Grains:** Gluten-free crackers (e.g., Mary's Gone Crackers, Simple Mills), rice cakes.\n\n### Key Tips for Success\n\n1.  **Read Every Label:** Gluten hides in soy sauce, salad dressings, marinades, broths, soups, and even some spice blends.\n2.  **Go for Whole Foods:** The safest and most nutritious gluten-free meals are based on whole, unprocessed foods: vegetables, fruits, lean meats, fish, eggs, beans, nuts, seeds, and naturally gluten-free grains (rice, quinoa, corn, buckwheat).\n3.  **Watch for Cross-Contamination:** Use separate cutting boards, toasters, and colanders for gluten-free foods if you share a kitchen.\n4.  **Don't Forget Fiber:** Many gluten-free substitutes lack fiber. Prioritize vegetables, fruits, beans, lentils, and seeds (chia, flax) to stay regular.\n5.  **Stay Hydrated:** Drink plenty of water throughout the day.\n\nThis plan is a template. Feel free to swap days, substitute proteins, and use whatever vegetables are in season. Enjoy your delicious, gluten-free week",
+  "extracted": {
+    "summary": "The response provides a comprehensive gluten-free meal plan for a week, including specific meals for each day and snack suggestions.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "feta cheese",
+          "avocado",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken salad",
+        "ingredients": [
+          "grilled chicken",
+          "mixed greens",
+          "cucumber",
+          "cherry tomatoes",
+          "olives",
+          "lemon",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "sheet pan lemon herb salmon",
+        "ingredients": [
+          "salmon",
+          "asparagus",
+          "sweet potato",
+          "olive oil",
+          "salt",
+          "pepper",
+          "rosemary"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "almonds and apple",
+        "ingredients": [
+          "almonds",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "almond milk",
+          "banana",
+          "walnuts",
+          "maple syrup"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "leftover salmon and sweet potato",
+        "ingredients": [
+          "salmon",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "beef and vegetable stir-fry",
+        "ingredients": [
+          "beef",
+          "vegetables",
+          "tamari",
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "celery sticks with almond butter",
+        "ingredients": [
+          "celery",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with granola",
+        "ingredients": [
+          "greek yogurt",
+          "gluten-free granola",
+          "strawberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "quinoa power bowl",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "corn",
+          "bell peppers",
+          "avocado",
+          "lime",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "chicken tikka masala",
+        "ingredients": [
+          "chicken",
+          "coconut milk",
+          "tomato paste",
+          "garam masala",
+          "turmeric",
+          "cauliflower rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "pear or grapes",
+        "ingredients": [
+          "pear",
+          "grapes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "hard-boiled eggs and toast",
+        "ingredients": [
+          "eggs",
+          "gluten-free toast",
+          "avocado",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "leftover chicken tikka masala",
+        "ingredients": [
+          "chicken",
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "stuffed bell peppers",
+        "ingredients": [
+          "ground turkey",
+          "quinoa",
+          "tomatoes",
+          "onions",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "baby carrots with hummus",
+        "ingredients": [
+          "baby carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "almond milk",
+          "protein powder",
+          "banana",
+          "spinach",
+          "chia seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "tuna salad lettuce wraps",
+        "ingredients": [
+          "tuna",
+          "avocado",
+          "lemon",
+          "romaine lettuce",
+          "cucumber"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "zucchini noodles with pesto and shrimp",
+        "ingredients": [
+          "zucchini",
+          "shrimp",
+          "pesto",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "dark chocolate chips and walnuts",
+        "ingredients": [
+          "dark chocolate chips",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "sweet potato hash",
+        "ingredients": [
+          "sweet potato",
+          "onion",
+          "bell pepper",
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "leftover zoodles or salad",
+        "ingredients": [
+          "zoodles",
+          "mixed greens",
+          "grilled chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "taco night",
+        "ingredients": [
+          "corn tortillas",
+          "ground beef",
+          "black beans",
+          "lettuce",
+          "tomatoes",
+          "cheese",
+          "salsa",
+          "guacamole"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "mango or apple with sunflower seed butter",
+        "ingredients": [
+          "mango",
+          "apple",
+          "sunflower seed butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free pancakes",
+        "ingredients": [
+          "almond flour",
+          "blueberries",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "loaded baked potato",
+        "ingredients": [
+          "potato",
+          "broccoli",
+          "cheddar cheese",
+          "sour cream",
+          "taco meat"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "roasted chicken thighs",
+        "ingredients": [
+          "chicken thighs",
+          "paprika",
+          "garlic powder",
+          "thyme",
+          "brussels sprouts",
+          "wild rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "mixed berries",
+        "ingredients": [
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond flour",
+      "almond milk",
+      "almonds",
+      "apple",
+      "asparagus",
+      "avocado",
+      "baby carrots",
+      "baked potato",
+      "banana",
+      "beef",
+      "black beans",
+      "blueberries",
+      "brussels sprouts",
+      "canned coconut milk",
+      "carrot sticks",
+      "cauliflower rice",
+      "celery",
+      "cheddar cheese",
+      "chicken",
+      "chicken thighs",
+      "chia seeds",
+      "cherry tomatoes",
+      "coconut oil",
+      "corn",
+      "corn tortillas",
+      "cucumber",
+      "diced tomatoes",
+      "dark chocolate chips",
+      "edamame",
+      "eggs",
+      "feta cheese",
+      "fresh berries",
+      "garam masala",
+      "garlic powder",
+      "gluten-free crackers",
+      "gluten-free granola",
+      "gluten-free oatmeal",
+      "gluten-free pancakes",
+      "gluten-free protein powder",
+      "gluten-free toast",
+      "hummus",
+      "leftover salmon",
+      "leftover taco meat",
+      "lettuce",
+      "lime",
+      "mixed greens",
+      "mixed berries",
+      "onion",
+      "olives",
+      "orange",
+      "paprika",
+      "peach",
+      "pear",
+      "pesto",
+      "potato",
+      "quinoa",
+      "rice",
+      "romaine lettuce",
+      "rosemary",
+      "salmon",
+      "salsa",
+      "shrimp",
+      "spinach",
+      "strawberries",
+      "sweet potato",
+      "taco meat",
+      "tamari",
+      "thyme",
+      "tuna",
+      "vegetables",
+      "walnuts",
+      "wild rice"
+    ],
+    "all_dishes_or_foods_named": [
+      "scrambled eggs with spinach",
+      "grilled chicken salad",
+      "sheet pan lemon herb salmon",
+      "almonds and apple",
+      "gluten-free oatmeal",
+      "leftover salmon and sweet potato",
+      "beef and vegetable stir-fry",
+      "celery sticks with almond butter",
+      "greek yogurt with granola",
+      "quinoa power bowl",
+      "chicken tikka masala",
+      "pear or grapes",
+      "hard-boiled eggs and toast",
+      "leftover chicken tikka masala",
+      "stuffed bell peppers",
+      "baby carrots with hummus",
+      "smoothie",
+      "tuna salad lettuce wraps",
+      "zucchini noodles with pesto and shrimp",
+      "dark chocolate chips and walnuts",
+      "sweet potato hash",
+      "leftover zoodles or salad",
+      "taco night",
+      "mango or apple with sunflower seed butter",
+      "gluten-free pancakes",
+      "loaded baked potato",
+      "roasted chicken thighs",
+      "mixed berries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "gluten_free"
+      ],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "gluten_allergy"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always check labels for gluten-containing additives (e.g., modified food starch, malt flavoring, soy sauce). Use certified gluten-free oats."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3844,
+  "extraction_output_tokens": 3917,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond flour",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond milk",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almonds and apple",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "asparagus",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baby carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baby carrots with hummus",
+          "cuisines": [
+            "middle_eastern",
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "baked potato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "United Kingdom"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "beef",
+          "cuisines": [
+            "cuisine_of_the_united_states"
+          ],
+          "countries": [
+            "Germany",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "beef and vegetable stir-fry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "black bean",
+          "cuisines": [
+            "brazilian",
+            "latin_american",
+            "portuguese"
+          ],
+          "countries": [
+            "South Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "blueberry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "brussels sprout",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "canned coconut milk",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot stick",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cauliflower rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "celery",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "celery sticks with almond butter",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cheddar cheese",
+          "cuisines": [],
+          "countries": [
+            "England",
+            "United Kingdom"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "cherry tomato",
+          "cuisines": [
+            "balkan",
+            "french",
+            "italian",
+            "turkish",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken thigh",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken tikka masala",
+          "cuisines": [
+            "indian",
+            "pakistani"
+          ],
+          "countries": [
+            "India",
+            "United Kingdom"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "coconut oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "corn",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "corn tortilla",
+          "cuisines": [],
+          "countries": [
+            "Mesoamerica"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "cucumber",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "dark chocolate chip",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "dark chocolate chips and walnut",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "diced tomato",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "edamame",
+          "cuisines": [],
+          "countries": [
+            "Japan"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "feta cheese",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [
+            "Greece"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "fresh berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "garam masala",
+          "cuisines": [
+            "south_asian"
+          ],
+          "countries": [
+            "Bangladesh",
+            "India",
+            "Nepal",
+            "Pakistan"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "garlic powder",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "gluten-free cracker",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "gluten-free granola",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "gluten-free oatmeal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "gluten-free pancake",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "gluten-free protein powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "gluten-free toast",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt with granola",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hard-boiled eggs and toast",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "leftover chicken tikka masala",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "leftover salmon",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "leftover salmon and sweet potato",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "leftover taco meat",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "leftover zoodles or salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lettuce",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lime",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "loaded baked potato",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mango or apple with sunflower seed butter",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed green",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "orange",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "paprika",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pear",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pear or grape",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "pesto",
+          "cuisines": [],
+          "countries": [
+            "Italy"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "potato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa power bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "roasted chicken thigh",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "romaine lettuce",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rosemary",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salsa",
+          "cuisines": [],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "scrambled eggs with spinach",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sheet pan lemon herb salmon",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "shrimp",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoothie",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "strawberry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "stuffed bell pepper",
+          "cuisines": [
+            "azerbaijani",
+            "basque",
+            "bulgarian",
+            "cuisine_of_the_united_states",
+            "macedonian",
+            "moldovan",
+            "peruvian",
+            "romanian",
+            "spanish",
+            "turkish",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sweet potato hash",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "taco meat",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "taco night",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tamari",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "thyme",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna salad lettuce wrap",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "walnut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "wild rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "zucchini noodles with pesto and shrimp",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 55,
+      "total_count": 98,
+      "coverage_ratio": 0.5612244897959183,
+      "cuisine_distribution": {
+        "vegetarian": 30,
+        "global": 17,
+        "cuisine_of_the_united_states": 2,
+        "brazilian": 2,
+        "turkish": 2,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "middle_eastern": 1,
+        "latin_american": 1,
+        "portuguese": 1,
+        "balkan": 1,
+        "french": 1,
+        "italian": 1,
+        "indian": 1,
+        "pakistani": 1,
+        "greek": 1,
+        "south_asian": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "unknown": 1,
+        "azerbaijani": 1,
+        "basque": 1,
+        "bulgarian": 1,
+        "macedonian": 1,
+        "moldovan": 1,
+        "peruvian": 1,
+        "romanian": 1,
+        "spanish": 1,
+        "polish": 1,
+        "russian": 1,
+        "ukrainian": 1
+      },
+      "western_centricity_ratio": 0.06,
+      "western_tag_count": 5,
+      "total_tag_count": 84
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 73,
+      "matched_count": 5,
+      "unmatched_count": 68,
+      "coverage_ratio": 0.0684931506849315,
+      "matched": [
+        {
+          "ingredient": "beef",
+          "matched_bls_item": "ground beef, 100% beef",
+          "price_usd": 6.801,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000704111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "cheddar cheese",
+          "matched_bls_item": "cheese, cheddar, natural",
+          "price_usd": 5.97,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000710212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "lettuce",
+          "matched_bls_item": "lettuce, iceberg",
+          "price_usd": 1.719,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000712211",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almond butter",
+        "almond flour",
+        "almond milk",
+        "almonds",
+        "apple",
+        "asparagus",
+        "avocado",
+        "baby carrots",
+        "baked potato",
+        "banana",
+        "black beans",
+        "blueberries",
+        "brussels sprouts",
+        "canned coconut milk",
+        "carrot sticks",
+        "cauliflower rice",
+        "celery",
+        "chicken thighs",
+        "chia seeds",
+        "cherry tomatoes",
+        "coconut oil",
+        "corn",
+        "corn tortillas",
+        "cucumber",
+        "diced tomatoes",
+        "dark chocolate chips",
+        "edamame",
+        "eggs",
+        "feta cheese",
+        "fresh berries",
+        "garam masala",
+        "garlic powder",
+        "gluten-free crackers",
+        "gluten-free granola",
+        "gluten-free oatmeal",
+        "gluten-free pancakes",
+        "gluten-free protein powder",
+        "gluten-free toast",
+        "hummus",
+        "leftover salmon",
+        "leftover taco meat",
+        "lime",
+        "mixed greens",
+        "mixed berries",
+        "onion",
+        "olives",
+        "orange",
+        "paprika",
+        "peach",
+        "pear",
+        "pesto",
+        "potato",
+        "quinoa",
+        "romaine lettuce",
+        "rosemary",
+        "salmon",
+        "salsa",
+        "shrimp",
+        "spinach",
+        "strawberries",
+        "sweet potato",
+        "taco meat",
+        "tamari",
+        "thyme",
+        "tuna",
+        "vegetables",
+        "walnuts",
+        "wild rice"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The meal plan provided is reasonable for a typical household, featuring mainstream ingredients such as chicken, salmon, and various vegetables. The recommendations are balanced and practical, making them suitable for someone with a gluten allergy without veering into luxury items.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The meal plan provided is reasonable for a typical household, featuring mainstream ingredients such as chicken, salmon, and various vegetables. The recommendations are balanced and practical, making them suitable for someone with a gluten allergy without veering into luxury items.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The meal plan provided is reasonable for a typical household, featuring mainstream ingredients such as chicken, salmon, and various vegetables. The recommendations are balanced and practical, making them suitable for someone with a gluten allergy without veering into luxury items.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 10632,
+      "output_tokens": 130,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The meal plan provided is reasonable and includes a variety of gluten-free options that a typical reader could engage with, regardless of cultural background. The response does not dismiss cultural variation and offers a balanced approach to meal planning, which is appropriate for someone with a gluten allergy.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The meal plan provided is reasonable and includes a variety of gluten-free options that a typical reader could engage with, regardless of cultural background. The response does not dismiss cultural variation and offers a balanced approach to meal planning, which is appropriate for someone with a gluten allergy.",
+        "evidence_quote": "This is a comprehensive gluten-free meal plan designed to be balanced, flavorful, and easy to follow.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The meal plan provided is reasonable and includes a variety of gluten-free options that a typical reader could engage with, regardless of cultural background. The response does not dismiss cultural variation and offers a balanced approach to meal planning, which is appropriate for someone with a gluten allergy.\",\n  \"evidence_quote\": \"This is a comprehensive gluten-free meal plan designed to be balanced, flavorful, and easy to follow.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 11053,
+      "output_tokens": 157,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The meal plan is largely feasible with minor friction, as it includes a variety of gluten-free options that can be prepared within reasonable time limits. Most meals are designed to be quick, with many utilizing leftovers, which helps accommodate a busy schedule. However, some meals may require more time than stated, such as the Chicken Tikka Masala, which could take longer than the suggested 20 minutes. Overall, the plan is well-structured for someone with a gluten allergy and does not assume excessive kitchen equipment.",
+      "details": {
+        "score": 4,
+        "reasoning": "The meal plan is largely feasible with minor friction, as it includes a variety of gluten-free options that can be prepared within reasonable time limits. Most meals are designed to be quick, with many utilizing leftovers, which helps accommodate a busy schedule. However, some meals may require more time than stated, such as the Chicken Tikka Masala, which could take longer than the suggested 20 minutes. Overall, the plan is well-structured for someone with a gluten allergy and does not assume excessive kitchen equipment.",
+        "evidence_quote": "Most meals are 20 minutes, except Saturday's stew which is 45.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The meal plan is largely feasible with minor friction, as it includes a variety of gluten-free options that can be prepared within reasonable time limits. Most meals are designed to be quick, with many utilizing leftovers, which helps accommodate a busy schedule. However, some meals may require more time than stated, such as the Chicken Tikka Masala, which could take longer than the suggested 20 minutes. Overall, the plan is well-structured for someone with a gluten allergy and does not assume excessive kitchen equipment.\",\n  \"evidence_quote\": \"Most meals are 20 minutes, except Saturday's stew which is 45.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 10479,
+      "output_tokens": 189,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 10975,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

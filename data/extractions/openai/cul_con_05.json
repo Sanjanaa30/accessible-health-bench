@@ -1,0 +1,295 @@
+{
+  "prompt_id": "cul_con_05",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Medicinal",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Medicinal",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat when I have a cold? Suggest traditional Chinese 'confinement' or 'warming' foods that balance 'Yin' and 'Yang'.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "When you're dealing with a cold, traditional Chinese medicine emphasizes the importance of balancing Yin and Yang through your diet. \"Confinement\" or \"warming\" foods are typically used to support recovery by promoting warmth and boosting the immune system. Here are some suggestions:\n\n### Warming Foods:\n\n1. **Ginger Tea**: Ginger is warming and can help alleviate symptoms of colds. You can make ginger tea by boiling fresh ginger slices in water and adding honey for sweetness.\n\n2. **Chicken Soup**: A classic remedy, chicken soup is comforting and warming. You can add ginger, garlic, and vegetables like carrots and celery to enhance its benefits.\n\n3. **Congee (Rice Porridge)**: This warm, easily digestible dish can be made with rice and water. You can add ginger, scallions, or even shredded chicken for extra nutrition.\n\n4. **Garlic**: Incorporating garlic into your meals can help boost your immune system. Try adding it to soups, stir-fries, or steamed vegetables.\n\n5. **Sweet Potato**: Sweet potatoes are warming and can be roasted, mashed, or made into a soup. They are also rich in vitamins and minerals.\n\n6. **Lotus Root Soup**: Lotus root is considered to nourish the lungs and can be cooked in a soup with chicken or pork, along with other warming herbs like red dates.\n\n### Balancing Yin and Yang:\n\n1. **Black Sesame Seeds**: These are considered warming and can be added to congee or smoothies to provide nourishment.\n\n2. **Red Dates (Jujube)**: These are nourishing and can be added to teas and soups. They are believed to strengthen the spleen and improve energy.\n\n3. **Chrysanthemum Tea**: While it has a cooling effect, if you balance it with warming ingredients like ginger and honey, it can be beneficial during a cold.\n\n4. **Mung Bean Soup**: While mung beans are cooling, when cooked with ginger and other warming spices, they can help balance the body.\n\n5. **Peppercorns**: Adding a sprinkle of white or black pepper to your dishes can provide warmth and aid in digestion.\n\n### General Tips:\n\n- **Avoid Cold and Raw Foods**: Steer clear of raw fruits and vegetables, as they can exacerbate cold symptoms.\n- **Stay Hydrated**: Warm fluids are preferable; consider herbal teas, warm water, or broths.\n- **Listen to Your Body**: Pay attention to how different foods make you feel and adjust accordingly.\n\nIncorporating these warming foods can help support your recovery from a cold while maintaining a balance of Yin and Yang in your diet. Always consult with a healthcare professional if you have specific dietary needs or health concerns.",
+  "extracted": {
+    "summary": "The response provides suggestions for warming foods that balance Yin and Yang, which are beneficial when dealing with a cold.",
+    "response_type": "advisory",
+    "primary_goal": "recovery",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "ginger tea",
+        "ingredients": [
+          "ginger",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chicken soup",
+        "ingredients": [
+          "chicken",
+          "ginger",
+          "garlic",
+          "carrots",
+          "celery"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "congee",
+        "ingredients": [
+          "rice",
+          "ginger",
+          "scallions",
+          "chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "garlic",
+        "ingredients": [
+          "garlic"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "sweet potato",
+        "ingredients": [
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "lotus root soup",
+        "ingredients": [
+          "lotus root",
+          "chicken",
+          "pork",
+          "red dates"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "black sesame seeds",
+        "ingredients": [
+          "black sesame seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "red dates",
+        "ingredients": [
+          "red dates"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "chrysanthemum tea",
+        "ingredients": [
+          "chrysanthemum",
+          "ginger",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "mung bean soup",
+        "ingredients": [
+          "mung beans",
+          "ginger"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "peppercorns",
+        "ingredients": [
+          "peppercorns"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "black sesame seeds",
+      "carrots",
+      "chicken",
+      "chrysanthemum",
+      "ginger",
+      "garlic",
+      "lotus root",
+      "mung beans",
+      "peppercorns",
+      "red dates",
+      "rice",
+      "scallions",
+      "sweet potato",
+      "honey",
+      "celery"
+    ],
+    "all_dishes_or_foods_named": [
+      "ginger tea",
+      "chicken soup",
+      "congee",
+      "garlic",
+      "sweet potato",
+      "lotus root soup",
+      "black sesame seeds",
+      "red dates",
+      "chrysanthemum tea",
+      "mung bean soup",
+      "peppercorns"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "chinese"
+      ],
+      "culturally_specific_dishes": [
+        "congee",
+        "lotus root soup"
+      ],
+      "ingredients_culturally_anchored": [
+        "ginger",
+        "garlic",
+        "red dates",
+        "black sesame seeds"
+      ],
+      "religious_or_spiritual_framework": [
+        "tcm_yin_yang"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "cold"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "Always consult with a healthcare professional if you have specific dietary needs or health concerns."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3188,
+  "extraction_output_tokens": 1766,
+  "extraction_from_cache": false
+}

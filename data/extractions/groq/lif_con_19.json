@@ -1,0 +1,378 @@
+{
+  "prompt_id": "lif_con_19",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a healthy meal plan for someone who shares a kitchen with many roommates and has limited time/space.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the constraints of sharing a kitchen with many roommates and having limited time and space, a healthy meal plan should focus on simplicity, flexibility, and minimal cleanup. Here's a suggested meal plan:\n\n**Breakfast Ideas**\n\n1. Overnight oats: Prepare a jar or container with rolled oats, milk, and your choice of nuts, seeds, or fruit the night before.\n2. Avocado toast: Toast whole-grain bread, mash an avocado, and add a sliced egg or tomato for protein.\n3. Yogurt parfait: Layer Greek yogurt, granola, and fresh fruit in a bowl.\n4. Smoothie: Blend your favorite fruits, yogurt, and milk to create a quick and nutritious breakfast.\n\n**Lunch Ideas**\n\n1. Salads in a jar: Prepare a week's worth of salad jars with mixed greens, veggies, and proteins like beans, tuna, or chicken.\n2. Whole-grain wraps: Fill wraps with hummus, veggies, and lean proteins like turkey or chicken.\n3. Soup and crackers: Heat up a canned or homemade soup and pair it with whole-grain crackers.\n4. Quesadillas: Fill whole-grain tortillas with beans, cheese, and veggies for a quick and easy meal.\n\n**Dinner Ideas**\n\n1. One-pot meals: Cook meals like lentil soup, chili, or stir-fries in a single pot to minimize cleanup.\n2. Slow cooker meals: Prepare a slow cooker recipe like chicken and rice or black bean tacos that can simmer all day.\n3. Omelette and veggies: Whip up an omelette with eggs, veggies, and cheese for a protein-packed dinner.\n4. Grilled chicken and veggies: Grill chicken and veggies in a foil packet for a quick and easy meal.\n\n**Snacks**\n\n1. Fresh fruit: Keep a bowl of fresh fruit on the counter for a quick snack.\n2. Nuts and seeds: Store nuts and seeds like almonds, cashews, and pumpkin seeds in a jar for a healthy snack.\n3. Energy balls: Prepare a batch of energy balls with oats, nuts, and dried fruit for a convenient snack.\n4. Yogurt and honey: Mix together yogurt and honey for a sweet and satisfying snack.\n\n**Tips for Sharing a Kitchen**\n\n1. Label and date your food: Use labels and dates to keep track of your food and avoid confusion with your roommates.\n2. Store food in airtight containers: Keep your food fresh and secure in airtight containers to prevent spoilage and contamination.\n3. Clean up as you go: Wash dishes and wipe down surfaces as you cook to minimize cleanup and maintain a clean kitchen.\n4. Communicate with your roommates: Discuss kitchen etiquette and schedules with your roommates to avoid conflicts and ensure a harmonious kitchen environment.\n\n**Time-Saving Tips**\n\n1. Meal prep: Set aside time on the weekends to prepare meals for the week ahead.\n2. Use leftovers: Transform last night's dinner into tomorrow's lunch or use leftovers to create a new meal.\n3. Keep it simple: Focus on simple, one-pot meals that require minimal ingredients and cleanup.\n4. Use a slow cooker: Let a slow cooker do the work for you, simmering meals all day while you're busy with other activities.\n\nBy following this meal plan and incorporating these tips, you can enjoy healthy, delicious meals despite the challenges of sharing a kitchen with many roommates and having limited time and space.",
+  "extracted": {
+    "summary": "The response provides a healthy meal plan suitable for someone sharing a kitchen with roommates, focusing on simplicity and minimal cleanup.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "milk",
+          "nuts",
+          "seeds",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "whole-grain bread",
+          "avocado",
+          "egg",
+          "tomato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "toasting",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "fresh fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "fruits",
+          "yogurt",
+          "milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "salads in a jar",
+        "ingredients": [
+          "mixed greens",
+          "veggies",
+          "beans",
+          "tuna",
+          "chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "whole-grain wraps",
+        "ingredients": [
+          "wraps",
+          "hummus",
+          "veggies",
+          "turkey",
+          "chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "soup and crackers",
+        "ingredients": [
+          "soup",
+          "whole-grain crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "heating",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "quesadillas",
+        "ingredients": [
+          "whole-grain tortillas",
+          "beans",
+          "cheese",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "one-pot meals",
+        "ingredients": [
+          "lentils",
+          "vegetables",
+          "spices"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "slow cooker meals",
+        "ingredients": [
+          "chicken",
+          "rice",
+          "black beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "omelette and veggies",
+        "ingredients": [
+          "eggs",
+          "veggies",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken and veggies",
+        "ingredients": [
+          "chicken",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fresh fruit",
+        "ingredients": [
+          "fresh fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts and seeds",
+        "ingredients": [
+          "nuts",
+          "seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "energy balls",
+        "ingredients": [
+          "oats",
+          "nuts",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "yogurt and honey",
+        "ingredients": [
+          "yogurt",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "beans",
+      "chicken",
+      "dried fruit",
+      "eggs",
+      "energy balls",
+      "fruit",
+      "fresh fruit",
+      "garlic",
+      "granola",
+      "greek yogurt",
+      "honey",
+      "hummus",
+      "lentils",
+      "milk",
+      "mixed greens",
+      "nuts",
+      "oats",
+      "rice",
+      "salad",
+      "seeds",
+      "soup",
+      "tuna",
+      "turkey",
+      "veggies",
+      "whole-grain bread",
+      "whole-grain crackers",
+      "whole-grain tortillas"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "avocado toast",
+      "yogurt parfait",
+      "smoothie",
+      "salads in a jar",
+      "whole-grain wraps",
+      "soup and crackers",
+      "quesadillas",
+      "one-pot meals",
+      "slow cooker meals",
+      "omelette and veggies",
+      "grilled chicken and veggies",
+      "fresh fruit",
+      "nuts and seeds",
+      "energy balls",
+      "yogurt and honey"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "shared",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "roommates",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3299,
+  "extraction_output_tokens": 2313,
+  "extraction_from_cache": false
+}

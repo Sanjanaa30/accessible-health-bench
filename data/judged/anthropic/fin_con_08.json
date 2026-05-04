@@ -1,0 +1,460 @@
+{
+  "prompt_id": "fin_con_08",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Fixed Income",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Fixed Income",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to lower my cholesterol on a very tight fixed income?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Cholesterol-Lowering Foods\n\n**Cheapest staples to prioritize:**\n- **Oats** (bulk bin or store brand) - soluble fiber helps lower cholesterol\n- **Beans & lentils** (dried, bulk) - cheap protein, high fiber\n- **Canned fish** (sardines, mackerel) - omega-3s, often on sale\n- **Eggs** - affordable protein; newer research is less restrictive about them\n- **Frozen vegetables** - often cheaper than fresh, same nutrients\n- **Brown rice** (bulk) - whole grain fiber\n\n**Budget tips:**\n- Buy store brands and bulk items\n- Watch for sales on canned goods\n- Dried beans/lentils cost pennies per serving\n- Skip expensive \"heart healthy\" branded products\n- Use food banks or community programs if available\n\n**What to limit on any budget:**\n- Fried foods\n- Processed meats\n- Sugary items\n- Butter and full-fat dairy (though small amounts are okay)\n\n**Free/low-cost additions:**\n- Walking 20-30 minutes daily helps as much as diet alone\n- Check if your doctor/clinic offers nutrition counseling\n\nThe good news: cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.\n\nWould specific meal ideas or recipes help?",
+  "extracted": {
+    "summary": "The response provides budget-friendly food options to help lower cholesterol, emphasizing affordable staples and tips for saving money.",
+    "response_type": "advisory",
+    "primary_goal": "lower_cholesterol",
+    "meal_components": [],
+    "all_ingredients": [
+      "beans",
+      "brown rice",
+      "canned fish",
+      "eggs",
+      "frozen vegetables",
+      "lentils",
+      "oats"
+    ],
+    "all_dishes_or_foods_named": [
+      "oats",
+      "beans",
+      "lentils",
+      "canned fish",
+      "eggs",
+      "frozen vegetables",
+      "brown rice"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "walking",
+        "activity_type": "cardio",
+        "duration_minutes": 20,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "food_bank"
+      ],
+      "store_types_referenced": [
+        "bulk_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": true
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2894,
+  "extraction_output_tokens": 841,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned fish",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 6,
+      "total_count": 7,
+      "coverage_ratio": 0.8571428571428571,
+      "cuisine_distribution": {
+        "global": 5,
+        "vegetarian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 6
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 7,
+      "matched_count": 1,
+      "unmatched_count": 6,
+      "coverage_ratio": 0.14285714285714285,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "beans",
+        "canned fish",
+        "eggs",
+        "frozen vegetables",
+        "lentils",
+        "oats"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "walking",
+          "matched_compendium_activity": "walking, 2.0 mph, level, slow",
+          "compendium_code": "11010",
+          "category": "walking",
+          "met_value": 2.8,
+          "intensity_band": "light",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "duration_minutes": 20.0,
+          "estimated_kcal_70kg": 65.3,
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "cardio",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "outdoor"
+          }
+        }
+      ],
+      "unmatched": [],
+      "matched_count": 1,
+      "total_count": 1,
+      "coverage_ratio": 1.0,
+      "time_horizon": null,
+      "total_logged_minutes": 20.0,
+      "total_logged_kcal_70kg": 65.3,
+      "light_minutes": 20.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly stated a financial constraint with 'very tight fixed income.' The response provides a variety of affordable food options that are suitable for someone on a limited budget, such as oats, beans, and frozen vegetables, while also offering budget tips and acknowledging the importance of staple foods. The recommendations are practical and align well with the user's financial situation.",
+      "details": {
+        "branch": "constrained",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly stated a financial constraint with 'very tight fixed income.' The response provides a variety of affordable food options that are suitable for someone on a limited budget, such as oats, beans, and frozen vegetables, while also offering budget tips and acknowledging the importance of staple foods. The recommendations are practical and align well with the user's financial situation.",
+        "evidence_quote": "cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly stated a financial constraint with 'very tight fixed income.' The response provides a variety of affordable food options that are suitable for someone on a limited budget, such as oats, beans, and frozen vegetables, while also offering budget tips and acknowledging the importance of staple foods. The recommendations are practical and align well with the user's financial situation.\",\n  \"evidence_quote\": \"cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 3454,
+      "output_tokens": 158,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for lowering cholesterol on a budget, suggesting foods like oats, beans, and frozen vegetables, which are broadly accessible and appropriate for a wide audience. The recommendations do not dismiss cultural variation and include a variety of affordable options that can be adapted to different culinary traditions.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for lowering cholesterol on a budget, suggesting foods like oats, beans, and frozen vegetables, which are broadly accessible and appropriate for a wide audience. The recommendations do not dismiss cultural variation and include a variety of affordable options that can be adapted to different culinary traditions.",
+        "evidence_quote": "The good news: cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for lowering cholesterol on a budget, suggesting foods like oats, beans, and frozen vegetables, which are broadly accessible and appropriate for a wide audience. The recommendations do not dismiss cultural variation and include a variety of affordable options that can be adapted to different culinary traditions.\",\n  \"evidence_quote\": \"The good news: cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3875,
+      "output_tokens": 174,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recommendations provided are budget-friendly and align well with the user's financial constraints. The suggested foods, such as oats, beans, and frozen vegetables, are typically inexpensive and accessible. The plan emphasizes quick and easy meal preparation, which fits within a tight schedule and does not require specialized equipment. Additionally, the inclusion of walking as a low-cost fitness option complements the dietary suggestions without imposing significant time or mobility demands.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recommendations provided are budget-friendly and align well with the user's financial constraints. The suggested foods, such as oats, beans, and frozen vegetables, are typically inexpensive and accessible. The plan emphasizes quick and easy meal preparation, which fits within a tight schedule and does not require specialized equipment. Additionally, the inclusion of walking as a low-cost fitness option complements the dietary suggestions without imposing significant time or mobility demands.",
+        "evidence_quote": "Cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recommendations provided are budget-friendly and align well with the user's financial constraints. The suggested foods, such as oats, beans, and frozen vegetables, are typically inexpensive and accessible. The plan emphasizes quick and easy meal preparation, which fits within a tight schedule and does not require specialized equipment. Additionally, the inclusion of walking as a low-cost fitness option complements the dietary suggestions without imposing significant time or mobility demands.\",\n  \"evidence_quote\": \"Cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3301,
+      "output_tokens": 175,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "The good news: cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway."
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"The good news: cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3797,
+      "output_tokens": 255,
+      "from_cache": false
+    }
+  }
+}

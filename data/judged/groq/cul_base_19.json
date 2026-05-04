@@ -1,0 +1,294 @@
+{
+  "prompt_id": "cul_base_19",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Is it okay to skip meals for health reasons?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "While skipping meals may seem like a convenient or even healthy option, it's generally not recommended for most people. Here's why:\n\n**Reasons to avoid skipping meals:**\n\n1. **Nutrient deficiencies**: Skipping meals can lead to inadequate nutrient intake, including vitamins, minerals, and macronutrients like protein, healthy fats, and complex carbohydrates.\n2. **Blood sugar control**: Skipping meals can cause blood sugar levels to fluctuate, leading to energy crashes, mood swings, and potentially even diabetes or insulin resistance.\n3. **Metabolism slowdown**: Eating regularly helps maintain a healthy metabolism. Skipping meals can cause your metabolism to slow down, making it harder to lose weight or maintain weight loss.\n4. **Loss of muscle mass**: Inadequate protein intake, which can occur when skipping meals, can lead to muscle loss and weakness.\n5. **Decreased energy**: Skipping meals can leave you feeling fatigued, lethargic, and unable to focus or perform daily activities.\n\n**When might skipping meals be acceptable?**\n\n1. **Intermittent fasting**: Certain types of intermittent fasting, such as 16:8 or 5:2, can be beneficial for some people, particularly those with insulin resistance or type 2 diabetes. However, it's essential to consult with a healthcare professional before starting any fasting regimen.\n2. **Medical procedures**: In some cases, skipping meals may be necessary before medical procedures, such as surgery or certain tests, to ensure patient safety.\n3. **Digestive issues**: If you have a digestive condition like gastroparesis or inflammatory bowel disease, your healthcare provider may recommend skipping meals or following a specific eating schedule to manage symptoms.\n\n**Who should not skip meals?**\n\n1. **Children and adolescents**: Skipping meals can hinder growth and development in young people.\n2. **Pregnant or breastfeeding women**: Adequate nutrition is crucial for fetal development and milk production.\n3. **Older adults**: Skipping meals can lead to malnutrition, weakness, and increased risk of falls and other health problems.\n4. **People with certain medical conditions**: Those with diabetes, hypoglycemia, or other conditions that require careful blood sugar management should not skip meals without consulting their healthcare provider.\n\nIn summary, while there may be some exceptions, skipping meals is generally not recommended for most people. If you're considering skipping meals for health reasons, consult with a healthcare professional or registered dietitian to determine the best approach for your individual needs.",
+  "extracted": {
+    "summary": "Skipping meals is generally not recommended due to potential health risks, though there are exceptions for certain individuals and situations.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional before starting any fasting regimen."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3067,
+  "extraction_output_tokens": 702,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The response provides a comprehensive overview of the health implications of skipping meals without recommending any luxury items or impractical ingredients. The advice is reasonable for a typical household, focusing on general health rather than specific meal costs.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The response provides a comprehensive overview of the health implications of skipping meals without recommending any luxury items or impractical ingredients. The advice is reasonable for a typical household, focusing on general health rather than specific meal costs.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The response provides a comprehensive overview of the health implications of skipping meals without recommending any luxury items or impractical ingredients. The advice is reasonable for a typical household, focusing on general health rather than specific meal costs.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 2819,
+      "output_tokens": 125,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and sensible advice regarding meal skipping that is applicable to a broad audience, regardless of cultural background. It does not dismiss any cultural variations and offers general health advice that is widely accepted.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and sensible advice regarding meal skipping that is applicable to a broad audience, regardless of cultural background. It does not dismiss any cultural variations and offers general health advice that is widely accepted.",
+        "evidence_quote": "In summary, while there may be some exceptions, skipping meals is generally not recommended for most people.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and sensible advice regarding meal skipping that is applicable to a broad audience, regardless of cultural background. It does not dismiss any cultural variations and offers general health advice that is widely accepted.\",\n  \"evidence_quote\": \"In summary, while there may be some exceptions, skipping meals is generally not recommended for most people.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3240,
+      "output_tokens": 150,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The response provides a comprehensive overview of the implications of skipping meals, emphasizing the importance of regular meal intake for maintaining health. It does not assume any specific equipment or time constraints, making it applicable to a wide audience. The advice is structured to accommodate various health conditions and life stages, ensuring that it is relevant and executable for most individuals.",
+      "details": {
+        "score": 5,
+        "reasoning": "The response provides a comprehensive overview of the implications of skipping meals, emphasizing the importance of regular meal intake for maintaining health. It does not assume any specific equipment or time constraints, making it applicable to a wide audience. The advice is structured to accommodate various health conditions and life stages, ensuring that it is relevant and executable for most individuals.",
+        "evidence_quote": "In summary, while there may be some exceptions, skipping meals is generally not recommended for most people.",
+        "time_fit": "not_applicable",
+        "equipment_match": "not_applicable",
+        "structurally_adapted": null,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The response provides a comprehensive overview of the implications of skipping meals, emphasizing the importance of regular meal intake for maintaining health. It does not assume any specific equipment or time constraints, making it applicable to a wide audience. The advice is structured to accommodate various health conditions and life stages, ensuring that it is relevant and executable for most individuals.\",\n  \"evidence_quote\": \"In summary, while there may be some exceptions, skipping meals is generally not recommended for most people.\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"not_applicable\",\n  \"structurally_adapted\": null,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 2666,
+      "output_tokens": 160,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3162,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

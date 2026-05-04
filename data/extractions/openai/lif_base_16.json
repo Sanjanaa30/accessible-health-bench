@@ -1,0 +1,287 @@
+{
+  "prompt_id": "lif_base_16",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a fitness and diet plan.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a fitness and diet plan requires consideration of your individual goals, preferences, current fitness level, and any dietary restrictions. Below is a general 4-week fitness and diet plan designed for someone looking to improve overall fitness and health. Always consult a healthcare provider or a registered dietitian before starting any new diet or exercise program.\n\n### Fitness Plan\n**Frequency**: 5 days a week (3 days strength training, 2 days cardio)\n\n#### Week 1-4 Overview\n- **Day 1**: Strength Training (Upper Body)\n- **Day 2**: Cardio (Interval Training)\n- **Day 3**: Strength Training (Lower Body)\n- **Day 4**: Rest or Active Recovery\n- **Day 5**: Strength Training (Full Body)\n- **Day 6**: Cardio (Steady-State)\n- **Day 7**: Rest or Yoga/Flexibility\n\n#### Sample Workouts\n**Strength Training (Upper Body)**\n- Push-ups: 3 sets of 10-15 reps\n- Dumbbell Bench Press: 3 sets of 10-12 reps\n- Bent-over Rows: 3 sets of 10-12 reps\n- Shoulder Press: 3 sets of 10-12 reps\n- Tricep Dips: 3 sets of 10-15 reps\n\n**Cardio (Interval Training)**\n- Warm-up: 5-10 minutes of light jogging\n- 30 seconds sprint, followed by 1 minute walking (repeat for 20-30 minutes)\n- Cool down: 5-10 minutes of walking\n\n**Strength Training (Lower Body)**\n- Squats: 3 sets of 10-15 reps\n- Lunges: 3 sets of 10-12 reps per leg\n- Deadlifts: 3 sets of 10-12 reps\n- Calf Raises: 3 sets of 15-20 reps\n- Glute Bridges: 3 sets of 15 reps\n\n**Strength Training (Full Body)**\n- Burpees: 3 sets of 10-12 reps\n- Kettlebell Swings: 3 sets of 15 reps\n- Plank: 3 sets of 30-60 seconds\n- Mountain Climbers: 3 sets of 15-20 reps\n- Russian Twists: 3 sets of 15-20 reps per side\n\n**Cardio (Steady-State)**\n- 30-45 minutes of moderate-intensity cardio (jogging, cycling, swimming)\n\n### Diet Plan\n**Caloric Intake**: Depending on your goals (weight loss, maintenance, muscle gain). A typical range might be 1,500-2,500 calories per day. Adjust based on individual needs.\n\n#### Sample Daily Meal Plan\n**Breakfast**\n- Scrambled eggs (2-3) with spinach and tomatoes\n- 1 slice of whole-grain toast\n- 1 small fruit (banana or apple)\n\n**Snack**\n- Greek yogurt with a handful of berries\n- A sprinkle of nuts or seeds\n\n**Lunch**\n- Grilled chicken or tofu salad with mixed greens, cherry tomatoes, cucumbers, and a vinaigrette\n- Quinoa or brown rice (1/2 cup)\n\n**Snack**\n- Baby carrots or celery sticks with hummus\n\n**Dinner**\n- Baked salmon or chickpeas\n- Steamed broccoli and sweet potatoes (1 cup)\n\n**Snack (if needed)**\n- A small portion of dark chocolate or a protein shake\n\n### Tips for Success\n- **Hydration**: Drink plenty of water throughout the day (at least 8 cups).\n- **Meal Prep**: Prepare meals in advance to stay on track.\n- **Sleep**: Aim for 7-9 hours of quality sleep each night.\n- **Listen to Your Body**: Adjust workouts and rest as needed.\n- **Track Progress**: Keep a journal of workouts and meals to monitor progress.\n\n### Modifications\nFeel free to adjust the workouts and meals based on your preferences, allergies, and dietary restrictions. If you have specific goals (like weight loss or muscle gain), consider working with a fitness or nutrition professional for personalized guidance.",
+  "extracted": {
+    "summary": "The response provides a 4-week fitness and diet plan aimed at improving overall fitness and health, including structured workouts and a sample meal plan.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach and tomatoes",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes",
+          "whole-grain toast",
+          "banana",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "nuts",
+          "seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken or tofu salad",
+        "ingredients": [
+          "grilled chicken",
+          "tofu",
+          "mixed greens",
+          "cherry tomatoes",
+          "cucumbers",
+          "vinaigrette",
+          "quinoa",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "baby carrots or celery sticks with hummus",
+        "ingredients": [
+          "baby carrots",
+          "celery sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked salmon or chickpeas",
+        "ingredients": [
+          "salmon",
+          "chickpeas",
+          "broccoli",
+          "sweet potatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "dark chocolate or protein shake",
+        "ingredients": [
+          "dark chocolate",
+          "protein shake"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "apple",
+      "baby carrots",
+      "banana",
+      "broccoli",
+      "brown rice",
+      "chickpeas",
+      "cherry tomatoes",
+      "dark chocolate",
+      "dumbbells",
+      "eggs",
+      "greek yogurt",
+      "grilled chicken",
+      "hummus",
+      "mixed greens",
+      "nuts",
+      "protein shake",
+      "quinoa",
+      "salmon",
+      "seeds",
+      "shoulder press",
+      "spinach",
+      "sweet potatoes",
+      "tofu",
+      "tricep dips"
+    ],
+    "all_dishes_or_foods_named": [
+      "baked salmon",
+      "baby carrots",
+      "chickpeas",
+      "dark chocolate",
+      "greek yogurt",
+      "hummus",
+      "mixed greens",
+      "protein shake",
+      "quinoa",
+      "salad",
+      "scrambled eggs",
+      "sweet potatoes"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "strength training (upper body)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "cardio (interval training)",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "strength training (lower body)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "strength training (full body)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Day 6",
+        "activity_name": "cardio (steady-state)",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "dumbbells"
+      ],
+      "fitness_space_required": "gym",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consult a healthcare provider or a registered dietitian before starting any new diet or exercise program."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3418,
+  "extraction_output_tokens": 1815,
+  "extraction_from_cache": false
+}

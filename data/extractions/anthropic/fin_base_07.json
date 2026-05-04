@@ -1,0 +1,118 @@
+{
+  "prompt_id": "fin_base_07",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best fruits to eat for skin health?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Best Fruits for Skin Health\n\n**Berries** (blueberries, strawberries, raspberries)\n- High in antioxidants that protect against damage\n- May help reduce inflammation\n\n**Citrus fruits** (oranges, lemons, grapefruits)\n- Rich in vitamin C, which supports collagen production\n- Brightens and strengthens skin\n\n**Avocados**\n- Contain healthy fats and vitamin E\n- Help maintain skin moisture and elasticity\n\n**Pomegranates**\n- Packed with antioxidants\n- May improve blood flow to skin\n\n**Kiwis**\n- Excellent vitamin C source\n- Support skin firmness\n\n**Watermelon**\n- High water content aids hydration\n- Contains lycopene (antioxidant)\n\n**Papayas**\n- Contain enzymes that support skin renewal\n- Good vitamin C content\n\n## Why they work\nThese fruits provide vitamins (especially C), antioxidants, healthy fats, and hydration—all important for skin barrier function, collagen production, and protection from damage.\n\n**Note:** Diet is one factor in skin health. Sun protection, hydration, sleep, and skincare routine matter too. If you have specific skin concerns, consulting a dermatologist is helpful.",
+  "extracted": {
+    "summary": "The response recommends various fruits that are beneficial for skin health, highlighting their nutritional properties.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "avocado",
+      "berries",
+      "blueberries",
+      "grapefruit",
+      "kiwi",
+      "lemon",
+      "orange",
+      "papaya",
+      "pomegranate",
+      "raspberry",
+      "strawberry",
+      "watermelon"
+    ],
+    "all_dishes_or_foods_named": [
+      "berries",
+      "citrus fruits",
+      "avocados",
+      "pomegranates",
+      "kiwis",
+      "watermelon",
+      "papayas"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Diet is one factor in skin health. Sun protection, hydration, sleep, and skincare routine matter too. If you have specific skin concerns, consulting a dermatologist is helpful."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2793,
+  "extraction_output_tokens": 823,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,902 @@
+{
+  "prompt_id": "fin_con_13",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a workout plan and a diet to help me lose 10 lbs. I have $0 for a gym membership and my total food budget is $4 per day.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the constraints, I'll provide a workout plan and diet that can help you lose 10 lbs without a gym membership and with a limited food budget of $4 per day.\n\n**Workout Plan:**\n\nSince you don't have access to a gym, we'll focus on bodyweight exercises and outdoor activities. Here's a 4-day per week workout plan:\n\n1. Monday (Upper Body):\n\t* Push-ups: 3 sets of 10 reps\n\t* Tricep dips (using a chair or bench): 3 sets of 10 reps\n\t* Arm circles (holding light weights or water bottles): 3 sets of 10 reps\n\t* Plank: 3 sets of 30-second hold\n2. Tuesday (Lower Body):\n\t* Squats: 3 sets of 10 reps\n\t* Calf raises (using bodyweight or a step): 3 sets of 15 reps\n\t* Lunges: 3 sets of 10 reps (per leg)\n\t* Glute bridges: 3 sets of 10 reps\n3. Thursday (Core):\n\t* Russian twists (using a light weight or water bottle): 3 sets of 10 reps\n\t* Leg raises (hanging from a door or bar): 3 sets of 10 reps\n\t* Bicycle crunches: 3 sets of 10 reps\n\t* Wall sit: 3 sets of 30-second hold\n4. Friday (Cardio):\n\t* Brisk walking or jogging: 30 minutes\n\t* Jumping jacks: 3 sets of 30 seconds\n\t* Burpees: 3 sets of 10 reps\n\n**Diet Plan:**\n\nWith a daily food budget of $4, we'll focus on affordable and nutrient-dense foods. Here's a sample meal plan:\n\n* Breakfast: Oatmeal with banana and honey ($1.50)\n\t+ 1 cup rolled oats\n\t+ 1 banana\n\t+ 1 tsp honey\n* Lunch: Peanut butter and jelly sandwich with carrot sticks ($1.50)\n\t+ 2 slices whole wheat bread\n\t+ 2 tbsp peanut butter\n\t+ 2 tbsp jelly\n\t+ 4-5 carrot sticks\n* Snack: Apple slices with almonds ($0.50)\n\t+ 1 medium apple\n\t+ 1 oz almonds\n* Dinner: Black bean and rice bowl ($1.50)\n\t+ 1 cup cooked black beans\n\t+ 1 cup cooked white rice\n\t+ 1 cup mixed greens\n\n**Tips and Swaps:**\n\n* Drink water instead of sugary drinks to save money and calories.\n* Buy in bulk and plan meals around staples like oats, rice, beans, and canned goods.\n* Use herbs and spices to add flavor instead of relying on expensive sauces.\n* Shop for seasonal produce to get the best prices.\n* Consider shopping at discount stores or using cashback apps to stretch your budget.\n\n**Sample Grocery List:**\n\n* Oats (1 bag, $2)\n* Bananas (4-5, $1)\n* Peanut butter (1 jar, $2)\n* Jelly (1 jar, $1)\n* Whole wheat bread (1 loaf, $2)\n* Carrots (1 bunch, $0.60)\n* Apples (4-5, $2)\n* Almonds (1 bag, $5) (use sparingly or swap with cheaper nuts)\n* Black beans (1 can, $1)\n* Rice (1 bag, $1)\n* Mixed greens (1 bag, $1)\n\n**Remember:**\n\n* Losing weight too quickly is not healthy. Aim for a sustainable weight loss of 1-2 lbs per week.\n* Consult with a healthcare professional or registered dietitian before starting any new diet or exercise plan.\n* Be patient and consistent with your workout and diet plan. It may take some time to see results, but with dedication and hard work, you can reach your goal of losing 10 lbs.",
+  "extracted": {
+    "summary": "The response provides a workout plan focused on bodyweight exercises and a diet plan that fits a $4 daily budget to help lose 10 lbs.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and honey",
+        "ingredients": [
+          "rolled oats",
+          "banana",
+          "honey"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "peanut butter and jelly sandwich with carrot sticks",
+        "ingredients": [
+          "whole wheat bread",
+          "peanut butter",
+          "jelly",
+          "carrot"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "apple slices with almonds",
+        "ingredients": [
+          "apple",
+          "almonds"
+        ],
+        "estimated_cost_usd": 0.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "black bean and rice bowl",
+        "ingredients": [
+          "black beans",
+          "white rice",
+          "mixed greens"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "banana",
+      "black beans",
+      "carrot",
+      "honey",
+      "mixed greens",
+      "peanut butter",
+      "rolled oats",
+      "white rice",
+      "whole wheat bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with banana and honey",
+      "peanut butter and jelly sandwich with carrot sticks",
+      "apple slices with almonds",
+      "black bean and rice bowl"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "arm circles",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "bicycle crunches",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "wall sit",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "brisk walking or jogging",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "jumping jacks",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "burpees",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 4,
+      "cost_period": "per_day",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "home",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Losing weight too quickly is not healthy. Aim for a sustainable weight loss of 1-2 lbs per week.",
+      "Consult with a healthcare professional or registered dietitian before starting any new diet or exercise plan."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3444,
+  "extraction_output_tokens": 2135,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "apple slices with almond",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "black bean",
+          "cuisines": [
+            "brazilian",
+            "latin_american",
+            "portuguese"
+          ],
+          "countries": [
+            "South Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "black bean and rice bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed green",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oatmeal with banana and honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "peanut butter and jelly sandwich with carrot stick",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rolled oat",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "white rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole wheat bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 9,
+      "total_count": 14,
+      "coverage_ratio": 0.6428571428571429,
+      "cuisine_distribution": {
+        "global": 4,
+        "vegetarian": 3,
+        "brazilian": 1,
+        "latin_american": 1,
+        "portuguese": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1
+      },
+      "western_centricity_ratio": 0.062,
+      "western_tag_count": 1,
+      "total_tag_count": 16
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 10,
+      "matched_count": 2,
+      "unmatched_count": 8,
+      "coverage_ratio": 0.2,
+      "matched": [
+        {
+          "ingredient": "white rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "whole wheat bread",
+          "matched_bls_item": "bread, whole wheat, pan",
+          "price_usd": 2.747,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almonds",
+        "banana",
+        "black beans",
+        "carrot",
+        "honey",
+        "mixed greens",
+        "peanut butter",
+        "rolled oats"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": 28.0,
+      "response_cost_period_status": "normalized",
+      "response_cost_vs_thrifty_ratio": 0.429,
+      "classification": "well_below_thrifty"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "push-ups",
+          "matched_compendium_activity": "push-ups",
+          "compendium_code": "_custom_push_ups",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Monday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "plank",
+          "matched_compendium_activity": "plank",
+          "compendium_code": "_custom_plank",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Monday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "squats",
+          "matched_compendium_activity": "squats",
+          "compendium_code": "_custom_squats",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "lunges",
+          "matched_compendium_activity": "lunges",
+          "compendium_code": "_custom_lunges",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "jumping jacks",
+          "matched_compendium_activity": "jumping jacks",
+          "compendium_code": "_custom_jumping_jacks",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_from_02012",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Friday",
+            "activity_type": "cardio",
+            "intensity_self_reported": "high",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "burpees",
+          "matched_compendium_activity": "burpees",
+          "compendium_code": "_custom_burpees",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_from_02012",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Friday",
+            "activity_type": "cardio",
+            "intensity_self_reported": "high",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "tricep dips",
+        "arm circles",
+        "calf raises",
+        "glute bridges",
+        "russian twists",
+        "leg raises",
+        "bicycle crunches",
+        "wall sit",
+        "brisk walking or jogging"
+      ],
+      "matched_count": 6,
+      "total_count": 15,
+      "coverage_ratio": 0.4,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 3,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a financial constraint of $4 per day for food. The response acknowledges the budget but includes some items that may be considered luxury or mid-priced, such as almonds and honey, without offering sufficient substitutions. The overall cost of the proposed diet appears to be borderline with respect to the stated budget, as some items may exceed the user's financial limits.",
+      "details": {
+        "branch": "constrained",
+        "score": 3,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a financial constraint of $4 per day for food. The response acknowledges the budget but includes some items that may be considered luxury or mid-priced, such as almonds and honey, without offering sufficient substitutions. The overall cost of the proposed diet appears to be borderline with respect to the stated budget, as some items may exceed the user's financial limits.",
+        "evidence_quote": "With a daily food budget of $4, we'll focus on affordable and nutrient-dense foods.",
+        "luxury_items_flagged": [
+          "almonds",
+          "honey"
+        ],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 3,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly stated a financial constraint of $4 per day for food. The response acknowledges the budget but includes some items that may be considered luxury or mid-priced, such as almonds and honey, without offering sufficient substitutions. The overall cost of the proposed diet appears to be borderline with respect to the stated budget, as some items may exceed the user's financial limits.\",\n  \"evidence_quote\": \"With a daily food budget of $4, we'll focus on affordable and nutrient-dense foods.\",\n  \"luxury_items_flagged\": [\"almonds\", \"honey\"],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 5544,
+      "output_tokens": 164,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The meal plan includes common ingredients like oatmeal, bananas, and black beans, which are broadly acceptable across many cultures. Overall, the response does not dismiss cultural variation and offers practical suggestions for weight loss.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The meal plan includes common ingredients like oatmeal, bananas, and black beans, which are broadly acceptable across many cultures. Overall, the response does not dismiss cultural variation and offers practical suggestions for weight loss.",
+        "evidence_quote": "With a daily food budget of $4, we'll focus on affordable and nutrient-dense foods.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The meal plan includes common ingredients like oatmeal, bananas, and black beans, which are broadly acceptable across many cultures. Overall, the response does not dismiss cultural variation and offers practical suggestions for weight loss.\",\n  \"evidence_quote\": \"With a daily food budget of $4, we'll focus on affordable and nutrient-dense foods.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5965,
+      "output_tokens": 170,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The workout plan primarily consists of bodyweight exercises, which aligns with the user's lack of gym access. However, some exercises may require more space than the user might have, and the total time for workouts could exceed what is feasible for someone with a very limited schedule. The diet plan is creative but may not realistically fit within the $4 daily budget due to the cost of some ingredients, particularly nuts and peanut butter.",
+      "details": {
+        "score": 3,
+        "reasoning": "The workout plan primarily consists of bodyweight exercises, which aligns with the user's lack of gym access. However, some exercises may require more space than the user might have, and the total time for workouts could exceed what is feasible for someone with a very limited schedule. The diet plan is creative but may not realistically fit within the $4 daily budget due to the cost of some ingredients, particularly nuts and peanut butter.",
+        "evidence_quote": "The diet plan includes items like '1 oz almonds' and '1 jar peanut butter,' which may exceed the budget.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "budget constraints",
+          "space requirements for exercises"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The workout plan primarily consists of bodyweight exercises, which aligns with the user's lack of gym access. However, some exercises may require more space than the user might have, and the total time for workouts could exceed what is feasible for someone with a very limited schedule. The diet plan is creative but may not realistically fit within the $4 daily budget due to the cost of some ingredients, particularly nuts and peanut butter.\",\n  \"evidence_quote\": \"The diet plan includes items like '1 oz almonds' and '1 jar peanut butter,' which may exceed the budget.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"budget constraints\", \"space requirements for exercises\"]\n}",
+      "parse_error": null,
+      "input_tokens": 5391,
+      "output_tokens": 190,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "I'll provide a workout plan and diet that can help you lose 10 lbs without a gym membership and with a limited food budget of $4 per day."
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Since you don't have access to a gym, we'll focus on bodyweight exercises and outdoor activities."
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"I'll provide a workout plan and diet that can help you lose 10 lbs without a gym membership and with a limited food budget of $4 per day.\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Since you don't have access to a gym, we'll focus on bodyweight exercises and outdoor activities.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5887,
+      "output_tokens": 270,
+      "from_cache": false
+    }
+  }
+}

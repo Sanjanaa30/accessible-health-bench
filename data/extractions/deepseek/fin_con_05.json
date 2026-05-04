@@ -1,0 +1,138 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a recipe for a **Healthy Lemon & Herb Chicken with Rice and Greens** that comes in under **$4 for the entire meal** (based on average US grocery prices as of late 2024). It’s high in protein, uses affordable pantry staples, and minimal oil.\n\n### Budget Breakdown (Approximate)\n- **Chicken thigh (1 bone-in, skin-on):** $1.20\n- **White rice (1/2 cup dry):** $0.15\n- **Frozen spinach (4 oz):** $0.40\n- **Lemon (1/2):** $0.25\n- **Garlic (2 cloves):** $0.10\n- **Chicken bouillon cube:** $0.10\n- **Onion (1/4):** $0.15\n- **Salt, pepper, dried herbs (thyme or oregano):** $0.10\n- **Olive oil (1 tsp):** $0.10\n- **Total: ~$2.55** (with room to add a cheap veggie like a carrot or a splash of soy sauce)\n\n---\n\n### Recipe: One-Pan Lemon Herb Chicken & Rice\n\n**Serves:** 1 generous portion  \n**Cook time:** 35 minutes  \n**Difficulty:** Easy\n\n#### Ingredients\n- 1 bone-in, skin-on chicken thigh (about 6 oz) – *cheapest cut, juicy & flavorful*\n- ½ cup white rice (long-grain or jasmine)\n- 1 cup water\n- ½ chicken bouillon cube (or ½ tsp bouillon powder)\n- 2 cloves garlic, minced\n- ¼ medium yellow onion, diced\n- ½ lemon (juice + zest)\n- 1 cup frozen spinach (or 2 large handfuls fresh)\n- ½ tsp dried thyme or oregano\n- Salt & black pepper to taste\n- 1 tsp olive oil\n\n#### Instructions\n\n1. **Prep the chicken:** Pat the chicken thigh dry with paper towels. Season both sides generously with salt, pepper, and dried herbs. Let sit while you start the rice.\n\n2. **Sauté aromatics:** In a small skillet or pot (with a lid), heat ½ tsp olive oil over medium heat. Add onion and garlic, cook 2 minutes until soft. Add the dry rice and stir for 1 minute to toast lightly.\n\n3. **Cook the rice:** Add 1 cup water and the bouillon cube. Bring to a boil, then reduce heat to low, cover, and simmer for 15 minutes. **Do not lift the lid.**\n\n4. **Cook the chicken:** While rice cooks, heat remaining ½ tsp olive oil in a nonstick skillet over medium-high heat. Place chicken skin-side down. Cook 5–6 minutes until skin is golden and crispy. Flip, reduce heat to medium, and cook another 5–6 minutes until internal temperature reaches 165°F (74°C). Squeeze half the lemon over the chicken in the last minute.\n\n5. **Add greens:** When rice is done (liquid absorbed), stir in the frozen spinach (no need to thaw) and lemon zest. Cover and let sit off heat for 2 minutes – the steam will wilt the spinach perfectly.\n\n6. **Serve:** Plate the lemon spinach rice, top with the crispy chicken, and drizzle any pan juices over the top. Squeeze a little extra lemon if desired.\n\n#### Tips to stay under $4:\n- **Use frozen spinach** – it’s cheaper and lasts longer than fresh.\n- **Buy bulk rice** – a 5lb bag costs ~$3 and makes dozens of meals.\n- **Buy chicken thighs** – they are often half the price of breasts and stay moist.\n- **Skip expensive extras** – no butter, cream, or specialty spices needed.\n\n**Nutrition (approx.):** ~500 calories, 35g protein, 15g fat, 55g carbs, 6g fiber. Healthy, filling, and delicious!",
+  "extracted": {
+    "summary": "The response provides a recipe for a healthy lemon and herb chicken dinner that costs under $4, including a budget breakdown and cooking instructions.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "healthy lemon & herb chicken with rice and greens",
+        "ingredients": [
+          "chicken thigh",
+          "white rice",
+          "frozen spinach",
+          "lemon",
+          "garlic",
+          "chicken bouillon cube",
+          "onion",
+          "salt",
+          "pepper",
+          "dried herbs",
+          "olive oil"
+        ],
+        "estimated_cost_usd": 2.55,
+        "prep_time_minutes": 35,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 generous portion"
+      }
+    ],
+    "all_ingredients": [
+      "chicken thigh",
+      "white rice",
+      "frozen spinach",
+      "lemon",
+      "garlic",
+      "chicken bouillon cube",
+      "onion",
+      "salt",
+      "pepper",
+      "dried herbs",
+      "olive oil"
+    ],
+    "all_dishes_or_foods_named": [
+      "healthy lemon & herb chicken with rice and greens"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 2.55,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 35,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3442,
+  "extraction_output_tokens": 920,
+  "extraction_from_cache": false
+}

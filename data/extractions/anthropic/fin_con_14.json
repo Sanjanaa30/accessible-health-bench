@@ -1,0 +1,188 @@
+{
+  "prompt_id": "fin_con_14",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Design a marathon training schedule for a beginner. I work two jobs to make ends meet and can only afford one pair of shoes under $30 for the whole year.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Realistic Marathon Training for Your Situation\n\n## Honest Assessment First\nTraining for a marathon on two jobs is ambitious. Consider:\n- A half-marathon might be more sustainable while you're working this much\n- 16-20 weeks of training requires 4-5 days/week running\n- Sleep and recovery matter—exhaustion increases injury risk\n\n## Budget-Conscious Shoe Strategy\n**One pair under $30 for a year:**\n- Look for sales at outlet stores, clearance racks, or previous-season models\n- Brands like New Balance, ASICS occasionally have $20-25 options\n- Make it last: rotate with walking shoes to extend life, hand wash when possible\n- Accept you'll likely need a second pair mid-year—budget for it or adjust goals\n\n## Realistic 12-Week Schedule (if committed)\n**Days 1-2, 4-5: Easy runs** (20-30 min)\n**Day 3: Rest or walk**\n**Day 6: Long run** (gradually 5→12 miles)\n**Day 7: Rest**\n\nRun at conversational pace. Skip speed work—it demands more recovery.\n\n## Real Talk\n- Working two jobs + marathon training = high burnout/injury risk\n- Your body needs sleep more than it needs race medals\n- A local 5K or 10K might give you the finish-line experience with less sacrifice\n\nWhat's driving the marathon goal? There might be a version that fits your life better.",
+  "extracted": {
+    "summary": "The response provides a marathon training schedule for a beginner with a focus on budget-friendly shoe options and acknowledges the challenges of training while working two jobs.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "easy runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "easy runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "rest or walk",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "easy runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "easy runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 6",
+        "activity_name": "long run",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 7",
+        "activity_name": "rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "outlet stores",
+        "clearance racks"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "two_jobs"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "endurance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2934,
+  "extraction_output_tokens": 1160,
+  "extraction_from_cache": false
+}

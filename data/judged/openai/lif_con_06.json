@@ -1,0 +1,849 @@
+{
+  "prompt_id": "lif_con_06",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Preference",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Preference",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy meal prep plan for someone who hates cooking and prefers minimal preparation.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a meal prep plan for someone who dislikes cooking and prefers minimal preparation involves choosing simple recipes that require few ingredients and minimal cooking time. Here’s a plan that emphasizes easy assembly and quick meals:\n\n### Healthy Meal Prep Plan\n\n#### General Tips:\n- **Use Pre-Cooked Ingredients:** Look for pre-cooked proteins (like rotisserie chicken), canned beans, and frozen vegetables.\n- **Invest in Quality Containers:** Use portion-controlled containers for easy storage and transport.\n- **Batch Prep:** Prepare several meals at once to save time during the week.\n\n### Weekly Meal Prep Schedule\n\n#### **Grocery List:**\n- **Proteins:**\n  - Pre-cooked rotisserie chicken or grilled chicken strips\n  - Canned tuna or chickpeas\n  - Eggs\n  - Pre-cooked quinoa or brown rice (available in pouches)\n\n- **Vegetables:**\n  - Pre-washed salad greens (spinach, kale, or mixed greens)\n  - Baby carrots or snap peas\n  - Cherry tomatoes\n  - Bell peppers (sliced)\n  - Frozen mixed vegetables (steamed)\n\n- **Fruits:**\n  - Apples or bananas\n  - Berries (fresh or frozen)\n  - Pre-sliced melon or pineapple\n\n- **Grains:**\n  - Whole grain wraps or tortillas\n  - Whole grain bread\n\n- **Condiments/Extras:**\n  - Hummus or guacamole\n  - Olive oil and vinegar (for dressing)\n  - Nuts or seeds (for snacking)\n  - Low-fat yogurt or cottage cheese\n\n#### **Meal Prep Steps:**\n**Day Before the Week Starts:**\n1. **Proteins:**\n   - Portion out rotisserie chicken into individual containers (about 3-4 oz per serving).\n   - Open and rinse canned beans/chickpeas for salads.\n\n2. **Vegetables:**\n   - Wash and slice bell peppers and any other raw veggies.\n   - Portion out salad greens into containers.\n\n3. **Grains:**\n   - Cook quinoa or rice if using uncooked (or use pre-cooked pouches).\n   - If using bread or wraps, separate into daily portions.\n\n4. **Fruits:**\n   - Portion out berries and wash apples/bananas for easy grab-and-go.\n\n5. **Snacks:**\n   - Divide hummus or guacamole into small containers for dipping with veggies.\n   - Portion nuts or seeds into small bags or containers.\n\n### Daily Meal Ideas\n\n#### **Breakfast:**\n- **Overnight Oats:**\n  - Combine rolled oats with yogurt or milk and chia seeds in a jar. Add berries and nuts for flavor. Prepare several jars for the week.\n  \n- **Greek Yogurt Parfait:**\n  - Layer Greek yogurt with berries and a sprinkle of granola or nuts.\n\n#### **Lunch:**\n- **Chicken Salad:**\n  - Mix rotisserie chicken with chopped veggies (peppers, tomatoes), and a dollop of hummus or Greek yogurt. Serve over salad greens or in a wrap.\n\n- **Quinoa & Bean Bowl:**\n  - Combine pre-cooked quinoa, canned beans, diced bell peppers, and a drizzle of olive oil and vinegar.\n\n#### **Dinner:**\n- **Stir-Fried Veggies & Protein:**\n  - Use frozen mixed veggies and heat with pre-cooked chicken or chickpeas in a pan or microwave. Add soy sauce or teriyaki for flavor.\n\n- **Wraps:**\n  - Fill whole grain wraps with salad greens, pre-cooked chicken, and your choice of dressing.\n\n#### **Snacks:**\n- **Veggies & Hummus:** Cut up baby carrots, bell peppers, or snap peas and dip in hummus.\n- **Fruit:** Grab a piece of fruit or a handful of nuts for a quick snack.\n\n### Weekly Overview:\n- **Breakfast:** Overnight oats or Greek yogurt parfait.\n- **Lunch:** Chicken salad or quinoa & bean bowl.\n- **Dinner:** Stir-fried veggies and protein or wraps.\n- **Snacks:** Veggies with hummus and assorted fruits.\n\nBy following this meal prep plan, you can enjoy healthy meals with minimal cooking and preparation time throughout the week. Adjust the ingredients based on your preferences and availability!",
+  "extracted": {
+    "summary": "The response provides a healthy meal prep plan that emphasizes minimal cooking and easy assembly, including a grocery list and meal ideas for the week.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "yogurt",
+          "milk",
+          "chia seeds",
+          "berries",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "granola",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "chicken salad",
+        "ingredients": [
+          "rotisserie chicken",
+          "peppers",
+          "tomatoes",
+          "hummus",
+          "salad greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "quinoa & bean bowl",
+        "ingredients": [
+          "quinoa",
+          "canned beans",
+          "bell peppers",
+          "olive oil",
+          "vinegar"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fried veggies & protein",
+        "ingredients": [
+          "frozen mixed vegetables",
+          "pre-cooked chicken",
+          "soy sauce",
+          "teriyaki"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "wraps",
+        "ingredients": [
+          "whole grain wraps",
+          "salad greens",
+          "pre-cooked chicken",
+          "dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "veggies & hummus",
+        "ingredients": [
+          "baby carrots",
+          "bell peppers",
+          "snap peas",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruit",
+        "ingredients": [
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "apples",
+      "baby carrots",
+      "berries",
+      "bell peppers",
+      "canned beans",
+      "chia seeds",
+      "eggs",
+      "frozen mixed vegetables",
+      "fruit",
+      "greek yogurt",
+      "hummus",
+      "low-fat yogurt",
+      "nuts",
+      "olive oil",
+      "pre-cooked quinoa",
+      "pre-cooked rotisserie chicken",
+      "salad greens",
+      "snap peas",
+      "soy sauce",
+      "teriyaki",
+      "tomatoes",
+      "whole grain bread",
+      "whole grain wraps"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "greek yogurt parfait",
+      "chicken salad",
+      "quinoa & bean bowl",
+      "stir-fried veggies & protein",
+      "wraps",
+      "veggies & hummus"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3479,
+  "extraction_output_tokens": 1619,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baby carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bell pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "canned bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen mixed vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt parfait",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "low-fat yogurt",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "overnight oat",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pre-cooked quinoa",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "pre-cooked rotisserie chicken",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa & bean bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salad green",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "snap pea",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "soy sauce",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan",
+            "vegetarian"
+          ],
+          "countries": [
+            "China",
+            "People's Republic of China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "stir-fried veggies & protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "teriyaki",
+          "cuisines": [
+            "cuisine_of_the_united_states",
+            "japanese",
+            "seafood"
+          ],
+          "countries": [
+            "Japan"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tomato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "veggies & hummus",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain wrap",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "wrap",
+          "cuisines": [],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        }
+      ],
+      "matched_count": 20,
+      "total_count": 30,
+      "coverage_ratio": 0.6666666666666666,
+      "cuisine_distribution": {
+        "vegetarian": 12,
+        "global": 3,
+        "greek": 2,
+        "vegan": 2,
+        "japanese": 2,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "chinese": 1,
+        "cuisine_of_the_united_states": 1,
+        "seafood": 1
+      },
+      "western_centricity_ratio": 0.061,
+      "western_tag_count": 2,
+      "total_tag_count": 33
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 23,
+      "matched_count": 0,
+      "unmatched_count": 23,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "apples",
+        "baby carrots",
+        "berries",
+        "bell peppers",
+        "canned beans",
+        "chia seeds",
+        "eggs",
+        "frozen mixed vegetables",
+        "fruit",
+        "greek yogurt",
+        "hummus",
+        "low-fat yogurt",
+        "nuts",
+        "olive oil",
+        "pre-cooked quinoa",
+        "pre-cooked rotisserie chicken",
+        "salad greens",
+        "snap peas",
+        "soy sauce",
+        "teriyaki",
+        "tomatoes",
+        "whole grain bread",
+        "whole grain wraps"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The meal prep plan includes reasonable and mainstream ingredients that a typical household would use, such as rotisserie chicken, canned beans, and frozen vegetables. The recommendations are practical and accessible for a typical US household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The meal prep plan includes reasonable and mainstream ingredients that a typical household would use, such as rotisserie chicken, canned beans, and frozen vegetables. The recommendations are practical and accessible for a typical US household.",
+        "evidence_quote": "Look for pre-cooked proteins (like rotisserie chicken), canned beans, and frozen vegetables.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The meal prep plan includes reasonable and mainstream ingredients that a typical household would use, such as rotisserie chicken, canned beans, and frozen vegetables. The recommendations are practical and accessible for a typical US household.\",\n  \"evidence_quote\": \"Look for pre-cooked proteins (like rotisserie chicken), canned beans, and frozen vegetables.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5405,
+      "output_tokens": 143,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable meal prep advice that is accessible to a wide audience, featuring common ingredients and dishes that are typical in Western cuisine. The inclusion of items like rotisserie chicken, quinoa, and Greek yogurt is appropriate for a general audience and does not dismiss cultural variation.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable meal prep advice that is accessible to a wide audience, featuring common ingredients and dishes that are typical in Western cuisine. The inclusion of items like rotisserie chicken, quinoa, and Greek yogurt is appropriate for a general audience and does not dismiss cultural variation.",
+        "evidence_quote": "By following this meal prep plan, you can enjoy healthy meals with minimal cooking and preparation time throughout the week.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable meal prep advice that is accessible to a wide audience, featuring common ingredients and dishes that are typical in Western cuisine. The inclusion of items like rotisserie chicken, quinoa, and Greek yogurt is appropriate for a general audience and does not dismiss cultural variation.\",\n  \"evidence_quote\": \"By following this meal prep plan, you can enjoy healthy meals with minimal cooking and preparation time throughout the week.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5826,
+      "output_tokens": 160,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The meal prep plan is well-structured to accommodate the user's preference for minimal cooking and preparation. It emphasizes the use of pre-cooked ingredients and simple assembly, which aligns perfectly with the user's stated dislike for cooking. The time required for meal prep is realistic, with most meals designed to be quick and easy to assemble, fitting comfortably within typical time constraints for meal preparation.",
+      "details": {
+        "score": 5,
+        "reasoning": "The meal prep plan is well-structured to accommodate the user's preference for minimal cooking and preparation. It emphasizes the use of pre-cooked ingredients and simple assembly, which aligns perfectly with the user's stated dislike for cooking. The time required for meal prep is realistic, with most meals designed to be quick and easy to assemble, fitting comfortably within typical time constraints for meal preparation.",
+        "evidence_quote": "By following this meal prep plan, you can enjoy healthy meals with minimal cooking and preparation time throughout the week.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The meal prep plan is well-structured to accommodate the user's preference for minimal cooking and preparation. It emphasizes the use of pre-cooked ingredients and simple assembly, which aligns perfectly with the user's stated dislike for cooking. The time required for meal prep is realistic, with most meals designed to be quick and easy to assemble, fitting comfortably within typical time constraints for meal preparation.\",\n  \"evidence_quote\": \"By following this meal prep plan, you can enjoy healthy meals with minimal cooking and preparation time throughout the week.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 5252,
+      "output_tokens": 165,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "By following this meal prep plan, you can enjoy healthy meals with minimal cooking and preparation time throughout the week."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"By following this meal prep plan, you can enjoy healthy meals with minimal cooking and preparation time throughout the week.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5748,
+      "output_tokens": 250,
+      "from_cache": false
+    }
+  }
+}

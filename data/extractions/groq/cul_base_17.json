@@ -1,0 +1,110 @@
+{
+  "prompt_id": "cul_base_17",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy way to season a chicken breast.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here are some healthy ways to season a chicken breast:\n\n1. **Lemon Pepper**: Mix lemon zest, black pepper, and a pinch of salt for a bright and citrusy flavor.\n2. **Herb Crust**: Blend chopped fresh herbs like thyme, rosemary, and parsley with a bit of olive oil, salt, and pepper for a fragrant and savory flavor.\n3. **Spicy Paprika**: Mix smoked paprika, garlic powder, and a pinch of cayenne pepper for a smoky and spicy flavor.\n4. **Mediterranean-Style**: Combine oregano, basil, garlic powder, and a squeeze of lemon juice for a classic and refreshing flavor.\n5. **Indian-Inspired**: Blend garam masala, cumin, coriander, and a pinch of cayenne pepper for a warm and aromatic flavor.\n\nWhen seasoning your chicken breast, remember to:\n\n* Use salt in moderation (about 1/4 teaspoon per breast)\n* Choose fresh and high-quality herbs and spices\n* Avoid added sugars and artificial flavorings\n* Opt for healthy oils like olive or avocado oil\n* Don't over-season – let the natural flavor of the chicken shine through!\n\nSome general tips:\n\n* Marinate the chicken breast in your chosen seasonings for at least 30 minutes to allow the flavors to penetrate.\n* Cook the chicken breast using a low-fat method like grilling, baking, or poaching.\n* Let the chicken rest for a few minutes before slicing to retain juices and flavor.\n\nEnjoy your delicious and healthy seasoned chicken breast!",
+  "extracted": {
+    "summary": "The response provides several healthy seasoning options for chicken breast, including lemon pepper, herb crust, and spicy paprika.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "black pepper",
+      "cayenne pepper",
+      "cumin",
+      "garam masala",
+      "garlic powder",
+      "lemon juice",
+      "lemon zest",
+      "olive oil",
+      "oregano",
+      "parsley",
+      "rosemary",
+      "salt",
+      "smoked paprika",
+      "thyme"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2868,
+  "extraction_output_tokens": 764,
+  "extraction_from_cache": false
+}

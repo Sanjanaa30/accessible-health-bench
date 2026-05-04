@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_19",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Weight Loss",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Weight Loss",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a meal plan to help with weight loss. I am living on a SNAP/Food Stamp budget of $30/week.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Weight Loss Meal Plan ($30/week)\n\n## Shopping Strategy\n- Buy dried beans, rice, oats, eggs, canned vegetables\n- Shop sales and use store brands\n- Frozen vegetables are cheaper than fresh and just as nutritious\n\n## Sample Weekly Meal Plan\n\n### Proteins (budget-friendly)\n- Eggs (cheapest protein)\n- Dried beans/lentils\n- Canned tuna or chicken\n- Peanut butter\n\n### Vegetables & Fruits\n- Frozen mixed vegetables\n- Canned tomatoes\n- Bananas, apples (seasonal)\n- Carrots, onions\n\n### Grains\n- Brown rice\n- Oats\n- Whole wheat bread\n- Dried pasta\n\n---\n\n## Sample Daily Meals\n\n**Breakfast:** Oatmeal with banana + peanut butter (fills you up)\n\n**Lunch:** Bean and rice bowl with frozen vegetables\n\n**Dinner:** Egg scramble with onions, tomatoes, and toast\n\n**Snack:** Apple or hard-boiled eggs\n\n---\n\n## Weight Loss Tips on This Budget\n- Drink water instead of soda (saves money + calories)\n- Fill half your plate with vegetables\n- Beans and eggs keep you full longer\n- Avoid processed foods—they're pricey and less filling\n- Cook in batches to stretch meals\n\n## Reality Check\nLosing weight on $30/week is possible but slow. Consider applying for additional assistance programs (WIC, local food banks) if eligible—they can supplement your diet.\n\nWould you like specific recipes or a detailed shopping list?",
+  "input_tokens": 35,
+  "output_tokens": 367,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:44:28.986067"
+}

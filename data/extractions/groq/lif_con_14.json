@@ -1,0 +1,637 @@
+{
+  "prompt_id": "lif_con_14",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a weekly meal and fitness plan for someone living in a dorm with limited kitchen access.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the limited kitchen access in a dorm, I've created a meal plan that incorporates easy-to-prepare and microwave-friendly options, as well as some healthy snacks and meal prep ideas. I've also included a fitness plan that can be done in a dorm room or on campus.\n\n**Monday**\n\n* Breakfast: Overnight oats (prepare in a jar or container the night before) with fruit and nuts\n* Lunch: Turkey and avocado wrap (use pre-made wraps or tortillas) with carrot sticks and hummus\n* Dinner: Microwaveable quinoa bowl with pre-cooked chicken, frozen vegetables, and a drizzle of olive oil\n* Snack: Apple slices with peanut butter\n* Fitness: Bodyweight workout in the dorm room (push-ups, squats, lunges, planks)\n\t+ Warm-up: 5-minute walk on campus or jumping jacks\n\t+ Circuit 1: 3 sets of 10 reps (push-ups, squats, lunges)\n\t+ Circuit 2: 3 sets of 10 reps (planks, wall sits, leg raises)\n\t+ Cool-down: 5-minute stretching\n\n**Tuesday**\n\n* Breakfast: Greek yogurt with granola and banana\n* Lunch: Grilled chicken breast (pre-cooked and stored in the fridge) with mixed greens and whole wheat crackers\n* Dinner: Microwaveable black bean and corn tacos with pre-made taco seasoning\n* Snack: Hard-boiled eggs and cherry tomatoes\n* Fitness: Yoga or Pilates in the dorm room (follow along with a video or app)\n\t+ Warm-up: 5-minute walk on campus or jumping jacks\n\t+ Flow: 3 sets of 10 reps (downward-facing dog, warrior pose, tree pose)\n\t+ Cool-down: 5-minute stretching\n\n**Wednesday**\n\n* Breakfast: Smoothie bowl (prepare in a blender or shaker bottle) with frozen fruit, spinach, and almond milk\n* Lunch: Turkey and cheese sandwich (use pre-made bread or wraps) with carrot sticks and hummus\n* Dinner: Microwaveable chicken and vegetable stir-fry with pre-cooked chicken and frozen vegetables\n* Snack: Rice cakes with almond butter and banana slices\n* Fitness: Walking or jogging on campus (aim for 30 minutes)\n\t+ Warm-up: 5-minute walk on campus or jumping jacks\n\t+ Walk/jog: 30 minutes at moderate intensity\n\t+ Cool-down: 5-minute stretching\n\n**Thursday**\n\n* Breakfast: Avocado toast (use pre-made whole wheat bread or English muffins) with scrambled eggs\n* Lunch: Chicken Caesar salad (use pre-made salad kits or bags)\n* Dinner: Microwaveable lentil soup with whole wheat crackers\n* Snack: Cottage cheese with fruit and nuts\n* Fitness: Bodyweight workout in the dorm room (focus on upper body)\n\t+ Warm-up: 5-minute walk on campus or jumping jacks\n\t+ Circuit 1: 3 sets of 10 reps (push-ups, tricep dips, bicep curls)\n\t+ Circuit 2: 3 sets of 10 reps (shoulder press, chest press, rows)\n\t+ Cool-down: 5-minute stretching\n\n**Friday**\n\n* Breakfast: Oatmeal with banana and honey\n* Lunch: Grilled chicken breast (pre-cooked and stored in the fridge) with mixed greens and whole wheat crackers\n* Dinner: Microwaveable chicken and quinoa bowl with pre-cooked chicken and frozen vegetables\n* Snack: Apple slices with almond butter\n* Fitness: Yoga or Pilates in the dorm room (focus on core and flexibility)\n\t+ Warm-up: 5-minute walk on campus or jumping jacks\n\t+ Flow: 3 sets of 10 reps (plank, side plank, leg raises)\n\t+ Cool-down: 5-minute stretching\n\n**Saturday**\n\n* Breakfast: Breakfast burrito (use pre-made tortillas or wraps) with scrambled eggs, cheese, and salsa\n* Lunch: Turkey and cheese wrap (use pre-made wraps or tortillas) with carrot sticks and hummus\n* Dinner: Microwaveable vegetable and bean chili with whole wheat crackers\n* Snack: Greek yogurt with honey and nuts\n* Fitness: Walking or jogging on campus (aim for 30 minutes)\n\t+ Warm-up: 5-minute walk on campus or jumping jacks\n\t+ Walk/jog: 30 minutes at moderate intensity\n\t+ Cool-down: 5-minute stretching\n\n**Sunday**\n\n* Breakfast: Scrambled eggs with whole wheat toast and fruit\n* Lunch: Chicken Caesar salad (use pre-made salad kits or bags)\n* Dinner: Microwaveable chicken and vegetable stir-fry with pre-cooked chicken and frozen vegetables\n* Snack: Cottage cheese with fruit and nuts\n* Fitness: Rest day or active recovery (stretching, foam rolling, or light yoga)\n\n**Tips and Variations**\n\n* Use a microwave-safe container to reheat meals and avoid cross-contamination.\n* Keep a stash of healthy snacks in your dorm room, such as nuts, dried fruits, and energy bars.\n* Consider investing in a mini-fridge or a portable stove to expand your meal options.\n* Swap out ingredients and recipes to keep your meal plan interesting and tailored to your preferences.\n* Join a fitness class or club on campus to stay motivated and meet new people.\n* Schedule your workouts and meals in your planner or calendar to stay on track.\n\nRemember, this is just a sample meal and fitness plan, and you should adjust it to fit your individual needs and preferences. Be sure to stay hydrated, listen to your body, and take rest days as needed.",
+  "extracted": {
+    "summary": "The response provides a weekly meal and fitness plan tailored for someone living in a dorm with limited kitchen access, featuring easy-to-prepare meals and bodyweight exercises.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and avocado wrap",
+        "ingredients": [
+          "turkey",
+          "avocado",
+          "wraps",
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "microwaveable quinoa bowl",
+        "ingredients": [
+          "quinoa",
+          "chicken",
+          "frozen vegetables",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "apple slices with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with granola and banana",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with mixed greens",
+        "ingredients": [
+          "chicken",
+          "mixed greens",
+          "whole wheat crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "microwaveable black bean and corn tacos",
+        "ingredients": [
+          "black beans",
+          "corn",
+          "taco seasoning"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled eggs and cherry tomatoes",
+        "ingredients": [
+          "eggs",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "frozen fruit",
+          "spinach",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and cheese sandwich",
+        "ingredients": [
+          "turkey",
+          "cheese",
+          "bread",
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "microwaveable chicken and vegetable stir-fry",
+        "ingredients": [
+          "chicken",
+          "frozen vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "rice cakes with almond butter and banana slices",
+        "ingredients": [
+          "rice cakes",
+          "almond butter",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "avocado",
+          "whole wheat bread",
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "chicken caesar salad",
+        "ingredients": [
+          "chicken",
+          "caesar dressing",
+          "salad greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "microwaveable lentil soup",
+        "ingredients": [
+          "lentils",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with fruit and nuts",
+        "ingredients": [
+          "cottage cheese",
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and honey",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with mixed greens",
+        "ingredients": [
+          "chicken",
+          "mixed greens",
+          "whole wheat crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "microwaveable chicken and quinoa bowl",
+        "ingredients": [
+          "chicken",
+          "quinoa",
+          "frozen vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "apple slices with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast burrito",
+        "ingredients": [
+          "tortillas",
+          "eggs",
+          "cheese",
+          "salsa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and cheese wrap",
+        "ingredients": [
+          "turkey",
+          "cheese",
+          "wraps",
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "microwaveable vegetable and bean chili",
+        "ingredients": [
+          "vegetables",
+          "beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey and nuts",
+        "ingredients": [
+          "greek yogurt",
+          "honey",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with whole wheat toast",
+        "ingredients": [
+          "eggs",
+          "whole wheat bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "chicken caesar salad",
+        "ingredients": [
+          "chicken",
+          "caesar dressing",
+          "salad greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "microwaveable chicken and vegetable stir-fry",
+        "ingredients": [
+          "chicken",
+          "frozen vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with fruit and nuts",
+        "ingredients": [
+          "cottage cheese",
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "apple",
+      "avocado",
+      "beans",
+      "banana",
+      "bread",
+      "breakfast burrito",
+      "carrot sticks",
+      "caesar dressing",
+      "chicken",
+      "cherry tomatoes",
+      "cottage cheese",
+      "eggs",
+      "frozen fruit",
+      "frozen vegetables",
+      "granola",
+      "greek yogurt",
+      "honey",
+      "hummus",
+      "lentils",
+      "mixed greens",
+      "nuts",
+      "oats",
+      "oatmeal",
+      "olive oil",
+      "peanut butter",
+      "quinoa",
+      "rice cakes",
+      "salsa",
+      "salad greens",
+      "smoothie bowl",
+      "taco seasoning",
+      "turkey",
+      "vegetables",
+      "whole wheat bread",
+      "whole wheat crackers",
+      "wraps"
+    ],
+    "all_dishes_or_foods_named": [
+      "avocado toast",
+      "breakfast burrito",
+      "chicken caesar salad",
+      "greek yogurt",
+      "microwaveable black bean and corn tacos",
+      "microwaveable chicken and quinoa bowl",
+      "microwaveable chicken and vegetable stir-fry",
+      "microwaveable lentil soup",
+      "microwaveable vegetable and bean chili",
+      "overnight oats",
+      "rice cakes with almond butter and banana slices",
+      "smoothie bowl",
+      "turkey and avocado wrap",
+      "turkey and cheese sandwich",
+      "turkey and cheese wrap"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "bodyweight workout",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "yoga or pilates",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "walking or jogging",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "bodyweight workout",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "yoga or pilates",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "walking or jogging",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "rest day or active recovery",
+        "activity_type": "rehab",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "dorm",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3758,
+  "extraction_output_tokens": 4020,
+  "extraction_from_cache": false
+}

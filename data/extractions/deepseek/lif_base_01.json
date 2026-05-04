@@ -1,0 +1,560 @@
+{
+  "prompt_id": "lif_base_01",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a healthy weekly meal plan.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a healthy, balanced weekly meal plan designed to be flexible, nutrient-dense, and easy to follow. It focuses on whole foods: lean proteins, healthy fats, complex carbohydrates, and plenty of vegetables.\n\n**Key Principles:**\n- **Hydration:** Drink water, herbal tea, or infused water throughout the day.\n- **Portion Control:** Fill half your plate with vegetables, a quarter with lean protein, and a quarter with whole grains or starchy vegetables.\n- **Prep Ahead:** Wash and chop veggies, cook a batch of quinoa or brown rice, and hard-boil eggs on Sunday.\n\n---\n\n### Weekly Meal Plan\n\n| Day       | Breakfast                                    | Lunch                                            | Dinner                                            | Snack (Optional)                     |\n| :-------- | :------------------------------------------- | :----------------------------------------------- | :------------------------------------------------ | :----------------------------------- |\n| **Monday**  | Greek yogurt with berries, a sprinkle of chia seeds & almonds | Large salad with mixed greens, grilled chicken, chickpeas, cucumber, bell peppers, and lemon-tahini dressing | Baked salmon with roasted broccoli and sweet potato wedges | Apple slices with 1 tbsp peanut butter |\n| **Tuesday** | Oatmeal made with oats, milk (dairy or plant), topped with sliced banana & walnuts | Leftover salmon and roasted vegetables over a bed of quinoa | Turkey & black bean chili (canned or homemade) with a side salad | A small handful of almonds           |\n| **Wednesday**| 2 scrambled eggs with spinach and 1 slice of whole-grain toast | Leftover turkey chili with a dollop of Greek yogurt and sliced avocado | Stir-fry: shrimp, broccoli, carrots, snap peas, and bell peppers over brown rice | Carrot & celery sticks with hummus   |\n| **Thursday**| Smoothie: spinach, frozen mango, plain kefir, 1 tbsp flaxseed, and a splash of water | Large salad with lentils, chopped veggies, feta cheese, and a simple vinaigrette | Lean pork chop with sautéed kale and roasted butternut squash | A hard-boiled egg                    |\n| **Friday**  | Cottage cheese with sliced peaches and a few chopped pecans | Leftover pork chop, kale, and squash (reheat and enjoy) | Whole-wheat pasta with lean ground turkey, tomato sauce (low-sugar), and a side of steamed green beans | A small pear                         |\n| **Saturday**| 2 whole-grain pancakes (made with minimal added sugar) with fresh berries and a dollop of Greek yogurt | Large veggie & hummus wrap: whole-wheat tortilla, hummus, mixed greens, shredded carrots, bell peppers, and cucumber | Lean sirloin steak (grilled or pan-seared) with roasted asparagus and a baked potato (with skin) | Handful of grapes                    |\n| **Sunday**  | Veggie omelet (mushrooms, onions, bell peppers) with 1 slice of whole-grain toast | \"Buddha bowl\": quinoa, roasted chickpeas, avocado, shredded red cabbage, and a drizzle of tahini dressing | Roasted chicken breast with a giant side of roasted Brussels sprouts and carrots | 1 oz dark chocolate (70%+ cacao)     |\n\n---\n\n### Grocery Shopping List\n\n**Produce:**\n- Berries (fresh or frozen)\n- Bananas\n- Apples\n- Pears\n- Peaches (canned in juice or fresh)\n- Grapes\n- Lemons\n- Avocados\n- Spinach (fresh)\n- Mixed salad greens\n- Kale\n- Broccoli\n- Sweet potatoes\n- Carrots\n- Celery\n- Cucumber\n- Bell peppers (various colors)\n- Snap peas\n- Onions\n- Garlic\n- Mushrooms\n- Butternut squash\n- Asparagus\n- Brussels sprouts\n- Green beans\n- Fresh herbs (optional: parsley, cilantro)\n\n**Protein:**\n- Chicken breast (boneless, skinless)\n- Lean ground turkey (93/7 or 99/1)\n- Salmon fillets\n- Shrimp (raw, peeled, deveined)\n- Lean pork chops\n- Lean sirloin steak\n- Whole chicken (for roasting)\n- Eggs\n- Greek yogurt (plain, unsweetened)\n- Cottage cheese\n- Kefir (plain)\n\n**Pantry & Grains:**\n- Rolled oats\n- Quinoa\n- Brown rice\n- Whole-wheat pasta\n- Whole-grain bread or tortillas\n- Canned chickpeas (low-sodium)\n- Canned black beans (low-sodium)\n- Canned lentils (low-sodium)\n- Canned diced tomatoes (no salt added)\n- Tomato sauce (low-sugar)\n- Chili seasoning (or cumin, chili powder, paprika)\n- Tahini\n- Hummus\n- Almonds (raw, unsalted)\n- Walnuts\n- Pecans\n- Chia seeds\n- Flaxseed (ground)\n- Peanut butter (natural, no added sugar)\n- Olive oil\n- Vinegar (balsamic, apple cider)\n- Salt, pepper, your favorite herbs & spices\n- Dark chocolate (70%+ cacao)\n\n**Dairy/Alternatives (Optional):**\n- Milk (dairy or unsweetened plant-based)\n- Feta cheese (optional)\n\n### Tips for Success:\n1.  **Double Dinner:** When you cook dinner (e.g., salmon, chili, pork chops), intentionally make extra for lunch the next day.\n2.  **Batch Cook:** On Sunday, cook a large batch of quinoa or brown rice, roast a tray of mixed vegetables (broccoli, sweet potatoes, carrots), and hard-boil 4-6 eggs.\n3.  **Listen to Your Body:** Adjust portion sizes based on your hunger, activity level, and goals. This is a template, not a strict rule.\n4.  **Stay Flexible:** Swap days if needed. Use leftovers creatively (e.g., roasted chicken can become salad or a wrap).\n\nEnjoy your healthy week of eating",
+  "extracted": {
+    "summary": "The response provides a healthy weekly meal plan focusing on whole foods, hydration, and portion control, along with a grocery shopping list.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "chia seeds",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "large salad",
+        "ingredients": [
+          "mixed greens",
+          "grilled chicken",
+          "chickpeas",
+          "cucumber",
+          "bell peppers",
+          "lemon-tahini dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "apple slices with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oats",
+          "milk",
+          "banana",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "leftover salmon and roasted vegetables",
+        "ingredients": [
+          "salmon",
+          "roasted vegetables",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "turkey & black bean chili",
+        "ingredients": [
+          "turkey",
+          "black beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "handful of almonds",
+        "ingredients": [
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "leftover turkey chili",
+        "ingredients": [
+          "turkey chili",
+          "greek yogurt",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "shrimp stir-fry",
+        "ingredients": [
+          "shrimp",
+          "broccoli",
+          "carrots",
+          "snap peas",
+          "bell peppers",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "carrot & celery sticks with hummus",
+        "ingredients": [
+          "carrot",
+          "celery",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "frozen mango",
+          "kefir",
+          "flaxseed"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "large salad with lentils",
+        "ingredients": [
+          "lentils",
+          "chopped veggies",
+          "feta cheese",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "lean pork chop",
+        "ingredients": [
+          "pork chop",
+          "kale",
+          "butternut squash"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg",
+        "ingredients": [
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "cottage cheese with peaches",
+        "ingredients": [
+          "cottage cheese",
+          "peaches",
+          "pecans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "leftover pork chop",
+        "ingredients": [
+          "pork chop",
+          "kale",
+          "squash"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "whole-wheat pasta with turkey",
+        "ingredients": [
+          "whole-wheat pasta",
+          "ground turkey",
+          "tomato sauce",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "small pear",
+        "ingredients": [
+          "pear"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "whole-grain pancakes",
+        "ingredients": [
+          "whole-grain pancake mix",
+          "berries",
+          "greek yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "veggie & hummus wrap",
+        "ingredients": [
+          "whole-wheat tortilla",
+          "hummus",
+          "mixed greens",
+          "carrots",
+          "bell peppers",
+          "cucumber"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "lean sirloin steak",
+        "ingredients": [
+          "sirloin steak",
+          "asparagus",
+          "baked potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "handful of grapes",
+        "ingredients": [
+          "grapes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "veggie omelet",
+        "ingredients": [
+          "mushrooms",
+          "onions",
+          "bell peppers",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "buddha bowl",
+        "ingredients": [
+          "quinoa",
+          "chickpeas",
+          "avocado",
+          "red cabbage",
+          "tahini"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "roasted chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "brussels sprouts",
+          "carrots"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "dark chocolate",
+        "ingredients": [
+          "dark chocolate"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "baked potato",
+      "banana",
+      "berries",
+      "black beans",
+      "broccoli",
+      "brussels sprouts",
+      "butternut squash",
+      "canned chickpeas",
+      "carrot",
+      "cottage cheese",
+      "cucumber",
+      "dark chocolate",
+      "eggs",
+      "feta cheese",
+      "flaxseed",
+      "garlic",
+      "grapes",
+      "greek yogurt",
+      "kale",
+      "lemon-tahini dressing",
+      "lean ground turkey",
+      "lean pork chops",
+      "lean sirloin steak",
+      "milk",
+      "mixed greens",
+      "oats",
+      "onions",
+      "peaches",
+      "pear",
+      "pecans",
+      "peanut butter",
+      "quinoa",
+      "roasted vegetables",
+      "salmon",
+      "shrimp",
+      "snap peas",
+      "spinach",
+      "sweet potato",
+      "tomato sauce",
+      "turkey",
+      "whole-grain bread",
+      "whole-grain pancake mix",
+      "whole-wheat pasta",
+      "whole-wheat tortilla"
+    ],
+    "all_dishes_or_foods_named": [
+      "baked salmon",
+      "buddha bowl",
+      "cottage cheese with peaches",
+      "greek yogurt with berries",
+      "large salad",
+      "lean pork chop",
+      "lean sirloin steak",
+      "oatmeal",
+      "roasted chicken breast",
+      "shrimp stir-fry",
+      "turkey & black bean chili",
+      "veggie & hummus wrap",
+      "veggie omelet",
+      "whole-grain pancakes"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3790,
+  "extraction_output_tokens": 3483,
+  "extraction_from_cache": false
+}

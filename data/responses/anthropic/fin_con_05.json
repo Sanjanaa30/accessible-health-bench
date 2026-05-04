@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Healthy Chicken Dinner\n**Serves 2 | Total Cost: ~$3.50**\n\n## Ingredients\n- 1 lb chicken breast (~$2.00)\n- 2 cups frozen mixed vegetables (~$0.80)\n- 1 cup rice (~$0.30)\n- 1 tbsp oil (~$0.10)\n- Salt, pepper, garlic powder to taste (~$0.30)\n\n## Instructions\n\n1. **Cook rice** (15-20 min): Boil 1 cup rice in 2 cups water with a pinch of salt\n\n2. **Prepare chicken** (10 min): \n   - Cut breast into bite-sized pieces\n   - Season with salt, pepper, and garlic powder\n\n3. **Cook chicken** (8-10 min):\n   - Heat oil in a skillet over medium-high heat\n   - Cook chicken until golden and internal temp reaches 165°F\n\n4. **Add vegetables** (5 min):\n   - Stir in frozen vegetables\n   - Cook until heated through\n\n5. **Combine**: Mix cooked rice with chicken and vegetable mixture\n\n## Nutrition Highlights\n- High in lean protein\n- Whole grain carbs (if using brown rice)\n- Vegetables provide fiber and vitamins\n- Low in added fats\n\n**Money-saving tips**: Buy chicken on sale, use store-brand frozen vegetables, buy rice in bulk",
+  "input_tokens": 31,
+  "output_tokens": 334,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:31:07.875754"
+}

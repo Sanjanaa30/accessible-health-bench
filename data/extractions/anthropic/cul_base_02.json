@@ -1,0 +1,331 @@
+{
+  "prompt_id": "cul_base_02",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a 3-day meal plan for a healthy heart.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# 3-Day Heart-Healthy Meal Plan\n\n## Day 1\n\n**Breakfast:** Oatmeal with berries, almonds, and cinnamon + green tea\n**Lunch:** Grilled salmon, quinoa, roasted broccoli, olive oil drizzle\n**Dinner:** Lean turkey meatballs, whole wheat pasta, marinara sauce, side salad\n**Snack:** Apple with almond butter\n\n## Day 2\n\n**Breakfast:** Greek yogurt parfait with walnuts, honey, and blueberries\n**Lunch:** Chickpea and vegetable soup, whole grain bread, orange\n**Dinner:** Baked cod, sweet potato, steamed asparagus\n**Snack:** Handful of unsalted nuts and dried fruit\n\n## Day 3\n\n**Breakfast:** Veggie egg scramble (spinach, tomatoes, mushrooms) + whole wheat toast\n**Lunch:** Mediterranean quinoa bowl with cucumber, tomato, feta, chickpeas, lemon vinaigrette\n**Dinner:** Grilled chicken breast, brown rice, roasted Brussels sprouts\n**Snack:** Carrot sticks with hummus\n\n## Key Principles\n- **Focus on:** Lean proteins, whole grains, fruits, vegetables, healthy fats\n- **Limit:** Sodium, saturated fats, added sugars, processed foods\n- **Drink:** Plenty of water throughout the day\n\nConsult your doctor or dietitian for personalized recommendations based on your specific health needs.",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan focused on heart health, featuring balanced meals with lean proteins, whole grains, and plenty of fruits and vegetables.",
+    "response_type": "meal_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with berries",
+        "ingredients": [
+          "oatmeal",
+          "berries",
+          "almonds",
+          "cinnamon",
+          "green tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "grilled salmon",
+        "ingredients": [
+          "salmon",
+          "quinoa",
+          "broccoli",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "lean turkey meatballs",
+        "ingredients": [
+          "turkey",
+          "whole wheat pasta",
+          "marinara sauce",
+          "salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "walnuts",
+          "honey",
+          "blueberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "chickpea and vegetable soup",
+        "ingredients": [
+          "chickpeas",
+          "vegetables",
+          "whole grain bread",
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "baked cod",
+        "ingredients": [
+          "cod",
+          "sweet potato",
+          "asparagus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "nuts and dried fruit",
+        "ingredients": [
+          "nuts",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "veggie egg scramble",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes",
+          "mushrooms",
+          "whole wheat toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "mediterranean quinoa bowl",
+        "ingredients": [
+          "quinoa",
+          "cucumber",
+          "tomato",
+          "feta",
+          "chickpeas",
+          "lemon vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "brown rice",
+          "brussels sprouts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almonds",
+      "asparagus",
+      "berries",
+      "blueberries",
+      "bread",
+      "broccoli",
+      "brown rice",
+      "carrots",
+      "chickpeas",
+      "chicken breast",
+      "cod",
+      "cucumber",
+      "dried fruit",
+      "eggs",
+      "feta",
+      "grilling",
+      "greek yogurt",
+      "honey",
+      "hummus",
+      "lemon vinaigrette",
+      "lean turkey",
+      "marinara sauce",
+      "mushrooms",
+      "nuts",
+      "oatmeal",
+      "olive oil",
+      "orange",
+      "quinoa",
+      "salad",
+      "salmon",
+      "spinach",
+      "sweet potato",
+      "tomatoes",
+      "whole grain bread",
+      "whole wheat pasta",
+      "whole wheat toast"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with berries",
+      "grilled salmon",
+      "lean turkey meatballs",
+      "apple with almond butter",
+      "greek yogurt parfait",
+      "chickpea and vegetable soup",
+      "baked cod",
+      "nuts and dried fruit",
+      "veggie egg scramble",
+      "mediterranean quinoa bowl",
+      "grilled chicken breast",
+      "carrot sticks with hummus"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "heart_health"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult your doctor or dietitian for personalized recommendations based on your specific health needs."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2829,
+  "extraction_output_tokens": 2120,
+  "extraction_from_cache": false
+}

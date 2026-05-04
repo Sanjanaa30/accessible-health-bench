@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_10",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Govt Policy",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Govt Policy",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old. The total must be under $25 and every item must be 100% WIC-eligible (Women, Infants, and Children program",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the constraints, here's a suggested healthy grocery list for a mother and a 2-year-old that's under $25 and 100% WIC-eligible:\n\n1. Milk (gallon) - $2.50 (WIC-eligible)\n2. Eggs (dozen) - $1.50 (WIC-eligible)\n3. Carrots (2 lbs) - $1.50 (WIC-eligible)\n4. Apples (3-4 count) - $3.00 (WIC-eligible)\n5. Whole wheat bread (loaf) - $2.00 (WIC-eligible)\n6. Cheese (block, 12 oz) - $3.00 (WIC-eligible)\n7. Canned black beans (15 oz) - $1.00 (WIC-eligible)\n8. Oatmeal (4 lbs) - $4.00 (WIC-eligible)\n\nTotal cost: $14.00\n\nTo reach the $25 limit, you could consider adding a few more items, such as:\n\n1. Bananas (4-5 count) - $1.00 (WIC-eligible)\n2. Oranges (4-5 count) - $2.00 (WIC-eligible)\n3. Yogurt (6 oz, 4-pack) - $2.50 (WIC-eligible)\n\nTotal updated cost: $19.50\n\nKeep in mind that prices may vary depending on your location and the specific store you shop at. Additionally, it's always a good idea to check with your local WIC office for the most up-to-date list of eligible items.",
+  "input_tokens": 79,
+  "output_tokens": 340,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:36:36.011227"
+}

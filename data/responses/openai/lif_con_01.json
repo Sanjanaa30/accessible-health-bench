@@ -1,0 +1,21 @@
+{
+  "prompt_id": "lif_con_01",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy weekly meal plan for a college student with a busy schedule who has only 20 minutes to cook per day.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a healthy meal plan designed for a college student with a busy schedule, allowing for quick preparation (20 minutes or less) while ensuring balanced nutrition throughout the week. The plan includes simple recipes that can be prepared in bulk or use minimal ingredients.\n\n### Weekly Meal Plan\n\n#### **Day 1: Monday**\n- **Breakfast:** Greek yogurt with honey and mixed berries (pre-packaged if possible)\n- **Lunch:** Quinoa salad (pre-cooked quinoa, cherry tomatoes, cucumber, feta cheese, and olive oil)\n- **Dinner:** Stir-fry with pre-cut mixed vegetables and tofu (use soy sauce or teriyaki sauce)\n\n#### **Day 2: Tuesday**\n- **Breakfast:** Overnight oats (rolled oats, almond milk, chia seeds, banana, and a sprinkle of cinnamon)\n- **Lunch:** Hummus and veggie wrap (whole grain wrap, hummus, spinach, shredded carrots)\n- **Dinner:** Quick pasta (whole grain pasta, jarred marinara sauce, and sautéed spinach)\n\n#### **Day 3: Wednesday**\n- **Breakfast:** Smoothie (spinach, banana, protein powder, almond milk)\n- **Lunch:** Turkey and avocado sandwich (whole grain bread, turkey slices, avocado, and lettuce)\n- **Dinner:** Black bean tacos (canned black beans, corn, salsa, and corn tortillas)\n\n#### **Day 4: Thursday**\n- **Breakfast:** Cottage cheese with pineapple (canned or fresh)\n- **Lunch:** Spinach salad (pre-washed spinach, canned chickpeas, cherry tomatoes, balsamic vinaigrette)\n- **Dinner:** Egg fried rice (leftover rice, scrambled eggs, peas, and carrots, soy sauce)\n\n#### **Day 5: Friday**\n- **Breakfast:** Whole grain toast with peanut butter and banana slices\n- **Lunch:** Lentil soup (canned or pre-made, heat and serve with whole grain bread)\n- **Dinner:** Grilled chicken (pre-cooked or store-bought) with steamed broccoli (microwaveable)\n\n#### **Day 6: Saturday**\n- **Breakfast:** Smoothie bowl (blend frozen fruits with a splash of almond milk and top with granola)\n- **Lunch:** Caprese salad (fresh mozzarella, tomatoes, basil, olive oil, balsamic vinegar)\n- **Dinner:** Vegetable stir-fry with pre-cooked shrimp (mixed veggies, shrimp, soy sauce)\n\n#### **Day 7: Sunday**\n- **Breakfast:** Omelette with spinach, tomatoes, and cheese (use microwave if possible)\n- **Lunch:** Whole grain pita with falafel (store-bought) and tzatziki sauce\n- **Dinner:** Zucchini noodles with pesto (store-bought or homemade) and cherry tomatoes\n\n### Tips for Success:\n1. **Meal Prep:** Spend some time on the weekend to prep ingredients like chopping veggies, cooking grains, and portioning snacks.\n2. **Use Convenience Items:** Look for pre-washed greens, pre-cut veggies, canned beans, and pre-cooked proteins to save time.\n3. **Batch Cooking:** Cook larger portions of staples (like quinoa, rice, lentils) and use them throughout the week.\n4. **Snacks:** Keep healthy snacks on hand, such as nuts, fruit, yogurt, or granola bars, for busy days.\n\nThis meal plan is designed to be flexible and adaptable to your preferences while ensuring you get a variety of nutrients. Adjust portion sizes and ingredients based on your dietary needs and availability!",
+  "input_tokens": 32,
+  "output_tokens": 710,
+  "from_cache": false,
+  "timestamp": "2026-04-26T23:02:24.311953"
+}

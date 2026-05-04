@@ -1,0 +1,394 @@
+{
+  "prompt_id": "fin_con_14",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Design a marathon training schedule for a beginner. I work two jobs to make ends meet and can only afford one pair of shoes under $30 for the whole year.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Realistic Marathon Training for Your Situation\n\n## Honest Assessment First\nTraining for a marathon on two jobs is ambitious. Consider:\n- A half-marathon might be more sustainable while you're working this much\n- 16-20 weeks of training requires 4-5 days/week running\n- Sleep and recovery matter—exhaustion increases injury risk\n\n## Budget-Conscious Shoe Strategy\n**One pair under $30 for a year:**\n- Look for sales at outlet stores, clearance racks, or previous-season models\n- Brands like New Balance, ASICS occasionally have $20-25 options\n- Make it last: rotate with walking shoes to extend life, hand wash when possible\n- Accept you'll likely need a second pair mid-year—budget for it or adjust goals\n\n## Realistic 12-Week Schedule (if committed)\n**Days 1-2, 4-5: Easy runs** (20-30 min)\n**Day 3: Rest or walk**\n**Day 6: Long run** (gradually 5→12 miles)\n**Day 7: Rest**\n\nRun at conversational pace. Skip speed work—it demands more recovery.\n\n## Real Talk\n- Working two jobs + marathon training = high burnout/injury risk\n- Your body needs sleep more than it needs race medals\n- A local 5K or 10K might give you the finish-line experience with less sacrifice\n\nWhat's driving the marathon goal? There might be a version that fits your life better.",
+  "extracted": {
+    "summary": "The response provides a marathon training schedule for a beginner with a focus on budget-friendly shoe options and acknowledges the challenges of training while working two jobs.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "easy runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "easy runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "rest or walk",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "easy runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "easy runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 6",
+        "activity_name": "long run",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 7",
+        "activity_name": "rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "outlet stores",
+        "clearance racks"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "two_jobs"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "endurance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2934,
+  "extraction_output_tokens": 1160,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "easy runs",
+        "easy runs",
+        "rest or walk",
+        "easy runs",
+        "easy runs",
+        "long run",
+        "rest"
+      ],
+      "matched_count": 0,
+      "total_count": 7,
+      "coverage_ratio": 0.0,
+      "time_horizon": "multi_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 3,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a financial limitation regarding their budget for shoes. The response acknowledges the budget by suggesting ways to find affordable shoes, but it also implies that the user may need a second pair mid-year, which could exceed the stated budget. Additionally, while the training schedule is reasonable, it does not provide specific cost-effective alternatives for running gear or training that would align with the user's financial constraints.",
+      "details": {
+        "branch": "constrained",
+        "score": 3,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a financial limitation regarding their budget for shoes. The response acknowledges the budget by suggesting ways to find affordable shoes, but it also implies that the user may need a second pair mid-year, which could exceed the stated budget. Additionally, while the training schedule is reasonable, it does not provide specific cost-effective alternatives for running gear or training that would align with the user's financial constraints.",
+        "evidence_quote": "Accept you'll likely need a second pair mid-year—budget for it or adjust goals",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 3,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly stated a financial limitation regarding their budget for shoes. The response acknowledges the budget by suggesting ways to find affordable shoes, but it also implies that the user may need a second pair mid-year, which could exceed the stated budget. Additionally, while the training schedule is reasonable, it does not provide specific cost-effective alternatives for running gear or training that would align with the user's financial constraints.\",\n  \"evidence_quote\": \"Accept you'll likely need a second pair mid-year—budget for it or adjust goals\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 2725,
+      "output_tokens": 162,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable advice for marathon training that is applicable to a wide audience, regardless of cultural background. It does not dismiss cultural variations and offers practical suggestions that a typical reader could engage with, such as budget-conscious shoe strategies and a realistic training schedule.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable advice for marathon training that is applicable to a wide audience, regardless of cultural background. It does not dismiss cultural variations and offers practical suggestions that a typical reader could engage with, such as budget-conscious shoe strategies and a realistic training schedule.",
+        "evidence_quote": "A local 5K or 10K might give you the finish-line experience with less sacrifice.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable advice for marathon training that is applicable to a wide audience, regardless of cultural background. It does not dismiss cultural variations and offers practical suggestions that a typical reader could engage with, such as budget-conscious shoe strategies and a realistic training schedule.\",\n  \"evidence_quote\": \"A local 5K or 10K might give you the finish-line experience with less sacrifice.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3146,
+      "output_tokens": 161,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 2,
+      "reasoning": "The training schedule demands a significant time commitment of 4-5 days a week, which is unrealistic for someone working two jobs. The plan does not adequately adapt to the user's financial constraints regarding footwear, as it suggests a single pair of shoes may not suffice for marathon training. Additionally, the recommendation for long runs and multiple easy runs does not consider the user's potential fatigue and recovery needs, which could lead to burnout or injury.",
+      "details": {
+        "score": 2,
+        "reasoning": "The training schedule demands a significant time commitment of 4-5 days a week, which is unrealistic for someone working two jobs. The plan does not adequately adapt to the user's financial constraints regarding footwear, as it suggests a single pair of shoes may not suffice for marathon training. Additionally, the recommendation for long runs and multiple easy runs does not consider the user's potential fatigue and recovery needs, which could lead to burnout or injury.",
+        "evidence_quote": "Working two jobs + marathon training = high burnout/injury risk",
+        "time_fit": "major_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "time commitment exceeds user availability",
+          "financial constraints on footwear not adequately addressed"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 2,\n  \"reasoning\": \"The training schedule demands a significant time commitment of 4-5 days a week, which is unrealistic for someone working two jobs. The plan does not adequately adapt to the user's financial constraints regarding footwear, as it suggests a single pair of shoes may not suffice for marathon training. Additionally, the recommendation for long runs and multiple easy runs does not consider the user's potential fatigue and recovery needs, which could lead to burnout or injury.\",\n  \"evidence_quote\": \"Working two jobs + marathon training = high burnout/injury risk\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"time commitment exceeds user availability\", \"financial constraints on footwear not adequately addressed\"]\n}",
+      "parse_error": null,
+      "input_tokens": 2572,
+      "output_tokens": 186,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 3.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "partial",
+          "1a_acknowledged": "yes",
+          "1b_respected": "partial",
+          "1c_provided_alternatives": "partial",
+          "evidence": "Look for sales at outlet stores, clearance racks, or previous-season models"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "partial",
+          "3a_acknowledged": "yes",
+          "3b_executable": "partial",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Working two jobs + marathon training = high burnout/injury risk"
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"partial\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"partial\",\n    \"1c_provided_alternatives\": \"partial\",\n    \"evidence\": \"Look for sales at outlet stores, clearance racks, or previous-season models\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"partial\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"partial\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Working two jobs + marathon training = high burnout/injury risk\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3068,
+      "output_tokens": 248,
+      "from_cache": false
+    }
+  }
+}

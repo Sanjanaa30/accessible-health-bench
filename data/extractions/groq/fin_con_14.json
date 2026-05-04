@@ -1,0 +1,255 @@
+{
+  "prompt_id": "fin_con_14",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Design a marathon training schedule for a beginner. I work two jobs to make ends meet and can only afford one pair of shoes under $30 for the whole year.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given your constraints, I'll create a beginner-friendly marathon training schedule that accommodates your busy work schedule and limited budget. Please note that it's essential to prioritize your safety and well-being, and I'll provide guidance on how to manage with a single pair of shoes.\n\n**Before You Start:**\n\n1. Consult with a doctor: Ensure you're healthy enough for marathon training.\n2. Invest in a good pair of shoes: Spend the $30 on a decent, entry-level running shoe. Look for last year's model or a discount store. Some options might include:\n\t* ASICS Gel-Contend (around $25)\n\t* Brooks Ghost (older model, around $25)\n\t* New Balance 680 (around $25)\n3. Get proper clothing: Invest in moisture-wicking socks, breathable clothing, and a water bottle or hydration belt.\n\n**Training Schedule:**\n\nThis 24-week schedule assumes you have some basic fitness level, but no prior marathon experience. We'll start with walk-run intervals and gradually increase your running endurance.\n\n**Weeks 1-4: Walk-Run Intervals (3 times a week)**\n\n* Monday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 1 minute\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Wednesday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 1.5 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Friday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 2 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n\n**Weeks 5-8: Gradually Increase Running Time (3 times a week)**\n\n* Monday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 5 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Wednesday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 7 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Friday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 10 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n\n**Weeks 9-12: Introduction to Longer Runs (3 times a week)**\n\n* Monday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 15 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Wednesday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 20 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n* Friday (30 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 25 minutes\n\t+ Walk: 2 minutes\n\t+ Repeat for a total of 20-25 minutes\n\t+ Cool-down: 5-minute walk\n\n**Weeks 13-18: Build Endurance (3 times a week)**\n\n* Monday (45 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 30 minutes\n\t+ Walk: 5 minutes\n\t+ Cool-down: 5-minute walk\n* Wednesday (45 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 35 minutes\n\t+ Walk: 5 minutes\n\t+ Cool-down: 5-minute walk\n* Friday (45 minutes):\n\t+ Warm-up: 5-minute walk\n\t+ Run: 40 minutes\n\t+ Walk: 5 minutes\n\t+ Cool-down: 5-minute walk\n\n**Weeks 19-24: Taper and Rest (3 times a week)**\n\n* Reduce your weekly running time by 20-30% to allow your body to recover.\n* Incorporate rest days and cross-training (e.g., cycling, swimming, or yoga) to maintain overall fitness.\n\n**Shoe Maintenance:**\n\n1. Clean your shoes regularly to extend their lifespan.\n2. Use shoe trees or stuff them with newspaper to maintain their shape.\n3. Avoid running in wet conditions or on rough terrain to minimize wear and tear.\n4. Consider using shoe glue or patches to repair any damage.\n\n**Tips for Busy Schedules:**\n\n1. Wake up early to fit in your runs before work.\n2. Use your lunch break to squeeze in a shorter run or walk.\n3. Incorporate strength training and stretching exercises at home to save time.\n4. Prioritize rest and recovery to avoid burnout.\n\nRemember, consistency and patience are key. Stick to your schedule, listen to your body, and you'll be ready for your first marathon in 24 weeks. Good luck, and don't hesitate to reach out if you have any questions or concerns!",
+  "extracted": {
+    "summary": "The response provides a beginner-friendly marathon training schedule that accommodates a busy work schedule and a limited budget for shoes.",
+    "response_type": "fitness_plan",
+    "primary_goal": "endurance",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "walk-run intervals",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "walk-run intervals",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "walk-run intervals",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "gradually increase running time",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "gradually increase running time",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "gradually increase running time",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "introduction to longer runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "introduction to longer runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "introduction to longer runs",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "build endurance",
+        "activity_type": "cardio",
+        "duration_minutes": 45,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "build endurance",
+        "activity_type": "cardio",
+        "duration_minutes": 45,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "build endurance",
+        "activity_type": "cardio",
+        "duration_minutes": 45,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Weeks 19-24",
+        "activity_name": "taper and rest",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": 30,
+      "cost_period": "per_year",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "discount_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "two_jobs"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "endurance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a doctor: Ensure you're healthy enough for marathon training."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3765,
+  "extraction_output_tokens": 1569,
+  "extraction_from_cache": false
+}

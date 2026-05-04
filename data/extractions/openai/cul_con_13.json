@@ -1,0 +1,189 @@
+{
+  "prompt_id": "cul_con_13",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Urban Environment",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Urban Environment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Where is the best place to go for a run? I live in a high-density 'Mega-City' (like Dhaka or Manila) with extreme air pollution; suggest the healthiest times or indoor alternatives.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Running in a high-density mega-city with extreme air pollution can be challenging, but there are still ways to stay active while prioritizing your health. Here are some suggestions for the best places and times to run, as well as indoor alternatives:\n\n### Best Times to Run:\n1. **Early Morning**: Air quality is often better in the early morning before traffic and industrial activities increase. Aim to run just after sunrise when temperatures are cooler and pollution levels are lower.\n2. **Late Evening**: If mornings are not an option, consider running after sunset when the heat subsides. However, check air quality indexes, as pollution can vary throughout the day.\n3. **Check Air Quality**: Use air quality apps or websites to monitor pollution levels. Running when the air quality index (AQI) is in the \"good\" range (0-50) is ideal.\n\n### Outdoor Locations:\n1. **Parks and Green Spaces**: If available, parks tend to have better air quality due to vegetation. Look for larger parks or areas with open green space that are away from heavy traffic.\n2. **Waterfronts**: If you live near a river or lake, running along the water can sometimes offer cleaner air and a more pleasant environment.\n3. **Elevated Areas**: Hilltops or elevated areas can have less pollution than lower-lying city areas. Check if there are any nearby hills or viewpoints.\n\n### Indoor Alternatives:\n1. **Gym Treadmills**: Using a treadmill at a gym can be a great way to avoid outdoor pollution while still getting a good run.\n2. **Indoor Running Tracks**: Some community centers or sports complexes have indoor tracks. This provides a controlled environment free from outdoor pollutants.\n3. **Home Workouts**: If you have space at home, consider bodyweight workouts, HIIT, or using a stationary bike. There are various apps and online videos that can guide you through effective routines.\n4. **Virtual Running Classes**: Many gyms and fitness studios offer virtual classes that can help motivate you while running indoors or on a treadmill.\n\n### Tips for Running in Poor Air Quality:\n- **Wear a Mask**: If you must run outdoors during times of poor air quality, consider wearing a mask designed to filter out pollutants.\n- **Stay Hydrated**: Drink plenty of water before, during, and after your run to help your body cope with pollution.\n- **Listen to Your Body**: If you start to feel unwell or experience respiratory issues, it may be best to stop and seek shelter indoors.\n\nBy carefully choosing when and where to run, you can maintain your fitness while minimizing exposure to harmful pollution.",
+  "extracted": {
+    "summary": "The response provides suggestions for the best times and locations to run in a high-density mega-city with air pollution, along with indoor alternatives for exercise.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Early Morning",
+        "activity_name": "run",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Late Evening",
+        "activity_name": "run",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "treadmill",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "treadmill"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "indoor running track",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "studio"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight workouts",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stationary bike",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "stationary bike"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "virtual running classes",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "studio"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [
+        "morning",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [
+        "air_pollution"
+      ],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3179,
+  "extraction_output_tokens": 1151,
+  "extraction_from_cache": false
+}

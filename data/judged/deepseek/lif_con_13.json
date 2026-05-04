@@ -1,0 +1,390 @@
+{
+  "prompt_id": "lif_con_13",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a daily wellness routine for someone working two jobs.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a challenging situation, so the key is **efficiency** and **non-negotiables**. You cannot afford to waste time or energy on complex routines. The goal is not \"optimal wellness\" but **sustainable survival** with minimal burnout.\n\nHere is a realistic, high-impact daily routine designed for someone working two jobs (e.g., 8 AM–4 PM and 5 PM–10 PM).\n\n### The Core Philosophy: \"Protect Your Battery\"\n- **Sleep is your #1 job.** Without it, everything else fails.\n- **Every action must give you energy back**, not take it away.\n- **Perfect is the enemy of done.** 80% effort is a win.\n\n---\n\n### The Routine (Total time: ~30 minutes of active effort)\n\n#### 1. Wake Up (15 minutes before you absolutely must)\n- **The Non-Negotiable:** Drink a full glass of water (kept by your bed) immediately. Dehydration is the #1 cause of mid-day fatigue.\n- **The 60-Second Reset:** Do not look at your phone. Instead, take 60 seconds to do a \"forced yawn\" (open your mouth wide, stretch your jaw) and roll your shoulders back. This triggers a parasympathetic (calm) response.\n- **The \"No Decision\" Rule:** Lay out your work clothes and your lunch/snacks the night before. Do not make decisions in the morning.\n\n#### 2. The \"Micro-Movement\" (5 minutes, between jobs)\n- **The Problem:** You have no time for a gym.\n- **The Solution:** The \"Transition Walk.\" You have 15 minutes between Job 1 and Job 2. Use 5 of them. Walk briskly around the block or up and down a flight of stairs. Do not sit down. This resets your nervous system, prevents blood pooling in your legs, and signals your brain that you are switching modes.\n\n#### 3. The \"Power Meal\" (10 minutes, during your first job's lunch)\n- **The Rule:** No sugar spikes. A crash will destroy your second shift.\n- **The Formula:** Protein (hard-boiled eggs, chicken, Greek yogurt) + Fiber (an apple, baby carrots, a handful of almonds) + Water. Eat this *before* you get hungry. If you wait until you are starving, you will grab junk.\n\n#### 4. The \"Second Shift Survival Kit\" (5 minutes, just before Job 2)\n- **The Ritual:** Make a cup of green tea or black coffee. Do not drink it yet. Place it next to you.\n- **The Strategy:** Do not drink it for the first 30 minutes of your second job. Sip it slowly. This prevents a caffeine crash later and gives you a gradual energy lift.\n- **The \"5-Minute Rule\":** If you feel a wave of exhaustion, tell yourself: \"I will work for just 5 more minutes.\" Usually, the wave passes.\n\n#### 5. The \"Wind-Down\" (The most critical 15 minutes of your day)\n- **The Trap:** You get home exhausted, collapse on the couch, scroll your phone for 2 hours, then can't sleep because your brain is overstimulated.\n- **The Fix (The \"Power-Down Hour\"):**\n    - **0-5 Minutes:** Take off your work clothes. Wash your face with cold water. Change into pajamas. **This is a physical signal to your brain that the workday is over.**\n    - **5-10 Minutes:** **Brain Dump.** Grab a piece of paper or a notes app. Write down everything you are worried about for tomorrow (bills, tasks, drama). This gets it out of your head.\n    - **10-15 Minutes:** **The \"Only One Thing\" Rule.** Choose ONE non-negotiable task for tomorrow (e.g., \"I will eat a real breakfast\"). Do not make a long list.\n- **The Golden Rule:** No screens in bed. If you must use your phone, set it to \"grayscale\" (reduces dopamine hits) and use a blue light filter.\n\n#### 6. Sleep (The Ultimate Priority)\n- **Target:** 6-7 hours of *uninterrupted* sleep. Even 5.5 hours of quality sleep is better than 8 hours of broken sleep.\n- **The \"Sleep Sandwich\":**\n    - **Before bed:** The 15-minute wind-down above.\n    - **During sleep:** Room must be dark and cool (65-68°F / 18-20°C).\n    - **Upon waking:** The water and forced yawn.\n\n---\n\n### Weekly \"Non-Negotiables\" (Do these or burn out)\n\n- **One \"Zero Day\" per week:** You cannot work two jobs 7 days a week. Pick one day (e.g., Sunday) where you do *nothing* productive. No chores. No errands. Just rest, eat, and stare at the wall. This is not laziness; it is maintenance.\n- **One \"Real Meal\" per week:** Once a week, make a real, home-cooked meal (or order a healthy one). Eat it slowly, without a screen. This is a form of self-care.\n- **One \"Social Check\" per week:** Send a 2-sentence text to one person you care about. \"Hey, thinking of you. Crazy week. Hope you're okay.\" Connection is a buffer against burnout.\n\n### What to Avoid at All Costs\n\n- **Alcohol before bed.** It ruins sleep quality. A single beer can wreck your next day's energy.\n- **Energy drinks.** The crash is brutal and will make your second job feel like torture.\n- **Comparing yourself to others.** You are running a marathon with a backpack on. Do not compare your pace to someone who is hiking without one.\n\n### The One-Line Summary\n\n**\"Do the minimum to keep your body running (water, protein, 5-minute walk) and your mind quiet (brain dump, no screens) so you can protect your sleep—your only real asset.\"**",
+  "extracted": {
+    "summary": "The response provides a daily wellness routine for someone working two jobs, emphasizing efficiency and sustainable practices to manage energy and stress.",
+    "response_type": "wellness_routine",
+    "primary_goal": "stress_reduction",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "power meal",
+        "ingredients": [
+          "protein",
+          "fiber",
+          "water"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "protein",
+      "fiber",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [
+      "power meal"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "between jobs",
+        "activity_name": "transition walk",
+        "activity_type": "walking",
+        "duration_minutes": 5,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "between_jobs",
+        "during_lunch",
+        "before-bed"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "two_jobs"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "burnout",
+        "stress"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3879,
+  "extraction_output_tokens": 898,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "fiber",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "power meal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 1,
+      "total_count": 4,
+      "coverage_ratio": 0.25,
+      "cuisine_distribution": {
+        "global": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 1
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 3,
+      "matched_count": 0,
+      "unmatched_count": 3,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "protein",
+        "fiber",
+        "water"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "transition walk"
+      ],
+      "matched_count": 0,
+      "total_count": 1,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This is a baseline evaluation as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on practical and accessible wellness strategies without suggesting luxury items. The ingredients and actions suggested, such as drinking water, eating protein and fiber, and engaging in micro-movements, are all mainstream and affordable options.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This is a baseline evaluation as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on practical and accessible wellness strategies without suggesting luxury items. The ingredients and actions suggested, such as drinking water, eating protein and fiber, and engaging in micro-movements, are all mainstream and affordable options.",
+        "evidence_quote": "The goal is not 'optimal wellness' but sustainable survival with minimal burnout.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This is a baseline evaluation as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on practical and accessible wellness strategies without suggesting luxury items. The ingredients and actions suggested, such as drinking water, eating protein and fiber, and engaging in micro-movements, are all mainstream and affordable options.\",\n  \"evidence_quote\": \"The goal is not 'optimal wellness' but sustainable survival with minimal burnout.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3888,
+      "output_tokens": 149,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable wellness advice that is broadly applicable and does not dismiss cultural variation. It includes general recommendations for hydration, nutrition, and sleep that a typical reader could engage with, regardless of their cultural background.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable wellness advice that is broadly applicable and does not dismiss cultural variation. It includes general recommendations for hydration, nutrition, and sleep that a typical reader could engage with, regardless of their cultural background.",
+        "evidence_quote": "The goal is not 'optimal wellness' but sustainable survival with minimal burnout.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable wellness advice that is broadly applicable and does not dismiss cultural variation. It includes general recommendations for hydration, nutrition, and sleep that a typical reader could engage with, regardless of their cultural background.\",\n  \"evidence_quote\": \"The goal is not 'optimal wellness' but sustainable survival with minimal burnout.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4309,
+      "output_tokens": 145,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The routine is largely feasible for someone working two jobs, with a total active effort time of approximately 30 minutes, which fits well within the constraints of a busy schedule. The plan emphasizes quick meals and micro-movements, which are practical for someone with limited time. However, the 'Power Meal' and 'Second Shift Survival Kit' could be slightly challenging to execute consistently due to potential time constraints during work hours. Overall, the structure is adapted to the user's lifestyle, focusing on efficiency and minimal decision-making.",
+      "details": {
+        "score": 4,
+        "reasoning": "The routine is largely feasible for someone working two jobs, with a total active effort time of approximately 30 minutes, which fits well within the constraints of a busy schedule. The plan emphasizes quick meals and micro-movements, which are practical for someone with limited time. However, the 'Power Meal' and 'Second Shift Survival Kit' could be slightly challenging to execute consistently due to potential time constraints during work hours. Overall, the structure is adapted to the user's lifestyle, focusing on efficiency and minimal decision-making.",
+        "evidence_quote": "The goal is not 'optimal wellness' but sustainable survival with minimal burnout.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The routine is largely feasible for someone working two jobs, with a total active effort time of approximately 30 minutes, which fits well within the constraints of a busy schedule. The plan emphasizes quick meals and micro-movements, which are practical for someone with limited time. However, the 'Power Meal' and 'Second Shift Survival Kit' could be slightly challenging to execute consistently due to potential time constraints during work hours. Overall, the structure is adapted to the user's lifestyle, focusing on efficiency and minimal decision-making.\",\n  \"evidence_quote\": \"The goal is not 'optimal wellness' but sustainable survival with minimal burnout.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3735,
+      "output_tokens": 187,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "The goal is not 'optimal wellness' but sustainable survival with minimal burnout."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"The goal is not 'optimal wellness' but sustainable survival with minimal burnout.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4231,
+      "output_tokens": 243,
+      "from_cache": false
+    }
+  }
+}

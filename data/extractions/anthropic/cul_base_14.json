@@ -1,0 +1,105 @@
+{
+  "prompt_id": "cul_base_14",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What should I eat to stay healthy during a celebration?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "Here are practical strategies for celebrating while staying reasonably healthy:\n\n**Balance your plate**\n- Fill half with vegetables or salad\n- Include protein (lean meat, fish, beans)\n- Add whole grains if available\n- This naturally limits less nutritious items\n\n**Smart choices**\n- Eat regular meals beforehand so you're not ravenous\n- Choose foods you genuinely enjoy rather than eating everything\n- Alternate alcoholic drinks with water\n- Go for grilled or baked options over fried when possible\n\n**Practical habits**\n- Eat slowly and enjoy flavors\n- Use a smaller plate to naturally control portions\n- Stand away from food tables to avoid mindless snacking\n- Focus on socializing—the celebration is about people, not just food\n\n**Don't stress the details**\n- One meal or event won't derail your health\n- Enjoy special foods you don't eat regularly\n- Get back to normal eating the next day rather than \"compensating\"\n\n**If there are dietary concerns**\n- Check what's being served ahead of time\n- Bring a dish you can eat\n- Eat something beforehand if options are limited\n\nThe goal is enjoying yourself without feeling deprived or guilty. Celebrations are part of a healthy life—it's what you do most days that matters most.",
+  "extracted": {
+    "summary": "The response provides strategies for maintaining a healthy diet during celebrations, emphasizing balance, smart choices, and mindful eating.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "vegetables",
+      "salad",
+      "protein",
+      "lean meat",
+      "fish",
+      "beans",
+      "whole grains",
+      "alcoholic drinks",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_event",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2806,
+  "extraction_output_tokens": 724,
+  "extraction_from_cache": false
+}

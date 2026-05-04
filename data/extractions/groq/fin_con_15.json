@@ -1,0 +1,128 @@
+{
+  "prompt_id": "fin_con_15",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the best superfoods for heart health and energy? I can only shop at a food pantry that mostly provides canned goods and dry grains.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "While fresh produce is ideal, you can still find nutritious options at a food pantry that offers canned goods and dry grains. Here are some superfoods for heart health and energy that you might find:\n\n1. **Canned Beans**: Black beans, chickpeas, kidney beans, and pinto beans are rich in fiber, protein, and potassium, making them excellent for heart health. They're also high in complex carbohydrates for sustained energy.\n2. **Oats**: Rolled oats or steel-cut oats are a great source of soluble fiber, which can help lower cholesterol levels and provide a feeling of fullness and energy.\n3. **Canned Tomatoes**: Tomatoes are rich in lycopene, an antioxidant that can help reduce the risk of heart disease. Look for low-sodium or no-salt-added options.\n4. **Brown Rice**: Brown rice is a good source of fiber, manganese, and selenium, which can help lower cholesterol levels and provide sustained energy.\n5. **Quinoa**: Some food pantries may carry quinoa, which is a complete protein and a good source of fiber, iron, and magnesium. These nutrients can help support heart health and energy production.\n6. **Canned Salmon**: If your food pantry carries canned salmon, it's an excellent source of omega-3 fatty acids, which can help reduce inflammation and support heart health.\n7. **Lentils**: Like beans, lentils are rich in fiber, protein, and potassium, making them an excellent choice for heart health and energy.\n8. **Whole Grain Pasta**: If your food pantry carries whole grain pasta, it's a good source of complex carbohydrates and fiber, which can help provide sustained energy and support heart health.\n\nTo get the most out of these foods, try to:\n\n* Rinse canned goods with water to remove excess sodium\n* Cook beans, lentils, and grains with low-sodium broth or water\n* Mix and match different grains and legumes to create balanced meals\n* Add herbs and spices for flavor instead of salt or sugar\n\nRemember, even with limited options, you can still make healthy choices and support your heart health and energy levels.",
+  "extracted": {
+    "summary": "The response provides a list of superfoods suitable for heart health and energy that can be found at food pantries, focusing on canned goods and dry grains.",
+    "response_type": "advisory",
+    "primary_goal": "heart_health",
+    "meal_components": [],
+    "all_ingredients": [
+      "black beans",
+      "chickpeas",
+      "kidney beans",
+      "pinto beans",
+      "oats",
+      "canned tomatoes",
+      "brown rice",
+      "quinoa",
+      "canned salmon",
+      "lentils",
+      "whole grain pasta"
+    ],
+    "all_dishes_or_foods_named": [
+      "canned beans",
+      "oats",
+      "canned tomatoes",
+      "brown rice",
+      "quinoa",
+      "canned salmon",
+      "lentils",
+      "whole grain pasta"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "food_pantry"
+      ],
+      "store_types_referenced": [
+        "food_pantry"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3063,
+  "extraction_output_tokens": 830,
+  "extraction_from_cache": false
+}

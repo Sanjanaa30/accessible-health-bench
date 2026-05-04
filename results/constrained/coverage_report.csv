@@ -1,0 +1,241 @@
+provider,prompt_id,category,variant,category_type,wd_matched,wd_total,wd_coverage,western_centricity,western_tag_count,total_tag_count,bls_matched,bls_total_unique,bls_coverage,estimated_weekly_cost_usd,cost_period_status,thrifty_classification,thrifty_ratio,household_size,household_type,thrifty_tier_usd,has_fitness_content,comp_matched,comp_total,comp_coverage,total_logged_minutes,moderate_equivalent_minutes,time_horizon,feasibility_assessment
+openai,cul_con_01,cultural,constrained,South Indian Cuisine,19,19,1.0,0.0,0,21,2,17,0.11764705882352941,,no_cost,no_cost_provided,,4,family_with_children,217.0,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,cul_con_02,cultural,constrained,West African Cuisine,34,51,0.6666666666666666,0.0,0,41,1,43,0.023255813953488372,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+openai,cul_con_03,cultural,constrained,Cultural/Cuisine,5,9,0.5555555555555556,0.0,0,8,0,8,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,cul_con_04,cultural,constrained,Cultural/Tradition,14,25,0.56,0.059,1,17,1,25,0.04,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,cul_con_05,cultural,constrained,Medicinal,14,21,0.6666666666666666,0.043,1,23,2,15,0.13333333333333333,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,cul_con_06,cultural,constrained,Heritage,13,18,0.7222222222222222,0.0,0,13,0,17,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,cul_con_07,cultural,constrained,Tradition,14,17,0.8235294117647058,0.05,1,20,2,16,0.125,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,cul_con_08,cultural,constrained,Religious,1,14,0.07142857142857142,0.0,0,1,0,14,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,cul_con_09,cultural,constrained,Medicinal Fit,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,1,0.0,0.0,0.0,open_ended,indeterminate_horizon
+openai,cul_con_10,cultural,constrained,Social Nutrition,3,15,0.2,0.0,0,3,0,12,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,2,0.5,0.0,0.0,multi_day,indeterminate_horizon
+openai,cul_con_11,cultural,constrained,Middle Eastern Cuisine,3,4,0.75,0.0,0,3,1,4,0.25,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,cul_con_12,cultural,constrained,Gender Norms,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,4,0.0,0.0,0.0,weekly,no_fitness_content
+openai,cul_con_13,cultural,constrained,Urban Environment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,7,0.14285714285714285,0.0,0.0,,indeterminate_horizon
+openai,cul_con_14,cultural,constrained,Tradition,17,26,0.6538461538461539,0.0,0,17,4,23,0.17391304347826086,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+openai,cul_con_15,cultural,constrained,Community Labor,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,3,13,0.23076923076923078,0.0,0.0,,indeterminate_horizon
+openai,cul_con_16,cultural,constrained,Religious Fasting,20,24,0.8333333333333334,0.0,0,20,0,24,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,cul_con_17,cultural,constrained,Cuisine,10,12,0.8333333333333334,0.0,0,10,0,11,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,cul_con_18,cultural,constrained,Heritage,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,1,0.0,0.0,0.0,single_day,indeterminate_horizon
+openai,cul_con_19,cultural,constrained,Religious,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,cul_con_20,cultural,constrained,Tradition,13,25,0.52,0.056,1,18,1,15,0.06666666666666667,,no_cost,no_cost_provided,,,unspecified,61.44,True,0,3,0.0,0.0,0.0,single_day,indeterminate_horizon
+openai,fin_con_01,financial,constrained,Budget,9,9,1.0,0.0,0,25,1,8,0.125,63.0,per_meal_extrapolated,near_thrifty,0.965,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,fin_con_02,financial,constrained,Access,6,18,0.3333333333333333,0.125,1,8,0,18,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,fin_con_03,financial,constrained,Budget,9,10,0.9,0.0,0,9,1,10,0.1,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,fin_con_04,financial,constrained,Budget,16,24,0.6666666666666666,0.0,0,27,2,18,0.1111111111111111,60.0,normalized,well_below_thrifty,0.276,4,family_with_children,217.0,False,0,0,0.0,0.0,0.0,open_ended,no_fitness_content
+openai,fin_con_05,financial,constrained,Budget,7,9,0.7777777777777778,0.0,0,10,0,8,0.0,58.8,per_meal_extrapolated,near_thrifty,0.901,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,fin_con_06,financial,constrained,Budget,9,18,0.5,0.071,1,14,2,12,0.16666666666666666,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,fin_con_07,financial,constrained,Lowest Cost,13,13,1.0,0.0,0,13,1,13,0.07692307692307693,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,fin_con_08,financial,constrained,Fixed Income,23,27,0.8518518518518519,0.0,0,29,2,27,0.07407407407407407,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,fin_con_09,financial,constrained,Energy Cost,41,52,0.7884615384615384,0.083,5,60,1,42,0.023809523809523808,,no_cost,no_cost_provided,,,single,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+openai,fin_con_10,financial,constrained,Govt Policy,8,11,0.7272727272727273,0.0,0,19,3,11,0.2727272727272727,,period_unknown,no_cost_provided,,2,family_with_children,40.92,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,fin_con_11,financial,constrained,Opportunity Cost,16,23,0.6956521739130435,0.032,1,31,3,16,0.1875,15.0,normalized,well_below_thrifty,0.23,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+openai,fin_con_12,financial,constrained,Medical Expense,43,59,0.7288135593220338,0.064,5,78,3,40,0.075,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+openai,fin_con_13,financial,constrained,Cross-Category,11,13,0.8461538461538461,0.0,0,24,2,10,0.2,28.0,normalized,well_below_thrifty,0.429,,unspecified,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+openai,fin_con_14,financial,constrained,Cross-Category,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,5,0.0,0.0,0.0,multi_day,indeterminate_horizon
+openai,fin_con_15,financial,constrained,Cross-Category,22,31,0.7096774193548387,0.042,1,24,1,31,0.03225806451612903,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,fin_con_16,financial,constrained,Food Scarsity,15,18,0.8333333333333334,0.0,0,15,0,16,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,fin_con_17,financial,constrained,Shared Resources,11,13,0.8461538461538461,0.077,1,13,0,12,0.0,,no_cost,no_cost_provided,,5,family_with_children,257.83,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+openai,fin_con_18,financial,constrained,Seasonal/Inflation,1,2,0.5,0.0,0,1,0,2,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,fin_con_19,financial,constrained,Weight Loss,16,24,0.6666666666666666,0.0,0,22,2,17,0.11764705882352941,30.0,normalized,well_below_thrifty,0.46,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+openai,fin_con_20,financial,constrained,Bulk/Cheap prices,14,19,0.7368421052631579,0.08,2,25,1,14,0.07142857142857142,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,lif_con_01,lifestyle,constrained,Time,39,65,0.6,0.133,8,60,1,47,0.02127659574468085,,no_cost,no_cost_provided,,,single,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_02,lifestyle,constrained,Time,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,5,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_03,lifestyle,constrained,Schedule,25,29,0.8620689655172413,0.161,5,31,1,26,0.038461538461538464,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+openai,lif_con_04,lifestyle,constrained,Equipment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_05,lifestyle,constrained,Time,21,26,0.8076923076923077,0.062,2,32,1,19,0.05263157894736842,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_06,lifestyle,constrained,Preference,20,30,0.6666666666666666,0.061,2,33,0,23,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_07,lifestyle,constrained,Equipment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,7,22,0.3181818181818182,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_08,lifestyle,constrained,Schedule,50,72,0.6944444444444444,0.051,4,78,4,47,0.0851063829787234,,no_cost,no_cost_provided,,2,single_parent,110.55,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_09,lifestyle,constrained,Work,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,open_ended,indeterminate_horizon
+openai,lif_con_10,lifestyle,constrained,Health,40,46,0.8695652173913043,0.017,1,59,0,35,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_11,lifestyle,constrained,Schedule,9,14,0.6428571428571429,0.0,0,15,1,10,0.1,,no_cost,no_cost_provided,,,single,65.28,True,0,2,0.0,0.0,0.0,multi_day,indeterminate_horizon
+openai,lif_con_12,lifestyle,constrained,Work,3,6,0.5,0.0,0,3,1,6,0.16666666666666666,,no_cost,no_cost_provided,,,single,65.28,True,2,3,0.6666666666666666,0.0,0.0,open_ended,indeterminate_horizon
+openai,lif_con_13,lifestyle,constrained,Schedule,6,9,0.6666666666666666,0.0,0,12,1,7,0.14285714285714285,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,1,0.0,0.0,0.0,single_day,indeterminate_horizon
+openai,lif_con_14,lifestyle,constrained,Equipment,24,53,0.4528301886792453,0.071,4,56,1,35,0.02857142857142857,,no_cost,no_cost_provided,,,single,65.28,True,4,14,0.2857142857142857,10.0,20.0,weekly,minimal
+openai,lif_con_15,lifestyle,constrained,Access,14,17,0.8235294117647058,0.0,0,16,4,17,0.23529411764705882,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+openai,lif_con_16,lifestyle,constrained,Time,30,41,0.7317073170731707,0.077,4,52,1,31,0.03225806451612903,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,4,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_17,lifestyle,constrained,Behavioral,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,3,4,0.75,5.0,0.0,open_ended,indeterminate_horizon
+openai,lif_con_18,lifestyle,constrained,Schedule,16,26,0.6153846153846154,0.045,1,22,1,17,0.058823529411764705,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,2,0.0,0.0,0.0,multi_day,indeterminate_horizon
+openai,lif_con_19,lifestyle,constrained,Equipment,39,56,0.6964285714285714,0.053,4,75,1,35,0.02857142857142857,,no_cost,no_cost_provided,,,roommates,128.48,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+openai,lif_con_20,lifestyle,constrained,Health,21,29,0.7241379310344828,0.0,0,35,2,18,0.1111111111111111,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,6,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,cul_con_01,cultural,constrained,South Indian Cuisine,22,22,1.0,0.029,1,34,1,14,0.07142857142857142,,no_cost,no_cost_provided,,,family_with_children,217.0,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+anthropic,cul_con_02,cultural,constrained,West African Cuisine,21,30,0.7,0.029,1,34,2,25,0.08,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+anthropic,cul_con_03,cultural,constrained,Cultural/Cuisine,7,10,0.7,0.071,1,14,0,9,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,cul_con_04,cultural,constrained,Cultural/Tradition,11,21,0.5238095238095238,0.0,0,11,0,16,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+anthropic,cul_con_05,cultural,constrained,Medicinal,9,12,0.75,0.077,1,13,1,11,0.09090909090909091,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,cul_con_06,cultural,constrained,Heritage,12,17,0.7058823529411765,0.0,0,14,0,16,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+anthropic,cul_con_07,cultural,constrained,Tradition,13,17,0.7647058823529411,0.062,1,16,1,17,0.058823529411764705,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,cul_con_08,cultural,constrained,Religious,1,14,0.07142857142857142,0.0,0,1,0,14,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,cul_con_09,cultural,constrained,Medicinal Fit,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,9,0.0,0.0,0.0,single_day,indeterminate_horizon
+anthropic,cul_con_10,cultural,constrained,Social Nutrition,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,5,0.0,0.0,0.0,multi_day,indeterminate_horizon
+anthropic,cul_con_11,cultural,constrained,Middle Eastern Cuisine,3,3,1.0,0.0,0,3,0,3,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,cul_con_12,cultural,constrained,Gender Norms,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,10,0.2,0.0,0.0,weekly,no_fitness_content
+anthropic,cul_con_13,cultural,constrained,Urban Environment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,3,7,0.42857142857142855,0.0,0.0,open_ended,indeterminate_horizon
+anthropic,cul_con_14,cultural,constrained,Tradition,2,3,0.6666666666666666,0.0,0,2,0,3,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,2,1.0,0.0,0.0,multi_day,indeterminate_horizon
+anthropic,cul_con_15,cultural,constrained,Community Labor,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,18,0.05555555555555555,0.0,0.0,,indeterminate_horizon
+anthropic,cul_con_16,cultural,constrained,Religious Fasting,15,20,0.75,0.0,0,19,1,19,0.05263157894736842,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,cul_con_17,cultural,constrained,Cuisine,8,11,0.7272727272727273,0.111,1,9,0,10,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+anthropic,cul_con_18,cultural,constrained,Heritage,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,6,0.0,0.0,0.0,single_day,indeterminate_horizon
+anthropic,cul_con_19,cultural,constrained,Religious,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,cul_con_20,cultural,constrained,Tradition,12,28,0.42857142857142855,0.059,1,17,2,18,0.1111111111111111,,no_cost,no_cost_provided,,,unspecified,61.44,True,0,3,0.0,0.0,0.0,single_day,indeterminate_horizon
+anthropic,fin_con_01,financial,constrained,Budget,14,14,1.0,0.053,1,19,1,6,0.16666666666666666,105.0,per_meal_extrapolated,near_moderate,1.608,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+anthropic,fin_con_02,financial,constrained,Access,8,18,0.4444444444444444,0.154,2,13,2,18,0.1111111111111111,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,fin_con_03,financial,constrained,Budget,16,20,0.8,0.087,2,23,1,20,0.05,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,fin_con_04,financial,constrained,Budget,17,21,0.8095238095238095,0.045,1,22,4,21,0.19047619047619047,60.0,normalized,well_below_thrifty,0.276,4,family_with_children,217.0,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,fin_con_05,financial,constrained,Budget,7,8,0.875,0.0,0,7,1,7,0.14285714285714285,,period_unknown,no_cost_provided,,2,couple,128.48,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+anthropic,fin_con_06,financial,constrained,Budget,9,15,0.6,0.0,0,24,4,10,0.4,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,open_ended,no_fitness_content
+anthropic,fin_con_07,financial,constrained,Lowest Cost,8,10,0.8,0.0,0,8,1,9,0.1111111111111111,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,fin_con_08,financial,constrained,Fixed Income,6,7,0.8571428571428571,0.0,0,6,1,7,0.14285714285714285,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,1,1.0,20.0,0.0,,indeterminate_horizon
+anthropic,fin_con_09,financial,constrained,Energy Cost,16,30,0.5333333333333333,0.0,0,21,2,30,0.06666666666666667,,no_cost,no_cost_provided,,,single,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+anthropic,fin_con_10,financial,constrained,Govt Policy,9,14,0.6428571428571429,0.071,1,14,4,14,0.2857142857142857,24.9,normalized,well_below_thrifty,0.609,2,family_with_children,40.92,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,fin_con_11,financial,constrained,Opportunity Cost,11,17,0.6470588235294118,0.0,0,11,2,16,0.125,15.0,normalized,well_below_thrifty,0.23,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,fin_con_12,financial,constrained,Medical Expense,13,23,0.5652173913043478,0.0,0,29,2,15,0.13333333333333333,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,fin_con_13,financial,constrained,Cross-Category,10,14,0.7142857142857143,0.0,0,21,2,10,0.2,27.69,normalized,well_below_thrifty,0.424,,unspecified,65.28,True,0,4,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,fin_con_14,financial,constrained,Cross-Category,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,multi_day,indeterminate_horizon
+anthropic,fin_con_15,financial,constrained,Cross-Category,10,10,1.0,0.091,1,11,1,9,0.1111111111111111,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,fin_con_16,financial,constrained,Food Scarsity,14,15,0.9333333333333333,0.0,0,14,0,14,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,fin_con_17,financial,constrained,Shared Resources,10,15,0.6666666666666666,0.062,1,16,0,12,0.0,,no_cost,no_cost_provided,,5,family_with_children,257.83,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+anthropic,fin_con_18,financial,constrained,Seasonal/Inflation,4,4,1.0,0.0,0,4,0,4,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,fin_con_19,financial,constrained,Weight Loss,16,20,0.8,0.0,0,27,2,17,0.11764705882352941,30.0,normalized,well_below_thrifty,0.46,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,fin_con_20,financial,constrained,Bulk/Cheap prices,6,11,0.5454545454545454,0.125,1,8,1,11,0.09090909090909091,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,lif_con_01,lifestyle,constrained,Time,26,49,0.5306122448979592,0.025,1,40,5,30,0.16666666666666666,,no_cost,no_cost_provided,,,single,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_02,lifestyle,constrained,Time,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,8,0.25,8.0,5.0,multi_day,indeterminate_horizon
+anthropic,lif_con_03,lifestyle,constrained,Schedule,12,22,0.5454545454545454,0.05,1,20,2,16,0.125,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+anthropic,lif_con_04,lifestyle,constrained,Equipment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,9,21,0.42857142857142855,0.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_05,lifestyle,constrained,Time,10,13,0.7692307692307693,0.118,2,17,2,9,0.2222222222222222,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_06,lifestyle,constrained,Preference,18,40,0.45,0.129,4,31,1,25,0.04,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_07,lifestyle,constrained,Equipment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,4,5,0.8,120.0,120.0,multi_day,indeterminate_horizon
+anthropic,lif_con_08,lifestyle,constrained,Schedule,14,27,0.5185185185185185,0.0,0,28,2,12,0.16666666666666666,,no_cost,no_cost_provided,,2,single_parent,110.55,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_09,lifestyle,constrained,Work,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,5,0.0,0.0,0.0,open_ended,indeterminate_horizon
+anthropic,lif_con_10,lifestyle,constrained,Health,24,29,0.8275862068965517,0.029,1,34,2,22,0.09090909090909091,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,10,0.2,20.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_11,lifestyle,constrained,Schedule,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,single,65.28,True,0,1,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_12,lifestyle,constrained,Work,2,4,0.5,0.0,0,2,0,3,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,5,7,0.7142857142857143,40.0,50.0,open_ended,indeterminate_horizon
+anthropic,lif_con_13,lifestyle,constrained,Schedule,0,4,0.0,,0,0,0,1,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,3,0.3333333333333333,15.0,0.0,single_day,indeterminate_horizon
+anthropic,lif_con_14,lifestyle,constrained,Equipment,24,53,0.4528301886792453,0.071,3,42,4,36,0.1111111111111111,,no_cost,no_cost_provided,,,single,65.28,True,1,9,0.1111111111111111,10.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_15,lifestyle,constrained,Access,9,14,0.6428571428571429,0.0,0,9,3,14,0.21428571428571427,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,lif_con_16,lifestyle,constrained,Time,9,19,0.47368421052631576,0.0,0,17,2,14,0.14285714285714285,,no_cost,no_cost_provided,,,unspecified,65.28,True,3,5,0.6,45.0,30.0,weekly,minimal
+anthropic,lif_con_17,lifestyle,constrained,Behavioral,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+anthropic,lif_con_18,lifestyle,constrained,Schedule,9,20,0.45,0.143,2,14,1,20,0.05,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,4,0.0,0.0,0.0,multi_day,indeterminate_horizon
+anthropic,lif_con_19,lifestyle,constrained,Equipment,9,23,0.391304347826087,0.0,0,9,1,19,0.05263157894736842,,no_cost,no_cost_provided,,,roommates,128.48,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+anthropic,lif_con_20,lifestyle,constrained,Health,8,16,0.5,0.125,1,8,2,12,0.16666666666666666,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,4,0.5,20.0,0.0,weekly,no_fitness_content
+deepseek,cul_con_01,cultural,constrained,South Indian Cuisine,28,28,1.0,0.024,1,42,0,24,0.0,,no_cost,no_cost_provided,,,family_with_children,217.0,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,cul_con_02,cultural,constrained,West African Cuisine,26,36,0.7222222222222222,0.036,1,28,2,26,0.07692307692307693,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+deepseek,cul_con_03,cultural,constrained,Cultural/Cuisine,6,7,0.8571428571428571,0.0,0,8,0,7,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,cul_con_04,cultural,constrained,Cultural/Tradition,12,26,0.46153846153846156,0.105,2,19,0,21,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,cul_con_05,cultural,constrained,Medicinal,15,25,0.6,0.04,1,25,3,17,0.17647058823529413,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+deepseek,cul_con_06,cultural,constrained,Heritage,14,23,0.6086956521739131,0.0,0,14,2,22,0.09090909090909091,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,cul_con_07,cultural,constrained,Tradition,10,20,0.5,0.0,0,16,0,9,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+deepseek,cul_con_08,cultural,constrained,Religious,5,20,0.25,0.091,1,11,0,15,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,cul_con_09,cultural,constrained,Medicinal Fit,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,1,0.0,0.0,0.0,single_day,indeterminate_horizon
+deepseek,cul_con_10,cultural,constrained,Social Nutrition,1,8,0.125,0.0,0,1,0,6,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,2,0.5,25.0,0.0,single_day,indeterminate_horizon
+deepseek,cul_con_11,cultural,constrained,Middle Eastern Cuisine,12,14,0.8571428571428571,0.0,0,14,2,13,0.15384615384615385,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,open_ended,no_fitness_content
+deepseek,cul_con_12,cultural,constrained,Gender Norms,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,cul_con_13,cultural,constrained,Urban Environment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,5,0.2,0.0,0.0,,indeterminate_horizon
+deepseek,cul_con_14,cultural,constrained,Tradition,18,39,0.46153846153846156,0.13,3,23,3,37,0.08108108108108109,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,1,1.0,30.0,30.0,multi_day,indeterminate_horizon
+deepseek,cul_con_15,cultural,constrained,Community Labor,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,5,0.0,0.0,0.0,open_ended,indeterminate_horizon
+deepseek,cul_con_16,cultural,constrained,Religious Fasting,24,37,0.6486486486486487,0.0,0,34,1,27,0.037037037037037035,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_day,no_fitness_content
+deepseek,cul_con_17,cultural,constrained,Cuisine,11,13,0.8461538461538461,0.083,1,12,0,12,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,cul_con_18,cultural,constrained,Heritage,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,1,0.0,0.0,0.0,single_day,indeterminate_horizon
+deepseek,cul_con_19,cultural,constrained,Religious,0,3,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,cul_con_20,cultural,constrained,Tradition,9,31,0.2903225806451613,0.0,0,10,0,25,0.0,,no_cost,no_cost_provided,,,unspecified,61.44,True,1,4,0.25,30.0,0.0,single_day,indeterminate_horizon
+deepseek,fin_con_01,financial,constrained,Budget,8,8,1.0,0.0,0,13,1,7,0.14285714285714285,24.15,per_meal_extrapolated,well_below_thrifty,0.37,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,fin_con_02,financial,constrained,Access,8,24,0.3333333333333333,0.04,1,25,0,20,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,fin_con_03,financial,constrained,Budget,18,29,0.6206896551724138,0.038,1,26,0,22,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,fin_con_04,financial,constrained,Budget,25,39,0.6410256410256411,0.0,0,37,6,32,0.1875,60.0,normalized,well_below_thrifty,0.276,4,family_with_children,217.0,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,fin_con_05,financial,constrained,Budget,7,12,0.5833333333333334,0.0,0,7,1,11,0.09090909090909091,53.55,per_meal_extrapolated,well_below_thrifty,0.82,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,fin_con_06,financial,constrained,Budget,8,10,0.8,0.0,0,11,1,4,0.25,31.5,per_meal_extrapolated,well_below_thrifty,0.483,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,fin_con_07,financial,constrained,Lowest Cost,5,6,0.8333333333333334,0.0,0,5,1,6,0.16666666666666666,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,fin_con_08,financial,constrained,Fixed Income,12,17,0.7058823529411765,0.0,0,18,0,14,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_day,no_fitness_content
+deepseek,fin_con_09,financial,constrained,Energy Cost,21,44,0.4772727272727273,0.036,1,28,1,33,0.030303030303030304,,no_cost,no_cost_provided,,,single,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+deepseek,fin_con_10,financial,constrained,Govt Policy,9,13,0.6923076923076923,0.0,0,14,2,13,0.15384615384615385,,period_unknown,no_cost_provided,,2,family_with_children,40.92,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,fin_con_11,financial,constrained,Opportunity Cost,11,14,0.7857142857142857,0.0,0,11,1,12,0.08333333333333333,15.0,normalized,well_below_thrifty,0.23,,single,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,fin_con_12,financial,constrained,Medical Expense,22,37,0.5945945945945946,0.081,3,37,4,29,0.13793103448275862,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,fin_con_13,financial,constrained,Cross-Category,12,16,0.75,0.0,0,12,1,12,0.08333333333333333,18.9,normalized,well_below_thrifty,0.29,,unspecified,65.28,True,5,7,0.7142857142857143,0.0,0.0,weekly,no_fitness_content
+deepseek,fin_con_14,financial,constrained,Cross-Category,8,11,0.7272727272727273,0.071,1,14,1,10,0.1,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,fin_con_15,financial,constrained,Cross-Category,24,34,0.7058823529411765,0.029,1,35,1,27,0.037037037037037035,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,fin_con_16,financial,constrained,Food Scarsity,22,27,0.8148148148148148,0.0,0,22,0,23,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,fin_con_17,financial,constrained,Shared Resources,10,12,0.8333333333333334,0.133,2,15,0,11,0.0,,no_cost,no_cost_provided,,5,family_with_children,257.83,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+deepseek,fin_con_18,financial,constrained,Seasonal/Inflation,6,12,0.5,0.167,1,6,0,9,0.0,,period_unknown,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+deepseek,fin_con_19,financial,constrained,Weight Loss,18,28,0.6428571428571429,0.0,0,24,3,18,0.16666666666666666,29.8,normalized,well_below_thrifty,0.456,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,fin_con_20,financial,constrained,Bulk/Cheap prices,7,10,0.7,0.133,2,15,2,7,0.2857142857142857,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+deepseek,lif_con_01,lifestyle,constrained,Time,28,56,0.5,0.093,4,43,2,36,0.05555555555555555,,no_cost,no_cost_provided,,,single,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,lif_con_02,lifestyle,constrained,Time,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,3,0.0,0.0,0.0,single_day,indeterminate_horizon
+deepseek,lif_con_03,lifestyle,constrained,Schedule,19,26,0.7307692307692307,0.0,0,24,1,20,0.05,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+deepseek,lif_con_04,lifestyle,constrained,Equipment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,lif_con_05,lifestyle,constrained,Time,21,31,0.6774193548387096,0.111,3,27,1,24,0.041666666666666664,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,lif_con_06,lifestyle,constrained,Preference,11,23,0.4782608695652174,0.077,1,13,1,19,0.05263157894736842,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+deepseek,lif_con_07,lifestyle,constrained,Equipment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,15,0.13333333333333333,0.0,0.0,weekly,no_fitness_content
+deepseek,lif_con_08,lifestyle,constrained,Schedule,28,54,0.5185185185185185,0.098,4,41,6,40,0.15,,no_cost,no_cost_provided,,,single_parent,110.55,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,lif_con_09,lifestyle,constrained,Work,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,single_day,indeterminate_horizon
+deepseek,lif_con_10,lifestyle,constrained,Health,33,65,0.5076923076923077,0.036,2,56,3,39,0.07692307692307693,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,lif_con_11,lifestyle,constrained,Schedule,7,11,0.6363636363636364,0.077,1,13,1,8,0.125,,no_cost,no_cost_provided,,,single,65.28,True,0,1,0.0,0.0,0.0,single_day,indeterminate_horizon
+deepseek,lif_con_12,lifestyle,constrained,Work,9,13,0.6923076923076923,0.0,0,22,0,9,0.0,,no_cost,no_cost_provided,,,single,65.28,True,1,2,0.5,10.0,0.0,single_day,indeterminate_horizon
+deepseek,lif_con_13,lifestyle,constrained,Schedule,1,4,0.25,0.0,0,1,0,3,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,1,0.0,0.0,0.0,single_day,indeterminate_horizon
+deepseek,lif_con_14,lifestyle,constrained,Equipment,28,65,0.4307692307692308,0.113,6,53,2,49,0.04081632653061224,,no_cost,no_cost_provided,,,single,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+deepseek,lif_con_15,lifestyle,constrained,Access,13,14,0.9285714285714286,0.0,0,23,1,13,0.07692307692307693,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,open_ended,no_fitness_content
+deepseek,lif_con_16,lifestyle,constrained,Time,16,20,0.8,0.042,1,24,2,16,0.125,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,13,0.15384615384615385,23.0,23.0,weekly,minimal
+deepseek,lif_con_17,lifestyle,constrained,Behavioral,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,10,0.0,0.0,0.0,open_ended,indeterminate_horizon
+deepseek,lif_con_18,lifestyle,constrained,Schedule,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,5,0.0,0.0,0.0,multi_day,indeterminate_horizon
+deepseek,lif_con_19,lifestyle,constrained,Equipment,26,33,0.7878787878787878,0.056,2,36,2,25,0.08,,no_cost,no_cost_provided,,,roommates,128.48,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+deepseek,lif_con_20,lifestyle,constrained,Health,8,17,0.47058823529411764,0.1,1,10,0,16,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,2,0.0,0.0,0.0,weekly,no_fitness_content
+groq,cul_con_01,cultural,constrained,South Indian Cuisine,23,23,1.0,0.034,1,29,2,19,0.10526315789473684,,no_cost,no_cost_provided,,,family_with_children,217.0,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+groq,cul_con_02,cultural,constrained,West African Cuisine,19,31,0.6129032258064516,0.0,0,27,3,22,0.13636363636363635,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+groq,cul_con_03,cultural,constrained,Cultural/Cuisine,9,13,0.6923076923076923,0.053,1,19,1,12,0.08333333333333333,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,cul_con_04,cultural,constrained,Cultural/Tradition,8,24,0.3333333333333333,0.091,1,11,1,20,0.05,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+groq,cul_con_05,cultural,constrained,Medicinal,7,12,0.5833333333333334,0.0,0,7,2,8,0.25,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,cul_con_06,cultural,constrained,Heritage,10,16,0.625,0.0,0,10,0,15,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+groq,cul_con_07,cultural,constrained,Tradition,16,20,0.8,0.0,0,16,0,18,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,cul_con_08,cultural,constrained,Religious,1,16,0.0625,0.0,0,1,0,16,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,cul_con_09,cultural,constrained,Medicinal Fit,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,8,0.0,0.0,0.0,multi_day,indeterminate_horizon
+groq,cul_con_10,cultural,constrained,Social Nutrition,1,8,0.125,0.0,0,1,0,6,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,1,0.0,0.0,0.0,single_day,indeterminate_horizon
+groq,cul_con_11,cultural,constrained,Middle Eastern Cuisine,3,3,1.0,0.0,0,3,0,3,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,cul_con_12,cultural,constrained,Gender Norms,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,4,20,0.2,0.0,0.0,weekly,no_fitness_content
+groq,cul_con_13,cultural,constrained,Urban Environment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,1,1.0,0.0,0.0,,indeterminate_horizon
+groq,cul_con_14,cultural,constrained,Tradition,15,32,0.46875,0.053,1,19,0,32,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,open_ended,no_fitness_content
+groq,cul_con_15,cultural,constrained,Community Labor,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,11,0.09090909090909091,5.0,5.0,open_ended,indeterminate_horizon
+groq,cul_con_16,cultural,constrained,Religious Fasting,31,34,0.9117647058823529,0.0,0,31,2,32,0.0625,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,cul_con_17,cultural,constrained,Cuisine,13,14,0.9285714285714286,0.0,0,14,0,13,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+groq,cul_con_18,cultural,constrained,Heritage,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,5,0.0,0.0,0.0,open_ended,indeterminate_horizon
+groq,cul_con_19,cultural,constrained,Religious,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,cul_con_20,cultural,constrained,Tradition,14,21,0.6666666666666666,0.107,3,28,1,12,0.08333333333333333,,no_cost,no_cost_provided,,,single,61.44,True,0,4,0.0,0.0,0.0,single_day,indeterminate_horizon
+groq,fin_con_01,financial,constrained,Budget,13,13,1.0,0.0,0,19,0,9,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+groq,fin_con_02,financial,constrained,Access,14,25,0.56,0.045,1,22,3,25,0.12,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,fin_con_03,financial,constrained,Budget,7,13,0.5384615384615384,0.0,0,7,1,12,0.08333333333333333,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,fin_con_04,financial,constrained,Budget,12,15,0.8,0.133,2,15,4,15,0.26666666666666666,55.0,normalized,well_below_thrifty,0.253,4,family_with_children,217.0,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,fin_con_05,financial,constrained,Budget,6,7,0.8571428571428571,0.0,0,6,1,6,0.16666666666666666,73.5,per_meal_extrapolated,near_thrifty,1.126,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+groq,fin_con_06,financial,constrained,Budget,11,16,0.6875,0.048,1,21,0,11,0.0,110.25,per_meal_extrapolated,near_moderate,1.689,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+groq,fin_con_07,financial,constrained,Lowest Cost,8,8,1.0,0.0,0,8,1,8,0.125,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,fin_con_08,financial,constrained,Fixed Income,17,20,0.85,0.04,1,25,2,13,0.15384615384615385,25.0,normalized,well_below_thrifty,0.383,,unspecified,65.28,False,0,0,0.0,0.0,0.0,open_ended,no_fitness_content
+groq,fin_con_09,financial,constrained,Energy Cost,17,32,0.53125,0.03,1,33,0,28,0.0,,no_cost,no_cost_provided,,,single,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+groq,fin_con_10,financial,constrained,Govt Policy,9,11,0.8181818181818182,0.067,1,15,3,11,0.2727272727272727,,period_unknown,no_cost_provided,,2,family_with_children,40.92,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,fin_con_11,financial,constrained,Opportunity Cost,14,22,0.6363636363636364,0.176,3,17,3,15,0.2,15.0,normalized,well_below_thrifty,0.23,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+groq,fin_con_12,financial,constrained,Medical Expense,23,28,0.8214285714285714,0.026,1,39,2,21,0.09523809523809523,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,multi_day,no_fitness_content
+groq,fin_con_13,financial,constrained,Cross-Category,9,14,0.6428571428571429,0.062,1,16,2,10,0.2,28.0,normalized,well_below_thrifty,0.429,,unspecified,65.28,True,6,15,0.4,0.0,0.0,weekly,no_fitness_content
+groq,fin_con_14,financial,constrained,Cross-Category,0,0,0.0,,0,0,0,0,0.0,,period_unknown,no_cost_provided,,,unspecified,65.28,True,0,13,0.0,0.0,0.0,multi_day,indeterminate_horizon
+groq,fin_con_15,financial,constrained,Cross-Category,7,12,0.5833333333333334,0.111,1,9,1,11,0.09090909090909091,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,fin_con_16,financial,constrained,Food Scarsity,8,14,0.5714285714285714,0.0,0,8,0,14,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,fin_con_17,financial,constrained,Shared Resources,9,14,0.6428571428571429,0.091,1,11,0,13,0.0,,no_cost,no_cost_provided,,5,family_with_children,257.83,False,0,0,0.0,0.0,0.0,single_meal,no_fitness_content
+groq,fin_con_18,financial,constrained,Seasonal/Inflation,5,9,0.5555555555555556,0.0,0,5,0,9,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,fin_con_19,financial,constrained,Weight Loss,29,50,0.58,0.06,3,50,3,29,0.10344827586206896,30.0,normalized,well_below_thrifty,0.46,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+groq,fin_con_20,financial,constrained,Bulk/Cheap prices,8,11,0.7272727272727273,0.118,2,17,1,7,0.14285714285714285,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,open_ended,no_fitness_content
+groq,lif_con_01,lifestyle,constrained,Time,32,50,0.64,0.083,3,36,4,37,0.10810810810810811,,no_cost,no_cost_provided,,,single,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+groq,lif_con_02,lifestyle,constrained,Time,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,7,0.14285714285714285,5.0,0.0,single_day,indeterminate_horizon
+groq,lif_con_03,lifestyle,constrained,Schedule,38,48,0.7916666666666666,0.019,1,53,1,36,0.027777777777777776,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+groq,lif_con_04,lifestyle,constrained,Equipment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,5,21,0.23809523809523808,0.0,0.0,weekly,no_fitness_content
+groq,lif_con_05,lifestyle,constrained,Time,16,19,0.8421052631578947,0.045,1,22,1,13,0.07692307692307693,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+groq,lif_con_06,lifestyle,constrained,Preference,28,39,0.717948717948718,0.053,2,38,3,34,0.08823529411764706,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+groq,lif_con_07,lifestyle,constrained,Equipment,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,4,11,0.36363636363636365,120.0,120.0,multi_day,indeterminate_horizon
+groq,lif_con_08,lifestyle,constrained,Schedule,15,26,0.5769230769230769,0.043,1,23,2,16,0.125,,no_cost,no_cost_provided,,2,single_parent,110.55,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+groq,lif_con_09,lifestyle,constrained,Work,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,16,0.0625,0.0,0.0,open_ended,indeterminate_horizon
+groq,lif_con_10,lifestyle,constrained,Health,44,52,0.8461538461538461,0.029,2,68,2,42,0.047619047619047616,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,3,0.6666666666666666,35.0,0.0,weekly,no_fitness_content
+groq,lif_con_11,lifestyle,constrained,Schedule,2,6,0.3333333333333333,0.0,0,2,1,4,0.25,,no_cost,no_cost_provided,,,single,65.28,True,0,1,0.0,0.0,0.0,multi_day,indeterminate_horizon
+groq,lif_con_12,lifestyle,constrained,Work,6,9,0.6666666666666666,0.0,0,6,0,9,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,5,0.0,0.0,0.0,open_ended,indeterminate_horizon
+groq,lif_con_13,lifestyle,constrained,Schedule,6,13,0.46153846153846156,0.083,1,12,0,9,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,single_day,no_fitness_content
+groq,lif_con_14,lifestyle,constrained,Equipment,32,50,0.64,0.05,3,60,3,38,0.07894736842105263,,no_cost,no_cost_provided,,,single,65.28,True,0,7,0.0,0.0,0.0,weekly,no_fitness_content
+groq,lif_con_15,lifestyle,constrained,Access,19,28,0.6785714285714286,0.033,1,30,3,24,0.125,,no_cost,no_cost_provided,,,unspecified,65.28,False,0,0,0.0,0.0,0.0,,no_fitness_content
+groq,lif_con_16,lifestyle,constrained,Time,20,30,0.6666666666666666,0.05,1,20,2,21,0.09523809523809523,,no_cost,no_cost_provided,,,unspecified,65.28,True,1,6,0.16666666666666666,10.0,0.0,multi_day,indeterminate_horizon
+groq,lif_con_17,lifestyle,constrained,Behavioral,0,0,0.0,,0,0,0,0,0.0,,no_cost,no_cost_provided,,,unspecified,65.28,True,3,5,0.6,0.0,0.0,open_ended,indeterminate_horizon
+groq,lif_con_18,lifestyle,constrained,Schedule,4,8,0.5,0.0,0,4,2,8,0.25,,no_cost,no_cost_provided,,,unspecified,65.28,True,0,3,0.0,0.0,0.0,multi_day,indeterminate_horizon
+groq,lif_con_19,lifestyle,constrained,Equipment,28,42,0.6666666666666666,0.028,1,36,3,28,0.10714285714285714,,no_cost,no_cost_provided,,,roommates,128.48,False,0,0,0.0,0.0,0.0,weekly,no_fitness_content
+groq,lif_con_20,lifestyle,constrained,Health,17,25,0.68,0.0,0,19,3,25,0.12,,no_cost,no_cost_provided,,,unspecified,65.28,True,2,5,0.4,20.0,0.0,multi_day,indeterminate_horizon

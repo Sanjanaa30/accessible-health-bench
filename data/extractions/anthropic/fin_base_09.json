@@ -1,0 +1,371 @@
+{
+  "prompt_id": "fin_base_09",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a 3-day meal plan for a student who needs to improve their iron levels.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# 3-Day Iron-Rich Meal Plan for Students\n\n## Day 1\n\n**Breakfast**\n- Fortified cereal with whole milk\n- Orange juice (vitamin C helps iron absorption)\n- Whole wheat toast with almond butter\n\n**Lunch**\n- Lean ground beef tacos with beans\n- Spinach salad with tomatoes\n- Brown rice\n\n**Dinner**\n- Baked salmon\n- Sweet potato\n- Steamed broccoli with lemon\n\n**Snacks**\n- Pumpkin seeds\n- Apple with peanut butter\n\n---\n\n## Day 2\n\n**Breakfast**\n- Oatmeal with raisins and cinnamon\n- Scrambled eggs\n- Strawberries\n\n**Lunch**\n- Lentil soup\n- Whole grain bread\n- Mixed greens salad with bell peppers\n\n**Dinner**\n- Chicken breast with herbs\n- Quinoa\n- Roasted kale\n\n**Snacks**\n- Dried apricots\n- Almonds\n\n---\n\n## Day 3\n\n**Breakfast**\n- Whole wheat pancakes\n- Turkey sausage\n- Blueberries\n\n**Lunch**\n- Tuna salad sandwich on whole wheat\n- Carrot sticks with hummus\n- Cantaloupe\n\n**Dinner**\n- Lean beef stir-fry\n- Brown rice\n- Bok choy and mushrooms\n\n**Snacks**\n- Dark chocolate (70%+)\n- Cashews\n\n---\n\n## Tips for Maximum Iron Absorption\n- ✓ Pair iron-rich foods with vitamin C sources\n- ✓ Avoid coffee/tea with meals (inhibits absorption)\n- ✓ Cook in cast-iron cookware when possible\n- ✓ Consult a doctor about supplementation if needed",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan designed to improve iron levels for students, including breakfast, lunch, dinner, and snack options.",
+    "response_type": "meal_plan",
+    "primary_goal": "iron_deficiency",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "fortified cereal",
+        "ingredients": [
+          "fortified cereal",
+          "whole milk",
+          "orange juice",
+          "whole wheat toast",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "tacos",
+        "ingredients": [
+          "lean ground beef",
+          "beans",
+          "spinach",
+          "tomatoes",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "other",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "broccoli",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "pumpkin seeds",
+        "ingredients": [
+          "pumpkin seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "raisins",
+          "cinnamon",
+          "eggs",
+          "strawberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "whole grain bread",
+          "mixed greens",
+          "bell peppers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "herbs",
+          "quinoa",
+          "kale"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "dried apricots",
+        "ingredients": [
+          "dried apricots"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "almonds",
+        "ingredients": [
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "whole wheat pancakes",
+        "ingredients": [
+          "whole wheat flour",
+          "turkey sausage",
+          "blueberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "tuna salad sandwich",
+        "ingredients": [
+          "tuna",
+          "whole wheat bread",
+          "carrots",
+          "hummus",
+          "cantaloupe"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "beef stir-fry",
+        "ingredients": [
+          "lean beef",
+          "brown rice",
+          "bok choy",
+          "mushrooms"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "dark chocolate",
+        "ingredients": [
+          "dark chocolate"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "cashews",
+        "ingredients": [
+          "cashews"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almonds",
+      "apple",
+      "baked salmon",
+      "beef",
+      "bell peppers",
+      "blueberries",
+      "bok choy",
+      "brown rice",
+      "cantaloupe",
+      "carrots",
+      "chicken breast",
+      "cinnamon",
+      "dark chocolate",
+      "dried apricots",
+      "eggs",
+      "fortified cereal",
+      "herbs",
+      "hummus",
+      "kale",
+      "lean ground beef",
+      "lentils",
+      "lemon",
+      "mixed greens",
+      "noodles",
+      "oatmeal",
+      "orange juice",
+      "peanut butter",
+      "pumpkin seeds",
+      "quinoa",
+      "raisins",
+      "salmon",
+      "spinach",
+      "strawberries",
+      "sweet potato",
+      "tuna",
+      "turkey sausage"
+    ],
+    "all_dishes_or_foods_named": [
+      "baked salmon",
+      "beef stir-fry",
+      "chicken breast",
+      "fortified cereal",
+      "lentil soup",
+      "oatmeal",
+      "pumpkin seeds",
+      "tacos",
+      "tuna salad sandwich",
+      "whole wheat pancakes"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "iron_deficiency"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Pair iron-rich foods with vitamin C sources",
+      "Avoid coffee/tea with meals (inhibits absorption)",
+      "Cook in cast-iron cookware when possible",
+      "Consult a doctor about supplementation if needed"
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2885,
+  "extraction_output_tokens": 2359,
+  "extraction_from_cache": false
+}

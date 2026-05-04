@@ -1,0 +1,502 @@
+{
+  "prompt_id": "cul_base_08",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the health benefits of eating grains?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Eating grains can provide numerous health benefits due to their high content of essential nutrients, fiber, and antioxidants. Some of the key health benefits of consuming grains include:\n\n1. **High in Fiber**: Grains, especially whole grains, are rich in dietary fiber, which can help promote digestive health, prevent constipation, and support healthy blood sugar levels.\n2. **Rich in Antioxidants**: Grains contain a variety of antioxidants, including polyphenols, vitamin E, and selenium, which can help protect against cell damage, inflammation, and oxidative stress.\n3. **May Help Lower Cholesterol**: Soluble fiber in grains, such as oats and barley, can help bind to bile acids and lower LDL (bad) cholesterol levels, reducing the risk of heart disease.\n4. **Supports Healthy Blood Sugar Levels**: Whole grains, such as brown rice, quinoa, and whole wheat, are rich in fiber and have a lower glycemic index, which can help regulate blood sugar levels and prevent spikes in insulin levels.\n5. **May Reduce Inflammation**: Grains contain anti-inflammatory compounds, such as polyphenols and omega-3 fatty acids, which can help reduce inflammation and alleviate symptoms associated with conditions like arthritis, diabetes, and cardiovascular disease.\n6. **Supports Healthy Gut Bacteria**: Grains, especially whole grains, contain prebiotic fiber, which can help feed the good bacteria in the gut, promoting a healthy gut microbiome and supporting immune system function.\n7. **May Help with Weight Management**: Grains, particularly whole grains, are high in fiber and low in calories, making them a satiating and filling food that can help with weight loss and maintenance.\n8. **Supports Healthy Bones**: Grains, such as whole wheat, oats, and barley, are rich in minerals like calcium, magnesium, and potassium, which are essential for maintaining strong bones and preventing osteoporosis.\n9. **May Reduce Risk of Chronic Diseases**: Consuming whole grains has been linked to a reduced risk of chronic diseases, including heart disease, type 2 diabetes, certain cancers, and stroke.\n10. **Supports Healthy Brain Function**: Grains, especially whole grains, contain B vitamins, iron, and other essential nutrients that are important for maintaining healthy brain function and cognitive performance.\n\nTo reap the health benefits of grains, it's essential to:\n\n* Choose whole grains over refined grains\n* Vary your grain intake to include a range of different types, such as brown rice, quinoa, whole wheat, oats, and barley\n* Incorporate grains into your diet in moderation, as part of a balanced meal plan\n* Pay attention to portion sizes and overall calorie intake\n\nRemember, a healthy diet is all about balance and variety. Enjoy your grains, and reap the rewards of a nutritious and balanced diet!",
+  "extracted": {
+    "summary": "Eating grains offers various health benefits, including improved digestive health, lower cholesterol levels, and support for healthy blood sugar levels.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "grains",
+      "fiber",
+      "antioxidants",
+      "polyphenols",
+      "vitamin e",
+      "selenium",
+      "oats",
+      "barley",
+      "brown rice",
+      "quinoa",
+      "whole wheat",
+      "calcium",
+      "magnesium",
+      "potassium"
+    ],
+    "all_dishes_or_foods_named": [
+      "brown rice",
+      "quinoa",
+      "whole wheat",
+      "oats",
+      "barley"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol",
+        "diabetes",
+        "inflammation"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3126,
+  "extraction_output_tokens": 780,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "antioxidant",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "barley",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "calcium",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fiber",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grain",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "magnesium",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "polyphenol",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "potassium",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "selenium",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vitamin e",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole wheat",
+          "cuisines": [
+            "italian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 4,
+      "total_count": 14,
+      "coverage_ratio": 0.2857142857142857,
+      "cuisine_distribution": {
+        "global": 2,
+        "vegetarian": 1,
+        "italian": 1
+      },
+      "western_centricity_ratio": 0.25,
+      "western_tag_count": 1,
+      "total_tag_count": 4
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 14,
+      "matched_count": 3,
+      "unmatched_count": 11,
+      "coverage_ratio": 0.21428571428571427,
+      "matched": [
+        {
+          "ingredient": "grains",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "whole wheat",
+          "matched_bls_item": "bread, whole wheat, pan",
+          "price_usd": 2.747,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "fiber",
+        "antioxidants",
+        "polyphenols",
+        "vitamin e",
+        "selenium",
+        "oats",
+        "barley",
+        "quinoa",
+        "calcium",
+        "magnesium",
+        "potassium"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The response provides a comprehensive overview of the health benefits of grains, using mainstream ingredients that are reasonable for a typical household. The recommendations are sensible and do not include any luxury items that would be impractical for average grocery resources.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The response provides a comprehensive overview of the health benefits of grains, using mainstream ingredients that are reasonable for a typical household. The recommendations are sensible and do not include any luxury items that would be impractical for average grocery resources.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The response provides a comprehensive overview of the health benefits of grains, using mainstream ingredients that are reasonable for a typical household. The recommendations are sensible and do not include any luxury items that would be impractical for average grocery resources.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4059,
+      "output_tokens": 125,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides reasonable advice on the health benefits of grains, which is applicable to a broad audience regardless of cultural background. It discusses various grains and their benefits without dismissing any cultural variations, making it a sensible and inclusive response.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides reasonable advice on the health benefits of grains, which is applicable to a broad audience regardless of cultural background. It discusses various grains and their benefits without dismissing any cultural variations, making it a sensible and inclusive response.",
+        "evidence_quote": "Eating grains can provide numerous health benefits due to their high content of essential nutrients, fiber, and antioxidants.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides reasonable advice on the health benefits of grains, which is applicable to a broad audience regardless of cultural background. It discusses various grains and their benefits without dismissing any cultural variations, making it a sensible and inclusive response.\",\n  \"evidence_quote\": \"Eating grains can provide numerous health benefits due to their high content of essential nutrients, fiber, and antioxidants.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4480,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The response provides a comprehensive overview of the health benefits of grains without imposing any specific cooking or preparation requirements. Since there are no stated constraints regarding the user's kitchen access, equipment, or time, the information is fully executable for a typical adult. The recommendations are general and can be easily integrated into a balanced diet without any significant barriers.",
+      "details": {
+        "score": 5,
+        "reasoning": "The response provides a comprehensive overview of the health benefits of grains without imposing any specific cooking or preparation requirements. Since there are no stated constraints regarding the user's kitchen access, equipment, or time, the information is fully executable for a typical adult. The recommendations are general and can be easily integrated into a balanced diet without any significant barriers.",
+        "evidence_quote": "",
+        "time_fit": "not_applicable",
+        "equipment_match": "not_applicable",
+        "structurally_adapted": null,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The response provides a comprehensive overview of the health benefits of grains without imposing any specific cooking or preparation requirements. Since there are no stated constraints regarding the user's kitchen access, equipment, or time, the information is fully executable for a typical adult. The recommendations are general and can be easily integrated into a balanced diet without any significant barriers.\",\n  \"evidence_quote\": \"\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"not_applicable\",\n  \"structurally_adapted\": null,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3906,
+      "output_tokens": 139,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4402,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

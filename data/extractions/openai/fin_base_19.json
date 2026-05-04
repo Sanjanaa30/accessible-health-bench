@@ -1,0 +1,655 @@
+{
+  "prompt_id": "fin_base_19",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a meal plan to help with weight loss.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a meal plan for weight loss involves focusing on nutrient-dense foods, maintaining a calorie deficit, and ensuring a balance of macronutrients (proteins, fats, and carbohydrates). Below is a sample 7-day meal plan designed to promote weight loss. This plan is balanced, easy to follow, and includes a variety of foods to keep meals interesting.\n\n### 7-Day Weight Loss Meal Plan\n\n#### Day 1\n- **Breakfast**: Greek yogurt (1 cup) with mixed berries (1/2 cup) and a sprinkle of chia seeds (1 tbsp).\n- **Snack**: A small apple with 1 tablespoon of almond butter.\n- **Lunch**: Grilled chicken salad with mixed greens, cherry tomatoes, cucumber, and vinaigrette dressing.\n- **Snack**: Carrot sticks with hummus (2 tbsp).\n- **Dinner**: Baked salmon (4 oz) with steamed broccoli and quinoa (1/2 cup).\n\n#### Day 2\n- **Breakfast**: Oatmeal (1/2 cup dry) made with water; topped with sliced banana and a sprinkle of cinnamon.\n- **Snack**: A handful of almonds (about 1 oz).\n- **Lunch**: Turkey wrap with whole wheat tortilla, lettuce, tomato, and mustard; side of mixed fruit.\n- **Snack**: Celery sticks with 2 tablespoons of peanut butter.\n- **Dinner**: Stir-fried tofu (4 oz) with mixed vegetables (bell peppers, broccoli, and carrots) served over brown rice (1/2 cup).\n\n#### Day 3\n- **Breakfast**: Smoothie with spinach, banana, protein powder, and unsweetened almond milk.\n- **Snack**: Greek yogurt (1/2 cup) with a small handful of walnuts.\n- **Lunch**: Lentil soup (1 cup) with a side salad (mixed greens, cucumber, and olive oil).\n- **Snack**: Sliced bell peppers with guacamole (2 tbsp).\n- **Dinner**: Grilled shrimp (4 oz) with asparagus and a small sweet potato.\n\n#### Day 4\n- **Breakfast**: Scrambled eggs (2) with spinach and tomatoes, served with a slice of whole-grain toast.\n- **Snack**: A pear or a small orange.\n- **Lunch**: Quinoa salad with chickpeas, diced cucumber, cherry tomatoes, and a lemon-tahini dressing.\n- **Snack**: A small handful of mixed nuts.\n- **Dinner**: Baked chicken breast (4 oz) with roasted Brussels sprouts and brown rice (1/2 cup).\n\n#### Day 5\n- **Breakfast**: Chia pudding made with almond milk (1/4 cup chia seeds, 1 cup almond milk), topped with fresh fruit.\n- **Snack**: Cucumber slices with tzatziki sauce (2 tbsp).\n- **Lunch**: Spinach and feta stuffed bell peppers with a side of mixed greens.\n- **Snack**: A small peach or nectarine.\n- **Dinner**: Grilled turkey burger (no bun) with a side of roasted cauliflower.\n\n#### Day 6\n- **Breakfast**: Whole grain toast with avocado (1/2) and poached egg (1).\n- **Snack**: A small handful of trail mix (nuts and dried fruit).\n- **Lunch**: Chicken Caesar salad (light dressing, no croutons).\n- **Snack**: Cherry tomatoes with mozzarella balls (1 oz).\n- **Dinner**: Cod (4 oz) with sautéed kale and a small baked potato.\n\n#### Day 7\n- **Breakfast**: Smoothie bowl with blended frozen berries, topped with sliced banana and granola (1/4 cup).\n- **Snack**: Hard-boiled egg (1).\n- **Lunch**: Black bean salad with corn, diced tomatoes, red onion, and avocado.\n- **Snack**: Radishes and cucumber with balsamic vinegar.\n- **Dinner**: Grilled steak (4 oz) with a side of green beans and quinoa (1/2 cup).\n\n### Tips for Success\n- **Hydration**: Drink plenty of water throughout the day (aim for at least 8 cups).\n- **Portion Control**: Be mindful of portion sizes, especially with higher-calorie foods like nuts and oils.\n- **Meal Prep**: Prepare meals in advance to avoid unhealthy choices when you’re busy or tired.\n- **Physical Activity**: Incorporate regular exercise into your routine to enhance weight loss efforts.\n\n### Note\nThis meal plan is a general guideline. Individual calorie needs may vary based on age, gender, activity level, and specific health conditions. It’s advisable to consult with a healthcare professional or a registered dietitian before starting any weight loss plan.",
+  "extracted": {
+    "summary": "The response provides a 7-day meal plan aimed at promoting weight loss through nutrient-dense foods and balanced macronutrients.",
+    "response_type": "meal_plan",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with mixed berries",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "chia seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken salad",
+        "ingredients": [
+          "grilled chicken",
+          "mixed greens",
+          "cherry tomatoes",
+          "cucumber",
+          "vinaigrette dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with broccoli and quinoa",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "handful of almonds",
+        "ingredients": [
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "turkey wrap",
+        "ingredients": [
+          "turkey",
+          "whole wheat tortilla",
+          "lettuce",
+          "tomato",
+          "mustard",
+          "mixed fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "celery sticks with peanut butter",
+        "ingredients": [
+          "celery sticks",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu with vegetables",
+        "ingredients": [
+          "tofu",
+          "mixed vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "protein powder",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with walnuts",
+        "ingredients": [
+          "greek yogurt",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with side salad",
+        "ingredients": [
+          "lentils",
+          "mixed greens",
+          "cucumber",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "bell peppers with guacamole",
+        "ingredients": [
+          "bell peppers",
+          "guacamole"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "grilled shrimp with asparagus and sweet potato",
+        "ingredients": [
+          "shrimp",
+          "asparagus",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach and tomatoes",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "snack",
+        "dish_name": "pear or orange",
+        "ingredients": [
+          "pear",
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "chickpeas",
+          "cucumber",
+          "cherry tomatoes",
+          "lemon",
+          "tahini"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken with Brussels sprouts and brown rice",
+        "ingredients": [
+          "chicken",
+          "brussels sprouts",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "breakfast",
+        "dish_name": "chia pudding",
+        "ingredients": [
+          "chia seeds",
+          "almond milk",
+          "fresh fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "snack",
+        "dish_name": "cucumber with tzatziki",
+        "ingredients": [
+          "cucumber",
+          "tzatziki sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "lunch",
+        "dish_name": "stuffed bell peppers",
+        "ingredients": [
+          "spinach",
+          "feta",
+          "bell peppers",
+          "mixed greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "snack",
+        "dish_name": "peach or nectarine",
+        "ingredients": [
+          "peach",
+          "nectarine"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "dinner",
+        "dish_name": "grilled turkey burger",
+        "ingredients": [
+          "turkey",
+          "cauliflower"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "breakfast",
+        "dish_name": "toast with avocado and poached egg",
+        "ingredients": [
+          "whole grain toast",
+          "avocado",
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "snack",
+        "dish_name": "trail mix",
+        "ingredients": [
+          "nuts",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "lunch",
+        "dish_name": "chicken caesar salad",
+        "ingredients": [
+          "chicken",
+          "caesar dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "snack",
+        "dish_name": "cherry tomatoes with mozzarella",
+        "ingredients": [
+          "cherry tomatoes",
+          "mozzarella"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "dinner",
+        "dish_name": "cod with kale and baked potato",
+        "ingredients": [
+          "cod",
+          "kale",
+          "baked potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "frozen berries",
+          "banana",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg",
+        "ingredients": [
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "lunch",
+        "dish_name": "black bean salad",
+        "ingredients": [
+          "black beans",
+          "corn",
+          "tomatoes",
+          "red onion",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "snack",
+        "dish_name": "radishes and cucumber",
+        "ingredients": [
+          "radishes",
+          "cucumber",
+          "balsamic vinegar"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "dinner",
+        "dish_name": "grilled steak with green beans and quinoa",
+        "ingredients": [
+          "steak",
+          "green beans",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almonds",
+      "asparagus",
+      "avocado",
+      "balsamic vinegar",
+      "banana",
+      "black beans",
+      "blueberries",
+      "brussels sprouts",
+      "carrot sticks",
+      "caesar dressing",
+      "chia seeds",
+      "chickpeas",
+      "cherry tomatoes",
+      "cucumber",
+      "dried fruit",
+      "eggs",
+      "feta",
+      "frozen berries",
+      "granola",
+      "grilled chicken",
+      "grilled shrimp",
+      "hummus",
+      "kale",
+      "lemon",
+      "lentils",
+      "mixed greens",
+      "mixed nuts",
+      "mixed vegetables",
+      "mozzarella",
+      "oatmeal",
+      "orange",
+      "peach",
+      "peanut butter",
+      "protein powder",
+      "quinoa",
+      "radishes",
+      "red onion",
+      "salmon",
+      "sliced bell peppers",
+      "spinach",
+      "sweet potato",
+      "tahini",
+      "tofu",
+      "trail mix",
+      "tzatziki sauce",
+      "turkey",
+      "whole grain toast",
+      "whole wheat tortilla"
+    ],
+    "all_dishes_or_foods_named": [
+      "baked chicken",
+      "baked salmon",
+      "black bean salad",
+      "chia pudding",
+      "chicken caesar salad",
+      "grilled chicken salad",
+      "grilled shrimp",
+      "lentil soup",
+      "oatmeal",
+      "smoothie",
+      "smoothie bowl",
+      "stuffed bell peppers",
+      "stir-fried tofu",
+      "turkey wrap"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Individual calorie needs may vary based on age, gender, activity level, and specific health conditions. It’s advisable to consult with a healthcare professional or a registered dietitian before starting any weight loss plan."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3534,
+  "extraction_output_tokens": 4222,
+  "extraction_from_cache": false
+}

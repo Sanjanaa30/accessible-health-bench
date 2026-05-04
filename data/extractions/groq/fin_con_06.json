@@ -1,0 +1,189 @@
+{
+  "prompt_id": "fin_con_06",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What is a good post-workout meal for building muscle? I need it to cost less than $2.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Building muscle on a budget can be challenging, but there are some affordable options for post-workout meals. Here are a few ideas that can help you recover and build muscle without breaking the bank (all under $2):\n\n1. **Peanut butter banana toast**: Toast some whole grain bread, spread with peanut butter (approx. $0.50), and top with a sliced banana (approx. $0.25). This meal provides approximately 250 calories, 15g protein, and 30g carbohydrates. ($0.75)\n2. **Scrambled eggs with whole grain toast**: Scramble 2 eggs (approx. $0.50) and serve with a slice of whole grain toast (approx. $0.25). This meal provides approximately 180 calories, 14g protein, and 20g carbohydrates. ($0.75)\n3. **Greek yogurt with honey and oats**: Mix 6oz Greek yogurt (approx. $1.00) with 1 tsp honey (approx. $0.25) and 1 tbsp rolled oats (approx. $0.25). This meal provides approximately 150 calories, 15g protein, and 30g carbohydrates. ($1.50)\n4. **Apple slices with almond butter**: Spread 2 tbsp almond butter (approx. $1.00) on sliced apples (approx. $0.50). This meal provides approximately 190 calories, 4g protein, and 20g carbohydrates. ($1.50)\n5. **Hard-boiled egg and whole grain crackers**: Boil an egg (approx. $0.25) and serve with 5 whole grain crackers (approx. $0.50). This meal provides approximately 120 calories, 6g protein, and 20g carbohydrates. ($0.75)\n\nTo stay within the $2 budget, consider the following tips:\n\n* Buy eggs, bananas, and whole grain bread in bulk to reduce costs.\n* Opt for store-brand or generic options for peanut butter, almond butter, and Greek yogurt.\n* Use coupons or look for sales on the ingredients you need.\n\nRemember, a good post-workout meal should include a mix of protein and carbohydrates to help with muscle recovery and growth. Aim for a meal that provides approximately 15-30g protein and 20-40g carbohydrates within 30-60 minutes after your workout.",
+  "extracted": {
+    "summary": "The response provides several affordable post-workout meal options for building muscle, all under $2.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "peanut butter banana toast",
+        "ingredients": [
+          "whole grain bread",
+          "peanut butter",
+          "banana"
+        ],
+        "estimated_cost_usd": 0.75,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "scrambled eggs with whole grain toast",
+        "ingredients": [
+          "eggs",
+          "whole grain toast"
+        ],
+        "estimated_cost_usd": 0.75,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey and oats",
+        "ingredients": [
+          "greek yogurt",
+          "honey",
+          "rolled oats"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "apple slices with almond butter",
+        "ingredients": [
+          "almond butter",
+          "apples"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg and whole grain crackers",
+        "ingredients": [
+          "egg",
+          "whole grain crackers"
+        ],
+        "estimated_cost_usd": 0.75,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "whole grain bread",
+      "peanut butter",
+      "banana",
+      "eggs",
+      "whole grain toast",
+      "greek yogurt",
+      "honey",
+      "rolled oats",
+      "almond butter",
+      "apples",
+      "crackers"
+    ],
+    "all_dishes_or_foods_named": [
+      "peanut butter banana toast",
+      "scrambled eggs with whole grain toast",
+      "greek yogurt with honey and oats",
+      "apple slices with almond butter",
+      "hard-boiled egg and whole grain crackers"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 5.25,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3108,
+  "extraction_output_tokens": 1231,
+  "extraction_from_cache": false
+}

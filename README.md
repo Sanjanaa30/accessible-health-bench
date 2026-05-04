@@ -80,7 +80,7 @@ Generation params: `temperature=0.7`, `max_tokens=1500` (uniform across provider
 
 **Provider lineup change:** Gemini was originally part of the lineup but was replaced with DeepSeek mid-run because the free-tier quota was too restrictive and `gemini-1.5-flash` was retired during the run. The 20 partial Gemini responses were discarded.
 
-Outputs: [src/clients/unified_llm.py](src/clients/unified_llm.py) · [src/generate.py](src/generate.py) · [src/config.py](src/config.py) · `data/responses/` (gitignored)
+Outputs: [src/clients/unified_llm.py](src/clients/unified_llm.py) · [src/generate.py](src/generate.py) · [src/config.py](src/config.py) · `data/responses/` (committed — 480 raw responses)
 
 ### Phase 3 — Structured Extraction (complete, 480/480)
 
@@ -90,7 +90,7 @@ The 10 schema blocks: `summary`, `response_type`, `primary_goal`, `meal_componen
 
 We had to raise `max_tokens` twice (2500 → 4000 → 8000) because dense 7-day plans can produce 14k+ characters of JSON. Final pass: 478 cleanly-parsed files + 2 advisory-style outputs flagged as suspicious-but-valid.
 
-Outputs: [src/extract.py](src/extract.py) · [src/validate_extractions.py](src/validate_extractions.py) · [prompts/extraction.txt](prompts/extraction.txt) · `data/extractions/` (gitignored)
+Outputs: [src/extract.py](src/extract.py) · [src/validate_extractions.py](src/validate_extractions.py) · [prompts/extraction.txt](prompts/extraction.txt) · `data/extractions/` (committed — 480 structured JSONs)
 
 ### Phase 4 — External Grounding (complete, 480/480)
 
@@ -118,7 +118,7 @@ We enriched each extracted record against **four authoritative external sources*
 2. One batched LLM-fallback call resolves all accumulated cuisine misses (one call instead of N).
 3. Finalize and write all 480 enriched files.
 
-Outputs: [src/ground_all.py](src/ground_all.py) · [src/coverage_report.py](src/coverage_report.py) · [src/download_external_data.py](src/download_external_data.py) · `data/enriched/` (gitignored) · `data/external/` (committed reference data)
+Outputs: [src/ground_all.py](src/ground_all.py) · [src/coverage_report.py](src/coverage_report.py) · [src/download_external_data.py](src/download_external_data.py) · `data/enriched/summary.json` (committed; per-record JSONs gitignored — regenerable from responses + grounding scripts) · `data/external/` (committed reference data)
 
 ### Phase 5 — Evaluation (complete, all 5 tracks)
 
@@ -203,11 +203,11 @@ Both authors independently scored a stratified **15-response sample** (10 constr
 
 Cohen's kappa was computed for completeness (`results/kappa_report.csv`) but values were low (0.08–0.23) due to the ceiling effect — when humans rate everything 4 or 5, kappa is mathematically driven toward zero. Within-1-point is the meaningful validation metric here.
 
-Outputs: [src/sample_validation_set.py](src/sample_validation_set.py) · [src/compute_kappa.py](src/compute_kappa.py) · [results/validation/](results/validation/) (committed) · [results/kappa_report.csv](results/kappa_report.csv) (gitignored)
+Outputs: [src/sample_validation_set.py](src/sample_validation_set.py) · [src/compute_kappa.py](src/compute_kappa.py) · [results/validation/](results/validation/) (committed) · [results/kappa_report.csv](results/kappa_report.csv) (committed)
 
 ### Section 7 — Visualizations (complete, 8 figures)
 
-Eight paper-quality figures generated from real CSVs by [src/generate_phase7_figures.py](src/generate_phase7_figures.py). All figures saved as both PNG (display) and PDF (paper-quality vector) in `results/figures/` (gitignored — regenerable).
+Eight paper-quality figures generated from real CSVs by [src/generate_phase7_figures.py](src/generate_phase7_figures.py). All figures saved as both PNG (display) and PDF (paper-quality vector) in `results/figures/` (committed — 8 PNG + 8 PDF).
 
 | Figure | What it shows |
 |---|---|
@@ -287,10 +287,11 @@ accessible-health-bench/
 ├── data/
 │   ├── LLM_Prompts.csv               # source spreadsheet (committed)
 │   ├── prompts.jsonl                 # 120 prompts (committed)
-│   ├── responses/                    # raw LLM responses (gitignored, 480)
-│   ├── extractions/                  # structured JSON (gitignored, 480)
-│   ├── enriched/                     # grounded records (gitignored, 480)
-│   ├── judged/                       # LLM judge outputs (gitignored, 480)
+│   ├── responses/                    # raw LLM responses (committed, 480)
+│   ├── extractions/                  # structured JSON (committed, 480)
+│   ├── enriched/summary.json         # aggregate enrichment summary (committed)
+│   ├── enriched/*                    # per-record enriched files (gitignored — regenerable)
+│   ├── judged/                       # LLM judge outputs (committed, 480)
 │   ├── external/                     # BLS / USDA / Compendium reference CSVs (committed)
 │   ├── *.sqlite                      # API + SPARQL caches (gitignored)
 │   └── embeddings_cache.*            # Sentence-BERT cache (gitignored)
@@ -335,11 +336,12 @@ accessible-health-bench/
 │   ├── mini_pilot.py
 │   └── generate_progress_report.py   # build the PDF report
 ├── results/
-│   ├── *.csv                         # gitignored, regenerable
-│   ├── figures/                      # gitignored, regenerable
+│   ├── *.csv                         # COMMITTED (scores, arena, similarity, kappa, ml_baseline, etc.)
+│   ├── ml_baseline_folds_*.csv       # gitignored (per-fold detail; aggregate summary is committed)
+│   ├── figures/                      # COMMITTED (8 PNG + 8 PDF)
 │   ├── validation/                   # COMMITTED (human ratings + manifest)
-│   ├── baseline/                     # gitignored
-│   └── constrained/                  # gitignored
+│   ├── baseline/                     # COMMITTED (per-branch CSVs)
+│   └── constrained/                  # COMMITTED (per-branch CSVs)
 └── paper/
     ├── main.tex                      # placeholder for future LaTeX paper
     └── AccessibleHealthBench_progress_report.pdf   # COMMITTED — final deliverable
@@ -412,8 +414,8 @@ python scripts/generate_progress_report.py
 ## Key outputs to look at
 
 - **[paper/AccessibleHealthBench_progress_report.pdf](paper/AccessibleHealthBench_progress_report.pdf)** — the headline deliverable, ~30 pages with all phases, findings, figures, limitations, and conclusion.
-- **[results/scores.csv](results/scores.csv)** (gitignored, regenerable) — master scores table, 480 rows × ~30 columns.
-- **[results/figures/](results/figures/)** (gitignored, regenerable) — 8 PNG/PDF figures produced by `src/generate_phase7_figures.py`.
+- **[results/scores.csv](results/scores.csv)** (committed) — master scores table, 480 rows × ~30 columns.
+- **[results/figures/](results/figures/)** (committed) — 8 PNG + 8 PDF figures produced by `src/generate_phase7_figures.py`.
 - **[results/validation/](results/validation/)** (committed) — human-rated CSVs + reproducibility manifest.
 - **[data/external/MANIFEST.json](data/external/MANIFEST.json)** — SHA256 hashes pinning the BLS / USDA / Compendium reference data snapshot used in this report.
 

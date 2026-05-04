@@ -1,0 +1,628 @@
+{
+  "prompt_id": "fin_con_03",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a list of \"superfoods\" I should add to my diet that are available at a discount dollar store.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Superfoods at Dollar Stores\n\n**Canned & Shelf-Stable:**\n- Canned beans (black, pinto, chickpeas) - protein and fiber\n- Canned fish (tuna, salmon) - omega-3s and protein\n- Canned vegetables - still nutritious, often cheaper than fresh\n- Oats - affordable whole grain staple\n- Peanut butter - protein and healthy fats\n- Nuts and seeds (if available) - micronutrients\n\n**Produce (when in season/available):**\n- Bananas - potassium, usually very cheap\n- Eggs - complete protein\n- Frozen vegetables - often cheaper than fresh, equally nutritious\n- Carrots - affordable, nutrient-dense root vegetable\n\n**Other Options:**\n- Whole wheat bread\n- Greek yogurt (sometimes discounted)\n- Dried beans and lentils\n\n**A note:** Dollar stores vary widely in selection and quality. Stick with items in their original packaging when possible, and check expiration dates. The \"superfood\" concept is somewhat marketing-driven—consistency with affordable basics (beans, eggs, oats, frozen vegetables) matters more than chasing trendy items.\n\nThe best diet is one you can actually afford and maintain long-term.",
+  "extracted": {
+    "summary": "The response provides a list of budget-friendly superfoods available at dollar stores, including canned goods, produce, and other options.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "canned beans",
+      "black beans",
+      "pinto beans",
+      "chickpeas",
+      "canned fish",
+      "tuna",
+      "salmon",
+      "canned vegetables",
+      "oats",
+      "peanut butter",
+      "nuts",
+      "seeds",
+      "bananas",
+      "eggs",
+      "frozen vegetables",
+      "carrots",
+      "whole wheat bread",
+      "greek yogurt",
+      "dried beans",
+      "lentils"
+    ],
+    "all_dishes_or_foods_named": [
+      "canned beans",
+      "black beans",
+      "pinto beans",
+      "chickpeas",
+      "canned fish",
+      "tuna",
+      "salmon",
+      "canned vegetables",
+      "oats",
+      "peanut butter",
+      "nuts",
+      "seeds",
+      "bananas",
+      "eggs",
+      "frozen vegetables",
+      "carrots",
+      "whole wheat bread",
+      "greek yogurt",
+      "dried beans",
+      "lentils"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "dollar_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": null,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": null,
+      "requires_electricity": null,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Dollar stores vary widely in selection and quality. Stick with items in their original packaging when possible, and check expiration dates."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2866,
+  "extraction_output_tokens": 944,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "black bean",
+          "cuisines": [
+            "brazilian",
+            "latin_american",
+            "portuguese"
+          ],
+          "countries": [
+            "South Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "canned bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned fish",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chickpeas",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "dried bean",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pinto bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "seed",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole wheat bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 16,
+      "total_count": 20,
+      "coverage_ratio": 0.8,
+      "cuisine_distribution": {
+        "vegetarian": 6,
+        "global": 6,
+        "brazilian": 1,
+        "latin_american": 1,
+        "portuguese": 1,
+        "greek": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "unknown": 1
+      },
+      "western_centricity_ratio": 0.087,
+      "western_tag_count": 2,
+      "total_tag_count": 23
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 20,
+      "matched_count": 1,
+      "unmatched_count": 19,
+      "coverage_ratio": 0.05,
+      "matched": [
+        {
+          "ingredient": "whole wheat bread",
+          "matched_bls_item": "bread, whole wheat, pan",
+          "price_usd": 2.747,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "canned beans",
+        "black beans",
+        "pinto beans",
+        "chickpeas",
+        "canned fish",
+        "tuna",
+        "salmon",
+        "canned vegetables",
+        "oats",
+        "peanut butter",
+        "nuts",
+        "seeds",
+        "bananas",
+        "eggs",
+        "frozen vegetables",
+        "carrots",
+        "greek yogurt",
+        "dried beans",
+        "lentils"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the constrained branch because the user explicitly requested budget-friendly superfoods available at a discount dollar store. The response provides a list of affordable superfoods that are typically available at dollar stores, such as canned beans, oats, and frozen vegetables, which align well with a limited budget. It emphasizes the importance of affordability and practicality in food choices, ensuring that the recommendations are accessible for someone with financial constraints.",
+      "details": {
+        "branch": "constrained",
+        "score": 5,
+        "reasoning": "This evaluation applies to the constrained branch because the user explicitly requested budget-friendly superfoods available at a discount dollar store. The response provides a list of affordable superfoods that are typically available at dollar stores, such as canned beans, oats, and frozen vegetables, which align well with a limited budget. It emphasizes the importance of affordability and practicality in food choices, ensuring that the recommendations are accessible for someone with financial constraints.",
+        "evidence_quote": "The best diet is one you can actually afford and maintain long-term.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the constrained branch because the user explicitly requested budget-friendly superfoods available at a discount dollar store. The response provides a list of affordable superfoods that are typically available at dollar stores, such as canned beans, oats, and frozen vegetables, which align well with a limited budget. It emphasizes the importance of affordability and practicality in food choices, ensuring that the recommendations are accessible for someone with financial constraints.\",\n  \"evidence_quote\": \"The best diet is one you can actually afford and maintain long-term.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 4203,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline scoring branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable list of budget-friendly superfoods that are accessible and practical for a wide audience. The ingredients suggested, such as canned beans, oats, and bananas, are broadly acceptable and do not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline scoring branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable list of budget-friendly superfoods that are accessible and practical for a wide audience. The ingredients suggested, such as canned beans, oats, and bananas, are broadly acceptable and do not dismiss any cultural variations.",
+        "evidence_quote": "The best diet is one you can actually afford and maintain long-term.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline scoring branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable list of budget-friendly superfoods that are accessible and practical for a wide audience. The ingredients suggested, such as canned beans, oats, and bananas, are broadly acceptable and do not dismiss any cultural variations.\",\n  \"evidence_quote\": \"The best diet is one you can actually afford and maintain long-term.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4624,
+      "output_tokens": 150,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recommendations provided are all budget-friendly superfoods that can realistically be found at a dollar store, fitting well within the user's financial constraints. The items listed, such as canned beans, oats, and frozen vegetables, require minimal preparation and can be easily incorporated into a diet without extensive cooking or equipment. The plan is structured around accessible and affordable options, making it fully executable for someone on a budget.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recommendations provided are all budget-friendly superfoods that can realistically be found at a dollar store, fitting well within the user's financial constraints. The items listed, such as canned beans, oats, and frozen vegetables, require minimal preparation and can be easily incorporated into a diet without extensive cooking or equipment. The plan is structured around accessible and affordable options, making it fully executable for someone on a budget.",
+        "evidence_quote": "The best diet is one you can actually afford and maintain long-term.",
+        "time_fit": "not_applicable",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recommendations provided are all budget-friendly superfoods that can realistically be found at a dollar store, fitting well within the user's financial constraints. The items listed, such as canned beans, oats, and frozen vegetables, require minimal preparation and can be easily incorporated into a diet without extensive cooking or equipment. The plan is structured around accessible and affordable options, making it fully executable for someone on a budget.\",\n  \"evidence_quote\": \"The best diet is one you can actually afford and maintain long-term.\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4050,
+      "output_tokens": 164,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "The best diet is one you can actually afford and maintain long-term."
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"The best diet is one you can actually afford and maintain long-term.\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4546,
+      "output_tokens": 242,
+      "from_cache": false
+    }
+  }
+}

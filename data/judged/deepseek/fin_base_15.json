@@ -1,0 +1,601 @@
+{
+  "prompt_id": "fin_base_15",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best superfoods for heart health and energy?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a great question, as the overlap between heart health and sustained energy is significant. The best \"superfoods\" for this purpose are those that provide a steady release of energy (not a sugar spike and crash) while actively supporting cardiovascular function.\n\nHere are the top contenders, categorized by their primary benefit, along with why they work.\n\n### For Sustained Energy & Blood Sugar Control (Crucial for Heart Health)\n\nStable energy comes from stable blood sugar. These foods prevent the insulin spikes that can damage arteries over time.\n\n1.  **Oats (Steel-Cut or Rolled):**\n    - **Why:** Rich in **beta-glucan**, a soluble fiber that forms a gel in your gut. This slows digestion, providing a steady release of energy for hours. It also actively lowers \"bad\" LDL cholesterol.\n    - **Best Use:** A bowl for breakfast or an energy-boosting snack. Avoid instant oats with added sugar.\n\n2.  **Lentils, Chickpeas, and Beans:**\n    - **Why:** The ultimate combination of **complex carbohydrates and plant protein**. This duo provides a slow, sustained energy release without the crash. Their high fiber and potassium content are excellent for blood pressure and cholesterol management.\n    - **Best Use:** Add to salads, soups, or as a base for veggie burgers.\n\n3.  **Blueberries (and other dark berries):**\n    - **Why:** Low on the glycemic index (won't spike blood sugar) but packed with **anthocyanins** (the blue pigment). These antioxidants improve blood vessel flexibility and nitric oxide production, which lowers blood pressure and improves circulation—directly translating to better energy delivery to your cells.\n    - **Best Use:** Add to oats, yogurt, or a smoothie. Frozen are just as good as fresh.\n\n### For Nitric Oxide & Blood Flow (The Energy Delivery System)\n\nYour heart pumps blood, but your blood vessels need to be flexible and wide open to deliver oxygen and energy to your muscles and brain.\n\n4.  **Beets (and Beetroot Juice):**\n    - **Why:** The gold standard for **nitric oxide production**. Beets are high in nitrates, which your body converts to nitric oxide. This relaxes and widens blood vessels, lowering blood pressure and significantly improving stamina and energy. Studies show it can boost exercise performance by up to 16%.\n    - **Best Use:** Roasted beets in salads, or a small glass of unsweetened beet juice 1-2 hours before exercise.\n\n5.  **Leafy Greens (Spinach, Kale, Swiss Chard):**\n    - **Why:** Like beets, they are incredibly rich in dietary nitrates. They are also packed with **magnesium**, a mineral critical for energy production (ATP creation) and for regulating heart rhythm. Low magnesium is linked to fatigue and heart arrhythmias.\n    - **Best Use:** A large handful in a smoothie, or as a base for a salad with a healthy fat (like olive oil) to absorb the fat-soluble vitamins.\n\n### For Cellular Energy (The Mitochondria & Omega-3s)\n\nYour cells' power plants (mitochondria) need specific nutrients to create energy efficiently.\n\n6.  **Fatty Fish (Salmon, Mackerel, Sardines):**\n    - **Why:** The ultimate source of **Omega-3 fatty acids (EPA & DHA)** . These are powerful anti-inflammatories that reduce triglycerides, lower blood pressure, and prevent plaque buildup. For energy, Omega-3s improve the function of the mitochondria, making your cells more efficient at producing energy.\n    - **Best Use:** Aim for 2-3 servings per week. Canned sardines or mackerel are affordable and equally effective.\n\n7.  **Avocado:**\n    - **Why:** A unique fruit rich in **monounsaturated fats** and **potassium**. The healthy fats help your body absorb fat-soluble antioxidants (like those in leafy greens). Potassium is a key electrolyte that counteracts sodium, helping to regulate blood pressure and prevent muscle fatigue and cramping.\n    - **Best Use:** On whole-grain toast, in a salad, or blended into a smoothie for creaminess.\n\n8.  **Nuts and Seeds (Walnuts, Almonds, Chia, Flax):**\n    - **Why:** A perfect trifecta of **healthy fats, fiber, and plant protein**. Walnuts are particularly high in ALA (a plant Omega-3). Chia and flax seeds are rich in fiber and lignans (antioxidants). This combination provides slow-burning energy and supports healthy cholesterol levels.\n    - **Best Use:** A handful as a snack, or sprinkle ground flax/chia on oatmeal or yogurt.\n\n### The \"Superfood\" to Limit for Heart Health & Energy\n\n- **Added Sugar:** This is the single biggest enemy of both goals. It causes energy crashes, inflammation, weight gain, and directly damages blood vessels. Avoiding sugary drinks, pastries, and processed snacks is more impactful than adding any single superfood.\n\n### A Simple Daily \"Power Plate\" for Heart & Energy:\n\n- **Breakfast:** Oatmeal with blueberries, a tablespoon of ground flaxseed, and a sprinkle of walnuts.\n- **Lunch:** Large spinach salad with chickpeas, roasted beets, avocado, and a lemon-olive oil dressing.\n- **Snack:** A handful of almonds or an apple.\n- **Dinner:** Grilled salmon with a side of lentils and steamed kale.\n\n**Important Note:** These foods are part of a healthy pattern, not a cure-all. If you have a diagnosed heart condition or are on medication (especially blood thinners or blood pressure meds), always consult your doctor before making major dietary changes, especially with high-vitamin K greens or concentrated beetroot supplements.",
+  "extracted": {
+    "summary": "The response recommends various superfoods that support heart health and provide sustained energy, along with a simple daily meal plan incorporating these foods.",
+    "response_type": "mixed",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with blueberries",
+        "ingredients": [
+          "oats",
+          "blueberries",
+          "ground flaxseed",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "spinach salad",
+        "ingredients": [
+          "spinach",
+          "chickpeas",
+          "roasted beets",
+          "avocado",
+          "lemon",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "handful of almonds",
+        "ingredients": [
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon with lentils and steamed kale",
+        "ingredients": [
+          "salmon",
+          "lentils",
+          "kale"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "oats",
+      "blueberries",
+      "ground flaxseed",
+      "walnuts",
+      "spinach",
+      "chickpeas",
+      "roasted beets",
+      "avocado",
+      "lemon",
+      "olive oil",
+      "almonds",
+      "salmon",
+      "lentils",
+      "kale"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "spinach salad",
+      "grilled salmon"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "These foods are part of a healthy pattern, not a cure-all. If you have a diagnosed heart condition or are on medication, always consult your doctor before making major dietary changes."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3764,
+  "extraction_output_tokens": 1197,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "blueberry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chickpeas",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "grilled salmon",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "ground flaxseed",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "kale",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lemon",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "roasted beet",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "spinach salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "walnut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 13,
+      "total_count": 17,
+      "coverage_ratio": 0.7647058823529411,
+      "cuisine_distribution": {
+        "vegetarian": 7,
+        "global": 4,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1,
+        "unknown": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 19
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 14,
+      "matched_count": 0,
+      "unmatched_count": 14,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "oats",
+        "blueberries",
+        "ground flaxseed",
+        "walnuts",
+        "spinach",
+        "chickpeas",
+        "roasted beets",
+        "avocado",
+        "lemon",
+        "olive oil",
+        "almonds",
+        "salmon",
+        "lentils",
+        "kale"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, including mainstream ingredients like oats, beans, and salmon, which are commonly found in grocery stores. The response does not include any luxury items that would be considered impractical for an average household budget.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, including mainstream ingredients like oats, beans, and salmon, which are commonly found in grocery stores. The response does not include any luxury items that would be considered impractical for an average household budget.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, including mainstream ingredients like oats, beans, and salmon, which are commonly found in grocery stores. The response does not include any luxury items that would be considered impractical for an average household budget.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4742,
+      "output_tokens": 132,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable advice on superfoods for heart health and energy that is broadly applicable and does not dismiss cultural variation. The ingredients suggested, such as oats, lentils, and fatty fish, are common and can be integrated into various diets without cultural insensitivity.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable advice on superfoods for heart health and energy that is broadly applicable and does not dismiss cultural variation. The ingredients suggested, such as oats, lentils, and fatty fish, are common and can be integrated into various diets without cultural insensitivity.",
+        "evidence_quote": "The best 'superfoods' for this purpose are those that provide a steady release of energy while actively supporting cardiovascular function.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable advice on superfoods for heart health and energy that is broadly applicable and does not dismiss cultural variation. The ingredients suggested, such as oats, lentils, and fatty fish, are common and can be integrated into various diets without cultural insensitivity.\",\n  \"evidence_quote\": \"The best 'superfoods' for this purpose are those that provide a steady release of energy while actively supporting cardiovascular function.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5163,
+      "output_tokens": 167,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The recommendations for superfoods are largely executable, as they include a variety of foods that can be prepared quickly and easily. Most of the suggested meals can be made in under 30 minutes, which is reasonable for a typical adult's schedule. However, some items, like roasted beets, may require more time than suggested, which could create minor friction. The plan does not specify any unusual equipment needs, making it accessible for most users.",
+      "details": {
+        "score": 4,
+        "reasoning": "The recommendations for superfoods are largely executable, as they include a variety of foods that can be prepared quickly and easily. Most of the suggested meals can be made in under 30 minutes, which is reasonable for a typical adult's schedule. However, some items, like roasted beets, may require more time than suggested, which could create minor friction. The plan does not specify any unusual equipment needs, making it accessible for most users.",
+        "evidence_quote": "A bowl for breakfast or an energy-boosting snack.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The recommendations for superfoods are largely executable, as they include a variety of foods that can be prepared quickly and easily. Most of the suggested meals can be made in under 30 minutes, which is reasonable for a typical adult's schedule. However, some items, like roasted beets, may require more time than suggested, which could create minor friction. The plan does not specify any unusual equipment needs, making it accessible for most users.\",\n  \"evidence_quote\": \"A bowl for breakfast or an energy-boosting snack.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4589,
+      "output_tokens": 172,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5085,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

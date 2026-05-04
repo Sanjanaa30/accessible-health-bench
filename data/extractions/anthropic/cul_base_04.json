@@ -1,0 +1,143 @@
+{
+  "prompt_id": "cul_base_04",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy dinner for a celebration.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Celebration Dinner: Pan-Seared Salmon with Roasted Vegetables\n\n## Main Course\n**Herb-Crusted Salmon** with lemon and garlic\n- Rich in omega-3s and protein\n- Takes just 15-20 minutes\n\n## Sides\n- **Roasted sweet potatoes & Brussels sprouts** with olive oil and herbs\n- **Quinoa pilaf** with fresh herbs and pomegranate seeds (adds festive color)\n\n## Finishing Touches\n- Fresh green salad with balsamic vinaigrette\n- Whole grain bread\n- A glass of wine if desired\n\n## Why It Works\n✓ Elegant and celebratory feel\n✓ Nutrient-dense (lean protein, fiber, healthy fats)\n✓ Colorful and visually appealing\n✓ Relatively quick to prepare\n✓ Can easily accommodate dietary preferences\n\n**Dessert idea:** Dark chocolate mousse with fresh berries—indulgent but not heavy.\n\nWould you like specific recipes or suggestions tailored to dietary preferences?",
+  "extracted": {
+    "summary": "The response suggests a healthy celebration dinner featuring pan-seared salmon with roasted vegetables and a fresh salad.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "herb-crusted salmon",
+        "ingredients": [
+          "salmon",
+          "lemon",
+          "garlic",
+          "olive oil",
+          "herbs",
+          "sweet potatoes",
+          "brussels sprouts",
+          "quinoa",
+          "pomegranate seeds",
+          "fresh greens",
+          "balsamic vinaigrette",
+          "whole grain bread",
+          "dark chocolate",
+          "fresh berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "salmon",
+      "lemon",
+      "garlic",
+      "olive oil",
+      "herbs",
+      "sweet potatoes",
+      "brussels sprouts",
+      "quinoa",
+      "pomegranate seeds",
+      "fresh greens",
+      "balsamic vinaigrette",
+      "whole grain bread",
+      "dark chocolate",
+      "fresh berries"
+    ],
+    "all_dishes_or_foods_named": [
+      "herb-crusted salmon",
+      "roasted sweet potatoes",
+      "brussels sprouts",
+      "quinoa pilaf",
+      "fresh green salad",
+      "dark chocolate mousse"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": "cultural_celebration",
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": null,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2751,
+  "extraction_output_tokens": 929,
+  "extraction_from_cache": false
+}

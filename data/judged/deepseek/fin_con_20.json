@@ -1,0 +1,522 @@
+{
+  "prompt_id": "fin_con_20",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Bulk/Cheap prices",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Bulk/Cheap prices",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I get enough fiber in my daily diet using only the cheapest bulk grains and legumes?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a very practical and cost-effective goal. The cheapest bulk grains and legumes are not only packed with fiber but also with protein and complex carbohydrates. Here is a strategic, no-nonsense guide to hitting your fiber goals (25-38g per day) using only the most affordable staples.\n\n### The Top 3 Fiber Powerhouses (Cheapest by Weight)\n\nThese are your foundation. Buy them in 10lb or 25lb bags from bulk bins, ethnic grocery stores (Indian, Mexican, Asian), or warehouse clubs.\n\n1.  **Dried Lentils (Red, Brown, or Green)**\n    - **Fiber per cup (cooked):** ~15-16g\n    - **Why it's #1:** Cooks in 15-20 minutes (no soaking required). It's the fastest legume.\n    - **Cost:** ~$1.00 - $1.50 per pound dry (makes ~7 cups cooked).\n\n2.  **Dried Split Peas (Green or Yellow)**\n    - **Fiber per cup (cooked):** ~16g\n    - **Why it's #1:** Also no soaking required. Slightly starchier than lentils, making them great for thick soups.\n    - **Cost:** ~$1.00 - $1.50 per pound dry.\n\n3.  **Oats (Rolled or Steel-Cut)**\n    - **Fiber per cup (cooked):** ~4g (rolled) / ~8g (steel-cut)\n    - **Why it's #1:** The cheapest grain per serving. A huge bag of rolled oats costs pennies per meal.\n    - **Cost:** ~$0.80 - $1.20 per pound.\n\n### The Supporting Cast (Cheap but Slightly Less Fiber)\n\nUse these to add variety and texture.\n\n4.  **Brown Rice (Long or Short Grain)**\n    - **Fiber per cup (cooked):** ~3.5g\n    - **Cost:** ~$0.70 - $1.00 per pound.\n    - **Note:** White rice has almost no fiber. Stick to brown.\n\n5.  **Popcorn Kernels (Unpopped)**\n    - **Fiber per 3 cups (popped):** ~3.5g\n    - **Cost:** ~$0.50 - $1.00 per pound. A single bag yields dozens of servings.\n    - **Note:** This is a whole grain. Air-pop it or use a tiny bit of oil. Avoid pre-buttered microwave bags.\n\n6.  **Dried Chickpeas (Garbanzo Beans)**\n    - **Fiber per cup (cooked):** ~12g\n    - **Cost:** ~$1.00 - $1.50 per pound.\n    - **Note:** Requires overnight soaking and 1-2 hours cooking. Make a big batch and freeze it.\n\n### How to Build a High-Fiber Day (The \"Bulk Bowl\" Method)\n\nYou don't need recipes, just a simple formula. The key is to **always eat a legume + a grain together.**\n\n**Sample Daily Menu (~35g Fiber)**\n\n**Breakfast (Oatmeal) (~8g fiber)**\n- 1 cup cooked oats (4g)\n- Add 1-2 tablespoons of **ground flaxseed** (optional, but very cheap if bought in bulk - adds ~3g fiber). If not, skip.\n- Top with a handful of **popcorn** (popped, crushed) for crunch (1g).\n\n**Lunch (Lentil & Rice Bowl) (~15g fiber)**\n- 1 cup cooked brown rice (3.5g)\n- 1 cup cooked lentils (15g)\n- Season with salt, pepper, a cheap oil (like canola), and a splash of vinegar or lemon juice (if you have it).\n- *Pro-tip:* Cook a huge batch of rice and lentils on Sunday. Mix them in different ratios all week.\n\n**Dinner (Split Pea Soup) (~12g fiber)**\n- 1.5 cups cooked split pea soup (made from dried peas, water, salt, maybe a chopped onion if you have it).\n- Serve with a slice of whole-wheat bread (if you can afford it) or a small side of leftover brown rice.\n\n**Total: ~35g fiber.** Cost per day: **~$0.75 - $1.00.**\n\n### Crucial Tips for Success (To Avoid Discomfort)\n\n1.  **Increase Slowly:** If you're not used to this much fiber, start with half portions for a week. Your gut bacteria need time to adapt. Otherwise, you will get bloating and gas.\n2.  **Drink More Water:** Fiber absorbs water like a sponge. You need to drink significantly more water (aim for 2-3 liters per day) or the fiber will cause constipation instead of preventing it.\n3.  **Soak and Rinse:** For dried beans (chickpeas, kidney beans), always soak overnight and rinse before cooking. This removes some of the complex sugars (oligosaccharides) that cause gas. Lentils and split peas don't need soaking, but rinsing them helps.\n4.  **Use the Cooking Water (for lentils/peas):** The water they cook in contains soluble fiber. Don't drain it. Make your soup or stew directly in that water.\n5.  **Spice it up cheaply:** Salt, black pepper, cumin, chili powder, and garlic powder are very cheap in bulk and make legumes taste much better.\n\n### The \"No-Cook\" Emergency Fiber\n\nIf you have zero time or energy:\n- **Popcorn** is the only ready-to-eat whole grain.\n- **Overnight Oats:** Mix 1/2 cup rolled oats + 1/2 cup water or cheap plant milk. Let sit overnight. Eat cold with a pinch of salt. That's 4g fiber.\n\n### Summary of the Strategy\n\n- **Buy:** Lentils, split peas, oats, brown rice, popcorn kernels, chickpeas.\n- **Cook Method:** Batch cook everything on one day. Store in containers.\n- **Eat:** Combine 1 legume + 1 grain per meal. Add popcorn as a snack.\n- **Hydrate:** Drink water with every meal.\n\nThis is the most fiber-dense, nutrient-rich, and cheapest diet you can eat. It’s the foundation of traditional peasant diets around the world for a reason.",
+  "extracted": {
+    "summary": "The response provides a guide to incorporating affordable bulk grains and legumes into a high-fiber diet, emphasizing cost-effective options and meal combinations.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oats",
+          "ground flaxseed",
+          "popcorn"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lentil & rice bowl",
+        "ingredients": [
+          "brown rice",
+          "lentils"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "split pea soup",
+        "ingredients": [
+          "split peas",
+          "whole-wheat bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "brown rice",
+      "ground flaxseed",
+      "lentils",
+      "oats",
+      "popcorn",
+      "split peas",
+      "whole-wheat bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "lentil & rice bowl",
+      "split pea soup"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": "per_day",
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "bulk_store",
+        "ethnic_grocery_store",
+        "warehouse_club"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indian",
+        "mexican",
+        "asian"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3952,
+  "extraction_output_tokens": 1010,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "ground flaxseed",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentil & rice bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "popcorn",
+          "cuisines": [],
+          "countries": [
+            "Americas"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "split pea",
+          "cuisines": [
+            "french",
+            "russian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "split pea soup",
+          "cuisines": [
+            "french",
+            "russian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole-wheat bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 7,
+      "total_count": 10,
+      "coverage_ratio": 0.7,
+      "cuisine_distribution": {
+        "global": 4,
+        "russian": 3,
+        "french": 2,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1
+      },
+      "western_centricity_ratio": 0.133,
+      "western_tag_count": 2,
+      "total_tag_count": 15
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 7,
+      "matched_count": 2,
+      "unmatched_count": 5,
+      "coverage_ratio": 0.2857142857142857,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "whole-wheat bread",
+          "matched_bls_item": "bread, whole wheat, pan",
+          "price_usd": 2.747,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "ground flaxseed",
+        "lentils",
+        "oats",
+        "popcorn",
+        "split peas"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "multi_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This is a constrained prompt because the user explicitly seeks to meet their fiber needs using only the cheapest bulk grains and legumes. The response effectively acknowledges the financial constraint by focusing on affordable staple foods like lentils, split peas, and oats, and provides a detailed plan that keeps the total cost around $0.75 - $1.00 per day, which is well within a low budget. The recommendations are practical and align with the user's goal of affordability.",
+      "details": {
+        "branch": "constrained",
+        "score": 5,
+        "reasoning": "This is a constrained prompt because the user explicitly seeks to meet their fiber needs using only the cheapest bulk grains and legumes. The response effectively acknowledges the financial constraint by focusing on affordable staple foods like lentils, split peas, and oats, and provides a detailed plan that keeps the total cost around $0.75 - $1.00 per day, which is well within a low budget. The recommendations are practical and align with the user's goal of affordability.",
+        "evidence_quote": "Total implied cost is at or below the stated budget.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 5,\n  \"reasoning\": \"This is a constrained prompt because the user explicitly seeks to meet their fiber needs using only the cheapest bulk grains and legumes. The response effectively acknowledges the financial constraint by focusing on affordable staple foods like lentils, split peas, and oats, and provides a detailed plan that keeps the total cost around $0.75 - $1.00 per day, which is well within a low budget. The recommendations are practical and align with the user's goal of affordability.\",\n  \"evidence_quote\": \"Total implied cost is at or below the stated budget.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 4707,
+      "output_tokens": 160,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice on incorporating fiber-rich foods into a diet using affordable bulk grains and legumes, which is applicable to a wide audience. The ingredients suggested, such as lentils, oats, and brown rice, are common staples that can be found in various cuisines, making the advice broadly relevant and inclusive.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice on incorporating fiber-rich foods into a diet using affordable bulk grains and legumes, which is applicable to a wide audience. The ingredients suggested, such as lentils, oats, and brown rice, are common staples that can be found in various cuisines, making the advice broadly relevant and inclusive.",
+        "evidence_quote": "The cheapest bulk grains and legumes are not only packed with fiber but also with protein and complex carbohydrates.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice on incorporating fiber-rich foods into a diet using affordable bulk grains and legumes, which is applicable to a wide audience. The ingredients suggested, such as lentils, oats, and brown rice, are common staples that can be found in various cuisines, making the advice broadly relevant and inclusive.\",\n  \"evidence_quote\": \"The cheapest bulk grains and legumes are not only packed with fiber but also with protein and complex carbohydrates.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5128,
+      "output_tokens": 171,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The plan is largely feasible with minor friction, as it emphasizes batch cooking and simple meal combinations that fit within a budget. However, the cooking times for some items, like chickpeas, may require more time than a user with limited cooking time can afford. The structural adaptation is evident in the 'Bulk Bowl' method, which simplifies meal prep and encourages efficient use of ingredients.",
+      "details": {
+        "score": 4,
+        "reasoning": "The plan is largely feasible with minor friction, as it emphasizes batch cooking and simple meal combinations that fit within a budget. However, the cooking times for some items, like chickpeas, may require more time than a user with limited cooking time can afford. The structural adaptation is evident in the 'Bulk Bowl' method, which simplifies meal prep and encourages efficient use of ingredients.",
+        "evidence_quote": "The key is to always eat a legume + a grain together.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The plan is largely feasible with minor friction, as it emphasizes batch cooking and simple meal combinations that fit within a budget. However, the cooking times for some items, like chickpeas, may require more time than a user with limited cooking time can afford. The structural adaptation is evident in the 'Bulk Bowl' method, which simplifies meal prep and encourages efficient use of ingredients.\",\n  \"evidence_quote\": \"The key is to always eat a legume + a grain together.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4554,
+      "output_tokens": 161,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "The cheapest bulk grains and legumes are not only packed with fiber but also with protein and complex carbohydrates."
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"The cheapest bulk grains and legumes are not only packed with fiber but also with protein and complex carbohydrates.\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5050,
+      "output_tokens": 248,
+      "from_cache": false
+    }
+  }
+}

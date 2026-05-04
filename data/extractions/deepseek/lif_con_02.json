@@ -1,0 +1,150 @@
+{
+  "prompt_id": "lif_con_02",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a daily fitness routine for someone working 12-hour shifts with very little free time",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a tough but common challenge. The key is not to find more time, but to use **high-efficiency methods** that combine strength, cardio, and mobility into short, intense bursts.\n\nThe biggest enemy here is **decision fatigue**. You don't want to think about what to do. You just need to execute.\n\nHere is a daily routine designed for a 12-hour shift worker, assuming you have **15-20 minutes** and a small space (no gym required).\n\n### The Core Philosophy: \"Grease the Groove\" + \"Metabolic Burst\"\n\n- **Morning (5-7 mins):** Wake up your nervous system, mobilize your spine, and prevent back pain.\n- **Work Break (5 mins):** A \"Metabolic Burst\" to spike your heart rate and fight fatigue.\n- **Post-Shift (10-15 mins):** Full-body strength compound movements to build/maintain muscle and release tension.\n\n---\n\n### The Routine (Total Time: ~25 minutes/day)\n\n#### Part 1: The \"Wake Up\" (5 minutes) - Immediately after waking up\n\n*Do not skip this. It prevents the \"stiff all day\" feeling.*\n\n- **Cat-Cow Stretch:** 10 slow reps (mobilizes spine)\n- **World's Greatest Stretch:** 5 per side (opens hips and thoracic spine)\n- **Glute Bridges:** 15 reps (activates glutes to save your lower back)\n- **Hanging or Dead Hang:** 30 seconds (decompresses spine, great for posture)\n\n#### Part 2: The \"Break Buster\" (5 minutes) - During a lunch break or a 5-min breather\n\n*Goal: Spike heart rate, clear brain fog, burn calories.*\n\n- **Set a 5-minute timer.**\n- **Circuit:** As many rounds as possible (AMRAP)\n    - 10x **Bodyweight Squats**\n    - 10x **Push-ups** (on knees if needed)\n    - 10x **Reverse Lunges** (5 per leg)\n- **Rest:** 0 seconds. Go immediately to the next exercise.\n- **Finish:** When the timer goes off, stop. Drink water.\n\n#### Part 3: The \"Unwind & Build\" (15 minutes) - After your shift (or before if you prefer)\n\n*Goal: Build strength, release cortisol, and improve mobility.*\n\n**Option A: \"The Minimalist\" (No equipment)**\n- **Circuit:** 4 rounds. Rest 60 seconds between rounds.\n    - **Goblet Squats** (or bodyweight with a 3-second pause at bottom) - 15 reps\n    - **Push-ups** (feet elevated on a chair for more challenge) - 10-15 reps\n    - **Walking Lunges** - 10 reps per leg\n    - **Plank** - 30-45 seconds\n\n**Option B: \"The Finisher\" (If you have a kettlebell or dumbbell)**\n- **Circuit:** 5 rounds. Rest 45 seconds between rounds.\n    - **Kettlebell Swings** (or Dumbbell Deadlifts) - 15 reps\n    - **Overhead Press** (or Arnold Press) - 10 reps per arm\n    - **Rows** (using a heavy bag, table edge, or dumbbell) - 12 reps per arm\n    - **Farmer's Carry** (walk around your house holding the weight) - 30 seconds\n\n---\n\n### Critical Success Factors for Shift Workers\n\n1.  **The \"5-Minute Rule\":** If you are exhausted and don't want to do Part 3, tell yourself you will do **only 5 minutes**. Often, starting is the hardest part. Once you start, you'll likely finish the whole 15.\n2.  **Hydration is Non-Negotiable:** A 12-hour shift dehydrates you. Dehydration = fatigue = poor performance. Drink 1 liter of water during your shift.\n3.  **Sleep is the Workout:** You cannot out-train a bad sleep schedule. If you are consistently getting less than 6 hours, **cut the workout in half.** Do 7-8 minutes instead of 15. Sleep is your recovery.\n4.  **Nutrition Timing:**\n    - **Pre-shift:** Protein + complex carbs (e.g., eggs + oatmeal).\n    - **Mid-shift:** Protein + healthy fat (e.g., Greek yogurt + nuts, or a protein shake).\n    - **Post-shift:** Protein + veggies (e.g., chicken breast + broccoli). Avoid heavy carbs right before bed.\n5.  **The \"Walk\" Hack:** If you have a 15-minute break, don't sit. **Walk.** Even a slow, 10-minute walk after a meal drastically improves blood sugar regulation and energy.\n\n### A Sample Day (for context)\n\n- **6:00 AM:** Wake up. 5-min mobility routine.\n- **7:00 AM - 7:00 PM:** Work.\n- **12:00 PM (Lunch):** 5-min \"Break Buster\" circuit.\n- **7:30 PM (After work):** 15-min strength circuit. Shower. Eat. Wind down.\n- **9:30 PM:** No screens. Read. Stretch (optional).\n- **10:00 PM:** Sleep.\n\n**Final advice:** Start with **only Part 1 and Part 2** for the first week. Build the habit first. Add Part 3 in week two. Consistency beats intensity every single time for a 12-hour shift worker.",
+  "extracted": {
+    "summary": "The response provides a daily fitness routine tailored for someone working 12-hour shifts, focusing on short, efficient workouts that can be done in limited time.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "cat-cow stretch",
+        "activity_type": "flexibility",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Work Break",
+        "activity_name": "bodyweight squats",
+        "activity_type": "hiit",
+        "duration_minutes": 5,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Post-Shift",
+        "activity_name": "goblet squats",
+        "activity_type": "strength",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "work break",
+        "post-shift"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": 5,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "night_shift"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "chronic_fatigue",
+        "stress",
+        "back_pain"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3781,
+  "extraction_output_tokens": 945,
+  "extraction_from_cache": false
+}

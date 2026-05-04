@@ -1,0 +1,384 @@
+{
+  "prompt_id": "lif_con_04",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a weekly workout plan for someone who cannot go to the gym and can only exercise at home in a small space.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a practical, no-equipment weekly workout plan designed for a small space (like a bedroom or living room corner). It requires no jumping (to minimize noise and impact) and uses only bodyweight.\n\n**Key Principles for Small Space Success:**\n- **Time-Efficient:** Each session is 20–30 minutes.\n- **Low Impact:** No burpees or box jumps. Focus on controlled movement.\n- **Space Conscious:** Uses a \"floor mat\" area (roughly 2m x 2m).\n- **Progressive:** You can increase reps or time each week.\n\n---\n\n### The Weekly Schedule\n\n| Day | Focus | Duration | Core Theme |\n| :--- | :--- | :--- | :--- |\n| **Monday** | Full Body Strength | 25 min | Push, Pull, Squat, Hinge |\n| **Tuesday** | Active Recovery | 15–20 min | Mobility & Stretching |\n| **Wednesday** | Cardio & Core | 20 min | Low-Impact HIIT |\n| **Thursday** | Full Body Strength (B) | 25 min | Different exercises |\n| **Friday** | Core & Stability | 20 min | Planks, balance, control |\n| **Saturday** | Fun Flow or Walk | 30 min | Yoga, dance, or outdoor walk |\n| **Sunday** | Rest | – | Complete rest |\n\n---\n\n### Detailed Workout Plans\n\n#### Monday: Full Body Strength (A)\n*Perform 3 rounds. Rest 60 seconds between rounds.*\n\n| Exercise | Reps | Notes |\n| :--- | :--- | :--- |\n| **Bodyweight Squat** | 15 | Keep heels down, chest up. |\n| **Incline Push-Up** (on a chair/couch) | 12 | Easier than floor; keep core tight. |\n| **Glute Bridge** | 15 | Squeeze glutes at top. |\n| **Reverse Lunges** (alternating) | 10/leg | Step back, not forward (saves space). |\n| **Plank Hold** | 30–45 sec | Keep hips level; don't sag. |\n\n#### Wednesday: Cardio & Core (Low-Impact HIIT)\n*Perform each exercise for 40 seconds, rest 20 seconds. Repeat the circuit twice.*\n\n1.  **High Knees (modified):** March knees to hip height, fast tempo. (No jumping)\n2.  **Mountain Climbers (slow):** Step one foot to hand, then back. Controlled.\n3.  **Standing Oblique Crunch:** Lift knee to opposite elbow (alternating).\n4.  **Butt Kicks (standing):** Jog in place, heels toward glutes.\n5.  **Dead Bug:** Lie on back, alternate arm + leg extension (core engaged).\n\n#### Thursday: Full Body Strength (B)\n*Perform 3 rounds. Rest 60 seconds.*\n\n| Exercise | Reps | Notes |\n| :--- | :--- | :--- |\n| **Alternating Step-Back Lunges** | 12/leg | Use a chair for balance if needed. |\n| **Pike Push-Up** (for shoulders) | 8–10 | Hips up, hands on floor or low stool. |\n| **Single-Leg Glute Bridge** | 10/leg | Harder version of Monday's bridge. |\n| **Bird Dog** | 10/leg | On hands & knees; extend opposite arm+leg. |\n| **Side Plank (each side)** | 20–30 sec | Start on knees if full plank is too hard. |\n\n#### Friday: Core & Stability\n*Perform 2 rounds of the following circuit. Move slowly and with control.*\n\n1.  **Forearm Plank** – 45 sec\n2.  **Side Plank (R)** – 30 sec\n3.  **Side Plank (L)** – 30 sec\n4.  **Lying Leg Raises** – 12 reps (keep lower back pressed into floor)\n5.  **Russian Twists (feet on floor)** – 20 total (10 per side)\n6.  **Cat-Cow Stretch** – 10 slow cycles (for back health)\n\n---\n\n### Tips for Maximum Results in a Small Space\n\n- **Use a Chair/Couch:** For incline push-ups, step-ups (if you have a sturdy box), and triceps dips (be careful with couch stability).\n- **Focus on Tempo:** Slow down the lowering phase (e.g., 3 seconds down, 1 second up) to increase intensity without space.\n- **Add \"Grease the Groove\":** On rest days, do 5–10 quick squats or 10 push-ups whenever you pass through the room.\n- **Track Progress:** Aim to increase reps by 1–2 per exercise each week, or add 5 seconds to plank holds.\n- **Noise Management:** Place a yoga mat or towel under your feet to dampen sound for downstairs neighbors.\n\n### Sample Monday Workout (How to Execute)\n\n1.  **Warm-up (5 min):** Arm circles, leg swings, cat-cow, 10 slow squats.\n2.  **Main Set:** 3 rounds of: 15 squats → 12 incline push-ups → 15 glute bridges → 10 reverse lunges/leg → 45-sec plank.\n3.  **Cool-down (5 min):** Child's pose, hamstring stretch, quad stretch.\n\nThis plan is sustainable, requires zero equipment, and fits in a corner of a room. Adjust reps/times based on your fitness level. Consistency is key—even 20 minutes daily will yield results.",
+  "extracted": {
+    "summary": "The response provides a no-equipment weekly workout plan suitable for exercising in a small space at home, focusing on bodyweight exercises.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "full body strength",
+        "activity_type": "strength",
+        "duration_minutes": 25,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "active recovery",
+        "activity_type": "flexibility",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "cardio & core",
+        "activity_type": "hiit",
+        "duration_minutes": 20,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "full body strength (B)",
+        "activity_type": "strength",
+        "duration_minutes": 25,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "core & stability",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "fun flow or walk",
+        "activity_type": "yoga",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3796,
+  "extraction_output_tokens": 1141,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "full body strength",
+        "active recovery",
+        "cardio & core",
+        "full body strength (B)",
+        "core & stability",
+        "fun flow or walk",
+        "rest"
+      ],
+      "matched_count": 0,
+      "total_count": 7,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a workout plan without any nutritional content. The workout plan is designed to be performed at home with no equipment, which aligns perfectly with the user's constraints. It does not recommend any paid memberships or expensive equipment, making it fully accessible for someone exercising on a budget.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a workout plan without any nutritional content. The workout plan is designed to be performed at home with no equipment, which aligns perfectly with the user's constraints. It does not recommend any paid memberships or expensive equipment, making it fully accessible for someone exercising on a budget.",
+        "evidence_quote": "Here is a practical, no-equipment weekly workout plan designed for a small space.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on a workout plan without any nutritional content. The workout plan is designed to be performed at home with no equipment, which aligns perfectly with the user's constraints. It does not recommend any paid memberships or expensive equipment, making it fully accessible for someone exercising on a budget.\",\n  \"evidence_quote\": \"Here is a practical, no-equipment weekly workout plan designed for a small space.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3594,
+      "output_tokens": 146,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a reasonable and practical workout plan that is accessible to a wide audience, regardless of cultural background. It does not dismiss any cultural variations and focuses on bodyweight exercises suitable for a small space, which is appropriate for anyone looking to exercise at home.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a reasonable and practical workout plan that is accessible to a wide audience, regardless of cultural background. It does not dismiss any cultural variations and focuses on bodyweight exercises suitable for a small space, which is appropriate for anyone looking to exercise at home.",
+        "evidence_quote": "This plan is sustainable, requires zero equipment, and fits in a corner of a room.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a reasonable and practical workout plan that is accessible to a wide audience, regardless of cultural background. It does not dismiss any cultural variations and focuses on bodyweight exercises suitable for a small space, which is appropriate for anyone looking to exercise at home.\",\n  \"evidence_quote\": \"This plan is sustainable, requires zero equipment, and fits in a corner of a room.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4015,
+      "output_tokens": 158,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The workout plan is fully executable within the user's constraints of exercising at home in a small space without any equipment. Each session is designed to be time-efficient, lasting 20-30 minutes, which aligns well with typical time availability for home workouts. The exercises are all bodyweight and do not require significant space, making them suitable for a small area. Additionally, the plan is structured to progressively increase intensity without overwhelming the user.",
+      "details": {
+        "score": 5,
+        "reasoning": "The workout plan is fully executable within the user's constraints of exercising at home in a small space without any equipment. Each session is designed to be time-efficient, lasting 20-30 minutes, which aligns well with typical time availability for home workouts. The exercises are all bodyweight and do not require significant space, making them suitable for a small area. Additionally, the plan is structured to progressively increase intensity without overwhelming the user.",
+        "evidence_quote": "Each session is 20–30 minutes.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The workout plan is fully executable within the user's constraints of exercising at home in a small space without any equipment. Each session is designed to be time-efficient, lasting 20-30 minutes, which aligns well with typical time availability for home workouts. The exercises are all bodyweight and do not require significant space, making them suitable for a small area. Additionally, the plan is structured to progressively increase intensity without overwhelming the user.\",\n  \"evidence_quote\": \"Each session is 20–30 minutes.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3441,
+      "output_tokens": 163,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This plan is sustainable, requires zero equipment, and fits in a corner of a room."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This plan is sustainable, requires zero equipment, and fits in a corner of a room.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3937,
+      "output_tokens": 246,
+      "from_cache": false
+    }
+  }
+}

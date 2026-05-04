@@ -1,0 +1,254 @@
+{
+  "prompt_id": "fin_con_13",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a workout plan and a diet to help me lose 10 lbs. I have $0 for a gym membership and my total food budget is $4 per day.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Losing 10 pounds with limited resources requires a combination of effective bodyweight workouts and a strategic diet. Below is a workout plan and a diet that fits your $4 per day food budget.\n\n### Workout Plan\n\n**Frequency**: Aim for 5-6 days a week.\n\n#### Day 1: Full Body Workout\n- **Warm-up**: 5-10 minutes of dynamic stretching (arm circles, leg swings, torso twists)\n- **Circuit (Repeat 3 times)**:\n  - 10 Push-ups (knee push-ups if necessary)\n  - 15 Bodyweight squats\n  - 30-second plank\n  - 10 Lunges (each leg)\n  - 10 Burpees (or modified burpees)\n\n#### Day 2: Cardio/HIIT\n- **Warm-up**: 5-10 minutes of brisk walking or jogging in place\n- **HIIT (20-30 minutes)**:\n  - 30 seconds of high knees\n  - 30 seconds of rest\n  - 30 seconds of jumping jacks\n  - 30 seconds of rest\n  - Repeat for 20-30 minutes.\n\n#### Day 3: Core and Strength\n- **Warm-up**: 5-10 minutes of dynamic stretching\n- **Circuit (Repeat 3 times)**:\n  - 15 Bicycle crunches\n  - 15 Glute bridges\n  - 30-second side plank (each side)\n  - 15 Tricep dips (using a chair or sturdy surface)\n  - 10 Wall sits (30 seconds each)\n\n#### Day 4: Active Recovery\n- Go for a 30-45 minute brisk walk or light jog.\n\n#### Day 5: Upper Body and Cardio\n- **Warm-up**: 5-10 minutes of dynamic stretching\n- **Circuit (Repeat 3 times)**:\n  - 10 Push-ups\n  - 15 Tricep dips\n  - 30 seconds of mountain climbers\n  - 10 Plank shoulder taps\n  - 30 seconds of jogging in place\n\n#### Day 6: Lower Body and Flexibility\n- **Warm-up**: 5-10 minutes of dynamic stretching\n- **Circuit (Repeat 3 times)**:\n  - 15 Squats\n  - 15 Lunges (each leg)\n  - 30-second calf raises\n  - 30 seconds of leg raises\n- **Cool down**: 10 minutes of stretching.\n\n#### Day 7: Rest Day\n- Focus on recovery, hydration, and light walking.\n\n### Diet Plan\n\nWith a budget of $4 per day, focus on low-cost, nutrient-dense foods. Here’s a sample meal plan:\n\n#### Breakfast\n- **Oatmeal** (1 cup cooked) with a sprinkle of cinnamon: ~$0.50\n- **Banana**: ~$0.20\n\n#### Lunch\n- **Rice and Beans** (1 cup cooked rice + 1/2 cup canned beans): ~$1.00\n- **Mixed Vegetables** (1 cup frozen mixed veggies): ~$0.50\n\n#### Snack\n- **Peanut butter** (1 tablespoon) on whole wheat bread: ~$0.30\n\n#### Dinner\n- **Lentil Soup** (1 cup cooked lentils): ~$0.70\n- **Carrots** (1 cup raw or cooked): ~$0.30\n\n### Daily Total: ~$4.00\n\n### Tips for Success\n1. **Hydration**: Drink plenty of water throughout the day. It’s calorie-free and helps with satiety.\n2. **Meal Prep**: Prepare meals in bulk to save time and money.\n3. **Stay Active**: Incorporate additional physical activity into your day (walking, biking, etc.).\n4. **Track Progress**: Keep a journal of your workouts and meals to stay accountable.\n\n### Conclusion\nCombining this workout plan with the provided diet should help you in losing weight effectively. Remember to listen to your body, rest when needed, and adjust the intensity of workouts as your fitness level improves. Good luck!",
+  "extracted": {
+    "summary": "The response provides a workout plan and a diet to help lose 10 pounds within a $4 daily food budget, focusing on bodyweight exercises and low-cost meals.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "cinnamon",
+          "banana"
+        ],
+        "estimated_cost_usd": 0.7,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "rice and beans",
+        "ingredients": [
+          "rice",
+          "beans",
+          "mixed vegetables"
+        ],
+        "estimated_cost_usd": 2.0,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "peanut butter on bread",
+        "ingredients": [
+          "peanut butter",
+          "whole wheat bread"
+        ],
+        "estimated_cost_usd": 0.3,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "carrots"
+        ],
+        "estimated_cost_usd": 1.0,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "oatmeal",
+      "cinnamon",
+      "banana",
+      "rice",
+      "beans",
+      "mixed vegetables",
+      "peanut butter",
+      "whole wheat bread",
+      "lentils",
+      "carrots"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "rice and beans",
+      "peanut butter on bread",
+      "lentil soup"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "full body workout",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "cardio/hiit",
+        "activity_type": "hiit",
+        "duration_minutes": 30,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "core and strength",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "active recovery",
+        "activity_type": "walking",
+        "duration_minutes": 45,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "upper body and cardio",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 6",
+        "activity_name": "lower body and flexibility",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 7",
+        "activity_name": "rest day",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": null
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 4.0,
+      "cost_period": "per_day",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "home",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3479,
+  "extraction_output_tokens": 1562,
+  "extraction_from_cache": false
+}

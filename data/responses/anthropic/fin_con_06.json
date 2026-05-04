@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_06",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What is a good post-workout meal for building muscle? I need it to cost less than $2.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Post-Workout Meals Under $2\n\n**Best options:**\n\n- **Eggs + toast** (~$0.75)\n  - 2-3 eggs + 2 slices bread with peanut butter\n  - High protein, complete amino acids\n\n- **Canned tuna + rice** (~$1.50)\n  - One can of tuna + cooked rice\n  - Lean protein + carbs for recovery\n\n- **Peanut butter + banana sandwich** (~$0.80)\n  - Protein + carbs + healthy fats\n  - Quick and portable\n\n- **Oatmeal with milk + banana** (~$1.00)\n  - Carbs for glycogen + protein from milk\n  - Add peanut butter if budget allows\n\n- **Chicken + sweet potato** (~$1.50)\n  - If buying in bulk from budget stores\n  - Excellent protein-to-carb ratio\n\n**Key principle:** You need **protein** (to build muscle) + **carbs** (to replenish glycogen). Aim for 20-30g protein and 40-60g carbs.\n\nThe exact meal matters less than hitting these macros consistently. Eggs and peanut butter are your cheapest protein sources.",
+  "input_tokens": 29,
+  "output_tokens": 295,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:32:53.191259"
+}

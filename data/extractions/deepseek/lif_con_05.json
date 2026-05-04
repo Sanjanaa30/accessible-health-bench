@@ -1,0 +1,249 @@
+{
+  "prompt_id": "lif_con_05",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Give me a healthy breakfast plan for a week for someone who skips mornings and has only 5 minutes before leaving.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a **5-minute, grab-and-go healthy breakfast plan** for someone who isn’t a morning person. Every option requires zero cooking in the morning (prep the night before or use shelf-stable ingredients) and can be eaten in the car, at your desk, or on the bus.\n\n### The Golden Rules for This Plan\n- **Prep the night before:** Pack your bag, fill your water bottle, and portion out ingredients.\n- **Keep it shelf-stable or fridge-ready:** Use mason jars, reusable containers, or zip-top bags.\n- **Focus on protein + fiber:** This keeps you full until lunch (prevents 10 AM crashes).\n\n---\n\n### Monday: Overnight Oats in a Jar\n- **Prep (5 min Sunday night):** In a mason jar, mix ½ cup rolled oats, ½ cup milk (dairy or plant-based), ¼ cup Greek yogurt, 1 tbsp chia seeds, and 1 tsp honey or maple syrup. Add berries or sliced banana. Shake and refrigerate.\n- **Morning:** Grab the jar, throw a spoon in your bag, and go. Eat cold or microwave for 30 seconds if you have access to one at work.\n\n### Tuesday: Nut Butter & Banana Wrap\n- **Prep (2 min Monday night):** Lay out a whole-wheat tortilla. Spread 2 tbsp peanut or almond butter. Place a whole banana (peeled) on top. Roll it up tightly, wrap in foil or parchment, and refrigerate.\n- **Morning:** Grab the wrap and a small bag of almonds (for extra crunch). Eat on the go.\n\n### Wednesday: Hard-Boiled Egg & Veggie Pack\n- **Prep (10 min Sunday):** Boil 6 eggs (place in cold water, boil 9 min, then ice bath). Peel and store in fridge. Chop 1 bell pepper, 1 cucumber, and a handful of cherry tomatoes.\n- **Morning:** Grab 2 hard-boiled eggs (peeled) and a small container of chopped veggies. Add a handful of baby carrots or snap peas. Eat with a pinch of salt.\n\n### Thursday: Greek Yogurt Parfait\n- **Prep (3 min Wednesday night):** In a small container or jar, layer: ¾ cup plain Greek yogurt, ¼ cup granola (low-sugar), ½ cup mixed berries (fresh or frozen), and a drizzle of honey.\n- **Morning:** Grab the parfait and a spoon. If using frozen berries, it will keep the yogurt cold until you eat it.\n\n### Friday: Apple & Cheese Stick + Trail Mix\n- **Prep (2 min Thursday night):** Wash 1 apple. Pack 2 string cheese sticks (or a small block of cheddar). In a snack bag, mix: ¼ cup almonds, 2 tbsp pumpkin seeds, 1 tbsp dark chocolate chips, and a handful of unsweetened dried cranberries.\n- **Morning:** Grab the apple, cheese, and trail mix bag. Eat the apple and cheese first (protein + fiber), then snack on trail mix.\n\n### Saturday: Smoothie in a Bottle\n- **Prep (5 min Friday night):** In a blender bottle or wide-mouth jar, combine: 1 cup spinach, ½ frozen banana, ½ cup frozen berries, 1 scoop protein powder (or ½ cup Greek yogurt), and 1 cup milk. **Don’t blend yet.** Store in fridge.\n- **Morning:** Add liquid (if needed), shake vigorously, or blend for 30 seconds. Pour into a travel cup. Drink on the way.\n\n### Sunday: Leftover Dinner (Savory Breakfast)\n- **Prep (Saturday dinner):** Make an extra portion of a healthy dinner (e.g., grilled chicken + quinoa + roasted veggies, or a frittata with veggies).\n- **Morning:** Reheat in microwave for 1 minute (if available) or eat cold. Wrap in a tortilla if you want a handheld option.\n\n---\n\n### Pro Tips for the \"No-Morning\" Person\n- **Keep a \"breakfast drawer\" at work:** Stash instant oatmeal packets, single-serve nut butters, and protein bars (look for >10g protein, <5g sugar).\n- **Use a thermos:** For hot drinks like coffee or tea, pre-fill the night before and set a timer to brew in the morning.\n- **Don’t stress about perfection:** Even a handful of almonds and a piece of fruit is better than skipping entirely. Your body needs fuel to think.\n\n---\n\n### Sample Shopping List (for the week)\n- **Pantry:** Rolled oats, chia seeds, honey/maple syrup, peanut butter, almond butter, whole-wheat tortillas, granola (low-sugar), almonds, pumpkin seeds, dark chocolate chips, dried cranberries, protein powder (optional).\n- **Produce:** Bananas, apples, berries (fresh or frozen), spinach, bell pepper, cucumber, cherry tomatoes, baby carrots.\n- **Dairy/Alternatives:** Milk (dairy or plant-based), Greek yogurt (plain), string cheese or block cheddar, eggs.\n- **Frozen:** Mixed berries (if using for parfait/smoothie).\n\nThis plan takes <5 minutes in the morning, requires no cooking, and ensures you eat a balanced meal before your day starts.",
+  "extracted": {
+    "summary": "The response provides a 5-minute grab-and-go healthy breakfast plan for a week, focusing on quick, no-cook options that can be prepared the night before.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats in a jar",
+        "ingredients": [
+          "rolled oats",
+          "milk",
+          "greek yogurt",
+          "chia seeds",
+          "honey",
+          "berries",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "nut butter & banana wrap",
+        "ingredients": [
+          "whole-wheat tortilla",
+          "peanut butter",
+          "banana",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 2,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "hard-boiled egg & veggie pack",
+        "ingredients": [
+          "hard-boiled eggs",
+          "bell pepper",
+          "cucumber",
+          "cherry tomatoes",
+          "baby carrots",
+          "snap peas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "plain greek yogurt",
+          "granola",
+          "mixed berries",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 3,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "apple & cheese stick + trail mix",
+        "ingredients": [
+          "apple",
+          "string cheese",
+          "almonds",
+          "pumpkin seeds",
+          "dark chocolate chips",
+          "dried cranberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 2,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie in a bottle",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "mixed berries",
+          "protein powder",
+          "milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "leftover dinner",
+        "ingredients": [
+          "grilled chicken",
+          "quinoa",
+          "roasted veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "banana",
+      "bell pepper",
+      "berries",
+      "baby carrots",
+      "chia seeds",
+      "cucumber",
+      "dark chocolate chips",
+      "dried cranberries",
+      "eggs",
+      "granola",
+      "greek yogurt",
+      "honey",
+      "hard-boiled eggs",
+      "milk",
+      "mixed berries",
+      "peanut butter",
+      "protein powder",
+      "quinoa",
+      "roasted veggies",
+      "spinach",
+      "string cheese",
+      "tortilla",
+      "pumpkin seeds"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats in a jar",
+      "nut butter & banana wrap",
+      "hard-boiled egg & veggie pack",
+      "greek yogurt parfait",
+      "apple & cheese stick + trail mix",
+      "smoothie in a bottle",
+      "leftover dinner"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3710,
+  "extraction_output_tokens": 1577,
+  "extraction_from_cache": false
+}

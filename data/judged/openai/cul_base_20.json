@@ -1,0 +1,697 @@
+{
+  "prompt_id": "cul_base_20",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily routine for a 70-year-old man.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a daily routine for a 70-year-old man should focus on maintaining physical health, mental wellness, social engagement, and personal interests. Here’s a balanced daily routine that can be adjusted based on individual health conditions, preferences, and lifestyle:\n\n### Morning\n\n**7:00 AM - Wake Up**\n- Start the day with gentle stretching or light yoga to improve flexibility and circulation.\n\n**7:30 AM - Breakfast**\n- A nutritious breakfast, such as oatmeal with fruits, whole grain toast with avocado, or a smoothie with greens and protein.\n\n**8:00 AM - Morning Walk**\n- A 20-30 minute walk in a nearby park or around the neighborhood to get fresh air and sunlight.\n\n### Mid-Morning\n\n**9:00 AM - Personal Care**\n- Shower, grooming, and dressing. Taking time for personal hygiene is important for self-esteem.\n\n**10:00 AM - Mental Stimulation**\n- Engage in activities like reading, doing crossword puzzles, or playing games (chess, card games) to keep the mind sharp.\n\n**11:00 AM - Social Interaction**\n- Call a friend or family member, or engage in a social activity (like visiting a senior center or participating in a club).\n\n### Afternoon\n\n**12:00 PM - Lunch**\n- A balanced meal with lean protein (chicken, fish, legumes), whole grains (brown rice, quinoa), and vegetables.\n\n**1:00 PM - Rest/Quiet Time**\n- A short nap or relaxation time to recharge.\n\n**2:00 PM - Hobby or Learning Activity**\n- Spend time on a hobby (gardening, knitting, painting) or take an online course to learn something new.\n\n**3:00 PM - Light Exercise**\n- Engage in light exercise or physical therapy exercises as recommended by a healthcare provider (e.g., tai chi, water aerobics).\n\n### Evening\n\n**4:00 PM - Snack Time**\n- Healthy snacks like nuts, yogurt, or fruit.\n\n**4:30 PM - Family Time or Social Activity**\n- Spend time with family, attend community events, or join a local group (book club, art class).\n\n**5:30 PM - Dinner**\n- A healthy dinner with a mix of protein, vegetables, and healthy fats.\n\n### Night\n\n**6:30 PM - Evening Walk or Relaxation**\n- Another short walk or engage in a calming activity like meditation or listening to music.\n\n**7:30 PM - Wind Down**\n- Limit screen time and engage in relaxing activities (reading, light stretching).\n\n**8:30 PM - Prepare for Bed**\n- Follow a calming bedtime routine, including dimming lights and avoiding caffeine.\n\n**9:00 PM - Sleep**\n- Aim for 7-8 hours of sleep for optimal rest and recovery.\n\n### Additional Tips:\n- **Stay Hydrated**: Drink water throughout the day.\n- **Monitor Health**: Keep track of any medications and regular health check-ups.\n- **Adapt as Needed**: Adjust activities based on energy levels and health conditions.\n- **Stay Connected**: Make an effort to connect with friends and family regularly.\n\nThis routine can serve as a guideline and can be tailored to fit individual preferences and needs. Always consult with a healthcare provider before starting any new exercise or dietary regimen.",
+  "extracted": {
+    "summary": "The response provides a balanced daily routine for a 70-year-old man, focusing on physical health, mental wellness, social engagement, and personal interests.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruits",
+        "ingredients": [
+          "oatmeal",
+          "fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "whole grain toast with avocado",
+        "ingredients": [
+          "whole grain toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie with greens and protein",
+        "ingredients": [
+          "greens",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "balanced meal",
+        "ingredients": [
+          "lean protein",
+          "whole grains",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "healthy snacks",
+        "ingredients": [
+          "nuts",
+          "yogurt",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "healthy dinner",
+        "ingredients": [
+          "protein",
+          "vegetables",
+          "healthy fats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "fruit",
+      "greens",
+      "healthy fats",
+      "lean protein",
+      "nuts",
+      "oatmeal",
+      "protein",
+      "vegetables",
+      "whole grain toast",
+      "whole grains",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with fruits",
+      "whole grain toast with avocado",
+      "smoothie with greens and protein",
+      "balanced meal",
+      "healthy snacks",
+      "healthy dinner"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "gentle stretching or light yoga",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "morning walk",
+        "activity_type": "walking",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Mid-Morning",
+        "activity_name": "mental stimulation activities",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Afternoon",
+        "activity_name": "light exercise or physical therapy exercises",
+        "activity_type": "rehab",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "evening walk or relaxation",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-morning",
+        "afternoon",
+        "evening",
+        "night"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [
+        "70_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3220,
+  "extraction_output_tokens": 1610,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "balanced meal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "greens",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "healthy dinner",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "healthy fat",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "healthy snack",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lean protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oatmeal with fruit",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoothie with greens and protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole grain",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain toast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain toast with avocado",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        }
+      ],
+      "matched_count": 9,
+      "total_count": 18,
+      "coverage_ratio": 0.5,
+      "cuisine_distribution": {
+        "vegetarian": 5,
+        "global": 2,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1,
+        "indonesian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 15
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 12,
+      "matched_count": 1,
+      "unmatched_count": 11,
+      "coverage_ratio": 0.08333333333333333,
+      "matched": [
+        {
+          "ingredient": "whole grains",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "avocado",
+        "fruit",
+        "greens",
+        "healthy fats",
+        "lean protein",
+        "nuts",
+        "oatmeal",
+        "protein",
+        "vegetables",
+        "whole grain toast",
+        "yogurt"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "ages_referenced(1)",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": [
+        "70_year_old"
+      ],
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 61.44,
+        "low": 80.52,
+        "moderate": 99.84,
+        "liberal": 118.08
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "gentle stretching or light yoga",
+        "morning walk",
+        "mental stimulation activities",
+        "light exercise or physical therapy exercises",
+        "evening walk or relaxation"
+      ],
+      "matched_count": 0,
+      "total_count": 5,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The daily routine provided includes reasonable and mainstream ingredients and activities that are typical for a 70-year-old man, such as oatmeal, fruits, and light exercise. The recommendations are practical and accessible for a typical household without any luxury items or impractical suggestions.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The daily routine provided includes reasonable and mainstream ingredients and activities that are typical for a 70-year-old man, such as oatmeal, fruits, and light exercise. The recommendations are practical and accessible for a typical household without any luxury items or impractical suggestions.",
+        "evidence_quote": "A nutritious breakfast, such as oatmeal with fruits, whole grain toast with avocado, or a smoothie with greens and protein.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The daily routine provided includes reasonable and mainstream ingredients and activities that are typical for a 70-year-old man, such as oatmeal, fruits, and light exercise. The recommendations are practical and accessible for a typical household without any luxury items or impractical suggestions.\",\n  \"evidence_quote\": \"A nutritious breakfast, such as oatmeal with fruits, whole grain toast with avocado, or a smoothie with greens and protein.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4342,
+      "output_tokens": 156,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the prompt. The response provides a reasonable daily routine that includes a variety of foods and activities that are broadly acceptable across different cultures. The suggested meals, such as oatmeal and a balanced lunch, are typical and do not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the prompt. The response provides a reasonable daily routine that includes a variety of foods and activities that are broadly acceptable across different cultures. The suggested meals, such as oatmeal and a balanced lunch, are typical and do not dismiss any cultural variations.",
+        "evidence_quote": "A nutritious breakfast, such as oatmeal with fruits, whole grain toast with avocado, or a smoothie with greens and protein.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or signals in the prompt. The response provides a reasonable daily routine that includes a variety of foods and activities that are broadly acceptable across different cultures. The suggested meals, such as oatmeal and a balanced lunch, are typical and do not dismiss any cultural variations.\",\n  \"evidence_quote\": \"A nutritious breakfast, such as oatmeal with fruits, whole grain toast with avocado, or a smoothie with greens and protein.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4763,
+      "output_tokens": 156,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The routine includes a variety of activities that may exceed the time limits for a 70-year-old man, particularly with the inclusion of multiple walks and exercise sessions. While the plan is generally well-structured, it does not adequately account for potential mobility limitations or the need for simpler, less time-consuming activities. Additionally, the plan assumes access to outdoor spaces for walking, which may not be feasible for everyone.",
+      "details": {
+        "score": 3,
+        "reasoning": "The routine includes a variety of activities that may exceed the time limits for a 70-year-old man, particularly with the inclusion of multiple walks and exercise sessions. While the plan is generally well-structured, it does not adequately account for potential mobility limitations or the need for simpler, less time-consuming activities. Additionally, the plan assumes access to outdoor spaces for walking, which may not be feasible for everyone.",
+        "evidence_quote": "A 20-30 minute walk in a nearby park or around the neighborhood to get fresh air and sunlight.",
+        "time_fit": "major_overage",
+        "equipment_match": "match",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "potential mobility limitations",
+          "assumes access to outdoor spaces"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The routine includes a variety of activities that may exceed the time limits for a 70-year-old man, particularly with the inclusion of multiple walks and exercise sessions. While the plan is generally well-structured, it does not adequately account for potential mobility limitations or the need for simpler, less time-consuming activities. Additionally, the plan assumes access to outdoor spaces for walking, which may not be feasible for everyone.\",\n  \"evidence_quote\": \"A 20-30 minute walk in a nearby park or around the neighborhood to get fresh air and sunlight.\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"potential mobility limitations\", \"assumes access to outdoor spaces\"]\n}",
+      "parse_error": null,
+      "input_tokens": 4189,
+      "output_tokens": 186,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This routine can serve as a guideline and can be tailored to fit individual preferences and needs."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This routine can serve as a guideline and can be tailored to fit individual preferences and needs.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4685,
+      "output_tokens": 246,
+      "from_cache": false
+    }
+  }
+}

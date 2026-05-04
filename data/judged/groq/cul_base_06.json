@@ -1,0 +1,540 @@
+{
+  "prompt_id": "cul_base_06",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a recipe for a vegetable curry.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a simple and delicious recipe for a vegetable curry that serves 4-6 people:\n\n**Ingredients:**\n\n* 2 medium-sized onions, diced\n* 3 cloves of garlic, minced\n* 2 medium-sized potatoes, peeled and diced\n* 1 large carrot, peeled and grated\n* 1 large red bell pepper, diced\n* 1 can of diced tomatoes (14 oz)\n* 1 cup of mixed vegetables (such as cauliflower, zucchini, and green beans)\n* 2 tablespoons of curry powder\n* 1 teaspoon of ground cumin\n* 1 teaspoon of turmeric powder\n* 1/2 teaspoon of cayenne pepper (optional)\n* 1 can of coconut milk (14 oz)\n* Salt and pepper, to taste\n* Fresh cilantro, chopped (for garnish)\n\n**Instructions:**\n\n1. Heat oil in a large pan over medium heat. Add the onions and cook until they're translucent and starting to brown (about 5-7 minutes).\n2. Add the garlic and cook for another minute, stirring constantly to prevent burning.\n3. Add the potatoes, carrot, and red bell pepper. Cook for about 5 minutes, stirring occasionally, until the vegetables start to soften.\n4. Add the mixed vegetables, curry powder, cumin, turmeric, and cayenne pepper (if using). Cook for another 2-3 minutes, stirring constantly, until the spices are fragrant.\n5. Add the diced tomatoes and cook for about 5 minutes, stirring occasionally, until the mixture starts to thicken.\n6. Pour in the coconut milk and stir well to combine. Bring the mixture to a simmer.\n7. Reduce the heat to low and let the curry simmer for about 20-25 minutes, or until the vegetables are tender and the sauce has thickened.\n8. Season the curry with salt and pepper to taste.\n9. Garnish with chopped cilantro and serve over rice or with naan bread.\n\n**Variations:**\n\n* You can use different types of protein like chicken, beef, or tofu to make the curry more substantial.\n* Add other spices like coriander, cardamom, or cinnamon to give the curry a unique flavor.\n* Use fresh tomatoes instead of canned, and adjust the cooking time accordingly.\n* Add some heat to the curry by using more cayenne pepper or adding in some diced jalapenos.\n\n**Tips:**\n\n* Use a variety of colorful vegetables to make the curry visually appealing.\n* Adjust the amount of spices to your taste, and add more or less of any spice to suit your preferences.\n* Let the curry simmer for a longer time to develop a richer and more intense flavor.\n* Serve the curry with a side of raita (a yogurt and cucumber sauce) to cool down the heat.",
+  "extracted": {
+    "summary": "The response provides a recipe for a vegetable curry that serves 4-6 people, including ingredients and cooking instructions.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "vegetable curry",
+        "ingredients": [
+          "onion",
+          "garlic",
+          "potato",
+          "carrot",
+          "red bell pepper",
+          "diced tomatoes",
+          "mixed vegetables",
+          "curry powder",
+          "ground cumin",
+          "turmeric powder",
+          "cayenne pepper",
+          "coconut milk",
+          "salt",
+          "pepper",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4-6"
+      }
+    ],
+    "all_ingredients": [
+      "onion",
+      "garlic",
+      "potato",
+      "carrot",
+      "red bell pepper",
+      "diced tomatoes",
+      "mixed vegetables",
+      "curry powder",
+      "ground cumin",
+      "turmeric powder",
+      "cayenne pepper",
+      "coconut milk",
+      "salt",
+      "pepper",
+      "cilantro"
+    ],
+    "all_dishes_or_foods_named": [
+      "vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "vegetarian",
+        "vegan"
+      ],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3116,
+  "extraction_output_tokens": 954,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cayenne pepper",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cilantro",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "coconut milk",
+          "cuisines": [
+            "indonesian",
+            "vegetarian"
+          ],
+          "countries": [
+            "Indonesia",
+            "Malaysia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "curry powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "diced tomato",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ground cumin",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed vegetable",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "potato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "red bell pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "turmeric powder",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable curry",
+          "cuisines": [
+            "pakistani",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 13,
+      "total_count": 16,
+      "coverage_ratio": 0.8125,
+      "cuisine_distribution": {
+        "vegetarian": 8,
+        "global": 5,
+        "indonesian": 1,
+        "pakistani": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 15
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 15,
+      "matched_count": 0,
+      "unmatched_count": 15,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "onion",
+        "garlic",
+        "potato",
+        "carrot",
+        "red bell pepper",
+        "diced tomatoes",
+        "mixed vegetables",
+        "curry powder",
+        "ground cumin",
+        "turmeric powder",
+        "cayenne pepper",
+        "coconut milk",
+        "salt",
+        "pepper",
+        "cilantro"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "family_with_children",
+      "household_size": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": null,
+      "person_count": 4,
+      "adjustment_factor": 1.0,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 217.0,
+        "low": 284.9,
+        "moderate": 352.7,
+        "liberal": 417.7
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The recipe provided includes common ingredients that are reasonable for a typical household, such as onions, garlic, and mixed vegetables. The ingredients listed are mainstream and accessible, making the recipe practical for most households.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The recipe provided includes common ingredients that are reasonable for a typical household, such as onions, garlic, and mixed vegetables. The ingredients listed are mainstream and accessible, making the recipe practical for most households.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The recipe provided includes common ingredients that are reasonable for a typical household, such as onions, garlic, and mixed vegetables. The ingredients listed are mainstream and accessible, making the recipe practical for most households.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3964,
+      "output_tokens": 120,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The recipe provided is a reasonable and inclusive vegetable curry that can be appreciated by a wide audience, regardless of cultural background. The ingredients and methods are broadly acceptable and do not dismiss any cultural variations. The response does not lean heavily towards Western defaults, making it suitable for a diverse range of readers.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The recipe provided is a reasonable and inclusive vegetable curry that can be appreciated by a wide audience, regardless of cultural background. The ingredients and methods are broadly acceptable and do not dismiss any cultural variations. The response does not lean heavily towards Western defaults, making it suitable for a diverse range of readers.",
+        "evidence_quote": "Here's a simple and delicious recipe for a vegetable curry that serves 4-6 people:",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The recipe provided is a reasonable and inclusive vegetable curry that can be appreciated by a wide audience, regardless of cultural background. The ingredients and methods are broadly acceptable and do not dismiss any cultural variations. The response does not lean heavily towards Western defaults, making it suitable for a diverse range of readers.\",\n  \"evidence_quote\": \"Here's a simple and delicious recipe for a vegetable curry that serves 4-6 people:\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4385,
+      "output_tokens": 163,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The vegetable curry recipe is straightforward and can be prepared in about 30-40 minutes, which is reasonable for a typical cooking session. It requires common kitchen equipment like a large pan, which is generally accessible. The recipe is structured to allow for flexibility in ingredient choices and cooking times, making it adaptable for various lifestyles. There are no stated constraints that would hinder the execution of this recipe.",
+      "details": {
+        "score": 5,
+        "reasoning": "The vegetable curry recipe is straightforward and can be prepared in about 30-40 minutes, which is reasonable for a typical cooking session. It requires common kitchen equipment like a large pan, which is generally accessible. The recipe is structured to allow for flexibility in ingredient choices and cooking times, making it adaptable for various lifestyles. There are no stated constraints that would hinder the execution of this recipe.",
+        "evidence_quote": "Heat oil in a large pan over medium heat. Add the onions and cook until they're translucent and starting to brown (about 5-7 minutes).",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The vegetable curry recipe is straightforward and can be prepared in about 30-40 minutes, which is reasonable for a typical cooking session. It requires common kitchen equipment like a large pan, which is generally accessible. The recipe is structured to allow for flexibility in ingredient choices and cooking times, making it adaptable for various lifestyles. There are no stated constraints that would hinder the execution of this recipe.\",\n  \"evidence_quote\": \"Heat oil in a large pan over medium heat. Add the onions and cook until they're translucent and starting to brown (about 5-7 minutes).\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3811,
+      "output_tokens": 178,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4307,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

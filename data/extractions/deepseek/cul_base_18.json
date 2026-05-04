@@ -1,0 +1,153 @@
+{
+  "prompt_id": "cul_base_18",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a way to improve my cardio and coordination.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a great goal because cardio and coordination feed off each other. Improving one helps the other, creating a positive feedback loop.\n\nThe most efficient way to improve both simultaneously is **rhythmic, compound movement training**. Instead of just running (which is great for cardio but low on coordination complexity) or just juggling (great for coordination but low on cardio), you need activities that force your brain to manage your limbs and breathing under duress.\n\nHere is a structured, progressive approach:\n\n### The Core Method: \"Complex Jump Rope\" (The King of Both)\n\nJumping rope is the single best tool for this. It forces perfect timing (coordination between hands and feet) while rapidly elevating your heart rate (cardio).\n\n**The Progression (Do this 3-4 times a week):**\n\n1.  **Phase 1: The Foundation (Weeks 1-2)**\n    - **Goal:** Master the basic bounce step without tripping.\n    - **Workout:** 30 seconds on, 30 seconds rest. Repeat 10 times. Focus on soft landings and a consistent wrist circle.\n    - **Coordination Cue:** Say \"Jump... jump... jump...\" out loud in time with your feet. This connects your auditory system to your motor system.\n\n2.  **Phase 2: The Coordination Layer (Weeks 3-4)**\n    - **Goal:** Add footwork patterns while maintaining the rhythm.\n    - **Workout:** Alternate 1 minute of basic bounce with 1 minute of a new pattern.\n    - **Patterns to learn (in this order):**\n        - **High Knees:** Lift knees to hip height in a running motion.\n        - **Boxer Step:** Step side-to-side, shifting weight like a boxer.\n        - **Heel Taps (Skier):** Jump side-to-side landing on two feet, tapping heels.\n        - **Single-Leg Hops:** Hop 5 times on the right, then 5 on the left.\n\n3.  **Phase 3: The \"Dual-Task\" Challenge (Weeks 5+)**\n    - **Goal:** Perform a cognitive task *while* jumping. This forces your brain to automate the movement.\n    - **Workout:** Jump rope at a steady pace (basic bounce) while:\n        - Reciting the alphabet backward.\n        - Solving simple math problems (e.g., 7+8, 12-5).\n        - Naming a fruit for every letter of the alphabet.\n    - **Why this works:** If you can do math while jumping rope, your coordination is becoming subconscious.\n\n### The \"No-Rope\" Alternative: Agility Ladder Drills\n\nIf you don't have a rope or find it frustrating, an agility ladder on the ground is excellent.\n\n- **The Drill:** \"Icky Shuffle\" (In-Out-Out)\n    - Step into the first square with your right foot, then your left.\n    - Step outside the next square with your right foot, then your left.\n    - Step into the next square with your right, then left.\n    - Repeat down the ladder.\n- **Cardio Boost:** Do this at maximum speed for 15 seconds, then rest for 45 seconds. Repeat 8 times. Your heart rate will spike, and your brain will be fried from the coordination.\n\n### A Weekly Sample Routine (20 Minutes)\n\n| Day | Activity | Focus | Time |\n| :--- | :--- | :--- | :--- |\n| **Mon** | Jump Rope (Phase 1 or 2) | Rhythm & Footwork | 10 min |\n| | Light Jog | Active recovery | 10 min |\n| **Wed** | Agility Ladder (Icky Shuffle) | Speed & Precision | 10 min |\n| | Jump Rope (Phase 3 - Dual Task) | Cognitive load | 10 min |\n| **Fri** | \"Complex Circuit\" | Integration | 20 min |\n| | *Do 45 sec of work, 15 sec rest. Repeat 4 times:* | | |\n| | 1. Box Jumps (low box) | Power & landing | |\n| | 2. Jump Rope (basic bounce) | Rhythm | |\n| | 3. Lateral Shuffles (side to side) | Agility | |\n| | 4. High Knees in place | Speed & posture | |\n\n### The Most Important Rule: \"Practice Slow to be Fast\"\n\nDon't try to be fast first. **Slow down** until your movement is perfect. Speed comes from precision, not from effort. If you're tripping on the rope or stumbling on the ladder, you're going too fast. Slow down by 50% and nail the pattern.\n\n**Summary Recommendation:**\nStart with **Jump Rope Progression Phase 1**. Do it for 5 minutes a day for a week. If you can do 100 jumps without a miss, move to Phase 2. Combine this with one 15-minute agility ladder session per week. You will see noticeable improvements in both cardio and coordination within 3 weeks.",
+  "extracted": {
+    "summary": "The response recommends a structured approach to improve cardio and coordination through rhythmic, compound movement training, particularly using jump rope and agility ladder drills.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "Jump Rope (Phase 1 or 2)",
+        "activity_type": "cardio",
+        "duration_minutes": 10,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "Light Jog",
+        "activity_type": "cardio",
+        "duration_minutes": 10,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "Agility Ladder (Icky Shuffle)",
+        "activity_type": "cardio",
+        "duration_minutes": 10,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "Jump Rope (Phase 3 - Dual Task)",
+        "activity_type": "cardio",
+        "duration_minutes": 10,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "Complex Circuit",
+        "activity_type": "hiit",
+        "duration_minutes": 20,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3594,
+  "extraction_output_tokens": 1022,
+  "extraction_from_cache": false
+}

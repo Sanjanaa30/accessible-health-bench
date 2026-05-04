@@ -1,0 +1,343 @@
+{
+  "prompt_id": "lif_con_16",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a fitness and diet plan for someone with a long daily commute (2–3 hours).",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Fitness & Diet Plan for Long Commute Lifestyle\n\n## Overview\nThis plan maximizes limited free time while managing energy levels and nutrition around a demanding schedule.\n\n---\n\n## FITNESS STRATEGY\n\n### Commute-Based Activity (30–60 min)\n- **Cycle or run part of the route** (if feasible)\n- **Stand/walk during transit** instead of sitting\n- **Desk stretches** at work (5-min hourly)\n- **Isometric exercises** on public transport (glute squeezes, wall sits mentally)\n\n### Micro-Workouts (15–20 min, 4–5× weekly)\n**Morning (before commute):**\n- 5 min warm-up\n- 10 min circuit: push-ups, bodyweight squats, burpees, planks\n- 5 min cool-down\n\n**Evening (post-commute):**\n- 15 min walk or light yoga to decompress\n\n### Weekend Sessions (45–60 min, 1–2× weekly)\n- Strength training (compound movements)\n- Longer cardio or sports\n- Active recovery (hiking, swimming)\n\n---\n\n## NUTRITION PLAN\n\n### Meal Prep Strategy (2–3 hours Sunday)\nPrep 4–5 days of meals to avoid relying on commute food.\n\n| Meal | Options | Benefit |\n|------|---------|---------|\n| **Breakfast** | Overnight oats, egg muffins, yogurt parfait | Portable, sustained energy |\n| **Snacks** | Nuts, fruit, protein bars, hummus + veggies | Prevents energy crashes |\n| **Lunch** | Grain bowls, wraps, salads in containers | Avoids expensive takeout |\n| **Dinner** | Sheet pan meals, slow cooker recipes, pasta | Minimal prep after commute |\n\n### Daily Hydration & Caffeine\n- **Morning:** Coffee/tea (1 cup max) + water\n- **Commute:** Reusable water bottle (refill 2–3× daily)\n- **Afternoon:** Herbal tea or water (avoid caffeine after 3 PM)\n\n### Sample Daily Eating Schedule\n```\n6:00 AM   Breakfast (200–300 cal)\n8:30 AM   Snack on commute (100–150 cal)\n12:30 PM  Lunch (400–500 cal)\n3:00 PM   Snack (150 cal)\n7:00 PM   Dinner (500–600 cal)\n```\n\n---\n\n## COMMUTE-SPECIFIC TIPS\n\n| Challenge | Solution |\n|-----------|----------|\n| **Sitting too long** | Alternate sitting/standing; do calf raises at stops |\n| **Fatigue** | Eat protein + carbs 1 hour before commute |\n| **Hunger on return** | Pack post-workout snack (banana + nuts) |\n| **Stress eating** | Prep healthy snacks; practice breathing exercises |\n| **Sleep disruption** | Avoid heavy dinners; wind down 1 hour before bed |\n\n---\n\n## WEEKLY SAMPLE SCHEDULE\n\n| Day | Morning | Commute | Evening |\n|-----|---------|---------|---------|\n| **Mon** | 15 min circuit | Walk part of route | 15 min yoga |\n| **Tue** | 5 min stretch | Active transit | Rest |\n| **Wed** | 15 min circuit | Cycle/run if possible | 20 min walk |\n| **Thu** | 5 min stretch | Active transit | Rest |\n| **Fri** | 15 min circuit | Walk part of route | Light activity |\n| **Sat** | 45 min strength training | — | — |\n| **Sun** | Meal prep + 30 min activity | — | Rest |\n\n---\n\n## REALISTIC GOALS (8–12 weeks)\n\n✓ Maintain current fitness (vs. declining)  \n✓ Lose 5–8 lbs if needed  \n✓ Improve energy and sleep quality  \n✓ Build sustainable habits  \n✓ Reduce stress-related eating  \n\n---\n\n## Key Success Factors\n\n1. **Prep everything** — your biggest enemy is convenience food\n2. **Use commute time strategically** — walk/cycle segments count\n3. **Lower intensity, higher frequency** — short workouts beat skipped long ones\n4. **Sleep prioritizes fitness** — aim for 7–8 hours\n5. **Track energy, not just calories** — adjust if constantly exhausted\n\nWould you like specific meal prep recipes or modifications for your commute type?",
+  "extracted": {
+    "summary": "The response provides a fitness and diet plan tailored for individuals with a long daily commute, focusing on maximizing limited free time and managing energy levels.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "milk",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts",
+        "ingredients": [
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruit",
+        "ingredients": [
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "protein bars",
+        "ingredients": [
+          "protein bars"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hummus + veggies",
+        "ingredients": [
+          "hummus",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grain bowls",
+        "ingredients": [
+          "grains",
+          "vegetables",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "wraps",
+        "ingredients": [
+          "wraps",
+          "protein",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "salads",
+        "ingredients": [
+          "greens",
+          "vegetables",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "sheet pan meals",
+        "ingredients": [
+          "protein",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "slow cooker recipes",
+        "ingredients": [
+          "protein",
+          "vegetables",
+          "grains"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "pasta",
+        "ingredients": [
+          "pasta",
+          "sauce",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "grains",
+      "hummus",
+      "milk",
+      "nuts",
+      "oats",
+      "pasta",
+      "protein",
+      "protein bars",
+      "sauce",
+      "slow cooker recipes",
+      "sheet pan meals",
+      "vegetables",
+      "fruit",
+      "greens"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "grain bowls",
+      "wraps",
+      "salads",
+      "sheet pan meals",
+      "slow cooker recipes",
+      "pasta",
+      "nuts",
+      "fruit",
+      "protein bars",
+      "hummus + veggies"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "circuit workout",
+        "activity_type": "strength",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "yoga",
+        "activity_type": "yoga",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Weekend",
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": 60,
+        "intensity": "high",
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Weekend",
+        "activity_name": "cardio or sports",
+        "activity_type": "cardio",
+        "duration_minutes": 60,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "light yoga",
+        "activity_type": "yoga",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "evening"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 180,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "desk_job"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "maintenance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3501,
+  "extraction_output_tokens": 2051,
+  "extraction_from_cache": false
+}

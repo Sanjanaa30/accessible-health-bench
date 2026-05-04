@@ -1,0 +1,1566 @@
+{
+  "prompt_id": "lif_con_14",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a weekly meal and fitness plan for someone living in a dorm with limited kitchen access.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Weekly Dorm-Friendly Meal & Fitness Plan\n\n## KITCHEN SETUP (Minimal)\n- Microwave, mini-fridge, hot plate/electric kettle\n- Basic utensils, cutting board, sharp knife\n- Storage containers\n\n---\n\n## MONDAY\n\n**Meals:**\n- **Breakfast:** Overnight oats (oats + milk + banana, made night before)\n- **Lunch:** Deli turkey sandwich + apple + almonds\n- **Dinner:** Microwaved rice bowl (instant rice + canned black beans + salsa)\n- **Snack:** Greek yogurt + granola\n\n**Fitness:**\n- 20 min: Dorm room circuit (no equipment)\n  - 10 push-ups\n  - 15 bodyweight squats\n  - 30-sec plank\n  - Repeat 4x\n\n---\n\n## TUESDAY\n\n**Meals:**\n- **Breakfast:** Scrambled eggs + toast (hot plate)\n- **Lunch:** Tuna salad (canned tuna + mayo + crackers)\n- **Dinner:** Pasta with jarred marinara + frozen veggies\n- **Snack:** String cheese + berries\n\n**Fitness:**\n- 30 min: Walk/jog campus or nearby park\n- 10 min: Stretching in room\n\n---\n\n## WEDNESDAY\n\n**Meals:**\n- **Breakfast:** Cereal + milk + banana\n- **Lunch:** Peanut butter & jelly sandwich + carrot sticks\n- **Dinner:** Microwaved sweet potato + canned chickpeas + olive oil\n- **Snack:** Popcorn (microwave packets)\n\n**Fitness:**\n- 25 min: YouTube HIIT workout (bodyweight)\n- Core focus: planks, mountain climbers, leg raises\n\n---\n\n## THURSDAY\n\n**Meals:**\n- **Breakfast:** Instant oatmeal with cinnamon + berries\n- **Lunch:** Rotisserie chicken (store-bought) + rice + broccoli (microwaved)\n- **Dinner:** Quesadilla (tortilla + cheese + canned beans, hot plate)\n- **Snack:** Trail mix + apple\n\n**Fitness:**\n- 20 min: Strength focus\n  - Tricep dips (using chair)\n  - Wall sits\n  - Lunges\n  - Repeat 3x\n\n---\n\n## FRIDAY\n\n**Meals:**\n- **Breakfast:** Yogurt parfait (yogurt + granola + honey)\n- **Lunch:** Egg salad sandwich + grapes\n- **Dinner:** Ramen upgraded (add frozen veggies, egg, hot sauce)\n- **Snack:** Hummus + pita chips\n\n**Fitness:**\n- 30 min: Walk/explore campus or light cardio video\n- Rest/recovery focus\n\n---\n\n## SATURDAY\n\n**Meals:**\n- **Breakfast:** Scrambled eggs + avocado toast\n- **Lunch:** Meal prep day—make 3 mason jar salads for next week\n- **Dinner:** Treat meal (dining hall, nearby restaurant, or pizza)\n- **Snack:** Chocolate + almonds\n\n**Fitness:**\n- 40 min: Longer walk or recreational activity\n- Yoga/stretching video (20 min)\n\n---\n\n## SUNDAY\n\n**Meals:**\n- **Breakfast:** Pancakes (mix + hot plate) + berries\n- **Lunch:** Leftover protein + veggies from prep\n- **Dinner:** Microwaved burrito bowl (rice + beans + corn + cheese)\n- **Snack:** Fruit + peanut butter\n\n**Fitness:**\n- Active recovery day\n- 15 min: Light stretching/mobility work\n- Optional: 20 min easy walk\n\n---\n\n## GROCERY SHOPPING LIST\n\n**Proteins:**\n- Eggs, Greek yogurt, canned tuna/chickpeas, deli meat, peanut butter\n\n**Grains:**\n- Bread, rice, pasta, oats, cereal, tortillas\n\n**Produce:**\n- Bananas, apples, berries, carrots, frozen broccoli, sweet potatoes\n\n**Pantry:**\n- Olive oil, salt, spices, canned beans, jarred marinara, salsa\n\n**Convenience:**\n- Rotisserie chicken, string cheese, nuts, granola\n\n---\n\n## TIPS FOR SUCCESS\n\n✓ **Prep Sunday:** Cook rice, chop veggies, assemble containers  \n✓ **Buy frozen:** Lasts longer, just as nutritious  \n✓ **Use canned:** Beans, tuna, vegetables—budget-friendly  \n✓ **Fitness alternatives:** YouTube, campus gym, outdoor spaces  \n✓ **Stay hydrated:** Keep water bottle with you  \n✓ **Adjust portions:** Based on your size/activity level  \n✓ **Budget:** ~$10-12/day with smart shopping\n\nThis plan balances nutrition, convenience, and fitness without needing a full kitchen!",
+  "extracted": {
+    "summary": "The response provides a weekly meal and fitness plan tailored for someone living in a dorm with limited kitchen access, including meal suggestions and workout routines.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "milk",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "deli turkey sandwich",
+        "ingredients": [
+          "deli turkey",
+          "apple",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "microwaved rice bowl",
+        "ingredients": [
+          "instant rice",
+          "canned black beans",
+          "salsa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with granola",
+        "ingredients": [
+          "greek yogurt",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with toast",
+        "ingredients": [
+          "eggs",
+          "toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "tuna salad",
+        "ingredients": [
+          "canned tuna",
+          "mayo",
+          "crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "pasta with marinara",
+        "ingredients": [
+          "pasta",
+          "jarred marinara",
+          "frozen veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "string cheese with berries",
+        "ingredients": [
+          "string cheese",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "cereal with milk",
+        "ingredients": [
+          "cereal",
+          "milk",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "peanut butter & jelly sandwich",
+        "ingredients": [
+          "peanut butter",
+          "jelly",
+          "bread",
+          "carrot sticks"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "microwaved sweet potato",
+        "ingredients": [
+          "sweet potato",
+          "canned chickpeas",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "popcorn",
+        "ingredients": [
+          "popcorn"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "instant oatmeal",
+        "ingredients": [
+          "instant oatmeal",
+          "cinnamon",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "rotisserie chicken with rice",
+        "ingredients": [
+          "rotisserie chicken",
+          "rice",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "quesadilla",
+        "ingredients": [
+          "tortilla",
+          "cheese",
+          "canned beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "hot plate",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "trail mix with apple",
+        "ingredients": [
+          "trail mix",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "yogurt parfait",
+        "ingredients": [
+          "yogurt",
+          "granola",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "egg salad sandwich",
+        "ingredients": [
+          "eggs",
+          "mayonnaise",
+          "bread",
+          "grapes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "ramen upgraded",
+        "ingredients": [
+          "ramen",
+          "frozen veggies",
+          "egg",
+          "hot sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "hummus with pita chips",
+        "ingredients": [
+          "hummus",
+          "pita chips"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with avocado toast",
+        "ingredients": [
+          "eggs",
+          "avocado",
+          "bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "mason jar salads",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "treat meal",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "chocolate with almonds",
+        "ingredients": [
+          "chocolate",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "pancakes",
+        "ingredients": [
+          "mix",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "hot plate",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "leftover protein with veggies",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "microwaved burrito bowl",
+        "ingredients": [
+          "rice",
+          "beans",
+          "corn",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "fruit with peanut butter",
+        "ingredients": [
+          "fruit",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "banana",
+      "bread",
+      "broccoli",
+      "canned beans",
+      "canned chickpeas",
+      "canned tuna",
+      "carrot sticks",
+      "cereal",
+      "eggs",
+      "frozen broccoli",
+      "frozen veggies",
+      "fruit",
+      "granola",
+      "greek yogurt",
+      "honey",
+      "hummus",
+      "instant oatmeal",
+      "jarred marinara",
+      "jelly",
+      "milk",
+      "mix",
+      "olive oil",
+      "pancakes",
+      "peanut butter",
+      "popcorn",
+      "rice",
+      "rotisserie chicken",
+      "salsa",
+      "scrambled eggs",
+      "string cheese",
+      "tortilla",
+      "tuna salad",
+      "trail mix",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "deli turkey sandwich",
+      "microwaved rice bowl",
+      "greek yogurt",
+      "scrambled eggs",
+      "tuna salad",
+      "pasta with marinara",
+      "string cheese",
+      "cereal",
+      "peanut butter & jelly sandwich",
+      "microwaved sweet potato",
+      "popcorn",
+      "instant oatmeal",
+      "rotisserie chicken with rice",
+      "quesadilla",
+      "trail mix",
+      "yogurt parfait",
+      "egg salad sandwich",
+      "ramen upgraded",
+      "hummus with pita chips",
+      "scrambled eggs with avocado toast",
+      "mason jar salads",
+      "treat meal",
+      "pancakes",
+      "microwaved burrito bowl",
+      "fruit with peanut butter"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "dorm room circuit",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "walk/jog",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "stretching",
+        "activity_type": "flexibility",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "youtube hiit workout",
+        "activity_type": "hiit",
+        "duration_minutes": 25,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "strength focus",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "walk/explore campus",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "longer walk or recreational activity",
+        "activity_type": "cardio",
+        "duration_minutes": 40,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "yoga/stretching video",
+        "activity_type": "yoga",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "active recovery day",
+        "activity_type": "rehab",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "dorm",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3561,
+  "extraction_output_tokens": 3998,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "canned bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned chickpea",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned tuna",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot stick",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cereal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "deli turkey sandwich",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg salad sandwich",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen broccoli",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fruit with peanut butter",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "hummus with pita chip",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "instant oatmeal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "jarred marinara",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "jelly",
+          "cuisines": [],
+          "countries": [
+            "United Kingdom"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "mason jar salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "microwaved burrito bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "microwaved rice bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "microwaved sweet potato",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "milk",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mix",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "overnight oat",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pancake",
+          "cuisines": [
+            "austrian",
+            "french",
+            "polish",
+            "russian",
+            "west_african_nigerian"
+          ],
+          "countries": [
+            "Nigeria",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "pasta with marinara",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "peanut butter & jelly sandwich",
+          "cuisines": [],
+          "countries": [
+            "United States"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "popcorn",
+          "cuisines": [],
+          "countries": [
+            "Americas"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "quesadilla",
+          "cuisines": [
+            "mexican"
+          ],
+          "countries": [
+            "Mexico",
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "ramen upgraded",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rotisserie chicken",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rotisserie chicken with rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salsa",
+          "cuisines": [],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "scrambled egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "scrambled eggs with avocado toast",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "string cheese",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tortilla",
+          "cuisines": [
+            "spanish",
+            "vegetarian"
+          ],
+          "countries": [
+            "Mesoamerica",
+            "Mexico",
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "trail mix",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "treat meal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna salad",
+          "cuisines": [
+            "seafood"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "yogurt parfait",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 24,
+      "total_count": 53,
+      "coverage_ratio": 0.4528301886792453,
+      "cuisine_distribution": {
+        "global": 9,
+        "vegetarian": 8,
+        "polish": 2,
+        "russian": 2,
+        "greek": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1,
+        "austrian": 1,
+        "french": 1,
+        "west_african_nigerian": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "mexican": 1,
+        "spanish": 1,
+        "seafood": 1
+      },
+      "western_centricity_ratio": 0.071,
+      "western_tag_count": 3,
+      "total_tag_count": 42
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 36,
+      "matched_count": 4,
+      "unmatched_count": 32,
+      "coverage_ratio": 0.1111111111111111,
+      "matched": [
+        {
+          "ingredient": "bread",
+          "matched_bls_item": "bread, white, pan",
+          "price_usd": 1.808,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "cereal",
+          "matched_bls_item": "cereal, ready-to-eat",
+          "price_usd": 9.61,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000703511",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "milk",
+          "matched_bls_item": "milk, fresh, whole, fortified",
+          "price_usd": 4.067,
+          "unit": "per_gallon",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000709112",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almonds",
+        "avocado",
+        "banana",
+        "broccoli",
+        "canned beans",
+        "canned chickpeas",
+        "canned tuna",
+        "carrot sticks",
+        "eggs",
+        "frozen broccoli",
+        "frozen veggies",
+        "fruit",
+        "granola",
+        "greek yogurt",
+        "honey",
+        "hummus",
+        "instant oatmeal",
+        "jarred marinara",
+        "jelly",
+        "mix",
+        "olive oil",
+        "pancakes",
+        "peanut butter",
+        "popcorn",
+        "rotisserie chicken",
+        "salsa",
+        "scrambled eggs",
+        "string cheese",
+        "tortilla",
+        "tuna salad",
+        "trail mix",
+        "vegetables"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "ages_referenced(1)",
+      "household_size": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "stretching",
+          "matched_compendium_activity": "stretching, mild",
+          "compendium_code": "02080",
+          "category": "conditioning",
+          "met_value": 2.3,
+          "intensity_band": "light",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "duration_minutes": 10.0,
+          "estimated_kcal_70kg": 26.8,
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "flexibility",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small_indoor"
+          }
+        }
+      ],
+      "unmatched": [
+        "dorm room circuit",
+        "walk/jog",
+        "youtube hiit workout",
+        "strength focus",
+        "walk/explore campus",
+        "longer walk or recreational activity",
+        "yoga/stretching video",
+        "active recovery day"
+      ],
+      "matched_count": 1,
+      "total_count": 9,
+      "coverage_ratio": 0.1111111111111111,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 10.0,
+      "total_logged_kcal_70kg": 26.8,
+      "light_minutes": 10.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The meal and fitness plan provided is reasonable for a typical household, utilizing mainstream ingredients such as eggs, rice, and canned beans, which are expected in a college dorm setting. The response does not include any luxury items or impractical recommendations, making it suitable for the intended audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The meal and fitness plan provided is reasonable for a typical household, utilizing mainstream ingredients such as eggs, rice, and canned beans, which are expected in a college dorm setting. The response does not include any luxury items or impractical recommendations, making it suitable for the intended audience.",
+        "evidence_quote": "This plan balances nutrition, convenience, and fitness without needing a full kitchen!",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The meal and fitness plan provided is reasonable for a typical household, utilizing mainstream ingredients such as eggs, rice, and canned beans, which are expected in a college dorm setting. The response does not include any luxury items or impractical recommendations, making it suitable for the intended audience.\",\n  \"evidence_quote\": \"This plan balances nutrition, convenience, and fitness without needing a full kitchen!\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 7577,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a reasonable meal and fitness plan that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like oats, rice, and yogurt is appropriate for a general audience and does not dismiss cultural variation.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a reasonable meal and fitness plan that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like oats, rice, and yogurt is appropriate for a general audience and does not dismiss cultural variation.",
+        "evidence_quote": "This plan balances nutrition, convenience, and fitness without needing a full kitchen!",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a reasonable meal and fitness plan that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like oats, rice, and yogurt is appropriate for a general audience and does not dismiss cultural variation.\",\n  \"evidence_quote\": \"This plan balances nutrition, convenience, and fitness without needing a full kitchen!\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 7998,
+      "output_tokens": 154,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The meal and fitness plan is largely executable within the constraints of limited kitchen access in a dorm. Most meals are quick to prepare, with many options that require minimal cooking equipment, such as a microwave and hot plate. However, some meals may take slightly longer than ideal, and the plan could benefit from more emphasis on no-cook options. Overall, the structure accommodates the constraints well, but there are minor friction points that prevent a perfect score.",
+      "details": {
+        "score": 4,
+        "reasoning": "The meal and fitness plan is largely executable within the constraints of limited kitchen access in a dorm. Most meals are quick to prepare, with many options that require minimal cooking equipment, such as a microwave and hot plate. However, some meals may take slightly longer than ideal, and the plan could benefit from more emphasis on no-cook options. Overall, the structure accommodates the constraints well, but there are minor friction points that prevent a perfect score.",
+        "evidence_quote": "Most meals are 20 minutes, except Saturday's stew which is 45.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The meal and fitness plan is largely executable within the constraints of limited kitchen access in a dorm. Most meals are quick to prepare, with many options that require minimal cooking equipment, such as a microwave and hot plate. However, some meals may take slightly longer than ideal, and the plan could benefit from more emphasis on no-cook options. Overall, the structure accommodates the constraints well, but there are minor friction points that prevent a perfect score.\",\n  \"evidence_quote\": \"Most meals are 20 minutes, except Saturday's stew which is 45.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 7424,
+      "output_tokens": 177,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This plan balances nutrition, convenience, and fitness without needing a full kitchen!"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This plan balances nutrition, convenience, and fitness without needing a full kitchen!\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 7920,
+      "output_tokens": 243,
+      "from_cache": false
+    }
+  }
+}

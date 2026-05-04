@@ -1,0 +1,209 @@
+{
+  "prompt_id": "lif_base_13",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily wellness routine.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a balanced daily wellness routine that integrates physical health, mental clarity, emotional balance, and rest. It’s designed to fit a typical 24-hour day but can be adjusted to your schedule.\n\n---\n\n### 🌅 Morning (6:30 AM – 8:00 AM) – *Set the Tone*\n\n**1. Wake Up Gently (6:30–6:45)**\n- No phone for first 10 minutes.\n- Drink a glass of water (add lemon if you like).\n- Stretch in bed or do 2 minutes of deep breathing (inhale 4 sec, hold 4, exhale 6).\n\n**2. Mindfulness or Gratitude (6:45–7:00)**\n- 5–10 minutes of meditation (app like Headspace, Calm, or just sit quietly).\n- Write 3 things you’re grateful for in a journal.\n\n**3. Move Your Body (7:00–7:30)**\n- 20–30 minutes of light exercise: yoga, brisk walk, or a short strength session.\n- If time is tight, do 10 minutes of dynamic stretching or a quick HIIT.\n\n**4. Nourish (7:30–8:00)**\n- Eat a balanced breakfast: protein + healthy fat + fiber (e.g., eggs with avocado, oatmeal with nuts and berries).\n- Avoid screens during breakfast if possible.\n\n---\n\n### ☀️ Midday (12:00 PM – 1:30 PM) – *Recharge & Refocus*\n\n**1. Movement Break (12:00–12:10)**\n- Step away from your desk. Walk outside for 5–10 minutes, or do some desk stretches.\n\n**2. Mindful Lunch (12:10–12:40)**\n- Eat without distractions (no phone, TV, or work).\n- Focus on whole foods: veggies, lean protein, complex carbs.\n\n**3. Afternoon Reset (12:40–1:00)**\n- 5 minutes of box breathing (inhale 4, hold 4, exhale 4, hold 4).\n- Set one key intention for the afternoon (what’s the most important task?).\n\n---\n\n### 🌙 Evening (5:30 PM – 10:30 PM) – *Wind Down & Recover*\n\n**1. Move Again (5:30–6:00)**\n- A second bout of movement: walk, light jog, yoga, or stretching. Helps release the day’s tension.\n\n**2. Digital Sunset (8:00 PM)**\n- Turn off screens (phone, TV, laptop) at least 1–2 hours before bed.\n- Switch to a book, journaling, or a calm hobby (knitting, drawing, listening to music).\n\n**3. Evening Ritual (8:30–9:30)**\n- **Skincare / self-care:** Wash face, brush teeth, do a simple 5-minute routine.\n- **Journal:** Write one thing you learned today, one thing you’re proud of, and one thing you’ll do differently tomorrow.\n- **Prepare for sleep:** Dim lights, put on cozy clothes, maybe drink herbal tea (chamomile, lavender).\n\n**4. Sleep (9:30–10:30)**\n- Aim for 7–9 hours of sleep. Keep the room cool, dark, and quiet.\n- If you use a sleep tracker, review trends weekly, not obsessively.\n\n---\n\n### 🔄 Weekly Add-Ons (Optional but Recommended)\n\n- **Sunday evening:** Plan the week ahead (meals, workouts, top 3 priorities).\n- **1–2 times/week:** Social connection (call a friend, go for a walk with someone).\n- **Once a week:** A longer self-care session (bath, face mask, reading for an hour).\n\n---\n\n### 💡 Key Principles to Remember\n\n- **Consistency over perfection.** Missing a day is fine – just restart tomorrow.\n- **Listen to your body.** If you’re exhausted, swap a workout for gentle stretching.\n- **Hydrate throughout the day** – aim for 6–8 glasses of water.\n- **Set boundaries** – protect your evening wind-down time from work or social media.\n\n---\n\nWould you like me to customize this routine for a specific goal (e.g., stress reduction, weight management, better sleep) or time constraints (e.g., busy parent, shift worker)?",
+  "extracted": {
+    "summary": "The response outlines a balanced daily wellness routine that includes morning mindfulness, physical activity, healthy meals, and evening relaxation techniques.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "balanced breakfast",
+        "ingredients": [
+          "eggs",
+          "avocado",
+          "oatmeal",
+          "nuts",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "mindful lunch",
+        "ingredients": [
+          "veggies",
+          "lean protein",
+          "complex carbs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "water with lemon",
+        "ingredients": [
+          "water",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "herbal tea",
+        "ingredients": [
+          "chamomile",
+          "lavender"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "berries",
+      "chamomile",
+      "eggs",
+      "herbal tea",
+      "lemon",
+      "lean protein",
+      "nuts",
+      "oatmeal",
+      "veggies",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [
+      "balanced breakfast",
+      "mindful lunch",
+      "water with lemon",
+      "herbal tea"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "light exercise",
+        "activity_type": "yoga",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Midday",
+        "activity_name": "movement break",
+        "activity_type": "walking",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "second bout of movement",
+        "activity_type": "yoga",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "midday",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3461,
+  "extraction_output_tokens": 1297,
+  "extraction_from_cache": false
+}

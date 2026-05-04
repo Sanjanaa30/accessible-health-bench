@@ -1,0 +1,177 @@
+{
+  "prompt_id": "cul_base_12",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fitness routine for a beginner.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Starting a fitness routine is a great way to improve your overall health and well-being. Here’s a simple and balanced fitness routine tailored for beginners. This routine can be done at home or at a gym and requires minimal equipment. Always consult with a healthcare provider before starting any new exercise program, especially if you have any pre-existing conditions.\n\n### Weekly Fitness Routine for Beginners\n\n**Frequency:** Aim for 3-5 days a week.\n\n#### Day 1: Full Body Strength Training\n1. **Warm-up (5-10 minutes)**: \n   - Brisk walking or light jogging\n   - Dynamic stretches (arm circles, leg swings)\n\n2. **Workout (30-40 minutes)**:\n   - Bodyweight Squats: 3 sets of 10-15 reps\n   - Push-ups (knee or standard): 3 sets of 5-10 reps\n   - Dumbbell Rows (using a water bottle or light dumbbell): 3 sets of 10 reps (each arm)\n   - Glute Bridges: 3 sets of 10-15 reps\n   - Plank: 3 sets of 20-30 seconds\n\n3. **Cool Down (5-10 minutes)**:\n   - Stretch major muscle groups (hold each stretch for 15-30 seconds)\n\n---\n\n#### Day 2: Cardio Endurance\n1. **Warm-up (5-10 minutes)**:\n   - March in place or brisk walking\n\n2. **Workout (20-30 minutes)**:\n   - Brisk walking, jogging, cycling, or swimming at a moderate pace.\n   - If using a treadmill, try intervals (1 minute fast, 2 minutes slow).\n\n3. **Cool Down (5-10 minutes)**:\n   - Slow down your activity and stretch.\n\n---\n\n#### Day 3: Rest or Active Recovery\n- Activities like yoga, stretching, or a leisurely walk. Focus on mobility and flexibility.\n\n---\n\n#### Day 4: Full Body Strength Training (Repeat Day 1)\n\n---\n\n#### Day 5: Cardio & Core\n1. **Warm-up (5-10 minutes)**:\n   - Jumping jacks or high knees\n\n2. **Workout (30 minutes)**:\n   - 20 minutes of steady-state cardio (brisk walking, cycling, etc.)\n   - Core exercises (do 2 sets):\n     - Bicycle Crunches: 10-15 reps\n     - Side Plank: 15-20 seconds each side\n     - Russian Twists: 10-15 reps (each side)\n\n3. **Cool Down (5-10 minutes)**:\n   - Stretch major muscle groups.\n\n---\n\n#### Day 6: Flexibility and Mobility\n- Spend 20-30 minutes doing yoga or a guided stretching routine.\n\n---\n\n#### Day 7: Rest\n- Allow your body to recover. Focus on hydration and nutrition.\n\n### Additional Tips:\n- **Hydration**: Drink plenty of water throughout the day, especially before and after workouts.\n- **Nutrition**: Pair your exercise routine with a balanced diet rich in fruits, vegetables, lean proteins, and whole grains.\n- **Listen to Your Body**: If you feel pain (beyond normal muscle soreness), stop and rest. Modify exercises as needed.\n- **Progression**: As you become more comfortable, gradually increase weights, reps, or workout duration.\n\nBy following this routine, you’ll build a solid foundation for your fitness journey. Good luck, and enjoy the process!",
+  "extracted": {
+    "summary": "The response provides a structured fitness routine for beginners, including strength training, cardio, and flexibility exercises over a week.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "full body strength training",
+        "activity_type": "strength",
+        "duration_minutes": 40,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "cardio endurance",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "active recovery",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "full body strength training",
+        "activity_type": "strength",
+        "duration_minutes": 40,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "cardio & core",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 6",
+        "activity_name": "flexibility and mobility",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 7",
+        "activity_name": "rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "home",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consult with a healthcare provider before starting any new exercise program, especially if you have any pre-existing conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3264,
+  "extraction_output_tokens": 1172,
+  "extraction_from_cache": false
+}

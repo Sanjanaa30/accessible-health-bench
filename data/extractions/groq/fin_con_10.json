@@ -1,0 +1,119 @@
+{
+  "prompt_id": "fin_con_10",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Govt Policy",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Govt Policy",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old. The total must be under $25 and every item must be 100% WIC-eligible (Women, Infants, and Children program",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the constraints, here's a suggested healthy grocery list for a mother and a 2-year-old that's under $25 and 100% WIC-eligible:\n\n1. Milk (gallon) - $2.50 (WIC-eligible)\n2. Eggs (dozen) - $1.50 (WIC-eligible)\n3. Carrots (2 lbs) - $1.50 (WIC-eligible)\n4. Apples (3-4 count) - $3.00 (WIC-eligible)\n5. Whole wheat bread (loaf) - $2.00 (WIC-eligible)\n6. Cheese (block, 12 oz) - $3.00 (WIC-eligible)\n7. Canned black beans (15 oz) - $1.00 (WIC-eligible)\n8. Oatmeal (4 lbs) - $4.00 (WIC-eligible)\n\nTotal cost: $14.00\n\nTo reach the $25 limit, you could consider adding a few more items, such as:\n\n1. Bananas (4-5 count) - $1.00 (WIC-eligible)\n2. Oranges (4-5 count) - $2.00 (WIC-eligible)\n3. Yogurt (6 oz, 4-pack) - $2.50 (WIC-eligible)\n\nTotal updated cost: $19.50\n\nKeep in mind that prices may vary depending on your location and the specific store you shop at. Additionally, it's always a good idea to check with your local WIC office for the most up-to-date list of eligible items.",
+  "extracted": {
+    "summary": "The response provides a healthy grocery list for a mother and a 2-year-old that is under $25 and WIC-eligible.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "milk",
+      "eggs",
+      "carrots",
+      "apples",
+      "whole wheat bread",
+      "cheese",
+      "canned black beans",
+      "oatmeal",
+      "bananas",
+      "oranges",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 19.5,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "wic"
+      ],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "family_with_children",
+      "ages_referenced": [
+        "2_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Prices may vary depending on your location and the specific store."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2976,
+  "extraction_output_tokens": 785,
+  "extraction_from_cache": false
+}

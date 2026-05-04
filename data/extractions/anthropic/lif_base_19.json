@@ -1,0 +1,328 @@
+{
+  "prompt_id": "lif_base_19",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy meal plan.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Weekly Meal Plan\n\n## Breakfast Options\n- **Oatmeal** with berries, nuts, and Greek yogurt\n- **Eggs** (scrambled/boiled) with whole grain toast and avocado\n- **Smoothie** with spinach, banana, protein powder, and almond milk\n\n## Lunch Ideas\n- **Grilled chicken** with quinoa and roasted vegetables\n- **Salmon** with sweet potato and broccoli\n- **Veggie-packed salad** with chickpeas, olive oil dressing, and whole grain bread\n\n## Dinner Options\n- **Lean turkey** or fish with brown rice and steamed greens\n- **Lentil soup** with vegetables and whole grain crackers\n- **Stir-fried tofu** with mixed vegetables over brown rice\n\n## Healthy Snacks\n- Greek yogurt with berries\n- Almonds or mixed nuts\n- Hummus with carrots and celery\n- Apple with almond butter\n\n## Quick Tips\n✓ Drink plenty of water (8+ glasses daily)\n✓ Include lean proteins, whole grains, and colorful vegetables\n✓ Control portion sizes\n✓ Limit processed foods, added sugar, and salt\n✓ Prep meals in advance when possible\n\nWould you like specific recipes or adjustments for dietary restrictions?",
+  "extracted": {
+    "summary": "The response provides a healthy weekly meal plan with options for breakfast, lunch, dinner, and snacks.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "berries",
+          "nuts",
+          "greek yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "eggs",
+        "ingredients": [
+          "eggs",
+          "whole grain toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "protein powder",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken",
+        "ingredients": [
+          "grilled chicken",
+          "quinoa",
+          "roasted vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "salmon",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "veggie-packed salad",
+        "ingredients": [
+          "chickpeas",
+          "olive oil dressing",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "lean turkey or fish",
+        "ingredients": [
+          "lean turkey",
+          "fish",
+          "brown rice",
+          "steamed greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "vegetables",
+          "whole grain crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu",
+        "ingredients": [
+          "tofu",
+          "mixed vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "almonds or mixed nuts",
+        "ingredients": [
+          "almonds",
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hummus with carrots and celery",
+        "ingredients": [
+          "hummus",
+          "carrots",
+          "celery"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "apple with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almonds",
+      "almond milk",
+      "avocado",
+      "berries",
+      "brown rice",
+      "carrots",
+      "chickpeas",
+      "eggs",
+      "greek yogurt",
+      "hummus",
+      "lentils",
+      "lean turkey",
+      "mixed nuts",
+      "mixed vegetables",
+      "olive oil dressing",
+      "oatmeal",
+      "protein powder",
+      "quinoa",
+      "roasted vegetables",
+      "salmon",
+      "smoothie",
+      "sweet potato",
+      "tofu",
+      "whole grain bread",
+      "whole grain crackers",
+      "whole grain toast",
+      "steamed greens",
+      "spinach",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "eggs",
+      "smoothie",
+      "grilled chicken",
+      "salmon",
+      "veggie-packed salad",
+      "lean turkey",
+      "fish",
+      "lentil soup",
+      "stir-fried tofu",
+      "greek yogurt with berries",
+      "almonds or mixed nuts",
+      "hummus with carrots and celery",
+      "apple with almond butter"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2801,
+  "extraction_output_tokens": 2036,
+  "extraction_from_cache": false
+}

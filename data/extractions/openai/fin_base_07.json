@@ -1,0 +1,123 @@
+{
+  "prompt_id": "fin_base_07",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best fruits to eat for skin health?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Eating a variety of fruits can significantly benefit your skin health due to their rich content of vitamins, minerals, antioxidants, and hydration. Here are some of the best fruits for promoting healthy skin:\n\n1. **Berries (Blueberries, Strawberries, Raspberries)**: Rich in antioxidants, particularly vitamin C, which helps in collagen production and protects skin from damage caused by free radicals.\n\n2. **Oranges**: High in vitamin C and hydration, oranges help to improve skin texture and brightness while also providing protection against UV damage.\n\n3. **Avocado**: Packed with healthy fats, vitamins E and C, and antioxidants, avocados help maintain skin elasticity and hydration.\n\n4. **Papaya**: Contains enzymes like papain and is rich in vitamins A, C, and E, which can help reduce inflammation, improve skin texture, and promote healing.\n\n5. **Watermelon**: With a high water content, watermelon helps keep the skin hydrated. It's also a source of vitamins A, C, and antioxidants.\n\n6. **Pomegranate**: Known for its powerful antioxidants, pomegranate can help protect the skin from sun damage and improve circulation, promoting a healthy glow.\n\n7. **Kiwi**: A great source of vitamin C, vitamin E, and antioxidants, kiwi supports collagen production and helps maintain skin elasticity.\n\n8. **Bananas**: Rich in potassium and vitamins A, B, and E, bananas can help moisturize the skin and provide a healthy, radiant appearance.\n\n9. **Mango**: Loaded with vitamins A and C, mangoes help improve skin tone and texture and support overall skin health.\n\n10. **Grapes**: Contain resveratrol, which has anti-aging properties, and vitamins C and K, aiding in skin repair and rejuvenation.\n\nIncorporating these fruits into your diet can help promote healthy, glowing skin. Remember to consume a variety of foods for the best overall skin health benefits.",
+  "extracted": {
+    "summary": "A variety of fruits are recommended for skin health due to their vitamins, minerals, and antioxidants.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "avocado",
+      "bananas",
+      "berries",
+      "blueberries",
+      "grapes",
+      "kiwi",
+      "mango",
+      "oranges",
+      "papaya",
+      "pomegranate",
+      "raspberries",
+      "strawberries",
+      "watermelon"
+    ],
+    "all_dishes_or_foods_named": [
+      "berries",
+      "blueberries",
+      "strawberries",
+      "raspberries",
+      "oranges",
+      "avocado",
+      "papaya",
+      "watermelon",
+      "pomegranate",
+      "kiwi",
+      "bananas",
+      "mango",
+      "grapes"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2954,
+  "extraction_output_tokens": 821,
+  "extraction_from_cache": false
+}

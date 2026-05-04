@@ -1,0 +1,316 @@
+{
+  "prompt_id": "lif_base_19",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy meal plan.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a balanced and healthy 3-day meal plan designed to provide sustained energy, essential nutrients, and variety. It focuses on whole foods, lean proteins, healthy fats, and complex carbohydrates.\n\n**General Guidelines:**\n- **Hydration:** Drink plenty of water (8+ glasses/day). Herbal tea is also great.\n- **Portions:** Adjust portion sizes based on your individual activity level and hunger cues.\n- **Cooking:** Use healthy cooking methods like baking, grilling, steaming, or sautéing with olive or avocado oil.\n- **Snacks:** If hungry between meals, choose from: a piece of fruit, a small handful of nuts, plain yogurt, or raw vegetables with hummus.\n\n---\n\n### Day 1\n\n**Breakfast (approx. 350 calories)**\n- **Overnight Oats:** 1/2 cup rolled oats, 1 cup unsweetened almond milk, 1 tbsp chia seeds, 1/2 cup mixed berries. Mix in a jar and refrigerate overnight. Top with 1 tbsp chopped almonds before eating.\n\n**Lunch (approx. 450 calories)**\n- **Grilled Chicken Salad:** 4 oz grilled chicken breast (sliced), over a large bed of mixed greens, cherry tomatoes, cucumber, bell peppers, and 1/4 avocado. Dressing: 2 tbsp olive oil + 1 tbsp lemon juice + salt & pepper.\n\n**Dinner (approx. 500 calories)**\n- **Baked Salmon with Roasted Veggies:** 5 oz salmon fillet (seasoned with dill, lemon, garlic). Roast at 400°F (200°C) for 12-15 minutes. Serve with 1 cup roasted broccoli and 1/2 cup cooked quinoa.\n\n---\n\n### Day 2\n\n**Breakfast (approx. 300 calories)**\n- **Greek Yogurt Bowl:** 1 cup plain Greek yogurt (2% or full fat). Top with 1/2 cup sliced strawberries, 1 tbsp flaxseed meal, and 1 tbsp chopped walnuts.\n\n**Lunch (approx. 450 calories)**\n- **Lentil & Vegetable Soup:** 2 cups homemade or low-sodium lentil soup (with carrots, celery, onions, spinach). Serve with a small whole-grain roll or a side salad with vinaigrette.\n\n**Dinner (approx. 500 calories)**\n- **Turkey & Vegetable Stir-fry:** 4 oz lean ground turkey, cooked with 2 cups mixed stir-fry vegetables (bell peppers, snap peas, bok choy, carrots). Sauce: 2 tbsp low-sodium soy sauce, 1 tsp sesame oil, minced garlic & ginger. Serve over 1/2 cup cooked brown rice.\n\n---\n\n### Day 3\n\n**Breakfast (approx. 350 calories)**\n- **Scrambled Eggs with Veggies:** 2 large eggs scrambled with 1 cup spinach, 1/4 cup diced tomatoes, and 1/4 cup chopped mushrooms. Cook in 1 tsp olive oil. Serve with 1 slice of whole-grain toast.\n\n**Lunch (approx. 450 calories)**\n- **Quinoa & Black Bean Bowl:** 1 cup cooked quinoa, 1/2 cup black beans (rinsed), 1/2 cup corn, diced red bell pepper, chopped cilantro. Dressing: lime juice + a pinch of cumin + olive oil. Top with 1/4 avocado.\n\n**Dinner (approx. 500 calories)**\n- **Grilled Shrimp & Zucchini Noodles:** 5 oz grilled shrimp (seasoned with paprika & garlic). Sauté 2 cups spiralized zucchini (\"zoodles\") for 2 minutes with a little olive oil and cherry tomatoes. Top with fresh basil and a sprinkle of Parmesan cheese (optional).\n\n---\n\n### Optional Healthy Snacks (100-150 calories each)\n- Apple slices with 1 tbsp peanut butter.\n- 1/2 cup cottage cheese with black pepper.\n- A small handful of almonds (about 12-15).\n- 1 hard-boiled egg.\n- Celery sticks with 2 tbsp hummus.\n\n**Important Note:** This is a sample plan. For personalized advice, especially if you have specific health conditions, allergies, or dietary restrictions, please consult a registered dietitian or healthcare provider.",
+  "extracted": {
+    "summary": "The response provides a balanced 3-day meal plan focusing on whole foods, lean proteins, healthy fats, and complex carbohydrates.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "almond milk",
+          "chia seeds",
+          "mixed berries",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken salad",
+        "ingredients": [
+          "chicken breast",
+          "mixed greens",
+          "cherry tomatoes",
+          "cucumber",
+          "bell peppers",
+          "avocado",
+          "olive oil",
+          "lemon juice",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with roasted veggies",
+        "ingredients": [
+          "salmon fillet",
+          "dill",
+          "lemon",
+          "garlic",
+          "broccoli",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt bowl",
+        "ingredients": [
+          "greek yogurt",
+          "strawberries",
+          "flaxseed meal",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "lentil & vegetable soup",
+        "ingredients": [
+          "lentils",
+          "carrots",
+          "celery",
+          "onions",
+          "spinach",
+          "whole-grain roll"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "turkey & vegetable stir-fry",
+        "ingredients": [
+          "ground turkey",
+          "mixed stir-fry vegetables",
+          "soy sauce",
+          "sesame oil",
+          "garlic",
+          "ginger",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with veggies",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes",
+          "mushrooms",
+          "olive oil",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "quinoa & black bean bowl",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "corn",
+          "red bell pepper",
+          "cilantro",
+          "lime juice",
+          "cumin",
+          "olive oil",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "grilled shrimp & zucchini noodles",
+        "ingredients": [
+          "shrimp",
+          "paprika",
+          "garlic",
+          "zucchini",
+          "cherry tomatoes",
+          "basil",
+          "parmesan cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond milk",
+      "avocado",
+      "basil",
+      "bell peppers",
+      "black beans",
+      "broccoli",
+      "carrots",
+      "chia seeds",
+      "chicken breast",
+      "cherry tomatoes",
+      "cumin",
+      "cucumber",
+      "dill",
+      "eggs",
+      "flaxseed meal",
+      "garlic",
+      "ginger",
+      "grilled shrimp",
+      "greek yogurt",
+      "ground turkey",
+      "herbal tea",
+      "lentils",
+      "lemon",
+      "mixed greens",
+      "mixed stir-fry vegetables",
+      "mixed berries",
+      "mushrooms",
+      "nuts",
+      "olive oil",
+      "onions",
+      "parmesan cheese",
+      "paprika",
+      "peppers",
+      "quinoa",
+      "raw vegetables",
+      "salmon fillet",
+      "sesame oil",
+      "spinach",
+      "strawberries",
+      "turkey",
+      "whole-grain roll",
+      "whole-grain toast",
+      "walnuts",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "grilled chicken salad",
+      "baked salmon with roasted veggies",
+      "greek yogurt bowl",
+      "lentil & vegetable soup",
+      "turkey & vegetable stir-fry",
+      "scrambled eggs with veggies",
+      "quinoa & black bean bowl",
+      "grilled shrimp & zucchini noodles"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "This is a sample plan. For personalized advice, especially if you have specific health conditions, allergies, or dietary restrictions, please consult a registered dietitian or healthcare provider."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3425,
+  "extraction_output_tokens": 2002,
+  "extraction_from_cache": false
+}

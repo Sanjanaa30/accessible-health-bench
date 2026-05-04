@@ -1,0 +1,122 @@
+{
+  "prompt_id": "fin_base_16",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best fresh vegetables for a diabetic diet?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is an excellent question, as choosing the right vegetables is a cornerstone of a healthy diabetic diet. The best vegetables for managing blood sugar are **non-starchy vegetables**. They are low in carbohydrates and calories but high in fiber, vitamins, minerals, and antioxidants.\n\nThe key principle is to focus on vegetables that have a **low glycemic index (GI)** and a **low glycemic load (GL)** . This means they won't cause a rapid spike in your blood sugar.\n\nHere is a breakdown of the best fresh vegetables for a diabetic diet, categorized for clarity.\n\n### The \"All-Star\" Vegetables (Eat Freely)\n\nThese are the absolute best choices. You can eat generous portions of them without worrying about blood sugar spikes. Aim to fill half your plate with these.\n\n- **Leafy Greens:** Spinach, kale, Swiss chard, collard greens, romaine lettuce, arugula. They are incredibly low in carbs and calories and packed with vitamins A, C, K, and folate.\n- **Cruciferous Vegetables:** Broccoli, cauliflower, Brussels sprouts, cabbage, bok choy. High in fiber and antioxidants like sulforaphane, which may have additional health benefits.\n- **Peppers:** All colors (bell peppers, chili peppers). Great source of vitamin C. Red bell peppers are especially high in antioxidants.\n- **Asparagus:** A fantastic low-carb option rich in folate and vitamins A, C, and K.\n- **Mushrooms:** Low in carbs and a good source of B vitamins and selenium. They add a savory, \"umami\" flavor to dishes.\n- **Celery:** Extremely low in calories and carbs. A great crunchy snack.\n- **Cucumbers:** Mostly water, very refreshing and hydrating with minimal impact on blood sugar.\n- **Zucchini and Summer Squash:** Low in carbs and very versatile. Can be spiralized as a pasta alternative.\n- **Green Beans:** A good source of fiber and vitamins A, C, and K.\n\n### Very Good Choices (Eat in Moderation)\n\nThese vegetables are still excellent for a diabetic diet but have a slightly higher carbohydrate content than the \"all-stars.\" A standard serving size is about **½ cup cooked** or **1 cup raw**.\n\n- **Tomatoes:** Technically a fruit, but used as a vegetable. Rich in lycopene, an antioxidant. Low in carbs, but slightly more than leafy greens.\n- **Eggplant:** A great source of fiber. Its flesh absorbs flavors well. Low in calories.\n- **Okra:** High in fiber and contains a type of soluble fiber that can help slow sugar absorption.\n- **Onions and Leeks:** Add immense flavor. They contain quercetin, an antioxidant. Use them to season dishes, but don't make them the main component of the meal.\n- **Carrots:** While higher in sugar than broccoli, they are still a healthy choice. Eat them raw or lightly cooked. One medium carrot is a reasonable serving.\n- **Beets:** Higher in sugar than most non-starchy veggies, but also packed with nutrients like folate and potassium. Enjoy them in small, controlled portions (e.g., ½ cup).\n- **Peas:** Like beets, they are a starchy vegetable. A small serving (½ cup) is fine, but don't treat them as a \"free\" vegetable.\n\n### Vegetables to Be More Mindful Of (Starchy Vegetables)\n\nThese vegetables are higher in carbohydrates and can raise blood sugar more significantly. They are not \"bad,\" but you need to **count them as part of your total carbohydrate intake for the meal**, similar to how you would count a serving of grains or bread.\n\n- **Potatoes (all types):** White, red, sweet potatoes, yams. Sweet potatoes have a slightly lower GI than white potatoes, but they are still carbohydrate-dense. A small baked sweet potato (about the size of a computer mouse) is a better portion.\n- **Corn:** A grain, but often treated as a vegetable. It's high in carbs.\n- **Winter Squash:** Butternut, acorn, pumpkin. While nutritious, they are higher in carbs than summer squash. A ½-cup serving is appropriate.\n- **Parsnips:** Similar to carrots but much higher in sugar and starch.\n\n### Practical Tips for a Diabetic Diet\n\n1.  **Focus on Non-Starchy First:** Make non-starchy vegetables the stars of your meals. Fill at least half your plate with them.\n2.  **Watch Your Cooking Methods:** How you prepare vegetables matters.\n    - **Best:** Steaming, roasting (with a little healthy oil), grilling, sautéing, or eating raw.\n    - **Avoid:** Deep-frying (e.g., tempura, french fries) or drowning them in heavy sauces, butter, or cheese.\n3.  **Portion Control for Starchy Veggies:** If you include starchy vegetables, treat them as your carbohydrate source for that meal. Keep the portion to about ½ cup cooked (or the size of your fist).\n4.  **Pair with Protein and Healthy Fat:** Eating vegetables with a source of lean protein (chicken, fish, tofu, beans) and healthy fat (avocado, olive oil, nuts) will further slow down the absorption of carbohydrates and keep you full longer.\n5.  **Go for Variety:** Eating a rainbow of colors ensures you get a wide range of nutrients.\n\n**Important Disclaimer:** I am an AI, not a doctor or a registered dietitian. This information is for educational purposes. Individual dietary needs can vary greatly based on your specific health conditions, medications (especially insulin), and activity levels. Always work with your healthcare provider or a registered dietitian to create a personalized meal plan that is right for you.",
+  "extracted": {
+    "summary": "The response provides a detailed list of fresh vegetables suitable for a diabetic diet, emphasizing non-starchy options and their health benefits.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "asparagus",
+      "beets",
+      "bell peppers",
+      "broccoli",
+      "cabbage",
+      "carrots",
+      "cauliflower",
+      "celery",
+      "cucumbers",
+      "eggplant",
+      "green beans",
+      "kale",
+      "leeks",
+      "mushrooms",
+      "okra",
+      "peas",
+      "potatoes",
+      "romaine lettuce",
+      "spinach",
+      "summer squash",
+      "tomatoes",
+      "winter squash"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "I am an AI, not a doctor or a registered dietitian. This information is for educational purposes."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3750,
+  "extraction_output_tokens": 837,
+  "extraction_from_cache": false
+}

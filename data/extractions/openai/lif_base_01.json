@@ -1,0 +1,684 @@
+{
+  "prompt_id": "lif_base_01",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a healthy weekly meal plan.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a balanced and healthy weekly meal plan that includes a variety of nutrients. You can adjust portion sizes based on your dietary needs and preferences.\n\n### Weekly Healthy Meal Plan\n\n#### **Day 1: Monday**\n- **Breakfast:** Overnight oats with almond milk, chia seeds, sliced banana, and a sprinkle of cinnamon.\n- **Snack:** Greek yogurt with mixed berries.\n- **Lunch:** Quinoa salad with cherry tomatoes, cucumber, feta cheese, and lemon vinaigrette.\n- **Snack:** Baby carrots and hummus.\n- **Dinner:** Grilled salmon with steamed broccoli and sweet potato.\n\n#### **Day 2: Tuesday**\n- **Breakfast:** Scrambled eggs with spinach and whole-grain toast.\n- **Snack:** Apple slices with almond butter.\n- **Lunch:** Turkey and avocado wrap in a whole-grain tortilla with mixed greens.\n- **Snack:** A handful of mixed nuts.\n- **Dinner:** Stir-fried tofu with bell peppers, broccoli, and brown rice.\n\n#### **Day 3: Wednesday**\n- **Breakfast:** Smoothie with spinach, banana, protein powder, and almond milk.\n- **Snack:** Celery sticks with peanut butter.\n- **Lunch:** Lentil soup with a side of whole-grain bread.\n- **Snack:** Cottage cheese with pineapple.\n- **Dinner:** Baked chicken breast with quinoa and roasted Brussels sprouts.\n\n#### **Day 4: Thursday**\n- **Breakfast:** Chia pudding made with coconut milk topped with mango slices.\n- **Snack:** Hard-boiled eggs.\n- **Lunch:** Mixed greens salad with grilled shrimp, avocado, and a balsamic vinaigrette.\n- **Snack:** Dark chocolate (70% cocoa or higher) with a handful of almonds.\n- **Dinner:** Zucchini noodles with marinara sauce and turkey meatballs.\n\n#### **Day 5: Friday**\n- **Breakfast:** Whole-grain toast with smashed avocado and poached egg.\n- **Snack:** Sliced bell peppers with tzatziki.\n- **Lunch:** Chickpea salad with cucumbers, tomatoes, red onion, and tahini dressing.\n- **Snack:** A pear or an orange.\n- **Dinner:** Grilled steak with asparagus and a side salad.\n\n#### **Day 6: Saturday**\n- **Breakfast:** Smoothie bowl topped with granola and fresh fruit.\n- **Snack:** Mixed berry parfait with yogurt and nuts.\n- **Lunch:** Whole-grain pita stuffed with falafel, lettuce, and tzatziki.\n- **Snack:** Rice cakes with cottage cheese and cucumber slices.\n- **Dinner:** Baked cod with lemon, served with quinoa and steamed green beans.\n\n#### **Day 7: Sunday**\n- **Breakfast:** Oatmeal topped with fresh fruit and walnuts.\n- **Snack:** Sliced kiwi or a handful of grapes.\n- **Lunch:** Spinach and feta stuffed chicken breast with a side of roasted vegetables.\n- **Snack:** Air-popped popcorn seasoned with nutritional yeast.\n- **Dinner:** Vegetable stir-fry with brown rice and a side of miso soup.\n\n### Tips:\n- **Hydration:** Aim to drink plenty of water throughout the day. Herbal teas and infused water can also be great options.\n- **Meal Prep:** Consider preparing meals in advance to save time during the week.\n- **Adjustments:** Feel free to swap meals or snacks based on your preferences, dietary restrictions, or seasonal ingredients.\n\nThis meal plan offers a variety of proteins, healthy fats, and carbohydrates, ensuring a balanced diet throughout the week. Enjoy!",
+  "extracted": {
+    "summary": "The response provides a balanced and healthy weekly meal plan with a variety of nutritious meals for each day of the week.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "almond milk",
+          "chia seeds",
+          "banana",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with mixed berries",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "cherry tomatoes",
+          "cucumber",
+          "feta cheese",
+          "lemon vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "baby carrots and hummus",
+        "ingredients": [
+          "baby carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "apple slices with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and avocado wrap",
+        "ingredients": [
+          "turkey",
+          "avocado",
+          "whole-grain tortilla",
+          "mixed greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu",
+        "ingredients": [
+          "tofu",
+          "bell peppers",
+          "broccoli",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "protein powder",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "celery sticks with peanut butter",
+        "ingredients": [
+          "celery",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "whole-grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with pineapple",
+        "ingredients": [
+          "cottage cheese",
+          "pineapple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "quinoa",
+          "brussels sprouts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "chia pudding",
+        "ingredients": [
+          "chia seeds",
+          "coconut milk",
+          "mango"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled eggs",
+        "ingredients": [
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "boiling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "mixed greens salad",
+        "ingredients": [
+          "mixed greens",
+          "shrimp",
+          "avocado",
+          "balsamic vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "dark chocolate with almonds",
+        "ingredients": [
+          "dark chocolate",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "zucchini noodles",
+        "ingredients": [
+          "zucchini",
+          "marinara sauce",
+          "turkey meatballs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "whole-grain toast",
+          "avocado",
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "sliced bell peppers with tzatziki",
+        "ingredients": [
+          "bell peppers",
+          "tzatziki"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "chickpea salad",
+        "ingredients": [
+          "chickpeas",
+          "cucumbers",
+          "tomatoes",
+          "red onion",
+          "tahini dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "pear or orange",
+        "ingredients": [
+          "pear",
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "grilled steak",
+        "ingredients": [
+          "steak",
+          "asparagus",
+          "side salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "smoothie",
+          "granola",
+          "fresh fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "mixed berry parfait",
+        "ingredients": [
+          "mixed berries",
+          "yogurt",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "falafel pita",
+        "ingredients": [
+          "whole-grain pita",
+          "falafel",
+          "lettuce",
+          "tzatziki"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "rice cakes with cottage cheese",
+        "ingredients": [
+          "rice cakes",
+          "cottage cheese",
+          "cucumber"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "baked cod",
+        "ingredients": [
+          "cod",
+          "lemon",
+          "quinoa",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oats",
+          "fresh fruit",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "sliced kiwi or grapes",
+        "ingredients": [
+          "kiwi",
+          "grapes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "stuffed chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "spinach",
+          "feta",
+          "roasted vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "air-popped popcorn",
+        "ingredients": [
+          "popcorn",
+          "nutritional yeast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "vegetable stir-fry",
+        "ingredients": [
+          "vegetables",
+          "brown rice",
+          "miso soup"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "oats",
+      "almond milk",
+      "chia seeds",
+      "banana",
+      "cinnamon",
+      "greek yogurt",
+      "mixed berries",
+      "quinoa",
+      "cherry tomatoes",
+      "cucumber",
+      "feta cheese",
+      "lemon vinaigrette",
+      "baby carrots",
+      "hummus",
+      "salmon",
+      "broccoli",
+      "sweet potato",
+      "eggs",
+      "spinach",
+      "whole-grain toast",
+      "apple",
+      "almond butter",
+      "turkey",
+      "avocado",
+      "whole-grain tortilla",
+      "mixed greens",
+      "mixed nuts",
+      "tofu",
+      "bell peppers",
+      "brown rice",
+      "protein powder",
+      "celery",
+      "peanut butter",
+      "lentils",
+      "whole-grain bread",
+      "cottage cheese",
+      "pineapple",
+      "chicken breast",
+      "brussels sprouts",
+      "chia seeds",
+      "coconut milk",
+      "mango",
+      "shrimp",
+      "balsamic vinaigrette",
+      "dark chocolate",
+      "almonds",
+      "zucchini",
+      "marinara sauce",
+      "turkey meatballs",
+      "steak",
+      "asparagus",
+      "side salad",
+      "smoothie",
+      "granola",
+      "fresh fruit",
+      "falafel",
+      "lettuce",
+      "rice cakes",
+      "cod",
+      "lemon",
+      "green beans",
+      "walnuts",
+      "kiwi",
+      "grapes",
+      "roasted vegetables",
+      "popcorn",
+      "nutritional yeast",
+      "vegetables",
+      "miso soup"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "greek yogurt with mixed berries",
+      "quinoa salad",
+      "baby carrots and hummus",
+      "grilled salmon",
+      "scrambled eggs",
+      "turkey and avocado wrap",
+      "stir-fried tofu",
+      "smoothie",
+      "lentil soup",
+      "cottage cheese with pineapple",
+      "baked chicken breast",
+      "chia pudding",
+      "mixed greens salad",
+      "dark chocolate with almonds",
+      "zucchini noodles",
+      "avocado toast",
+      "chickpea salad",
+      "mixed berry parfait",
+      "falafel pita",
+      "baked cod",
+      "oatmeal",
+      "stuffed chicken breast",
+      "air-popped popcorn",
+      "vegetable stir-fry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3267,
+  "extraction_output_tokens": 4280,
+  "extraction_from_cache": false
+}

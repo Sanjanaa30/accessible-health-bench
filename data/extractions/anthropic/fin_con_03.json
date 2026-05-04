@@ -1,0 +1,147 @@
+{
+  "prompt_id": "fin_con_03",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a list of \"superfoods\" I should add to my diet that are available at a discount dollar store.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Superfoods at Dollar Stores\n\n**Canned & Shelf-Stable:**\n- Canned beans (black, pinto, chickpeas) - protein and fiber\n- Canned fish (tuna, salmon) - omega-3s and protein\n- Canned vegetables - still nutritious, often cheaper than fresh\n- Oats - affordable whole grain staple\n- Peanut butter - protein and healthy fats\n- Nuts and seeds (if available) - micronutrients\n\n**Produce (when in season/available):**\n- Bananas - potassium, usually very cheap\n- Eggs - complete protein\n- Frozen vegetables - often cheaper than fresh, equally nutritious\n- Carrots - affordable, nutrient-dense root vegetable\n\n**Other Options:**\n- Whole wheat bread\n- Greek yogurt (sometimes discounted)\n- Dried beans and lentils\n\n**A note:** Dollar stores vary widely in selection and quality. Stick with items in their original packaging when possible, and check expiration dates. The \"superfood\" concept is somewhat marketing-driven—consistency with affordable basics (beans, eggs, oats, frozen vegetables) matters more than chasing trendy items.\n\nThe best diet is one you can actually afford and maintain long-term.",
+  "extracted": {
+    "summary": "The response provides a list of budget-friendly superfoods available at dollar stores, including canned goods, produce, and other options.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "canned beans",
+      "black beans",
+      "pinto beans",
+      "chickpeas",
+      "canned fish",
+      "tuna",
+      "salmon",
+      "canned vegetables",
+      "oats",
+      "peanut butter",
+      "nuts",
+      "seeds",
+      "bananas",
+      "eggs",
+      "frozen vegetables",
+      "carrots",
+      "whole wheat bread",
+      "greek yogurt",
+      "dried beans",
+      "lentils"
+    ],
+    "all_dishes_or_foods_named": [
+      "canned beans",
+      "black beans",
+      "pinto beans",
+      "chickpeas",
+      "canned fish",
+      "tuna",
+      "salmon",
+      "canned vegetables",
+      "oats",
+      "peanut butter",
+      "nuts",
+      "seeds",
+      "bananas",
+      "eggs",
+      "frozen vegetables",
+      "carrots",
+      "whole wheat bread",
+      "greek yogurt",
+      "dried beans",
+      "lentils"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "dollar_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": null,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": null,
+      "requires_electricity": null,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Dollar stores vary widely in selection and quality. Stick with items in their original packaging when possible, and check expiration dates."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2866,
+  "extraction_output_tokens": 944,
+  "extraction_from_cache": false
+}

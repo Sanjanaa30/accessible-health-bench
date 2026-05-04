@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_17",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Shared Resources",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Shared Resources",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a family of five. We are sharing one small hotel-style microwave as our only kitchen appliance.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Microwave-Friendly Family Dinner\n\n**Baked Sweet Potatoes with Toppings**\n\n- Microwave 5 medium sweet potatoes (8-10 min, pierced with fork)\n- Set up a topping bar: canned black beans (heated), shredded cheese, plain yogurt, salsa, spinach\n\n**Steamed Broccoli**\n- Chop broccoli, add 2 tbsp water in microwave-safe bowl\n- Cover loosely, microwave 4-5 minutes\n- Drizzle with olive oil and garlic powder\n\n**Simple Fruit**\n- Pre-cut melon, berries, or canned fruit (drained)\n\n---\n\n## Why this works:\n✓ One appliance needed\n✓ Minimal prep (no cutting boards needed if you buy pre-cut)\n✓ Canned/shelf-stable ingredients\n✓ Balanced (protein, fiber, vegetables, carbs)\n✓ Everyone can customize their plate\n✓ ~30 minutes total\n\n## Other quick options:\n- Scrambled eggs with toast + veggies\n- Rice + canned tuna + frozen peas\n- Pasta + jarred sauce + frozen vegetables\n- Rotisserie chicken (if nearby) + microwaved rice + steamed veggies\n\nWould any of these work better for your family's preferences?",
+  "input_tokens": 35,
+  "output_tokens": 323,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:42:54.400919"
+}

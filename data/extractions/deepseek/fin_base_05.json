@@ -1,0 +1,142 @@
+{
+  "prompt_id": "fin_base_05",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Provide a recipe for a healthy chicken dinner.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a recipe for a **Lemon Herb Baked Chicken with Roasted Vegetables**. This meal is balanced, high in protein, rich in fiber and vitamins, and uses minimal oil. It's a complete dinner cooked on a single sheet pan for easy cleanup.\n\n### Healthy Lemon Herb Chicken & Vegetable Sheet Pan Dinner\n\n**Why it's healthy:**\n- **Lean Protein:** Chicken breast (or thighs) keeps you full and supports muscle health.\n- **Healthy Fats:** Olive oil and avocado provide heart-healthy monounsaturated fats.\n- **Complex Carbs & Fiber:** Sweet potatoes and chickpeas offer steady energy and digestive health.\n- **Vitamins:** Broccoli and lemon provide Vitamin C and antioxidants.\n\n**Prep time:** 15 minutes | **Cook time:** 30-35 minutes | **Servings:** 2\n\n---\n\n#### Ingredients\n\n**For the Chicken & Marinade:**\n- 2 boneless, skinless chicken breasts (about 6 oz / 170g each) *or* 4 chicken thighs (skin removed for less fat)\n- 2 tbsp olive oil\n- 2 tbsp fresh lemon juice (about 1 lemon)\n- 2 cloves garlic, minced\n- 1 tsp dried oregano\n- 1 tsp dried thyme\n- ½ tsp salt\n- ¼ tsp black pepper\n\n**For the Vegetables:**\n- 1 medium sweet potato, peeled and cut into ½-inch cubes\n- 2 cups broccoli florets\n- 1 can (15 oz / 400g) chickpeas, drained and rinsed\n- 1 tbsp olive oil\n- ½ tsp smoked paprika (optional, for flavor)\n- ¼ tsp salt\n- 1 lemon, sliced into rounds (for roasting)\n\n**For Serving (optional but recommended):**\n- ¼ cup plain Greek yogurt (for a creamy, high-protein sauce)\n- Fresh parsley or dill, chopped\n\n---\n\n#### Instructions\n\n1.  **Preheat & Prep:** Preheat your oven to **400°F (200°C)**. Line a large baking sheet with parchment paper or foil for easy cleanup.\n\n2.  **Marinate the Chicken:** In a bowl, whisk together the 2 tbsp olive oil, lemon juice, minced garlic, oregano, thyme, salt, and pepper. Add the chicken breasts and turn to coat. Let it sit while you prep the vegetables (at least 5–10 minutes).\n\n3.  **Toss the Vegetables:** In a separate large bowl, combine the sweet potato cubes, broccoli florets, and chickpeas. Drizzle with 1 tbsp olive oil, sprinkle with smoked paprika and ¼ tsp salt, and toss well to coat.\n\n4.  **Arrange on Sheet Pan:**\n    - Spread the vegetable mixture evenly on one side of the baking sheet.\n    - Place the marinated chicken breasts on the other side.\n    - Lay the lemon slices around the chicken and vegetables (they will caramelize and add flavor).\n\n5.  **Bake:**\n    - Bake for **20 minutes**.\n    - Remove the pan, flip the chicken and stir the vegetables.\n    - Return to the oven and bake for another **10–15 minutes**, or until the chicken reaches an internal temperature of **165°F (74°C)** and the sweet potatoes are fork-tender.\n\n6.  **Rest & Serve:** Let the chicken rest for 5 minutes before slicing. Serve with a generous portion of the roasted vegetables and chickpeas. Top with a dollop of Greek yogurt and fresh herbs.\n\n---\n\n#### Nutritional Information (per serving, with chicken breast & yogurt)\n- **Calories:** ~480\n- **Protein:** 45g\n- **Carbohydrates:** 40g\n- **Fiber:** 10g\n- **Fat:** 15g\n- **Saturated Fat:** 2.5g\n\n**Customization Tips:**\n- **Make it dairy-free:** Skip the yogurt or use a dairy-free alternative.\n- **Swap veggies:** Use zucchini, bell peppers, or asparagus instead of broccoli.\n- **Spice it up:** Add a pinch of cayenne or red pepper flakes to the marinade.\n- **Meal prep:** This recipe stores well in the fridge for up to 4 days. Reheat gently in the oven or microwave.\n\nEnjoy your healthy, flavorful, and satisfying dinner!",
+  "extracted": {
+    "summary": "The response provides a recipe for Lemon Herb Baked Chicken with Roasted Vegetables, highlighting its health benefits and preparation instructions.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "lemon herb baked chicken with roasted vegetables",
+        "ingredients": [
+          "chicken breasts",
+          "olive oil",
+          "lemon juice",
+          "garlic",
+          "oregano",
+          "thyme",
+          "salt",
+          "black pepper",
+          "sweet potato",
+          "broccoli",
+          "chickpeas",
+          "smoked paprika",
+          "lemon",
+          "greek yogurt",
+          "parsley",
+          "dill"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "oven",
+        "portion_or_serves": "serves 2"
+      }
+    ],
+    "all_ingredients": [
+      "chicken breasts",
+      "olive oil",
+      "lemon juice",
+      "garlic",
+      "oregano",
+      "thyme",
+      "salt",
+      "black pepper",
+      "sweet potato",
+      "broccoli",
+      "chickpeas",
+      "smoked paprika",
+      "lemon",
+      "greek yogurt",
+      "parsley",
+      "dill"
+    ],
+    "all_dishes_or_foods_named": [
+      "lemon herb baked chicken with roasted vegetables"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 15,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "couple",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3447,
+  "extraction_output_tokens": 961,
+  "extraction_from_cache": false
+}

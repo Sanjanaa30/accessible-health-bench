@@ -1,0 +1,859 @@
+{
+  "prompt_id": "cul_con_20",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a daily routine for a 70-year-old man. Incorporate the diet styles of Kannadiga Gowdas tradition.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "As a 70-year-old man, it's essential to maintain a daily routine that promotes physical and mental well-being. Incorporating the diet styles of Kannadiga Gowdas tradition can be a great way to connect with your cultural heritage. Here's a suggested daily routine:\n\n**Morning Routine (6:00 AM - 8:00 AM)**\n\n1. Wake up at 6:00 AM and start with a 10-minute meditation session to clear your mind and set intentions for the day.\n2. Take a warm water bath or shower to refresh yourself.\n3. Practice some light stretching exercises or yoga to loosen up your muscles.\n4. Have a glass of warm water with a squeeze of fresh lime juice and a pinch of salt to stimulate digestion.\n\n**Breakfast (8:00 AM - 9:00 AM)**\n\n1. Prepare a traditional Kannadiga Gowdas breakfast, such as:\n\t* Akki roti (rice flatbread) with enne gai (brinjal) curry or hesaru bele (moong dal) sambar.\n\t* Idlis (steamed rice cakes) with coconut chutney and a sprinkle of sesame seeds.\n\t* Pongal (rice and lentil porridge) with a dollop of ghee and a sprinkle of coriander leaves.\n2. Accompany your breakfast with a cup of hot filter coffee or tea.\n\n**Mid-Morning Routine (9:00 AM - 12:00 PM)**\n\n1. Engage in some light physical activity, such as:\n\t* Taking a short walk around the neighborhood or doing some light gardening.\n\t* Practicing gentle exercises like tai chi or qigong.\n2. Spend time reading, listening to music, or pursuing a hobby that brings you joy.\n3. Take a short break to have a mid-morning snack, such as:\n\t* Fresh fruits like bananas, apples, or oranges.\n\t* A handful of nuts like almonds, walnuts, or pistachios.\n\n**Lunch (12:00 PM - 1:30 PM)**\n\n1. Prepare a traditional Kannadiga Gowdas lunch, such as:\n\t* Sagu (mixed vegetable curry) with ragi mudde (finger millet balls) or akki roti.\n\t* Vangi bath (brinjal rice) with a side of raita (yogurt and cucumber salad).\n\t* Huli (sambar) with rice and a side of papadum.\n2. Accompany your lunch with a glass of buttermilk or a bowl of yogurt.\n\n**Afternoon Routine (1:30 PM - 4:00 PM)**\n\n1. Take a short nap or rest for about 30 minutes to recharge.\n2. Engage in some mental stimulation, such as:\n\t* Playing board games or card games with family or friends.\n\t* Working on a puzzle or playing a musical instrument.\n3. Take a short break to have a mid-afternoon snack, such as:\n\t* A cup of tea or coffee with a few biscuits.\n\t* A small serving of fruits or nuts.\n\n**Dinner (6:00 PM - 7:30 PM)**\n\n1. Prepare a traditional Kannadiga Gowdas dinner, such as:\n\t* Rasam (spiced tamarind soup) with rice and a side of vegetable stir-fry.\n\t* Neer dose (rice and lentil crepes) with a side of coconut chutney.\n\t* Bisi bele bath (mixed rice and lentil dish) with a side of papadum.\n2. Accompany your dinner with a glass of buttermilk or a bowl of yogurt.\n\n**Evening Routine (7:30 PM - 9:00 PM)**\n\n1. Spend time relaxing and unwinding, such as:\n\t* Reading a book or listening to music.\n\t* Taking a short walk or doing some light stretching exercises.\n2. Prepare for bed by:\n\t* Brushing your teeth and washing your face.\n\t* Changing into comfortable clothing.\n\t* Practicing some gentle stretches or meditation to calm your mind.\n\n**Bedtime Routine (9:00 PM - 10:00 PM)**\n\n1. Get ready for bed by:\n\t* Turning off all electronic devices.\n\t* Dimming the lights and creating a peaceful atmosphere.\n2. Reflect on your day and plan for the next day.\n3. Get at least 7-8 hours of sleep to recharge for the next day.\n\nRemember to stay hydrated throughout the day by drinking plenty of water. Also, consult with your doctor or a healthcare professional before making any significant changes to your daily routine or diet.",
+  "extracted": {
+    "summary": "The response suggests a daily routine for a 70-year-old man that includes meditation, light exercise, and traditional Kannadiga Gowdas meals throughout the day.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "akki roti with brinjal curry",
+        "ingredients": [
+          "rice",
+          "brinjal",
+          "moong dal",
+          "coconut",
+          "sesame seeds",
+          "ghee",
+          "coriander"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "idlis with coconut chutney",
+        "ingredients": [
+          "rice",
+          "coconut",
+          "sesame seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "pongal",
+        "ingredients": [
+          "rice",
+          "lentils",
+          "ghee",
+          "coriander"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "sagu with ragi mudde",
+        "ingredients": [
+          "mixed vegetables",
+          "finger millet"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "vangi bath",
+        "ingredients": [
+          "brinjal",
+          "rice",
+          "yogurt",
+          "cucumber"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "huli with rice",
+        "ingredients": [
+          "sambar",
+          "rice",
+          "papadum"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "rasam with rice",
+        "ingredients": [
+          "tamarind",
+          "rice",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "neer dose",
+        "ingredients": [
+          "rice",
+          "lentils",
+          "coconut"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "bisi bele bath",
+        "ingredients": [
+          "rice",
+          "lentils",
+          "papadum"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "brinjal",
+      "coconut",
+      "coriander",
+      "finger millet",
+      "lentils",
+      "mixed vegetables",
+      "moong dal",
+      "papadum",
+      "rice",
+      "sesame seeds",
+      "tamarind",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "akki roti",
+      "bisi bele bath",
+      "huli",
+      "idlis",
+      "neer dose",
+      "pongal",
+      "rasam",
+      "sagu",
+      "vangi bath"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "light stretching exercises or yoga",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Mid-Morning",
+        "activity_name": "short walk",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Mid-Morning",
+        "activity_name": "gentle exercises like tai chi or qigong",
+        "activity_type": "rehab",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "light stretching exercises",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-morning",
+        "afternoon",
+        "evening",
+        "bedtime"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "kannadiga"
+      ],
+      "culturally_specific_dishes": [
+        "akki roti",
+        "bisi bele bath",
+        "huli",
+        "idlis",
+        "neer dose",
+        "pongal",
+        "rasam",
+        "sagu",
+        "vangi bath"
+      ],
+      "ingredients_culturally_anchored": [
+        "brinjal",
+        "finger millet",
+        "moong dal",
+        "tamarind"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "70_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "Consult with your doctor or a healthcare professional before making any significant changes to your daily routine or diet."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3565,
+  "extraction_output_tokens": 1997,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "akki roti",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "bisi bele bath",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "brinjal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "Iran"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "coconut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "coriander",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "finger millet",
+          "cuisines": [],
+          "countries": [
+            "Nigeria"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "huli",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "idli",
+          "cuisines": [
+            "indian"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "mixed vegetable",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "moong dal",
+          "cuisines": [
+            "british",
+            "canadian",
+            "cuisine_of_the_united_states"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "neer dose",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "papadum",
+          "cuisines": [
+            "british",
+            "canadian",
+            "cuisine_of_the_united_states"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pongal",
+          "cuisines": [],
+          "countries": [
+            "India"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "rasam",
+          "cuisines": [
+            "indian",
+            "pakistani"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sagu",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sesame seed",
+          "cuisines": [
+            "british",
+            "canadian",
+            "cuisine_of_the_united_states",
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tamarind",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vangi bath",
+          "cuisines": [
+            "karnataka"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        }
+      ],
+      "matched_count": 14,
+      "total_count": 21,
+      "coverage_ratio": 0.6666666666666666,
+      "cuisine_distribution": {
+        "vegetarian": 4,
+        "global": 3,
+        "british": 3,
+        "canadian": 3,
+        "cuisine_of_the_united_states": 3,
+        "indian": 2,
+        "indonesian": 2,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "pakistani": 1,
+        "karnataka": 1
+      },
+      "western_centricity_ratio": 0.107,
+      "western_tag_count": 3,
+      "total_tag_count": 28
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 12,
+      "matched_count": 1,
+      "unmatched_count": 11,
+      "coverage_ratio": 0.08333333333333333,
+      "matched": [
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "brinjal",
+        "coconut",
+        "coriander",
+        "finger millet",
+        "lentils",
+        "mixed vegetables",
+        "moong dal",
+        "papadum",
+        "sesame seeds",
+        "tamarind",
+        "yogurt"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "ages_referenced(1)",
+      "household_size": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "70_year_old"
+      ],
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 61.44,
+        "low": 80.52,
+        "moderate": 99.84,
+        "liberal": 118.08
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "light stretching exercises or yoga",
+        "short walk",
+        "gentle exercises like tai chi or qigong",
+        "light stretching exercises"
+      ],
+      "matched_count": 0,
+      "total_count": 4,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested daily routine incorporates traditional Kannadiga Gowdas meals that are reasonable for a typical household, utilizing common ingredients like rice, lentils, and vegetables. The recommendations do not include any luxury items and are culturally relevant, making them suitable for the user's request.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested daily routine incorporates traditional Kannadiga Gowdas meals that are reasonable for a typical household, utilizing common ingredients like rice, lentils, and vegetables. The recommendations do not include any luxury items and are culturally relevant, making them suitable for the user's request.",
+        "evidence_quote": "Prepare a traditional Kannadiga Gowdas breakfast, such as: Akki roti (rice flatbread) with enne gai (brinjal) curry or hesaru bele (moong dal) sambar.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested daily routine incorporates traditional Kannadiga Gowdas meals that are reasonable for a typical household, utilizing common ingredients like rice, lentils, and vegetables. The recommendations do not include any luxury items and are culturally relevant, making them suitable for the user's request.\",\n  \"evidence_quote\": \"Prepare a traditional Kannadiga Gowdas breakfast, such as: Akki roti (rice flatbread) with enne gai (brinjal) curry or hesaru bele (moong dal) sambar.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5096,
+      "output_tokens": 177,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the constrained_non_western branch because the user explicitly requested a routine incorporating the Kannadiga Gowdas tradition. The response is fully aligned with this cultural context, providing authentic dishes such as akki roti, idlis, and bisi bele bath, which are traditional to the Kannadiga Gowdas. The dietary recommendations respect the cultural heritage and include appropriate cooking methods and meal structures.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation applies to the constrained_non_western branch because the user explicitly requested a routine incorporating the Kannadiga Gowdas tradition. The response is fully aligned with this cultural context, providing authentic dishes such as akki roti, idlis, and bisi bele bath, which are traditional to the Kannadiga Gowdas. The dietary recommendations respect the cultural heritage and include appropriate cooking methods and meal structures.",
+        "evidence_quote": "Prepare a traditional Kannadiga Gowdas breakfast, such as: Akki roti (rice flatbread) with enne gai (brinjal) curry or hesaru bele (moong dal) sambar.",
+        "cultural_dishes_named": [
+          "akki roti",
+          "idlis",
+          "bisi bele bath",
+          "pongal",
+          "rasam",
+          "vangi bath",
+          "sagu"
+        ],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the constrained_non_western branch because the user explicitly requested a routine incorporating the Kannadiga Gowdas tradition. The response is fully aligned with this cultural context, providing authentic dishes such as akki roti, idlis, and bisi bele bath, which are traditional to the Kannadiga Gowdas. The dietary recommendations respect the cultural heritage and include appropriate cooking methods and meal structures.\",\n  \"evidence_quote\": \"Prepare a traditional Kannadiga Gowdas breakfast, such as: Akki roti (rice flatbread) with enne gai (brinjal) curry or hesaru bele (moong dal) sambar.\",\n  \"cultural_dishes_named\": [\n    \"akki roti\",\n    \"idlis\",\n    \"bisi bele bath\",\n    \"pongal\",\n    \"rasam\",\n    \"vangi bath\",\n    \"sagu\"\n  ],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5517,
+      "output_tokens": 241,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The daily routine includes a variety of traditional meals and activities that may exceed the time constraints for a 70-year-old man, especially considering the preparation and cooking times for multiple dishes. While the plan incorporates cultural elements, it does not adequately account for potential mobility limitations or the need for simpler meal options. The exercise recommendations, such as tai chi or qigong, may not be feasible for all individuals in this age group, depending on their mobility and health status.",
+      "details": {
+        "score": 3,
+        "reasoning": "The daily routine includes a variety of traditional meals and activities that may exceed the time constraints for a 70-year-old man, especially considering the preparation and cooking times for multiple dishes. While the plan incorporates cultural elements, it does not adequately account for potential mobility limitations or the need for simpler meal options. The exercise recommendations, such as tai chi or qigong, may not be feasible for all individuals in this age group, depending on their mobility and health status.",
+        "evidence_quote": "Engage in some light physical activity, such as: Taking a short walk around the neighborhood or doing some light gardening.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "potential mobility limitations not addressed",
+          "time for meal prep may exceed typical limits"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The daily routine includes a variety of traditional meals and activities that may exceed the time constraints for a 70-year-old man, especially considering the preparation and cooking times for multiple dishes. While the plan incorporates cultural elements, it does not adequately account for potential mobility limitations or the need for simpler meal options. The exercise recommendations, such as tai chi or qigong, may not be feasible for all individuals in this age group, depending on their mobility and health status.\",\n  \"evidence_quote\": \"Engage in some light physical activity, such as: Taking a short walk around the neighborhood or doing some light gardening.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"potential mobility limitations not addressed\", \"time for meal prep may exceed typical limits\"]\n}",
+      "parse_error": null,
+      "input_tokens": 4943,
+      "output_tokens": 207,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "Incorporating the diet styles of Kannadiga Gowdas tradition can be a great way to connect with your cultural heritage."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"Incorporating the diet styles of Kannadiga Gowdas tradition can be a great way to connect with your cultural heritage.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5439,
+      "output_tokens": 255,
+      "from_cache": false
+    }
+  }
+}

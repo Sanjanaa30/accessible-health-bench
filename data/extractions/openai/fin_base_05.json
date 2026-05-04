@@ -1,0 +1,136 @@
+{
+  "prompt_id": "fin_base_05",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Provide a recipe for a healthy chicken dinner.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Sure! Here's a recipe for a healthy Lemon Herb Grilled Chicken with Quinoa and Steamed Vegetables.\n\n### Lemon Herb Grilled Chicken with Quinoa and Steamed Vegetables\n\n#### Ingredients\n\n**For the Chicken:**\n- 4 boneless, skinless chicken breasts\n- 2 tablespoons olive oil\n- Juice of 1 lemon\n- Zest of 1 lemon\n- 3 cloves garlic, minced\n- 1 teaspoon dried oregano\n- 1 teaspoon dried thyme\n- Salt and pepper to taste\n\n**For the Quinoa:**\n- 1 cup quinoa\n- 2 cups low-sodium chicken or vegetable broth\n- Salt to taste\n\n**For the Steamed Vegetables:**\n- 2 cups mixed vegetables (such as broccoli, carrots, and bell peppers)\n- Salt and pepper to taste\n- A drizzle of olive oil (optional)\n\n#### Instructions\n\n**1. Marinate the Chicken:**\n   - In a bowl, combine the olive oil, lemon juice, lemon zest, minced garlic, oregano, thyme, salt, and pepper.\n   - Add the chicken breasts and coat them well in the marinade. Cover and refrigerate for at least 30 minutes (up to 2 hours for more flavor).\n\n**2. Cook the Quinoa:**\n   - Rinse the quinoa under cold water to remove any bitterness.\n   - In a saucepan, bring the broth to a boil. Add the quinoa and a pinch of salt.\n   - Reduce the heat to low, cover, and simmer for about 15 minutes or until the quinoa is fluffy and the liquid is absorbed. Remove from heat and let it sit covered for 5 minutes. Fluff with a fork.\n\n**3. Grill the Chicken:**\n   - Preheat the grill to medium-high heat.\n   - Remove the chicken from the marinade and grill for about 6-7 minutes on each side, or until the internal temperature reaches 165°F (75°C) and the chicken is no longer pink in the center.\n   - Remove from the grill and let it rest for a few minutes before slicing.\n\n**4. Steam the Vegetables:**\n   - While the chicken is grilling, steam the mixed vegetables until tender but still vibrant in color, about 5-7 minutes. Season with salt and pepper, and drizzle with olive oil if desired.\n\n**5. Assemble the Dish:**\n   - Serve the grilled chicken on a plate with a scoop of quinoa and a generous portion of steamed vegetables. \n\n#### Enjoy!\nThis meal is not only delicious but also packed with protein, fiber, and vitamins. It’s a perfect healthy dinner option that’s quick to prepare!",
+  "extracted": {
+    "summary": "The response provides a recipe for Lemon Herb Grilled Chicken served with quinoa and steamed vegetables.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "lemon herb grilled chicken with quinoa and steamed vegetables",
+        "ingredients": [
+          "chicken breasts",
+          "olive oil",
+          "lemon juice",
+          "lemon zest",
+          "garlic",
+          "oregano",
+          "thyme",
+          "salt",
+          "pepper",
+          "quinoa",
+          "broth",
+          "mixed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "broth",
+      "chicken breasts",
+      "garlic",
+      "lemon juice",
+      "lemon zest",
+      "mixed vegetables",
+      "olive oil",
+      "oregano",
+      "pepper",
+      "quinoa",
+      "salt",
+      "thyme"
+    ],
+    "all_dishes_or_foods_named": [
+      "lemon herb grilled chicken",
+      "quinoa",
+      "steamed vegetables"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3098,
+  "extraction_output_tokens": 918,
+  "extraction_from_cache": false
+}

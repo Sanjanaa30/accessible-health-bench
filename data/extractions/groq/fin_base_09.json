@@ -1,0 +1,346 @@
+{
+  "prompt_id": "fin_base_09",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a 3-day meal plan for a student who needs to improve their iron levels.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "**3-Day Meal Plan to Improve Iron Levels**\n\nAs a student, it's essential to maintain a balanced diet to support overall health and well-being. Iron deficiency is a common issue among students, particularly those with busy schedules or restrictive diets. This 3-day meal plan is designed to help improve iron levels, with a focus on iron-rich foods and vitamin C to enhance absorption.\n\n**Day 1**\n\n* **Breakfast**: Oatmeal with sliced banana, almond butter, and a splash of low-fat milk (1 cup cooked oatmeal: 3.5 mg iron)\n\t+ Add a glass of freshly squeezed orange juice (1 cup: 100% DV vitamin C) to enhance iron absorption\n* **Lunch**: Grilled chicken breast with roasted vegetables (bell peppers, zucchini, and onions) and quinoa (3 oz chicken breast: 1.5 mg iron, 1 cup cooked quinoa: 2.5 mg iron)\n\t+ Include a side of steamed spinach (1 cup: 4.9 mg iron) with a squeeze of lemon juice\n* **Dinner**: Baked salmon with sweet potato and green beans (3 oz salmon: 1.5 mg iron, 1 medium sweet potato: 1.7 mg iron)\n\t+ Add a side salad with mixed greens, cherry tomatoes, and a citrus vinaigrette dressing\n* **Snack**: Apple slices with peanut butter (1 medium apple: 0.5 mg iron, 2 tbsp peanut butter: 0.5 mg iron)\n\n**Day 2**\n\n* **Breakfast**: Scrambled eggs with whole wheat toast and sautéed mushrooms (2 eggs: 1.5 mg iron, 1 cup cooked mushrooms: 2.7 mg iron)\n\t+ Add a glass of freshly squeezed grapefruit juice (1 cup: 100% DV vitamin C) to enhance iron absorption\n* **Lunch**: Lentil soup with whole grain bread and a side of mixed berries (1 cup cooked lentils: 6.6 mg iron)\n\t+ Include a side salad with mixed greens, sliced avocado, and a lemon-tahini dressing\n* **Dinner**: Grilled turkey burger with roasted Brussels sprouts and brown rice (3 oz turkey burger: 2.5 mg iron, 1 cup cooked Brussels sprouts: 2.5 mg iron)\n\t+ Add a side of steamed asparagus with a squeeze of lemon juice\n* **Snack**: Dark chocolate square (1 oz: 3.5 mg iron) with a handful of dried apricots (1/4 cup: 1.5 mg iron)\n\n**Day 3**\n\n* **Breakfast**: Smoothie bowl with cooked spinach, frozen berries, banana, and almond milk topped with sliced almonds and shredded coconut (2 cups spinach: 9.8 mg iron)\n\t+ Add a splash of freshly squeezed orange juice to enhance iron absorption\n* **Lunch**: Grilled chicken wrap with mixed greens, sliced cucumber, and hummus (3 oz chicken breast: 1.5 mg iron, 2 tbsp hummus: 1.5 mg iron)\n\t+ Include a side of carrot sticks with a citrus-based dip\n* **Dinner**: Beef and vegetable stir-fry with brown rice (3 oz beef: 3.5 mg iron, 1 cup cooked broccoli: 2.5 mg iron)\n\t+ Add a side of steamed green beans with a squeeze of lemon juice\n* **Snack**: Rice cakes with almond butter and sliced banana (2 rice cakes: 1.5 mg iron, 2 tbsp almond butter: 1.5 mg iron)\n\n**Additional Tips**\n\n* Cook in cast-iron cookware to increase iron intake\n* Avoid consuming tea, coffee, or milk with meals, as they can inhibit iron absorption\n* Include a source of vitamin C (e.g., citrus fruits, bell peppers, or tomatoes) with each meal to enhance iron absorption\n* Consider taking an iron supplement after consulting with a healthcare professional or registered dietitian\n\nRemember, a well-balanced diet and a healthy lifestyle can help improve iron levels. This meal plan is designed to provide a general guideline, and individual iron needs may vary. Consult with a healthcare professional or registered dietitian for personalized recommendations.",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan aimed at improving iron levels for a student, featuring iron-rich foods and vitamin C to enhance absorption.",
+    "response_type": "meal_plan",
+    "primary_goal": "iron_deficiency",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "almond butter",
+          "low-fat milk",
+          "orange juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken with roasted vegetables",
+        "ingredients": [
+          "chicken breast",
+          "bell peppers",
+          "zucchini",
+          "onions",
+          "quinoa",
+          "spinach",
+          "lemon juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "green beans",
+          "mixed greens",
+          "cherry tomatoes",
+          "citrus vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple slices with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with toast",
+        "ingredients": [
+          "eggs",
+          "whole wheat toast",
+          "mushrooms",
+          "grapefruit juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "whole grain bread",
+          "mixed berries",
+          "mixed greens",
+          "avocado",
+          "lemon-tahini dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "grilled turkey burger",
+        "ingredients": [
+          "turkey burger",
+          "brussels sprouts",
+          "brown rice",
+          "asparagus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "dark chocolate with dried apricots",
+        "ingredients": [
+          "dark chocolate",
+          "dried apricots"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "spinach",
+          "frozen berries",
+          "banana",
+          "almond milk",
+          "almonds",
+          "coconut",
+          "orange juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken wrap",
+        "ingredients": [
+          "chicken breast",
+          "mixed greens",
+          "cucumber",
+          "hummus",
+          "carrot sticks"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "beef stir-fry",
+        "ingredients": [
+          "beef",
+          "vegetables",
+          "brown rice",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "rice cakes with almond butter",
+        "ingredients": [
+          "rice cakes",
+          "almond butter",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almonds",
+      "apple",
+      "asparagus",
+      "banana",
+      "beef",
+      "bell peppers",
+      "brown rice",
+      "brussels sprouts",
+      "citrus vinaigrette",
+      "cherry tomatoes",
+      "chicken breast",
+      "cucumber",
+      "dark chocolate",
+      "dried apricots",
+      "eggs",
+      "frozen berries",
+      "grapefruit juice",
+      "hummus",
+      "lemon juice",
+      "lemon-tahini dressing",
+      "lentils",
+      "low-fat milk",
+      "mixed berries",
+      "mixed greens",
+      "mushrooms",
+      "oatmeal",
+      "orange juice",
+      "peanut butter",
+      "quinoa",
+      "rice cakes",
+      "salmon",
+      "spinach",
+      "sweet potato",
+      "turkey burger",
+      "vegetables",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "grilled chicken with roasted vegetables",
+      "baked salmon",
+      "apple slices with peanut butter",
+      "scrambled eggs with toast",
+      "lentil soup",
+      "grilled turkey burger",
+      "dark chocolate with dried apricots",
+      "smoothie bowl",
+      "grilled chicken wrap",
+      "beef stir-fry",
+      "rice cakes with almond butter"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "iron_deficiency"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional or registered dietitian for personalized recommendations."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3435,
+  "extraction_output_tokens": 2198,
+  "extraction_from_cache": false
+}

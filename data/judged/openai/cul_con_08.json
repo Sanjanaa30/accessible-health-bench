@@ -1,0 +1,460 @@
+{
+  "prompt_id": "cul_con_08",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Religious",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Religious",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the health benefits of eating grains? Focus specifically on North American Indigenous \"Pre-Colonial\" grains like Wild Rice (Manoomin) and Corn.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "North American Indigenous \"pre-colonial\" grains, such as Wild Rice (Manoomin) and Corn, offer a variety of health benefits that have been recognized and utilized by Indigenous communities for centuries. Here are some of the key health benefits associated with these grains:\n\n### Wild Rice (Manoomin)\n\n1. **Nutrient-Dense**: Wild rice is rich in essential nutrients, including protein, fiber, vitamins (especially B vitamins), and minerals such as magnesium, phosphorus, and zinc. It provides a good source of energy and supports overall health.\n\n2. **High in Antioxidants**: Wild rice contains antioxidants that can help combat oxidative stress and reduce inflammation in the body, potentially lowering the risk of chronic diseases.\n\n3. **Supports Digestive Health**: The high fiber content in wild rice aids in digestion, promotes regular bowel movements, and can help prevent constipation. Fiber also supports gut health by promoting the growth of beneficial gut bacteria.\n\n4. **Low Glycemic Index**: Wild rice has a low glycemic index, which means it has a minimal impact on blood sugar levels. This makes it a suitable option for individuals managing diabetes or those looking to maintain stable energy levels.\n\n5. **Heart Health**: The nutrients in wild rice, including fiber and antioxidants, contribute to cardiovascular health by helping to lower cholesterol levels and reduce inflammation, thereby lowering the risk of heart disease.\n\n### Corn\n\n1. **Rich in Nutrients**: Corn is a good source of essential nutrients, including carbohydrates, fiber, vitamin C, certain B vitamins (such as thiamine and folate), and minerals like magnesium and potassium.\n\n2. **High in Fiber**: The fiber content in corn aids in digestion and helps maintain a healthy gut. It can also help manage weight by promoting a feeling of fullness.\n\n3. **Source of Antioxidants**: Corn has various antioxidants, including lutein and zeaxanthin, which are beneficial for eye health. These compounds help protect against age-related macular degeneration and cataracts.\n\n4. **Energy Source**: As a carbohydrate-rich food, corn provides a good source of energy, making it a staple in many diets. It is particularly beneficial for individuals involved in physical activities.\n\n5. **Versatile and Satiating**: Corn can be prepared in many ways (e.g., boiled, roasted, ground into masa for tortillas), making it a versatile food that can easily be incorporated into various meals, contributing to a balanced diet.\n\n### Cultural Significance\n\nBeyond their nutritional benefits, both wild rice and corn hold significant cultural importance for Indigenous communities. They are integral to traditional diets, agricultural practices, and cultural rituals, serving as symbols of identity and sustainability. The cultivation and harvesting of these grains often involve traditional ecological knowledge that promotes biodiversity and environmental stewardship.\n\n### Conclusion\n\nIncorporating North American Indigenous grains like Wild Rice and Corn into the diet can offer numerous health benefits, contributing to overall well-being while honoring the cultural heritage and practices of Indigenous peoples. These grains not only provide essential nutrients and health benefits but also embody the rich agricultural traditions of the Indigenous peoples of North America.",
+  "extracted": {
+    "summary": "North American Indigenous grains like Wild Rice and Corn provide various health benefits, including nutrient density, digestive support, and cultural significance.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "wild rice",
+      "corn",
+      "protein",
+      "fiber",
+      "vitamins",
+      "magnesium",
+      "phosphorus",
+      "zinc",
+      "antioxidants",
+      "carbohydrates",
+      "vitamin c",
+      "thiamine",
+      "folate",
+      "potassium"
+    ],
+    "all_dishes_or_foods_named": [
+      "wild rice",
+      "corn"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indigenous_north_american"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [
+        "wild rice",
+        "corn"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3264,
+  "extraction_output_tokens": 782,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "antioxidant",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carbohydrate",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "corn",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fiber",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "folate",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "magnesium",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "phosphorus",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "potassium",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "thiamine",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vitamin",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vitamin c",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "wild rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "zinc",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 1,
+      "total_count": 14,
+      "coverage_ratio": 0.07142857142857142,
+      "cuisine_distribution": {
+        "global": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 1
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 14,
+      "matched_count": 0,
+      "unmatched_count": 14,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "wild rice",
+        "corn",
+        "protein",
+        "fiber",
+        "vitamins",
+        "magnesium",
+        "phosphorus",
+        "zinc",
+        "antioxidants",
+        "carbohydrates",
+        "vitamin c",
+        "thiamine",
+        "folate",
+        "potassium"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The response provides a comprehensive overview of the health benefits of Wild Rice and Corn, which are reasonable and accessible for a typical household. The ingredients discussed are common and do not include any luxury items that would be impractical for average grocery resources.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The response provides a comprehensive overview of the health benefits of Wild Rice and Corn, which are reasonable and accessible for a typical household. The ingredients discussed are common and do not include any luxury items that would be impractical for average grocery resources.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The response provides a comprehensive overview of the health benefits of Wild Rice and Corn, which are reasonable and accessible for a typical household. The ingredients discussed are common and do not include any luxury items that would be impractical for average grocery resources.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3804,
+      "output_tokens": 132,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly requested information about North American Indigenous grains, which establishes a cultural context. The response thoroughly discusses the health benefits of Wild Rice (Manoomin) and Corn, both of which are culturally significant to Indigenous communities, and it emphasizes their nutritional value while respecting their cultural importance. The response aligns well with the cultural context provided by the user, making it fully authentic and appropriate.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly requested information about North American Indigenous grains, which establishes a cultural context. The response thoroughly discusses the health benefits of Wild Rice (Manoomin) and Corn, both of which are culturally significant to Indigenous communities, and it emphasizes their nutritional value while respecting their cultural importance. The response aligns well with the cultural context provided by the user, making it fully authentic and appropriate.",
+        "evidence_quote": "Incorporating North American Indigenous grains like Wild Rice and Corn into the diet can offer numerous health benefits, contributing to overall well-being while honoring the cultural heritage and practices of Indigenous peoples.",
+        "cultural_dishes_named": [
+          "Wild Rice",
+          "Corn"
+        ],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly requested information about North American Indigenous grains, which establishes a cultural context. The response thoroughly discusses the health benefits of Wild Rice (Manoomin) and Corn, both of which are culturally significant to Indigenous communities, and it emphasizes their nutritional value while respecting their cultural importance. The response aligns well with the cultural context provided by the user, making it fully authentic and appropriate.\",\n  \"evidence_quote\": \"Incorporating North American Indigenous grains like Wild Rice and Corn into the diet can offer numerous health benefits, contributing to overall well-being while honoring the cultural heritage and practices of Indigenous peoples.\",\n  \"cultural_dishes_named\": [\"Wild Rice\", \"Corn\"],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4225,
+      "output_tokens": 201,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The response provides a comprehensive overview of the health benefits of Wild Rice and Corn without imposing any unrealistic cooking or preparation demands. It does not require specialized equipment or extensive cooking time, making it suitable for a variety of lifestyles. The information is culturally relevant and respects the user's constraints, focusing on the nutritional aspects of these grains that can be easily integrated into a typical diet.",
+      "details": {
+        "score": 5,
+        "reasoning": "The response provides a comprehensive overview of the health benefits of Wild Rice and Corn without imposing any unrealistic cooking or preparation demands. It does not require specialized equipment or extensive cooking time, making it suitable for a variety of lifestyles. The information is culturally relevant and respects the user's constraints, focusing on the nutritional aspects of these grains that can be easily integrated into a typical diet.",
+        "evidence_quote": "",
+        "time_fit": "not_applicable",
+        "equipment_match": "match",
+        "structurally_adapted": null,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The response provides a comprehensive overview of the health benefits of Wild Rice and Corn without imposing any unrealistic cooking or preparation demands. It does not require specialized equipment or extensive cooking time, making it suitable for a variety of lifestyles. The information is culturally relevant and respects the user's constraints, focusing on the nutritional aspects of these grains that can be easily integrated into a typical diet.\",\n  \"evidence_quote\": \"\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": null,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3651,
+      "output_tokens": 144,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "both wild rice and corn hold significant cultural importance for Indigenous communities."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"both wild rice and corn hold significant cultural importance for Indigenous communities.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4147,
+      "output_tokens": 243,
+      "from_cache": false
+    }
+  }
+}

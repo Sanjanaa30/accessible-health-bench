@@ -1,0 +1,140 @@
+{
+  "prompt_id": "cul_base_01",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a high-protein dinner for a family.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a high-protein, family-friendly dinner that’s easy to make, delicious, and packed with protein from multiple sources.\n\n### **One-Pan Lemon Herb Chicken & White Bean Bake**\n\nThis dish is a complete meal (protein + veggies + carbs) cooked on a single sheet pan, minimizing cleanup. It provides about **35–40g of protein per serving**.\n\n**Why it works for a family:**\n- **Mild, crowd-pleasing flavors** (lemon, garlic, herbs).\n- **Two protein sources** (chicken + beans).\n- **Hands-off cooking** – just toss and roast.\n- **Easily scaled** for more or fewer people.\n\n---\n\n#### **Ingredients (Serves 4)**\n\n**Protein:**\n- 4 boneless, skinless chicken breasts (or 6–8 thighs; ~6 oz each)\n- 1 can (15 oz) cannellini beans or chickpeas, drained and rinsed\n- 2 tbsp olive oil\n\n**Flavor:**\n- 3 cloves garlic, minced\n- Juice and zest of 1 lemon\n- 1 tsp dried oregano (or 1 tbsp fresh)\n- 1 tsp dried thyme\n- ½ tsp paprika (optional, for color)\n- Salt and black pepper to taste\n\n**Vegetables (adds fiber & nutrients):**\n- 1 pint cherry tomatoes (halved)\n- 1 large zucchini (chopped into ½-inch chunks)\n- 1 red onion (cut into wedges)\n\n**Optional for extra protein/carbs:**\n- 1 cup cooked quinoa or brown rice (adds ~8g protein per serving)\n\n---\n\n#### **Instructions**\n\n1. **Preheat oven** to 400°F (200°C). Line a large baking sheet with parchment paper for easy cleanup.\n\n2. **Marinate the chicken**: In a bowl, whisk together olive oil, garlic, lemon juice/zest, oregano, thyme, paprika, salt, and pepper. Add chicken and toss to coat. Let sit 10 minutes (or up to 30 minutes in fridge).\n\n3. **Assemble the sheet pan**: Place chicken on one side of the pan. On the other side, toss the cherry tomatoes, zucchini, red onion, and white beans with a drizzle of olive oil, salt, and pepper. Spread everything in a single layer.\n\n4. **Roast** for 25–30 minutes, until chicken reaches an internal temperature of 165°F (75°C) and vegetables are tender and lightly caramelized.\n\n5. **Serve**: Slice the chicken and spoon the vegetables and beans over the top. Add a squeeze of fresh lemon juice. If using, serve over quinoa or brown rice.\n\n---\n\n#### **Protein Breakdown (per serving)**\n- Chicken (6 oz): ~40g\n- White beans (½ cup): ~7g\n- Quinoa (½ cup, optional): ~4g\n- **Total: ~47–51g protein per serving** (without quinoa: ~43g)\n\n---\n\n#### **Quick Variations for Picky Eaters**\n- **Swap chicken for firm tofu** (cut into steaks) or salmon fillets.\n- **Swap beans for chickpeas** or edamame (even higher protein).\n- **Add a sprinkle of Parmesan cheese** at the end for extra flavor and a few more grams of protein.\n\n#### **Make-Ahead Tip**\nMarinate the chicken and chop the vegetables up to 24 hours in advance. Store in the fridge, then roast just before dinner.\n\nThis meal is balanced, satisfying, and leaves everyone feeling full without being heavy. Enjoy!",
+  "extracted": {
+    "summary": "The response suggests a high-protein, family-friendly dinner recipe for One-Pan Lemon Herb Chicken & White Bean Bake.",
+    "response_type": "recipe",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "one-pan lemon herb chicken & white bean bake",
+        "ingredients": [
+          "chicken breasts",
+          "cannellini beans",
+          "olive oil",
+          "garlic",
+          "lemon",
+          "oregano",
+          "thyme",
+          "paprika",
+          "salt",
+          "black pepper",
+          "cherry tomatoes",
+          "zucchini",
+          "red onion",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "oven",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "chicken breasts",
+      "cannellini beans",
+      "olive oil",
+      "garlic",
+      "lemon",
+      "oregano",
+      "thyme",
+      "paprika",
+      "salt",
+      "black pepper",
+      "cherry tomatoes",
+      "zucchini",
+      "red onion",
+      "quinoa"
+    ],
+    "all_dishes_or_foods_named": [
+      "one-pan lemon herb chicken & white bean bake"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3299,
+  "extraction_output_tokens": 948,
+  "extraction_from_cache": false
+}

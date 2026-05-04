@@ -1,0 +1,360 @@
+{
+  "prompt_id": "lif_con_16",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a fitness and diet plan for someone with a long daily commute (2–3 hours).",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the challenges of a long daily commute, I've created a fitness and diet plan that's tailored to help you stay energized, healthy, and productive. This plan will help you manage your time effectively, prioritize self-care, and make the most of your limited time.\n\n**Fitness Plan:**\n\n1. **Morning Routine (30 minutes):**\n\t* Start with a 10-minute dynamic warm-up (jogging in place, jumping jacks, etc.)\n\t* Follow with 10 minutes of bodyweight exercises (push-ups, squats, lunges, etc.)\n\t* End with 10 minutes of stretching to improve flexibility and reduce muscle tension\n2. **Lunch Break Workout (30 minutes):**\n\t* Use your lunch break to fit in a quick workout, such as:\n\t\t+ A 10-minute walk or jog outside\n\t\t+ A set of stairs or a short hike\n\t\t+ A few minutes of yoga or Pilates\n3. **Evening Routine (30-60 minutes):**\n\t* After your commute, spend 30-60 minutes on a more intense workout, such as:\n\t\t+ A home workout (bodyweight exercises, resistance bands, or dumbbells)\n\t\t+ A trip to the gym (if you have access to one)\n\t\t+ A outdoor activity (cycling, swimming, or walking)\n4. **Active Commuting:**\n\t* Consider incorporating physical activity into your commute, such as:\n\t\t+ Walking or cycling to work (if possible)\n\t\t+ Taking the stairs instead of the elevator\n\t\t+ Doing a few exercises during your bus or train ride (e.g., leg raises, toe taps)\n\n**Diet Plan:**\n\n1. **Breakfast:**\n\t* Eat a nutritious breakfast to fuel your day, such as:\n\t\t+ Oatmeal with fruits and nuts\n\t\t+ Greek yogurt with berries and honey\n\t\t+ Whole-grain toast with avocado and eggs\n2. **Snacks:**\n\t* Pack healthy snacks to keep you energized during your commute, such as:\n\t\t+ Fresh fruits and vegetables\n\t\t+ Nuts and seeds (almonds, cashews, etc.)\n\t\t+ Energy balls made with oats, nuts, and dried fruits\n3. **Lunch:**\n\t* Prepare a balanced lunch that includes:\n\t\t+ Lean protein sources (chicken, fish, tofu, etc.)\n\t\t+ Complex carbohydrates (brown rice, quinoa, whole-grain bread)\n\t\t+ Vegetables and fruits\n4. **Dinner:**\n\t* Eat a nutritious dinner to recharge after your commute, such as:\n\t\t+ Grilled chicken or fish with roasted vegetables\n\t\t+ Quinoa or brown rice with lentils and vegetables\n\t\t+ Stir-fries with lean protein and mixed vegetables\n5. **Hydration:**\n\t* Drink plenty of water throughout the day to stay hydrated, aiming for at least 8 cups (64 ounces)\n\n**Time Management Tips:**\n\n1. **Prioritize sleep:** Aim for 7-8 hours of sleep each night to help your body recover from the long commute.\n2. **Use your commute time wisely:** Listen to podcasts, audiobooks, or language lessons to make the most of your commute time.\n3. **Schedule self-care:** Make time for relaxation and stress-reduction techniques, such as meditation, deep breathing, or yoga.\n4. **Batch similar tasks:** Group similar tasks together, such as checking emails or making phone calls, to save time and increase productivity.\n\n**Additional Tips:**\n\n1. **Pack a gym bag:** Keep a gym bag with essentials like a change of clothes, sneakers, and a water bottle to make it easier to fit in a workout during your day.\n2. **Find a workout buddy:** Having a workout partner can help motivate you to stick to your fitness plan.\n3. **Track your progress:** Use a fitness tracker or journal to monitor your progress, set goals, and adjust your plan as needed.\n\nRemember, consistency is key. Stick to your plan, and you'll be on your way to a healthier, more energized you, despite the challenges of a long daily commute.",
+  "extracted": {
+    "summary": "The response provides a fitness and diet plan tailored for individuals with long daily commutes, focusing on effective time management and healthy eating.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruits and nuts",
+        "ingredients": [
+          "oatmeal",
+          "fruits",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries and honey",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "whole-grain toast with avocado and eggs",
+        "ingredients": [
+          "whole-grain bread",
+          "avocado",
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fresh fruits and vegetables",
+        "ingredients": [
+          "fruits",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts and seeds",
+        "ingredients": [
+          "nuts",
+          "seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "energy balls",
+        "ingredients": [
+          "oats",
+          "nuts",
+          "dried fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "balanced lunch",
+        "ingredients": [
+          "lean protein",
+          "complex carbohydrates",
+          "vegetables",
+          "fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken or fish with roasted vegetables",
+        "ingredients": [
+          "chicken",
+          "fish",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "quinoa or brown rice with lentils and vegetables",
+        "ingredients": [
+          "quinoa",
+          "brown rice",
+          "lentils",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fries with lean protein and mixed vegetables",
+        "ingredients": [
+          "lean protein",
+          "mixed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "water",
+        "ingredients": [
+          "water"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "8 cups"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "berries",
+      "brown rice",
+      "chicken",
+      "dried fruits",
+      "eggs",
+      "energy balls",
+      "fish",
+      "fruits",
+      "greek yogurt",
+      "lentils",
+      "mixed vegetables",
+      "nuts",
+      "oats",
+      "whole-grain bread",
+      "vegetables",
+      "water",
+      "quinoa",
+      "seeds",
+      "lean protein",
+      "honey"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with fruits and nuts",
+      "greek yogurt with berries and honey",
+      "whole-grain toast with avocado and eggs",
+      "fresh fruits and vegetables",
+      "nuts and seeds",
+      "energy balls",
+      "balanced lunch",
+      "grilled chicken or fish with roasted vegetables",
+      "quinoa or brown rice with lentils and vegetables",
+      "stir-fries with lean protein and mixed vegetables",
+      "water"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "dynamic warm-up",
+        "activity_type": "cardio",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "bodyweight exercises",
+        "activity_type": "strength",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "stretching",
+        "activity_type": "flexibility",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Lunch Break",
+        "activity_name": "quick workout",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "intense workout",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "outdoor activity",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "evening"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3469,
+  "extraction_output_tokens": 2224,
+  "extraction_from_cache": false
+}

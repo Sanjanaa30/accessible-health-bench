@@ -1,0 +1,214 @@
+{
+  "prompt_id": "lif_base_20",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give a fitness and diet plan for overall wellness.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Complete Fitness & Diet Plan for Overall Wellness\n\n## FITNESS PLAN (5-6 days/week)\n\n### Weekly Structure\n- **2-3 days**: Strength training (30-45 min)\n- **2-3 days**: Cardio (20-30 min)\n- **Daily**: Flexibility/mobility work (10-15 min)\n- **1 day**: Complete rest\n\n### Strength Training\n- Full-body workouts or upper/lower split\n- Focus: Compound movements (squats, deadlifts, bench press, rows)\n- 8-12 reps, 3-4 sets per exercise\n- Rest 48 hours between intense sessions\n\n### Cardio Options\n- Walking, running, cycling, swimming\n- Mix steady-state with interval training\n- Start with 150 min/week moderate intensity\n\n### Flexibility\n- Stretching, yoga, or foam rolling\n- Post-workout or separate sessions\n\n---\n\n## NUTRITION PLAN\n\n### Daily Macros (adjust to goals)\n- **Protein**: 0.8-1g per lb bodyweight\n- **Carbs**: 40-50% of calories\n- **Fats**: 25-35% of calories\n\n### Meal Framework (3 meals + 1-2 snacks)\n\n**Breakfast**\n- Eggs, oatmeal, berries, Greek yogurt\n\n**Lunch**\n- Lean protein + whole grains + vegetables\n\n**Dinner**\n- Fish/chicken + sweet potato + greens\n\n**Snacks**\n- Nuts, fruit, protein shake, cottage cheese\n\n### Key Principles\n✓ Whole, minimally processed foods  \n✓ Plenty of vegetables & fruits  \n✓ Adequate hydration (8+ glasses water)  \n✓ Consistent meal timing  \n✓ Limit added sugars & ultra-processed foods  \n✓ Plan meals ahead\n\n---\n\n## RECOVERY & LIFESTYLE\n\n- **Sleep**: 7-9 hours nightly\n- **Stress**: Meditation, deep breathing\n- **Hydration**: ½ body weight in ounces daily\n- **Consistency**: More important than perfection\n\n**Start here and adjust based on progress and how you feel.**",
+  "extracted": {
+    "summary": "The response provides a comprehensive fitness and nutrition plan aimed at overall wellness, including structured workouts and a balanced meal framework.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "breakfast",
+        "ingredients": [
+          "eggs",
+          "oatmeal",
+          "berries",
+          "greek yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lunch",
+        "ingredients": [
+          "lean protein",
+          "whole grains",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "dinner",
+        "ingredients": [
+          "fish",
+          "chicken",
+          "sweet potato",
+          "greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "snacks",
+        "ingredients": [
+          "nuts",
+          "fruit",
+          "protein shake",
+          "cottage cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "berries",
+      "cottage cheese",
+      "eggs",
+      "fish",
+      "greek yogurt",
+      "greens",
+      "lean protein",
+      "nuts",
+      "oatmeal",
+      "protein shake",
+      "sweet potato",
+      "vegetables",
+      "whole grains"
+    ],
+    "all_dishes_or_foods_named": [
+      "breakfast",
+      "dinner",
+      "lunch",
+      "snacks"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "cardio",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "flexibility/mobility work",
+        "activity_type": "flexibility",
+        "duration_minutes": 15,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2997,
+  "extraction_output_tokens": 1294,
+  "extraction_from_cache": false
+}

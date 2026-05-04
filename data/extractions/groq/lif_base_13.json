@@ -1,0 +1,134 @@
+{
+  "prompt_id": "lif_base_13",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily wellness routine.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a daily wellness routine that you can follow to improve your physical, mental, and emotional well-being:\n\n**Morning Routine (60-90 minutes)**\n\n1. **Wake-up time**: Wake up 15-30 minutes earlier than usual to allow for a gentle transition into the day.\n2. **Stretching or yoga**: Start with some light stretching or yoga to loosen up your muscles and increase blood flow. (10-15 minutes)\n3. **Meditation or deep breathing**: Practice meditation or deep breathing exercises to calm your mind and set intentions for the day. (10-15 minutes)\n4. **Hydration**: Drink a full glass of water to rehydrate after a night of sleep.\n5. **Morning sunlight**: Spend a few minutes outside in natural sunlight to regulate your circadian rhythms.\n\n**Physical Activity (30-60 minutes)**\n\n1. **Exercise**: Engage in some form of physical activity, such as walking, jogging, cycling, or weightlifting, to improve cardiovascular health and boost mood.\n2. **Outdoor activities**: Spend time outdoors, whether it's walking, gardening, or simply taking a break in a park or garden.\n\n**Nutrition and Self-Care (60-90 minutes)**\n\n1. **Healthy breakfast**: Eat a nutritious breakfast that includes a balance of protein, complex carbohydrates, and healthy fats.\n2. **Meal prep**: Prepare healthy meals and snacks for the day to ensure you're fueling your body with wholesome foods.\n3. **Self-care activities**: Engage in activities that bring you joy and relaxation, such as reading, listening to music, or taking a warm bath.\n\n**Evening Routine (60-90 minutes)**\n\n1. **Wind-down time**: Gradually wind down from the day's activities by engaging in relaxing activities, such as listening to calming music or practicing gentle stretches.\n2. **Gratitude practice**: Reflect on the things you're grateful for and write them down in a gratitude journal.\n3. **Screen-free time**: Avoid screens for at least an hour before bedtime to reduce blue light exposure and promote better sleep.\n4. **Bedtime routine**: Establish a consistent bedtime routine that includes activities like brushing your teeth, changing into comfortable clothes, and reading a book.\n\n**Additional Tips**\n\n1. **Get enough sleep**: Aim for 7-9 hours of sleep each night to help your body and mind recover from the day's activities.\n2. **Stay connected**: Schedule time to connect with loved ones, whether it's a phone call, video chat, or in-person visit.\n3. **Prioritize self-care**: Make time for activities that nourish your mind, body, and soul, such as exercise, meditation, or creative pursuits.\n4. **Be flexible**: Don't be too hard on yourself if you miss a day or two – simply get back on track and focus on making progress, not perfection.\n\nRemember, everyone's needs and preferences are different, so feel free to customize this routine to suit your unique needs and lifestyle.",
+  "extracted": {
+    "summary": "The response provides a comprehensive daily wellness routine that includes morning, physical activity, nutrition, and evening activities to enhance overall well-being.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "healthy breakfast",
+        "ingredients": [
+          "protein",
+          "complex carbohydrates",
+          "healthy fats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "protein",
+      "complex carbohydrates",
+      "healthy fats"
+    ],
+    "all_dishes_or_foods_named": [
+      "healthy breakfast"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "exercise",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "physical activity",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3170,
+  "extraction_output_tokens": 865,
+  "extraction_from_cache": false
+}

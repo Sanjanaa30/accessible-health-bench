@@ -1,0 +1,440 @@
+{
+  "prompt_id": "lif_con_03",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a balanced diet plan for weight loss for someone who works night shifts and has irregular sleep.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Creating a balanced diet plan for weight loss can be challenging, especially when working night shifts and having irregular sleep patterns. However, with a few adjustments and strategies, you can still achieve your weight loss goals. Here's a tailored diet plan to help you get started:\n\n**Understanding the Challenges:**\n\n1. **Disrupted Circadian Rhythms:** Night shift work can affect your body's natural hunger and fullness hormones, leading to increased cravings for unhealthy snacks.\n2. **Irregular Sleep Patterns:** Poor sleep quality and duration can lead to fatigue, decreased motivation, and increased stress, making it harder to stick to a healthy diet.\n3. **Limited Daytime Hours:** With a non-traditional schedule, it can be difficult to find time for meal preparation, grocery shopping, and physical activity.\n\n**Dietary Recommendations:**\n\n1. **Eat Regular Meals:** Aim for 3 main meals and 2-3 snacks in between, spaced out every 3-4 hours to maintain stable energy levels.\n2. **Focus on Whole Foods:** Prioritize whole, unprocessed foods like:\n\t* Vegetables: dark leafy greens, bell peppers, carrots, and other colorful options\n\t* Fruits: berries, citrus fruits, and apples\n\t* Proteins: lean meats, fish, eggs, tofu, and legumes\n\t* Whole Grains: brown rice, quinoa, whole wheat bread, and whole grain pasta\n\t* Healthy Fats: nuts, seeds, avocados, and olive oil\n3. **Choose Convenient and Portable Options:** Opt for easy-to-prepare meals and snacks that can be taken on-the-go, such as:\n\t* Overnight oats or yogurt parfaits\n\t* Fresh fruit and nut-based snacks\n\t* Energy balls made with oats, nuts, and dried fruits\n\t* Pre-cooked meals like soups, stews, or stir-fries\n4. **Stay Hydrated:** Drink plenty of water throughout the day, aiming for at least 8 cups (64 oz) daily.\n5. **Limit Unhealthy Snacks:** Avoid or limit sugary drinks, fast food, and processed snacks high in salt, sugar, and unhealthy fats.\n6. **Plan Ahead:** Use your days off or free time to:\n\t* Meal prep for the upcoming week\n\t* Grocery shop for healthy ingredients\n\t* Cook and freeze meals for future use\n\n**Sample Meal Plan:**\n\n**Breakfast (around 10-11 am, after waking up)**\n\n* Monday: Overnight oats with fruits and nuts\n* Tuesday: Scrambled eggs with whole grain toast and avocado\n* Wednesday: Greek yogurt with berries and granola\n* Thursday: Smoothie bowl with spinach, banana, and almond milk\n* Friday: Whole grain waffles with fresh fruit and a dollop of yogurt\n\n**Lunch (around 2-3 pm)**\n\n* Monday: Grilled chicken breast with quinoa and steamed vegetables\n* Tuesday: Whole grain pita with hummus, cucumber, and tomato\n* Wednesday: Lentil soup with whole grain bread\n* Thursday: Grilled salmon with brown rice and mixed vegetables\n* Friday: Turkey and avocado wrap with mixed greens\n\n**Dinner (around 6-7 pm, before starting work)**\n\n* Monday: Grilled chicken breast with roasted vegetables and quinoa\n* Tuesday: Stir-fry with tofu, mixed vegetables, and brown rice\n* Wednesday: Baked salmon with sweet potato and green beans\n* Thursday: Grilled turkey burger with whole grain bun and mixed vegetables\n* Friday: Slow cooker chili with whole grain crackers\n\n**Snacks (every 3-4 hours)**\n\n* Fresh fruit and nuts\n* Energy balls\n* Yogurt parfaits\n* Hard-boiled eggs\n* Carrot sticks with hummus\n\n**Tips for Managing Irregular Sleep Patterns:**\n\n1. **Establish a Bedtime Routine:** Develop a consistent pre-sleep routine to signal your body that it's time to sleep.\n2. **Create a Sleep-Conducive Environment:** Make your bedroom dark, quiet, and cool to promote better sleep.\n3. **Avoid Stimulants:** Limit caffeine, nicotine, and electronic screen time before bedtime.\n4. **Take Power Naps:** If needed, take short naps (20-30 minutes) to recharge and improve alertness.\n5. **Prioritize Self-Care:** Engage in stress-reducing activities, such as meditation, yoga, or reading, to help manage stress and promote relaxation.\n\n**Additional Tips:**\n\n1. **Consult a Healthcare Professional:** Discuss your dietary needs and concerns with a registered dietitian or a healthcare provider to create a personalized plan.\n2. **Stay Active:** Incorporate physical activity into your daily routine, such as a short walk or some stretching exercises, to help manage stress and improve overall health.\n3. **Be Patient and Flexible:** Adjust your diet plan as needed, and don't be too hard on yourself if you encounter setbacks. Remember, progress is more important than perfection.\n\nBy following this balanced diet plan and incorporating strategies to manage irregular sleep patterns, you can achieve your weight loss goals and improve your overall health and well-being.",
+  "extracted": {
+    "summary": "The response provides a balanced diet plan for weight loss tailored for someone working night shifts, emphasizing regular meals, whole foods, and hydration.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "fruits",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with quinoa and steamed vegetables",
+        "ingredients": [
+          "chicken breast",
+          "quinoa",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken breast with roasted vegetables and quinoa",
+        "ingredients": [
+          "chicken breast",
+          "vegetables",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "fresh fruit and nuts",
+        "ingredients": [
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with whole grain toast and avocado",
+        "ingredients": [
+          "eggs",
+          "whole grain bread",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "whole grain pita with hummus, cucumber, and tomato",
+        "ingredients": [
+          "pita",
+          "hummus",
+          "cucumber",
+          "tomato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "stir-fry with tofu, mixed vegetables, and brown rice",
+        "ingredients": [
+          "tofu",
+          "vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "energy balls",
+        "ingredients": [
+          "oats",
+          "nuts",
+          "dried fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries and granola",
+        "ingredients": [
+          "yogurt",
+          "berries",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with whole grain bread",
+        "ingredients": [
+          "lentils",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with sweet potato and green beans",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "yogurt parfaits",
+        "ingredients": [
+          "yogurt",
+          "fruit",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl with spinach, banana, and almond milk",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "grilled salmon with brown rice and mixed vegetables",
+        "ingredients": [
+          "salmon",
+          "brown rice",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "grilled turkey burger with whole grain bun and mixed vegetables",
+        "ingredients": [
+          "turkey",
+          "whole grain bun",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled eggs",
+        "ingredients": [
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "boiling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "whole grain waffles with fresh fruit and a dollop of yogurt",
+        "ingredients": [
+          "whole grain waffles",
+          "fruit",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and avocado wrap with mixed greens",
+        "ingredients": [
+          "turkey",
+          "avocado",
+          "greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "slow cooker chili with whole grain crackers",
+        "ingredients": [
+          "chili",
+          "whole grain crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "banana",
+      "berries",
+      "brown rice",
+      "carrots",
+      "chicken breast",
+      "chili",
+      "cucumber",
+      "eggs",
+      "energy balls",
+      "fruit",
+      "granola",
+      "greek yogurt",
+      "hummus",
+      "lentils",
+      "mixed greens",
+      "mixed vegetables",
+      "nuts",
+      "oats",
+      "olive oil",
+      "pre-cooked meals",
+      "quinoa",
+      "salmon",
+      "scrambled eggs",
+      "seeds",
+      "spinach",
+      "sweet potato",
+      "tofu",
+      "turkey",
+      "vegetables",
+      "whole grain bread",
+      "whole grain bun",
+      "whole grain crackers",
+      "whole grain pita",
+      "whole grain waffles",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "scrambled eggs",
+      "greek yogurt",
+      "smoothie bowl",
+      "grilled chicken breast",
+      "whole grain pita",
+      "lentil soup",
+      "grilled salmon",
+      "baked salmon",
+      "grilled turkey burger",
+      "slow cooker chili",
+      "energy balls",
+      "yogurt parfaits",
+      "fresh fruit and nuts",
+      "carrot sticks with hummus",
+      "turkey and avocado wrap",
+      "whole grain waffles"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "night_shift"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3658,
+  "extraction_output_tokens": 2803,
+  "extraction_from_cache": false
+}

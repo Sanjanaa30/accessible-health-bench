@@ -1,0 +1,181 @@
+{
+  "prompt_id": "lif_base_02",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily fitness routine.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Daily Fitness Routine\n\n## Morning (5-10 min)\n- Light stretching or yoga\n- 10-20 jumping jacks or marching in place\n- Hydrate with water\n\n## Mid-Day Workout (20-30 min)\nChoose one option based on preference:\n\n**Strength Focus**\n- Warm-up: 5 min light cardio\n- 3 sets of: squats, push-ups, lunges\n- Cool-down stretch\n\n**Cardio Focus**\n- Brisk walking, jogging, cycling, or swimming\n- Steady pace for 20-30 minutes\n\n**Mixed Routine**\n- 10 min cardio\n- 15 min strength (bodyweight or weights)\n- 5 min cool-down\n\n## Evening (10 min)\n- Flexibility work: yoga or dynamic stretching\n- Deep breathing exercises\n\n## Tips for Success\n✓ Start slowly and build intensity gradually\n✓ Rest 1-2 days per week\n✓ Stay hydrated throughout the day\n✓ Eat balanced meals\n✓ Listen to your body—adjust as needed\n\n**Note:** Consult a doctor before starting a new fitness program, especially if you have health concerns.\n\nWould you like a routine tailored to a specific goal (weight loss, muscle gain, endurance)?",
+  "extracted": {
+    "summary": "The response provides a structured daily fitness routine that includes morning stretching, mid-day workouts with strength or cardio focus, and evening flexibility exercises.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "light stretching or yoga",
+        "activity_type": "flexibility",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "jumping jacks or marching in place",
+        "activity_type": "cardio",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Mid-Day Workout",
+        "activity_name": "strength workout",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Mid-Day Workout",
+        "activity_name": "brisk walking, jogging, cycling, or swimming",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Mid-Day Workout",
+        "activity_name": "mixed routine",
+        "activity_type": "mixed",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "flexibility work",
+        "activity_type": "flexibility",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "deep breathing exercises",
+        "activity_type": "other",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-day",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult a doctor before starting a new fitness program, especially if you have health concerns."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2802,
+  "extraction_output_tokens": 1189,
+  "extraction_from_cache": false
+}

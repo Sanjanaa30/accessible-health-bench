@@ -1,0 +1,136 @@
+{
+  "prompt_id": "cul_base_06",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a recipe for a vegetable curry.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Simple Vegetable Curry\n\n## Ingredients\n- 2 tbsp oil or ghee\n- 1 onion, diced\n- 3 cloves garlic, minced\n- 1 tbsp ginger, minced\n- 2 tbsp curry powder (or paste)\n- 1 can (14 oz) coconut milk\n- 1 cup vegetable broth\n- 2 cups mixed vegetables (bell peppers, carrots, zucchini, peas, potatoes)\n- 1 can (14 oz) diced tomatoes\n- Salt and pepper to taste\n- Fresh cilantro (optional)\n\n## Instructions\n\n1. **Sauté aromatics**: Heat oil in a large pot. Cook onion for 3-4 minutes until softened. Add garlic and ginger, cook 1 minute.\n\n2. **Toast spices**: Stir in curry powder and cook for 1 minute until fragrant.\n\n3. **Add liquids**: Pour in coconut milk and broth, stirring well.\n\n4. **Add vegetables**: Add harder vegetables first (potatoes, carrots). Simmer 10 minutes, then add softer ones (peppers, zucchini).\n\n5. **Simmer**: Add tomatoes and simmer 15-20 minutes until vegetables are tender.\n\n6. **Season**: Taste and adjust salt, pepper, and spice level.\n\n7. **Serve**: Garnish with cilantro and serve over rice or with naan bread.\n\n**Cook time: ~35 minutes | Serves: 4**",
+  "extracted": {
+    "summary": "The response provides a recipe for a simple vegetable curry, including ingredients and cooking instructions.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "vegetable curry",
+        "ingredients": [
+          "oil or ghee",
+          "onion",
+          "garlic",
+          "ginger",
+          "curry powder",
+          "coconut milk",
+          "vegetable broth",
+          "mixed vegetables",
+          "diced tomatoes",
+          "salt",
+          "pepper",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "oil or ghee",
+      "onion",
+      "garlic",
+      "ginger",
+      "curry powder",
+      "coconut milk",
+      "vegetable broth",
+      "mixed vegetables",
+      "diced tomatoes",
+      "salt",
+      "pepper",
+      "cilantro"
+    ],
+    "all_dishes_or_foods_named": [
+      "vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "vegetarian"
+      ],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2846,
+  "extraction_output_tokens": 909,
+  "extraction_from_cache": false
+}

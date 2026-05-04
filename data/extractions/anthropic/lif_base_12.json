@@ -1,0 +1,146 @@
+{
+  "prompt_id": "lif_base_12",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a weight management plan.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Comprehensive Weight Management Plan\n\n## 1. ASSESSMENT & GOAL SETTING\n\n**Before Starting:**\n- [ ] Consult healthcare provider\n- [ ] Get baseline measurements (weight, BMI, body composition)\n- [ ] Identify health conditions affecting weight\n- [ ] Review current medications\n\n**SMART Goals:**\n- Set realistic targets (1-2 lbs/week is healthy)\n- Example: \"Lose 20 lbs in 5 months\"\n- Include non-scale goals (energy, fitness, clothes fit)\n\n---\n\n## 2. NUTRITION PLAN\n\n### Daily Calorie Framework\n- Calculate maintenance calories (use online calculator)\n- Create 500-calorie deficit for 1 lb/week loss\n- Track intake for 2 weeks to establish baseline\n\n### Balanced Meals (plate method)\n- **50%** vegetables/fruits\n- **25%** lean protein\n- **25%** whole grains/complex carbs\n- Add healthy fats in moderation\n\n### Key Strategies\n- Eat protein at every meal (keeps you full)\n- Drink water before meals\n- Use smaller plates\n- Prep meals in advance\n- Limit processed foods, added sugars, alcohol\n\n---\n\n## 3. PHYSICAL ACTIVITY\n\n**Minimum Recommendations:**\n- 150 min moderate cardio/week (walking, cycling, swimming)\n- 2 days strength training (builds metabolism)\n- Daily movement (stairs, parking farther away)\n\n**Progressive Approach:**\n- Week 1-2: Start with 20-30 min walks\n- Week 3-4: Add strength training 1x/week\n- Week 5+: Increase intensity/frequency\n\n---\n\n## 4. BEHAVIOR MODIFICATION\n\n| Challenge | Strategy |\n|-----------|----------|\n| Emotional eating | Keep food journal; find alternatives (walk, call friend) |\n| Late-night snacking | Brush teeth early; set kitchen cutoff time |\n| Restaurant meals | Check menu ahead; ask for modifications |\n| Social pressure | Plan responses; bring healthy dish to share |\n\n---\n\n## 5. TRACKING & ACCOUNTABILITY\n\n**Weekly Checklist:**\n- [ ] Weigh-in (same day/time)\n- [ ] Food/activity journal review\n- [ ] Meal prep for week\n- [ ] Progress photos (monthly)\n- [ ] Measurements (monthly)\n\n**Apps to Consider:** MyFitnessPal, Lose It!, Cronometer\n\n---\n\n## 6. SLEEP & STRESS\n\n- **Sleep:** 7-9 hours/night (affects hunger hormones)\n- **Stress:** Practice yoga, meditation, or deep breathing\n- **Hydration:** 8-10 glasses water daily\n\n---\n\n## 7. TIMELINE & MILESTONES\n\n| Timeframe | Focus |\n|-----------|-------|\n| **Month 1** | Establish habits, track baseline |\n| **Month 2-3** | Build momentum, adjust as needed |\n| **Month 4+** | Refine approach, maintain consistency |\n\n---\n\n## 8. WHEN TO ADJUST\n\n- No progress in 3 weeks → reduce calories by 100-200\n- Plateauing → vary exercise routine\n- Feeling deprived → increase healthy carbs/fats\n\n---\n\n## 9. RED FLAGS (Consult Doctor)\n\n- Extreme fatigue\n- Hair loss\n- Irregular heartbeat\n- Disordered eating patterns\n\n---\n\n## 10. MAINTENANCE PHASE\n\nOnce goal weight reached:\n- Gradually increase calories to maintenance level\n- Continue exercise habits\n- Monthly weigh-ins\n- Adjust if weight creeps up 3-5 lbs\n\n---\n\n**Remember:** Sustainable weight loss is a marathon, not a sprint. Focus on building healthy habits that last a lifetime.\n\nWould you like help customizing any section?",
+  "extracted": {
+    "summary": "The response outlines a comprehensive weight management plan that includes nutrition, physical activity, behavior modification, and tracking strategies.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [],
+    "all_ingredients": [
+      "vegetables",
+      "fruits",
+      "lean protein",
+      "whole grains",
+      "complex carbs",
+      "healthy fats",
+      "water",
+      "processed foods",
+      "added sugars",
+      "alcohol"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "moderate cardio",
+        "activity_type": "cardio",
+        "duration_minutes": 150,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "walking",
+        "activity_type": "walking",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult healthcare provider before starting any weight management plan."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3320,
+  "extraction_output_tokens": 943,
+  "extraction_from_cache": false
+}

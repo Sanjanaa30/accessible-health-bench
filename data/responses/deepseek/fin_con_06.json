@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_06",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What is a good post-workout meal for building muscle? I need it to cost less than $2.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "For under $2, you need to prioritize **protein** (for muscle repair) and **carbs** (to replenish glycogen). The absolute best option is **canned tuna + instant rice** (or a potato).\n\nHere is the cheapest, most effective post-workout meal for muscle building, costing roughly **$1.50–$1.80**:\n\n### The Meal: Tuna & Rice Bowl\n- **1 can (5 oz) chunk light tuna in water** (~$0.90–$1.20)\n- **1 cup cooked instant white rice** (~$0.15–$0.20)\n- **1/2 packet of soy sauce or a pinch of salt** (~$0.05)\n\n**Why it works:**\n- **Tuna** gives you ~25g of complete protein (high in leucine, which triggers muscle synthesis).\n- **Rice** provides fast-digesting carbs to refill muscle glycogen and spike insulin (which helps shuttle protein into muscles).\n- **Total cost:** ~$1.20–$1.45.\n\n### How to make it even cheaper/better (if you have a little extra):\n- **Add a hard-boiled egg** (+$0.20, +6g protein).\n- **Use a potato instead of rice** (a medium russet potato costs ~$0.30 and is just as good).\n- **Add a handful of frozen peas or corn** (+$0.10, adds fiber and micronutrients).\n\n### 3 Other Under-$2 Options:\n| Meal | Protein | Carbs | Cost |\n|------|---------|-------|------|\n| **2 hard-boiled eggs + 1 banana** | 12g | 30g | ~$0.60 |\n| **1 cup low-fat cottage cheese + 1/2 cup canned pineapple** | 28g | 20g | ~$1.60 |\n| **1 scoop bulk whey protein (from a large bag) + water** | 25g | 0g | ~$1.00 |\n\n**Note:** If you can buy in bulk (e.g., a 5lb bag of rice, a 12-pack of tuna, or a large bag of whey protein), your per-meal cost drops significantly below $2. The tuna + rice combo is the single best \"bang for your buck\" for muscle building.",
+  "input_tokens": 26,
+  "output_tokens": 495,
+  "from_cache": false,
+  "timestamp": "2026-04-27T10:45:00.761468"
+}

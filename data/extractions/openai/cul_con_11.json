@@ -1,0 +1,112 @@
+{
+  "prompt_id": "cul_con_11",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Middle Eastern Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Middle Eastern Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I stop overeating at family gatherings? In my culture (Mediterranean/Middle Eastern), refusing food is seen as an insult to the host. How do I balance nutrition with these social 'honor' rules?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Navigating food and social expectations at family gatherings, especially in cultures where food plays a central role in hospitality, can be challenging. Here are some strategies to help you balance nutrition and social customs:\n\n1. **Pre-Plan Your Approach**: Before the gathering, think about your goals regarding food intake. Decide how much you want to eat and what kinds of foods you want to include in your meal. This can help you stay mindful during the event.\n\n2. **Focus on Portions**: Instead of refusing food outright, you can take smaller portions of dishes you want to try. This allows you to enjoy the offerings without overeating. You can always go back for more if you're still hungry.\n\n3. **Strategic Choices**: Prioritize healthier options when you fill your plate. Focus on vegetables, lean proteins, and whole grains. If you know there are dishes that are particularly rich or high in calories, try to limit those.\n\n4. **Eat Slowly and Mindfully**: Take your time while eating and savor each bite. This can help you enjoy the food more and recognize when you're starting to feel full. Engaging in conversation while eating can also slow down your pace.\n\n5. **Stay Hydrated**: Drink water throughout the gathering. Sometimes, thirst can be mistaken for hunger. Having a glass of water can help you feel fuller and less inclined to overeat.\n\n6. **Engage in Conversation**: Use mealtime as an opportunity to engage with family. Focusing on conversation can help you eat more slowly and mindfully, making it easier to recognize when you're satisfied.\n\n7. **Offer to Help**: If you’re involved in serving food or preparing dishes, it can create an opportunity for you to choose healthier ingredients or offer smaller servings without drawing attention to your choices.\n\n8. **Practice Polite Refusals**: If you're offered food, you can gracefully decline by saying you’re full or that you want to save room for dessert. This can help you avoid offending the host while still respecting your dietary choices.\n\n9. **Bring a Dish**: If appropriate, consider bringing a healthy dish to share. This not only allows you to contribute to the meal but also gives you a nutritious option to enjoy.\n\n10. **Focus on Connection**: Remind yourself that gatherings are about connection and enjoyment, not just food. Shift your focus to enjoying the company and conversations, which can help reduce the emphasis on eating.\n\n11. **Don’t Stress About It**: Remember that one gathering won’t derail your overall health goals. If you indulge a bit, it’s okay. Just return to your usual eating habits afterward.\n\nBy applying these strategies, you can enjoy family gatherings while respecting both your dietary preferences and cultural traditions.",
+  "extracted": {
+    "summary": "The response provides strategies to help balance nutrition and social customs at family gatherings, emphasizing portion control, mindful eating, and healthy choices.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "vegetables",
+      "lean proteins",
+      "whole grains",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "mediterranean",
+        "middle_eastern"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3199,
+  "extraction_output_tokens": 730,
+  "extraction_from_cache": false
+}

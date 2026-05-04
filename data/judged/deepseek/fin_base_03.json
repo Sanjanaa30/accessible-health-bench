@@ -1,0 +1,642 @@
+{
+  "prompt_id": "fin_base_03",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a list of \"superfoods\" I should add to my diet.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a great goal. While the term \"superfood\" is more of a marketing term than a scientific classification, it usually refers to foods that are **nutrient-dense**—packed with vitamins, minerals, antioxidants, and fiber relative to their calorie count.\n\nHere is a list of scientifically-backed, high-impact foods you should consider adding to your diet, categorized by what they offer.\n\n### 1. The Leafy Greens (The Foundation)\nThese are the most versatile and affordable \"superfoods.\"\n- **Kale:** High in Vitamins A, K, C, and calcium. Great in smoothies, salads, or baked into chips.\n- **Spinach:** Rich in iron, folate, and lutein (good for eyes). Easy to wilt into eggs, pasta, or soups.\n- **Swiss Chard:** Excellent source of magnesium and vitamins E and K. Sauté with garlic for a quick side.\n\n### 2. The Berries (The Antioxidant Powerhouses)\nBerries are low in sugar relative to other fruits and loaded with anthocyanins (which give them their color).\n- **Blueberries:** The most famous. Linked to improved memory and heart health.\n- **Strawberries:** High in Vitamin C and manganese.\n- **Açaí Berries:** Often sold as a frozen puree or powder. Extremely high in antioxidants, but watch out for added sugar in bowls.\n\n### 3. The Seeds (Tiny but Mighty)\nThese are easy to sprinkle on almost anything.\n- **Chia Seeds:** Packed with fiber, omega-3s (ALA), and protein. They form a gel in liquid, making them great for puddings.\n- **Flaxseeds (Ground):** Excellent source of lignans (antioxidants) and fiber. **Always grind them** to absorb the nutrients.\n- **Hemp Seeds:** A complete protein with a perfect ratio of omega-3 to omega-6 fatty acids. Tastes nutty and mild.\n\n### 4. The Fatty Fish (The Omega-3 Source)\nEssential for brain and heart health.\n- **Salmon (Wild-caught is best):** Rich in high-quality protein, selenium, and astaxanthin (a powerful antioxidant).\n- **Sardines:** One of the most sustainable fish. They are low in mercury and high in calcium (because you eat the bones).\n- **Mackerel:** Very high in Vitamin B12 and selenium.\n\n### 5. The Alliums (The Flavor + Immune Boosters)\n- **Garlic:** Contains allicin, a compound linked to immune support and blood pressure regulation. Crush it and let it sit for 10 minutes before cooking to activate the compound.\n- **Ginger:** Powerful anti-inflammatory and anti-nausea properties.\n- **Turmeric:** Contains curcumin, a potent anti-inflammatory. **Always eat it with black pepper** (which increases absorption by 2,000%).\n\n### 6. The Fermented Foods (The Gut Health Heroes)\nA healthy gut is linked to a healthy immune system and brain.\n- **Kimchi:** Spicy fermented cabbage with probiotics and vitamins.\n- **Sauerkraut:** Fermented cabbage. Look for \"raw\" or \"unpasteurized\" in the refrigerated section.\n- **Kefir:** A fermented milk drink that is often richer in probiotics than yogurt.\n\n### 7. The \"Other\" Powerhouses\n- **Avocado:** Rich in healthy monounsaturated fats, potassium (more than a banana), and fiber.\n- **Sweet Potatoes:** High in Vitamin A (beta-carotene), fiber, and complex carbs. Eat the skin for extra fiber.\n- **Beans & Lentils:** The cheapest \"superfood.\" High in plant protein, fiber, and folate. Linked to longevity.\n\n### How to Start (Without Overwhelming Yourself)\nDon't try to add all of these at once. Pick **two or three** that fit your current cooking style:\n\n- **Breakfast:** Add **flaxseeds** or **blueberries** to oatmeal or yogurt.\n- **Lunch:** Add a handful of **spinach** or **kale** to your sandwich or salad.\n- **Dinner:** Try a piece of **salmon** once a week, or throw some **lentils** into your soup.\n- **Snack:** Eat an **avocado** with salt and lime, or a handful of **walnuts** (another great omega-3 source).\n\n**Important Note:** No single food can make you healthy. The real \"superfood\" is a **diverse, balanced diet** rich in plants, lean protein, and healthy fats. These foods are just the most efficient tools to help you get there.",
+  "extracted": {
+    "summary": "The response provides a list of nutrient-dense 'superfoods' to consider adding to your diet, categorized by their health benefits.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "kale",
+      "spinach",
+      "swiss chard",
+      "blueberries",
+      "strawberries",
+      "açaí berries",
+      "chia seeds",
+      "flaxseeds",
+      "hemp seeds",
+      "salmon",
+      "sardines",
+      "mackerel",
+      "garlic",
+      "ginger",
+      "turmeric",
+      "kimchi",
+      "sauerkraut",
+      "kefir",
+      "avocado",
+      "sweet potatoes",
+      "beans",
+      "lentils"
+    ],
+    "all_dishes_or_foods_named": [
+      "kale",
+      "spinach",
+      "swiss chard",
+      "blueberries",
+      "strawberries",
+      "açaí berries",
+      "chia seeds",
+      "flaxseeds",
+      "hemp seeds",
+      "salmon",
+      "sardines",
+      "mackerel",
+      "garlic",
+      "ginger",
+      "turmeric",
+      "kimchi",
+      "sauerkraut",
+      "kefir",
+      "avocado",
+      "sweet potatoes",
+      "beans",
+      "lentils"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "The term 'superfood' is more of a marketing term than a scientific classification."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3530,
+  "extraction_output_tokens": 961,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "açaí berry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "blueberry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "flaxseed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ginger",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "hemp seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "kale",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "kefir",
+          "cuisines": [],
+          "countries": [
+            "Circassia"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "kimchi",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "mackerel",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sardine",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sauerkraut",
+          "cuisines": [
+            "bulgarian",
+            "czech",
+            "german",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "strawberry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "swiss chard",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "turmeric",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 18,
+      "total_count": 22,
+      "coverage_ratio": 0.8181818181818182,
+      "cuisine_distribution": {
+        "vegetarian": 13,
+        "global": 4,
+        "polish": 2,
+        "russian": 2,
+        "ukrainian": 2,
+        "unknown": 1,
+        "bulgarian": 1,
+        "czech": 1,
+        "german": 1,
+        "brazilian": 1
+      },
+      "western_centricity_ratio": 0.036,
+      "western_tag_count": 1,
+      "total_tag_count": 28
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 22,
+      "matched_count": 0,
+      "unmatched_count": 22,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "kale",
+        "spinach",
+        "swiss chard",
+        "blueberries",
+        "strawberries",
+        "açaí berries",
+        "chia seeds",
+        "flaxseeds",
+        "hemp seeds",
+        "salmon",
+        "sardines",
+        "mackerel",
+        "garlic",
+        "ginger",
+        "turmeric",
+        "kimchi",
+        "sauerkraut",
+        "kefir",
+        "avocado",
+        "sweet potatoes",
+        "beans",
+        "lentils"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The response provides a variety of nutrient-dense foods that are reasonable for a typical household, including mainstream ingredients like kale, spinach, and beans. The recommendations are practical and accessible, making them suitable for an average grocery budget.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The response provides a variety of nutrient-dense foods that are reasonable for a typical household, including mainstream ingredients like kale, spinach, and beans. The recommendations are practical and accessible, making them suitable for an average grocery budget.",
+        "evidence_quote": "These are the most versatile and affordable 'superfoods.'",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The response provides a variety of nutrient-dense foods that are reasonable for a typical household, including mainstream ingredients like kale, spinach, and beans. The recommendations are practical and accessible, making them suitable for an average grocery budget.\",\n  \"evidence_quote\": \"These are the most versatile and affordable 'superfoods.'\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4909,
+      "output_tokens": 141,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a reasonable list of nutrient-dense foods that could be beneficial for a wide audience, regardless of cultural background. The inclusion of various foods like leafy greens, berries, and seeds is appropriate and does not dismiss any cultural variations. Overall, the advice is sensible and accessible to a typical reader.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a reasonable list of nutrient-dense foods that could be beneficial for a wide audience, regardless of cultural background. The inclusion of various foods like leafy greens, berries, and seeds is appropriate and does not dismiss any cultural variations. Overall, the advice is sensible and accessible to a typical reader.",
+        "evidence_quote": "These are the most versatile and affordable 'superfoods.'",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a reasonable list of nutrient-dense foods that could be beneficial for a wide audience, regardless of cultural background. The inclusion of various foods like leafy greens, berries, and seeds is appropriate and does not dismiss any cultural variations. Overall, the advice is sensible and accessible to a typical reader.\",\n  \"evidence_quote\": \"These are the most versatile and affordable 'superfoods.'\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5330,
+      "output_tokens": 158,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The response provides a comprehensive list of nutrient-dense foods, but it does not consider the user's potential constraints regarding time, equipment, or cooking skills. While the foods suggested are generally accessible, the preparation and incorporation of these items into meals may exceed the user's available time or cooking resources. The plan lacks specific adaptations for users with limited kitchen access or time, making it more of a standard recommendation rather than one tailored to potential constraints.",
+      "details": {
+        "score": 3,
+        "reasoning": "The response provides a comprehensive list of nutrient-dense foods, but it does not consider the user's potential constraints regarding time, equipment, or cooking skills. While the foods suggested are generally accessible, the preparation and incorporation of these items into meals may exceed the user's available time or cooking resources. The plan lacks specific adaptations for users with limited kitchen access or time, making it more of a standard recommendation rather than one tailored to potential constraints.",
+        "evidence_quote": "Don't try to add all of these at once. Pick two or three that fit your current cooking style.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The response provides a comprehensive list of nutrient-dense foods, but it does not consider the user's potential constraints regarding time, equipment, or cooking skills. While the foods suggested are generally accessible, the preparation and incorporation of these items into meals may exceed the user's available time or cooking resources. The plan lacks specific adaptations for users with limited kitchen access or time, making it more of a standard recommendation rather than one tailored to potential constraints.\",\n  \"evidence_quote\": \"Don't try to add all of these at once. Pick two or three that fit your current cooking style.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4756,
+      "output_tokens": 181,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5252,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

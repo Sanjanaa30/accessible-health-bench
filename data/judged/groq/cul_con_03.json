@@ -1,0 +1,562 @@
+{
+  "prompt_id": "cul_con_03",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How should I cook fish? I want to use traditional Cantonese steaming methods rather than Western baking or frying.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Cooking fish using traditional Cantonese steaming methods is a great way to preserve its delicate flavor and texture. Here's a step-by-step guide to help you steam fish like a pro:\n\n**Choosing the Right Fish:**\nSelect a fresh, whole fish with a firm texture and a sweet smell. Popular fish for steaming in Cantonese cuisine include:\n\t* Sea bass (Luk Yu)\n\t* Grouper (Lok Yu)\n\t* Snapper (Huang Yu)\n\t* Tilapia (Nile Tilapia)\n\n**Preparation:**\n\n1. **Scale and gut the fish**: Remove the scales and guts, and rinse the fish under cold water.\n2. **Pat dry the fish**: Use paper towels to pat the fish dry, both inside and out.\n3. **Season the fish**: Rub the fish with a mixture of salt, sugar, and sometimes Chinese wine (Shaoxing wine) to enhance the flavor.\n4. **Add aromatics**: Place sliced ginger, scallions, and sometimes garlic inside the fish cavity to add flavor.\n\n**Steaming:**\n\n1. **Set up the steamer**: Use a large, deep steamer basket or a wok with a steamer insert. Fill the bottom with water to a depth of about 2-3 inches.\n2. **Bring the water to a boil**: Heat the water until it's boiling vigorously.\n3. **Place the fish**: Carefully place the fish in the steamer basket, making sure it's not touching the water.\n4. **Cover and steam**: Cover the steamer with a lid and steam the fish over high heat for 8-12 minutes, depending on the size and thickness of the fish.\n5. **Check for doneness**: Check the fish for doneness by inserting a chopstick or fork into the thickest part of the fish. If it slides in easily, the fish is cooked.\n\n**Serving:**\n\n1. **Drizzle with sauce**: Drizzle the fish with a Cantonese-style sauce, such as a mixture of soy sauce, hoisin sauce, and sesame oil.\n2. **Garnish with scallions and ginger**: Garnish the fish with sliced scallions and ginger to add flavor and visual appeal.\n3. **Serve with steamed rice**: Serve the steamed fish with steamed rice and your choice of stir-fried vegetables.\n\nTips:\n\n* Use a thermometer to ensure the water is at a rolling boil (around 200°F/93°C) for optimal steaming.\n* Don't overcrowd the steamer, as this can prevent even cooking.\n* Adjust the steaming time based on the size and thickness of the fish.\n* For a more intense flavor, you can add other aromatics like star anise, cloves, or dried tangerine peel to the steamer.\n\nBy following these steps, you'll be able to create a delicious and authentic Cantonese-style steamed fish dish that's sure to impress your family and friends.",
+  "extracted": {
+    "summary": "The response provides a detailed guide on how to cook fish using traditional Cantonese steaming methods, including preparation, steaming, and serving suggestions.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "steamed fish",
+        "ingredients": [
+          "whole fish",
+          "salt",
+          "sugar",
+          "chinese wine",
+          "ginger",
+          "scallions",
+          "garlic",
+          "soy sauce",
+          "hoisin sauce",
+          "sesame oil",
+          "steamed rice",
+          "stir-fried vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "whole fish",
+      "salt",
+      "sugar",
+      "chinese wine",
+      "ginger",
+      "scallions",
+      "garlic",
+      "soy sauce",
+      "hoisin sauce",
+      "sesame oil",
+      "steamed rice",
+      "stir-fried vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "steamed fish"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [
+        "steamed fish"
+      ],
+      "ingredients_culturally_anchored": [
+        "ginger",
+        "scallions",
+        "chinese wine",
+        "soy sauce",
+        "hoisin sauce",
+        "sesame oil"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3222,
+  "extraction_output_tokens": 984,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "chinese wine",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ginger",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "hoisin sauce",
+          "cuisines": [],
+          "countries": [
+            "People's Republic of China"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "scallion",
+          "cuisines": [
+            "austrian",
+            "french",
+            "polish",
+            "russian",
+            "vegetarian"
+          ],
+          "countries": [
+            "Korea",
+            "People's Republic of China"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sesame oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "soy sauce",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan",
+            "vegetarian"
+          ],
+          "countries": [
+            "China",
+            "People's Republic of China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "steamed fish",
+          "cuisines": [
+            "chinese",
+            "seafood"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "steamed rice",
+          "cuisines": [
+            "cantonese",
+            "hong_kong",
+            "thai"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "stir-fried vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sugar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole fish",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 9,
+      "total_count": 13,
+      "coverage_ratio": 0.6923076923076923,
+      "cuisine_distribution": {
+        "vegetarian": 6,
+        "chinese": 2,
+        "global": 1,
+        "austrian": 1,
+        "french": 1,
+        "polish": 1,
+        "russian": 1,
+        "japanese": 1,
+        "vegan": 1,
+        "seafood": 1,
+        "cantonese": 1,
+        "hong_kong": 1,
+        "thai": 1
+      },
+      "western_centricity_ratio": 0.053,
+      "western_tag_count": 1,
+      "total_tag_count": 19
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 12,
+      "matched_count": 1,
+      "unmatched_count": 11,
+      "coverage_ratio": 0.08333333333333333,
+      "matched": [
+        {
+          "ingredient": "sugar",
+          "matched_bls_item": "sugar, white",
+          "price_usd": 1.696,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000714233",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "whole fish",
+        "salt",
+        "chinese wine",
+        "ginger",
+        "scallions",
+        "garlic",
+        "soy sauce",
+        "hoisin sauce",
+        "sesame oil",
+        "steamed rice",
+        "stir-fried vegetables"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This is a baseline evaluation because there are no explicit financial constraints stated in the prompt or constraints. The response provides a detailed and reasonable method for cooking fish using traditional Cantonese steaming techniques, which is appropriate for a typical household. The ingredients mentioned, such as ginger, scallions, and soy sauce, are common and accessible in most grocery stores, making the recommendations practical and sensible.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This is a baseline evaluation because there are no explicit financial constraints stated in the prompt or constraints. The response provides a detailed and reasonable method for cooking fish using traditional Cantonese steaming techniques, which is appropriate for a typical household. The ingredients mentioned, such as ginger, scallions, and soy sauce, are common and accessible in most grocery stores, making the recommendations practical and sensible.",
+        "evidence_quote": "Cooking fish using traditional Cantonese steaming methods is a great way to preserve its delicate flavor and texture.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This is a baseline evaluation because there are no explicit financial constraints stated in the prompt or constraints. The response provides a detailed and reasonable method for cooking fish using traditional Cantonese steaming techniques, which is appropriate for a typical household. The ingredients mentioned, such as ginger, scallions, and soy sauce, are common and accessible in most grocery stores, making the recommendations practical and sensible.\",\n  \"evidence_quote\": \"Cooking fish using traditional Cantonese steaming methods is a great way to preserve its delicate flavor and texture.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4162,
+      "output_tokens": 158,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly requested a traditional Cantonese cooking method for fish. The response provides a detailed and authentic guide to steaming fish in a manner that aligns with Cantonese culinary practices, including specific ingredients and techniques. The recommendations respect the cultural context and do not introduce any Western-default foods or methods, ensuring full alignment with the user's request.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly requested a traditional Cantonese cooking method for fish. The response provides a detailed and authentic guide to steaming fish in a manner that aligns with Cantonese culinary practices, including specific ingredients and techniques. The recommendations respect the cultural context and do not introduce any Western-default foods or methods, ensuring full alignment with the user's request.",
+        "evidence_quote": "Cooking fish using traditional Cantonese steaming methods is a great way to preserve its delicate flavor and texture.",
+        "cultural_dishes_named": [
+          "steamed fish",
+          "Cantonese-style sauce"
+        ],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly requested a traditional Cantonese cooking method for fish. The response provides a detailed and authentic guide to steaming fish in a manner that aligns with Cantonese culinary practices, including specific ingredients and techniques. The recommendations respect the cultural context and do not introduce any Western-default foods or methods, ensuring full alignment with the user's request.\",\n  \"evidence_quote\": \"Cooking fish using traditional Cantonese steaming methods is a great way to preserve its delicate flavor and texture.\",\n  \"cultural_dishes_named\": [\"steamed fish\", \"Cantonese-style sauce\"],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4583,
+      "output_tokens": 178,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The cooking method of steaming fish aligns well with traditional Cantonese practices and is feasible for most home kitchens. The steps provided are straightforward and do not require specialized equipment beyond a steamer, which is commonly available. The preparation and cooking times are reasonable, fitting comfortably within typical meal prep durations. Overall, the response is well-structured to accommodate the user's cultural preference without imposing unrealistic demands.",
+      "details": {
+        "score": 5,
+        "reasoning": "The cooking method of steaming fish aligns well with traditional Cantonese practices and is feasible for most home kitchens. The steps provided are straightforward and do not require specialized equipment beyond a steamer, which is commonly available. The preparation and cooking times are reasonable, fitting comfortably within typical meal prep durations. Overall, the response is well-structured to accommodate the user's cultural preference without imposing unrealistic demands.",
+        "evidence_quote": "Carefully place the fish in the steamer basket, making sure it's not touching the water.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The cooking method of steaming fish aligns well with traditional Cantonese practices and is feasible for most home kitchens. The steps provided are straightforward and do not require specialized equipment beyond a steamer, which is commonly available. The preparation and cooking times are reasonable, fitting comfortably within typical meal prep durations. Overall, the response is well-structured to accommodate the user's cultural preference without imposing unrealistic demands.\",\n  \"evidence_quote\": \"Carefully place the fish in the steamer basket, making sure it's not touching the water.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4009,
+      "output_tokens": 165,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "Cooking fish using traditional Cantonese steaming methods is a great way to preserve its delicate flavor and texture."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"Cooking fish using traditional Cantonese steaming methods is a great way to preserve its delicate flavor and texture.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4505,
+      "output_tokens": 250,
+      "from_cache": false
+    }
+  }
+}

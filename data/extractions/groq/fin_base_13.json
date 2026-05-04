@@ -1,0 +1,468 @@
+{
+  "prompt_id": "fin_base_13",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a workout plan and a diet to help me lose 10 lbs.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "**Disclaimer:** Before starting any new diet or exercise program, please consult with a healthcare professional to ensure it's safe and suitable for your individual needs.\n\nTo help you lose 10 pounds, I'll provide a comprehensive workout plan and diet plan. Please note that a healthy weight loss goal is 1-2 pounds per week, so this plan is designed to promote sustainable weight loss over a period of 5-10 weeks.\n\n**Workout Plan:**\n\nThis plan will focus on a combination of cardiovascular exercise, strength training, and high-intensity interval training (HIIT) to help you burn calories and build lean muscle mass.\n\n**Monday (Cardio Day):**\n\n1. Warm-up: 5-10 minutes of light cardio (jogging, jumping jacks, etc.)\n2. Brisk walking or jogging: 30-45 minutes\n3. Cool-down: 5-10 minutes of stretching\n\n**Tuesday (Upper Body Strength Training):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Push-ups: 3 sets of 12 reps\n3. Bicep curls: 3 sets of 12 reps\n4. Tricep dips: 3 sets of 12 reps\n5. Shoulder press: 3 sets of 12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Wednesday (Rest Day)**\n\n**Thursday (Lower Body Strength Training):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Squats: 3 sets of 12 reps\n3. Lunges: 3 sets of 12 reps (per leg)\n4. Calf raises: 3 sets of 12 reps\n5. Leg press: 3 sets of 12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Friday (Cardio Day):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Swimming, cycling, or rowing: 30-45 minutes\n3. Cool-down: 5-10 minutes of stretching\n\n**Saturday (HIIT Day):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Sprints: 30 seconds of all-out effort, followed by 30 seconds of rest (repeat for 15-20 minutes)\n3. Burpees: 3 sets of 12 reps\n4. Jump squats: 3 sets of 12 reps\n5. Mountain climbers: 3 sets of 12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Sunday (Rest Day)**\n\n**Diet Plan:**\n\nTo support your weight loss goals, focus on a balanced diet that includes plenty of fruits, vegetables, whole grains, lean protein sources, and healthy fats. Aim to eat 5-6 meals per day, spaced out every 2-3 hours.\n\n**Breakfast:**\n\n* Oatmeal with fruit and nuts (250-300 calories)\n* Greek yogurt with berries and granola (200-250 calories)\n\n**Mid-Morning Snack:**\n\n* Fresh fruit and cheese (150-200 calories)\n* Hard-boiled egg and whole-grain crackers (100-150 calories)\n\n**Lunch:**\n\n* Grilled chicken breast with brown rice and steamed vegetables (400-500 calories)\n* Whole-grain pita with hummus, cucumber, and tomato (400-500 calories)\n\n**Mid-Afternoon Snack:**\n\n* Carrot sticks with hummus (100-150 calories)\n* Protein smoothie with Greek yogurt, banana, and spinach (200-250 calories)\n\n**Dinner:**\n\n* Grilled salmon with quinoa and roasted vegetables (500-600 calories)\n* Grilled turkey breast with sweet potato and green beans (500-600 calories)\n\n**Before Bedtime Snack:**\n\n* Cottage cheese with fruit (150-200 calories)\n* Whole-grain crackers with almond butter and banana slices (150-200 calories)\n\n**Tips and Recommendations:**\n\n1. Drink at least 8-10 glasses of water per day.\n2. Aim to eat 1.6-2.2 grams of protein per kilogram of body weight per day.\n3. Include healthy fats like nuts, seeds, avocado, and olive oil in your diet.\n4. Limit your intake of processed foods, sugary drinks, and saturated fats.\n5. Get enough sleep (7-9 hours per night) to support weight loss and overall health.\n\n**Progress Tracking:**\n\n1. Weigh yourself once a week.\n2. Take body measurements once a week.\n3. Track your food intake and physical activity using a journal or mobile app.\n4. Monitor your progress and adjust your diet and workout plan as needed.\n\nRemember, losing weight too quickly is not healthy and is unlikely to be sustainable. Focus on making gradual, long-term changes to your diet and exercise habits to achieve a healthy weight and maintain it for the rest of your life.",
+  "extracted": {
+    "summary": "The response provides a detailed workout plan and a balanced diet plan aimed at helping the user lose 10 pounds over 5-10 weeks.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruit and nuts",
+        "ingredients": [
+          "oatmeal",
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries and granola",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "fresh fruit and cheese",
+        "ingredients": [
+          "fruit",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg and whole-grain crackers",
+        "ingredients": [
+          "egg",
+          "whole-grain crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with brown rice and steamed vegetables",
+        "ingredients": [
+          "chicken breast",
+          "brown rice",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "whole-grain pita with hummus, cucumber, and tomato",
+        "ingredients": [
+          "pita",
+          "hummus",
+          "cucumber",
+          "tomato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "protein smoothie with greek yogurt, banana, and spinach",
+        "ingredients": [
+          "greek yogurt",
+          "banana",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon with quinoa and roasted vegetables",
+        "ingredients": [
+          "salmon",
+          "quinoa",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "grilled turkey breast with sweet potato and green beans",
+        "ingredients": [
+          "turkey breast",
+          "sweet potato",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with fruit",
+        "ingredients": [
+          "cottage cheese",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "whole-grain crackers with almond butter and banana slices",
+        "ingredients": [
+          "whole-grain crackers",
+          "almond butter",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "banana",
+      "bicep curls",
+      "burpees",
+      "calf raises",
+      "carrot sticks",
+      "chicken breast",
+      "cottage cheese",
+      "cucumber",
+      "egg",
+      "fruit",
+      "garlic",
+      "granola",
+      "greek yogurt",
+      "hummus",
+      "jump squats",
+      "leg press",
+      "lunges",
+      "mountain climbers",
+      "nuts",
+      "oatmeal",
+      "olive oil",
+      "protein",
+      "quinoa",
+      "salmon",
+      "shoulder press",
+      "squats",
+      "sweet potato",
+      "tomato",
+      "turkey breast",
+      "vegetables",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with fruit and nuts",
+      "greek yogurt with berries and granola",
+      "fresh fruit and cheese",
+      "hard-boiled egg and whole-grain crackers",
+      "grilled chicken breast with brown rice and steamed vegetables",
+      "whole-grain pita with hummus, cucumber, and tomato",
+      "carrot sticks with hummus",
+      "protein smoothie with greek yogurt, banana, and spinach",
+      "grilled salmon with quinoa and roasted vegetables",
+      "grilled turkey breast with sweet potato and green beans",
+      "cottage cheese with fruit",
+      "whole-grain crackers with almond butter and banana slices"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "brisk walking or jogging",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "bicep curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "shoulder press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "swimming, cycling, or rowing",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "sprints",
+        "activity_type": "hiit",
+        "duration_minutes": 20,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "burpees",
+        "activity_type": "hiit",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "jump squats",
+        "activity_type": "hiit",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "mountain climbers",
+        "activity_type": "hiit",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Before starting any new diet or exercise program, please consult with a healthcare professional to ensure it's safe and suitable for your individual needs."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3568,
+  "extraction_output_tokens": 2986,
+  "extraction_from_cache": false
+}

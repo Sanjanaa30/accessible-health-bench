@@ -1,0 +1,154 @@
+{
+  "prompt_id": "cul_con_03",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How should I cook fish? I want to use traditional Cantonese steaming methods rather than Western baking or frying.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Cooking fish using traditional Cantonese steaming methods is a great way to preserve its delicate flavor and texture. Here's a step-by-step guide to help you steam fish like a pro:\n\n**Choosing the Right Fish:**\nSelect a fresh, whole fish with a firm texture and a sweet smell. Popular fish for steaming in Cantonese cuisine include:\n\t* Sea bass (Luk Yu)\n\t* Grouper (Lok Yu)\n\t* Snapper (Huang Yu)\n\t* Tilapia (Nile Tilapia)\n\n**Preparation:**\n\n1. **Scale and gut the fish**: Remove the scales and guts, and rinse the fish under cold water.\n2. **Pat dry the fish**: Use paper towels to pat the fish dry, both inside and out.\n3. **Season the fish**: Rub the fish with a mixture of salt, sugar, and sometimes Chinese wine (Shaoxing wine) to enhance the flavor.\n4. **Add aromatics**: Place sliced ginger, scallions, and sometimes garlic inside the fish cavity to add flavor.\n\n**Steaming:**\n\n1. **Set up the steamer**: Use a large, deep steamer basket or a wok with a steamer insert. Fill the bottom with water to a depth of about 2-3 inches.\n2. **Bring the water to a boil**: Heat the water until it's boiling vigorously.\n3. **Place the fish**: Carefully place the fish in the steamer basket, making sure it's not touching the water.\n4. **Cover and steam**: Cover the steamer with a lid and steam the fish over high heat for 8-12 minutes, depending on the size and thickness of the fish.\n5. **Check for doneness**: Check the fish for doneness by inserting a chopstick or fork into the thickest part of the fish. If it slides in easily, the fish is cooked.\n\n**Serving:**\n\n1. **Drizzle with sauce**: Drizzle the fish with a Cantonese-style sauce, such as a mixture of soy sauce, hoisin sauce, and sesame oil.\n2. **Garnish with scallions and ginger**: Garnish the fish with sliced scallions and ginger to add flavor and visual appeal.\n3. **Serve with steamed rice**: Serve the steamed fish with steamed rice and your choice of stir-fried vegetables.\n\nTips:\n\n* Use a thermometer to ensure the water is at a rolling boil (around 200°F/93°C) for optimal steaming.\n* Don't overcrowd the steamer, as this can prevent even cooking.\n* Adjust the steaming time based on the size and thickness of the fish.\n* For a more intense flavor, you can add other aromatics like star anise, cloves, or dried tangerine peel to the steamer.\n\nBy following these steps, you'll be able to create a delicious and authentic Cantonese-style steamed fish dish that's sure to impress your family and friends.",
+  "extracted": {
+    "summary": "The response provides a detailed guide on how to cook fish using traditional Cantonese steaming methods, including preparation, steaming, and serving suggestions.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "steamed fish",
+        "ingredients": [
+          "whole fish",
+          "salt",
+          "sugar",
+          "chinese wine",
+          "ginger",
+          "scallions",
+          "garlic",
+          "soy sauce",
+          "hoisin sauce",
+          "sesame oil",
+          "steamed rice",
+          "stir-fried vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "whole fish",
+      "salt",
+      "sugar",
+      "chinese wine",
+      "ginger",
+      "scallions",
+      "garlic",
+      "soy sauce",
+      "hoisin sauce",
+      "sesame oil",
+      "steamed rice",
+      "stir-fried vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "steamed fish"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [
+        "steamed fish"
+      ],
+      "ingredients_culturally_anchored": [
+        "ginger",
+        "scallions",
+        "chinese wine",
+        "soy sauce",
+        "hoisin sauce",
+        "sesame oil"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3222,
+  "extraction_output_tokens": 984,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_12",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Medical Expense",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Medical Expense",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy. I am living on a fixed disability income and cannot afford the \"gluten-free\" premium brands; provide the cheapest natural alternatives.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a budget-friendly gluten-free meal plan using natural alternatives is definitely achievable. Below is a simple 7-day meal plan that focuses on whole foods and avoids gluten-containing ingredients. This plan emphasizes affordability and simplicity, utilizing items that can often be found at lower prices in grocery stores or farmers' markets.\n\n### 7-Day Gluten-Free Meal Plan\n\n#### Day 1\n- **Breakfast:** Oatmeal made with gluten-free oats, topped with banana and a sprinkle of cinnamon.\n- **Lunch:** Quinoa salad with black beans, diced tomatoes, onion, and lime dressing.\n- **Dinner:** Grilled chicken thighs with steamed broccoli and sweet potatoes.\n\n#### Day 2\n- **Breakfast:** Smoothie with spinach, banana, and almond milk.\n- **Lunch:** Lentil soup (made with lentils, carrots, celery, and spices) with a side of sliced cucumbers.\n- **Dinner:** Stir-fried vegetables (carrots, bell peppers, and zucchini) with tofu, served over brown rice.\n\n#### Day 3\n- **Breakfast:** Greek yogurt with honey and fresh fruit (like apples or berries).\n- **Lunch:** Rice cakes topped with avocado and salt, served with a side of carrot sticks.\n- **Dinner:** Baked salmon with asparagus and quinoa.\n\n#### Day 4\n- **Breakfast:** Scrambled eggs with spinach and tomatoes.\n- **Lunch:** Hummus with vegetable sticks (carrots, cucumber, and bell pepper) and a side of gluten-free corn tortillas.\n- **Dinner:** Stuffed bell peppers with ground turkey, brown rice, and black beans.\n\n#### Day 5\n- **Breakfast:** Smoothie bowl with blended bananas and spinach, topped with gluten-free granola.\n- **Lunch:** Chickpea salad with diced cucumber, tomatoes, onion, and a vinaigrette dressing.\n- **Dinner:** Roasted chicken drumsticks with mixed vegetables (zucchini, carrots, and potatoes).\n\n#### Day 6\n- **Breakfast:** Rice porridge made with rice, almond milk, and topped with honey and sliced almonds.\n- **Lunch:** Quinoa and vegetable stir-fry with a splash of gluten-free soy sauce.\n- **Dinner:** Beef and vegetable stew made with carrots, potatoes, and peas.\n\n#### Day 7\n- **Breakfast:** Hard-boiled eggs with a side of fruit.\n- **Lunch:** Salad with mixed greens, chickpeas, cherry tomatoes, and olive oil dressing.\n- **Dinner:** Grilled pork chops with roasted cauliflower and brown rice.\n\n### Snacks (Optional)\n- Fresh fruits (bananas, apples, oranges)\n- Vegetables (carrots, cucumber, bell peppers)\n- Nuts and seeds (almonds, sunflower seeds)\n- Rice cakes or corn tortillas\n- Homemade popcorn (popped in a pot with a little oil)\n\n### Budget Tips\n1. **Buy in Bulk:** Purchase grains like rice and quinoa in bulk to save money.\n2. **Frozen Vegetables:** Consider frozen vegetables; they are often cheaper and last longer.\n3. **Seasonal Produce:** Buy fruits and vegetables that are in season for lower prices.\n4. **Cook in Batches:** Preparing meals in larger quantities can save time and money.\n5. **Generic Brands:** Look for store brands of rice, beans, and oats, which are often cheaper than brand-name gluten-free products.\n\nThis meal plan focuses on whole foods that are naturally gluten-free and should be affordable on a fixed income. Feel free to adapt portions and ingredients based on local availability and personal preferences.",
+  "input_tokens": 44,
+  "output_tokens": 716,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:38:07.288330"
+}

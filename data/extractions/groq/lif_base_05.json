@@ -1,0 +1,249 @@
+{
+  "prompt_id": "lif_base_05",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast plan for a week.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a healthy breakfast plan for a week, with a different meal idea for each day:\n\n**Monday: Greek Yogurt Parfait**\n- 1 cup Greek yogurt\n- 1/2 cup mixed berries (fresh or frozen)\n- 1/4 cup granola\n- 1 tablespoon honey\n- 1/2 cup sliced banana\n\n**Tuesday: Avocado Toast**\n- 1 slice whole-grain bread, toasted\n- 1/2 avocado, mashed\n- 1 egg, poached or scrambled\n- Salt and pepper to taste\n- Optional: cherry tomatoes or spinach for added flavor\n\n**Wednesday: Overnight Oats**\n- 1/2 cup rolled oats\n- 1/2 cup unsweetened almond milk\n- 1/4 cup plain Greek yogurt\n- 1 tablespoon honey\n- 1/2 cup mixed berries (fresh or frozen)\n- 1 tablespoon chia seeds\n\nCombine oats, almond milk, Greek yogurt, and honey in a jar or container. Refrigerate overnight and top with berries and chia seeds in the morning.\n\n**Thursday: Smoothie Bowl**\n- 1 cup frozen mixed berries\n- 1/2 cup unsweetened almond milk\n- 1/2 cup plain Greek yogurt\n- 1 tablespoon honey\n- 1/2 cup sliced almonds\n- 1/2 cup shredded coconut\n- 1/2 cup sliced fresh fruit (such as banana or mango)\n\nCombine berries, almond milk, and Greek yogurt in a blender. Top with sliced almonds, shredded coconut, and fresh fruit.\n\n**Friday: Whole-Grain Waffles with Fresh Fruit and Nuts**\n- 1 whole-grain waffle\n- 1/2 cup mixed berries (fresh or frozen)\n- 1/4 cup chopped walnuts\n- 1 tablespoon honey\n\n**Saturday: Breakfast Burrito**\n- 1 whole-grain tortilla\n- 2 scrambled eggs\n- 1/4 cup black beans, cooked\n- 1/4 cup shredded cheese (low-fat)\n- 1/4 cup diced bell peppers\n- Salsa or hot sauce (optional)\n\n**Sunday: Cinnamon Oatmeal with Banana and Nuts**\n- 1/2 cup cooked oatmeal\n- 1/2 cup sliced banana\n- 1 tablespoon chopped walnuts\n- 1/4 teaspoon cinnamon\n- 1 tablespoon honey\n\nRemember to stay hydrated by drinking plenty of water throughout the day. You can also customize these meal ideas to suit your dietary preferences and ingredient availability.",
+  "extracted": {
+    "summary": "The response provides a healthy breakfast plan for a week, featuring a different meal idea for each day.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "granola",
+          "honey",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "whole-grain bread",
+          "avocado",
+          "egg",
+          "salt",
+          "pepper",
+          "cherry tomatoes",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "almond milk",
+          "greek yogurt",
+          "honey",
+          "mixed berries",
+          "chia seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "frozen mixed berries",
+          "almond milk",
+          "greek yogurt",
+          "honey",
+          "sliced almonds",
+          "shredded coconut",
+          "fresh fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "whole-grain waffles with fresh fruit and nuts",
+        "ingredients": [
+          "whole-grain waffle",
+          "mixed berries",
+          "walnuts",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast burrito",
+        "ingredients": [
+          "whole-grain tortilla",
+          "eggs",
+          "black beans",
+          "shredded cheese",
+          "bell peppers",
+          "salsa",
+          "hot sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "cinnamon oatmeal with banana and nuts",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "walnuts",
+          "cinnamon",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond milk",
+      "avocado",
+      "banana",
+      "black beans",
+      "bell peppers",
+      "chia seeds",
+      "cherry tomatoes",
+      "eggs",
+      "frozen mixed berries",
+      "geek yogurt",
+      "granola",
+      "honey",
+      "mixed berries",
+      "oatmeal",
+      "rolled oats",
+      "salsa",
+      "shredded cheese",
+      "shredded coconut",
+      "sliced almonds",
+      "spinach",
+      "whole-grain bread",
+      "whole-grain tortilla",
+      "whole-grain waffle",
+      "walnuts"
+    ],
+    "all_dishes_or_foods_named": [
+      "avocado toast",
+      "breakfast burrito",
+      "cinnamon oatmeal with banana and nuts",
+      "greek yogurt parfait",
+      "overnight oats",
+      "smoothie bowl",
+      "whole-grain waffles with fresh fruit and nuts"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3071,
+  "extraction_output_tokens": 1654,
+  "extraction_from_cache": false
+}

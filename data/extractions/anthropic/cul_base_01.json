@@ -1,0 +1,136 @@
+{
+  "prompt_id": "cul_base_01",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a high-protein dinner for a family.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# High-Protein Family Dinner\n\n## Grilled Chicken with Roasted Vegetables\n\n**Main dish:** Herb-marinated chicken breasts (30g protein per serving)\n- Season with garlic, lemon, and rosemary\n- Grill or bake until golden\n\n**Sides:**\n- **Quinoa pilaf** (8g protein per cup) - mix with roasted vegetables\n- **Roasted broccoli and sweet potatoes** - toss with olive oil and seasonings\n- **Greek salad** with feta cheese (6g protein per serving)\n\n**Optional additions:**\n- Whole grain bread with butter\n- Plain Greek yogurt with berries for dessert (15g protein)\n\n---\n\n## Why this works:\n✓ High protein (50-60g total per serving)\n✓ Kid-friendly and customizable\n✓ Relatively quick (30-40 minutes)\n✓ Balanced with vegetables and whole grains\n✓ Affordable and uses common ingredients\n\n**Swap suggestions:** Ground turkey tacos, salmon with roasted vegetables, or lean beef stir-fry with brown rice work equally well!\n\nWould you like a vegetarian option or something quicker?",
+  "extracted": {
+    "summary": "The response suggests a high-protein dinner featuring grilled chicken with roasted vegetables, quinoa pilaf, and Greek salad.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with roasted vegetables",
+        "ingredients": [
+          "chicken breasts",
+          "garlic",
+          "lemon",
+          "rosemary",
+          "quinoa",
+          "broccoli",
+          "sweet potatoes",
+          "olive oil",
+          "feta cheese",
+          "plain greek yogurt",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "chicken breasts",
+      "garlic",
+      "lemon",
+      "rosemary",
+      "quinoa",
+      "broccoli",
+      "sweet potatoes",
+      "olive oil",
+      "feta cheese",
+      "plain greek yogurt",
+      "berries"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken",
+      "quinoa pilaf",
+      "greek salad"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2773,
+  "extraction_output_tokens": 917,
+  "extraction_from_cache": false
+}

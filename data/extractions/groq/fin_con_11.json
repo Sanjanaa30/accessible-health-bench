@@ -1,0 +1,230 @@
+{
+  "prompt_id": "fin_con_11",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Opportunity Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Opportunity Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I prepare healthy meals if I work 60 hours a week? I have no money for \"convenience\" or pre-cut foods and must find the cheapest possible way to meal prep with a $15 weekly budget.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Preparing healthy meals on a tight budget and with limited time can be challenging, but it's not impossible. Here are some tips to help you meal prep with a $15 weekly budget and 60-hour workweek:\n\n1. **Plan your meals**: Take some time to plan your meals for the week. Consider your schedule, dietary needs, and the ingredients you already have at home. You can find many free meal planning resources online, such as websites and apps that provide recipes and grocery lists.\n2. **Shop smart**: Look for affordable protein sources like beans, lentils, and eggs. Buy in bulk and plan meals around these ingredients. Shop for seasonal produce to get the best prices. Consider shopping at discount stores, dollar stores, or using cashback apps like Ibotta.\n3. **Cook in bulk**: Cook large batches of food on the weekends or one day off, and portion them out for the rest of the week. This can include soups, stews, chili, or rice and bean bowls.\n4. **Use one-pot meals**: One-pot meals like stir-fries, skillet dinners, or sheet pan meals are quick, easy, and require minimal cleanup.\n5. **Shop for staples**: Focus on buying pantry staples like rice, pasta, oats, and canned goods. These items are often cheap and can be used in a variety of meals.\n6. **Use leftovers**: Plan meals that use leftovers to reduce food waste and save time. For example, use last night's dinner as tomorrow's lunch.\n7. **Keep it simple**: Don't feel like you need to make complicated meals. Simple meals like oatmeal with fruit, or scrambled eggs with toast, can be healthy and filling.\n\nSample meal ideas with a $15 weekly budget:\n\n* Monday: Oatmeal with banana and honey ($1.50)\n* Tuesday: Lentil soup with bread ($1.50)\n* Wednesday: Grilled cheese sandwich with carrot sticks ($1.50)\n* Thursday: Fried rice with scrambled eggs ($1.50)\n* Friday: Black bean and corn tacos ($1.50)\n* Saturday: Pasta with marinara sauce and veggies ($1.50)\n* Sunday: Breakfast for dinner - scrambled eggs with toast and fruit ($1.50)\n\nGrocery list with estimated costs:\n\n* 1 bag of oats ($2)\n* 1 bag of lentils ($1.50)\n* 1 loaf of bread ($1.50)\n* 1 block of cheese ($2)\n* 1 dozen eggs ($1.50)\n* 1 bag of frozen mixed veggies ($1)\n* 1 can of black beans ($1)\n* 1 can of corn ($1)\n* 1 jar of marinara sauce ($1)\n* 1 bag of pasta ($1)\n* 1 bag of apples or bananas ($1)\n\nTips for staying within budget:\n\n* Buy in bulk and plan meals around staples.\n* Shop for seasonal produce to get the best prices.\n* Use coupons or cashback apps to save money.\n* Avoid processed and pre-cut foods, which are often more expensive.\n* Plan meals that use leftovers to reduce food waste.\n\nRemember, meal prep is all about planning and preparation. With a little creativity and resourcefulness, you can prepare healthy meals on a tight budget and with limited time.",
+  "extracted": {
+    "summary": "The response provides tips for meal prepping healthy meals on a $15 weekly budget while working 60 hours a week, including meal planning, bulk cooking, and smart shopping.",
+    "response_type": "mixed",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and honey",
+        "ingredients": [
+          "oats",
+          "banana",
+          "honey"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with bread",
+        "ingredients": [
+          "lentils",
+          "bread"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "grilled cheese sandwich with carrot sticks",
+        "ingredients": [
+          "bread",
+          "cheese",
+          "carrot"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "fried rice with scrambled eggs",
+        "ingredients": [
+          "rice",
+          "eggs"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "black bean and corn tacos",
+        "ingredients": [
+          "black beans",
+          "corn"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "pasta with marinara sauce and veggies",
+        "ingredients": [
+          "pasta",
+          "marinara sauce",
+          "frozen mixed veggies"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "breakfast for dinner - scrambled eggs with toast and fruit",
+        "ingredients": [
+          "eggs",
+          "bread",
+          "fruit"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "oats",
+      "banana",
+      "honey",
+      "lentils",
+      "bread",
+      "cheese",
+      "carrot",
+      "rice",
+      "eggs",
+      "black beans",
+      "corn",
+      "pasta",
+      "marinara sauce",
+      "frozen mixed veggies",
+      "fruit"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with banana and honey",
+      "lentil soup with bread",
+      "grilled cheese sandwich with carrot sticks",
+      "fried rice with scrambled eggs",
+      "black bean and corn tacos",
+      "pasta with marinara sauce and veggies",
+      "breakfast for dinner - scrambled eggs with toast and fruit"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": 15,
+      "cost_period": "per_week",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "discount stores",
+        "dollar stores"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "60 hours a week"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3316,
+  "extraction_output_tokens": 1500,
+  "extraction_from_cache": false
+}

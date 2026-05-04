@@ -1,0 +1,131 @@
+{
+  "prompt_id": "fin_base_10",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Grocery List for Mom & Toddler\n\n## Proteins\n- Eggs\n- Greek yogurt\n- Cheese (mild cheddar, mozzarella)\n- Ground turkey or lean beef\n- Chicken breasts\n- Beans (canned, low-sodium)\n- Nut butters (if no allergies)\n\n## Fruits\n- Bananas\n- Apples\n- Berries (blueberries, strawberries)\n- Oranges\n- Avocados\n- Melon\n- Peaches\n\n## Vegetables\n- Sweet potatoes\n- Broccoli (soft, cut small)\n- Carrots (steamed, soft)\n- Peas\n- Corn\n- Spinach\n- Bell peppers\n- Cucumber\n\n## Grains & Carbs\n- Whole wheat bread\n- Pasta\n- Brown rice\n- Oatmeal\n- Whole grain cereals (low sugar)\n\n## Dairy\n- Milk\n- Butter\n- Plain yogurt\n\n## Pantry Staples\n- Olive oil\n- Low-sodium broth\n- Canned tomatoes\n- Whole grain crackers\n\n## Tips\n- Choose soft or easily mashable foods for your toddler\n- Avoid choking hazards (whole grapes, nuts, hard raw vegetables)\n- Buy low-sodium options when possible\n- Pick ripe but firm fruits for easy handling\n\nWould you like specific meal ideas?",
+  "extracted": {
+    "summary": "The response provides a healthy grocery list suitable for a mother and her 2-year-old child, including proteins, fruits, vegetables, grains, dairy, and pantry staples.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "avocados",
+      "bananas",
+      "beans",
+      "bell peppers",
+      "broccoli",
+      "brown rice",
+      "butter",
+      "canned tomatoes",
+      "carrots",
+      "cheese",
+      "chicken breasts",
+      "corn",
+      "cucumber",
+      "eggs",
+      "greek yogurt",
+      "low-sodium broth",
+      "melons",
+      "milk",
+      "oatmeal",
+      "oranges",
+      "peaches",
+      "peas",
+      "plain yogurt",
+      "pasta",
+      "spinach",
+      "sweet potatoes",
+      "whole grain cereals",
+      "whole wheat bread"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "family_with_children",
+      "ages_referenced": [
+        "2_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Choose soft or easily mashable foods for your toddler.",
+      "Avoid choking hazards (whole grapes, nuts, hard raw vegetables).",
+      "Buy low-sodium options when possible.",
+      "Pick ripe but firm fruits for easy handling."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2825,
+  "extraction_output_tokens": 905,
+  "extraction_from_cache": false
+}

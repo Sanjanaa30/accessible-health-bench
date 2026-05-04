@@ -1,0 +1,151 @@
+{
+  "prompt_id": "lif_base_17",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest ways to improve physical health.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Ways to Improve Physical Health\n\n## Exercise & Movement\n- Aim for 150 minutes of moderate activity weekly (brisk walking, cycling, swimming)\n- Add strength training 2+ days per week\n- Incorporate stretching and flexibility work\n- Take short movement breaks throughout the day\n\n## Nutrition\n- Eat plenty of vegetables, fruits, whole grains, and lean proteins\n- Limit processed foods, added sugars, and excess sodium\n- Stay hydrated with water\n- Practice portion control\n\n## Sleep\n- Aim for 7-9 hours nightly\n- Maintain a consistent sleep schedule\n- Create a dark, cool, quiet bedroom\n\n## Stress Management\n- Try meditation, yoga, or deep breathing\n- Spend time in nature\n- Pursue hobbies and social connections\n- Consider therapy if needed\n\n## Preventive Care\n- Get regular check-ups and screenings\n- Keep vaccinations current\n- Practice good hygiene\n\n## Habits to Reduce\n- Limit alcohol consumption\n- Avoid smoking and vaping\n- Reduce screen time before bed\n\n## Small Steps\nStart with one or two changes rather than overhauling everything at once—sustainable progress beats dramatic overhauls.\n\n**What area interests you most?** I can offer more specific guidance.",
+  "extracted": {
+    "summary": "The response provides a comprehensive approach to improving physical health through exercise, nutrition, sleep, stress management, preventive care, and habit reduction.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "vegetables",
+      "fruits",
+      "whole grains",
+      "lean proteins",
+      "processed foods",
+      "added sugars",
+      "sodium",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "moderate activity",
+        "activity_type": "cardio",
+        "duration_minutes": 150,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stretching and flexibility work",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "short movement breaks",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "null",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2807,
+  "extraction_output_tokens": 984,
+  "extraction_from_cache": false
+}

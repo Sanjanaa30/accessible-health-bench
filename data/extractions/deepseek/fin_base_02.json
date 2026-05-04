@@ -1,0 +1,130 @@
+{
+  "prompt_id": "fin_base_02",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are some high-protein snacks I can buy at the store?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a great question for anyone looking to fuel their body, manage hunger, or support muscle recovery. Here are some of the best high-protein snacks you can find at most grocery stores, categorized for convenience.\n\n### The \"No Prep Needed\" Champions (Just Open & Eat)\n\nThese are perfect for throwing in your bag for work or travel.\n\n- **Greek Yogurt or Skyr (Icelandic Yogurt):** Look for single-serving cups. **Protein:** 15-20g per serving. *Tip:* Choose plain to avoid added sugar, and add your own fruit or a drizzle of honey.\n- **Cottage Cheese:** Often sold in single-serving containers. **Protein:** 13-15g per 1/2 cup. *Tip:* Go for small curd or large curd, and try it with black pepper or pineapple.\n- **Hard-Boiled Eggs:** Sold pre-cooked and peeled in packs of 2 or 6. **Protein:** 6g per egg. *Tip:* Look for \"pasture-raised\" for better omega-3 content.\n- **String Cheese or Cheese Sticks:** Mozzarella is classic, but cheddar or colby jack sticks work too. **Protein:** 7-8g per stick. *Tip:* Pair with a handful of almonds for a more balanced snack.\n- **Beef or Turkey Jerky / Meat Sticks:** A very portable, savory option. **Protein:** 9-12g per ounce. *Tip:* Look for \"grass-fed\" beef jerky or turkey sticks with minimal added sugar and nitrates.\n\n### The \"Crunchy & Satisfying\" Options\n\nFor when you want something with texture.\n\n- **Roasted Edamame:** A fantastic crunchy alternative to nuts. **Protein:** 11-14g per 1/4 cup. *Tip:* Look for wasabi or sea salt flavors.\n- **Nuts (Almonds, Pistachios, Walnuts):** A classic, but calorie-dense, so portion control is key. **Protein:** 6g per 1/4 cup (almonds). *Tip:* Buy pre-portioned snack packs (100-calorie packs).\n- **Pumpkin Seeds (Pepitas):** Often sold in bulk bins or snack-size bags. **Protein:** 7g per 1/4 cup. *Tip:* They are also high in magnesium and zinc.\n- **Protein Chips (e.g., Quest, Wilde, or Simply Protein):** These are chips made with chicken, egg whites, or pea protein. **Protein:** 15-20g per bag. *Tip:* Great for a chip craving without the empty carbs.\n\n### The \"Sweet Tooth\" Solutions\n\nFor when you want dessert but need protein.\n\n- **Protein Bars (e.g., RXBAR, Quest, ONE, GoMacro):** Read labels carefully. **Protein:** 15-20g per bar. *Tip:* Look for bars with whole food ingredients (dates, egg whites, nuts) and low added sugar.\n- **Chocolate Milk (Single-Serve Cartons):** The classic recovery drink. **Protein:** 8-9g per 8 oz carton. *Tip:* Fairlife chocolate milk has 13g of protein per cup.\n- **Greek Yogurt Drinks (e.g., Siggi's, Chobani):** Drinkable, portable yogurt. **Protein:** 10-15g per bottle. *Tip:* Great for a quick breakfast or post-workout.\n- **Edamame Hummus with Veggie Sticks:** Many stores sell single-serve hummus cups with pretzels or veggie chips. **Protein:** 5-7g per serving. *Tip:* Edamame hummus has more protein than traditional chickpea hummus.\n\n### The \"Heat & Eat\" (Microwave-Friendly)\n\nFor a hot, satisfying snack at home.\n\n- **Frozen Chicken Meatballs or Turkey Meatballs:** Heat a few in the microwave (1-2 minutes). **Protein:** 12-15g per 4-5 meatballs. *Tip:* Look for clean ingredient lists (e.g., Applegate or Trader Joe's).\n- **Frozen Veggie & Protein Patties (e.g., Dr. Praeger's):** Look for ones made with black beans, quinoa, and egg whites. **Protein:** 8-12g per patty. *Tip:* Toast them in a toaster oven for a crispier texture.\n- **Canned Tuna or Salmon Pouches (e.g., Bumble Bee, Wild Planet):** No draining needed. **Protein:** 20-25g per pouch. *Tip:* Mix with a little mayo or plain yogurt and eat with crackers.\n\n### **Pro-Tips for Buying:**\n\n1.  **Check the Label:** Look for snacks with **at least 10g of protein** per serving.\n2.  **Watch the Sugar:** Aim for **under 5-10g of added sugar** per serving (especially in yogurt and bars).\n3.  **Fiber is Your Friend:** A snack with both protein and fiber (like edamame or nuts) will keep you full much longer.\n4.  **Portion Size:** Even healthy snacks can be calorie-dense. Stick to the serving size on the package.\n\n**A Final Note:** The best snack is one you'll actually eat and enjoy. Try a few different options from each category to see what fits your taste and lifestyle.",
+  "extracted": {
+    "summary": "The response provides a list of high-protein snacks available at grocery stores, categorized for convenience.",
+    "response_type": "snack_list",
+    "primary_goal": "muscle_gain",
+    "meal_components": [],
+    "all_ingredients": [
+      "almonds",
+      "beef",
+      "canned tuna",
+      "cottage cheese",
+      "edamame",
+      "eggs",
+      "frozen chicken meatballs",
+      "frozen veggie patties",
+      "greek yogurt",
+      "hard-boiled eggs",
+      "hummus",
+      "meat sticks",
+      "milk",
+      "nuts",
+      "pistachios",
+      "pumpkin seeds",
+      "protein bars",
+      "protein chips",
+      "salmon",
+      "skyr",
+      "string cheese",
+      "turkey jerky"
+    ],
+    "all_dishes_or_foods_named": [
+      "beef jerky",
+      "cottage cheese",
+      "edamame hummus",
+      "greek yogurt",
+      "hard-boiled eggs",
+      "protein bars",
+      "protein chips",
+      "string cheese",
+      "turkey meatballs"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3686,
+  "extraction_output_tokens": 876,
+  "extraction_from_cache": false
+}

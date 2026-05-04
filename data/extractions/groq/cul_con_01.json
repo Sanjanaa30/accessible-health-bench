@@ -1,0 +1,198 @@
+{
+  "prompt_id": "cul_con_01",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "South Indian Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "South Indian Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a high-protein dinner for a family. We primarily cook traditional South Indian food at home.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "A high-protein dinner that incorporates traditional South Indian flavors sounds like a great idea. Here's a suggestion:\n\n**Menu:**\n\n1. **Paruppu Rasam** (Lentil Soup) - made with a mix of lentils like toor dal, moong dal, and chana dal, which are high in protein.\n2. **Chicken or Fish Fry** - marinated in a mix of spices like turmeric, cumin, coriander, and chili powder, and then fried until crispy. You can use chicken or fish like pomfret or tilapia.\n3. **Mixed Vegetable Thoran** - a stir-fry made with a variety of vegetables like carrots, beans, cabbage, and peas, along with some protein-rich legumes like chickpeas or black-eyed peas.\n4. **Curd Rice** - a simple and comforting dish made with yogurt, rice, and a sprinkle of grated coconut.\n\n**Protein-rich ingredients:**\n\n* Lentils (paruppu) - 18g of protein per 100g serving\n* Chicken or Fish - 25-30g of protein per 100g serving\n* Chickpeas or Black-eyed peas - 9-10g of protein per 100g serving\n* Yogurt (curd) - 10g of protein per 100g serving\n\n**Tips:**\n\n* Use a combination of lentils to increase the protein content of the paruppu rasam.\n* Marinate the chicken or fish in a mixture of spices and yogurt to increase the protein content and tenderness.\n* Add some nuts or seeds like almonds, walnuts, or pumpkin seeds to the mixed vegetable thoran for an extra boost of protein.\n* Use brown rice instead of white rice to increase the fiber and protein content of the curd rice.\n\nThis menu offers a balanced and protein-rich dinner that incorporates traditional South Indian flavors and ingredients. Enjoy!",
+  "extracted": {
+    "summary": "The response suggests a high-protein dinner menu featuring traditional South Indian dishes, including lentil soup, chicken or fish fry, mixed vegetable thoran, and curd rice.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "paruppu rasam",
+        "ingredients": [
+          "lentils",
+          "toor dal",
+          "moong dal",
+          "chana dal"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chicken or fish fry",
+        "ingredients": [
+          "chicken",
+          "fish",
+          "turmeric",
+          "cumin",
+          "coriander",
+          "chili powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "mixed vegetable thoran",
+        "ingredients": [
+          "carrots",
+          "beans",
+          "cabbage",
+          "peas",
+          "chickpeas",
+          "black-eyed peas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-fry",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "curd rice",
+        "ingredients": [
+          "yogurt",
+          "rice",
+          "coconut"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "lentils",
+      "toor dal",
+      "moong dal",
+      "chana dal",
+      "chicken",
+      "fish",
+      "turmeric",
+      "cumin",
+      "coriander",
+      "chili powder",
+      "carrots",
+      "beans",
+      "cabbage",
+      "peas",
+      "chickpeas",
+      "black-eyed peas",
+      "yogurt",
+      "rice",
+      "coconut"
+    ],
+    "all_dishes_or_foods_named": [
+      "paruppu rasam",
+      "chicken or fish fry",
+      "mixed vegetable thoran",
+      "curd rice"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "south_indian"
+      ],
+      "culturally_specific_dishes": [
+        "paruppu rasam",
+        "curd rice"
+      ],
+      "ingredients_culturally_anchored": [
+        "lentils",
+        "yogurt"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3000,
+  "extraction_output_tokens": 1196,
+  "extraction_from_cache": false
+}

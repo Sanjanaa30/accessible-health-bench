@@ -1,0 +1,132 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a healthy and budget-friendly recipe for a Chicken and Vegetable Stir-Fry that can be made for under $4. This meal is nutritious, filling, and easy to prepare.\n\n### Healthy Chicken and Vegetable Stir-Fry\n\n#### Ingredients:\n- **1 cup of boneless, skinless chicken breast** (about 0.5 lb) - $1.50\n- **2 cups of mixed frozen vegetables** (like broccoli, carrots, and bell peppers) - $1.00\n- **2 tablespoons of soy sauce** - $0.10\n- **1 tablespoon of olive oil or vegetable oil** - $0.10\n- **1 clove of garlic, minced** - $0.05\n- **1 teaspoon of ginger (fresh or powdered)** - $0.05\n- **Salt and pepper to taste** - negligible cost\n\n#### Total Cost: Approx. $2.80\n\n#### Instructions:\n\n1. **Prepare the Chicken**:\n   - Cut the chicken breast into bite-sized pieces. Season with salt and pepper.\n\n2. **Cook the Chicken**:\n   - Heat the olive oil in a large skillet or wok over medium-high heat.\n   - Add the chicken pieces and cook until they are browned and cooked through, about 5-7 minutes. Stir occasionally to ensure even cooking.\n\n3. **Add Vegetables**:\n   - Add the minced garlic and ginger to the skillet and sauté for about 30 seconds until fragrant.\n   - Add the frozen mixed vegetables to the skillet. Stir and cook until the vegetables are heated through and tender, about 5-7 minutes.\n\n4. **Add Soy Sauce**:\n   - Pour the soy sauce over the chicken and vegetables. Stir well to combine and cook for another minute.\n\n5. **Serve**:\n   - Serve the stir-fry on its own or over a bed of cooked rice or quinoa (if budget allows). Enjoy your healthy meal!\n\n### Tips:\n- You can substitute the chicken with tofu or beans for a vegetarian option.\n- If you have any leftover vegetables at home, feel free to add them in to use up what you have.\n- Adjust the seasoning based on your preference; you can add chili flakes for some heat or sesame oil for extra flavor.\n\nThis meal is not only cost-effective but also packed with protein and vitamins from the vegetables!",
+  "extracted": {
+    "summary": "The response provides a budget-friendly recipe for a healthy chicken and vegetable stir-fry that costs under $4.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chicken and vegetable stir-fry",
+        "ingredients": [
+          "chicken breast",
+          "mixed frozen vegetables",
+          "soy sauce",
+          "olive oil",
+          "garlic",
+          "ginger",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": 2.8,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "chicken breast",
+      "mixed frozen vegetables",
+      "soy sauce",
+      "olive oil",
+      "garlic",
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "all_dishes_or_foods_named": [
+      "chicken and vegetable stir-fry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 2.8,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3094,
+  "extraction_output_tokens": 869,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,244 @@
+{
+  "prompt_id": "lif_base_19",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy meal plan.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a simple and balanced one-day healthy meal plan that includes a variety of nutrients:\n\n### Breakfast:\n- **Oatmeal Bowl**\n  - 1/2 cup rolled oats cooked in water or almond milk\n  - Topped with:\n    - 1 tablespoon of almond butter\n    - 1/2 banana, sliced\n    - A sprinkle of cinnamon\n    - A handful of blueberries\n\n### Snack:\n- **Greek Yogurt Parfait**\n  - 1 cup plain Greek yogurt\n  - 1/4 cup granola (preferably low-sugar)\n  - 1/2 cup mixed berries (strawberries, raspberries, or blackberries)\n\n### Lunch:\n- **Quinoa Salad**\n  - 1 cup cooked quinoa\n  - 1/2 cup cherry tomatoes, halved\n  - 1/2 cucumber, diced\n  - 1/4 cup red onion, finely chopped\n  - 1/4 cup feta cheese (optional)\n  - Dressing: 1 tablespoon olive oil, 1 tablespoon lemon juice, salt, and pepper to taste\n\n### Snack:\n- **Veggies and Hummus**\n  - Sliced bell peppers, carrots, and celery sticks\n  - 1/4 cup hummus for dipping\n\n### Dinner:\n- **Grilled Salmon with Vegetables**\n  - 4-6 oz. grilled salmon fillet\n  - Served with:\n    - 1 cup steamed broccoli\n    - 1/2 cup roasted sweet potatoes (drizzled with olive oil and seasoned with herbs)\n  \n### Dessert (optional):\n- **Chia Seed Pudding**\n  - 2 tablespoons chia seeds soaked in 1 cup almond milk overnight\n  - Sweetened with a drizzle of honey or maple syrup, and topped with a few slices of kiwi or mango.\n\n### Hydration:\n- Drink plenty of water throughout the day (aim for at least 8 cups) and feel free to include herbal teas or infused water for variety.\n\n### Notes:\n- Adjust portion sizes based on individual dietary needs and activity levels.\n- Feel free to swap out ingredients for personal preferences or dietary restrictions (e.g., use tofu or chicken instead of salmon, or choose different fruits and vegetables).\n- Aim for a balance of macronutrients (carbohydrates, proteins, and healthy fats) in meals throughout the day.\n\nThis meal plan provides a good mix of protein, healthy fats, and complex carbohydrates, along with plenty of vitamins and minerals from fruits and vegetables. Enjoy!",
+  "extracted": {
+    "summary": "The response provides a balanced one-day healthy meal plan with various nutrient-rich meals and snacks.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal bowl",
+        "ingredients": [
+          "rolled oats",
+          "water",
+          "almond milk",
+          "almond butter",
+          "banana",
+          "cinnamon",
+          "blueberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "plain greek yogurt",
+          "granola",
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "cooked quinoa",
+          "cherry tomatoes",
+          "cucumber",
+          "red onion",
+          "feta cheese",
+          "olive oil",
+          "lemon juice",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "veggies and hummus",
+        "ingredients": [
+          "bell peppers",
+          "carrots",
+          "celery sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon with vegetables",
+        "ingredients": [
+          "grilled salmon fillet",
+          "broccoli",
+          "sweet potatoes",
+          "olive oil",
+          "herbs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dessert",
+        "dish_name": "chia seed pudding",
+        "ingredients": [
+          "chia seeds",
+          "almond milk",
+          "honey",
+          "maple syrup",
+          "kiwi",
+          "mango"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "water",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "bell peppers",
+      "blueberries",
+      "carrots",
+      "chia seeds",
+      "cherry tomatoes",
+      "cucumber",
+      "feta cheese",
+      "granola",
+      "greek yogurt",
+      "herbs",
+      "hummus",
+      "kiwi",
+      "lemon juice",
+      "mixed berries",
+      "olive oil",
+      "rolled oats",
+      "red onion",
+      "salt",
+      "sweet potatoes",
+      "water",
+      "banana",
+      "cinnamon"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal bowl",
+      "greek yogurt parfait",
+      "quinoa salad",
+      "veggies and hummus",
+      "grilled salmon with vegetables",
+      "chia seed pudding"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "snack",
+        "afternoon",
+        "snack",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3069,
+  "extraction_output_tokens": 1588,
+  "extraction_from_cache": false
+}

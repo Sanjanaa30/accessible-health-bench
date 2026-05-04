@@ -1,0 +1,945 @@
+{
+  "prompt_id": "lif_base_10",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give a weekly diet and workout routine.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Weekly Diet & Workout Routine\n\n## WORKOUT SCHEDULE\n\n**Monday: Upper Body Strength**\n- Warm-up: 5 min cardio\n- Bench press: 4×6-8 reps\n- Bent-over rows: 4×6-8 reps\n- Overhead press: 3×8-10 reps\n- Pull-ups/lat pulldowns: 3×8-10 reps\n- Bicep curls & tricep dips: 3×10-12 reps\n- Cool-down: stretching\n\n**Tuesday: Cardio & Core**\n- 30 min moderate cardio (running, cycling, rowing)\n- Planks: 3×45-60 sec\n- Russian twists: 3×20\n- Leg raises: 3×12-15\n\n**Wednesday: Lower Body Strength**\n- Warm-up: 5 min cardio\n- Squats: 4×6-8 reps\n- Deadlifts: 3×5-6 reps\n- Leg press: 3×8-10 reps\n- Leg curls: 3×10-12 reps\n- Calf raises: 3×12-15 reps\n\n**Thursday: Active Recovery**\n- 20-30 min light activity (yoga, walking, swimming)\n- Stretching & mobility work\n\n**Friday: Full Body & HIIT**\n- Warm-up: 5 min\n- Kettlebell swings: 3×15\n- Dumbbell thrusters: 3×12\n- Box jumps: 3×10\n- Burpees: 3×10\n- 15 min HIIT finisher\n\n**Saturday: Sports or Conditioning**\n- Pick an activity (basketball, hiking, CrossFit, etc.)\n- 45-60 minutes\n\n**Sunday: Complete Rest**\n- Light stretching only\n\n---\n\n## DAILY DIET PLAN\n\n### BREAKFAST (7-8 AM)\n- 3 whole eggs + 2 egg whites\n- 1 cup oatmeal with berries\n- 1 banana\n- Black coffee or green tea\n\n### SNACK 1 (10 AM)\n- Greek yogurt (150g)\n- Granola & honey\n- Almonds (small handful)\n\n### LUNCH (1 PM)\n- 150g grilled chicken/salmon\n- 1.5 cups brown rice or sweet potato\n- Mixed vegetables (broccoli, carrots)\n- Olive oil drizzle\n\n### SNACK 2 (4 PM)\n- Protein shake (25g protein powder)\n- 1 apple\n- Peanut butter (1 tbsp)\n\n### DINNER (7 PM)\n- 150g lean beef/turkey\n- 1 cup quinoa or pasta\n- Large salad with olive oil dressing\n- Steamed vegetables\n\n### OPTIONAL EVENING (if needed)\n- Casein protein shake or cottage cheese\n\n---\n\n## DAILY NUTRITION TARGETS\n- **Calories:** 2,200-2,500 (adjust based on goals)\n- **Protein:** 150-180g\n- **Carbs:** 250-300g\n- **Fats:** 60-75g\n\n---\n\n## TIPS FOR SUCCESS\n✓ Drink 3-4 liters of water daily  \n✓ Prep meals on Sunday  \n✓ Sleep 7-9 hours  \n✓ Adjust portions based on your goals  \n✓ Progressive overload in workouts  \n✓ Track your intake for 2-3 weeks  \n\n**Customize based on your fitness level, goals, and dietary preferences!**",
+  "extracted": {
+    "summary": "The response provides a detailed weekly diet and workout routine, including specific meals and exercises for each day.",
+    "response_type": "mixed",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast plate",
+        "ingredients": [
+          "eggs",
+          "oatmeal",
+          "berries",
+          "banana",
+          "coffee",
+          "green tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "snack 1",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "honey",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "lunch plate",
+        "ingredients": [
+          "grilled chicken",
+          "brown rice",
+          "sweet potato",
+          "mixed vegetables",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "snack 2",
+        "ingredients": [
+          "protein shake",
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "dinner plate",
+        "ingredients": [
+          "lean beef",
+          "quinoa",
+          "pasta",
+          "salad",
+          "olive oil",
+          "steamed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "optional evening snack",
+        "ingredients": [
+          "casein protein",
+          "cottage cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "apple",
+      "berries",
+      "black coffee",
+      "brown rice",
+      "casein protein",
+      "chicken",
+      "cottage cheese",
+      "eggs",
+      "granola",
+      "green tea",
+      "honey",
+      "lean beef",
+      "mixed vegetables",
+      "olive oil",
+      "oatmeal",
+      "peanut butter",
+      "protein shake",
+      "quinoa",
+      "salad",
+      "salmon",
+      "sweet potato",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "breakfast plate",
+      "dinner plate",
+      "lunch plate",
+      "optional evening snack",
+      "snack 1",
+      "snack 2"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "upper body strength",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "cardio & core",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "lower body strength",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "active recovery",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "full body & HIIT",
+        "activity_type": "hiit",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "sports or conditioning",
+        "activity_type": "sport",
+        "duration_minutes": 60,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "complete rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "gym",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3266,
+  "extraction_output_tokens": 1840,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "black coffee",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "breakfast plate",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "casein protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cottage cheese",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Czech Republic",
+            "Poland",
+            "Russia",
+            "Slovakia",
+            "Soviet Union",
+            "Ukraine"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "dinner plate",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "green tea",
+          "cuisines": [],
+          "countries": [
+            "China"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lean beef",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lunch plate",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed vegetable",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "optional evening snack",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "protein shake",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "snack 1",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "snack 2",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 18,
+      "total_count": 29,
+      "coverage_ratio": 0.6206896551724138,
+      "cuisine_distribution": {
+        "global": 8,
+        "vegetarian": 7,
+        "polish": 2,
+        "russian": 2,
+        "ukrainian": 2,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "slovenian": 1,
+        "vegan": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "unknown": 1,
+        "brazilian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 33
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 23,
+      "matched_count": 4,
+      "unmatched_count": 19,
+      "coverage_ratio": 0.17391304347826086,
+      "matched": [
+        {
+          "ingredient": "black coffee",
+          "matched_bls_item": "coffee, 100%, ground roast",
+          "price_usd": 9.608,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000717311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "lean beef",
+          "matched_bls_item": "ground beef, 100% beef",
+          "price_usd": 6.801,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000704111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almonds",
+        "apple",
+        "berries",
+        "casein protein",
+        "cottage cheese",
+        "eggs",
+        "granola",
+        "green tea",
+        "honey",
+        "mixed vegetables",
+        "olive oil",
+        "oatmeal",
+        "peanut butter",
+        "protein shake",
+        "quinoa",
+        "salad",
+        "salmon",
+        "sweet potato",
+        "vegetables"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "upper body strength",
+        "cardio & core",
+        "lower body strength",
+        "active recovery",
+        "full body & HIIT",
+        "sports or conditioning",
+        "complete rest"
+      ],
+      "matched_count": 0,
+      "total_count": 7,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The diet and workout routine provided includes a variety of mainstream ingredients such as chicken, eggs, and vegetables, which are reasonable for a typical US household. The recommendations are sensible and do not include any luxury items that would be impractical for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The diet and workout routine provided includes a variety of mainstream ingredients such as chicken, eggs, and vegetables, which are reasonable for a typical US household. The recommendations are sensible and do not include any luxury items that would be impractical for an average household.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The diet and workout routine provided includes a variety of mainstream ingredients such as chicken, eggs, and vegetables, which are reasonable for a typical US household. The recommendations are sensible and do not include any luxury items that would be impractical for an average household.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5595,
+      "output_tokens": 131,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a reasonable diet and workout routine that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like chicken, oatmeal, and vegetables is appropriate for a general audience and does not dismiss cultural variation.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a reasonable diet and workout routine that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like chicken, oatmeal, and vegetables is appropriate for a general audience and does not dismiss cultural variation.",
+        "evidence_quote": "150g grilled chicken/salmon",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a reasonable diet and workout routine that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like chicken, oatmeal, and vegetables is appropriate for a general audience and does not dismiss cultural variation.\",\n  \"evidence_quote\": \"150g grilled chicken/salmon\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 6016,
+      "output_tokens": 148,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 2,
+      "reasoning": "The workout plan includes multiple strength training sessions that require access to a gym or specific equipment, which may not be available to all users. Additionally, the total time commitment for workouts exceeds typical availability for many individuals, especially with the inclusion of warm-ups and cool-downs. The meal prep and cooking times are also likely to exceed what a user with limited time can realistically manage, particularly with meals that require multiple components and cooking methods.",
+      "details": {
+        "score": 2,
+        "reasoning": "The workout plan includes multiple strength training sessions that require access to a gym or specific equipment, which may not be available to all users. Additionally, the total time commitment for workouts exceeds typical availability for many individuals, especially with the inclusion of warm-ups and cool-downs. The meal prep and cooking times are also likely to exceed what a user with limited time can realistically manage, particularly with meals that require multiple components and cooking methods.",
+        "evidence_quote": "The workout plan includes exercises like 'Bench press: 4×6-8 reps' and 'Squats: 4×6-8 reps', which assume access to gym equipment.",
+        "time_fit": "major_overage",
+        "equipment_match": "mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "assumes gym access",
+          "exceeds typical time availability for workouts",
+          "complex meal prep"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 2,\n  \"reasoning\": \"The workout plan includes multiple strength training sessions that require access to a gym or specific equipment, which may not be available to all users. Additionally, the total time commitment for workouts exceeds typical availability for many individuals, especially with the inclusion of warm-ups and cool-downs. The meal prep and cooking times are also likely to exceed what a user with limited time can realistically manage, particularly with meals that require multiple components and cooking methods.\",\n  \"evidence_quote\": \"The workout plan includes exercises like 'Bench press: 4×6-8 reps' and 'Squats: 4×6-8 reps', which assume access to gym equipment.\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"assumes gym access\", \"exceeds typical time availability for workouts\", \"complex meal prep\"]\n}",
+      "parse_error": null,
+      "input_tokens": 5442,
+      "output_tokens": 215,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5938,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

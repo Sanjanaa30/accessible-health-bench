@@ -1,0 +1,113 @@
+{
+  "prompt_id": "fin_base_16",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best fresh vegetables for a diabetic diet?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "As a diabetic, it's essential to choose vegetables that are low in carbohydrates, rich in fiber, and packed with nutrients to help manage blood sugar levels. Here are some of the best fresh vegetables for a diabetic diet:\n\n1. **Leafy Greens**: Spinach, kale, collard greens, and lettuce are low in carbs and rich in fiber, vitamins, and minerals.\n2. **Broccoli**: This cruciferous vegetable is rich in fiber, vitamins, and antioxidants, and contains only 5 grams of carbs per cup.\n3. **Bell Peppers**: Green, red, or yellow, bell peppers are low in carbs (6 grams per cup) and rich in vitamin C and fiber.\n4. **Cucumbers**: With only 4 grams of carbs per cup, cucumbers are a refreshing and hydrating addition to a diabetic diet.\n5. **Tomatoes**: Fresh tomatoes are low in carbs (7 grams per cup) and rich in lycopene, an antioxidant that can help reduce inflammation.\n6. **Carrots**: While higher in carbs than some other vegetables (9 grams per cup), carrots are still a good choice due to their high fiber and vitamin content.\n7. **Green Beans**: With only 5 grams of carbs per cup, green beans are a low-carb and nutritious addition to a diabetic diet.\n8. **Mushrooms**: Low in carbs (2 grams per cup) and rich in fiber, vitamins, and minerals, mushrooms are a great choice for diabetics.\n9. **Asparagus**: This low-carb (3 grams per cup) and nutrient-rich vegetable is a great addition to a diabetic diet.\n10. **Avocados**: While often thought of as a fruit, avocados are a low-carb (2 grams per cup) and nutrient-rich addition to a diabetic diet.\n\nRemember to choose a variety of colorful vegetables to ensure a broad range of nutrients. Also, be mindful of portion sizes and cooking methods to keep carb and calorie counts in check.\n\n**Tips for cooking vegetables for diabetics:**\n\n1. Steam or roast vegetables to preserve nutrients and fiber.\n2. Use herbs and spices for flavor instead of salt or sugar.\n3. Avoid adding high-carb sauces or gravies.\n4. Choose non-starchy vegetables as the main component of meals.\n5. Limit portion sizes to manage carb and calorie intake.\n\nAlways consult with a healthcare professional or registered dietitian for personalized dietary advice.",
+  "extracted": {
+    "summary": "The response provides a list of fresh vegetables that are suitable for a diabetic diet, emphasizing low carbohydrate content and high nutritional value.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "spinach",
+      "kale",
+      "collard greens",
+      "lettuce",
+      "broccoli",
+      "bell peppers",
+      "cucumbers",
+      "tomatoes",
+      "carrots",
+      "green beans",
+      "mushrooms",
+      "asparagus",
+      "avocados"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consult with a healthcare professional or registered dietitian for personalized dietary advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3058,
+  "extraction_output_tokens": 787,
+  "extraction_from_cache": false
+}

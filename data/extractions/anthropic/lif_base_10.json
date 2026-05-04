@@ -1,0 +1,303 @@
+{
+  "prompt_id": "lif_base_10",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give a weekly diet and workout routine.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Weekly Diet & Workout Routine\n\n## WORKOUT SCHEDULE\n\n**Monday: Upper Body Strength**\n- Warm-up: 5 min cardio\n- Bench press: 4×6-8 reps\n- Bent-over rows: 4×6-8 reps\n- Overhead press: 3×8-10 reps\n- Pull-ups/lat pulldowns: 3×8-10 reps\n- Bicep curls & tricep dips: 3×10-12 reps\n- Cool-down: stretching\n\n**Tuesday: Cardio & Core**\n- 30 min moderate cardio (running, cycling, rowing)\n- Planks: 3×45-60 sec\n- Russian twists: 3×20\n- Leg raises: 3×12-15\n\n**Wednesday: Lower Body Strength**\n- Warm-up: 5 min cardio\n- Squats: 4×6-8 reps\n- Deadlifts: 3×5-6 reps\n- Leg press: 3×8-10 reps\n- Leg curls: 3×10-12 reps\n- Calf raises: 3×12-15 reps\n\n**Thursday: Active Recovery**\n- 20-30 min light activity (yoga, walking, swimming)\n- Stretching & mobility work\n\n**Friday: Full Body & HIIT**\n- Warm-up: 5 min\n- Kettlebell swings: 3×15\n- Dumbbell thrusters: 3×12\n- Box jumps: 3×10\n- Burpees: 3×10\n- 15 min HIIT finisher\n\n**Saturday: Sports or Conditioning**\n- Pick an activity (basketball, hiking, CrossFit, etc.)\n- 45-60 minutes\n\n**Sunday: Complete Rest**\n- Light stretching only\n\n---\n\n## DAILY DIET PLAN\n\n### BREAKFAST (7-8 AM)\n- 3 whole eggs + 2 egg whites\n- 1 cup oatmeal with berries\n- 1 banana\n- Black coffee or green tea\n\n### SNACK 1 (10 AM)\n- Greek yogurt (150g)\n- Granola & honey\n- Almonds (small handful)\n\n### LUNCH (1 PM)\n- 150g grilled chicken/salmon\n- 1.5 cups brown rice or sweet potato\n- Mixed vegetables (broccoli, carrots)\n- Olive oil drizzle\n\n### SNACK 2 (4 PM)\n- Protein shake (25g protein powder)\n- 1 apple\n- Peanut butter (1 tbsp)\n\n### DINNER (7 PM)\n- 150g lean beef/turkey\n- 1 cup quinoa or pasta\n- Large salad with olive oil dressing\n- Steamed vegetables\n\n### OPTIONAL EVENING (if needed)\n- Casein protein shake or cottage cheese\n\n---\n\n## DAILY NUTRITION TARGETS\n- **Calories:** 2,200-2,500 (adjust based on goals)\n- **Protein:** 150-180g\n- **Carbs:** 250-300g\n- **Fats:** 60-75g\n\n---\n\n## TIPS FOR SUCCESS\n✓ Drink 3-4 liters of water daily  \n✓ Prep meals on Sunday  \n✓ Sleep 7-9 hours  \n✓ Adjust portions based on your goals  \n✓ Progressive overload in workouts  \n✓ Track your intake for 2-3 weeks  \n\n**Customize based on your fitness level, goals, and dietary preferences!**",
+  "extracted": {
+    "summary": "The response provides a detailed weekly diet and workout routine, including specific meals and exercises for each day.",
+    "response_type": "mixed",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast plate",
+        "ingredients": [
+          "eggs",
+          "oatmeal",
+          "berries",
+          "banana",
+          "coffee",
+          "green tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "snack 1",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "honey",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "lunch plate",
+        "ingredients": [
+          "grilled chicken",
+          "brown rice",
+          "sweet potato",
+          "mixed vegetables",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "snack 2",
+        "ingredients": [
+          "protein shake",
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "dinner plate",
+        "ingredients": [
+          "lean beef",
+          "quinoa",
+          "pasta",
+          "salad",
+          "olive oil",
+          "steamed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "optional evening snack",
+        "ingredients": [
+          "casein protein",
+          "cottage cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "apple",
+      "berries",
+      "black coffee",
+      "brown rice",
+      "casein protein",
+      "chicken",
+      "cottage cheese",
+      "eggs",
+      "granola",
+      "green tea",
+      "honey",
+      "lean beef",
+      "mixed vegetables",
+      "olive oil",
+      "oatmeal",
+      "peanut butter",
+      "protein shake",
+      "quinoa",
+      "salad",
+      "salmon",
+      "sweet potato",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "breakfast plate",
+      "dinner plate",
+      "lunch plate",
+      "optional evening snack",
+      "snack 1",
+      "snack 2"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "upper body strength",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "cardio & core",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "lower body strength",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "active recovery",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "full body & HIIT",
+        "activity_type": "hiit",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "sports or conditioning",
+        "activity_type": "sport",
+        "duration_minutes": 60,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "complete rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "gym",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3266,
+  "extraction_output_tokens": 1840,
+  "extraction_from_cache": false
+}

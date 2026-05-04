@@ -1,0 +1,21 @@
+{
+  "prompt_id": "lif_con_05",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Give me a healthy breakfast plan for a week for someone who skips mornings and has only 5 minutes before leaving.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# 5-Minute Breakfast Plan\n\n## Prep-Ahead Strategy\nSpend 30 minutes Sunday evening preparing components you can grab and go.\n\n---\n\n## The Weekly Plan\n\n**Monday & Tuesday: Overnight Oats**\n- Prep: Mix oats, yogurt, milk, berries in jars\n- Grab: Take jar + spoon\n- Time: 0 minutes (eat in car/at desk)\n\n**Wednesday & Thursday: Egg Muffins**\n- Prep: Bake egg + veggie muffins in batches\n- Grab: 2 muffins + fruit\n- Time: 2 minutes (reheat or eat cold)\n\n**Friday: Yogurt Parfait**\n- Prep: Layer yogurt, granola, berries in containers\n- Grab: Container + spoon\n- Time: 0 minutes\n\n**Saturday & Sunday: Breakfast Burritos**\n- Prep: Wrap scrambled eggs, cheese, veggies in tortillas\n- Grab: 1 burrito + banana\n- Time: 1 minute (optional microwave)\n\n---\n\n## Backup Options\n- **Banana + peanut butter** (literally 30 seconds)\n- **String cheese + apple**\n- **Protein bar + orange**\n\n## Pro Tips\n- Use containers you can eat from directly\n- Keep fruit on the counter\n- Set out a small cooler the night before\n- Eat while commuting if possible\n\nWhat's your biggest barrier—cooking time or decision fatigue?",
+  "input_tokens": 33,
+  "output_tokens": 357,
+  "from_cache": false,
+  "timestamp": "2026-04-26T23:06:29.500812"
+}

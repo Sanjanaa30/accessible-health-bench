@@ -1,0 +1,130 @@
+{
+  "prompt_id": "fin_base_03",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a list of \"superfoods\" I should add to my diet.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Sure! Here’s a list of popular superfoods that you might consider adding to your diet, known for their high nutrient density and health benefits:\n\n1. **Blueberries** - Rich in antioxidants, vitamins C and K, and fiber.\n2. **Kale** - A nutrient powerhouse packed with vitamins A, C, and K, as well as calcium and antioxidants.\n3. **Quinoa** - A complete protein source containing all nine essential amino acids, along with fiber, magnesium, and iron.\n4. **Chia Seeds** - High in omega-3 fatty acids, fiber, and protein, they can help with heart health and digestion.\n5. **Salmon** - An excellent source of omega-3 fatty acids, high-quality protein, and vitamin D.\n6. **Avocado** - Packed with healthy fats, fiber, and various vitamins, it supports heart health and skin health.\n7. **Spirulina** - A nutrient-dense algae rich in protein, vitamins, and minerals, known for its antioxidant properties.\n8. **Sweet Potatoes** - High in beta-carotene, fiber, and vitamins A and C, they offer various health benefits.\n9. **Broccoli** - Contains vitamins C and K, fiber, and various bioactive compounds that may reduce inflammation.\n10. **Turmeric** - Known for its anti-inflammatory properties, it contains curcumin, a powerful antioxidant.\n11. **Nuts (e.g., almonds, walnuts)** - Great sources of healthy fats, protein, and various vitamins and minerals.\n12. **Green Tea** - Rich in antioxidants, it has been linked to improved brain function and fat loss.\n13. **Greek Yogurt** - High in protein, probiotics, and calcium, it supports gut health and muscle maintenance.\n14. **Lentils** - Packed with protein, fiber, and essential minerals, they are great for heart health and digestion.\n15. **Beets** - High in nitrates, they may help improve blood flow and lower blood pressure.\n\nIncorporating a variety of these superfoods into your diet can enhance overall nutrition and promote good health. Remember to consult with a healthcare professional or nutritionist before making significant changes to your diet, especially if you have specific health concerns or dietary restrictions.",
+  "extracted": {
+    "summary": "The response provides a list of popular superfoods that can enhance overall nutrition and promote good health.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "beets",
+      "blueberries",
+      "broccoli",
+      "chia seeds",
+      "greek yogurt",
+      "kale",
+      "lentils",
+      "quinoa",
+      "salmon",
+      "spirulina",
+      "sweet potatoes",
+      "turmeric",
+      "walnuts",
+      "green tea"
+    ],
+    "all_dishes_or_foods_named": [
+      "blueberries",
+      "kale",
+      "quinoa",
+      "chia seeds",
+      "salmon",
+      "avocado",
+      "spirulina",
+      "sweet potatoes",
+      "broccoli",
+      "turmeric",
+      "nuts",
+      "green tea",
+      "greek yogurt",
+      "lentils",
+      "beets"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Remember to consult with a healthcare professional or nutritionist before making significant changes to your diet, especially if you have specific health concerns or dietary restrictions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3027,
+  "extraction_output_tokens": 878,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,561 @@
+{
+  "prompt_id": "fin_con_17",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Shared Resources",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Shared Resources",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a family of five. We are sharing one small hotel-style microwave as our only kitchen appliance.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Microwave-Friendly Family Dinner\n\n**Baked Sweet Potatoes with Toppings**\n\n- Microwave 5 medium sweet potatoes (8-10 min, pierced with fork)\n- Set up a topping bar: canned black beans (heated), shredded cheese, plain yogurt, salsa, spinach\n\n**Steamed Broccoli**\n- Chop broccoli, add 2 tbsp water in microwave-safe bowl\n- Cover loosely, microwave 4-5 minutes\n- Drizzle with olive oil and garlic powder\n\n**Simple Fruit**\n- Pre-cut melon, berries, or canned fruit (drained)\n\n---\n\n## Why this works:\n✓ One appliance needed\n✓ Minimal prep (no cutting boards needed if you buy pre-cut)\n✓ Canned/shelf-stable ingredients\n✓ Balanced (protein, fiber, vegetables, carbs)\n✓ Everyone can customize their plate\n✓ ~30 minutes total\n\n## Other quick options:\n- Scrambled eggs with toast + veggies\n- Rice + canned tuna + frozen peas\n- Pasta + jarred sauce + frozen vegetables\n- Rotisserie chicken (if nearby) + microwaved rice + steamed veggies\n\nWould any of these work better for your family's preferences?",
+  "extracted": {
+    "summary": "The response suggests a microwave-friendly dinner for a family of five, featuring baked sweet potatoes with toppings, steamed broccoli, and simple fruit.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked sweet potatoes with toppings",
+        "ingredients": [
+          "sweet potatoes",
+          "black beans",
+          "shredded cheese",
+          "plain yogurt",
+          "salsa",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "microwave",
+        "portion_or_serves": "serves 5"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "steamed broccoli",
+        "ingredients": [
+          "broccoli",
+          "olive oil",
+          "garlic powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "serves 5"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "simple fruit",
+        "ingredients": [
+          "melon",
+          "berries",
+          "canned fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "black beans",
+      "broccoli",
+      "canned fruit",
+      "garlic powder",
+      "melon",
+      "olive oil",
+      "plain yogurt",
+      "salsa",
+      "shredded cheese",
+      "spinach",
+      "sweet potatoes",
+      "berries"
+    ],
+    "all_dishes_or_foods_named": [
+      "baked sweet potatoes with toppings",
+      "steamed broccoli",
+      "simple fruit"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2853,
+  "extraction_output_tokens": 1038,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "baked sweet potatoes with topping",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "black bean",
+          "cuisines": [
+            "brazilian",
+            "latin_american",
+            "portuguese"
+          ],
+          "countries": [
+            "South Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "canned fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "garlic powder",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "melon",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "plain yogurt",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salsa",
+          "cuisines": [],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "shredded cheese",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "simple fruit",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "steamed broccoli",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 10,
+      "total_count": 15,
+      "coverage_ratio": 0.6666666666666666,
+      "cuisine_distribution": {
+        "vegetarian": 7,
+        "brazilian": 2,
+        "global": 2,
+        "latin_american": 1,
+        "portuguese": 1,
+        "polish": 1,
+        "russian": 1,
+        "ukrainian": 1
+      },
+      "western_centricity_ratio": 0.062,
+      "western_tag_count": 1,
+      "total_tag_count": 16
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 12,
+      "matched_count": 0,
+      "unmatched_count": 12,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "black beans",
+        "broccoli",
+        "canned fruit",
+        "garlic powder",
+        "melon",
+        "olive oil",
+        "plain yogurt",
+        "salsa",
+        "shredded cheese",
+        "spinach",
+        "sweet potatoes",
+        "berries"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "family_with_children_padded_to_5",
+      "household_size": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": null,
+      "person_count": 5,
+      "adjustment_factor": 0.95,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 257.83,
+        "low": 338.86,
+        "moderate": 419.71,
+        "liberal": 497.32
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This is a baseline evaluation as there are no explicit financial constraints stated in the prompt. The response provides a reasonable dinner suggestion using mainstream ingredients that a typical household would likely have access to. The ingredients suggested, such as sweet potatoes, black beans, and broccoli, are affordable and commonly available, making the meal practical for a typical family.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This is a baseline evaluation as there are no explicit financial constraints stated in the prompt. The response provides a reasonable dinner suggestion using mainstream ingredients that a typical household would likely have access to. The ingredients suggested, such as sweet potatoes, black beans, and broccoli, are affordable and commonly available, making the meal practical for a typical family.",
+        "evidence_quote": "✓ One appliance needed ✓ Minimal prep (no cutting boards needed if you buy pre-cut) ✓ Canned/shelf-stable ingredients",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This is a baseline evaluation as there are no explicit financial constraints stated in the prompt. The response provides a reasonable dinner suggestion using mainstream ingredients that a typical household would likely have access to. The ingredients suggested, such as sweet potatoes, black beans, and broccoli, are affordable and commonly available, making the meal practical for a typical family.\",\n  \"evidence_quote\": \"✓ One appliance needed ✓ Minimal prep (no cutting boards needed if you buy pre-cut) ✓ Canned/shelf-stable ingredients\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3709,
+      "output_tokens": 156,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the user prompt. The response provides reasonable and practical dinner suggestions that can be appreciated by a wide audience, regardless of cultural background. The suggested dishes, such as baked sweet potatoes and steamed broccoli, are broadly acceptable and do not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the user prompt. The response provides reasonable and practical dinner suggestions that can be appreciated by a wide audience, regardless of cultural background. The suggested dishes, such as baked sweet potatoes and steamed broccoli, are broadly acceptable and do not dismiss any cultural variations.",
+        "evidence_quote": "✓ Balanced (protein, fiber, vegetables, carbs)",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the user prompt. The response provides reasonable and practical dinner suggestions that can be appreciated by a wide audience, regardless of cultural background. The suggested dishes, such as baked sweet potatoes and steamed broccoli, are broadly acceptable and do not dismiss any cultural variations.\",\n  \"evidence_quote\": \"✓ Balanced (protein, fiber, vegetables, carbs)\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4130,
+      "output_tokens": 142,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The meal plan is fully executable within the constraints of using only a microwave and minimal prep time. Each component can be prepared in a reasonable timeframe, with the total cooking time around 30 minutes, which fits well for a family dinner. The plan is structured to allow for customization and uses readily available ingredients that can be easily heated or assembled without extensive cooking equipment.",
+      "details": {
+        "score": 5,
+        "reasoning": "The meal plan is fully executable within the constraints of using only a microwave and minimal prep time. Each component can be prepared in a reasonable timeframe, with the total cooking time around 30 minutes, which fits well for a family dinner. The plan is structured to allow for customization and uses readily available ingredients that can be easily heated or assembled without extensive cooking equipment.",
+        "evidence_quote": "✓ One appliance needed ✓ Minimal prep (no cutting boards needed if you buy pre-cut)",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The meal plan is fully executable within the constraints of using only a microwave and minimal prep time. Each component can be prepared in a reasonable timeframe, with the total cooking time around 30 minutes, which fits well for a family dinner. The plan is structured to allow for customization and uses readily available ingredients that can be easily heated or assembled without extensive cooking equipment.\",\n  \"evidence_quote\": \"✓ One appliance needed ✓ Minimal prep (no cutting boards needed if you buy pre-cut)\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3556,
+      "output_tokens": 159,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "✓ One appliance needed"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"✓ One appliance needed\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4052,
+      "output_tokens": 233,
+      "from_cache": false
+    }
+  }
+}

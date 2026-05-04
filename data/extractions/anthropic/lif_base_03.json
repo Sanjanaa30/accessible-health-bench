@@ -1,0 +1,201 @@
+{
+  "prompt_id": "lif_base_03",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a balanced diet plan for weight loss.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Balanced Weight Loss Diet Plan\n\n## Daily Calorie Target\n- **Deficit goal**: 500-750 calories below maintenance\n- **Typical range**: 1,500-2,000 calories (adjust based on your size/activity)\n\n## Macronutrient Balance\n\n| Nutrient | % of Calories | Purpose |\n|----------|---------------|---------|\n| Protein | 30-35% | Preserve muscle, increase satiety |\n| Carbs | 40-45% | Energy, fiber, nutrients |\n| Fats | 20-25% | Hormone health, nutrient absorption |\n\n## Sample Daily Framework\n\n### Breakfast (300-350 cal)\n- 2 eggs + 1 slice whole wheat toast\n- 1 cup berries\n- Coffee/tea\n\n### Mid-Morning Snack (100-150 cal)\n- Greek yogurt OR apple with almond butter\n\n### Lunch (400-450 cal)\n- 4-5 oz lean protein (chicken, fish, tofu)\n- 2 cups vegetables\n- ½ cup brown rice or sweet potato\n\n### Afternoon Snack (100-150 cal)\n- Veggies with hummus OR handful of nuts\n\n### Dinner (400-450 cal)\n- 4-5 oz lean protein\n- Large salad or roasted vegetables\n- 1 small whole grain side\n\n## Key Principles\n\n✓ Prioritize whole foods  \n✓ Eat plenty of vegetables (fill half your plate)  \n✓ Choose lean proteins at every meal  \n✓ Drink 8+ glasses of water daily  \n✓ Plan meals ahead  \n✓ Allow one flexible meal weekly  \n\n## Important Notes\n- Results take 4-6 weeks to show\n- Consult a doctor before major changes\n- Combine with 150+ minutes weekly exercise\n- Adjust calories if progress stalls after 3 weeks\n\n**What's your current situation?** I can customize this further.",
+  "extracted": {
+    "summary": "The response provides a balanced diet plan for weight loss, including a daily calorie target, macronutrient balance, and a sample meal framework.",
+    "response_type": "meal_plan",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "breakfast",
+        "ingredients": [
+          "eggs",
+          "whole wheat toast",
+          "berries",
+          "coffee",
+          "tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "mid-morning snack",
+        "ingredients": [
+          "greek yogurt",
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lunch",
+        "ingredients": [
+          "lean protein",
+          "vegetables",
+          "brown rice",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "afternoon snack",
+        "ingredients": [
+          "veggies",
+          "hummus",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "dinner",
+        "ingredients": [
+          "lean protein",
+          "salad",
+          "roasted vegetables",
+          "whole grain side"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "berries",
+      "brown rice",
+      "coffee",
+      "eggs",
+      "greek yogurt",
+      "hummus",
+      "lean protein",
+      "nuts",
+      "salad",
+      "sweet potato",
+      "vegetables",
+      "whole grain side",
+      "whole wheat toast"
+    ],
+    "all_dishes_or_foods_named": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "mid-morning snack",
+      "afternoon snack"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult a doctor before major changes",
+      "Results take 4-6 weeks to show"
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2935,
+  "extraction_output_tokens": 1248,
+  "extraction_from_cache": false
+}

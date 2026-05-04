@@ -1,0 +1,150 @@
+{
+  "prompt_id": "fin_base_01",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast for a student.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a quick, brain-boosting breakfast that’s perfect for a student: **Overnight Oats with Berries & Almonds**.\n\nThis meal is packed with complex carbs (steady energy for class), protein (keeps you full), and healthy fats (great for focus).\n\n### The Recipe: \"Brain Fuel\" Overnight Oats\n*Prep time: 5 minutes the night before | Eat cold or microwave for 1 minute*\n\n**Ingredients:**\n- ½ cup rolled oats (not instant)\n- ½ cup milk (dairy, soy, or oat milk)\n- ¼ cup Greek yogurt (for protein)\n- 1 tbsp chia seeds (adds fiber & omega-3s)\n- 1 tsp honey or maple syrup (optional)\n- ½ cup mixed berries (fresh or frozen)\n- 1 tbsp chopped almonds or walnuts\n\n**Instructions:**\n1. The night before, mix the oats, milk, yogurt, chia seeds, and honey in a jar or bowl.\n2. Stir well, cover, and put it in the fridge.\n3. In the morning, top with berries and nuts. Eat as is, or microwave for 45 seconds if you prefer it warm.\n\n### Why it works for a student:\n- **No cooking required** – grab and go.\n- **Cost-effective** – oats and chia seeds are cheap staples.\n- **Sustains energy** – prevents the 10 a.m. crash.\n- **Customizable** – swap berries for banana, or almonds for peanut butter.\n\n**Alternative if you have 5 minutes in the morning:**  \nScramble 2 eggs with a handful of spinach. Serve with 1 slice of whole-grain toast and an apple. Protein + fiber = exam-ready fuel.",
+  "extracted": {
+    "summary": "The response recommends a healthy breakfast option for students, featuring overnight oats with berries and almonds, along with an alternative egg scramble.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats with berries & almonds",
+        "ingredients": [
+          "rolled oats",
+          "milk",
+          "greek yogurt",
+          "chia seeds",
+          "honey",
+          "mixed berries",
+          "chopped almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "whole-grain toast",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "rolled oats",
+      "milk",
+      "greek yogurt",
+      "chia seeds",
+      "honey",
+      "mixed berries",
+      "chopped almonds",
+      "eggs",
+      "spinach",
+      "whole-grain toast",
+      "apple"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "scrambled eggs"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 5,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2914,
+  "extraction_output_tokens": 1002,
+  "extraction_from_cache": false
+}

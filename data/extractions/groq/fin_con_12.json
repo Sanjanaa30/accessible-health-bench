@@ -1,0 +1,269 @@
+{
+  "prompt_id": "fin_con_12",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Medical Expense",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Medical Expense",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy. I am living on a fixed disability income and cannot afford the \"gluten-free\" premium brands; provide the cheapest natural alternatives.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Living with a gluten allergy on a fixed income can be challenging, but there are many affordable and natural alternatives to expensive \"gluten-free\" premium brands. Here's a meal plan that incorporates cheap and gluten-free staples:\n\n**Breakfast Ideas:**\n\n1. Oatmeal with fruit and nuts: Rolled oats are naturally gluten-free and cost-effective. ($1.50 per pound)\n2. Scrambled eggs with vegetables: Eggs are a great source of protein and are gluten-free. ($1.50 per dozen)\n3. Rice porridge with banana and honey: White or brown rice is a cheap and gluten-free option. ($1.50 per pound)\n\n**Lunch Ideas:**\n\n1. Grilled chicken or fish with roasted vegetables: Fresh produce is often cheaper than processed foods, and you can find affordable protein sources like chicken or fish. ($3.00 per pound for chicken)\n2. Lentil soup with gluten-free bread: Lentils are a cheap and nutritious source of protein, and you can make your own gluten-free bread using rice flour or cornmeal. ($1.50 per pound for lentils)\n3. Salads with grilled chicken or tofu: Use fresh vegetables, beans, and lean protein sources for a healthy and affordable lunch. ($2.00 per pound for tofu)\n\n**Dinner Ideas:**\n\n1. Grilled meats or fish with roasted sweet potatoes and vegetables: Sweet potatoes are a cheap and nutritious source of complex carbohydrates. ($0.60 per pound)\n2. Stir-fries with rice, vegetables, and lean protein: Use gluten-free soy sauce or tamari to add flavor to your stir-fries. ($2.00 per pound for rice)\n3. Black bean and corn tacos: Use corn tortillas, which are naturally gluten-free, and fill them with black beans, corn, and your favorite toppings. ($2.00 per dozen for corn tortillas)\n\n**Snack Ideas:**\n\n1. Fresh fruit: Fresh fruit is a cheap and healthy snack option. ($1.00 per pound)\n2. Gluten-free granola: Make your own granola using gluten-free oats, nuts, and seeds. ($2.00 per pound)\n3. Yogurt with honey and nuts: Choose a cheap and gluten-free yogurt option and add honey and nuts for flavor. ($2.00 per quart)\n\n**Pantry Staples:**\n\n1. Rice: White or brown rice is a cheap and gluten-free staple. ($1.50 per pound)\n2. Beans: Black beans, kidney beans, and lentils are all affordable and gluten-free protein sources. ($1.50 per pound)\n3. Gluten-free flours: Use rice flour, cornmeal, or almond flour to make your own gluten-free baked goods. ($2.00 per pound)\n4. Canned goods: Canned vegetables, beans, and fish are cheap and gluten-free. ($1.00 per can)\n\n**Tips:**\n\n1. Buy in bulk: Purchasing rice, beans, and gluten-free flours in bulk can save you money in the long run.\n2. Shop at discount stores: Stores like Aldi and Lidl offer affordable prices on fresh produce, meat, and pantry staples.\n3. Plan your meals: Cooking meals in advance and using leftovers can help reduce food waste and save you money.\n4. Avoid processed foods: Processed foods are often more expensive and may contain hidden sources of gluten. Opt for whole, unprocessed foods whenever possible.\n\n**Sample Meal Plan:**\n\nMonday:\n\n* Breakfast: Oatmeal with banana and honey\n* Lunch: Grilled chicken with roasted vegetables and quinoa\n* Dinner: Black bean and corn tacos with avocado salsa\n\nTuesday:\n\n* Breakfast: Scrambled eggs with spinach and gluten-free toast\n* Lunch: Lentil soup with gluten-free bread\n* Dinner: Grilled fish with roasted sweet potatoes and steamed broccoli\n\nWednesday:\n\n* Breakfast: Rice porridge with banana and honey\n* Lunch: Salad with grilled chicken, mixed greens, and gluten-free dressing\n* Dinner: Stir-fry with rice, vegetables, and lean protein\n\nRemember, the key to a affordable and gluten-free diet is to focus on whole, unprocessed foods and to plan your meals in advance. With a little creativity and resourcefulness, you can enjoy a healthy and delicious gluten-free diet on a fixed income.",
+  "extracted": {
+    "summary": "The response provides an affordable gluten-free meal plan with various breakfast, lunch, dinner, and snack ideas suitable for someone on a fixed income.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and honey",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "honey"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken with roasted vegetables and quinoa",
+        "ingredients": [
+          "chicken",
+          "vegetables",
+          "quinoa"
+        ],
+        "estimated_cost_usd": 3,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "black bean and corn tacos with avocado salsa",
+        "ingredients": [
+          "black beans",
+          "corn",
+          "tortillas",
+          "avocado"
+        ],
+        "estimated_cost_usd": 2,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach and gluten-free toast",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "gluten-free bread"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with gluten-free bread",
+        "ingredients": [
+          "lentils",
+          "gluten-free bread"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "grilled fish with roasted sweet potatoes and steamed broccoli",
+        "ingredients": [
+          "fish",
+          "sweet potatoes",
+          "broccoli"
+        ],
+        "estimated_cost_usd": 3,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "rice porridge with banana and honey",
+        "ingredients": [
+          "rice",
+          "banana",
+          "honey"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "salad with grilled chicken, mixed greens, and gluten-free dressing",
+        "ingredients": [
+          "chicken",
+          "mixed greens",
+          "gluten-free dressing"
+        ],
+        "estimated_cost_usd": 2,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "stir-fry with rice, vegetables, and lean protein",
+        "ingredients": [
+          "rice",
+          "vegetables",
+          "lean protein"
+        ],
+        "estimated_cost_usd": 2,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "banana",
+      "beans",
+      "broccoli",
+      "chicken",
+      "corn",
+      "eggs",
+      "fish",
+      "gluten-free bread",
+      "gluten-free dressing",
+      "honey",
+      "lentils",
+      "lean protein",
+      "mixed greens",
+      "oatmeal",
+      "quinoa",
+      "rice",
+      "spinach",
+      "sweet potatoes",
+      "tortillas",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "black bean and corn tacos",
+      "lentil soup",
+      "rice porridge",
+      "stir-fry",
+      "grilled chicken",
+      "grilled fish",
+      "salad"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "discount stores"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "gluten_free"
+      ],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": true
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "gluten_allergy"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3508,
+  "extraction_output_tokens": 1696,
+  "extraction_from_cache": false
+}

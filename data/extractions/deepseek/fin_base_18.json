@@ -1,0 +1,118 @@
+{
+  "prompt_id": "fin_base_18",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fruit-based snack that is high in antioxidants.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a great fruit-based snack that’s packed with antioxidants:\n\n**Dark Chocolate-Dipped Berries**\n\n**Why it works:**  \n- **Berries (blueberries, strawberries, raspberries, or blackberries)** are loaded with anthocyanins and vitamin C, which are powerful antioxidants.  \n- **Dark chocolate (70% cocoa or higher)** is rich in flavonoids, another class of antioxidants.  \n- The combination is simple, delicious, and far healthier than processed sweets.\n\n**How to make it:**  \n1. Wash and thoroughly dry a cup of mixed berries.  \n2. Melt 2–3 ounces of dark chocolate (use a double boiler or microwave in 15-second bursts).  \n3. Dip each berry halfway into the chocolate, then place on a parchment-lined tray.  \n4. Refrigerate for 15–20 minutes until the chocolate sets.  \n\n**Optional boost:** Sprinkle with a pinch of sea salt or unsweetened shredded coconut before the chocolate hardens.  \n\nThis snack provides fiber, vitamins, and a concentrated dose of antioxidants without added refined sugar (if you use high-quality dark chocolate). Enjoy in moderation—the chocolate adds calories, but the health benefits are real.",
+  "extracted": {
+    "summary": "The response suggests a fruit-based snack of dark chocolate-dipped berries, which are high in antioxidants.",
+    "response_type": "snack_list",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "dark chocolate-dipped berries",
+        "ingredients": [
+          "berries",
+          "dark chocolate",
+          "sea salt",
+          "unsweetened shredded coconut"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "berries",
+      "dark chocolate",
+      "sea salt",
+      "unsweetened shredded coconut"
+    ],
+    "all_dishes_or_foods_named": [
+      "dark chocolate-dipped berries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2802,
+  "extraction_output_tokens": 823,
+  "extraction_from_cache": false
+}

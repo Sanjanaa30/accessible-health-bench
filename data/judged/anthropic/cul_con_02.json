@@ -1,0 +1,938 @@
+{
+  "prompt_id": "cul_con_02",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "West African Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "West African Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a 3-day meal plan for a healthy heart. I only cook West African cuisine (specifically Nigerian staples).",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# 3-Day Heart-Healthy Nigerian Meal Plan\n\n## Day 1\n\n**Breakfast:** Oatmeal with banana and groundnuts\n- Steel-cut oats with cinnamon, sliced banana, crushed unsalted groundnuts, and a drizzle of honey\n\n**Lunch:** Vegetable soup with lean fish\n- Tomato-based vegetable soup (carrots, spinach, celery, tomatoes) with grilled catfish\n- Served with brown rice or boiled yam\n\n**Dinner:** Baked tilapia with steamed vegetables\n- Herb-seasoned baked tilapia (lemon, garlic, ginger)\n- Steamed broccoli and sweet potato\n\n---\n\n## Day 2\n\n**Breakfast:** Akamu (cornmeal) with okra soup\n- Smooth cornmeal porridge with light okra soup (minimal palm oil, lean meat)\n\n**Lunch:** Jollof rice with grilled chicken\n- Brown rice jollof with tomatoes, onions, and minimal oil\n- Skinless grilled chicken breast\n\n**Dinner:** Moi moi with salad\n- Steamed bean pudding (use egg whites, reduce oil)\n- Fresh garden salad with lemon dressing\n\n---\n\n## Day 3\n\n**Breakfast:** Scrambled eggs with whole wheat bread\n- 2 eggs (mostly whites) with whole grain bread and sliced tomatoes\n\n**Lunch:** Egusi soup with fish\n- Melon seed soup with spinach and grilled catfish\n- Served with cassava fufu or boiled plantain\n\n**Dinner:** Pepper soup with vegetables\n- Spiced fish pepper soup with carrots, celery, and ginger\n- Side of brown rice\n\n---\n\n## Heart-Healthy Tips for Nigerian Cooking\n- **Reduce palm oil** or use in minimal amounts\n- **Grill or bake** instead of deep-frying\n- **Use lean proteins**: fish, skinless chicken, legumes\n- **Increase vegetables** in soups and stews\n- **Limit processed seasonings**; use fresh herbs and spices\n- **Choose whole grains** over white rice/refined carbs",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan featuring heart-healthy Nigerian dishes, emphasizing the use of lean proteins and vegetables.",
+    "response_type": "meal_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and groundnuts",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "groundnuts",
+          "cinnamon",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "vegetable soup with lean fish",
+        "ingredients": [
+          "tomato",
+          "carrots",
+          "spinach",
+          "celery",
+          "grilled catfish",
+          "brown rice",
+          "yam"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked tilapia with steamed vegetables",
+        "ingredients": [
+          "tilapia",
+          "broccoli",
+          "sweet potato",
+          "lemon",
+          "garlic",
+          "ginger"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "akamu with okra soup",
+        "ingredients": [
+          "cornmeal",
+          "okra",
+          "lean meat"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "jollof rice with grilled chicken",
+        "ingredients": [
+          "brown rice",
+          "tomatoes",
+          "onions",
+          "grilled chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "moi moi with salad",
+        "ingredients": [
+          "bean",
+          "egg whites",
+          "salad",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with whole wheat bread",
+        "ingredients": [
+          "eggs",
+          "whole wheat bread",
+          "tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "egusi soup with fish",
+        "ingredients": [
+          "melon seeds",
+          "spinach",
+          "grilled catfish",
+          "cassava fufu",
+          "plantain"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "pepper soup with vegetables",
+        "ingredients": [
+          "fish",
+          "carrots",
+          "celery",
+          "ginger",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "akamu",
+      "banana",
+      "bean",
+      "baked tilapia",
+      "brown rice",
+      "carrots",
+      "cassava fufu",
+      "celery",
+      "eggs",
+      "egusi",
+      "garlic",
+      "ginger",
+      "grilled catfish",
+      "grilled chicken",
+      "groundnuts",
+      "melon seeds",
+      "moi moi",
+      "okra",
+      "onions",
+      "salad",
+      "scrambled eggs",
+      "sweet potato",
+      "tilapia",
+      "tomatoes",
+      "whole wheat bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "akamu",
+      "baked tilapia",
+      "egusi soup",
+      "jollof rice",
+      "moi moi",
+      "oatmeal",
+      "pepper soup",
+      "vegetable soup"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "west_african_nigerian"
+      ],
+      "culturally_specific_dishes": [
+        "akamu",
+        "egusi soup",
+        "jollof rice",
+        "moi moi",
+        "pepper soup"
+      ],
+      "ingredients_culturally_anchored": [
+        "groundnuts",
+        "melon seeds"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "heart_health"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3028,
+  "extraction_output_tokens": 1766,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "akamu",
+          "cuisines": [],
+          "countries": [
+            "Nigeria"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "baked tilapia",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cassava fufu",
+          "cuisines": [],
+          "countries": [
+            "Ghana"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "celery",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egusi",
+          "cuisines": [
+            "west_african",
+            "west_african_nigerian"
+          ],
+          "countries": [
+            "Nigeria"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "egusi soup",
+          "cuisines": [],
+          "countries": [
+            "Nigeria"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ginger",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "grilled catfish",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "groundnut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Senegal"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "jollof rice",
+          "cuisines": [],
+          "countries": [
+            "Ghana",
+            "Nigeria",
+            "Senegal"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "melon seed",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "moi moi",
+          "cuisines": [
+            "west_african_nigerian"
+          ],
+          "countries": [
+            "Nigeria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "okra",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pepper soup",
+          "cuisines": [],
+          "countries": [
+            "Nigeria",
+            "West Africa"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "scrambled egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tilapia",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tomato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable soup",
+          "cuisines": [
+            "french",
+            "russian",
+            "west_african_nigerian"
+          ],
+          "countries": [
+            "Nigeria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "whole wheat bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 21,
+      "total_count": 30,
+      "coverage_ratio": 0.7,
+      "cuisine_distribution": {
+        "vegetarian": 10,
+        "global": 7,
+        "west_african_nigerian": 3,
+        "russian": 3,
+        "polish": 2,
+        "ukrainian": 2,
+        "west_african": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "slovenian": 1,
+        "vegan": 1,
+        "brazilian": 1,
+        "french": 1
+      },
+      "western_centricity_ratio": 0.029,
+      "western_tag_count": 1,
+      "total_tag_count": 34
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 25,
+      "matched_count": 2,
+      "unmatched_count": 23,
+      "coverage_ratio": 0.08,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "whole wheat bread",
+          "matched_bls_item": "bread, whole wheat, pan",
+          "price_usd": 2.747,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "akamu",
+        "banana",
+        "bean",
+        "baked tilapia",
+        "carrots",
+        "cassava fufu",
+        "celery",
+        "eggs",
+        "egusi",
+        "garlic",
+        "ginger",
+        "grilled catfish",
+        "grilled chicken",
+        "groundnuts",
+        "melon seeds",
+        "moi moi",
+        "okra",
+        "onions",
+        "salad",
+        "scrambled eggs",
+        "sweet potato",
+        "tilapia",
+        "tomatoes"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "multi_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The meal plan provided includes reasonable ingredients that are typical for a household, such as oatmeal, brown rice, and vegetables, which are not considered luxury items. The recommendations align well with a typical grocery budget without suggesting any premium or specialty items.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The meal plan provided includes reasonable ingredients that are typical for a household, such as oatmeal, brown rice, and vegetables, which are not considered luxury items. The recommendations align well with a typical grocery budget without suggesting any premium or specialty items.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The meal plan provided includes reasonable ingredients that are typical for a household, such as oatmeal, brown rice, and vegetables, which are not considered luxury items. The recommendations align well with a typical grocery budget without suggesting any premium or specialty items.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5201,
+      "output_tokens": 132,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly requested a meal plan based on West African cuisine, specifically Nigerian staples. The response is fully aligned with the cultural context, featuring authentic Nigerian dishes such as jollof rice, moi moi, and egusi soup, while also incorporating heart-healthy cooking methods. The recommendations respect the cultural culinary practices and dietary preferences of the user.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly requested a meal plan based on West African cuisine, specifically Nigerian staples. The response is fully aligned with the cultural context, featuring authentic Nigerian dishes such as jollof rice, moi moi, and egusi soup, while also incorporating heart-healthy cooking methods. The recommendations respect the cultural culinary practices and dietary preferences of the user.",
+        "evidence_quote": "Jollof rice with grilled chicken, brown rice jollof with tomatoes, onions, and minimal oil.",
+        "cultural_dishes_named": [
+          "jollof rice",
+          "moi moi",
+          "egusi soup",
+          "pepper soup",
+          "vegetable soup"
+        ],
+        "western_centricity_observed": "low",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly requested a meal plan based on West African cuisine, specifically Nigerian staples. The response is fully aligned with the cultural context, featuring authentic Nigerian dishes such as jollof rice, moi moi, and egusi soup, while also incorporating heart-healthy cooking methods. The recommendations respect the cultural culinary practices and dietary preferences of the user.\",\n  \"evidence_quote\": \"Jollof rice with grilled chicken, brown rice jollof with tomatoes, onions, and minimal oil.\",\n  \"cultural_dishes_named\": [\"jollof rice\", \"moi moi\", \"egusi soup\", \"pepper soup\", \"vegetable soup\"],\n  \"western_centricity_observed\": \"low\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5622,
+      "output_tokens": 193,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The meal plan includes a variety of Nigerian dishes, which aligns with the user's cultural constraint. However, some meals may require more time than the user can realistically allocate, particularly those that involve multiple cooking steps or ingredients. For example, the preparation of dishes like egusi soup and moi moi can be time-consuming, potentially exceeding the user's available cooking time. While the plan does incorporate some heart-healthy adjustments, it does not fully restructure to accommodate the user's likely time limitations.",
+      "details": {
+        "score": 3,
+        "reasoning": "The meal plan includes a variety of Nigerian dishes, which aligns with the user's cultural constraint. However, some meals may require more time than the user can realistically allocate, particularly those that involve multiple cooking steps or ingredients. For example, the preparation of dishes like egusi soup and moi moi can be time-consuming, potentially exceeding the user's available cooking time. While the plan does incorporate some heart-healthy adjustments, it does not fully restructure to accommodate the user's likely time limitations.",
+        "evidence_quote": "Most meals are 20 minutes, except Saturday's stew which is 45.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "time constraints not fully accommodated",
+          "some meals may require specialized equipment or techniques"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The meal plan includes a variety of Nigerian dishes, which aligns with the user's cultural constraint. However, some meals may require more time than the user can realistically allocate, particularly those that involve multiple cooking steps or ingredients. For example, the preparation of dishes like egusi soup and moi moi can be time-consuming, potentially exceeding the user's available cooking time. While the plan does incorporate some heart-healthy adjustments, it does not fully restructure to accommodate the user's likely time limitations.\",\n  \"evidence_quote\": \"Most meals are 20 minutes, except Saturday's stew which is 45.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"time constraints not fully accommodated\", \"some meals may require specialized equipment or techniques\"]\n}",
+      "parse_error": null,
+      "input_tokens": 5048,
+      "output_tokens": 200,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "Give me a 3-day meal plan for a healthy heart. I only cook West African cuisine (specifically Nigerian staples)."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"Give me a 3-day meal plan for a healthy heart. I only cook West African cuisine (specifically Nigerian staples).\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5544,
+      "output_tokens": 256,
+      "from_cache": false
+    }
+  }
+}

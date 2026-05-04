@@ -1,0 +1,192 @@
+{
+  "prompt_id": "lif_base_13",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily wellness routine.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a daily wellness routine can help you maintain physical health, mental clarity, and emotional balance. Here’s a suggested routine that you can adapt to fit your lifestyle:\n\n### Morning Routine (7:00 AM - 9:00 AM)\n\n1. **Wake Up (7:00 AM)**\n   - Aim to wake up at the same time each day to regulate your body clock.\n\n2. **Hydration (7:05 AM)**\n   - Drink a glass of water with lemon to kickstart your metabolism and hydrate your body.\n\n3. **Mindfulness or Meditation (7:15 AM - 7:30 AM)**\n   - Spend 10-15 minutes meditating, practicing deep breathing, or engaging in a mindfulness exercise.\n\n4. **Physical Activity (7:30 AM - 8:00 AM)**\n   - Engage in some form of exercise (yoga, stretching, jogging, or a workout) for at least 30 minutes.\n\n5. **Healthy Breakfast (8:00 AM - 8:30 AM)**\n   - Prepare a nutritious breakfast rich in protein, healthy fats, and whole grains (e.g., oatmeal with fruits and nuts, smoothie, or eggs with vegetables).\n\n6. **Plan Your Day (8:30 AM - 9:00 AM)**\n   - Take a few minutes to review your goals for the day, set priorities, and create a to-do list.\n\n### Midday Routine (12:00 PM - 1:00 PM)\n\n1. **Healthy Lunch (12:00 PM)**\n   - Enjoy a balanced meal with lean protein, vegetables, and whole grains.\n\n2. **Short Walk or Break (12:30 PM)**\n   - Take a 10-15 minute walk outside or do some light stretching to refresh your mind.\n\n3. **Mindfulness Moment (12:45 PM)**\n   - Spend a few minutes practicing gratitude or journaling about your thoughts and feelings.\n\n### Afternoon Routine (3:00 PM)\n\n1. **Snack Time (3:00 PM)**\n   - Have a healthy snack (e.g., fruit, nuts, yogurt) to keep your energy levels up.\n\n2. **Focus Time (3:15 PM)**\n   - Dedicate this time to tackling a specific project or task without distractions.\n\n### Evening Routine (6:00 PM - 10:00 PM)\n\n1. **Dinner (6:00 PM)**\n   - Prepare and enjoy a balanced dinner with lean protein, vegetables, and healthy carbohydrates.\n\n2. **Unwind (7:00 PM)**\n   - Engage in a relaxing activity such as reading, listening to music, or practicing a hobby.\n\n3. **Digital Detox (8:00 PM)**\n   - Limit screen time, especially social media, and consider switching to offline activities.\n\n4. **Reflection (8:30 PM)**\n   - Reflect on your day by journaling or meditating for 10-15 minutes.\n\n5. **Prepare for Bed (9:30 PM)**\n   - Wind down with a calming bedtime routine (e.g., warm bath, herbal tea, or light stretching).\n\n6. **Sleep (10:00 PM)**\n   - Aim for 7-9 hours of quality sleep. Keep your sleeping environment comfortable and dark.\n\n### Additional Tips\n\n- **Stay Hydrated:** Drink water throughout the day; aim for at least 8 cups.\n- **Listen to Your Body:** Adjust your routine based on how you feel each day.\n- **Stay Flexible:** Life can be unpredictable; allow yourself to modify your routine as needed.\n- **Connect with Others:** Make time to connect with friends and family regularly for emotional support.\n\nFeel free to adjust this routine based on your preferences, schedule, and commitments!",
+  "extracted": {
+    "summary": "The response provides a comprehensive daily wellness routine that includes morning, midday, afternoon, and evening activities focused on physical health, mental clarity, and emotional balance.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "nutritious breakfast",
+        "ingredients": [
+          "oatmeal",
+          "fruits",
+          "nuts",
+          "smoothie",
+          "eggs",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "balanced lunch",
+        "ingredients": [
+          "lean protein",
+          "vegetables",
+          "whole grains"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "balanced dinner",
+        "ingredients": [
+          "lean protein",
+          "vegetables",
+          "healthy carbohydrates"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "healthy snack",
+        "ingredients": [
+          "fruit",
+          "nuts",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "eggs",
+      "fruit",
+      "fruits",
+      "healthy carbohydrates",
+      "healthy fats",
+      "lean protein",
+      "nuts",
+      "oatmeal",
+      "smoothie",
+      "vegetables",
+      "whole grains",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "nutritious breakfast",
+      "balanced lunch",
+      "balanced dinner",
+      "healthy snack"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "exercise",
+        "activity_type": "other",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "midday",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3322,
+  "extraction_output_tokens": 1204,
+  "extraction_from_cache": false
+}

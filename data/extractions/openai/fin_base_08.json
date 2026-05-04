@@ -1,0 +1,127 @@
+{
+  "prompt_id": "fin_base_08",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What should I eat to lower my cholesterol?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "To help lower cholesterol levels, consider incorporating the following foods into your diet:\n\n1. **Fruits and Vegetables**: Rich in fiber and antioxidants, fruits and veggies can help lower cholesterol. Aim for a variety of colors and types, including apples, oranges, berries, carrots, and leafy greens.\n\n2. **Whole Grains**: Foods like oatmeal, barley, brown rice, and whole grain bread are high in soluble fiber, which can help reduce cholesterol levels.\n\n3. **Legumes**: Beans, lentils, and chickpeas are excellent sources of protein and fiber, making them great alternatives to meat.\n\n4. **Nuts and Seeds**: Almonds, walnuts, chia seeds, and flaxseeds can help improve cholesterol levels due to their healthy fats and fiber content.\n\n5. **Healthy Fats**: Incorporate sources of monounsaturated fats, such as olive oil and avocados, while reducing saturated and trans fats found in fried foods and many processed snacks.\n\n6. **Fatty Fish**: Salmon, mackerel, and sardines are rich in omega-3 fatty acids, which can help lower overall cholesterol and improve heart health.\n\n7. **Low-Fat Dairy**: Opt for low-fat or fat-free milk, yogurt, and cheese to reduce saturated fat intake.\n\n8. **Soy Products**: Foods like tofu and soy milk can help lower cholesterol levels and provide a good source of protein.\n\n9. **Avocados**: These fruits are high in monounsaturated fats and fiber, which can help lower bad cholesterol (LDL) levels.\n\n10. **Herbs and Spices**: Use garlic, turmeric, and ginger for flavor, as they may also provide heart health benefits.\n\n### Additional Tips:\n- Limit saturated fats found in red meat and full-fat dairy products.\n- Avoid trans fats found in many fried and baked goods.\n- Increase physical activity, as regular exercise can help manage cholesterol levels.\n- Maintain a healthy weight, as losing even a small amount of weight can help lower cholesterol.\n\nAlways consider consulting with a healthcare professional or a registered dietitian for personalized dietary advice, especially if you have existing health conditions or dietary restrictions.",
+  "extracted": {
+    "summary": "To lower cholesterol levels, incorporate a variety of fruits, vegetables, whole grains, legumes, nuts, healthy fats, fatty fish, low-fat dairy, and soy products into your diet.",
+    "response_type": "advisory",
+    "primary_goal": "lower_cholesterol",
+    "meal_components": [],
+    "all_ingredients": [
+      "almonds",
+      "apples",
+      "avocados",
+      "barley",
+      "beans",
+      "berries",
+      "brown rice",
+      "carrots",
+      "chia seeds",
+      "fatty fish",
+      "flaxseeds",
+      "garlic",
+      "ginger",
+      "leafy greens",
+      "lentils",
+      "low-fat dairy",
+      "olive oil",
+      "oranges",
+      "salmon",
+      "sardines",
+      "soy milk",
+      "tofu",
+      "turmeric"
+    ],
+    "all_dishes_or_foods_named": [
+      "fatty fish",
+      "low-fat dairy",
+      "soy products"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consider consulting with a healthcare professional or a registered dietitian for personalized dietary advice, especially if you have existing health conditions or dietary restrictions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2997,
+  "extraction_output_tokens": 884,
+  "extraction_from_cache": false
+}

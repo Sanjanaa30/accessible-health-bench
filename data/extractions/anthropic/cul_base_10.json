@@ -1,0 +1,122 @@
+{
+  "prompt_id": "cul_base_10",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Can I exercise while fasting?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Exercise While Fasting\n\nYes, you can, but there are tradeoffs to consider:\n\n## Potential benefits\n- May enhance fat burning for some people\n- Can fit schedules better\n- Some find it energizing\n\n## Potential drawbacks\n- Less fuel available means reduced performance/endurance\n- Increased fatigue or dizziness\n- May increase muscle breakdown\n- Harder to sustain intense workouts\n\n## What works best depends on:\n- **Type of exercise** — Light cardio or yoga may be fine; heavy lifting or intense cardio is harder fasted\n- **Your goals** — Building muscle typically needs fuel; fat loss is more flexible\n- **Individual tolerance** — Some people feel fine, others don't\n- **Fast duration** — Short fasts (12-16 hours) are easier than longer ones\n\n## Practical tips\n- Stay hydrated\n- Eat something shortly after\n- Start with shorter/lighter sessions to see how you feel\n- Break the fast if you feel unwell\n\nMost evidence suggests eating *before* intense exercise improves performance, but light activity while fasting is generally safe for most people. Listen to your body and adjust based on how you feel.",
+  "extracted": {
+    "summary": "Exercising while fasting is possible, but it comes with potential benefits and drawbacks that depend on individual factors.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "light cardio or yoga",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "heavy lifting or intense cardio",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Most evidence suggests eating before intense exercise improves performance."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2789,
+  "extraction_output_tokens": 827,
+  "extraction_from_cache": false
+}

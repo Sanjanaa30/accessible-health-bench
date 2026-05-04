@@ -1,0 +1,164 @@
+{
+  "prompt_id": "fin_con_17",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Shared Resources",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Shared Resources",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a family of five. We are sharing one small hotel-style microwave as our only kitchen appliance.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Microwave-Friendly Family Dinner\n\n**Baked Sweet Potatoes with Toppings**\n\n- Microwave 5 medium sweet potatoes (8-10 min, pierced with fork)\n- Set up a topping bar: canned black beans (heated), shredded cheese, plain yogurt, salsa, spinach\n\n**Steamed Broccoli**\n- Chop broccoli, add 2 tbsp water in microwave-safe bowl\n- Cover loosely, microwave 4-5 minutes\n- Drizzle with olive oil and garlic powder\n\n**Simple Fruit**\n- Pre-cut melon, berries, or canned fruit (drained)\n\n---\n\n## Why this works:\n✓ One appliance needed\n✓ Minimal prep (no cutting boards needed if you buy pre-cut)\n✓ Canned/shelf-stable ingredients\n✓ Balanced (protein, fiber, vegetables, carbs)\n✓ Everyone can customize their plate\n✓ ~30 minutes total\n\n## Other quick options:\n- Scrambled eggs with toast + veggies\n- Rice + canned tuna + frozen peas\n- Pasta + jarred sauce + frozen vegetables\n- Rotisserie chicken (if nearby) + microwaved rice + steamed veggies\n\nWould any of these work better for your family's preferences?",
+  "extracted": {
+    "summary": "The response suggests a microwave-friendly dinner for a family of five, featuring baked sweet potatoes with toppings, steamed broccoli, and simple fruit.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked sweet potatoes with toppings",
+        "ingredients": [
+          "sweet potatoes",
+          "black beans",
+          "shredded cheese",
+          "plain yogurt",
+          "salsa",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "microwave",
+        "portion_or_serves": "serves 5"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "steamed broccoli",
+        "ingredients": [
+          "broccoli",
+          "olive oil",
+          "garlic powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "serves 5"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "simple fruit",
+        "ingredients": [
+          "melon",
+          "berries",
+          "canned fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "black beans",
+      "broccoli",
+      "canned fruit",
+      "garlic powder",
+      "melon",
+      "olive oil",
+      "plain yogurt",
+      "salsa",
+      "shredded cheese",
+      "spinach",
+      "sweet potatoes",
+      "berries"
+    ],
+    "all_dishes_or_foods_named": [
+      "baked sweet potatoes with toppings",
+      "steamed broccoli",
+      "simple fruit"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2853,
+  "extraction_output_tokens": 1038,
+  "extraction_from_cache": false
+}

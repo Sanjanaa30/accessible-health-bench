@@ -1,0 +1,212 @@
+{
+  "prompt_id": "cul_con_01",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "South Indian Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "South Indian Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a high-protein dinner for a family. We primarily cook traditional South Indian food at home.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here's a high-protein South Indian dinner idea that stays true to traditional flavors while boosting protein content:\n\n**Menu: Kadalai Paruppu (Chickpea) Sundal + Millet Dosa with Peanut Chutney + Curd Rice with a Twist**\n\n### 1. Kadalai Paruppu Sundal (High-Protein Starter/Side)\n- **Why:** Chickpeas (kadalai) are rich in protein and fiber. This is a classic evening snack, but works as a side for dinner.\n- **Protein boost:** Add 2 tbsp of roasted, crushed peanuts or a handful of boiled chana dal.\n- **Quick recipe:** Boil chickpeas, temper with mustard seeds, curry leaves, dried red chili, asafoetida, and grated coconut. Sprinkle with lemon juice.\n\n### 2. Ragi (Finger Millet) or Multi-Millet Dosa\n- **Why:** Replace some rice in the dosa batter with ragi flour (high in calcium and protein) or add moong dal (split yellow gram) to the batter.\n- **Protein boost:** Soak 1 cup urad dal + ½ cup moong dal + ½ cup ragi flour + 1 cup parboiled rice. Ferment overnight. The moong dal increases protein significantly.\n- **Serve with:** Peanut chutney (roasted peanuts, garlic, green chili, tamarind, salt – grind with water). Peanuts are a great plant protein source.\n\n### 3. Curd Rice with a Protein Upgrade\n- **Why:** Curd (yogurt) is naturally high in protein. But you can boost it further.\n- **Protein boost:** Add ½ cup of cooked, mashed chana dal or ¼ cup of pomegranate seeds (for antioxidants + subtle protein) and a handful of chopped nuts (cashews, almonds).\n- **Tempering:** Mustard seeds, urad dal, curry leaves, ginger, green chili. Mix into the curd rice just before serving.\n\n### Optional High-Protein Side: Kara Chutney (Spicy Lentil Chutney)\n- **Ingredients:** Roasted chana dal, red chilies, garlic, tamarind, salt, coconut. Grind coarsely. This is a protein-packed chutney that goes well with dosa or rice.\n\n### Why this works for a family:\n- **Familiar flavors:** All items are traditional South Indian favorites.\n- **Balanced:** Dosa (carbs + protein), sundal (legume protein + fiber), curd rice (probiotics + protein).\n- **Customizable:** Kids love dosa and curd rice. Adults enjoy the sundal and spicy chutney.\n- **Quick:** Sundal and chutney can be made in advance. Dosa batter ferments overnight, so dinner is ready in 20 minutes.\n\n**Estimated protein per serving (adult portion):** ~25–30g (from dosa batter, chana dal, curd, peanuts, and chutney).\n\nWould you like a detailed recipe for any of these?",
+  "extracted": {
+    "summary": "The response suggests a high-protein South Indian dinner menu including kadalai paruppu sundal, millet dosa with peanut chutney, and curd rice with a protein upgrade.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "kadalai paruppu sundal",
+        "ingredients": [
+          "chickpeas",
+          "mustard seeds",
+          "curry leaves",
+          "dried red chili",
+          "asafoetida",
+          "grated coconut",
+          "lemon juice",
+          "peanuts",
+          "chana dal"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "millet dosa",
+        "ingredients": [
+          "ragi flour",
+          "moong dal",
+          "urad dal",
+          "parboiled rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "curd rice",
+        "ingredients": [
+          "curd",
+          "chana dal",
+          "pomegranate seeds",
+          "cashews",
+          "almonds",
+          "mustard seeds",
+          "urad dal",
+          "curry leaves",
+          "ginger",
+          "green chili"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "kara chutney",
+        "ingredients": [
+          "roasted chana dal",
+          "red chilies",
+          "garlic",
+          "tamarind",
+          "salt",
+          "coconut"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "asafoetida",
+      "almonds",
+      "cashews",
+      "chana dal",
+      "chickpeas",
+      "coconut",
+      "curd",
+      "dried red chili",
+      "garlic",
+      "ginger",
+      "green chili",
+      "lemon juice",
+      "millet",
+      "moong dal",
+      "mustard seeds",
+      "parboiled rice",
+      "peanuts",
+      "pomegranate seeds",
+      "ragi flour",
+      "roasted chana dal",
+      "salt",
+      "tamarind",
+      "urad dal",
+      "curry leaves"
+    ],
+    "all_dishes_or_foods_named": [
+      "kadalai paruppu sundal",
+      "millet dosa",
+      "curd rice",
+      "kara chutney"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "south_indian"
+      ],
+      "culturally_specific_dishes": [
+        "kadalai paruppu sundal",
+        "millet dosa",
+        "curd rice",
+        "kara chutney"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3246,
+  "extraction_output_tokens": 1338,
+  "extraction_from_cache": false
+}

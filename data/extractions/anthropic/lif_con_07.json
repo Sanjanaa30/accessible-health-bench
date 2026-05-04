@@ -1,0 +1,161 @@
+{
+  "prompt_id": "lif_con_07",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a fitness plan to build muscle for someone who has no access to gym equipment.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# No-Equipment Muscle Building Plan\n\n## Training Structure\n- **Frequency**: 3-4 days per week\n- **Duration**: 30-45 minutes per session\n- **Rest**: At least one day between sessions\n\n## Core Exercises (by muscle group)\n\n**Chest & Triceps**\n- Push-ups (standard, diamond, wide-grip variations)\n- Dips (using chair or bench)\n- Pike push-ups\n\n**Back & Biceps**\n- Pull-up bar work (if accessible) or inverted rows under a table\n- Superman holds\n- Reverse snow angels\n\n**Legs**\n- Squats and jump squats\n- Lunges (walking or stationary)\n- Single-leg deadlifts\n- Glute bridges\n\n**Shoulders & Core**\n- Handstand holds (against wall)\n- Planks and side planks\n- Mountain climbers\n- Hollow body holds\n\n## Sample Workout\nPerform 3 sets of 8-12 reps each:\n1. Push-ups\n2. Squats\n3. Lunges\n4. Dips\n5. Planks (hold 30-60 seconds)\n\n## Key Success Factors\n- **Progressive overload**: Increase reps, sets, or difficulty weekly\n- **Proper nutrition**: Eat adequate protein (1.6-2.2g per kg bodyweight)\n- **Recovery**: Sleep 7-9 hours nightly\n- **Consistency**: Stick with it for 8+ weeks to see results\n\nWould you like specific variations or a detailed weekly schedule?",
+  "extracted": {
+    "summary": "The response provides a no-equipment fitness plan designed to build muscle through bodyweight exercises, structured over 3-4 days per week.",
+    "response_type": "fitness_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dips",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "planks",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2932,
+  "extraction_output_tokens": 1010,
+  "extraction_from_cache": false
+}

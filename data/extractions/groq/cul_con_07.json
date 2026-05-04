@@ -1,0 +1,143 @@
+{
+  "prompt_id": "cul_con_07",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to improve my digestion? I follow an Ayurvedic lifestyle",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "In Ayurveda, digestion is considered a crucial aspect of overall health, and the right foods can help improve digestion and prevent imbalances. Here are some Ayurvedic recommendations for improving digestion:\n\n**General Principles:**\n\n1. **Eat according to your dosha**: Understand your unique constitution (Vata, Pitta, or Kapha) and eat foods that balance your dosha.\n2. **Choose warm, cooked foods**: Warm, cooked foods are easier to digest than raw or cold foods.\n3. **Incorporate digestive spices**: Certain spices like cumin, coriander, ginger, and turmeric can aid digestion.\n4. **Drink plenty of water**: Stay hydrated to help prevent constipation and promote digestion.\n\n**Foods to Improve Digestion:**\n\n1. **Ginger**: Known for its digestive benefits, ginger can help reduce inflammation and alleviate nausea.\n2. **Yogurt**: Ayurvedic yogurt (dahi) is considered easy to digest and can help maintain a healthy gut.\n3. **Ghee**: Clarified butter (ghee) is a digestive aid and can help lubricate the digestive tract.\n4. **Cumin**: Cumin seeds or powder can help stimulate digestion and relieve bloating.\n5. **Basmati rice**: Easy to digest, basmati rice is a good choice for those with sensitive stomachs.\n6. **Mung beans**: Mung beans are considered easy to digest and can help balance the digestive system.\n7. **Vegetables**: Cooked vegetables like carrots, zucchini, and green beans are easy to digest and rich in fiber.\n8. **Fruits**: Warm, cooked fruits like apples, pears, and bananas can be easier to digest than raw fruits.\n9. **Herbal teas**: Teas like peppermint, chamomile, and fennel can help soothe the digestive system.\n\n**Foods to Avoid:**\n\n1. **Raw or cold foods**: Avoid eating raw or cold foods, especially if you have a sensitive stomach.\n2. **Processed foods**: Limit or avoid processed foods, which can be difficult to digest and may cause imbalances.\n3. **Foods high in sugar**: Excessive sugar consumption can disrupt digestion and lead to imbalances.\n4. **Foods high in salt**: Excessive salt consumption can lead to water retention and digestive issues.\n\n**Additional Tips:**\n\n1. **Eat at regular intervals**: Eat at the same time every day to establish a routine and help regulate digestion.\n2. **Chew your food well**: Thoroughly chew your food to help break it down and aid digestion.\n3. **Avoid eating before bed**: Finish eating at least 2-3 hours before bedtime to allow for proper digestion.\n4. **Practice yoga and meditation**: Regular yoga and meditation practice can help reduce stress and promote digestive health.\n\nRemember, everyone's digestive system is unique, so it's essential to listen to your body and make adjustments according to your individual needs. Consult with an Ayurvedic practitioner or healthcare professional for personalized guidance.",
+  "extracted": {
+    "summary": "The response provides Ayurvedic dietary recommendations to improve digestion, emphasizing warm, cooked foods and specific digestive aids.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "apples",
+      "bananas",
+      "basmati rice",
+      "carrots",
+      "chamomile",
+      "coriander",
+      "cumin",
+      "fennel",
+      "ginger",
+      "ghee",
+      "green beans",
+      "herbal teas",
+      "mung beans",
+      "pears",
+      "processed foods",
+      "raw or cold foods",
+      "turmeric",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "yogurt",
+      "ghee",
+      "ginger",
+      "cumin",
+      "basmati rice",
+      "mung beans",
+      "carrots",
+      "zucchini",
+      "green beans",
+      "apples",
+      "pears",
+      "bananas",
+      "peppermint",
+      "chamomile",
+      "fennel"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indian"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "ayurveda"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": null,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": null,
+      "requires_electricity": null,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3234,
+  "extraction_output_tokens": 905,
+  "extraction_from_cache": false
+}

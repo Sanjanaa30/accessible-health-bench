@@ -1,0 +1,150 @@
+{
+  "prompt_id": "fin_con_04",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a grocery list for a family of four for one week. Our total budget is $60.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Creating a grocery list for a family of four on a $60 weekly budget is extremely challenging, as this works out to roughly $2.14 per person per day. This requires a focus on **staples (rice, beans, oats), frozen vegetables, and the cheapest protein sources (eggs, lentils, chicken leg quarters)**. You will need to shop at discount stores (Aldi, Lidl, Grocery Outlet) or use a price-matching policy at Walmart.\n\nThis list assumes you already have basic pantry items: salt, pepper, oil, and a few spices (garlic powder, chili powder, cumin).\n\n### The Strategy: \"No Waste, Bulk Up\"\n\n- **Breakfast:** Oatmeal or eggs with toast.\n- **Lunch:** Leftovers from dinner or simple bean/rice bowls.\n- **Dinner:** One-pot meals (soups, stews, casseroles) that stretch ingredients.\n\n---\n\n### The $60 Grocery List\n\n**1. Grains & Starches (Buy in bulk - $12)**\n- **5 lbs White Rice** ($3.50) – The foundation of most meals.\n- **1 lb Rolled Oats** ($1.50) – Breakfast.\n- **1 loaf White Bread** ($1.00) – For toast and sandwiches.\n- **1 bag (5 lbs) Potatoes** ($3.00) – Roasted, mashed, or in soup.\n- **1 bag (16 oz) Pasta** ($1.00) – Spaghetti or elbows for casseroles.\n\n**2. Protein (Cheapest sources - $14)**\n- **1 dozen Eggs** ($2.50) – Breakfast, fried rice, hard-boiled snacks.\n- **1 bag (1 lb) Dried Brown or Green Lentils** ($2.00) – Cooks in 20 mins, great for soup or curry.\n- **1 bag (1 lb) Dried Beans** (pinto or black) ($2.00) – Soak overnight to save money vs. canned.\n- **1 package (3-4 lbs) Chicken Leg Quarters or Thighs** ($6.00) – Cheapest cut of meat. Roast one night, shred leftovers for tacos/soup.\n- **1 can Tuna** ($1.50) – For sandwiches or casseroles.\n\n**3. Vegetables & Fruit (Frozen & Affordable Fresh - $15)**\n- **1 bag Frozen Mixed Vegetables** (peas, carrots, corn, green beans) ($2.00) – For soups, stir-fries, sides.\n- **1 bag Frozen Chopped Spinach** ($1.50) – Add to lentils, eggs, or pasta.\n- **1 bag Frozen Broccoli** ($1.50) – Side dish with chicken.\n- **1 large Onion** ($0.80) – Flavor base for almost everything.\n- **1 head Garlic** ($0.60) – Essential flavor.\n- **1 bag Carrots** ($1.50) – Roast with potatoes, add to soup.\n- **1 bunch Celery** ($1.50) – For soup base.\n- **1 head Cabbage** ($2.00) – Lasts a week; use in slaw, stir-fry, or soup.\n- **1 bag Apples** (cheapest variety, ~5 apples) ($3.60) – Snacks.\n\n**4. Dairy & Fats ($7)**\n- **1 gallon Whole Milk** ($3.50) – Drink, cooking, oatmeal.\n- **1 block (8 oz) Cheddar Cheese** ($2.50) – Grate over pasta, beans, or eggs.\n- **1 stick Butter or Margarine** ($1.00) – For cooking and toast.\n\n**5. Pantry & Misc. ($12)**\n- **1 small bottle Vegetable Oil** ($2.50) – For cooking.\n- **1 jar Peanut Butter** ($3.00) – Sandwiches, oatmeal.\n- **1 can (28 oz) Crushed Tomatoes** ($1.50) – For pasta sauce, soup base.\n- **1 small bag (16 oz) Sugar** ($1.50) – For oatmeal, tea, baking.\n- **1 small bag (16 oz) Flour** ($1.50) – For thickening soups, making tortillas.\n- **Salt & Pepper** (if you don't have) ($2.00)\n\n**Total Estimate: ~$60**\n\n---\n\n### Sample Meal Plan (To Make This Work)\n\n- **Monday:** Lentil soup (lentils, carrots, celery, onion, crushed tomatoes) + rice.\n- **Tuesday:** Roasted chicken leg quarters + mashed potatoes + frozen broccoli.\n- **Wednesday:** Chicken & rice casserole (leftover chicken, rice, frozen veg, cheese).\n- **Thursday:** Bean burritos (dried pinto beans, rice, onion, cabbage slaw).\n- **Friday:** Tuna pasta casserole (pasta, tuna, frozen peas, cream sauce from milk/flour).\n- **Saturday:** Fried rice (leftover rice, eggs, frozen veg, soy sauce if you have it).\n- **Sunday:** Oatmeal for dinner (stretch budget) or potato & egg scramble.\n\n### Crucial Tips to Stay Under $60\n\n1.  **No drinks except water and milk.** Skip juice, soda, coffee, tea.\n2.  **No snacks.** Popcorn (buy kernels) or an apple is your treat.\n3.  **Use every leftover.** Bones from chicken? Boil for broth. Veggie scraps? Save for soup.\n4.  **Cook from dry.** Canned beans are 3x the price of dried. Canned tomatoes are still cheap.\n5.  **Shop at discount stores.** Aldi/Lidl can get this total to $55-58. Walmart will be closer to $62-65.\n6.  **Skip \"fresh\" herbs or fancy ingredients.** Use salt, pepper, and garlic powder only.\n\nThis is a **survival-level budget**. It is not fun or varied, but it will feed four people nutritious, filling meals. If you are facing food insecurity, please also look into local food banks or SNAP benefits—this budget is below what most nutritionists would consider healthy and sustainable long-term.",
+  "extracted": {
+    "summary": "The response provides a detailed grocery list for a family of four on a $60 budget, focusing on affordable staples and meal planning strategies.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "apples",
+      "beans",
+      "black",
+      "broccoli",
+      "butter",
+      "cabbage",
+      "carrots",
+      "cheddar cheese",
+      "chicken leg quarters",
+      "crushed tomatoes",
+      "dried brown lentils",
+      "dried beans",
+      "eggs",
+      "flour",
+      "frozen chopped spinach",
+      "frozen mixed vegetables",
+      "frozen broccoli",
+      "garlic",
+      "garlic powder",
+      "lentils",
+      "milk",
+      "onion",
+      "oats",
+      "peanut butter",
+      "potatoes",
+      "rice",
+      "salt",
+      "sugar",
+      "vegetable oil",
+      "white bread",
+      "pasta",
+      "tuna"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "lentil soup",
+      "chicken & rice casserole",
+      "bean burritos",
+      "tuna pasta casserole",
+      "fried rice",
+      "potato & egg scramble"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 60,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "snap"
+      ],
+      "store_types_referenced": [
+        "discount_store",
+        "grocery_outlet",
+        "walmart"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "This budget is below what most nutritionists would consider healthy and sustainable long-term."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3918,
+  "extraction_output_tokens": 958,
+  "extraction_from_cache": false
+}

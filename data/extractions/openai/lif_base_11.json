@@ -1,0 +1,227 @@
+{
+  "prompt_id": "lif_base_11",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy lifestyle routine.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a healthy lifestyle routine involves incorporating balanced nutrition, regular physical activity, mental well-being practices, and adequate rest. Here’s a comprehensive routine you can adapt to fit your individual needs:\n\n### Morning Routine\n1. **Hydrate:** Start your day with a glass of water to rehydrate after sleep.\n2. **Mindfulness or Meditation (10-15 minutes):** Practice mindfulness or meditation to set a positive tone for the day.\n3. **Healthy Breakfast:** Enjoy a balanced meal that includes protein, healthy fats, and whole grains, such as oatmeal with nuts and berries or a smoothie with spinach, banana, and yogurt.\n\n### Physical Activity\n4. **Exercise (30-60 minutes):** Incorporate a mix of cardiovascular, strength, and flexibility training. For example:\n   - **Cardio:** Brisk walking, jogging, cycling, or swimming (3-5 times a week).\n   - **Strength Training:** Bodyweight exercises (like push-ups, squats) or resistance training (2-3 times a week).\n   - **Flexibility:** Yoga or stretching sessions (2-3 times a week).\n\n### Work/Daytime Routine\n5. **Balanced Snacking:** Opt for healthy snacks like fruits, nuts, or yogurt to maintain energy levels throughout the day.\n6. **Stay Active:** Take short breaks every hour to stretch, walk, or do light exercises to avoid prolonged sitting.\n\n### Lunch\n7. **Nutritious Lunch:** Focus on a meal rich in vegetables, lean protein, and whole grains. Consider salads with quinoa, grilled chicken, or vegetable stir-fry with brown rice.\n\n### Afternoon Routine\n8. **Mindfulness Break (5-10 minutes):** Take a short break to breathe deeply or practice gratitude.\n9. **Hydration:** Continue to drink water throughout the day. Aim for at least 8 cups (64 oz) daily.\n\n### Evening Routine\n10. **Healthy Dinner:** Prepare a balanced meal with plenty of vegetables, a source of protein (like fish, chicken, or legumes), and healthy fats (like avocado or olive oil).\n11. **Family Time or Social Interaction:** Spend quality time with loved ones or engage in social activities to enhance emotional well-being.\n\n### Wind Down\n12. **Limit Screen Time:** Reduce exposure to screens at least an hour before bed to improve sleep quality.\n13. **Relaxation Techniques:** Engage in reading, gentle yoga, or listening to calming music to relax before sleep.\n\n### Sleep\n14. **Consistent Sleep Schedule:** Aim for 7-9 hours of quality sleep each night by going to bed and waking up at the same time each day.\n\n### Additional Tips\n- **Meal Prep:** Consider preparing meals in advance to ensure you have healthy options readily available.\n- **Stay Connected:** Maintain social connections and engage in community activities to boost mental health.\n- **Limit Processed Foods and Sugars:** Focus on whole, unprocessed foods as much as possible.\n- **Regular Check-ups:** Schedule regular health check-ups to monitor your overall well-being.\n\nFeel free to adjust this routine according to your lifestyle, preferences, and any specific health considerations you may have. Consistency is key, so aim for gradual changes that you can maintain over the long term.",
+  "extracted": {
+    "summary": "The response outlines a comprehensive healthy lifestyle routine that includes hydration, mindfulness, balanced meals, physical activity, and adequate sleep.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with nuts and berries",
+        "ingredients": [
+          "oatmeal",
+          "nuts",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "salad with quinoa and grilled chicken",
+        "ingredients": [
+          "quinoa",
+          "grilled chicken",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "vegetable stir-fry with brown rice",
+        "ingredients": [
+          "vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "balanced dinner",
+        "ingredients": [
+          "vegetables",
+          "fish",
+          "chicken",
+          "legumes",
+          "healthy fats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "oatmeal",
+      "nuts",
+      "berries",
+      "spinach",
+      "banana",
+      "yogurt",
+      "quinoa",
+      "grilled chicken",
+      "vegetables",
+      "brown rice",
+      "fish",
+      "legumes",
+      "healthy fats"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with nuts and berries",
+      "smoothie",
+      "salad with quinoa and grilled chicken",
+      "vegetable stir-fry with brown rice",
+      "balanced dinner"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "cardio",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "yoga or stretching",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3213,
+  "extraction_output_tokens": 1412,
+  "extraction_from_cache": false
+}

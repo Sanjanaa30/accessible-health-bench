@@ -1,0 +1,115 @@
+{
+  "prompt_id": "fin_base_11",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "How can I prepare healthy meals if I work 60 hours a week?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "Here are practical strategies for your situation:\n\n**Batch cooking (weekend focus)**\n- Cook 2-3 large dishes on one day off\n- Portion into containers for the week\n- Freezes well: soups, stews, grain bowls, marinated proteins\n\n**Simplify your recipes**\n- Sheet pan meals (protein + vegetables, roasted together)\n- Slow cooker/instant pot (minimal prep, done when you're home)\n- 15-minute meals on busier days\n\n**Smart shopping**\n- Buy pre-prepped vegetables if budget allows\n- Choose proteins that cook quickly (eggs, canned fish, thin cuts)\n- Keep staples on hand (rice, beans, frozen vegetables)\n\n**Lower-friction options**\n- Overnight oats or egg muffins for breakfast\n- Rotisserie chicken as a quick protein base\n- Quality frozen vegetables—nutritionally solid\n- Greek yogurt, nuts, fruit for snacks\n\n**Time savers**\n- Accept \"good enough\" over perfect (simple ≠ unhealthy)\n- Use grocery delivery to free up shopping time\n- Keep a backup list of healthy takeout options\n\n**Reality check**\nWith 60 hours of work, you won't have energy for elaborate cooking. Focus on dishes with 5-6 ingredients and minimal steps. Even basic meals beat skipping food or relying entirely on takeout.\n\nWhat meals do you currently default to when busy?",
+  "extracted": {
+    "summary": "The response provides practical strategies for preparing healthy meals while working long hours, focusing on batch cooking, simplified recipes, and smart shopping.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "beans",
+      "eggs",
+      "frozen vegetables",
+      "grain bowls",
+      "greek yogurt",
+      "marinated proteins",
+      "nuts",
+      "pre-prepped vegetables",
+      "rice",
+      "rotisserie chicken",
+      "soups",
+      "stews",
+      "thin cuts",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "egg muffins"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "60 hours a week"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2842,
+  "extraction_output_tokens": 790,
+  "extraction_from_cache": false
+}

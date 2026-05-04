@@ -1,0 +1,126 @@
+{
+  "prompt_id": "lif_con_11",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a healthy lifestyle routine for a graduate student with heavy coursework and deadlines.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Routine for Busy Graduate Students\n\n## Daily Essentials (Non-Negotiable)\n\n**Sleep**: Aim for 7–8 hours consistently\n- Set a fixed bedtime despite deadlines\n- Poor sleep tanks productivity more than extra study hours gain\n\n**Movement**: 20–30 minutes daily\n- Quick walks, yoga, or gym sessions between classes\n- Breaks your study blocks and clears mental fog\n\n**Meals**: Eat at regular times\n- Prep simple foods on weekends (batch cooking)\n- Avoid the caffeine-only trap that crashes your focus\n\n## Weekly Structure\n\n| Area | Suggestion |\n|------|-----------|\n| **Work** | Time-block focused 2–3 hour sessions with breaks |\n| **Social** | One low-pressure hangout; even 30 mins helps |\n| **Stress relief** | Dedicated hobby time, not \"if I have time\" |\n| **Admin** | Weekly 15-min planning to reduce decision fatigue |\n\n## During Crunch Periods\n\n- Protect sleep first (not last)\n- Simplify meals rather than skip them\n- Use movement as a break, not something to cut\n- Set a hard stop time daily, even if imperfect\n\n## Quick Wins\n\n- Walk while taking calls\n- Stretch between tasks\n- Keep water/snacks at your desk\n- Use timers to prevent all-nighters\n\n**The key**: Consistency in basics prevents the burnout that actually derails deadlines. Small daily habits compound better than heroic cramming.\n\nWhat area feels most challenging for your schedule?",
+  "extracted": {
+    "summary": "The response provides a healthy lifestyle routine for busy graduate students, emphasizing sleep, movement, meal timing, and stress management.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "quick walks, yoga, or gym sessions",
+        "activity_type": "walking | yoga | other",
+        "duration_minutes": 20,
+        "intensity": "low | moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor | gym | small-space"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "during day",
+        "evening"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "unspecified",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "burnout",
+        "stress"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2925,
+  "extraction_output_tokens": 798,
+  "extraction_from_cache": false
+}

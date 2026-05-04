@@ -1,0 +1,143 @@
+{
+  "prompt_id": "fin_con_17",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Shared Resources",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Shared Resources",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a family of five. We are sharing one small hotel-style microwave as our only kitchen appliance.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a healthy and simple dinner idea for a family of five that can be easily prepared using just a microwave:\n\n### Microwave Quinoa and Veggie Bowl with Grilled Chicken\n\n#### Ingredients:\n- **1 cup quinoa** (uncooked)\n- **2 cups water**\n- **2 cups mixed frozen vegetables** (like broccoli, carrots, and bell peppers)\n- **2-3 pre-cooked grilled chicken breasts** (can be found in the deli section or frozen)\n- **1 can black beans** (15 oz), rinsed and drained\n- **1 avocado** (optional)\n- **1-2 tablespoons olive oil**\n- **Salt and pepper to taste**\n- **Your choice of spices** (like garlic powder, cumin, or chili powder)\n- **Lemon or lime juice** (for flavor)\n\n#### Instructions:\n\n1. **Cook the Quinoa:**\n   - In a microwave-safe bowl, combine 1 cup of quinoa and 2 cups of water. \n   - Cover the bowl with a microwave-safe lid or plate.\n   - Microwave on high for about 10-12 minutes, or until the quinoa is fluffy and the water is absorbed. Let it sit for a few minutes before fluffing it with a fork.\n\n2. **Prepare the Vegetables:**\n   - In a separate microwave-safe bowl, add the frozen mixed vegetables.\n   - Microwave on high for about 4-6 minutes, or until the vegetables are heated through and tender.\n\n3. **Heat the Chicken:**\n   - If using pre-cooked grilled chicken, slice it into strips. Place the chicken in a microwave-safe dish and heat for 1-2 minutes until warmed through.\n\n4. **Combine Ingredients:**\n   - In a large mixing bowl, combine the cooked quinoa, heated vegetables, and rinsed black beans. \n   - Drizzle with olive oil, and add salt, pepper, and any spices you like. Mix well.\n\n5. **Assemble the Bowls:**\n   - Serve the quinoa and veggie mixture in individual bowls. Top with sliced grilled chicken and, if desired, diced avocado.\n   - Squeeze fresh lemon or lime juice on top for added flavor.\n\n#### Optional Additions:\n- You can also add shredded cheese, salsa, or a dollop of Greek yogurt for extra flavor and nutrition.\n\nThis meal is nutritious, filling, and can be made in about 30 minutes. Enjoy your family dinner!",
+  "extracted": {
+    "summary": "The response suggests a healthy microwave quinoa and veggie bowl with grilled chicken for a family of five.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "microwave quinoa and veggie bowl with grilled chicken",
+        "ingredients": [
+          "quinoa",
+          "water",
+          "mixed frozen vegetables",
+          "grilled chicken breasts",
+          "black beans",
+          "avocado",
+          "olive oil",
+          "salt",
+          "pepper",
+          "spices",
+          "lemon juice",
+          "lime juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "microwave",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "black beans",
+      "grilled chicken breasts",
+      "lemon juice",
+      "lime juice",
+      "mixed frozen vegetables",
+      "olive oil",
+      "pepper",
+      "quinoa",
+      "salt",
+      "spices",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [
+      "microwave quinoa and veggie bowl"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "cultural appropriateness",
+        "lifestyle context"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3116,
+  "extraction_output_tokens": 930,
+  "extraction_from_cache": false
+}

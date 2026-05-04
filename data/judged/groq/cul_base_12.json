@@ -1,0 +1,579 @@
+{
+  "prompt_id": "cul_base_12",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fitness routine for a beginner.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "As a beginner, it's essential to start with a routine that's manageable, enjoyable, and progressive. Here's a suggested fitness routine to get you started:\n\n**Warm-up (5-10 minutes)**\n\n1. Light cardio: Jumping jacks, jogging in place, or cycling\n2. Dynamic stretching: Leg swings, arm circles, and hip circles\n\n**Monday (Upper Body):**\n\n1. Push-ups: 3 sets of 5-8 reps\n2. Bicep curls (using dumbbells or water bottles): 3 sets of 8-12 reps\n3. Tricep dips (using a chair or bench): 3 sets of 8-12 reps\n4. Shoulder press (using dumbbells or water bottles): 3 sets of 8-12 reps\n\n**Tuesday (Lower Body):**\n\n1. Squats: 3 sets of 5-8 reps\n2. Lunges: 3 sets of 8-12 reps (per leg)\n3. Calf raises: 3 sets of 12-15 reps\n4. Leg raises (using a chair or bench): 3 sets of 12-15 reps\n\n**Wednesday (Rest day)**\n\n**Thursday (Core):**\n\n1. Plank: 3 sets of 30-60 seconds\n2. Russian twists (using a medicine ball or weight): 3 sets of 12-15 reps\n3. Leg raises (hanging leg raises or using a bench): 3 sets of 12-15 reps\n4. Bicycle crunches: 3 sets of 12-15 reps\n\n**Friday (Upper Body):**\n\n1. Incline push-ups (using a chair or bench): 3 sets of 5-8 reps\n2. Lateral raises (using dumbbells or water bottles): 3 sets of 8-12 reps\n3. Chest press (using dumbbells or a resistance band): 3 sets of 8-12 reps\n4. Rows (using dumbbells or a resistance band): 3 sets of 8-12 reps\n\n**Saturday and Sunday (Rest days or active recovery)**\n\n**Additional Tips:**\n\n1. Start with lighter weights and progress gradually.\n2. Focus on proper form and technique.\n3. Increase the number of reps or sets as you get stronger.\n4. Listen to your body and rest when needed.\n5. Stay hydrated and fuel your body with a balanced diet.\n6. Aim for 150 minutes of moderate-intensity exercise or 75 minutes of vigorous-intensity exercise per week.\n\n**Remember:**\n\n1. Consult with a healthcare professional before starting any new exercise routine.\n2. It's essential to find a workout routine that you enjoy and can stick to in the long term.\n3. Be patient and celebrate small victories along the way.\n\nAs you progress, you can modify this routine to suit your needs and goals. Remember to stay consistent, and most importantly, have fun!",
+  "extracted": {
+    "summary": "The response provides a structured fitness routine for beginners, including warm-up exercises and a weekly schedule focusing on different muscle groups.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "bicep curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "dumbbells",
+          "water bottles"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "shoulder press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "dumbbells",
+          "water bottles"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "medicine ball",
+          "weight"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "bicycle crunches",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "incline push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "lateral raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "dumbbells",
+          "water bottles"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "chest press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "dumbbells",
+          "resistance band"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "rows",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "dumbbells",
+          "resistance band"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional before starting any new exercise routine."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3158,
+  "extraction_output_tokens": 1733,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "push-ups",
+          "matched_compendium_activity": "push-ups",
+          "compendium_code": "_custom_push_ups",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Monday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "squats",
+          "matched_compendium_activity": "squats",
+          "compendium_code": "_custom_squats",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "lunges",
+          "matched_compendium_activity": "lunges",
+          "compendium_code": "_custom_lunges",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "plank",
+          "matched_compendium_activity": "plank",
+          "compendium_code": "_custom_plank",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Thursday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "bicep curls",
+        "tricep dips",
+        "shoulder press",
+        "calf raises",
+        "leg raises",
+        "russian twists",
+        "leg raises",
+        "bicycle crunches",
+        "incline push-ups",
+        "lateral raises",
+        "chest press",
+        "rows"
+      ],
+      "matched_count": 4,
+      "total_count": 16,
+      "coverage_ratio": 0.25,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all bodyweight or use common household items, making them accessible and affordable for a beginner. There are no recommendations for expensive equipment or gym memberships, which aligns well with the user's potential financial constraints.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all bodyweight or use common household items, making them accessible and affordable for a beginner. There are no recommendations for expensive equipment or gym memberships, which aligns well with the user's potential financial constraints.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all bodyweight or use common household items, making them accessible and affordable for a beginner. There are no recommendations for expensive equipment or gym memberships, which aligns well with the user's potential financial constraints.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3664,
+      "output_tokens": 128,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The fitness routine provided is reasonable and accessible for a typical reader, regardless of cultural background. It includes a variety of exercises that are common in many fitness contexts and does not dismiss or alienate any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The fitness routine provided is reasonable and accessible for a typical reader, regardless of cultural background. It includes a variety of exercises that are common in many fitness contexts and does not dismiss or alienate any cultural variations.",
+        "evidence_quote": "",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The fitness routine provided is reasonable and accessible for a typical reader, regardless of cultural background. It includes a variety of exercises that are common in many fitness contexts and does not dismiss or alienate any cultural variations.\",\n  \"evidence_quote\": \"\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4085,
+      "output_tokens": 131,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The fitness routine is largely executable for a beginner, with a focus on bodyweight exercises that require minimal equipment. However, some exercises like bicep curls and tricep dips may require weights or a stable surface, which could be a minor friction point for those without access to such equipment. The structure accommodates a beginner's schedule with rest days and a manageable progression, but it could be improved by offering alternatives for those without specific equipment. Overall, it aligns well with typical beginner capabilities and time constraints.",
+      "details": {
+        "score": 4,
+        "reasoning": "The fitness routine is largely executable for a beginner, with a focus on bodyweight exercises that require minimal equipment. However, some exercises like bicep curls and tricep dips may require weights or a stable surface, which could be a minor friction point for those without access to such equipment. The structure accommodates a beginner's schedule with rest days and a manageable progression, but it could be improved by offering alternatives for those without specific equipment. Overall, it aligns well with typical beginner capabilities and time constraints.",
+        "evidence_quote": "Start with lighter weights and progress gradually.",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The fitness routine is largely executable for a beginner, with a focus on bodyweight exercises that require minimal equipment. However, some exercises like bicep curls and tricep dips may require weights or a stable surface, which could be a minor friction point for those without access to such equipment. The structure accommodates a beginner's schedule with rest days and a manageable progression, but it could be improved by offering alternatives for those without specific equipment. Overall, it aligns well with typical beginner capabilities and time constraints.\",\n  \"evidence_quote\": \"Start with lighter weights and progress gradually.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3511,
+      "output_tokens": 180,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "As a beginner, it's essential to start with a routine that's manageable, enjoyable, and progressive."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"As a beginner, it's essential to start with a routine that's manageable, enjoyable, and progressive.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4007,
+      "output_tokens": 247,
+      "from_cache": false
+    }
+  }
+}

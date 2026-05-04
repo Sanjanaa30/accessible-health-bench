@@ -1,0 +1,189 @@
+{
+  "prompt_id": "fin_base_08",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What should I eat to lower my cholesterol?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a great question. Lowering cholesterol, particularly LDL (\"bad\") cholesterol, is heavily influenced by diet. The goal is to reduce your intake of saturated and trans fats while increasing foods that actively help remove cholesterol from your body.\n\nHere is a practical guide on what to eat, broken down into specific, powerful food groups.\n\n### The \"Portfolio Diet\" Approach: Foods Proven to Lower Cholesterol\n\nThese foods are the heavy lifters. Including several of them daily creates a powerful cumulative effect.\n\n#### 1. Soluble Fiber: The Sponge\nSoluble fiber binds to cholesterol in your digestive tract and helps remove it from your body before it enters your bloodstream.\n- **Oats & Barley:** A bowl of oatmeal or barley porridge is a classic for a reason. Aim for at least 5-10 grams of soluble fiber daily (about 1.5 cups of cooked oatmeal).\n- **Beans & Legumes:** Kidney beans, chickpeas, lentils, black beans. They are incredibly high in soluble fiber and protein, making them a great meat substitute.\n- **Psyllium Husk:** Found in products like Metamucil. A teaspoon in water or juice is a concentrated source of soluble fiber.\n- **Fruits:** Apples (with the skin), pears, citrus fruits (oranges, grapefruit), and berries (strawberries, blueberries).\n- **Vegetables:** Brussels sprouts, carrots, sweet potatoes, broccoli, and eggplant.\n\n#### 2. Plant Sterols & Stanols: The Blockers\nThese plant compounds are structurally similar to cholesterol. They compete with dietary cholesterol for absorption in your gut, blocking it from entering your bloodstream.\n- **Fortified Foods:** Look for orange juice, yogurt drinks, margarine spreads (like Promise Activ or Benecol) that are specifically labeled \"with plant sterols/stanols.\" Aim for 2 grams per day.\n- **Nuts & Seeds:** Especially almonds, walnuts, flaxseeds, and chia seeds. They contain sterols and healthy fats.\n- **Vegetable Oils:** Unrefined oils like olive, canola, and sunflower oil contain small amounts.\n\n#### 3. Healthy Unsaturated Fats: The Replacement\nThe key here is *replacing* unhealthy saturated fats (butter, fatty meats, coconut oil) with these.\n- **Olive Oil:** Extra virgin olive oil is a cornerstone of the heart-healthy Mediterranean diet. Use it for cooking and in dressings.\n- **Avocados:** Rich in monounsaturated fat. Add slices to salads or sandwiches.\n- **Nuts & Seeds:** (as above) Eat a small handful (about 1.5 ounces) of unsalted almonds, walnuts, or pistachios most days.\n- **Fatty Fish:** Salmon, mackerel, sardines, tuna, herring. Rich in omega-3 fatty acids, which can lower triglycerides and reduce inflammation. Aim for at least two 3.5-ounce servings per week.\n\n#### 4. Lean Protein Sources: The Swap\nReplace high-saturated-fat proteins with these options.\n- **Skinless Poultry:** Chicken and turkey breast.\n- **Fish:** (as above)\n- **Plant-Based Proteins:** Tofu, tempeh, edamame, and all beans/lentils.\n- **Lean Cuts of Red Meat:** If you eat red meat, choose \"loin\" or \"round\" cuts (e.g., sirloin, tenderloin) and keep portions small (3 ounces, about the size of a deck of cards).\n\n### What to *Limit* or *Avoid*\n\nThis is just as important as what to add.\n\n- **Saturated Fats:** Found in fatty cuts of red meat, poultry with skin, butter, full-fat dairy (cheese, cream, whole milk), lard, palm oil, and coconut oil.\n- **Trans Fats:** Avoid foods with \"partially hydrogenated oil\" in the ingredients. These are found in many fried fast foods, packaged baked goods (cookies, crackers, donuts), and stick margarine.\n- **Dietary Cholesterol:** While not as harmful as saturated fat, it's still wise to limit it. Major sources are egg yolks (limit to 3-4 per week if you have high cholesterol), organ meats (liver), and shellfish (shrimp, lobster).\n- **Refined Carbohydrates & Sugar:** White bread, white rice, sugary drinks, and candy can lower HDL (\"good\") cholesterol and raise triglycerides.\n\n### A Sample Day of Eating to Lower Cholesterol\n\n- **Breakfast:** Oatmeal made with water or low-fat milk, topped with a handful of blueberries and a tablespoon of ground flaxseed.\n- **Lunch:** Large salad with mixed greens, chickpeas, diced apple, avocado slices, and a vinaigrette made with extra virgin olive oil. A side of a small pear.\n- **Snack:** A small handful of almonds and an orange.\n- **Dinner:** Grilled salmon (6 oz) with a side of steamed broccoli and a baked sweet potato. Drizzle the broccoli with olive oil and lemon juice.\n\n### Important Considerations\n\n1.  **Consult Your Doctor First:** This is not medical advice. Diet changes can be powerful, but they are not always enough. Your doctor or a registered dietitian can give personalized advice and help you understand your specific lipid panel results.\n2.  **Be Patient & Consistent:** It can take 3-6 months of consistent dietary changes to see a significant drop in LDL cholesterol (often 5-15%).\n3.  **Combine with Lifestyle:** Diet works best when paired with regular exercise (aim for 150 minutes/week of moderate activity), weight management, and not smoking.\n\nBy focusing on adding these powerful foods and swapping out the unhealthy ones, you can make a significant impact on your cholesterol levels and your overall heart health.",
+  "extracted": {
+    "summary": "To lower cholesterol, focus on a diet rich in soluble fiber, plant sterols, healthy unsaturated fats, and lean protein sources while limiting saturated and trans fats.",
+    "response_type": "meal_plan",
+    "primary_goal": "lower_cholesterol",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with blueberries and flaxseed",
+        "ingredients": [
+          "oats",
+          "blueberries",
+          "flaxseed"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "salad with chickpeas and avocado",
+        "ingredients": [
+          "mixed greens",
+          "chickpeas",
+          "apple",
+          "avocado",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "almonds and orange",
+        "ingredients": [
+          "almonds",
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon with broccoli and sweet potato",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "sweet potato",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "apple",
+      "avocado",
+      "barley",
+      "beans",
+      "blueberries",
+      "broccoli",
+      "chickpeas",
+      "citrus fruits",
+      "fatty fish",
+      "flaxseed",
+      "lentils",
+      "mixed greens",
+      "oats",
+      "olive oil",
+      "orange",
+      "plant-based proteins",
+      "psyllium husk",
+      "salmon",
+      "sweet potato"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "salad",
+      "grilled salmon"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "mediterranean"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult Your Doctor First: This is not medical advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3762,
+  "extraction_output_tokens": 1192,
+  "extraction_from_cache": false
+}

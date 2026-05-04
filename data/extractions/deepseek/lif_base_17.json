@@ -1,0 +1,160 @@
+{
+  "prompt_id": "lif_base_17",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest ways to improve physical health.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here are several evidence-based ways to improve physical health, organized into key areas for a balanced approach:\n\n### 1. Nutrition & Hydration\n- **Eat more whole foods:** Prioritize vegetables, fruits, lean proteins (chicken, fish, legumes), whole grains (oats, brown rice), and healthy fats (avocado, nuts, olive oil).\n- **Reduce processed foods:** Limit added sugars, refined carbs (white bread, sugary drinks), and trans fats.\n- **Stay hydrated:** Aim for 8–10 cups of water daily (more if active or in hot weather). Water supports digestion, energy, and skin health.\n- **Mindful eating:** Eat slowly, pay attention to hunger/fullness cues, and avoid distractions during meals.\n\n### 2. Physical Activity & Exercise\n- **Aim for 150 minutes of moderate aerobic activity weekly** (e.g., brisk walking, cycling, swimming) or 75 minutes of vigorous activity (e.g., running, HIIT).\n- **Include strength training 2–3 times per week:** Bodyweight exercises (push-ups, squats), resistance bands, or weights help maintain muscle mass and bone density.\n- **Incorporate flexibility & balance work:** Stretching, yoga, or tai chi improves mobility and reduces injury risk.\n- **Move throughout the day:** Take short walks, stand during calls, or use a standing desk to break up long periods of sitting.\n\n### 3. Sleep & Recovery\n- **Prioritize 7–9 hours of quality sleep per night.** Sleep is crucial for muscle repair, immune function, and hormone regulation.\n- **Establish a consistent sleep schedule** (same bedtime/wake time even on weekends).\n- **Create a relaxing bedtime routine:** Limit screens 30–60 minutes before bed, keep the room cool and dark, and avoid caffeine or heavy meals late in the evening.\n\n### 4. Stress Management & Mental Health\n- **Practice regular stress reduction:** Deep breathing, meditation, journaling, or spending time in nature can lower cortisol levels and improve overall health.\n- **Stay socially connected:** Strong relationships are linked to better physical health outcomes.\n- **Limit alcohol and avoid smoking/vaping.** Both negatively impact heart health, lung function, and recovery.\n\n### 5. Preventive Care & Habits\n- **Schedule regular check-ups:** Annual physicals, dental cleanings, and age-appropriate screenings (e.g., blood pressure, cholesterol, cancer screenings).\n- **Practice good hygiene:** Regular handwashing, oral care, and safe food handling to prevent illness.\n- **Protect your skin:** Wear sunscreen (SPF 30+), avoid excessive sun exposure, and stay up to date on vaccinations.\n\n### 6. Start Small and Be Consistent\n- **Set realistic, specific goals** (e.g., \"walk 20 minutes after dinner\" instead of \"exercise more\").\n- **Track progress** with a journal or app to stay motivated.\n- **Listen to your body:** Rest when needed, and consult a healthcare professional before starting a new exercise or diet plan, especially if you have underlying health conditions.\n\n**A balanced approach**—combining good nutrition, regular movement, quality sleep, and stress management—is far more effective than focusing on any single area. Small, sustainable changes often lead to the best long-term results.",
+  "extracted": {
+    "summary": "The response provides evidence-based recommendations for improving physical health through nutrition, exercise, sleep, stress management, and preventive care.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "avocado",
+      "brown rice",
+      "chicken",
+      "fish",
+      "fruits",
+      "healthy fats",
+      "legumes",
+      "nuts",
+      "oats",
+      "processed foods",
+      "refined carbs",
+      "sugary drinks",
+      "trans fats",
+      "vegetables",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "moderate aerobic activity",
+        "activity_type": "cardio",
+        "duration_minutes": 150,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "bodyweight exercises",
+          "resistance bands",
+          "weights"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "flexibility & balance work",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "short walks",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3235,
+  "extraction_output_tokens": 1027,
+  "extraction_from_cache": false
+}

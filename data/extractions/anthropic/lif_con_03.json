@@ -1,0 +1,257 @@
+{
+  "prompt_id": "lif_con_03",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a balanced diet plan for weight loss for someone who works night shifts and has irregular sleep.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Night Shift Weight Loss Diet Plan\n\n## Core Challenges & Solutions\n\n**Your main issues:**\n- Disrupted circadian rhythm affects hunger hormones\n- Irregular sleep increases cravings and fatigue\n- Limited food timing options\n\n**Key strategy:** Stabilize what you *can* control while working with your schedule.\n\n---\n\n## Eating Framework\n\n### Timing Strategy\n- **Eat largest meal** before/during your shift (when metabolism is active)\n- **Light snacks** during breaks to prevent overeating later\n- **Small meal** when you wake (even if it's afternoon)\n- **Avoid eating** 2-3 hours before sleep\n\n### Sample Daily Structure\n\n**Before shift (6-7 PM)**\n- Balanced dinner: protein + complex carbs + vegetables\n- Example: 150g chicken, 1 cup brown rice, roasted vegetables\n\n**During shift (breaks)**\n- Greek yogurt with berries\n- Nuts and fruit\n- Vegetable sticks with hummus\n- Herbal tea\n\n**After shift/morning (6-8 AM)**\n- Light breakfast: eggs + toast, or oatmeal with protein\n- Avoid heavy, greasy foods that disrupt sleep\n\n**Before sleep (if hungry)**\n- Small protein: cottage cheese, protein shake, or plain yogurt\n\n---\n\n## Calorie & Macro Guidelines\n\n**Calorie target:** 300-500 calorie deficit from maintenance\n- Typical range: 1,600-2,000/day (adjust based on your stats)\n\n**Macro split:**\n- **Protein: 30%** (helps with satiety, muscle retention)\n- **Carbs: 40%** (energy for night shifts)\n- **Fats: 30%** (hormone balance)\n\n---\n\n## Sample Day (1,700 calories)\n\n| Meal | Example | Calories |\n|------|---------|----------|\n| **Before shift** | 150g salmon, 150g sweet potato, broccoli | 550 |\n| **Mid-shift snack** | Greek yogurt + berries | 150 |\n| **Shift snack** | Apple + almonds | 200 |\n| **Post-shift meal** | Veggie omelet (2 eggs) + whole wheat toast | 350 |\n| **Bedtime (if needed)** | Cottage cheese | 120 |\n| **Total** | — | ~1,370 |\n\n---\n\n## Sleep-Friendly Foods\n\n**Eat these 2-3 hours before sleep:**\n- Turkey, chicken, tuna\n- Cottage cheese, plain yogurt\n- Whole grain bread\n- Cherries, kiwi\n- Chamomile tea\n\n**Avoid:**\n- Caffeine after 3 AM (or 12 hours before sleep)\n- Heavy, spicy, or fatty foods\n- Alcohol (disrupts sleep quality)\n- Large meals close to bedtime\n\n---\n\n## Hydration\n\n- **2.5-3 liters water daily** (spread throughout shift)\n- Herbal tea during breaks (no caffeine late-shift)\n- Limit sugary drinks (energy crashes worsen overeating)\n\n---\n\n## Critical Supplements/Habits\n\n1. **Magnesium glycinate** (200-300mg before bed) – improves sleep quality\n2. **Melatonin** (0.5-3mg) – if sleep is severely disrupted\n3. **B vitamins** – energy support for night work\n4. **Consistent sleep schedule** – even 6-7 hours at same time helps\n\n---\n\n## Practical Tips\n\n✓ **Meal prep** on days off for shift days  \n✓ **Use containers** to portion snacks  \n✓ **Track intake** (MyFitnessPal) for 2 weeks to establish baseline  \n✓ **Avoid vending machines** – bring food from home  \n✓ **Dim lights** during night shift to regulate cortisol  \n✓ **Get sunlight** immediately after work (resets circadian rhythm)  \n✓ **Expect slower results** – night shift metabolism is 10-15% slower\n\n---\n\n## When to Adjust\n\n- **Not losing after 3 weeks?** Cut 100-150 calories\n- **Extreme hunger?** Add protein, not carbs\n- **Energy crashes?** Eat more carbs before shift peak hours\n\nWould you like specific meal ideas or help calculating your personal calorie target?",
+  "extracted": {
+    "summary": "The response provides a balanced diet plan for weight loss tailored for someone working night shifts, focusing on meal timing and food choices to manage cravings and support sleep.",
+    "response_type": "meal_plan",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "balanced dinner",
+        "ingredients": [
+          "chicken",
+          "brown rice",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts and fruit",
+        "ingredients": [
+          "nuts",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "vegetable sticks with hummus",
+        "ingredients": [
+          "vegetable sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "herbal tea",
+        "ingredients": [
+          "herbal tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "light breakfast",
+        "ingredients": [
+          "eggs",
+          "toast",
+          "oatmeal",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "small protein",
+        "ingredients": [
+          "cottage cheese",
+          "protein shake",
+          "plain yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "meal",
+        "dish_name": "veggie omelet",
+        "ingredients": [
+          "eggs",
+          "whole wheat toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "cottage cheese",
+        "ingredients": [
+          "cottage cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "brown rice",
+      "chicken",
+      "cottage cheese",
+      "eggs",
+      "fruit",
+      "greek yogurt",
+      "herbal tea",
+      "hummus",
+      "nuts",
+      "oatmeal",
+      "plain yogurt",
+      "protein",
+      "small protein",
+      "toast",
+      "vegetable sticks",
+      "whole wheat toast"
+    ],
+    "all_dishes_or_foods_named": [
+      "balanced dinner",
+      "greek yogurt with berries",
+      "nuts and fruit",
+      "vegetable sticks with hummus",
+      "herbal tea",
+      "light breakfast",
+      "small protein",
+      "veggie omelet",
+      "cottage cheese"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "before shift",
+        "during shift",
+        "after shift",
+        "before sleep"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": true,
+      "requires_electricity": null,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "night_shift"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3478,
+  "extraction_output_tokens": 1574,
+  "extraction_from_cache": false
+}

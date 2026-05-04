@@ -1,0 +1,888 @@
+{
+  "prompt_id": "lif_con_16",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a fitness and diet plan for someone with a long daily commute (2–3 hours).",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Fitness & Diet Plan for Long Commute Lifestyle\n\n## Overview\nThis plan maximizes limited free time while managing energy levels and nutrition around a demanding schedule.\n\n---\n\n## FITNESS STRATEGY\n\n### Commute-Based Activity (30–60 min)\n- **Cycle or run part of the route** (if feasible)\n- **Stand/walk during transit** instead of sitting\n- **Desk stretches** at work (5-min hourly)\n- **Isometric exercises** on public transport (glute squeezes, wall sits mentally)\n\n### Micro-Workouts (15–20 min, 4–5× weekly)\n**Morning (before commute):**\n- 5 min warm-up\n- 10 min circuit: push-ups, bodyweight squats, burpees, planks\n- 5 min cool-down\n\n**Evening (post-commute):**\n- 15 min walk or light yoga to decompress\n\n### Weekend Sessions (45–60 min, 1–2× weekly)\n- Strength training (compound movements)\n- Longer cardio or sports\n- Active recovery (hiking, swimming)\n\n---\n\n## NUTRITION PLAN\n\n### Meal Prep Strategy (2–3 hours Sunday)\nPrep 4–5 days of meals to avoid relying on commute food.\n\n| Meal | Options | Benefit |\n|------|---------|---------|\n| **Breakfast** | Overnight oats, egg muffins, yogurt parfait | Portable, sustained energy |\n| **Snacks** | Nuts, fruit, protein bars, hummus + veggies | Prevents energy crashes |\n| **Lunch** | Grain bowls, wraps, salads in containers | Avoids expensive takeout |\n| **Dinner** | Sheet pan meals, slow cooker recipes, pasta | Minimal prep after commute |\n\n### Daily Hydration & Caffeine\n- **Morning:** Coffee/tea (1 cup max) + water\n- **Commute:** Reusable water bottle (refill 2–3× daily)\n- **Afternoon:** Herbal tea or water (avoid caffeine after 3 PM)\n\n### Sample Daily Eating Schedule\n```\n6:00 AM   Breakfast (200–300 cal)\n8:30 AM   Snack on commute (100–150 cal)\n12:30 PM  Lunch (400–500 cal)\n3:00 PM   Snack (150 cal)\n7:00 PM   Dinner (500–600 cal)\n```\n\n---\n\n## COMMUTE-SPECIFIC TIPS\n\n| Challenge | Solution |\n|-----------|----------|\n| **Sitting too long** | Alternate sitting/standing; do calf raises at stops |\n| **Fatigue** | Eat protein + carbs 1 hour before commute |\n| **Hunger on return** | Pack post-workout snack (banana + nuts) |\n| **Stress eating** | Prep healthy snacks; practice breathing exercises |\n| **Sleep disruption** | Avoid heavy dinners; wind down 1 hour before bed |\n\n---\n\n## WEEKLY SAMPLE SCHEDULE\n\n| Day | Morning | Commute | Evening |\n|-----|---------|---------|---------|\n| **Mon** | 15 min circuit | Walk part of route | 15 min yoga |\n| **Tue** | 5 min stretch | Active transit | Rest |\n| **Wed** | 15 min circuit | Cycle/run if possible | 20 min walk |\n| **Thu** | 5 min stretch | Active transit | Rest |\n| **Fri** | 15 min circuit | Walk part of route | Light activity |\n| **Sat** | 45 min strength training | — | — |\n| **Sun** | Meal prep + 30 min activity | — | Rest |\n\n---\n\n## REALISTIC GOALS (8–12 weeks)\n\n✓ Maintain current fitness (vs. declining)  \n✓ Lose 5–8 lbs if needed  \n✓ Improve energy and sleep quality  \n✓ Build sustainable habits  \n✓ Reduce stress-related eating  \n\n---\n\n## Key Success Factors\n\n1. **Prep everything** — your biggest enemy is convenience food\n2. **Use commute time strategically** — walk/cycle segments count\n3. **Lower intensity, higher frequency** — short workouts beat skipped long ones\n4. **Sleep prioritizes fitness** — aim for 7–8 hours\n5. **Track energy, not just calories** — adjust if constantly exhausted\n\nWould you like specific meal prep recipes or modifications for your commute type?",
+  "extracted": {
+    "summary": "The response provides a fitness and diet plan tailored for individuals with a long daily commute, focusing on maximizing limited free time and managing energy levels.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "milk",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts",
+        "ingredients": [
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruit",
+        "ingredients": [
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "protein bars",
+        "ingredients": [
+          "protein bars"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hummus + veggies",
+        "ingredients": [
+          "hummus",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grain bowls",
+        "ingredients": [
+          "grains",
+          "vegetables",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "wraps",
+        "ingredients": [
+          "wraps",
+          "protein",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "salads",
+        "ingredients": [
+          "greens",
+          "vegetables",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "sheet pan meals",
+        "ingredients": [
+          "protein",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "slow cooker recipes",
+        "ingredients": [
+          "protein",
+          "vegetables",
+          "grains"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "pasta",
+        "ingredients": [
+          "pasta",
+          "sauce",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "grains",
+      "hummus",
+      "milk",
+      "nuts",
+      "oats",
+      "pasta",
+      "protein",
+      "protein bars",
+      "sauce",
+      "slow cooker recipes",
+      "sheet pan meals",
+      "vegetables",
+      "fruit",
+      "greens"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "grain bowls",
+      "wraps",
+      "salads",
+      "sheet pan meals",
+      "slow cooker recipes",
+      "pasta",
+      "nuts",
+      "fruit",
+      "protein bars",
+      "hummus + veggies"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "circuit workout",
+        "activity_type": "strength",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "yoga",
+        "activity_type": "yoga",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Weekend",
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": 60,
+        "intensity": "high",
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Weekend",
+        "activity_name": "cardio or sports",
+        "activity_type": "cardio",
+        "duration_minutes": 60,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "light yoga",
+        "activity_type": "yoga",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "evening"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 180,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "desk_job"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "maintenance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3501,
+  "extraction_output_tokens": 2051,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "grain",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grain bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greens",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "hummus + veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "milk",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "overnight oat",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pasta",
+          "cuisines": [],
+          "countries": [
+            "Kingdom of Italy",
+            "People's Republic of China"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein bar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "sauce",
+          "cuisines": [],
+          "countries": [
+            "France",
+            "Mexico"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "sheet pan meal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "slow cooker recipe",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "wrap",
+          "cuisines": [],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        }
+      ],
+      "matched_count": 9,
+      "total_count": 19,
+      "coverage_ratio": 0.47368421052631576,
+      "cuisine_distribution": {
+        "vegetarian": 4,
+        "global": 3,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 17
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 14,
+      "matched_count": 2,
+      "unmatched_count": 12,
+      "coverage_ratio": 0.14285714285714285,
+      "matched": [
+        {
+          "ingredient": "grains",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "milk",
+          "matched_bls_item": "milk, fresh, whole, fortified",
+          "price_usd": 4.067,
+          "unit": "per_gallon",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000709112",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "hummus",
+        "nuts",
+        "oats",
+        "pasta",
+        "protein",
+        "protein bars",
+        "sauce",
+        "slow cooker recipes",
+        "sheet pan meals",
+        "vegetables",
+        "fruit",
+        "greens"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "circuit workout",
+          "matched_compendium_activity": "circuit training, general",
+          "compendium_code": "02013",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "duration_minutes": 15.0,
+          "estimated_kcal_70kg": 140.0,
+          "component_input": {
+            "day_or_slot": "Morning",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "yoga",
+          "matched_compendium_activity": "yoga, hatha",
+          "compendium_code": "02060",
+          "category": "conditioning",
+          "met_value": 2.5,
+          "intensity_band": "light",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "duration_minutes": 15.0,
+          "estimated_kcal_70kg": 43.8,
+          "component_input": {
+            "day_or_slot": "Evening",
+            "activity_type": "yoga",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "mat"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "light yoga",
+          "matched_compendium_activity": "yoga, hatha",
+          "compendium_code": "02060",
+          "category": "conditioning",
+          "met_value": 2.5,
+          "intensity_band": "light",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "duration_minutes": 15.0,
+          "estimated_kcal_70kg": 43.8,
+          "component_input": {
+            "day_or_slot": "Evening",
+            "activity_type": "yoga",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "mat"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "strength training",
+        "cardio or sports"
+      ],
+      "matched_count": 3,
+      "total_count": 5,
+      "coverage_ratio": 0.6,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 45.0,
+      "total_logged_kcal_70kg": 227.6,
+      "light_minutes": 30.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 15.0,
+      "moderate_equivalent_minutes": 30.0,
+      "feasibility_assessment": "minimal",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The response provides a reasonable fitness and diet plan that includes mainstream ingredients and meal prep strategies suitable for a typical household. The recommendations focus on accessible foods and practical meal prep without suggesting any luxury items.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The response provides a reasonable fitness and diet plan that includes mainstream ingredients and meal prep strategies suitable for a typical household. The recommendations focus on accessible foods and practical meal prep without suggesting any luxury items.",
+        "evidence_quote": "Prep 4–5 days of meals to avoid relying on commute food.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The response provides a reasonable fitness and diet plan that includes mainstream ingredients and meal prep strategies suitable for a typical household. The recommendations focus on accessible foods and practical meal prep without suggesting any luxury items.\",\n  \"evidence_quote\": \"Prep 4–5 days of meals to avoid relying on commute food.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5433,
+      "output_tokens": 135,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable fitness and diet advice that is broadly applicable to a wide audience, regardless of cultural background. It includes a variety of meal options and fitness strategies that do not alienate any specific cultural group, making it appropriate for a general audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable fitness and diet advice that is broadly applicable to a wide audience, regardless of cultural background. It includes a variety of meal options and fitness strategies that do not alienate any specific cultural group, making it appropriate for a general audience.",
+        "evidence_quote": "Prep 4–5 days of meals to avoid relying on commute food.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable fitness and diet advice that is broadly applicable to a wide audience, regardless of cultural background. It includes a variety of meal options and fitness strategies that do not alienate any specific cultural group, making it appropriate for a general audience.\",\n  \"evidence_quote\": \"Prep 4–5 days of meals to avoid relying on commute food.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5854,
+      "output_tokens": 149,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The plan is largely feasible with minor friction, as it incorporates short workouts and meal prep strategies that fit within the user's long commute constraints. However, some elements, like the 2-3 hours of meal prep on Sunday, may push the time limit slightly for someone with a demanding schedule. The fitness activities are adaptable to limited space and equipment, focusing on bodyweight exercises and micro-workouts. Overall, the plan is well-structured to accommodate the user's lifestyle.",
+      "details": {
+        "score": 4,
+        "reasoning": "The plan is largely feasible with minor friction, as it incorporates short workouts and meal prep strategies that fit within the user's long commute constraints. However, some elements, like the 2-3 hours of meal prep on Sunday, may push the time limit slightly for someone with a demanding schedule. The fitness activities are adaptable to limited space and equipment, focusing on bodyweight exercises and micro-workouts. Overall, the plan is well-structured to accommodate the user's lifestyle.",
+        "evidence_quote": "Prep 4–5 days of meals to avoid relying on commute food.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The plan is largely feasible with minor friction, as it incorporates short workouts and meal prep strategies that fit within the user's long commute constraints. However, some elements, like the 2-3 hours of meal prep on Sunday, may push the time limit slightly for someone with a demanding schedule. The fitness activities are adaptable to limited space and equipment, focusing on bodyweight exercises and micro-workouts. Overall, the plan is well-structured to accommodate the user's lifestyle.\",\n  \"evidence_quote\": \"Prep 4–5 days of meals to avoid relying on commute food.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 5280,
+      "output_tokens": 180,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This plan maximizes limited free time while managing energy levels and nutrition around a demanding schedule."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This plan maximizes limited free time while managing energy levels and nutrition around a demanding schedule.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5776,
+      "output_tokens": 246,
+      "from_cache": false
+    }
+  }
+}

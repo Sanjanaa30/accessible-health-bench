@@ -1,0 +1,158 @@
+{
+  "prompt_id": "cul_con_14",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to stay healthy? I am attending a week-long traditional wedding (like a Punjabi or Greek wedding) where high-calorie communal eating is mandatory for every guest.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Attending a traditional wedding with abundant food can be challenging for maintaining a healthy diet. Here are some tips to help you stay healthy while still enjoying the celebrations:\n\n**Before the wedding:**\n\n1. **Hydrate**: Drink plenty of water in the days leading up to the wedding to help flush out your system.\n2. **Eat light**: Try to eat lighter meals before the wedding to balance out the calorie-rich food you'll be consuming during the event.\n3. **Get enough sleep**: Aim for 7-8 hours of sleep to help regulate your appetite and metabolism.\n\n**During the wedding:**\n\n1. **Start with small portions**: Begin with small servings to sample the various dishes without overloading your plate.\n2. **Choose wisely**: Opt for dishes that are lower in calories, sugar, and unhealthy fats, such as:\n\t* Vegetarian or vegan options\n\t* Grilled or roasted meats instead of fried\n\t* Salads or sides with plenty of fruits and vegetables\n\t* Whole grain bread or roti instead of refined flour\n3. **Balance your plate**: Aim for a balanced plate with a variety of food groups, including:\n\t* Protein sources (lean meats, legumes, or dairy)\n\t* Complex carbohydrates (whole grains, fruits, or vegetables)\n\t* Healthy fats (nuts, seeds, or avocado)\n4. **Be mindful of portion sizes**: Even if you're choosing healthier options, be mindful of the amount you're eating. Try to avoid going back for seconds or thirds.\n5. **Stay hydrated**: Drink water throughout the event to help with digestion and prevent overeating.\n6. **Take breaks**: Take short breaks from eating to stretch, move around, or engage in conversations to slow down your eating pace.\n\n**Specific tips for Punjabi or Greek weddings:**\n\n1. **Punjabi weddings**:\n\t* Try to limit your intake of rich, creamy sauces and gravies.\n\t* Opt for dishes like sarson ka saag (spinach curry) or chana masala (chickpea curry) which are relatively healthier.\n\t* Choose whole grain roti or paratha instead of refined flour naan.\n2. **Greek weddings**:\n\t* Be mindful of the amount of olive oil used in dishes, as it can be high in calories.\n\t* Opt for grilled meats like souvlaki or gyro instead of fried options.\n\t* Choose dishes like Greek salad, spanakopita (spinach and feta pie), or grilled vegetables.\n\n**After the wedding:**\n\n1. **Get back on track**: Resume your regular eating habits and exercise routine as soon as possible.\n2. **Rehydrate**: Drink plenty of water to help flush out any excess salt or sugar from the wedding food.\n3. **Exercise**: Engage in some form of physical activity, like a brisk walk or yoga, to help burn off any extra calories consumed during the wedding.\n\nRemember, it's okay to indulge occasionally, and a week-long wedding celebration is a special occasion. Enjoy the food, company, and festivities, but also be mindful of your overall health and well-being.",
+  "extracted": {
+    "summary": "The response provides tips for maintaining a healthy diet while attending a traditional wedding, focusing on hydration, portion control, and food choices.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "water",
+      "vegetarian options",
+      "vegan options",
+      "grilled meats",
+      "roasted meats",
+      "salads",
+      "fruits",
+      "vegetables",
+      "whole grain bread",
+      "roti",
+      "lean meats",
+      "legumes",
+      "dairy",
+      "complex carbohydrates",
+      "healthy fats",
+      "nuts",
+      "seeds",
+      "avocado",
+      "rich sauces",
+      "creamy sauces",
+      "gravies",
+      "sarson ka saag",
+      "chana masala",
+      "whole grain roti",
+      "paratha",
+      "refined flour naan",
+      "olive oil",
+      "souvlaki",
+      "gyro",
+      "greek salad",
+      "spanakopita",
+      "grilled vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "sarson ka saag",
+      "chana masala",
+      "whole grain roti",
+      "paratha",
+      "refined flour naan",
+      "souvlaki",
+      "gyro",
+      "greek salad",
+      "spanakopita",
+      "grilled vegetables"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "punjabi",
+        "greek"
+      ],
+      "culturally_specific_dishes": [
+        "sarson ka saag",
+        "chana masala",
+        "souvlaki",
+        "gyro",
+        "greek salad",
+        "spanakopita"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": "punjabi_wedding",
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3271,
+  "extraction_output_tokens": 1017,
+  "extraction_from_cache": false
+}

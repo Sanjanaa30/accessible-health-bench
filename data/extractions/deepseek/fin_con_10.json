@@ -1,0 +1,121 @@
+{
+  "prompt_id": "fin_con_10",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Govt Policy",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Govt Policy",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old. The total must be under $25 and every item must be 100% WIC-eligible (Women, Infants, and Children program",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a healthy, WIC-eligible grocery list for a mother and a 2-year-old, totaling under $25. This list focuses on core WIC-approved staples (whole grains, dairy, beans/peanut butter, fruits/vegetables, and infant/toddler friendly options) while maximizing nutrition and minimizing cost.\n\n**Important Note:** WIC eligibility varies slightly by state (e.g., some states allow whole wheat pasta, others allow tofu). This list assumes the most common, standard WIC-eligible items nationwide. Prices are estimated averages (likely lower with WIC vouchers/coupons).\n\n### Total Estimated Cost: ~$23.50\n\n---\n\n### 1. Dairy & Milk (WIC Core)\n- **1 gallon (or 2 half-gallons) of whole milk** – *For the 2-year-old and mother.*  \n  *Cost: ~$3.50*\n- **1 block (16 oz) of reduced-fat cheddar cheese** – *Good for snacks, sandwiches, or melting on veggies.*  \n  *Cost: ~$3.00*\n\n### 2. Whole Grains (WIC Core)\n- **1 box (12–16 oz) of whole-grain or iron-fortified breakfast cereal** (e.g., Cheerios or plain shredded wheat) – *For easy toddler breakfast or snacks.*  \n  *Cost: ~$3.00*\n- **1 loaf (16 oz) of 100% whole-wheat bread** – *Sandwiches or toast.*  \n  *Cost: ~$2.00*\n\n### 3. Protein (WIC Core)\n- **1 jar (16 oz) of peanut butter** (or any nut/seed butter allowed by WIC) – *Protein for both; no added sugar preferred.*  \n  *Cost: ~$2.50*\n- **1 bag (16 oz) of dried beans or lentils** (e.g., black beans, chickpeas) – *High fiber, cheap protein for soups or sides.*  \n  *Cost: ~$1.50*\n\n### 4. Fruits & Vegetables (WIC Core – fresh, frozen, or canned)\n- **1 bunch of bananas (approx. 5–6)** – *Soft, portable, toddler-friendly.*  \n  *Cost: ~$1.50*\n- **1 bag (1 lb) of frozen mixed vegetables** (e.g., peas, carrots, corn) – *Easy to steam, no salt added.*  \n  *Cost: ~$1.50*\n- **1 can (15 oz) of 100% fruit juice** (e.g., orange or apple juice, no added sugar) – *WIC allows juice for toddlers (limit to small servings).*  \n  *Cost: ~$1.50*\n\n### 5. Eggs (WIC Core – often a separate voucher)\n- **1 dozen large eggs** – *Perfect for quick meals (scrambled, hard-boiled, or omelets).*  \n  *Cost: ~$2.50*\n\n### 6. Additional WIC-Approved Staples (if budget allows)\n- **1 can (15 oz) of low-sodium canned vegetables** (e.g., green beans or diced tomatoes) – *Adds variety.*  \n  *Cost: ~$1.00*\n- **1 small jar (4 oz) of baby/toddler puree** (e.g., apple-prune or sweet potato) – *Optional, but great for picky toddlers or quick snacks.*  \n  *Cost: ~$1.00*\n\n---\n\n### Total: ~$23.50 (under $25)\n\n---\n\n### Tips for Staying Under $25:\n- **Use WIC vouchers first** – These items are often free or discounted with your WIC benefits, so your actual out-of-pocket cost may be $0 for many items.\n- **Buy store brands** – Most WIC-approved items (like milk, bread, cereal) have generic versions that meet WIC standards.\n- **Choose dried beans over canned** – Dried beans are cheaper per serving and WIC-eligible.\n- **Freeze leftovers** – The frozen veggies, bread, and cheese can be portioned and frozen to last longer.\n- **Skip juice if needed** – Juice is not essential; you can swap it for an extra banana or a bag of frozen spinach (also WIC-eligible) to save money.\n\n---\n\n### Sample Meal Ideas Using This List:\n- **Breakfast:** Whole-grain cereal with milk + sliced banana.\n- **Lunch:** Whole-wheat bread with peanut butter + apple slices (use juice as a treat).\n- **Dinner:** Lentil soup (dried lentils + canned tomatoes + frozen veggies) + side of scrambled eggs.\n- **Snack:** Cheese cubes + whole-wheat crackers (if you have extra budget) or hard-boiled egg.\n\nThis list meets WIC’s nutritional goals: high in iron, calcium, protein, and fiber, low in added sugar and salt, and safe for a 2-year-old’s development.",
+  "extracted": {
+    "summary": "The response provides a healthy grocery list for a mother and a 2-year-old, focusing on WIC-eligible items totaling under $25.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "whole milk",
+      "reduced-fat cheddar cheese",
+      "whole-grain cereal",
+      "whole-wheat bread",
+      "peanut butter",
+      "dried beans",
+      "lentils",
+      "bananas",
+      "frozen mixed vegetables",
+      "fruit juice",
+      "eggs",
+      "canned vegetables",
+      "baby puree"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 23.5,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "wic"
+      ],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": true,
+      "requires_electricity": null,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "family_with_children",
+      "ages_referenced": [
+        "2_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "WIC eligibility varies slightly by state."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3669,
+  "extraction_output_tokens": 801,
+  "extraction_from_cache": false
+}

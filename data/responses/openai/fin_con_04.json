@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_04",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a grocery list for a family of four for one week. Our total budget is $60.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a grocery list tailored for a family of four for one week, keeping the budget of $60 in mind. This list focuses on balanced meals, utilizing budget-friendly ingredients.\n\n### Grocery List\n\n#### Proteins\n1. **Chicken thighs (2 lbs)** - $8\n2. **Eggs (1 dozen)** - $2\n3. **Canned tuna (2 cans)** - $2.50\n4. **Dried beans (1 lb, black or pinto)** - $1.50\n\n#### Grains\n5. **Rice (2 lbs)** - $2\n6. **Whole grain bread (1 loaf)** - $2\n7. **Pasta (1 lb)** - $1\n\n#### Dairy\n8. **Milk (1 gallon)** - $3\n9. **Yogurt (32 oz, plain)** - $3\n\n#### Vegetables\n10. **Frozen mixed vegetables (1 lb)** - $1.50\n11. **Carrots (1 lb)** - $1\n12. **Potatoes (5 lbs)** - $3\n\n#### Fruits\n13. **Bananas (1 bunch)** - $1\n14. **Apples (3 lbs)** - $4\n\n#### Miscellaneous\n15. **Canned tomatoes (28 oz)** - $1\n16. **Peanut butter (16 oz)** - $2\n17. **Oats (18 oz)** - $2\n18. **Olive oil (small bottle)** - $3\n\n### Total Cost: Approx. $60\n\n### Meal Ideas\n- **Breakfasts:** Oatmeal with sliced bananas, yogurt with fruit, scrambled eggs on toast.\n- **Lunches:** Tuna salad sandwiches, peanut butter and banana sandwiches, beans and rice.\n- **Dinners:** Baked chicken thighs with mixed vegetables, pasta with canned tomatoes and carrots, potato and bean stew.\n\n### Tips for Staying Within Budget\n- Shop at discount grocery stores or local markets if possible.\n- Look for sales or discounts on proteins and staples.\n- Buy store brands instead of name brands when available.\n- Plan meals around sales and seasonal produce to maximize savings.\n\nFeel free to adjust quantities and items based on your family’s preferences and dietary restrictions!",
+  "input_tokens": 27,
+  "output_tokens": 462,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:30:18.543188"
+}

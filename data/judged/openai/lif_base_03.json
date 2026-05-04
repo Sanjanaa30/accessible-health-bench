@@ -1,0 +1,1838 @@
+{
+  "prompt_id": "lif_base_03",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a balanced diet plan for weight loss.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a balanced diet plan for weight loss involves incorporating a variety of foods that provide essential nutrients while also creating a calorie deficit. Here's a sample 7-day meal plan that emphasizes whole foods, lean proteins, healthy fats, and plenty of fruits and vegetables. Adjust portion sizes based on your individual caloric needs, and consult with a healthcare provider or nutritionist before making significant changes to your diet.\n\n### Sample 7-Day Balanced Diet Plan for Weight Loss\n\n#### Day 1\n- **Breakfast:** Oatmeal topped with fresh berries and a tablespoon of almond butter\n- **Snack:** A small apple with a handful of walnuts\n- **Lunch:** Grilled chicken salad with mixed greens, cherry tomatoes, cucumbers, and balsamic vinaigrette\n- **Snack:** Greek yogurt with a sprinkle of cinnamon\n- **Dinner:** Baked salmon with quinoa and steamed broccoli\n\n#### Day 2\n- **Breakfast:** Smoothie with spinach, banana, protein powder, and almond milk\n- **Snack:** Carrot sticks with hummus\n- **Lunch:** Turkey and avocado wrap in a whole wheat tortilla with lettuce and tomato\n- **Snack:** A pear\n- **Dinner:** Stir-fried tofu with mixed vegetables and brown rice\n\n#### Day 3\n- **Breakfast:** Scrambled eggs with spinach and whole-grain toast\n- **Snack:** Cucumber slices with guacamole\n- **Lunch:** Lentil soup with a side salad (mixed greens, bell peppers, lemon vinaigrette)\n- **Snack:** Cottage cheese with pineapple\n- **Dinner:** Grilled shrimp tacos with cabbage slaw on corn tortillas\n\n#### Day 4\n- **Breakfast:** Chia pudding made with almond milk, topped with sliced kiwi and a sprinkle of nuts\n- **Snack:** A small orange\n- **Lunch:** Quinoa salad with black beans, corn, diced bell peppers, and lime dressing\n- **Snack:** Celery sticks with peanut butter\n- **Dinner:** Baked chicken breast with sweet potato and green beans\n\n#### Day 5\n- **Breakfast:** Greek yogurt parfait with granola and mixed berries\n- **Snack:** A banana\n- **Lunch:** Spinach and feta stuffed portobello mushrooms with a side of mixed greens\n- **Snack:** A handful of almonds\n- **Dinner:** Beef stir-fry with broccoli, bell peppers, and brown rice\n\n#### Day 6\n- **Breakfast:** Smoothie bowl topped with sliced bananas, chia seeds, and a few granola clusters\n- **Snack:** A hard-boiled egg\n- **Lunch:** Chickpea salad with diced cucumbers, tomatoes, red onion, and a lemon-tahini dressing\n- **Snack:** Sliced bell peppers with tzatziki sauce\n- **Dinner:** Zucchini noodles with marinara sauce and turkey meatballs\n\n#### Day 7\n- **Breakfast:** Whole grain pancakes topped with sliced strawberries and a drizzle of honey\n- **Snack:** A small handful of mixed nuts\n- **Lunch:** Grilled vegetable and quinoa bowl with a lemon dressing\n- **Snack:** A cup of mixed berries\n- **Dinner:** Baked tilapia with asparagus and a side of wild rice\n\n### Additional Tips\n- **Hydration:** Drink plenty of water throughout the day. Aim for at least 8 cups (64 ounces) and more if you're active.\n- **Portion Control:** Be mindful of portion sizes to maintain a calorie deficit for weight loss.\n- **Physical Activity:** Incorporate regular exercise, such as walking, running, cycling, or strength training, to enhance weight loss.\n- **Meal Prep:** Preparing meals in advance can help you stick to your plan and avoid unhealthy choices.\n\nThis meal plan is meant to serve as a guide. Feel free to mix and match meals and snacks based on your preferences and dietary restrictions.",
+  "extracted": {
+    "summary": "The response provides a 7-day balanced diet plan for weight loss, featuring a variety of meals that include whole foods, lean proteins, and healthy fats.",
+    "response_type": "meal_plan",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with berries",
+        "ingredients": [
+          "oatmeal",
+          "berries",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple with walnuts",
+        "ingredients": [
+          "apple",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken salad",
+        "ingredients": [
+          "chicken",
+          "mixed greens",
+          "cherry tomatoes",
+          "cucumbers",
+          "balsamic vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with cinnamon",
+        "ingredients": [
+          "greek yogurt",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with quinoa",
+        "ingredients": [
+          "salmon",
+          "quinoa",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "protein powder",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "turkey and avocado wrap",
+        "ingredients": [
+          "turkey",
+          "avocado",
+          "whole wheat tortilla",
+          "lettuce",
+          "tomato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "pear",
+        "ingredients": [
+          "pear"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu",
+        "ingredients": [
+          "tofu",
+          "mixed vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "cucumber slices with guacamole",
+        "ingredients": [
+          "cucumber",
+          "guacamole"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with side salad",
+        "ingredients": [
+          "lentils",
+          "mixed greens",
+          "bell peppers",
+          "lemon vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with pineapple",
+        "ingredients": [
+          "cottage cheese",
+          "pineapple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "grilled shrimp tacos",
+        "ingredients": [
+          "shrimp",
+          "cabbage",
+          "corn tortillas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "breakfast",
+        "dish_name": "chia pudding",
+        "ingredients": [
+          "chia seeds",
+          "almond milk",
+          "kiwi",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "snack",
+        "dish_name": "orange",
+        "ingredients": [
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "corn",
+          "bell peppers",
+          "lime dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "snack",
+        "dish_name": "celery sticks with peanut butter",
+        "ingredients": [
+          "celery",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken breast with sweet potato",
+        "ingredients": [
+          "chicken",
+          "sweet potato",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "snack",
+        "dish_name": "banana",
+        "ingredients": [
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "lunch",
+        "dish_name": "stuffed portobello mushrooms",
+        "ingredients": [
+          "portobello mushrooms",
+          "spinach",
+          "feta",
+          "mixed greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "snack",
+        "dish_name": "almonds",
+        "ingredients": [
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "dinner",
+        "dish_name": "beef stir-fry",
+        "ingredients": [
+          "beef",
+          "broccoli",
+          "bell peppers",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "banana",
+          "chia seeds",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg",
+        "ingredients": [
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "boiling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "lunch",
+        "dish_name": "chickpea salad",
+        "ingredients": [
+          "chickpeas",
+          "cucumbers",
+          "tomatoes",
+          "red onion",
+          "lemon-tahini dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "snack",
+        "dish_name": "bell peppers with tzatziki",
+        "ingredients": [
+          "bell peppers",
+          "tzatziki"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "dinner",
+        "dish_name": "zucchini noodles with marinara",
+        "ingredients": [
+          "zucchini",
+          "marinara sauce",
+          "turkey meatballs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "breakfast",
+        "dish_name": "whole grain pancakes",
+        "ingredients": [
+          "whole grain flour",
+          "strawberries",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "lunch",
+        "dish_name": "grilled vegetable and quinoa bowl",
+        "ingredients": [
+          "vegetables",
+          "quinoa",
+          "lemon dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "snack",
+        "dish_name": "mixed berries",
+        "ingredients": [
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "dinner",
+        "dish_name": "baked tilapia with asparagus",
+        "ingredients": [
+          "tilapia",
+          "asparagus",
+          "wild rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "asparagus",
+      "avocado",
+      "banana",
+      "beef",
+      "berries",
+      "bell peppers",
+      "brown rice",
+      "broccoli",
+      "cabbage",
+      "carrots",
+      "celery",
+      "chia seeds",
+      "chickpeas",
+      "chicken",
+      "cinnamon",
+      "cucumber",
+      "cucumbers",
+      "egg",
+      "eggs",
+      "feta",
+      "granola",
+      "greek yogurt",
+      "hummus",
+      "kiwi",
+      "lemon",
+      "lemon dressing",
+      "lemon-tahini dressing",
+      "lentils",
+      "mixed greens",
+      "mixed nuts",
+      "mixed vegetables",
+      "mixed berries",
+      "oatmeal",
+      "orange",
+      "peanut butter",
+      "pear",
+      "protein powder",
+      "quinoa",
+      "red onion",
+      "salmon",
+      "shrimp",
+      "spinach",
+      "strawberries",
+      "sweet potato",
+      "tahini",
+      "tilapia",
+      "tofu",
+      "tomatoes",
+      "tzatziki",
+      "whole grain flour",
+      "whole grain toast",
+      "whole wheat tortilla",
+      "wild rice",
+      "walnuts",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "smoothie",
+      "grilled chicken salad",
+      "greek yogurt",
+      "baked salmon",
+      "stir-fried tofu",
+      "scrambled eggs",
+      "lentil soup",
+      "grilled shrimp tacos",
+      "chia pudding",
+      "quinoa salad",
+      "baked chicken breast",
+      "greek yogurt parfait",
+      "stuffed portobello mushrooms",
+      "beef stir-fry",
+      "smoothie bowl",
+      "chickpea salad",
+      "zucchini noodles",
+      "whole grain pancakes",
+      "grilled vegetable and quinoa bowl",
+      "baked tilapia"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "snack",
+        "lunch",
+        "dinner"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Adjust portion sizes based on your individual caloric needs, and consult with a healthcare provider or nutritionist before making significant changes to your diet."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3338,
+  "extraction_output_tokens": 4264,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond milk",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "asparagus",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baked chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "baked salmon",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "baked tilapia",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "beef",
+          "cuisines": [
+            "cuisine_of_the_united_states"
+          ],
+          "countries": [
+            "Germany",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "beef stir-fry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "bell pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cabbage",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "celery",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chia pudding",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chickpea salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chickpeas",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "cinnamon",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cucumber",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "feta",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [
+            "Greece"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt parfait",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled shrimp taco",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled vegetable and quinoa bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "kiwi",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lemon",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lemon dressing",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lemon-tahini dressing",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentil soup",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "mixed berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed green",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed nut",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed vegetable",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "orange",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pear",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "protein powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "red onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "scrambled egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "shrimp",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoothie",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoothie bowl",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "stir-fried tofu",
+          "cuisines": [
+            "asian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "strawberry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "stuffed portobello mushroom",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tahini",
+          "cuisines": [],
+          "countries": [
+            "Turkey"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "tilapia",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tofu",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tomato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tzatziki",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [
+            "Greece"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "walnut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole grain flour",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain pancake",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain toast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole wheat tortilla",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "wild rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "zucchini",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "zucchini noodle",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 58,
+      "total_count": 74,
+      "coverage_ratio": 0.7837837837837838,
+      "cuisine_distribution": {
+        "vegetarian": 24,
+        "global": 22,
+        "greek": 4,
+        "avar": 2,
+        "chechen": 2,
+        "dargin": 2,
+        "kumyk": 2,
+        "lak": 2,
+        "lezgian": 2,
+        "polish": 2,
+        "russian": 2,
+        "ukrainian": 2,
+        "vegan": 2,
+        "cuisine_of_the_united_states": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "slovenian": 1,
+        "unknown": 1,
+        "asian": 1,
+        "brazilian": 1,
+        "chinese": 1,
+        "japanese": 1
+      },
+      "western_centricity_ratio": 0.049,
+      "western_tag_count": 4,
+      "total_tag_count": 82
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 55,
+      "matched_count": 3,
+      "unmatched_count": 52,
+      "coverage_ratio": 0.05454545454545454,
+      "matched": [
+        {
+          "ingredient": "beef",
+          "matched_bls_item": "ground beef, 100% beef",
+          "price_usd": 6.801,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000704111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almond butter",
+        "almond milk",
+        "asparagus",
+        "avocado",
+        "banana",
+        "berries",
+        "bell peppers",
+        "broccoli",
+        "cabbage",
+        "carrots",
+        "celery",
+        "chia seeds",
+        "chickpeas",
+        "cinnamon",
+        "cucumber",
+        "egg",
+        "feta",
+        "granola",
+        "greek yogurt",
+        "hummus",
+        "kiwi",
+        "lemon",
+        "lemon dressing",
+        "lemon-tahini dressing",
+        "lentils",
+        "mixed greens",
+        "mixed nuts",
+        "mixed vegetables",
+        "mixed berries",
+        "oatmeal",
+        "orange",
+        "peanut butter",
+        "pear",
+        "protein powder",
+        "quinoa",
+        "red onion",
+        "salmon",
+        "shrimp",
+        "spinach",
+        "strawberries",
+        "sweet potato",
+        "tahini",
+        "tilapia",
+        "tofu",
+        "tomatoes",
+        "tzatziki",
+        "whole grain flour",
+        "whole grain toast",
+        "whole wheat tortilla",
+        "wild rice",
+        "walnuts",
+        "zucchini"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The meal plan provided includes a variety of mainstream ingredients that are reasonable for a typical US household, such as chicken, salmon, and various fruits and vegetables. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The meal plan provided includes a variety of mainstream ingredients that are reasonable for a typical US household, such as chicken, salmon, and various fruits and vegetables. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The meal plan provided includes a variety of mainstream ingredients that are reasonable for a typical US household, such as chicken, salmon, and various fruits and vegetables. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 8468,
+      "output_tokens": 134,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a balanced diet plan that includes a variety of foods, which is reasonable advice for a general audience. The inclusion of common ingredients like chicken, salmon, and vegetables is appropriate for a typical Western-default response, and it does not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a balanced diet plan that includes a variety of foods, which is reasonable advice for a general audience. The inclusion of common ingredients like chicken, salmon, and vegetables is appropriate for a typical Western-default response, and it does not dismiss any cultural variations.",
+        "evidence_quote": "Here's a sample 7-day meal plan that emphasizes whole foods, lean proteins, healthy fats, and plenty of fruits and vegetables.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a balanced diet plan that includes a variety of foods, which is reasonable advice for a general audience. The inclusion of common ingredients like chicken, salmon, and vegetables is appropriate for a typical Western-default response, and it does not dismiss any cultural variations.\",\n  \"evidence_quote\": \"Here's a sample 7-day meal plan that emphasizes whole foods, lean proteins, healthy fats, and plenty of fruits and vegetables.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 8889,
+      "output_tokens": 164,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The meal plan includes a variety of healthy foods, but it does not account for potential time constraints in meal preparation. Many meals may take longer than the average user can realistically allocate, especially for those with busy schedules. Additionally, the plan assumes access to a full kitchen and various cooking equipment, which may not be available to all users. While the plan is generally healthy, it lacks significant structural adaptation to fit a potentially time-constrained lifestyle.",
+      "details": {
+        "score": 3,
+        "reasoning": "The meal plan includes a variety of healthy foods, but it does not account for potential time constraints in meal preparation. Many meals may take longer than the average user can realistically allocate, especially for those with busy schedules. Additionally, the plan assumes access to a full kitchen and various cooking equipment, which may not be available to all users. While the plan is generally healthy, it lacks significant structural adaptation to fit a potentially time-constrained lifestyle.",
+        "evidence_quote": "Most meals are 20 minutes, except Saturday's stew which is 45.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "assumes full kitchen access",
+          "potentially time-consuming meals"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The meal plan includes a variety of healthy foods, but it does not account for potential time constraints in meal preparation. Many meals may take longer than the average user can realistically allocate, especially for those with busy schedules. Additionally, the plan assumes access to a full kitchen and various cooking equipment, which may not be available to all users. While the plan is generally healthy, it lacks significant structural adaptation to fit a potentially time-constrained lifestyle.\",\n  \"evidence_quote\": \"Most meals are 20 minutes, except Saturday's stew which is 45.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"assumes full kitchen access\", \"potentially time-consuming meals\"]\n}",
+      "parse_error": null,
+      "input_tokens": 8315,
+      "output_tokens": 191,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 8811,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

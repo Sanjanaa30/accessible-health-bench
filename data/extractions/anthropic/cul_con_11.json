@@ -1,0 +1,111 @@
+{
+  "prompt_id": "cul_con_11",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Middle Eastern Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Middle Eastern Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I stop overeating at family gatherings? In my culture (Mediterranean/Middle Eastern), refusing food is seen as an insult to the host. How do I balance nutrition with these social 'honor' rules?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "You're navigating a real tension between cultural respect and personal boundaries. Here are some practical approaches:\n\n**Reframe the honor dynamic:**\n- Many hosts actually prefer guests who enjoy food *thoughtfully* over those who overeat and feel sick. Finishing everything can read as \"I was still hungry\" rather than \"your food was great.\"\n- Eating well ≠ eating maximum. You can savor and appreciate food in smaller quantities.\n\n**Practical tactics:**\n- Eat something beforehand so you arrive less hungry—you'll make clearer choices\n- Fill half your plate with vegetables/lighter items first\n- Slow down deliberately; put utensils down between bites\n- Drink water alongside food\n- Compliment the cooking specifically (\"this olive oil is incredible\") rather than proving it through quantity\n\n**Navigate the social pressure directly:**\n- \"I'm eating so much I want to taste everything—smaller portions let me try more dishes\"\n- Thank hosts warmly while declining seconds: \"It was perfect, I'm completely satisfied\"\n- Offer to help serve/clear—keeps you engaged without eating more\n- Redirect focus: ask elders about recipes, engage others in conversation\n\n**The honest version:**\nSome family members may still pressure you. That's their discomfort with boundaries, not your problem. You can be respectful *and* have limits. That's actually modeling healthy behavior.\n\nWhat's your biggest pressure point—specific family members, or the general atmosphere?",
+  "extracted": {
+    "summary": "The response provides strategies to manage overeating at family gatherings while respecting cultural norms, emphasizing thoughtful eating and communication with hosts.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "vegetables",
+      "water",
+      "olive oil"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "mediterranean",
+        "middle_eastern"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2931,
+  "extraction_output_tokens": 724,
+  "extraction_from_cache": false
+}

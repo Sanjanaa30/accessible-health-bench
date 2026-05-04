@@ -1,0 +1,309 @@
+{
+  "prompt_id": "cul_con_15",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Community Labor",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Community Labor",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What kind of exercise helps with back pain? My culture involves significant manual labor (like terrace farming or artisan weaving); suggest movements that complement this specific physical lifestyle.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Exercises for Manual Labor-Based Back Pain\n\n## Movements that complement rather than duplicate your work\n\n**Counterbalancing repetitive postures:**\n- If you're bent forward (farming/weaving): gentle back extensions, reverse rows, prone cobra stretches\n- If you're twisted or asymmetrical: rotation stretches in both directions, pallof presses, cross-body movements\n- If you're overhead (harvesting): shoulder mobility work, gentle lat stretches\n\n**Functional strengthening:**\n- Loaded carries (mimics work but controlled)\n- Farmer's walks with even weight distribution\n- Dead bugs and bird dogs (core stability without heavy load)\n- Planks and side planks (brief, high quality)\n\n**Recovery-focused:**\n- Hip flexor stretches (counteracts prolonged sitting/bending)\n- Thoracic spine mobility (opens chest after hunched work)\n- Glute activation (often weak despite leg work)\n- Gentle spinal decompression stretches\n\n## Practical integration\n\n- **Timing matters**: Light stretching before work prevents stiffness; stronger work after\n- **Low equipment**: bodyweight and simple tools fit artisan/farming contexts\n- **Brief sessions**: 10-15 minutes prevents fatigue that worsens form\n- **Consistency beats intensity**: daily gentle work beats occasional hard sessions\n\n**Key principle**: Your work *is* exercise—the goal is balancing it, not replacing it.\n\nHave you noticed which specific movements or positions trigger your pain most?",
+  "extracted": {
+    "summary": "The response recommends various exercises to alleviate back pain while complementing a manual labor lifestyle, focusing on counterbalancing movements, functional strengthening, and recovery techniques.",
+    "response_type": "fitness_plan",
+    "primary_goal": "recovery",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "gentle back extensions",
+        "activity_type": "rehab",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "reverse rows",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "prone cobra stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "rotation stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "pallof presses",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "cross-body movements",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "shoulder mobility work",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "gentle lat stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "loaded carries",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "farmer's walks",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dead bugs",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bird dogs",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "planks",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "side planks",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "hip flexor stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "thoracic spine mobility",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "glute activation",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "gentle spinal decompression stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "manual_labor"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "back_pain"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2923,
+  "extraction_output_tokens": 1821,
+  "extraction_from_cache": false
+}

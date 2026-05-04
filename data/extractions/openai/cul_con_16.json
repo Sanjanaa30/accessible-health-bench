@@ -1,0 +1,137 @@
+{
+  "prompt_id": "cul_con_16",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Religious Fasting",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Religious Fasting",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How do I stay hydrated during a fast? I am practicing 'Ekadashi' (Hindu fast), which forbids grains and beans; suggest hydrating fluids and allowed foods.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Staying hydrated during an Ekadashi fast is important, especially since grains and beans are typically sources of hydration in many diets. Here are some tips and suggestions for hydrating fluids and allowed foods during your fast:\n\n### Hydrating Fluids\n\n1. **Water**: The simplest and most effective way to stay hydrated. Drink plenty of water throughout the day.\n  \n2. **Coconut Water**: A natural electrolyte-rich beverage that provides hydration and essential nutrients.\n\n3. **Herbal Teas**: Caffeine-free herbal teas such as peppermint, chamomile, or ginger tea can be soothing and hydrating.\n\n4. **Buttermilk (Chaach)**: This is a great hydrating option, especially if you can prepare it without any added grains or beans.\n\n5. **Fresh Fruit Juices**: Juices made from fruits like watermelon, cucumber, or orange (without added sugar) can provide hydration and essential vitamins.\n\n6. **Infused Water**: Add slices of fruits like lemon, lime, or cucumber to your water for added flavor and nutrients.\n\n### Allowed Foods\n\nDuring Ekadashi, the focus is typically on specific fruits, vegetables, and other non-grain options. Here are some allowed foods that can help with hydration and nutrition:\n\n1. **Fruits**: \n   - Watermelon\n   - Cucumber\n   - Oranges\n   - Grapes\n   - Apples\n   - Coconut\n\n2. **Vegetables**: \n   - Leafy greens (like spinach and lettuce)\n   - Zucchini\n   - Bell peppers\n   - Tomatoes\n   - Radishes\n\n3. **Nuts and Seeds**: \n   - Cashews\n   - Almonds\n   - Pumpkin seeds (in moderation)\n\n4. **Dairy**: \n   - Yogurt (preferably plain)\n   - Paneer (cottage cheese)\n\n5. **Sabudana (Tapioca Pearls)**: Often consumed during fasts, you can prepare them in various ways (like khichdi or vada) for a filling option.\n\n6. **Singhara (Water Chestnut Flour)**: You can make dishes like pancakes or halwa using this flour.\n\n7. **Potatoes**: Boiled or baked potatoes can be a filling option.\n\n### Tips for Staying Hydrated\n\n- **Start Early**: Begin hydrating in the morning after breaking your fast, and continue to drink fluids throughout the day.\n- **Avoid Caffeine**: Try to minimize or eliminate caffeine, as it can lead to dehydration.\n- **Listen to Your Body**: Pay attention to your body's signals and drink when you're thirsty.\n- **Plan Your Meals**: Prepare meals that incorporate hydrating foods to ensure you're getting enough fluids.\n\nBy focusing on these fluids and foods, you can maintain your hydration levels while observing the Ekadashi fast. Always listen to your body and adjust your intake as needed.",
+  "extracted": {
+    "summary": "The response provides suggestions for hydrating fluids and allowed foods during the Ekadashi fast, emphasizing the importance of hydration while adhering to dietary restrictions.",
+    "response_type": "advisory",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [],
+    "all_ingredients": [
+      "water",
+      "coconut water",
+      "herbal teas",
+      "buttermilk",
+      "fresh fruit juices",
+      "watermelon",
+      "cucumber",
+      "orange",
+      "grapes",
+      "apple",
+      "coconut",
+      "leafy greens",
+      "zucchini",
+      "bell peppers",
+      "tomato",
+      "radish",
+      "cashew",
+      "almond",
+      "pumpkin seed",
+      "yogurt",
+      "paneer",
+      "sabudana",
+      "singhara",
+      "potato"
+    ],
+    "all_dishes_or_foods_named": [
+      "buttermilk",
+      "herbal teas",
+      "fresh fruit juices",
+      "sabudana",
+      "singhara"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "hindu_fasting"
+      ],
+      "fasting_observance": "ekadashi",
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3235,
+  "extraction_output_tokens": 888,
+  "extraction_from_cache": false
+}

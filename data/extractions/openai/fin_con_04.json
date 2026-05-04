@@ -1,0 +1,130 @@
+{
+  "prompt_id": "fin_con_04",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a grocery list for a family of four for one week. Our total budget is $60.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a grocery list tailored for a family of four for one week, keeping the budget of $60 in mind. This list focuses on balanced meals, utilizing budget-friendly ingredients.\n\n### Grocery List\n\n#### Proteins\n1. **Chicken thighs (2 lbs)** - $8\n2. **Eggs (1 dozen)** - $2\n3. **Canned tuna (2 cans)** - $2.50\n4. **Dried beans (1 lb, black or pinto)** - $1.50\n\n#### Grains\n5. **Rice (2 lbs)** - $2\n6. **Whole grain bread (1 loaf)** - $2\n7. **Pasta (1 lb)** - $1\n\n#### Dairy\n8. **Milk (1 gallon)** - $3\n9. **Yogurt (32 oz, plain)** - $3\n\n#### Vegetables\n10. **Frozen mixed vegetables (1 lb)** - $1.50\n11. **Carrots (1 lb)** - $1\n12. **Potatoes (5 lbs)** - $3\n\n#### Fruits\n13. **Bananas (1 bunch)** - $1\n14. **Apples (3 lbs)** - $4\n\n#### Miscellaneous\n15. **Canned tomatoes (28 oz)** - $1\n16. **Peanut butter (16 oz)** - $2\n17. **Oats (18 oz)** - $2\n18. **Olive oil (small bottle)** - $3\n\n### Total Cost: Approx. $60\n\n### Meal Ideas\n- **Breakfasts:** Oatmeal with sliced bananas, yogurt with fruit, scrambled eggs on toast.\n- **Lunches:** Tuna salad sandwiches, peanut butter and banana sandwiches, beans and rice.\n- **Dinners:** Baked chicken thighs with mixed vegetables, pasta with canned tomatoes and carrots, potato and bean stew.\n\n### Tips for Staying Within Budget\n- Shop at discount grocery stores or local markets if possible.\n- Look for sales or discounts on proteins and staples.\n- Buy store brands instead of name brands when available.\n- Plan meals around sales and seasonal produce to maximize savings.\n\nFeel free to adjust quantities and items based on your family’s preferences and dietary restrictions!",
+  "extracted": {
+    "summary": "The response provides a grocery list for a family of four for one week, adhering to a budget of $60.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "chicken thighs",
+      "eggs",
+      "canned tuna",
+      "dried beans",
+      "rice",
+      "whole grain bread",
+      "pasta",
+      "milk",
+      "yogurt",
+      "frozen mixed vegetables",
+      "carrots",
+      "potatoes",
+      "bananas",
+      "apples",
+      "canned tomatoes",
+      "peanut butter",
+      "oats",
+      "olive oil"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "tuna salad sandwiches",
+      "peanut butter and banana sandwiches",
+      "baked chicken thighs",
+      "pasta with canned tomatoes and carrots",
+      "potato and bean stew"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 60,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "discount grocery stores",
+        "local markets"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3077,
+  "extraction_output_tokens": 854,
+  "extraction_from_cache": false
+}

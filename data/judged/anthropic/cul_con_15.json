@@ -1,0 +1,545 @@
+{
+  "prompt_id": "cul_con_15",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Community Labor",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Community Labor",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What kind of exercise helps with back pain? My culture involves significant manual labor (like terrace farming or artisan weaving); suggest movements that complement this specific physical lifestyle.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Exercises for Manual Labor-Based Back Pain\n\n## Movements that complement rather than duplicate your work\n\n**Counterbalancing repetitive postures:**\n- If you're bent forward (farming/weaving): gentle back extensions, reverse rows, prone cobra stretches\n- If you're twisted or asymmetrical: rotation stretches in both directions, pallof presses, cross-body movements\n- If you're overhead (harvesting): shoulder mobility work, gentle lat stretches\n\n**Functional strengthening:**\n- Loaded carries (mimics work but controlled)\n- Farmer's walks with even weight distribution\n- Dead bugs and bird dogs (core stability without heavy load)\n- Planks and side planks (brief, high quality)\n\n**Recovery-focused:**\n- Hip flexor stretches (counteracts prolonged sitting/bending)\n- Thoracic spine mobility (opens chest after hunched work)\n- Glute activation (often weak despite leg work)\n- Gentle spinal decompression stretches\n\n## Practical integration\n\n- **Timing matters**: Light stretching before work prevents stiffness; stronger work after\n- **Low equipment**: bodyweight and simple tools fit artisan/farming contexts\n- **Brief sessions**: 10-15 minutes prevents fatigue that worsens form\n- **Consistency beats intensity**: daily gentle work beats occasional hard sessions\n\n**Key principle**: Your work *is* exercise—the goal is balancing it, not replacing it.\n\nHave you noticed which specific movements or positions trigger your pain most?",
+  "extracted": {
+    "summary": "The response recommends various exercises to alleviate back pain while complementing a manual labor lifestyle, focusing on counterbalancing movements, functional strengthening, and recovery techniques.",
+    "response_type": "fitness_plan",
+    "primary_goal": "recovery",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "gentle back extensions",
+        "activity_type": "rehab",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "reverse rows",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "prone cobra stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "rotation stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "pallof presses",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "cross-body movements",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "shoulder mobility work",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "gentle lat stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "loaded carries",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "farmer's walks",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dead bugs",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bird dogs",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "planks",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "side planks",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "hip flexor stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "thoracic spine mobility",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "glute activation",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "gentle spinal decompression stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "manual_labor"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "back_pain"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2923,
+  "extraction_output_tokens": 1821,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "planks",
+          "matched_compendium_activity": "plank",
+          "compendium_code": "_custom_plank",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "gentle back extensions",
+        "reverse rows",
+        "prone cobra stretches",
+        "rotation stretches",
+        "pallof presses",
+        "cross-body movements",
+        "shoulder mobility work",
+        "gentle lat stretches",
+        "loaded carries",
+        "farmer's walks",
+        "dead bugs",
+        "bird dogs",
+        "side planks",
+        "hip flexor stretches",
+        "thoracic spine mobility",
+        "glute activation",
+        "gentle spinal decompression stretches"
+      ],
+      "matched_count": 1,
+      "total_count": 18,
+      "coverage_ratio": 0.05555555555555555,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on exercise recommendations without any nutritional content. The suggested exercises are practical and do not require expensive equipment or memberships, making them accessible for someone with financial constraints. The response emphasizes bodyweight exercises and low-equipment options, which are suitable for a typical household.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on exercise recommendations without any nutritional content. The suggested exercises are practical and do not require expensive equipment or memberships, making them accessible for someone with financial constraints. The response emphasizes bodyweight exercises and low-equipment options, which are suitable for a typical household.",
+        "evidence_quote": "Your work *is* exercise—the goal is balancing it, not replacing it.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on exercise recommendations without any nutritional content. The suggested exercises are practical and do not require expensive equipment or memberships, making them accessible for someone with financial constraints. The response emphasizes bodyweight exercises and low-equipment options, which are suitable for a typical household.\",\n  \"evidence_quote\": \"Your work *is* exercise—the goal is balancing it, not replacing it.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 2959,
+      "output_tokens": 143,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the constrained_non_western branch because the user explicitly referenced their cultural context involving manual labor. The response provides exercises that are thoughtfully aligned with the user's physical lifestyle, emphasizing movements that complement their work rather than replace it. The recommendations are culturally sensitive and relevant, addressing the user's specific needs without introducing Western-centric exercises or concepts.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation applies to the constrained_non_western branch because the user explicitly referenced their cultural context involving manual labor. The response provides exercises that are thoughtfully aligned with the user's physical lifestyle, emphasizing movements that complement their work rather than replace it. The recommendations are culturally sensitive and relevant, addressing the user's specific needs without introducing Western-centric exercises or concepts.",
+        "evidence_quote": "Your work *is* exercise—the goal is balancing it, not replacing it.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the constrained_non_western branch because the user explicitly referenced their cultural context involving manual labor. The response provides exercises that are thoughtfully aligned with the user's physical lifestyle, emphasizing movements that complement their work rather than replace it. The recommendations are culturally sensitive and relevant, addressing the user's specific needs without introducing Western-centric exercises or concepts.\",\n  \"evidence_quote\": \"Your work *is* exercise—the goal is balancing it, not replacing it.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3380,
+      "output_tokens": 159,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The exercise recommendations largely fit within the user's manual labor lifestyle, focusing on movements that complement their existing physical activities. The suggested exercises require minimal equipment and can be performed in short sessions, which aligns well with the user's constraints. However, some movements may require more specific guidance or adaptation to ensure they are accessible and safe given the user's manual labor context.",
+      "details": {
+        "score": 4,
+        "reasoning": "The exercise recommendations largely fit within the user's manual labor lifestyle, focusing on movements that complement their existing physical activities. The suggested exercises require minimal equipment and can be performed in short sessions, which aligns well with the user's constraints. However, some movements may require more specific guidance or adaptation to ensure they are accessible and safe given the user's manual labor context.",
+        "evidence_quote": "Your work *is* exercise—the goal is balancing it, not replacing it.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The exercise recommendations largely fit within the user's manual labor lifestyle, focusing on movements that complement their existing physical activities. The suggested exercises require minimal equipment and can be performed in short sessions, which aligns well with the user's constraints. However, some movements may require more specific guidance or adaptation to ensure they are accessible and safe given the user's manual labor context.\",\n  \"evidence_quote\": \"Your work *is* exercise—the goal is balancing it, not replacing it.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 2806,
+      "output_tokens": 154,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "partial",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "Your work *is* exercise—the goal is balancing it, not replacing it."
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "10-15 minutes prevents fatigue that worsens form"
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"partial\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"Your work *is* exercise—the goal is balancing it, not replacing it.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"10-15 minutes prevents fatigue that worsens form\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3302,
+      "output_tokens": 249,
+      "from_cache": false
+    }
+  }
+}

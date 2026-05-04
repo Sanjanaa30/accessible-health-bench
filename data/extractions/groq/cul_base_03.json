@@ -1,0 +1,110 @@
+{
+  "prompt_id": "cul_base_03",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "How should I cook fish to keep it healthy?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Cooking fish can be a delicate process, as it's essential to preserve its nutritional value and flavor. Here are some tips to help you cook fish in a healthy way:\n\n1. **Grilling or Baking**: These methods are ideal for cooking fish, as they help retain the nutrients and don't add extra fat. Preheat your grill or oven to a medium-high temperature (around 400°F/200°C). Season the fish with herbs, lemon juice, and spices for added flavor.\n2. **Poaching**: Poaching is a low-heat method that helps preserve the delicate texture and flavor of fish. Submerge the fish in liquid (such as water, broth, or wine) and cook at a low temperature (around 160°F/71°C) for 8-12 minutes, or until cooked through.\n3. **Steaming**: Steaming is another low-heat method that helps retain the nutrients in fish. Place the fish in a steamer basket, and steam for 8-12 minutes, or until cooked through.\n4. **Pan-Sealing**: If you prefer to cook fish in a pan, use a small amount of oil (such as olive or avocado oil) and cook over medium heat. Add aromatics like garlic, ginger, or lemon juice for flavor.\n5. **Avoid Overcooking**: Fish can become dry and tough if overcooked. Cook it until it reaches an internal temperature of 145°F (63°C), and then remove it from heat.\n6. **Use Gentle Heat**: Avoid using high heat, as it can damage the delicate omega-3 fatty acids found in fish. Instead, use gentle heat to cook the fish slowly and evenly.\n7. **Don't Press Down**: When cooking fish in a pan, avoid pressing down on it with your spatula, as this can cause the fish to become dense and lose its moisture.\n8. **Add Acid**: A squeeze of lemon juice or a splash of vinegar can help brighten the flavor of the fish and preserve its nutrients.\n9. **Use Fresh Herbs**: Fresh herbs like parsley, dill, or basil can add flavor to fish without adding extra salt or sugar.\n10. **Choose the Right Fish**: Opt for fatty fish like salmon, tuna, or mackerel, which are rich in omega-3 fatty acids and have a higher moisture content, making them less prone to drying out during cooking.\n\nSome healthy fish cooking methods to avoid include:\n\n* Deep-frying, which adds extra calories and fat\n* Microwaving, which can lead to uneven cooking and nutrient loss\n* Boiling, which can cause the fish to become tough and lose its flavor\n\nBy following these tips, you can enjoy delicious and healthy fish dishes that are rich in nutrients and flavor.",
+  "extracted": {
+    "summary": "The response provides various healthy cooking methods for fish, emphasizing techniques that preserve its nutritional value and flavor.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "fish",
+      "herbs",
+      "lemon juice",
+      "spices",
+      "water",
+      "broth",
+      "wine",
+      "oil",
+      "garlic",
+      "ginger",
+      "vinegar",
+      "parsley",
+      "dill",
+      "basil"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3125,
+  "extraction_output_tokens": 756,
+  "extraction_from_cache": false
+}

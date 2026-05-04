@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_09",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Energy Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Energy Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a 3-day meal plan for a student who needs to improve their iron levels. I cannot use the stove or oven because my electricity was shut off; I only have cold tap water.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here’s a 3-day meal plan that focuses on iron-rich foods and can be prepared without cooking. Since you're looking to improve your iron levels, we'll include both heme iron (found in animal products) and non-heme iron (found in plant-based foods). Pairing non-heme iron sources with vitamin C-rich foods can help enhance absorption.\n\n### Day 1\n\n**Breakfast:**\n- Overnight oats made with rolled oats soaked in cold tap water (or milk if available)\n- Topped with sliced bananas and a sprinkle of chia seeds\n- A handful of almonds on the side\n\n**Lunch:**\n- Spinach and chickpea salad:\n  - Fresh spinach leaves\n  - Canned chickpeas (rinsed and drained)\n  - Cherry tomatoes, halved\n  - Cucumber slices\n  - Dressing: olive oil, lemon juice, salt, and pepper\n- A small orange or kiwi for vitamin C\n\n**Snack:**\n- Dried apricots and a handful of walnuts\n\n**Dinner:**\n- Tuna salad:\n  - Canned tuna (in water), drained\n  - Chopped celery and onions\n  - A dollop of plain yogurt or mayonnaise\n  - Served on whole grain bread or in lettuce wraps\n- Side of baby carrots or bell pepper slices\n\n### Day 2\n\n**Breakfast:**\n- Smoothie made with:\n  - Spinach or kale\n  - Banana\n  - A scoop of protein powder (if available)\n  - Almond milk or water\n- A slice of whole grain toast with peanut butter\n\n**Lunch:**\n- Quinoa salad (pre-cooked quinoa can be bought ready-to-eat):\n  - Quinoa\n  - Black beans (canned, rinsed)\n  - Corn (canned or frozen, thawed)\n  - Diced red bell pepper\n  - Dressing: lime juice, olive oil, and cumin\n- Side of strawberries or a grapefruit for vitamin C\n\n**Snack:**\n- A hard-boiled egg (if you have access to pre-cooked eggs) or a handful of roasted chickpeas\n\n**Dinner:**\n- Hummus and whole grain pita:\n  - Store-bought hummus\n  - Whole grain pita bread\n  - Sliced veggies (carrots, cucumber, celery)\n- A small handful of pumpkin seeds for extra iron\n\n### Day 3\n\n**Breakfast:**\n- Greek yogurt with mixed berries (fresh or frozen) and a sprinkle of flaxseeds\n- A small handful of sunflower seeds\n\n**Lunch:**\n- Lentil salad:\n  - Canned lentils (rinsed and drained)\n  - Diced red onion\n  - Chopped parsley\n  - Dressing: balsamic vinegar, olive oil, salt, and pepper\n- An apple or a bowl of pineapple for vitamin C\n\n**Snack:**\n- Dark chocolate (70% cocoa or higher) for a treat and some iron\n\n**Dinner:**\n- Cold pasta salad with:\n  - Whole grain pasta (cooked and chilled)\n  - Diced bell peppers\n  - Cherry tomatoes\n  - Feta cheese (optional)\n  - Dressing: olive oil and vinegar\n- Side of mixed greens with lemon juice\n\n### Additional Tips:\n- Drink plenty of water.\n- Consider consuming vitamin C-rich foods with your meals to enhance iron absorption.\n- If possible, check if any local resources provide access to prepared meals or food banks, especially if you’re facing challenges with electricity.\n\nThis meal plan is balanced and focuses on iron-rich options while being feasible without cooking. Adjust portion sizes based on your personal dietary needs and preferences.",
+  "input_tokens": 46,
+  "output_tokens": 743,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:35:32.428919"
+}

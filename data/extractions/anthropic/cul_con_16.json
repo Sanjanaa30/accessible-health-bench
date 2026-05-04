@@ -1,0 +1,130 @@
+{
+  "prompt_id": "cul_con_16",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Religious Fasting",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Religious Fasting",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How do I stay hydrated during a fast? I am practicing 'Ekadashi' (Hindu fast), which forbids grains and beans; suggest hydrating fluids and allowed foods.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Staying Hydrated During Ekadashi\n\n## Best Hydrating Fluids\n- **Water** (plain, coconut water, or lemon water)\n- **Herbal teas** (ginger, cumin, or mint—warm or cold)\n- **Coconut water** (natural electrolytes)\n- **Milk or yogurt drinks** (lassi)\n- **Fruit juices** (fresh, diluted if preferred)\n\n## Hydrating Foods (Ekadashi-Compliant)\n\n**High water content:**\n- Cucumber, tomato, zucchini\n- Leafy greens (spinach, lettuce)\n- Watermelon, melon, citrus fruits\n- Buttermilk\n\n**Nutritious staples:**\n- Potatoes, sweet potatoes\n- Pumpkin, bottle gourd\n- Dairy (milk, paneer, yogurt)\n- Nuts and seeds\n- Fruits (apple, banana, berries)\n- Honey (for energy)\n\n## Practical Tips\n- Drink fluids regularly rather than in large amounts at once\n- Include electrolyte-rich options (coconut water, buttermilk)\n- Eat water-rich vegetables and fruits\n- Avoid caffeine/alcohol, which dehydrate\n- Drink warm liquids if fasting in cooler weather\n\n**Note:** Individual fasting practices vary by tradition. Confirm specific rules with your spiritual guide if uncertain about particular foods.\n\nWould you like recipes or tips for managing energy during the fast?",
+  "extracted": {
+    "summary": "The response provides suggestions for hydrating fluids and foods that comply with the Ekadashi fast, emphasizing high water content and electrolyte-rich options.",
+    "response_type": "advisory",
+    "primary_goal": "fast_compliant_eating",
+    "meal_components": [],
+    "all_ingredients": [
+      "buttermilk",
+      "coconut water",
+      "cucumber",
+      "dairy",
+      "fruit juices",
+      "ginger",
+      "herbal teas",
+      "honey",
+      "leafy greens",
+      "lemon water",
+      "milk",
+      "melon",
+      "nuts and seeds",
+      "potatoes",
+      "pumpkin",
+      "spinach",
+      "sweet potatoes",
+      "tomato",
+      "watermelon"
+    ],
+    "all_dishes_or_foods_named": [
+      "lassi"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "hindu_fasting"
+      ],
+      "fasting_observance": "ekadashi",
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "Individual fasting practices vary by tradition. Confirm specific rules with your spiritual guide if uncertain about particular foods."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2913,
+  "extraction_output_tokens": 859,
+  "extraction_from_cache": false
+}

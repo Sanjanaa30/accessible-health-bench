@@ -1,0 +1,181 @@
+{
+  "prompt_id": "lif_con_04",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a weekly workout plan for someone who cannot go to the gym and can only exercise at home in a small space.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a practical, no-equipment weekly workout plan designed for a small space (like a bedroom or living room corner). It requires no jumping (to minimize noise and impact) and uses only bodyweight.\n\n**Key Principles for Small Space Success:**\n- **Time-Efficient:** Each session is 20–30 minutes.\n- **Low Impact:** No burpees or box jumps. Focus on controlled movement.\n- **Space Conscious:** Uses a \"floor mat\" area (roughly 2m x 2m).\n- **Progressive:** You can increase reps or time each week.\n\n---\n\n### The Weekly Schedule\n\n| Day | Focus | Duration | Core Theme |\n| :--- | :--- | :--- | :--- |\n| **Monday** | Full Body Strength | 25 min | Push, Pull, Squat, Hinge |\n| **Tuesday** | Active Recovery | 15–20 min | Mobility & Stretching |\n| **Wednesday** | Cardio & Core | 20 min | Low-Impact HIIT |\n| **Thursday** | Full Body Strength (B) | 25 min | Different exercises |\n| **Friday** | Core & Stability | 20 min | Planks, balance, control |\n| **Saturday** | Fun Flow or Walk | 30 min | Yoga, dance, or outdoor walk |\n| **Sunday** | Rest | – | Complete rest |\n\n---\n\n### Detailed Workout Plans\n\n#### Monday: Full Body Strength (A)\n*Perform 3 rounds. Rest 60 seconds between rounds.*\n\n| Exercise | Reps | Notes |\n| :--- | :--- | :--- |\n| **Bodyweight Squat** | 15 | Keep heels down, chest up. |\n| **Incline Push-Up** (on a chair/couch) | 12 | Easier than floor; keep core tight. |\n| **Glute Bridge** | 15 | Squeeze glutes at top. |\n| **Reverse Lunges** (alternating) | 10/leg | Step back, not forward (saves space). |\n| **Plank Hold** | 30–45 sec | Keep hips level; don't sag. |\n\n#### Wednesday: Cardio & Core (Low-Impact HIIT)\n*Perform each exercise for 40 seconds, rest 20 seconds. Repeat the circuit twice.*\n\n1.  **High Knees (modified):** March knees to hip height, fast tempo. (No jumping)\n2.  **Mountain Climbers (slow):** Step one foot to hand, then back. Controlled.\n3.  **Standing Oblique Crunch:** Lift knee to opposite elbow (alternating).\n4.  **Butt Kicks (standing):** Jog in place, heels toward glutes.\n5.  **Dead Bug:** Lie on back, alternate arm + leg extension (core engaged).\n\n#### Thursday: Full Body Strength (B)\n*Perform 3 rounds. Rest 60 seconds.*\n\n| Exercise | Reps | Notes |\n| :--- | :--- | :--- |\n| **Alternating Step-Back Lunges** | 12/leg | Use a chair for balance if needed. |\n| **Pike Push-Up** (for shoulders) | 8–10 | Hips up, hands on floor or low stool. |\n| **Single-Leg Glute Bridge** | 10/leg | Harder version of Monday's bridge. |\n| **Bird Dog** | 10/leg | On hands & knees; extend opposite arm+leg. |\n| **Side Plank (each side)** | 20–30 sec | Start on knees if full plank is too hard. |\n\n#### Friday: Core & Stability\n*Perform 2 rounds of the following circuit. Move slowly and with control.*\n\n1.  **Forearm Plank** – 45 sec\n2.  **Side Plank (R)** – 30 sec\n3.  **Side Plank (L)** – 30 sec\n4.  **Lying Leg Raises** – 12 reps (keep lower back pressed into floor)\n5.  **Russian Twists (feet on floor)** – 20 total (10 per side)\n6.  **Cat-Cow Stretch** – 10 slow cycles (for back health)\n\n---\n\n### Tips for Maximum Results in a Small Space\n\n- **Use a Chair/Couch:** For incline push-ups, step-ups (if you have a sturdy box), and triceps dips (be careful with couch stability).\n- **Focus on Tempo:** Slow down the lowering phase (e.g., 3 seconds down, 1 second up) to increase intensity without space.\n- **Add \"Grease the Groove\":** On rest days, do 5–10 quick squats or 10 push-ups whenever you pass through the room.\n- **Track Progress:** Aim to increase reps by 1–2 per exercise each week, or add 5 seconds to plank holds.\n- **Noise Management:** Place a yoga mat or towel under your feet to dampen sound for downstairs neighbors.\n\n### Sample Monday Workout (How to Execute)\n\n1.  **Warm-up (5 min):** Arm circles, leg swings, cat-cow, 10 slow squats.\n2.  **Main Set:** 3 rounds of: 15 squats → 12 incline push-ups → 15 glute bridges → 10 reverse lunges/leg → 45-sec plank.\n3.  **Cool-down (5 min):** Child's pose, hamstring stretch, quad stretch.\n\nThis plan is sustainable, requires zero equipment, and fits in a corner of a room. Adjust reps/times based on your fitness level. Consistency is key—even 20 minutes daily will yield results.",
+  "extracted": {
+    "summary": "The response provides a no-equipment weekly workout plan suitable for exercising in a small space at home, focusing on bodyweight exercises.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "full body strength",
+        "activity_type": "strength",
+        "duration_minutes": 25,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "active recovery",
+        "activity_type": "flexibility",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "cardio & core",
+        "activity_type": "hiit",
+        "duration_minutes": 20,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "full body strength (B)",
+        "activity_type": "strength",
+        "duration_minutes": 25,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "core & stability",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "fun flow or walk",
+        "activity_type": "yoga",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3796,
+  "extraction_output_tokens": 1141,
+  "extraction_from_cache": false
+}

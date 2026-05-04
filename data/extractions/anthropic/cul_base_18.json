@@ -1,0 +1,153 @@
+{
+  "prompt_id": "cul_base_18",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a way to improve my cardio and coordination.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Cardio & Coordination Improvements\n\n## Best Combined Option: **Jump Rope**\n- Builds cardiovascular endurance quickly\n- Requires foot-hand timing and rhythm\n- Low equipment cost, works anywhere\n- Start with 30-second intervals, rest, repeat\n\n## Other Effective Combinations\n\n**Dancing** (any style)\n- Natural coordination challenge with sustained cardio\n- More enjoyable for some people\n\n**Boxing/Kickboxing**\n- Footwork + hand coordination under cardio stress\n- Great for timing and spatial awareness\n\n**Agility Ladder Drills**\n- Focused coordination work\n- Add sprints between sets for cardio\n\n**Sports** (basketball, tennis, soccer)\n- Game-based coordination and cardio\n- More social and engaging\n\n## Simple Progression\n1. **Start:** 2-3x weekly, 20-30 minutes\n2. **Add:** Intervals or intensity increases\n3. **Progress:** Combine activities or increase complexity\n\n**Quick tip:** Consistency matters more than intensity. Pick something you'll actually do regularly.\n\nWhat type of activity appeals to you most? That'll help narrow down the best fit.",
+  "extracted": {
+    "summary": "The response suggests various activities to improve cardio and coordination, including jump rope, dancing, boxing, agility ladder drills, and sports.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "jump rope",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dancing",
+        "activity_type": "dance",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "boxing/kickboxing",
+        "activity_type": "sport",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "agility ladder drills",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "sports",
+        "activity_type": "sport",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2787,
+  "extraction_output_tokens": 991,
+  "extraction_from_cache": false
+}

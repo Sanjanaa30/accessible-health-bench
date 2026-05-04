@@ -1,0 +1,190 @@
+{
+  "prompt_id": "lif_base_08",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a healthy eating plan.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Eating Plan\n\n## Core Principles\n- **Balance**: Include all food groups daily\n- **Moderation**: Appropriate portion sizes\n- **Variety**: Different foods for diverse nutrients\n- **Hydration**: 8+ glasses of water daily\n\n---\n\n## Daily Food Guidelines\n\n### Vegetables & Fruits (½ your plate)\n- 2-3 cups vegetables (varied colors)\n- 1.5-2 cups fruit\n- *Tip*: Aim for dark leafy greens, orange, and red varieties\n\n### Whole Grains (¼ your plate)\n- 5-8 ounces daily\n- Choose: brown rice, oats, whole wheat bread, quinoa\n- *Tip*: Make half your grains whole grains\n\n### Protein (¼ your plate)\n- 5-6.5 ounces daily\n- Include: lean meats, fish, eggs, beans, nuts, tofu\n- *Tip*: Vary your protein sources\n\n### Dairy\n- 3 cups daily\n- Choose: low-fat or fat-free milk, yogurt, cheese\n- *Alternative*: fortified plant-based options\n\n---\n\n## Sample Daily Menu\n\n**Breakfast**: Oatmeal with berries and almonds\n**Snack**: Greek yogurt with honey\n**Lunch**: Grilled chicken, quinoa, roasted vegetables\n**Snack**: Apple with almond butter\n**Dinner**: Baked salmon, sweet potato, steamed broccoli\n\n---\n\n## Quick Tips\n✓ Meal prep on weekends\n✓ Read nutrition labels\n✓ Limit added sugars and sodium\n✓ Practice portion control\n✓ Eat slowly and mindfully\n\n**Consult a dietitian for personalized advice.**",
+  "extracted": {
+    "summary": "The response provides a healthy eating plan emphasizing balance, moderation, variety, and hydration, along with daily food guidelines and a sample menu.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with berries and almonds",
+        "ingredients": [
+          "oatmeal",
+          "berries",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey",
+        "ingredients": [
+          "greek yogurt",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken, quinoa, roasted vegetables",
+        "ingredients": [
+          "chicken",
+          "quinoa",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "apple with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked salmon, sweet potato, steamed broccoli",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "oatmeal",
+      "berries",
+      "almonds",
+      "greek yogurt",
+      "honey",
+      "chicken",
+      "quinoa",
+      "vegetables",
+      "apple",
+      "almond butter",
+      "salmon",
+      "sweet potato",
+      "broccoli"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with berries and almonds",
+      "greek yogurt with honey",
+      "grilled chicken, quinoa, roasted vegetables",
+      "apple with almond butter",
+      "baked salmon, sweet potato, steamed broccoli"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult a dietitian for personalized advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2887,
+  "extraction_output_tokens": 1240,
+  "extraction_from_cache": false
+}

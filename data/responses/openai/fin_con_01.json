@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_01",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy breakfast. I have $5.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a simple and healthy breakfast idea that you can make for under $5:\n\n**Oatmeal with Fruit and Nuts**\n\n**Ingredients:**\n1. Rolled oats (1 cup) - about $0.50\n2. A banana or apple - about $0.50\n3. A tablespoon of peanut butter or almond butter - about $0.50\n4. A sprinkle of cinnamon (optional) - negligible cost\n5. Water or milk (for cooking oats) - negligible cost\n\n**Instructions:**\n1. Cook the rolled oats according to package instructions using water or milk.\n2. Slice the banana or apple and mix it into the cooked oats.\n3. Add a tablespoon of peanut butter or almond butter for healthy fats and protein.\n4. Sprinkle with cinnamon for added flavor.\n\n**Total cost:** Approximately $2.00 - $3.00, leaving you with some leftover for beverages like a cup of tea or coffee.\n\nThis breakfast is nutritious, filling, and provides a good balance of carbohydrates, healthy fats, and protein to keep you energized throughout the morning!",
+  "input_tokens": 17,
+  "output_tokens": 220,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:25:26.825382"
+}

@@ -1,0 +1,135 @@
+{
+  "prompt_id": "cul_base_10",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Can I exercise while fasting?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Yes, you can exercise while fasting, but it's essential to consider a few factors to ensure a safe and effective workout. Here are some things to keep in mind:\n\n**Benefits of exercising while fasting:**\n\n1. **Increased fat burning**: When you exercise in a fasted state, your body is more likely to burn stored fat for energy.\n2. **Improved mental clarity and focus**: Fasting can increase the production of a protein called brain-derived neurotrophic factor (BDNF), which can enhance cognitive function and mental clarity.\n3. **Increased human growth hormone (HGH) production**: Fasting has been shown to increase production of HGH, which can help with muscle growth and repair.\n\n**Precautions and considerations:**\n\n1. **Hydration**: Make sure to drink plenty of water before, during, and after your workout to stay hydrated.\n2. **Electrolyte balance**: Fasting can lead to electrolyte imbalances, which can cause muscle cramps, fatigue, and dizziness. Consider adding electrolyte-rich beverages or supplements to your routine.\n3. **Blood sugar levels**: If you have diabetes or are prone to low blood sugar, you may need to adjust your exercise and fasting schedule to avoid hypoglycemia.\n4. **Intensity and duration**: Start with low- to moderate-intensity exercises and gradually increase the intensity and duration as your body adapts.\n5. **Listen to your body**: If you feel weak, dizzy, or experience other adverse effects, stop exercising and consider breaking your fast.\n\n**Best exercises to do while fasting:**\n\n1. **Low- to moderate-intensity cardio**: Walking, jogging, cycling, or swimming are great options.\n2. **Resistance training**: Bodyweight exercises, weightlifting, or resistance band exercises can help build strength and endurance.\n3. **Yoga or Pilates**: These low-impact exercises can help improve flexibility, balance, and core strength.\n\n**When to exercise while fasting:**\n\n1. **Early morning**: Exercise after an overnight fast, when your body is in a natural state of ketosis.\n2. **Before breaking your fast**: Exercise before eating to take advantage of the increased fat-burning effects.\n3. **During a 16:8 or 5:2 fasting schedule**: Exercise during your fasting window, but be sure to stay hydrated and listen to your body.\n\nRemember, it's essential to consult with a healthcare professional before starting any new exercise or fasting regimen, especially if you have any underlying health conditions.",
+  "extracted": {
+    "summary": "Exercising while fasting is possible and can offer benefits such as increased fat burning and improved mental clarity, but precautions should be taken.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "low- to moderate-intensity cardio",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "resistance training",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "yoga or pilates",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "It's essential to consult with a healthcare professional before starting any new exercise or fasting regimen, especially if you have any underlying health conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3067,
+  "extraction_output_tokens": 916,
+  "extraction_from_cache": false
+}

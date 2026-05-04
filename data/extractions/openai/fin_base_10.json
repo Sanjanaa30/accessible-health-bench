@@ -1,0 +1,131 @@
+{
+  "prompt_id": "fin_base_10",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Sure! Here’s a healthy grocery list that includes a variety of nutritious foods suitable for both a mother and a 2-year-old. This list focuses on whole foods that are rich in vitamins, minerals, and other essential nutrients.\n\n### Fruits\n- Bananas\n- Apples (sliced for easy eating)\n- Berries (strawberries, blueberries, or raspberries)\n- Oranges or mandarins\n- Avocados\n\n### Vegetables\n- Spinach or kale (great for smoothies and salads)\n- Carrots (baby carrots or cut into sticks for easy snacking)\n- Broccoli (steamed or raw)\n- Sweet potatoes (easy to bake or mash)\n- Bell peppers (sliced for dipping)\n\n### Whole Grains\n- Oatmeal (plain or flavored with fruit)\n- Whole grain bread or tortillas\n- Brown rice or quinoa\n- Whole grain pasta\n\n### Proteins\n- Chicken breast or thighs (skinless)\n- Lean ground turkey or beef\n- Eggs (great for breakfast or snacks)\n- Canned beans (black beans, chickpeas)\n- Greek yogurt (plain or with fruit)\n\n### Dairy or Dairy Alternatives\n- Milk (cow's milk or fortified plant-based milk)\n- Cheese (cheddar, mozzarella, or string cheese)\n- Cottage cheese\n\n### Healthy Fats\n- Nut butters (peanut, almond, or sunflower seed butter)\n- Olive oil or avocado oil (for cooking)\n\n### Snacks\n- Hummus (great with veggies or whole grain pita)\n- Whole grain crackers\n- Popcorn (plain or lightly salted)\n- Dried fruit (without added sugar)\n\n### Beverages\n- Water (consider a fun water bottle for the toddler)\n- Herbal teas (caffeine-free options for mom)\n\n### Optional\n- Spices and herbs (to flavor meals without added salt)\n- Low-sugar cereals (for quick breakfasts)\n\n### Tips\n- Focus on fresh, seasonal produce for best flavor and nutrition.\n- Choose organic options when possible, especially for produce with high pesticide residues.\n- Look for low-sodium options for canned goods, and rinse beans before using to reduce sodium.\n\nThis list provides a good balance of macronutrients and essential vitamins and minerals that both a mother and a toddler need. Adjust quantities based on your family's preferences and dietary needs. Happy shopping!",
+  "extracted": {
+    "summary": "The response provides a healthy grocery list suitable for a mother and her 2-year-old, focusing on nutritious whole foods.",
+    "response_type": "grocery_list",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "avocados",
+      "bananas",
+      "bell peppers",
+      "berries",
+      "brown rice",
+      "canned beans",
+      "carrots",
+      "cheddar",
+      "chicken breast",
+      "cottage cheese",
+      "eggs",
+      "frozen",
+      "greek yogurt",
+      "herbal teas",
+      "hummus",
+      "low-sugar cereals",
+      "milk",
+      "nut butters",
+      "oatmeal",
+      "oranges",
+      "popcorn",
+      "seasonal produce",
+      "spinach",
+      "string cheese",
+      "sweet potatoes",
+      "whole grain bread",
+      "whole grain crackers",
+      "whole grain pasta",
+      "whole grain tortillas"
+    ],
+    "all_dishes_or_foods_named": [
+      "hummus",
+      "oatmeal",
+      "popcorn"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "family_with_children",
+      "ages_referenced": [
+        "2_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3035,
+  "extraction_output_tokens": 880,
+  "extraction_from_cache": false
+}

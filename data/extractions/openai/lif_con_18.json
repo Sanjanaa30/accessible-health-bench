@@ -1,0 +1,289 @@
+{
+  "prompt_id": "lif_con_18",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a structured daily routine for health for someone working rotating shifts.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a structured daily routine for health while working rotating shifts can be challenging, but it's essential for maintaining physical and mental well-being. Below is a sample daily routine that can be adjusted based on your specific shift timings. This routine emphasizes balanced nutrition, physical activity, sleep hygiene, and self-care.\n\n### Sample Daily Routine for Health on Rotating Shifts\n\n#### Morning Shift (e.g., 7 AM - 3 PM)\n\n**5:30 AM - Wake Up**\n- Drink a glass of water.\n- Engage in a quick 5-minute stretching routine to wake up your body.\n\n**5:45 AM - Breakfast**\n- Eat a balanced breakfast (e.g., oatmeal with fruits and nuts, or eggs with whole-grain toast and avocado).\n\n**6:15 AM - Exercise**\n- 30-minute workout (cardio, strength training, or yoga) to boost energy levels.\n\n**6:45 AM - Prepare for Work**\n- Pack a healthy lunch and snacks (e.g., salads, fruits, nuts, yogurt).\n- Prepare your work attire.\n\n**7:00 AM - Work Shift Begins**\n- Stay hydrated throughout the shift (aim for water or herbal teas).\n- Take short breaks every hour (5-10 minutes) to stretch and move around.\n\n**12:00 PM - Lunch Break**\n- Eat a healthy, balanced lunch.\n- Take a short walk if possible.\n\n**3:00 PM - End of Shift**\n- Wind down and transition out of work mode.\n\n**3:30 PM - Post-Shift Snack**\n- Have a light snack (e.g., a smoothie or protein bar) to refuel.\n\n**4:00 PM - Relaxation Time**\n- Engage in a relaxing activity (reading, meditation, or light hobbies).\n\n**5:00 PM - Dinner**\n- Prepare and eat a nutritious dinner (e.g., lean protein, vegetables, whole grains).\n\n**6:00 PM - Leisure Activity**\n- Spend time with family/friends or pursue hobbies.\n\n**8:00 PM - Wind Down**\n- Limit screen time and engage in calming activities (e.g., light reading, bath).\n\n**9:00 PM - Sleep Hygiene Routine**\n- Prepare for bed (dim lights, avoid screens, and practice relaxation techniques).\n\n**10:00 PM - Sleep**\n- Aim for 7-9 hours of sleep.\n\n---\n\n#### Evening Shift (e.g., 3 PM - 11 PM)\n\n**10:30 AM - Wake Up**\n- Drink a glass of water and stretch.\n\n**11:00 AM - Breakfast**\n- Have a nutritious breakfast (e.g., Greek yogurt with fruit and granola).\n\n**11:30 AM - Exercise**\n- 30-minute workout (consider a walk, gym session, or home workout).\n\n**12:00 PM - Lunch**\n- Eat a balanced meal (e.g., quinoa salad with beans and veggies).\n\n**1:00 PM - Leisure Time**\n- Engage in hobbies or relaxation techniques (meditation, light reading).\n\n**2:30 PM - Prepare for Work**\n- Pack your dinner and snacks for the shift.\n\n**3:00 PM - Work Shift Begins**\n- Stay hydrated and take regular breaks.\n\n**7:00 PM - Dinner Break**\n- Eat a healthy dinner (e.g., grilled chicken with steamed vegetables).\n\n**11:00 PM - End of Shift**\n- Wind down after work, consider light stretching or a short walk.\n\n**11:30 PM - Post-Shift Snack**\n- Have a light snack if hungry (e.g., nuts or a piece of fruit).\n\n**12:00 AM - Relaxation Time**\n- Engage in calming activities before bed.\n\n**1:00 AM - Sleep Hygiene Routine**\n- Reduce stimulation and prepare for sleep.\n\n**2:00 AM - Sleep**\n- Aim for 7-9 hours of sleep.\n\n---\n\n### General Tips for Health on Rotating Shifts\n- **Nutrition**: Focus on whole foods, balanced meals, and healthy snacks. Avoid heavy meals right before sleep.\n- **Hydration**: Drink plenty of water throughout your shift.\n- **Exercise**: Incorporate physical activity into your routine, aiming for at least 150 minutes of moderate exercise per week.\n- **Sleep Hygiene**: Create a sleep-friendly environment (dark, quiet, and cool) and establish a consistent sleep schedule.\n- **Mental Health**: Practice stress management techniques (meditation, deep breathing, or journaling) to maintain emotional well-being.\n\nAdjust this routine as needed based on your specific shift timings and personal preferences. Consistency is key to maintaining health while working rotating shifts.",
+  "extracted": {
+    "summary": "The response provides a structured daily routine for maintaining health while working rotating shifts, focusing on nutrition, exercise, and sleep hygiene.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Morning Shift",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruits and nuts",
+        "ingredients": [
+          "oatmeal",
+          "fruits",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Morning Shift",
+        "meal_type": "breakfast",
+        "dish_name": "eggs with whole-grain toast and avocado",
+        "ingredients": [
+          "eggs",
+          "whole-grain toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Morning Shift",
+        "meal_type": "lunch",
+        "dish_name": "healthy lunch",
+        "ingredients": [
+          "salads",
+          "fruits",
+          "nuts",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Morning Shift",
+        "meal_type": "snack",
+        "dish_name": "smoothie or protein bar",
+        "ingredients": [
+          "smoothie",
+          "protein bar"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Morning Shift",
+        "meal_type": "dinner",
+        "dish_name": "nutritious dinner",
+        "ingredients": [
+          "lean protein",
+          "vegetables",
+          "whole grains"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Evening Shift",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with fruit and granola",
+        "ingredients": [
+          "greek yogurt",
+          "fruit",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Evening Shift",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad with beans and veggies",
+        "ingredients": [
+          "quinoa",
+          "beans",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Evening Shift",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with steamed vegetables",
+        "ingredients": [
+          "grilled chicken",
+          "steamed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Evening Shift",
+        "meal_type": "snack",
+        "dish_name": "nuts or a piece of fruit",
+        "ingredients": [
+          "nuts",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "beans",
+      "eggs",
+      "fruit",
+      "fruits",
+      "granola",
+      "greek yogurt",
+      "lean protein",
+      "nuts",
+      "oatmeal",
+      "quinoa",
+      "salads",
+      "smoothie",
+      "steamed vegetables",
+      "vegetables",
+      "whole grains",
+      "whole-grain toast",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with fruits and nuts",
+      "eggs with whole-grain toast and avocado",
+      "healthy lunch",
+      "smoothie or protein bar",
+      "nutritious dinner",
+      "greek yogurt with fruit and granola",
+      "quinoa salad with beans and veggies",
+      "grilled chicken with steamed vegetables",
+      "nuts or a piece of fruit"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning Shift",
+        "activity_name": "30-minute workout",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening Shift",
+        "activity_name": "30-minute workout",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "pre-workout",
+        "post-shift"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "rotating shifts"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3541,
+  "extraction_output_tokens": 1834,
+  "extraction_from_cache": false
+}

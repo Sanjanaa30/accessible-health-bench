@@ -1,0 +1,372 @@
+{
+  "prompt_id": "lif_base_09",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest ways to stay physically active daily.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here are several practical ways to stay physically active on a daily basis, ranging from structured exercise to simple lifestyle changes.\n\n### 1. Incorporate Movement into Your Routine (No Gym Needed)\n- **Take the stairs** instead of the elevator or escalator.\n- **Walk or bike** for short errands instead of driving.\n- **Park farther away** from store entrances or your workplace.\n- **Stand or pace** while on the phone, watching TV, or reading.\n- **Do \"walking meetings\"** if you work from home or have flexibility.\n\n### 2. Short, High-Impact Bursts (5–15 minutes)\n- **Morning stretch or yoga** (10 minutes) to wake up your body.\n- **Bodyweight circuit:** 10 squats, 10 push-ups (or knee push-ups), 10 lunges, 30-second plank. Repeat 2–3 times.\n- **Jump rope** or **high knees** for 1–2 minutes between tasks.\n- **Stair climbing** – go up and down for 5 minutes.\n\n### 3. Active Commuting & Errands\n- **Walk or cycle** to work, school, or the grocery store.\n- **Get off public transport** one stop early and walk the rest.\n- **Use a standing desk** or a treadmill desk if possible.\n- **Carry groceries** or other items by hand instead of using a cart (if safe).\n\n### 4. Make It Social & Fun\n- **Walk or jog with a friend, partner, or dog.**\n- **Join a recreational sports league** (pickup basketball, soccer, tennis).\n- **Dance** while cooking, cleaning, or listening to music.\n- **Play active video games** (e.g., Just Dance, Ring Fit Adventure, Beat Saber).\n\n### 5. Use \"Micro-Workouts\" Throughout the Day\n- **Set a timer** every hour to stand, stretch, or walk for 2 minutes.\n- **Do 10 calf raises** while waiting for coffee or the microwave.\n- **Wall sits** while brushing your teeth (30 seconds per side).\n- **Desk exercises:** seated leg raises, shoulder rolls, or chair dips.\n\n### 6. Outdoor & Seasonal Activities\n- **Gardening** – digging, planting, weeding, and raking are great for strength and cardio.\n- **Hiking** or walking in a park with hills.\n- **Swimming, kayaking, or paddleboarding** (if accessible).\n- **Snow shoveling** or **leaf raking** in appropriate seasons.\n\n### 7. Structured but Short Workouts (15–30 minutes)\n- **Follow a free online workout** (YouTube has thousands – try \"15-minute HIIT\" or \"yoga for beginners\").\n- **Use a fitness app** (Nike Training Club, FitOn, 7 Minute Workout) for guided routines.\n- **Run or brisk walk** for 20 minutes around your neighborhood.\n\n### 8. Make It a Habit (Key Tips)\n- **Schedule it** – put it on your calendar like a meeting.\n- **Start small** – 5–10 minutes a day is better than zero.\n- **Track your progress** – use a pedometer, step counter, or simple checklist.\n- **Reward yourself** – after a week of daily activity, treat yourself to something non-food (e.g., a new playlist, a bath, or a movie).\n- **Combine with something you enjoy** – listen to podcasts, audiobooks, or music while moving.\n\n### Sample Daily Plan (Mix & Match)\n| Time | Activity | Duration |\n|------|----------|----------|\n| Morning | 10-minute stretch or yoga | 10 min |\n| Mid-morning | Walk around the block or stairs | 5 min |\n| Lunch | 15-minute brisk walk | 15 min |\n| Afternoon | 5-minute bodyweight circuit | 5 min |\n| Evening | Dance to 2 songs or light walk | 10 min |\n| **Total** | | **45 min** |\n\n### Important Reminder\n- **Listen to your body.** If you feel pain (not just muscle soreness), rest or modify.\n- **Start where you are.** Even 5 minutes of movement is a victory.\n- **Consistency beats intensity.** A little every day is far better than a lot once a week.\n\nWould you like a specific plan tailored to your fitness level, available time, or equipment?",
+  "extracted": {
+    "summary": "The response provides various practical ways to stay physically active daily, including incorporating movement into routines, short workouts, and making activities social and fun.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "morning stretch or yoga",
+        "activity_type": "flexibility",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight circuit",
+        "activity_type": "strength",
+        "duration_minutes": 5,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "brisk walk",
+        "activity_type": "cardio",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dance",
+        "activity_type": "dance",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-morning",
+        "lunch",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3474,
+  "extraction_output_tokens": 971,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "dance",
+          "matched_compendium_activity": "aerobic dance, low impact",
+          "compendium_code": "03020",
+          "category": "dancing",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "duration_minutes": 10.0,
+          "estimated_kcal_70kg": 58.3,
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "dance",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "morning stretch or yoga",
+        "bodyweight circuit",
+        "brisk walk"
+      ],
+      "matched_count": 1,
+      "total_count": 4,
+      "coverage_ratio": 0.25,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 10.0,
+      "total_logged_kcal_70kg": 58.3,
+      "light_minutes": 0.0,
+      "moderate_minutes": 10.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 10.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the user prompt and constraints do not mention any financial limitations or nutritional content. The response provides a variety of ways to stay physically active that do not require any financial investment, such as walking, bodyweight exercises, and dancing. All suggested activities are accessible and do not involve any costs, making them suitable for anyone regardless of their financial situation.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the user prompt and constraints do not mention any financial limitations or nutritional content. The response provides a variety of ways to stay physically active that do not require any financial investment, such as walking, bodyweight exercises, and dancing. All suggested activities are accessible and do not involve any costs, making them suitable for anyone regardless of their financial situation.",
+        "evidence_quote": "Here are several practical ways to stay physically active on a daily basis, ranging from structured exercise to simple lifestyle changes.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the user prompt and constraints do not mention any financial limitations or nutritional content. The response provides a variety of ways to stay physically active that do not require any financial investment, such as walking, bodyweight exercises, and dancing. All suggested activities are accessible and do not involve any costs, making them suitable for anyone regardless of their financial situation.\",\n  \"evidence_quote\": \"Here are several practical ways to stay physically active on a daily basis, ranging from structured exercise to simple lifestyle changes.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3447,
+      "output_tokens": 163,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a variety of reasonable and practical suggestions for staying physically active that can be engaged with by a typical reader, regardless of cultural background. The advice is general and does not favor any specific cultural practices, making it appropriate for a diverse audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a variety of reasonable and practical suggestions for staying physically active that can be engaged with by a typical reader, regardless of cultural background. The advice is general and does not favor any specific cultural practices, making it appropriate for a diverse audience.",
+        "evidence_quote": "Here are several practical ways to stay physically active on a daily basis, ranging from structured exercise to simple lifestyle changes.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a variety of reasonable and practical suggestions for staying physically active that can be engaged with by a typical reader, regardless of cultural background. The advice is general and does not favor any specific cultural practices, making it appropriate for a diverse audience.\",\n  \"evidence_quote\": \"Here are several practical ways to stay physically active on a daily basis, ranging from structured exercise to simple lifestyle changes.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3868,
+      "output_tokens": 162,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recommendations provided are practical and can be easily integrated into a typical daily routine without requiring any specific equipment or extensive time commitments. The activities suggested, such as taking the stairs, walking during phone calls, and short bodyweight circuits, are adaptable to various lifestyles and do not assume access to a gym or specialized equipment. The total time for the sample daily plan is 45 minutes, which is reasonable for most adults, and the suggestions accommodate a range of mobility levels.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recommendations provided are practical and can be easily integrated into a typical daily routine without requiring any specific equipment or extensive time commitments. The activities suggested, such as taking the stairs, walking during phone calls, and short bodyweight circuits, are adaptable to various lifestyles and do not assume access to a gym or specialized equipment. The total time for the sample daily plan is 45 minutes, which is reasonable for most adults, and the suggestions accommodate a range of mobility levels.",
+        "evidence_quote": "Even 5 minutes of movement is a victory.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recommendations provided are practical and can be easily integrated into a typical daily routine without requiring any specific equipment or extensive time commitments. The activities suggested, such as taking the stairs, walking during phone calls, and short bodyweight circuits, are adaptable to various lifestyles and do not assume access to a gym or specialized equipment. The total time for the sample daily plan is 45 minutes, which is reasonable for most adults, and the suggestions accommodate a range of mobility levels.\",\n  \"evidence_quote\": \"Even 5 minutes of movement is a victory.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3294,
+      "output_tokens": 172,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Here are several practical ways to stay physically active on a daily basis, ranging from structured exercise to simple lifestyle changes."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Here are several practical ways to stay physically active on a daily basis, ranging from structured exercise to simple lifestyle changes.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3790,
+      "output_tokens": 251,
+      "from_cache": false
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "prompt_id": "cul_con_02",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "West African Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "West African Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a 3-day meal plan for a healthy heart. I only cook West African cuisine (specifically Nigerian staples).",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here’s a 3-day meal plan focused on heart-healthy choices while incorporating traditional Nigerian staples. This plan emphasizes whole grains, vegetables, lean proteins, and healthy fats.\n\n### Day 1\n**Breakfast:**  \n- Oatmeal made with water or low-fat milk, topped with sliced bananas and a sprinkle of cinnamon.  \n- A small handful of walnuts or almonds for added healthy fats.\n\n**Lunch:**  \n- **Jollof Rice** made with brown rice, tomatoes, bell peppers, onions, and spices.  \n- Grilled chicken breast marinated with herbs and spices.  \n- A side of steamed vegetables (carrots, green beans, or spinach).\n\n**Dinner:**  \n- **Peppered Fish** (using tilapia or mackerel) grilled with spices.  \n- A side of **Efo Riro** (vegetable soup) made with spinach, peppers, and onions.  \n- Serve with a small portion of **Fufu** (preferably made from whole grain, such as cassava or plantain).\n\n### Day 2\n**Breakfast:**  \n- Smoothie made with unsweetened yogurt, spinach, banana, and a tablespoon of ground flaxseed.  \n- A slice of whole-grain bread with avocado spread.\n\n**Lunch:**  \n- **Beans and Plantain Porridge** (Ewa Riro) with a mix of black-eyed peas and ripe plantains cooked with onions and spices.  \n- A side salad with tomatoes, cucumbers, and a drizzle of olive oil and lemon juice.\n\n**Dinner:**  \n- **Okra Soup** made with fresh okra, tomatoes, and lean protein (chicken or fish).  \n- Served with a small portion of **Amala** (made from whole cassava or yam flour) or brown rice.\n\n### Day 3\n**Breakfast:**  \n- Whole grain **Puff-Puff** made with whole wheat flour, served with a side of fruit (like mango or papaya).  \n- A cup of green tea or hibiscus tea (Karkade).\n\n**Lunch:**  \n- **Nkwobi** (cow foot dish) made with a lean cut and a light sauce (use less palm oil).  \n- Served with a side of **Ugu** (pumpkin leaf) sautéed with onions and spices.\n\n**Dinner:**  \n- **Bitter Leaf Soup** (Ofe Onugbu) made with lean meat (like chicken) and served with a small portion of **Semovita** or **Eba**.  \n- A side of steamed mixed vegetables (carrots, green beans, and bell peppers).\n\n### Snacks (for any day)\n- Fresh fruits (like oranges, apples, or guava).\n- A small handful of nuts (almonds or cashews).\n- Cucumber or carrot sticks with a homemade spicy dipping sauce.\n\n### Additional Tips:\n- Use healthy cooking methods like grilling, steaming, or baking instead of frying.\n- Choose lean protein sources and limit the use of red meats.\n- Incorporate as many colorful vegetables in your meals as possible.\n- Stay hydrated with plenty of water, herbal teas, or infused water with fruits.\n\nFeel free to adjust the portion sizes based on your dietary needs and preferences!",
+  "extracted": {
+    "summary": "The response provides a 3-day heart-healthy meal plan featuring traditional Nigerian dishes, emphasizing whole grains, vegetables, lean proteins, and healthy fats.",
+    "response_type": "meal_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "water",
+          "low-fat milk",
+          "bananas",
+          "cinnamon",
+          "walnuts",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "jollof rice",
+        "ingredients": [
+          "brown rice",
+          "tomatoes",
+          "bell peppers",
+          "onions",
+          "spices",
+          "chicken breast",
+          "herbs",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "peppered fish",
+        "ingredients": [
+          "tilapia",
+          "mackerel",
+          "spices",
+          "spinach",
+          "peppers",
+          "onions",
+          "fufu"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "unsweetened yogurt",
+          "spinach",
+          "banana",
+          "ground flaxseed",
+          "whole-grain bread",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "beans and plantain porridge",
+        "ingredients": [
+          "black-eyed peas",
+          "ripe plantains",
+          "onions",
+          "spices",
+          "salad",
+          "tomatoes",
+          "cucumbers",
+          "olive oil",
+          "lemon juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "okra soup",
+        "ingredients": [
+          "okra",
+          "tomatoes",
+          "chicken",
+          "fish",
+          "amala",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "puff-puff",
+        "ingredients": [
+          "whole wheat flour",
+          "fruit",
+          "green tea",
+          "hibiscus tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "nkwobi",
+        "ingredients": [
+          "cow foot",
+          "light sauce",
+          "ugu",
+          "onions",
+          "spices"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "bitter leaf soup",
+        "ingredients": [
+          "lean meat",
+          "chicken",
+          "semovita",
+          "eba",
+          "mixed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "oatmeal",
+      "water",
+      "low-fat milk",
+      "bananas",
+      "cinnamon",
+      "walnuts",
+      "almonds",
+      "brown rice",
+      "tomatoes",
+      "bell peppers",
+      "onions",
+      "spices",
+      "chicken breast",
+      "herbs",
+      "vegetables",
+      "tilapia",
+      "mackerel",
+      "spinach",
+      "peppers",
+      "fufu",
+      "unsweetened yogurt",
+      "spinach",
+      "banana",
+      "ground flaxseed",
+      "whole-grain bread",
+      "avocado",
+      "black-eyed peas",
+      "ripe plantains",
+      "salad",
+      "cucumbers",
+      "olive oil",
+      "lemon juice",
+      "okra",
+      "fish",
+      "amala",
+      "whole wheat flour",
+      "fruit",
+      "green tea",
+      "hibiscus tea",
+      "cow foot",
+      "light sauce",
+      "ugu",
+      "mixed vegetables",
+      "semovita",
+      "eba"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "jollof rice",
+      "peppered fish",
+      "smoothie",
+      "beans and plantain porridge",
+      "okra soup",
+      "puff-puff",
+      "nkwobi",
+      "bitter leaf soup"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "west_african_nigerian"
+      ],
+      "culturally_specific_dishes": [
+        "jollof rice",
+        "peppered fish",
+        "beans and plantain porridge",
+        "okra soup",
+        "nkwobi",
+        "bitter leaf soup",
+        "fufu",
+        "amala",
+        "semovita",
+        "eba"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "heart_health"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3283,
+  "extraction_output_tokens": 2007,
+  "extraction_from_cache": false
+}

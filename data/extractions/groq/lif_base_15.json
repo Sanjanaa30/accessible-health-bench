@@ -1,0 +1,119 @@
+{
+  "prompt_id": "lif_base_15",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest healthy eating habits.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here are some healthy eating habits to consider:\n\n1. **Eat a variety of foods**: Include a range of fruits, vegetables, whole grains, lean proteins, and healthy fats in your diet to ensure you're getting all the necessary nutrients.\n2. **Hydrate adequately**: Drink plenty of water throughout the day, aiming for at least 8 cups (64 ounces) daily.\n3. **Watch portion sizes**: Control the amount of food you eat to maintain a healthy weight and prevent overeating.\n4. **Choose whole foods over processed**: Opt for whole, unprocessed foods like fruits, vegetables, and whole grains instead of processed and packaged foods.\n5. **Incorporate healthy fats**: Nuts, seeds, avocados, and olive oil are all great sources of healthy fats that support heart health and satisfy hunger.\n6. **Limit added sugars**: Restrict your intake of sugary drinks, desserts, and snacks to less than 10% of your daily calorie intake.\n7. **Eat regular meals**: Space out your meals to maintain stable energy levels and prevent overeating.\n8. **Be mindful of your eating**: Pay attention to your hunger and fullness cues, savor your food, and eat slowly to enjoy your meals.\n9. **Incorporate fermented foods**: Foods like yogurt, kefir, and sauerkraut contain probiotics that support gut health and boost immunity.\n10. **Limit saturated and trans fats**: Restrict your intake of foods high in saturated and trans fats, such as red meat, full-fat dairy products, and processed snacks.\n11. **Get enough fiber**: Aim for 25-30 grams of fiber per day from sources like fruits, vegetables, whole grains, and legumes.\n12. **Consider your nutritional needs**: Tailor your diet to your individual needs, such as pregnancy, lactation, or specific health conditions.\n13. **Cook at home**: Preparing meals at home allows you to control the ingredients, portion sizes, and cooking methods.\n14. **Avoid excessive salt**: Limit your sodium intake to less than 2,300 milligrams per day to support heart health.\n15. **Stay consistent**: Make healthy eating a habit by sticking to your routine and making adjustments as needed.\n\nRemember, developing healthy eating habits takes time and practice. Start by making small changes and gradually work your way towards a balanced and nutritious diet. Consult with a healthcare professional or registered dietitian for personalized guidance.",
+  "extracted": {
+    "summary": "The response provides a list of healthy eating habits to promote overall wellness and balanced nutrition.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "fruits",
+      "vegetables",
+      "whole grains",
+      "lean proteins",
+      "healthy fats",
+      "water",
+      "nuts",
+      "seeds",
+      "avocados",
+      "olive oil",
+      "added sugars",
+      "fiber",
+      "yogurt",
+      "kefir",
+      "sauerkraut",
+      "saturated fats",
+      "trans fats",
+      "legumes",
+      "salt"
+    ],
+    "all_dishes_or_foods_named": [
+      "yogurt",
+      "kefir",
+      "sauerkraut"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3053,
+  "extraction_output_tokens": 802,
+  "extraction_from_cache": false
+}

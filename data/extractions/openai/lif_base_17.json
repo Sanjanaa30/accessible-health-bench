@@ -1,0 +1,142 @@
+{
+  "prompt_id": "lif_base_17",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest ways to improve physical health.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Improving physical health involves a combination of regular exercise, balanced nutrition, adequate rest, and healthy lifestyle choices. Here are several strategies to enhance physical health:\n\n### 1. **Regular Exercise**\n   - **Cardiovascular Activities**: Engage in aerobic exercises like walking, running, cycling, or swimming for at least 150 minutes a week.\n   - **Strength Training**: Incorporate weight lifting or bodyweight exercises (like push-ups, squats) at least twice a week to build muscle and improve metabolism.\n   - **Flexibility and Balance**: Include stretching exercises or practices like yoga and Pilates to improve flexibility and stability.\n\n### 2. **Balanced Nutrition**\n   - **Eat Whole Foods**: Focus on whole grains, fruits, vegetables, lean proteins, and healthy fats. Limit processed foods and added sugars.\n   - **Portion Control**: Be mindful of portion sizes to avoid overeating. Consider using smaller plates or bowls.\n   - **Stay Hydrated**: Drink plenty of water throughout the day. Limit sugary drinks and excessive caffeine.\n\n### 3. **Adequate Rest and Sleep**\n   - **Quality Sleep**: Aim for 7-9 hours of quality sleep per night. Establish a consistent sleep schedule.\n   - **Relaxation Techniques**: Consider practices such as meditation, deep breathing exercises, or gentle yoga to reduce stress and improve sleep quality.\n\n### 4. **Routine Health Check-ups**\n   - **Regular Screenings**: Schedule routine check-ups and screenings for blood pressure, cholesterol, and other health indicators.\n   - **Vaccinations**: Stay up-to-date with vaccinations to prevent illness.\n\n### 5. **Healthy Lifestyle Choices**\n   - **Avoid Smoking and Excessive Alcohol**: If you smoke, seek help to quit. Limit alcohol consumption to moderate levels.\n   - **Manage Stress**: Identify stressors and develop coping strategies, such as time management, hobbies, or talking to a professional.\n\n### 6. **Social Connections**\n   - **Stay Connected**: Maintain strong relationships with family and friends. Engage in social activities that promote mental well-being.\n   - **Support Groups**: Join groups that focus on fitness or health-related goals to stay motivated.\n\n### 7. **Set Realistic Goals**\n   - **SMART Goals**: Set Specific, Measurable, Achievable, Relevant, and Time-bound goals for your physical health to track progress and stay motivated.\n\n### 8. **Listen to Your Body**\n   - **Be Attuned to Your Needs**: Pay attention to how your body feels during exercise and daily activities. Rest when needed and avoid pushing through pain.\n\n### 9. **Incorporate Movement into Daily Life**\n   - **Active Lifestyle**: Look for opportunities to be active throughout the day, such as taking stairs instead of elevators, walking or biking for short trips, or doing household chores.\n\n### 10. **Educate Yourself**\n   - **Stay Informed**: Read about nutrition, exercise, and wellness to make informed decisions about your health.\n\nIncorporating these strategies gradually and consistently can lead to significant improvements in physical health over time. Always consider consulting with a healthcare professional before making major changes to your exercise or diet, especially if you have existing health conditions.",
+  "extracted": {
+    "summary": "The response provides various strategies to improve physical health, including regular exercise, balanced nutrition, adequate rest, and healthy lifestyle choices.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "whole grains",
+      "fruits",
+      "vegetables",
+      "lean proteins",
+      "healthy fats",
+      "water",
+      "sugary drinks",
+      "caffeine"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "cardiovascular activities",
+        "activity_type": "cardio",
+        "duration_minutes": 150,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "flexibility and balance exercises",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consider consulting with a healthcare professional before making major changes to your exercise or diet."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3220,
+  "extraction_output_tokens": 949,
+  "extraction_from_cache": false
+}

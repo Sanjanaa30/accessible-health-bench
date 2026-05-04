@@ -1,0 +1,105 @@
+{
+  "prompt_id": "cul_con_19",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Religious",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Religious",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Is it okay to skip meals? Analyze this through the lens of 'Karva Chauth' (a traditional Hindu fast for married women), focusing on the social and emotional significance of the ritual.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Karva Chauth: Fasting Beyond the Physical\n\n## The Ritual's Deeper Purpose\n\nKarva Chauth isn't primarily about whether skipping meals is \"okay\"—it reframes the question entirely:\n\n**What it actually addresses:**\n- Intentional, time-bound abstinence (not chronic undernourishment)\n- Emotional investment in a relationship milestone\n- Community participation and identity\n- Spiritual discipline as a chosen practice\n\n## Social & Emotional Significance\n\n**Bonding dimensions:**\n- Shared sacrifice creates mutual recognition (traditionally, husbands also fast in many modern families)\n- Collective female experience—rituals performed with other women strengthen social bonds\n- Symbolic interdependence rather than one-directional devotion\n\n**Psychological aspects:**\n- Discipline and self-awareness through bodily experience\n- Marking time and relationships as sacred\n- Agency in choosing to participate (increasingly so in modern practice)\n\n## The Honest Tension\n\n**Where medical and cultural views diverge:**\n- One-day fasting for healthy individuals is generally safe\n- Chronic skipping meals is harmful regardless of cultural context\n- The ritual's meaning doesn't require physical hardship—many now modify it (eating before dawn, after moonrise)\n\n## Contemporary Relevance\n\nModern practitioners often ask: *Can I honor this tradition while also honoring my health?*\n\nThe answer increasingly is yes—the emotional and social significance survives adaptation. The ritual's power lies in *intentionality*, not suffering.\n\nWhat aspect interests you most?",
+  "extracted": {
+    "summary": "The response discusses the cultural and emotional significance of Karva Chauth fasting, emphasizing intentionality over physical hardship.",
+    "response_type": "advisory",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "hindu_fasting"
+      ],
+      "fasting_observance": "karva_chauth",
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2940,
+  "extraction_output_tokens": 707,
+  "extraction_from_cache": false
+}

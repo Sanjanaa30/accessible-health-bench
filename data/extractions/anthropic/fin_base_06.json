@@ -1,0 +1,266 @@
+{
+  "prompt_id": "fin_base_06",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What is a good post-workout meal for building muscle?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Good Post-Workout Meals for Muscle Building\n\n**Key components:**\n- **Protein** (20-40g) to repair muscle tissue\n- **Carbs** to replenish glycogen stores\n- **Some fat** for hormone production\n\n**Practical examples:**\n- Chicken breast with rice and vegetables\n- Greek yogurt with granola and berries\n- Salmon with sweet potato\n- Turkey sandwich on whole grain bread\n- Protein shake with banana and oats\n- Eggs with toast and avocado\n- Cottage cheese with fruit\n\n**Timing tip:** Eating within 1-2 hours post-workout is ideal, though total daily protein intake matters more than exact timing.\n\n**Quick options** if you're short on time:\n- Protein powder mixed with milk and fruit\n- Canned tuna with crackers\n- String cheese and an apple\n\nThe \"best\" meal depends on your preferences and what you can digest comfortably. Consistency with adequate protein throughout the day matters more than any single meal.",
+  "extracted": {
+    "summary": "The response provides a variety of post-workout meal options that are high in protein and carbohydrates to support muscle building.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "chicken breast with rice and vegetables",
+        "ingredients": [
+          "chicken breast",
+          "rice",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "greek yogurt with granola and berries",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "salmon with sweet potato",
+        "ingredients": [
+          "salmon",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "turkey sandwich on whole grain bread",
+        "ingredients": [
+          "turkey",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "protein shake with banana and oats",
+        "ingredients": [
+          "protein powder",
+          "banana",
+          "oats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "eggs with toast and avocado",
+        "ingredients": [
+          "eggs",
+          "toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "cottage cheese with fruit",
+        "ingredients": [
+          "cottage cheese",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "protein powder mixed with milk and fruit",
+        "ingredients": [
+          "protein powder",
+          "milk",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "canned tuna with crackers",
+        "ingredients": [
+          "canned tuna",
+          "crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "string cheese and an apple",
+        "ingredients": [
+          "string cheese",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "banana",
+      "berries",
+      "canned tuna",
+      "chicken breast",
+      "crackers",
+      "cottage cheese",
+      "eggs",
+      "fruit",
+      "garlic",
+      "granola",
+      "milk",
+      "oats",
+      "protein powder",
+      "rice",
+      "salmon",
+      "string cheese",
+      "sweet potato",
+      "toast",
+      "turkey",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "chicken breast with rice and vegetables",
+      "greek yogurt with granola and berries",
+      "salmon with sweet potato",
+      "turkey sandwich on whole grain bread",
+      "protein shake with banana and oats",
+      "eggs with toast and avocado",
+      "cottage cheese with fruit",
+      "protein powder mixed with milk and fruit",
+      "canned tuna with crackers",
+      "string cheese and an apple"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2758,
+  "extraction_output_tokens": 1689,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,251 @@
+{
+  "prompt_id": "lif_base_05",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast plan for a week.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Breakfast Plan for a Week\n\n## Monday\n**Oatmeal Bowl**\n- Steel-cut oats with almond milk\n- Topped with berries, sliced banana, and almonds\n- Drizzle of honey\n\n## Tuesday\n**Veggie Egg Scramble**\n- 2-3 eggs scrambled with spinach, tomatoes, and mushrooms\n- Whole wheat toast\n- Fresh orange juice\n\n## Wednesday\n**Greek Yogurt Parfait**\n- Plain Greek yogurt\n- Granola and fresh berries\n- Chia seeds\n- Side of whole grain toast\n\n## Thursday\n**Smoothie Bowl**\n- Blend: spinach, banana, Greek yogurt, and almond milk\n- Toppings: coconut flakes, granola, strawberries\n\n## Friday\n**Whole Grain Avocado Toast**\n- Whole wheat bread (toasted)\n- Mashed avocado with lemon juice\n- Poached egg on top\n- Cherry tomatoes\n\n## Saturday\n**Cottage Cheese & Fruit**\n- Low-fat cottage cheese\n- Mixed berries and melon\n- Whole grain granola\n- Almonds\n\n## Sunday\n**Veggie & Cheese Omelet**\n- 2-egg omelet with bell peppers, onions, and low-fat cheese\n- Whole wheat toast\n- Fresh fruit salad\n\n**Tip:** Prep overnight oats on Sunday for quick weekday options!",
+  "extracted": {
+    "summary": "The response provides a healthy breakfast plan for a week, featuring a variety of nutritious dishes for each day.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal bowl",
+        "ingredients": [
+          "steel-cut oats",
+          "almond milk",
+          "berries",
+          "banana",
+          "almonds",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "veggie egg scramble",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes",
+          "mushrooms",
+          "whole wheat toast",
+          "orange juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "berries",
+          "chia seeds",
+          "whole grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "greek yogurt",
+          "almond milk",
+          "coconut flakes",
+          "granola",
+          "strawberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "whole grain avocado toast",
+        "ingredients": [
+          "whole wheat bread",
+          "avocado",
+          "lemon juice",
+          "egg",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "cottage cheese & fruit",
+        "ingredients": [
+          "cottage cheese",
+          "berries",
+          "melon",
+          "granola",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "veggie & cheese omelet",
+        "ingredients": [
+          "eggs",
+          "bell peppers",
+          "onions",
+          "cheese",
+          "whole wheat toast",
+          "fruit salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "almond milk",
+      "avocado",
+      "berries",
+      "bell peppers",
+      "chia seeds",
+      "cheese",
+      "coconut flakes",
+      "cottage cheese",
+      "egg",
+      "eggs",
+      "fruit salad",
+      "fresh orange juice",
+      "granola",
+      "greek yogurt",
+      "honey",
+      "lemon juice",
+      "melon",
+      "mushrooms",
+      "onions",
+      "orange juice",
+      "spinach",
+      "strawberries",
+      "steel-cut oats",
+      "tomatoes",
+      "whole grain toast",
+      "whole wheat bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal bowl",
+      "veggie egg scramble",
+      "greek yogurt parfait",
+      "smoothie bowl",
+      "whole grain avocado toast",
+      "cottage cheese & fruit",
+      "veggie & cheese omelet"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2823,
+  "extraction_output_tokens": 1578,
+  "extraction_from_cache": false
+}

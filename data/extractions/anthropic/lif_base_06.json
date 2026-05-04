@@ -1,0 +1,303 @@
+{
+  "prompt_id": "lif_base_06",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a healthy meal prep plan.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Meal Prep Plan (1 Week)\n\n## Sunday Prep Tasks\n- Shop for ingredients\n- Wash & chop vegetables\n- Cook grains and proteins\n- Portion into containers\n\n---\n\n## BREAKFAST OPTIONS\n\n**Overnight Oats** (5 servings)\n- Rolled oats, Greek yogurt, almond milk, berries, honey\n- Prep: Mix in jars, refrigerate\n\n**Veggie Egg Muffins** (12 pieces)\n- Eggs, spinach, bell peppers, cheese\n- Bake at 350°F for 20 minutes\n\n---\n\n## LUNCH BOWLS (3 varieties)\n\n**Mediterranean Bowl**\n- Quinoa base\n- Grilled chicken, cucumber, tomatoes, feta, olives\n- Lemon-olive oil dressing\n\n**Asian Buddha Bowl**\n- Brown rice base\n- Baked tofu, broccoli, carrots, edamame\n- Ginger-sesame dressing\n\n**Southwest Grain Bowl**\n- Black beans, corn, brown rice\n- Lean ground turkey, bell peppers\n- Cilantro-lime dressing\n\n---\n\n## SNACKS\n\n- Greek yogurt with granola\n- Hummus with carrot/celery sticks\n- Mixed nuts (1 oz portions)\n- Fresh fruit\n- Cheese & whole grain crackers\n\n---\n\n## DINNER (2 proteins)\n\n**Baked Salmon** with roasted vegetables\n**Lean Ground Turkey** with whole wheat pasta and marinara\n\n---\n\n## TIPS\n✓ Use glass containers (microwave-safe)\n✓ Store dressings separately\n✓ Label with dates\n✓ Meals stay fresh 3-4 days\n\nWould you like specific recipes or a shopping list?",
+  "extracted": {
+    "summary": "The response provides a healthy meal prep plan for one week, including breakfast, lunch, snacks, and dinner options.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "greek yogurt",
+          "almond milk",
+          "berries",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "5 servings"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "veggie egg muffins",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "bell peppers",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "12 pieces"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "mediterranean bowl",
+        "ingredients": [
+          "quinoa",
+          "grilled chicken",
+          "cucumber",
+          "tomatoes",
+          "feta",
+          "olives",
+          "lemon",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "asian buddha bowl",
+        "ingredients": [
+          "brown rice",
+          "baked tofu",
+          "broccoli",
+          "carrots",
+          "edamame",
+          "ginger",
+          "sesame"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "southwest grain bowl",
+        "ingredients": [
+          "black beans",
+          "corn",
+          "brown rice",
+          "lean ground turkey",
+          "bell peppers",
+          "cilantro",
+          "lime"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with granola",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "hummus with carrot/celery sticks",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 oz portions"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "fresh fruit",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "cheese & whole grain crackers",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "lean ground turkey with whole wheat pasta and marinara",
+        "ingredients": [
+          "lean ground turkey",
+          "whole wheat pasta",
+          "marinara"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "almond milk",
+      "berries",
+      "black beans",
+      "brown rice",
+      "carrots",
+      "cucumber",
+      "edamame",
+      "eggs",
+      "feta",
+      "fresh fruit",
+      "ginger",
+      "granola",
+      "grilled chicken",
+      "hummus",
+      "lean ground turkey",
+      "lime",
+      "marinara",
+      "mixed nuts",
+      "olive oil",
+      "olives",
+      "quinoa",
+      "salmon",
+      "sesame",
+      "spinach",
+      "whole grain crackers",
+      "whole wheat pasta",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "veggie egg muffins",
+      "mediterranean bowl",
+      "asian buddha bowl",
+      "southwest grain bowl",
+      "greek yogurt with granola",
+      "hummus with carrot/celery sticks",
+      "mixed nuts",
+      "fresh fruit",
+      "cheese & whole grain crackers",
+      "baked salmon",
+      "lean ground turkey with whole wheat pasta and marinara"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "mediterranean",
+        "asian"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2882,
+  "extraction_output_tokens": 1961,
+  "extraction_from_cache": false
+}

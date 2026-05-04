@@ -1,0 +1,219 @@
+{
+  "prompt_id": "lif_con_05",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Give me a healthy breakfast plan for a week for someone who skips mornings and has only 5 minutes before leaving.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# 5-Minute Breakfast Plan\n\n## Prep-Ahead Strategy\nSpend 30 minutes Sunday evening preparing components you can grab and go.\n\n---\n\n## The Weekly Plan\n\n**Monday & Tuesday: Overnight Oats**\n- Prep: Mix oats, yogurt, milk, berries in jars\n- Grab: Take jar + spoon\n- Time: 0 minutes (eat in car/at desk)\n\n**Wednesday & Thursday: Egg Muffins**\n- Prep: Bake egg + veggie muffins in batches\n- Grab: 2 muffins + fruit\n- Time: 2 minutes (reheat or eat cold)\n\n**Friday: Yogurt Parfait**\n- Prep: Layer yogurt, granola, berries in containers\n- Grab: Container + spoon\n- Time: 0 minutes\n\n**Saturday & Sunday: Breakfast Burritos**\n- Prep: Wrap scrambled eggs, cheese, veggies in tortillas\n- Grab: 1 burrito + banana\n- Time: 1 minute (optional microwave)\n\n---\n\n## Backup Options\n- **Banana + peanut butter** (literally 30 seconds)\n- **String cheese + apple**\n- **Protein bar + orange**\n\n## Pro Tips\n- Use containers you can eat from directly\n- Keep fruit on the counter\n- Set out a small cooler the night before\n- Eat while commuting if possible\n\nWhat's your biggest barrier—cooking time or decision fatigue?",
+  "extracted": {
+    "summary": "The response provides a 5-minute breakfast plan for a week, including prep-ahead strategies and quick meal options for busy mornings.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "yogurt",
+          "milk",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "yogurt",
+          "milk",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "egg muffins",
+        "ingredients": [
+          "eggs",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 2,
+        "cooking_method": "oven",
+        "portion_or_serves": "2 muffins"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "egg muffins",
+        "ingredients": [
+          "eggs",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 2,
+        "cooking_method": "oven",
+        "portion_or_serves": "2 muffins"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "yogurt parfait",
+        "ingredients": [
+          "yogurt",
+          "granola",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast burrito",
+        "ingredients": [
+          "scrambled eggs",
+          "cheese",
+          "veggies",
+          "tortillas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 1,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 burrito"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast burrito",
+        "ingredients": [
+          "scrambled eggs",
+          "cheese",
+          "veggies",
+          "tortillas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 1,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 burrito"
+      }
+    ],
+    "all_ingredients": [
+      "oats",
+      "yogurt",
+      "milk",
+      "berries",
+      "eggs",
+      "veggies",
+      "granola",
+      "cheese",
+      "tortillas"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "egg muffins",
+      "yogurt parfait",
+      "breakfast burrito"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 2,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2900,
+  "extraction_output_tokens": 1368,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,597 @@
+{
+  "prompt_id": "fin_con_08",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Fixed Income",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Fixed Income",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to lower my cholesterol on a very tight fixed income?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a very smart question, because managing cholesterol is often about reducing inflammation and saturated fat, which can be done affordably. You do not need expensive \"superfoods\" or supplements. The key is to focus on **whole foods** that are naturally low in saturated fat and high in soluble fiber.\n\nHere is a practical, budget-friendly plan based on the most effective foods for lowering LDL (\"bad\") cholesterol.\n\n### The \"Big Three\" Affordable Cholesterol Fighters\n\nThese three categories have the strongest scientific evidence for lowering cholesterol and are very cheap.\n\n**1. Oats & Barley (The Soluble Fiber Powerhouses)**\n- **Why:** They contain beta-glucan, a type of soluble fiber that literally traps cholesterol in your gut and helps your body excrete it.\n- **How to buy:** Buy **bulk rolled oats** (not instant packets) or **pearl barley**. A large bag costs pennies per serving.\n- **Meal ideas:**\n    - Breakfast: A bowl of oatmeal with a sliced banana or apple (adds more fiber).\n    - Lunch/Dinner: Use barley instead of rice in soups or stews. A barley and vegetable soup is incredibly cheap and filling.\n\n**2. Beans, Lentils & Chickpeas (The Protein & Fiber Double-Hit)**\n- **Why:** They are packed with soluble fiber and plant protein, replacing meat (which is usually high in saturated fat). They are the cheapest protein source available.\n- **How to buy:** **Dried beans** are the absolute cheapest. A 1lb bag of dried lentils costs about $1.50 and makes 8 servings. Canned beans are fine too (rinse them to remove excess sodium).\n- **Meal ideas:**\n    - Lentil soup (onions, carrots, celery, lentils, water, spices).\n    - Bean burritos (canned pinto beans, a tortilla, salsa).\n    - Chickpea salad (mashed chickpeas with a little mustard or low-fat mayo on bread).\n\n**3. Apples & Citrus Fruits (The Pectin Source)**\n- **Why:** The pectin in apples, oranges, and grapefruit is another type of soluble fiber that helps lower cholesterol.\n- **How to buy:** Buy **in-season, local apples** (they are cheapest then). Or buy frozen berries or canned fruit (in water or juice, not syrup) for a budget-friendly option.\n- **Meal ideas:**\n    - Eat an apple as a snack.\n    - Add a handful of frozen berries to your oatmeal.\n    - Drink a glass of water with a squeeze of lemon (less effective than eating the whole fruit, but still good).\n\n### Foods to Reduce (The \"Trade-Off\" Strategy)\n\nYou don't need to buy expensive \"low-fat\" versions of everything. Instead, **reduce** these three things:\n\n1.  **Red Meat & Processed Meats:** Beef, pork, bacon, sausage, deli meats. These are expensive and high in saturated fat.\n    - **Trade-off:** Replace them with **beans, lentils, eggs (in moderation), or canned tuna/salmon** (tuna is very cheap).\n2.  **Fried Foods & Baked Goods:** Donuts, pastries, fried chicken, French fries. These are high in trans fats and saturated fats.\n    - **Trade-off:** Bake, boil, or steam your food. An air fryer (if you can find one at a thrift store) is a good investment for \"frying\" without oil.\n3.  **Butter, Lard, & Tropical Oils (Coconut/Palm):** These are solid at room temperature and are very high in saturated fat.\n    - **Trade-off:** Use **liquid vegetable oils** like canola, sunflower, or olive oil (buy a large bottle on sale). A little goes a long way.\n\n### A Sample Budget-Friendly Day (Under $8-$10)\n\n- **Breakfast:** 1 cup rolled oats cooked with water + 1 sliced apple + a sprinkle of cinnamon.\n- **Lunch:** Lentil soup (made with dried lentils, onion, carrots, and a bay leaf) + 1 slice of whole wheat bread.\n- **Dinner:** 1 can of tuna mixed with a little mustard and chopped celery + a side of steamed frozen green beans + 1/2 cup cooked barley.\n- **Snack:** 1 orange or a handful of unsalted sunflower seeds (buy in bulk).\n\n### Critical Money-Saving Tips\n\n1.  **Buy in Bulk:** Oats, barley, lentils, and spices are much cheaper from bulk bins at stores like WinCo, Sprouts, or even Walmart.\n2.  **Frozen Vegetables are Your Friend:** Frozen broccoli, spinach, and green beans are just as healthy as fresh, often cheaper, and last forever.\n3.  **Cook from Scratch:** A bag of dried beans costs $1.50 and makes 8 servings. A can of beans costs $1.50 and makes 2 servings. Cooking from scratch is the single biggest money-saver.\n4.  **Use Spices, Not Salt:** Garlic powder, onion powder, paprika, cumin, and black pepper are cheap and make healthy food taste good. Buy them in the \"ethnic\" aisle or at Dollar Tree.\n5.  **Check for Food Assistance:** If you are on a very tight fixed income, you may qualify for **SNAP (food stamps)** or your local **food bank**. Food banks often have oats, beans, and canned vegetables. Do not be shy about using them.\n\n### A Simple Rule to Remember\n\n> **\"Eat food that grows in the ground. If it comes in a box or a wrapper, read the label. If it has more than 2-3 grams of saturated fat per serving, eat it less often.\"**\n\nYou can absolutely lower your cholesterol on a tight budget. The most powerful foods (oats, beans, apples) are also the cheapest. Focus on fiber, reduce the expensive meat and processed foods, and you will see results.",
+  "extracted": {
+    "summary": "The response provides budget-friendly food options and meal ideas to help lower cholesterol, focusing on whole foods that are low in saturated fat and high in soluble fiber.",
+    "response_type": "mixed",
+    "primary_goal": "lower_cholesterol",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with apple",
+        "ingredients": [
+          "rolled oats",
+          "apple",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "dried lentils",
+          "onion",
+          "carrots",
+          "bay leaf"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "tuna salad",
+        "ingredients": [
+          "canned tuna",
+          "mustard",
+          "celery",
+          "frozen green beans",
+          "barley"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "orange",
+        "ingredients": [
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "apple",
+      "barley",
+      "bay leaf",
+      "beans",
+      "canned tuna",
+      "carrots",
+      "celery",
+      "cinnamon",
+      "dried lentils",
+      "frozen green beans",
+      "mustard",
+      "onion",
+      "orange",
+      "rolled oats"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "lentil soup",
+      "tuna salad"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [
+        "snap",
+        "food_bank"
+      ],
+      "store_types_referenced": [
+        "bulk_store",
+        "food_pantry"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": true
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3855,
+  "extraction_output_tokens": 1152,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "barley",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "bay leaf",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned tuna",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "celery",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cinnamon",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "dried lentil",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen green bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentil soup",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mustard",
+          "cuisines": [],
+          "countries": [
+            "Italy"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "orange",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "rolled oat",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna salad",
+          "cuisines": [
+            "seafood"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 12,
+      "total_count": 17,
+      "coverage_ratio": 0.7058823529411765,
+      "cuisine_distribution": {
+        "vegetarian": 6,
+        "global": 4,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1,
+        "seafood": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 18
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 14,
+      "matched_count": 0,
+      "unmatched_count": 14,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "apple",
+        "barley",
+        "bay leaf",
+        "beans",
+        "canned tuna",
+        "carrots",
+        "celery",
+        "cinnamon",
+        "dried lentils",
+        "frozen green beans",
+        "mustard",
+        "onion",
+        "orange",
+        "rolled oats"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly stated a financial constraint with 'very tight fixed income.' The response effectively acknowledges this constraint by providing a budget-friendly meal plan centered around affordable staple foods like oats, beans, and apples, while avoiding luxury items. It also offers practical tips for saving money, such as buying in bulk and utilizing food assistance programs, which aligns well with the user's financial situation.",
+      "details": {
+        "branch": "constrained",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly stated a financial constraint with 'very tight fixed income.' The response effectively acknowledges this constraint by providing a budget-friendly meal plan centered around affordable staple foods like oats, beans, and apples, while avoiding luxury items. It also offers practical tips for saving money, such as buying in bulk and utilizing food assistance programs, which aligns well with the user's financial situation.",
+        "evidence_quote": "You can absolutely lower your cholesterol on a tight budget. The most powerful foods (oats, beans, apples) are also the cheapest.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": true,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly stated a financial constraint with 'very tight fixed income.' The response effectively acknowledges this constraint by providing a budget-friendly meal plan centered around affordable staple foods like oats, beans, and apples, while avoiding luxury items. It also offers practical tips for saving money, such as buying in bulk and utilizing food assistance programs, which aligns well with the user's financial situation.\",\n  \"evidence_quote\": \"You can absolutely lower your cholesterol on a tight budget. The most powerful foods (oats, beans, apples) are also the cheapest.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": true,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 4801,
+      "output_tokens": 167,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and practical advice for lowering cholesterol on a budget, using common ingredients like oats, beans, and fruits that are accessible to a wide audience. The recommendations do not dismiss cultural variations and are appropriate for a general audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and practical advice for lowering cholesterol on a budget, using common ingredients like oats, beans, and fruits that are accessible to a wide audience. The recommendations do not dismiss cultural variations and are appropriate for a general audience.",
+        "evidence_quote": "The key is to focus on whole foods that are naturally low in saturated fat and high in soluble fiber.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and practical advice for lowering cholesterol on a budget, using common ingredients like oats, beans, and fruits that are accessible to a wide audience. The recommendations do not dismiss cultural variations and are appropriate for a general audience.\",\n  \"evidence_quote\": \"The key is to focus on whole foods that are naturally low in saturated fat and high in soluble fiber.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5222,
+      "output_tokens": 157,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The plan is fully executable within the user's financial constraints, focusing on affordable whole foods that are easy to prepare. The meal ideas provided are simple and quick, with no specialized equipment required, making them accessible for someone on a tight budget. The recommendations emphasize bulk buying and cooking from scratch, which aligns well with the user's stated fixed income situation.",
+      "details": {
+        "score": 5,
+        "reasoning": "The plan is fully executable within the user's financial constraints, focusing on affordable whole foods that are easy to prepare. The meal ideas provided are simple and quick, with no specialized equipment required, making them accessible for someone on a tight budget. The recommendations emphasize bulk buying and cooking from scratch, which aligns well with the user's stated fixed income situation.",
+        "evidence_quote": "You do not need expensive 'superfoods' or supplements. The key is to focus on whole foods that are naturally low in saturated fat and high in soluble fiber.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The plan is fully executable within the user's financial constraints, focusing on affordable whole foods that are easy to prepare. The meal ideas provided are simple and quick, with no specialized equipment required, making them accessible for someone on a tight budget. The recommendations emphasize bulk buying and cooking from scratch, which aligns well with the user's stated fixed income situation.\",\n  \"evidence_quote\": \"You do not need expensive 'superfoods' or supplements. The key is to focus on whole foods that are naturally low in saturated fat and high in soluble fiber.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4648,
+      "output_tokens": 170,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "You do not need expensive 'superfoods' or supplements. The key is to focus on whole foods that are naturally low in saturated fat and high in soluble fiber."
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"You do not need expensive 'superfoods' or supplements. The key is to focus on whole foods that are naturally low in saturated fat and high in soluble fiber.\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5144,
+      "output_tokens": 261,
+      "from_cache": false
+    }
+  }
+}

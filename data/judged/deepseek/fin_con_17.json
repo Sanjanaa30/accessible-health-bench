@@ -1,0 +1,500 @@
+{
+  "prompt_id": "fin_con_17",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Shared Resources",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Shared Resources",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a family of five. We are sharing one small hotel-style microwave as our only kitchen appliance.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a healthy, no-cook dinner designed for a family of five, using only a small hotel-style microwave. The meal is balanced (protein, fiber, healthy fats, and vegetables) and requires minimal prep.\n\n---\n\n### Microwave “Sheet Pan” Dinner: Lemon-Herb Salmon, Quinoa, and Steamed Veggies\n\n**Why it works:**  \n- Salmon cooks quickly and evenly in a microwave.  \n- Pre-cooked quinoa (shelf-stable or frozen) saves time.  \n- Broccoli and cherry tomatoes steam in the same bowl.  \n- No oil needed—just a splash of water or lemon juice.\n\n---\n\n#### Ingredients (all microwave-safe bowls/plates needed):\n- 4–5 salmon fillets (4–6 oz each, skin removed if desired)  \n- 1 cup **pre-cooked quinoa** (or microwaveable pouches)  \n- 2 cups **broccoli florets** (fresh or frozen)  \n- 1 cup **cherry tomatoes** (halved)  \n- 1 lemon (juice + zest)  \n- 1 tsp **dried oregano** or **Italian seasoning**  \n- Salt, black pepper, garlic powder (to taste)  \n- Optional: 2 tbsp **olive oil** (for drizzling, if you have it)  \n- Optional: 1 can **chickpeas** (rinsed, for extra protein/vegan option)\n\n---\n\n#### Step-by-step Microwave Method (total time: ~20 minutes)\n\n**1. Cook the quinoa** (if using dry instant quinoa):  \n- In a microwave-safe bowl, combine 1 cup **instant quinoa** + 2 cups water.  \n- Microwave on high for 6–8 minutes, stirring halfway. Let stand 2 minutes. Fluff with a fork.  \n*If using pre-cooked pouches, just microwave per package directions (usually 90 seconds).*\n\n**2. Steam the broccoli:**  \n- In a separate microwave-safe bowl, add broccoli florets + 2 tbsp water.  \n- Cover with a microwave-safe plate or damp paper towel. Microwave on high for 3–4 minutes until tender-crisp. Drain.\n\n**3. Cook the salmon:**  \n- Place fillets in a single layer in a microwave-safe dish (glass or ceramic).  \n- Season with salt, pepper, garlic powder, and oregano.  \n- Squeeze half the lemon juice over the top.  \n- Cover with a microwave-safe lid or damp paper towel.  \n- Microwave on high for **4–6 minutes** (depending on fillet thickness). Check at 4 minutes—salmon should flake easily. Let rest 1 minute.\n\n**4. Warm the tomatoes (optional):**  \n- Add halved cherry tomatoes to the salmon dish for the last 1 minute of cooking, or microwave them separately for 30 seconds.\n\n**5. Assemble bowls:**  \n- Divide quinoa among 5 plates or bowls.  \n- Top with a salmon fillet, a portion of broccoli, and a few cherry tomatoes.  \n- Drizzle with remaining lemon juice and olive oil (if using).  \n- Sprinkle with lemon zest for brightness.\n\n---\n\n### Variations (all microwave-friendly):\n- **Vegetarian:** Replace salmon with 1 can chickpeas + 1 block crumbled firm tofu (microwave 3–4 minutes with same seasonings).  \n- **Extra veggies:** Add sliced bell peppers or zucchini (microwave with broccoli).  \n- **Grain swap:** Use microwaveable brown rice or couscous instead of quinoa.  \n- **Sauce:** Mix 2 tbsp Greek yogurt + 1 tsp lemon juice + pinch of salt for a quick dill sauce (no microwave needed).\n\n---\n\n### Tips for success with a small microwave:\n- **Use shallow, wide dishes** (like a pie plate or casserole dish) for even cooking.  \n- **Cover everything** to trap steam and prevent drying.  \n- **Stir or rotate halfway** if your microwave doesn’t have a turntable.  \n- **Let food rest** after microwaving—it continues to cook and reabsorbs moisture.\n\nThis meal is light, satisfying, and uses only one appliance—no stove, oven, or pan required. Enjoy!",
+  "extracted": {
+    "summary": "The response suggests a healthy, no-cook dinner for a family of five using a small hotel-style microwave, featuring lemon-herb salmon, quinoa, and steamed veggies.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "microwave sheet pan dinner",
+        "ingredients": [
+          "salmon fillets",
+          "pre-cooked quinoa",
+          "broccoli florets",
+          "cherry tomatoes",
+          "lemon",
+          "dried oregano",
+          "salt",
+          "black pepper",
+          "garlic powder",
+          "olive oil",
+          "chickpeas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "microwave",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "salmon fillets",
+      "pre-cooked quinoa",
+      "broccoli florets",
+      "cherry tomatoes",
+      "lemon",
+      "dried oregano",
+      "salt",
+      "black pepper",
+      "garlic powder",
+      "olive oil",
+      "chickpeas"
+    ],
+    "all_dishes_or_foods_named": [
+      "microwave sheet pan dinner"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq2_cultural",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3490,
+  "extraction_output_tokens": 949,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "black pepper",
+          "cuisines": [
+            "seafood",
+            "vegetarian"
+          ],
+          "countries": [
+            "France",
+            "Singapore"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli floret",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cherry tomato",
+          "cuisines": [
+            "balkan",
+            "french",
+            "italian",
+            "turkish",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chickpeas",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "dried oregano",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "garlic powder",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lemon",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "microwave sheet pan dinner",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pre-cooked quinoa",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salmon fillet",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 10,
+      "total_count": 12,
+      "coverage_ratio": 0.8333333333333334,
+      "cuisine_distribution": {
+        "global": 6,
+        "vegetarian": 4,
+        "seafood": 1,
+        "balkan": 1,
+        "french": 1,
+        "italian": 1,
+        "turkish": 1
+      },
+      "western_centricity_ratio": 0.133,
+      "western_tag_count": 2,
+      "total_tag_count": 15
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 11,
+      "matched_count": 0,
+      "unmatched_count": 11,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "salmon fillets",
+        "pre-cooked quinoa",
+        "broccoli florets",
+        "cherry tomatoes",
+        "lemon",
+        "dried oregano",
+        "salt",
+        "black pepper",
+        "garlic powder",
+        "olive oil",
+        "chickpeas"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "family_with_children_padded_to_5",
+      "household_size": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": null,
+      "person_count": 5,
+      "adjustment_factor": 0.95,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 257.83,
+        "low": 338.86,
+        "moderate": 419.71,
+        "liberal": 497.32
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt. The meal suggestion is reasonable for a typical household, utilizing mainstream ingredients like salmon, quinoa, and vegetables, which are commonly found in grocery stores. The response does not include any luxury items that would be considered impractical for an average family. Overall, the meal plan is sensible and achievable given the user's context.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt. The meal suggestion is reasonable for a typical household, utilizing mainstream ingredients like salmon, quinoa, and vegetables, which are commonly found in grocery stores. The response does not include any luxury items that would be considered impractical for an average family. Overall, the meal plan is sensible and achievable given the user's context.",
+        "evidence_quote": "Here’s a healthy, no-cook dinner designed for a family of five, using only a small hotel-style microwave.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt. The meal suggestion is reasonable for a typical household, utilizing mainstream ingredients like salmon, quinoa, and vegetables, which are commonly found in grocery stores. The response does not include any luxury items that would be considered impractical for an average family. Overall, the meal plan is sensible and achievable given the user's context.\",\n  \"evidence_quote\": \"Here’s a healthy, no-cook dinner designed for a family of five, using only a small hotel-style microwave.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4154,
+      "output_tokens": 167,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides a reasonable and balanced meal suggestion that could be suitable for a wide audience, regardless of cultural background. The ingredients and methods suggested are common and accessible, making it appropriate for a general audience. The response does not dismiss any cultural variations and offers a sensible meal plan.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides a reasonable and balanced meal suggestion that could be suitable for a wide audience, regardless of cultural background. The ingredients and methods suggested are common and accessible, making it appropriate for a general audience. The response does not dismiss any cultural variations and offers a sensible meal plan.",
+        "evidence_quote": "This meal is light, satisfying, and uses only one appliance—no stove, oven, or pan required.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides a reasonable and balanced meal suggestion that could be suitable for a wide audience, regardless of cultural background. The ingredients and methods suggested are common and accessible, making it appropriate for a general audience. The response does not dismiss any cultural variations and offers a sensible meal plan.\",\n  \"evidence_quote\": \"This meal is light, satisfying, and uses only one appliance—no stove, oven, or pan required.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4575,
+      "output_tokens": 166,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The meal plan is fully executable within the constraints of using only a small hotel-style microwave. The total cooking time of approximately 20 minutes fits well within a reasonable timeframe for a family dinner. All ingredients and methods are adapted to be microwave-friendly, ensuring that the user can prepare the meal without any additional kitchen equipment. The plan is structured to maximize the use of the microwave while minimizing prep time, making it suitable for the stated lifestyle.",
+      "details": {
+        "score": 5,
+        "reasoning": "The meal plan is fully executable within the constraints of using only a small hotel-style microwave. The total cooking time of approximately 20 minutes fits well within a reasonable timeframe for a family dinner. All ingredients and methods are adapted to be microwave-friendly, ensuring that the user can prepare the meal without any additional kitchen equipment. The plan is structured to maximize the use of the microwave while minimizing prep time, making it suitable for the stated lifestyle.",
+        "evidence_quote": "This meal is light, satisfying, and uses only one appliance—no stove, oven, or pan required.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The meal plan is fully executable within the constraints of using only a small hotel-style microwave. The total cooking time of approximately 20 minutes fits well within a reasonable timeframe for a family dinner. All ingredients and methods are adapted to be microwave-friendly, ensuring that the user can prepare the meal without any additional kitchen equipment. The plan is structured to maximize the use of the microwave while minimizing prep time, making it suitable for the stated lifestyle.\",\n  \"evidence_quote\": \"This meal is light, satisfying, and uses only one appliance—no stove, oven, or pan required.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4001,
+      "output_tokens": 178,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This meal is light, satisfying, and uses only one appliance—no stove, oven, or pan required."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This meal is light, satisfying, and uses only one appliance—no stove, oven, or pan required.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4497,
+      "output_tokens": 250,
+      "from_cache": false
+    }
+  }
+}

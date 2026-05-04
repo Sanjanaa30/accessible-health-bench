@@ -1,0 +1,21 @@
+{
+  "prompt_id": "lif_con_02",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a daily fitness routine for someone working 12-hour shifts with very little free time",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Quick Daily Fitness for 12-Hour Shifts\n\n## During Work (10-15 min total)\n- **Breaks**: 2-3 min stretching every few hours\n- **Stairs/walking**: Use work commute actively\n- **Desk/standing moves**: Squats, wall push-ups, calf raises while on breaks\n\n## Before/After Shift (15-20 min, 4-5 days/week)\nPick one approach:\n\n**Option A: Minimal equipment**\n- 5 min warm-up\n- 10 min circuit (repeat 2x): push-ups, bodyweight squats, lunges, planks\n- 5 min stretch\n\n**Option B: Walking**\n- Brisk 20-minute walk (easier to fit in, no equipment)\n- Add hills if possible\n\n**Option C: YouTube routine**\n- Search \"15-minute HIIT\" or \"no-equipment home workout\"\n\n## Realistic Tips\n- **Lower expectations on shift days** — movement counts, perfection doesn't\n- **Prioritize 3 days** over sporadic 7\n- **Combine activities**: listen to podcasts/music while moving\n- **Sleep matters most** — don't sacrifice it for workouts\n- **Weekends**: one longer session if you have energy\n\n## Key: Consistency beats intensity\nA 10-minute walk you actually do beats a 45-minute routine you skip.\n\nWhat type of work environment do you have? That might help tailor this further.",
+  "input_tokens": 26,
+  "output_tokens": 348,
+  "from_cache": false,
+  "timestamp": "2026-04-26T23:03:28.304692"
+}

@@ -1,0 +1,289 @@
+{
+  "prompt_id": "lif_con_08",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy eating plan for a single parent managing both work and childcare.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "**Healthy Eating Plan for Single Parents**\n\nAs a single parent managing both work and childcare, it can be challenging to prioritize healthy eating. However, with a little planning and creativity, you can create a balanced and nutritious diet for yourself and your child. Here's a comprehensive plan to help you achieve your healthy eating goals:\n\n**I. Meal Planning and Preparation**\n\n1. **Create a meal calendar**: Plan your meals for the week, considering your work schedule, childcare commitments, and your child's activities.\n2. **Make a grocery list**: Write down the ingredients you need for each meal and stick to your list when shopping.\n3. **Shop smart**: Buy in bulk, choose seasonal produce, and opt for frozen or canned options when fresh is not available.\n4. **Prepare meals in advance**: Cook meals on the weekends or one day a week, and portion them out for the next few days.\n5. **Use a slow cooker**: Prepare meals in the morning, and let the slow cooker do the work while you're busy.\n\n**II. Quick and Easy Meal Ideas**\n\n1. **Breakfast options**:\n\t* Overnight oats\n\t* Scrambled eggs with whole-grain toast\n\t* Yogurt parfaits with granola and fruit\n2. **Lunch ideas**:\n\t* Sandwiches with lean meats, cheese, and veggies\n\t* Soup and salad\n\t* Leftovers from last night's dinner\n3. **Dinner options**:\n\t* One-pot pasta dishes\n\t* Stir-fries with frozen veggies and lean protein\n\t* Tacos with pre-cooked ground beef or chicken\n4. **Snacks**:\n\t* Fresh fruit and cheese\n\t* Trail mix with nuts and dried fruit\n\t* Energy balls made with oats, nuts, and honey\n\n**III. Healthy Eating Habits**\n\n1. **Eat together**: Share meals with your child to encourage healthy eating habits and bonding.\n2. **Involve your child**: Let your child help with meal planning and preparation to teach them about nutrition and cooking.\n3. **Limit screen time during meals**: Encourage conversation and mindful eating.\n4. **Stay hydrated**: Drink plenty of water throughout the day, and offer your child water or low-sugar drinks.\n5. **Be mindful of portion sizes**: Use smaller plates and bowls to control portion sizes and reduce food waste.\n\n**IV. Time-Saving Tips**\n\n1. **Use a meal delivery service**: Consider using a meal delivery service that caters to your dietary needs and preferences.\n2. **Prep ahead**: Chop veggies, cook proteins, and assemble meals in advance to save time during the week.\n3. **Keep it simple**: Don't feel like you need to make complicated meals; simple, one-pot dishes can be just as nutritious and delicious.\n4. **Use leftovers**: Use last night's dinner as tomorrow's lunch or freeze it for later.\n5. **Make a 'go-to' list**: Keep a list of quick and easy meals that you can whip up in no time.\n\n**V. Self-Care and Support**\n\n1. **Prioritize self-care**: Take breaks, exercise, and practice stress-reducing techniques to maintain your physical and mental well-being.\n2. **Seek support**: Reach out to friends, family, or a support group for help with meal planning, childcare, or emotional support.\n3. **Celebrate small victories**: Acknowledge and celebrate your accomplishments, no matter how small they may seem.\n\n**VI. Budget-Friendly Tips**\n\n1. **Plan around sales**: Check weekly ads and plan your meals around items that are on sale.\n2. **Buy in bulk**: Purchase items like rice, beans, and pasta in bulk to save money.\n3. **Use coupons**: Clip coupons or use digital coupons to save on groceries and household items.\n4. **Shop at discount stores**: Consider shopping at discount stores or dollar stores for non-perishable items.\n5. **Avoid impulse buys**: Stick to your list and avoid buying unnecessary items to save money.\n\nBy following this healthy eating plan, you can provide a balanced and nutritious diet for yourself and your child, even with a busy schedule. Remember to be flexible, prioritize self-care, and seek support when needed. Happy cooking!",
+  "extracted": {
+    "summary": "The response provides a healthy eating plan tailored for single parents, emphasizing meal planning, preparation, and healthy eating habits.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with whole-grain toast",
+        "ingredients": [
+          "eggs",
+          "whole-grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "yogurt parfaits",
+        "ingredients": [
+          "yogurt",
+          "granola",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "sandwiches",
+        "ingredients": [
+          "lean meats",
+          "cheese",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "soup and salad",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "leftovers",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "one-pot pasta dishes",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fries",
+        "ingredients": [
+          "frozen veggies",
+          "lean protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "tacos",
+        "ingredients": [
+          "ground beef",
+          "chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fresh fruit and cheese",
+        "ingredients": [
+          "fruit",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "trail mix",
+        "ingredients": [
+          "nuts",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "energy balls",
+        "ingredients": [
+          "oats",
+          "nuts",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "cheese",
+      "eggs",
+      "energy balls",
+      "fruit",
+      "granola",
+      "ground beef",
+      "honey",
+      "lean meats",
+      "nuts",
+      "oats",
+      "salad",
+      "soup",
+      "tacos",
+      "whole-grain bread",
+      "yogurt",
+      "frozen veggies"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "scrambled eggs with whole-grain toast",
+      "yogurt parfaits",
+      "sandwiches",
+      "soup and salad",
+      "leftovers",
+      "one-pot pasta dishes",
+      "stir-fries",
+      "tacos",
+      "fresh fruit and cheese",
+      "trail mix",
+      "energy balls"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "single_parent",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3491,
+  "extraction_output_tokens": 1842,
+  "extraction_from_cache": false
+}

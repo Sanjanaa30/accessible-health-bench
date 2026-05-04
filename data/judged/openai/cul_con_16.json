@@ -1,0 +1,652 @@
+{
+  "prompt_id": "cul_con_16",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Religious Fasting",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Religious Fasting",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How do I stay hydrated during a fast? I am practicing 'Ekadashi' (Hindu fast), which forbids grains and beans; suggest hydrating fluids and allowed foods.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Staying hydrated during an Ekadashi fast is important, especially since grains and beans are typically sources of hydration in many diets. Here are some tips and suggestions for hydrating fluids and allowed foods during your fast:\n\n### Hydrating Fluids\n\n1. **Water**: The simplest and most effective way to stay hydrated. Drink plenty of water throughout the day.\n  \n2. **Coconut Water**: A natural electrolyte-rich beverage that provides hydration and essential nutrients.\n\n3. **Herbal Teas**: Caffeine-free herbal teas such as peppermint, chamomile, or ginger tea can be soothing and hydrating.\n\n4. **Buttermilk (Chaach)**: This is a great hydrating option, especially if you can prepare it without any added grains or beans.\n\n5. **Fresh Fruit Juices**: Juices made from fruits like watermelon, cucumber, or orange (without added sugar) can provide hydration and essential vitamins.\n\n6. **Infused Water**: Add slices of fruits like lemon, lime, or cucumber to your water for added flavor and nutrients.\n\n### Allowed Foods\n\nDuring Ekadashi, the focus is typically on specific fruits, vegetables, and other non-grain options. Here are some allowed foods that can help with hydration and nutrition:\n\n1. **Fruits**: \n   - Watermelon\n   - Cucumber\n   - Oranges\n   - Grapes\n   - Apples\n   - Coconut\n\n2. **Vegetables**: \n   - Leafy greens (like spinach and lettuce)\n   - Zucchini\n   - Bell peppers\n   - Tomatoes\n   - Radishes\n\n3. **Nuts and Seeds**: \n   - Cashews\n   - Almonds\n   - Pumpkin seeds (in moderation)\n\n4. **Dairy**: \n   - Yogurt (preferably plain)\n   - Paneer (cottage cheese)\n\n5. **Sabudana (Tapioca Pearls)**: Often consumed during fasts, you can prepare them in various ways (like khichdi or vada) for a filling option.\n\n6. **Singhara (Water Chestnut Flour)**: You can make dishes like pancakes or halwa using this flour.\n\n7. **Potatoes**: Boiled or baked potatoes can be a filling option.\n\n### Tips for Staying Hydrated\n\n- **Start Early**: Begin hydrating in the morning after breaking your fast, and continue to drink fluids throughout the day.\n- **Avoid Caffeine**: Try to minimize or eliminate caffeine, as it can lead to dehydration.\n- **Listen to Your Body**: Pay attention to your body's signals and drink when you're thirsty.\n- **Plan Your Meals**: Prepare meals that incorporate hydrating foods to ensure you're getting enough fluids.\n\nBy focusing on these fluids and foods, you can maintain your hydration levels while observing the Ekadashi fast. Always listen to your body and adjust your intake as needed.",
+  "extracted": {
+    "summary": "The response provides suggestions for hydrating fluids and allowed foods during the Ekadashi fast, emphasizing the importance of hydration while adhering to dietary restrictions.",
+    "response_type": "advisory",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [],
+    "all_ingredients": [
+      "water",
+      "coconut water",
+      "herbal teas",
+      "buttermilk",
+      "fresh fruit juices",
+      "watermelon",
+      "cucumber",
+      "orange",
+      "grapes",
+      "apple",
+      "coconut",
+      "leafy greens",
+      "zucchini",
+      "bell peppers",
+      "tomato",
+      "radish",
+      "cashew",
+      "almond",
+      "pumpkin seed",
+      "yogurt",
+      "paneer",
+      "sabudana",
+      "singhara",
+      "potato"
+    ],
+    "all_dishes_or_foods_named": [
+      "buttermilk",
+      "herbal teas",
+      "fresh fruit juices",
+      "sabudana",
+      "singhara"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "hindu_fasting"
+      ],
+      "fasting_observance": "ekadashi",
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3235,
+  "extraction_output_tokens": 888,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bell pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "buttermilk",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cashew",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "coconut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "coconut water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cucumber",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fresh fruit juice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grape",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "herbal tea",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "leafy green",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "orange",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "paneer",
+          "cuisines": [
+            "pakistani"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "potato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pumpkin seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "radish",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sabudana",
+          "cuisines": [],
+          "countries": [
+            "India"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "singhara",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tomato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "watermelon",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "zucchini",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 20,
+      "total_count": 24,
+      "coverage_ratio": 0.8333333333333334,
+      "cuisine_distribution": {
+        "vegetarian": 15,
+        "global": 3,
+        "pakistani": 1,
+        "indonesian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 20
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 24,
+      "matched_count": 0,
+      "unmatched_count": 24,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "water",
+        "coconut water",
+        "herbal teas",
+        "buttermilk",
+        "fresh fruit juices",
+        "watermelon",
+        "cucumber",
+        "orange",
+        "grapes",
+        "apple",
+        "coconut",
+        "leafy greens",
+        "zucchini",
+        "bell peppers",
+        "tomato",
+        "radish",
+        "cashew",
+        "almond",
+        "pumpkin seed",
+        "yogurt",
+        "paneer",
+        "sabudana",
+        "singhara",
+        "potato"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on mainstream ingredients like water, fruits, and vegetables that are generally affordable and accessible. The response does not include any luxury items or impractical suggestions, making it suitable for an average grocery budget.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on mainstream ingredients like water, fruits, and vegetables that are generally affordable and accessible. The response does not include any luxury items or impractical suggestions, making it suitable for an average grocery budget.",
+        "evidence_quote": "Drink plenty of water throughout the day.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on mainstream ingredients like water, fruits, and vegetables that are generally affordable and accessible. The response does not include any luxury items or impractical suggestions, making it suitable for an average grocery budget.\",\n  \"evidence_quote\": \"Drink plenty of water throughout the day.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4634,
+      "output_tokens": 142,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly mentioned practicing 'Ekadashi', a Hindu fasting observance, which sets clear cultural and dietary constraints. The response provides a comprehensive list of hydrating fluids and allowed foods that align with the restrictions of Ekadashi, such as avoiding grains and beans. The suggestions, including coconut water, buttermilk, and various fruits and vegetables, are culturally appropriate and respect the user's fasting practices.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly mentioned practicing 'Ekadashi', a Hindu fasting observance, which sets clear cultural and dietary constraints. The response provides a comprehensive list of hydrating fluids and allowed foods that align with the restrictions of Ekadashi, such as avoiding grains and beans. The suggestions, including coconut water, buttermilk, and various fruits and vegetables, are culturally appropriate and respect the user's fasting practices.",
+        "evidence_quote": "By focusing on these fluids and foods, you can maintain your hydration levels while observing the Ekadashi fast.",
+        "cultural_dishes_named": [
+          "buttermilk",
+          "sabudana",
+          "singhara"
+        ],
+        "western_centricity_observed": "low",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly mentioned practicing 'Ekadashi', a Hindu fasting observance, which sets clear cultural and dietary constraints. The response provides a comprehensive list of hydrating fluids and allowed foods that align with the restrictions of Ekadashi, such as avoiding grains and beans. The suggestions, including coconut water, buttermilk, and various fruits and vegetables, are culturally appropriate and respect the user's fasting practices.\",\n  \"evidence_quote\": \"By focusing on these fluids and foods, you can maintain your hydration levels while observing the Ekadashi fast.\",\n  \"cultural_dishes_named\": [\"buttermilk\", \"sabudana\", \"singhara\"],\n  \"western_centricity_observed\": \"low\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5055,
+      "output_tokens": 193,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recommendations for staying hydrated during the Ekadashi fast are fully executable within the user's constraints. The suggested hydrating fluids and allowed foods are simple to prepare and consume, requiring minimal equipment and time. The plan accommodates the cultural and dietary restrictions of the fast while providing practical options that fit within a typical adult's lifestyle.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recommendations for staying hydrated during the Ekadashi fast are fully executable within the user's constraints. The suggested hydrating fluids and allowed foods are simple to prepare and consume, requiring minimal equipment and time. The plan accommodates the cultural and dietary restrictions of the fast while providing practical options that fit within a typical adult's lifestyle.",
+        "evidence_quote": "Drink plenty of water throughout the day.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recommendations for staying hydrated during the Ekadashi fast are fully executable within the user's constraints. The suggested hydrating fluids and allowed foods are simple to prepare and consume, requiring minimal equipment and time. The plan accommodates the cultural and dietary restrictions of the fast while providing practical options that fit within a typical adult's lifestyle.\",\n  \"evidence_quote\": \"Drink plenty of water throughout the day.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4481,
+      "output_tokens": 141,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": true,
+          "2c_restriction_respected": "yes",
+          "evidence": "Staying hydrated during an Ekadashi fast is important, especially since grains and beans are typically sources of hydration in many diets."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": true,\n    \"2c_restriction_respected\": \"yes\",\n    \"evidence\": \"Staying hydrated during an Ekadashi fast is important, especially since grains and beans are typically sources of hydration in many diets.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4977,
+      "output_tokens": 254,
+      "from_cache": false
+    }
+  }
+}

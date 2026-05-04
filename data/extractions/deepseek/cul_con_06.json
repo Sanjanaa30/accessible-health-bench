@@ -1,0 +1,170 @@
+{
+  "prompt_id": "cul_con_06",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Heritage",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Heritage",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a recipe for a vegetable curry. It must be 'Jain' compliant (no root vegetables like potatoes, carrots, or onions).",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a flavorful and hearty **Jain Vegetable Curry** recipe. Since Jains avoid root vegetables (including onions and garlic) and certain greens, this recipe uses gourds, squashes, and legumes for texture.\n\n### Jain Vegetable Curry (No Onion, No Garlic, No Root Veg)\n\n**Prep time:** 15 minutes | **Cook time:** 25 minutes | **Serves:** 3-4\n\n#### Ingredients\n\n**For the Curry Base (paste):**\n- 2 medium tomatoes, roughly chopped\n- 1-inch piece of ginger, peeled\n- 2-3 green chilies (adjust to taste)\n- 1/4 cup fresh coriander leaves (cilantro), stems included\n- 1/2 teaspoon cumin seeds\n- 1/2 teaspoon fennel seeds\n- 1 teaspoon coriander powder\n- 1/2 teaspoon turmeric powder\n- 1/2 teaspoon red chili powder (optional)\n\n**For the Vegetables:**\n- 1 cup **bottle gourd (lauki/doodhi)**, peeled and cubed\n- 1 cup **pumpkin (kaddu)**, peeled and cubed (use the orange variety)\n- 1/2 cup **raw banana (kela)**, peeled and cubed (optional, adds texture)\n- 1/2 cup **green peas** (fresh or frozen)\n- 1/2 cup **cauliflower florets** (small)\n- 1/2 cup **capsicum (bell pepper)**, cubed (any color)\n\n**For Tempering & Cooking:**\n- 2 tablespoons ghee or oil (use oil for vegan)\n- 1 teaspoon cumin seeds\n- 1/2 teaspoon asafoetida (hing) – *essential for Jain flavor*\n- 1/2 teaspoon mustard seeds\n- 2-3 dry red chilies (optional)\n- 8-10 curry leaves (optional, but recommended)\n- 1 teaspoon sugar or jaggery (optional, to balance flavors)\n- Salt to taste\n- 1 cup warm water (more if needed)\n- Fresh coriander leaves for garnish\n\n#### Instructions\n\n1.  **Make the Curry Paste:**\n    - In a blender, combine chopped tomatoes, ginger, green chilies, fresh coriander, cumin seeds, fennel seeds, coriander powder, turmeric, and red chili powder (if using).\n    - Blend into a smooth paste. Add a splash of water only if needed to get the blender moving. Set aside.\n\n2.  **Prepare the Vegetables:**\n    - Wash and cube all the vegetables (bottle gourd, pumpkin, raw banana, capsicum, cauliflower). Keep them roughly the same size for even cooking.\n\n3.  **Temper the Spices:**\n    - Heat ghee or oil in a heavy-bottomed pan or kadhai over medium heat.\n    - Add cumin seeds, mustard seeds, and dry red chilies. Let them crackle.\n    - Immediately add asafoetida (hing) and curry leaves (if using). Stir for 5 seconds.\n\n4.  **Cook the Paste:**\n    - Pour the prepared tomato-spice paste into the pan. Be careful as it may splutter.\n    - Stir well and cook on medium heat for **8-10 minutes**, stirring occasionally. The paste will thicken, turn darker, and release oil from the sides. This step is key for flavor.\n\n5.  **Add the Vegetables:**\n    - Add the **harder vegetables first**: bottle gourd, pumpkin, and raw banana. Stir to coat them with the masala.\n    - Then add the **softer vegetables**: cauliflower, capsicum, and green peas. Mix gently.\n\n6.  **Simmer the Curry:**\n    - Add salt and sugar/jaggery (if using).\n    - Pour in 1 cup of warm water. Stir.\n    - Bring to a boil, then reduce heat to low, cover the pan, and let it simmer for **12-15 minutes**.\n    - Check halfway; if the curry looks too dry, add another 1/4 cup of water. The vegetables should be tender but not mushy.\n\n7.  **Final Touch:**\n    - Once vegetables are cooked, turn off the heat. The curry should have a medium-thick consistency (not too watery, not too dry).\n    - Garnish with fresh coriander leaves.\n\n8.  **Serve:**\n    - Serve hot with **steamed rice**, **jeera rice**, or **Jain-friendly roti/phulka** (made without ghee on the surface).\n\n#### Tips for Jain Cooking:\n- **No Root Vegetables:** Avoid potatoes, carrots, radish, sweet potatoes, and onions.\n- **No Garlic/Onion:** The asafoetida (hing) and ginger provide the savory depth usually given by onion-garlic.\n- **Leafy Greens:** Many Jains avoid certain leafy greens (like spinach or cabbage) during specific periods; this recipe uses coriander and curry leaves which are generally accepted. If you avoid all greens, skip the coriander in the paste and use only tomato and ginger.\n- **Raw Banana:** If you can't find raw banana, use more bottle gourd or pumpkin.\n\nEnjoy your clean, aromatic, and satisfying Jain Vegetable Curry!",
+  "extracted": {
+    "summary": "The response provides a recipe for a Jain Vegetable Curry that avoids root vegetables and includes various gourds and legumes.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "jain vegetable curry",
+        "ingredients": [
+          "tomatoes",
+          "ginger",
+          "green chilies",
+          "coriander leaves",
+          "cumin seeds",
+          "fennel seeds",
+          "coriander powder",
+          "turmeric powder",
+          "red chili powder",
+          "bottle gourd",
+          "pumpkin",
+          "raw banana",
+          "green peas",
+          "cauliflower",
+          "capsicum",
+          "ghee",
+          "asafoetida",
+          "mustard seeds",
+          "dry red chilies",
+          "curry leaves",
+          "sugar",
+          "salt",
+          "water"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 3-4"
+      }
+    ],
+    "all_ingredients": [
+      "asafoetida",
+      "bottle gourd",
+      "brown sugar",
+      "coriander leaves",
+      "coriander powder",
+      "cumin seeds",
+      "cauliflower",
+      "dry red chilies",
+      "fennel seeds",
+      "ginger",
+      "green chilies",
+      "green peas",
+      "ghee",
+      "mustard seeds",
+      "pumpkin",
+      "raw banana",
+      "red chili powder",
+      "salt",
+      "sugar",
+      "turmeric powder",
+      "tomatoes",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [
+      "jain vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "jain"
+      ],
+      "culturally_specific_dishes": [
+        "jain vegetable curry"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "jain"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "no_root_vegetables",
+        "vegetarian"
+      ],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 15,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3723,
+  "extraction_output_tokens": 1064,
+  "extraction_from_cache": false
+}

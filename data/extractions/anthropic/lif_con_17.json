@@ -1,0 +1,105 @@
+{
+  "prompt_id": "lif_con_17",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Behavioral",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Behavioral",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest ways to improve physical health for someone with a sedentary lifestyle and no motivation to exercise.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Practical Starting Points\n\n**Remove friction first**\n- Start absurdly small (10-minute walks, bodyweight exercises at home)\n- Put gym clothes out the night before\n- Exercise when you already have momentum (after work, before coffee)\n\n**Build motivation through enjoyment, not willpower**\n- Find activities that don't feel like exercise (dancing, hiking with friends, sports)\n- Listen to podcasts/audiobooks only during walks\n- Join a class or group—social commitment helps more than solo discipline\n\n**Stack habits onto existing routines**\n- Stretch while watching TV\n- Take stairs or park farther away\n- Do squats while brushing teeth\n\n**Address the root**\n- Low motivation often signals depression, poor sleep, or diet issues—worth examining\n- Fixing sleep alone sometimes unlocks energy for movement\n- Even small dietary improvements (more water, less processed food) create momentum\n\n**Track differently**\n- Focus on consistency (did I do it?) rather than intensity\n- Celebrate completing it, not performance\n- Progress photos or how clothes fit often motivates more than scales\n\n**Quick wins**\n- Strength training produces visible results faster than cardio\n- Even 150 minutes of moderate activity weekly shows real health gains\n- Morning sunlight improves mood and sleep, naturally increasing energy\n\nThe honest truth: sustainable change usually comes from finding *what you'll actually do* rather than what you \"should\" do.\n\nWhat activities have you enjoyed in the past?",
+  "extracted": {
+    "summary": "The response provides practical strategies to improve physical health for someone with a sedentary lifestyle, focusing on small, enjoyable activities and habit stacking.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "stress"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2911,
+  "extraction_output_tokens": 698,
+  "extraction_from_cache": false
+}

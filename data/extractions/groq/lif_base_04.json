@@ -1,0 +1,325 @@
+{
+  "prompt_id": "lif_base_04",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a weekly workout plan.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a weekly workout plan that you can follow:\n\n**Monday (Chest and Triceps):**\n\n1. Warm-up: 5-10 minutes of cardio (treadmill, bike, or elliptical)\n2. Barbell Bench Press: 3 sets of 8-12 reps\n3. Incline Dumbbell Press: 3 sets of 10-15 reps\n4. Cable Fly: 3 sets of 12-15 reps\n5. Tricep Pushdown: 3 sets of 10-12 reps\n6. Tricep Dips: 3 sets of 12-15 reps\n7. Cool-down: 5-10 minutes of stretching\n\n**Tuesday (Back and Biceps):**\n\n1. Warm-up: 5-10 minutes of cardio\n2. Pull-ups: 3 sets of 8-12 reps (or Assisted Pull-ups)\n3. Barbell Rows: 3 sets of 8-12 reps\n4. Lat Pulldowns: 3 sets of 10-12 reps\n5. Dumbbell Bicep Curls: 3 sets of 10-12 reps\n6. Hammer Curls: 3 sets of 10-12 reps\n7. Cool-down: 5-10 minutes of stretching\n\n**Wednesday (Rest Day)**\n\n**Thursday (Legs):**\n\n1. Warm-up: 5-10 minutes of cardio\n2. Squats: 3 sets of 8-12 reps\n3. Leg Press: 3 sets of 10-12 reps\n4. Lunges: 3 sets of 10-12 reps (per leg)\n5. Leg Extensions: 3 sets of 12-15 reps\n6. Leg Curls: 3 sets of 10-12 reps\n7. Cool-down: 5-10 minutes of stretching\n\n**Friday (Shoulders and Abs):**\n\n1. Warm-up: 5-10 minutes of cardio\n2. Shoulder Press: 3 sets of 8-12 reps\n3. Lateral Raises: 3 sets of 10-12 reps\n4. Rear Delt Fly: 3 sets of 12-15 reps\n5. Plank: 3 sets of 30-60 seconds\n6. Russian Twists: 3 sets of 10-12 reps\n7. Cool-down: 5-10 minutes of stretching\n\n**Saturday and Sunday (Rest Days)**\n\n**Additional Tips:**\n\n* Start with lighter weights and gradually increase the weight as you become stronger.\n* Rest for 60-90 seconds between sets, and 120-180 seconds between exercises.\n* Make sure to eat a balanced diet and stay hydrated throughout the day.\n* Get at least 7-8 hours of sleep each night to aid in muscle recovery.\n* Consult with a doctor or a certified personal trainer before starting any new workout plan.\n\nRemember, consistency and patience are key. Stick to the plan and you'll see results over time.",
+  "extracted": {
+    "summary": "The response provides a detailed weekly workout plan with specific exercises for each day, including rest days.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "barbell bench press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "barbell"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "incline dumbbell press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "cable fly",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "cable machine"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "tricep pushdown",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "cable machine"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "pull-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "barbell rows",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "barbell"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "lat pulldowns",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "cable machine"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "dumbbell bicep curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "hammer curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "leg press machine"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg extensions",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "leg extension machine"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "leg curl machine"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "shoulder press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "lateral raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "rear delt fly",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "barbell",
+        "dumbbells",
+        "cable machine",
+        "leg press machine",
+        "leg extension machine",
+        "leg curl machine"
+      ],
+      "fitness_space_required": "gym",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a doctor or a certified personal trainer before starting any new workout plan."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3168,
+  "extraction_output_tokens": 1962,
+  "extraction_from_cache": false
+}

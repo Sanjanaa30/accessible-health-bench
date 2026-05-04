@@ -1,0 +1,140 @@
+{
+  "prompt_id": "fin_base_05",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Provide a recipe for a healthy chicken dinner.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a recipe for a healthy and delicious chicken dinner:\n\n**Grilled Chicken Breast with Roasted Vegetables and Quinoa**\n\nIngredients:\n\n* 4 boneless, skinless chicken breasts\n* 1 cup of quinoa, rinsed and drained\n* 2 cups of water or low-sodium chicken broth\n* 2 tablespoons of olive oil\n* 1 large onion, chopped\n* 2 cloves of garlic, minced\n* 2 large bell peppers (any color), chopped\n* 2 large zucchinis, chopped\n* 1 large red tomato, chopped\n* Salt and pepper to taste\n* Optional: lemon wedges and fresh herbs like parsley or thyme for garnish\n\nInstructions:\n\n1. Preheat the grill to medium-high heat.\n2. In a medium saucepan, bring the quinoa and water or broth to a boil. Reduce the heat to low, cover, and simmer for about 15-20 minutes or until the quinoa is tender and fluffy.\n3. In a large bowl, whisk together the olive oil, salt, and pepper. Add the chopped onion, garlic, bell peppers, zucchinis, and tomato. Toss to coat the vegetables with the oil mixture.\n4. Grill the chicken breasts for about 5-7 minutes per side or until they reach an internal temperature of 165°F (74°C). Let the chicken rest for a few minutes before slicing.\n5. Spread the vegetable mixture on a large baking sheet and roast in the oven at 400°F (200°C) for about 20-25 minutes or until the vegetables are tender and lightly browned.\n6. To serve, slice the grilled chicken breasts and serve with the roasted vegetables and quinoa. Garnish with lemon wedges and fresh herbs, if desired.\n\n**Nutritional Information (per serving):**\n\n* Calories: 420\n* Protein: 40g\n* Fat: 10g\n* Saturated Fat: 2g\n* Cholesterol: 60mg\n* Carbohydrates: 30g\n* Fiber: 5g\n* Sugar: 5g\n* Sodium: 250mg\n\n**Tips and Variations:**\n\n* Use fresh and organic ingredients whenever possible.\n* Substitute different vegetables like broccoli, carrots, or sweet potatoes for added variety.\n* Add a squeeze of fresh lemon juice or a sprinkle of feta cheese for extra flavor.\n* Serve with a side of steamed green beans or a simple salad for a well-rounded meal.\n* For a spicy kick, add some red pepper flakes or diced jalapeños to the vegetable mixture.\n\nThis recipe is not only delicious, but it's also packed with nutrients and can be customized to suit your dietary preferences. Enjoy!",
+  "extracted": {
+    "summary": "The response provides a recipe for grilled chicken breast served with roasted vegetables and quinoa, emphasizing health and customization.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken breast with roasted vegetables and quinoa",
+        "ingredients": [
+          "chicken breast",
+          "quinoa",
+          "water",
+          "chicken broth",
+          "olive oil",
+          "onion",
+          "garlic",
+          "bell peppers",
+          "zucchini",
+          "tomato",
+          "salt",
+          "pepper",
+          "lemon",
+          "parsley",
+          "thyme"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "chicken breast",
+      "quinoa",
+      "water",
+      "chicken broth",
+      "olive oil",
+      "onion",
+      "garlic",
+      "bell peppers",
+      "zucchini",
+      "tomato",
+      "salt",
+      "pepper",
+      "lemon",
+      "parsley",
+      "thyme"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken breast with roasted vegetables and quinoa"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3103,
+  "extraction_output_tokens": 945,
+  "extraction_from_cache": false
+}

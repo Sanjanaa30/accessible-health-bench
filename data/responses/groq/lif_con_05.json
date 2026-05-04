@@ -1,0 +1,21 @@
+{
+  "prompt_id": "lif_con_05",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Give me a healthy breakfast plan for a week for someone who skips mornings and has only 5 minutes before leaving.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given your time constraint, I've come up with a 5-minute healthy breakfast plan for a week. These ideas are quick, easy, and can be prepared in no more than 5 minutes:\n\nMonday: **Yogurt Parfait**\n- 1 cup Greek yogurt\n- 1/2 cup mixed berries (fresh or frozen)\n- 1 tablespoon granola\nCombine all ingredients in a container and grab it on your way out. (Prep time: 2 minutes)\n\nTuesday: **Peanut Butter Banana Toast**\n- 1 slice whole-grain bread\n- 1/2 banana, sliced\n- 1 teaspoon peanut butter\n Toast the bread, spread with peanut butter, and top with banana slices. (Prep time: 2 minutes)\n\nWednesday: **Overnight Oats**\n- Prepare a jar or container with 1/2 cup rolled oats, 1/2 cup milk, and your choice of nuts or fruit the night before. In the morning, grab the jar and go. (Prep time: 1 minute in the morning)\n\nThursday: **Hard-Boiled Eggs and Fruit**\n- Boil eggs the night before and keep them in the fridge.\n- 1 hard-boiled egg\n- 1 piece of fresh fruit (e.g., apple, orange)\n Grab the egg and fruit, and you're out the door. (Prep time: 1 minute)\n\nFriday: **Avocado Toast**\n- 1 slice whole-grain bread\n- 1/2 avocado, mashed\n Toast the bread, mash the avocado, and spread it on the toast. (Prep time: 2 minutes)\n\nSaturday: **Smoothie**\n- Prepare a smoothie the night before or use a pre-made mix.\n- 1 cup smoothie\n Grab the smoothie and go. (Prep time: 1 minute)\n\nSunday: **Muffin and Fresh Fruit**\n- Prepare a batch of healthy muffins on the weekend.\n- 1 muffin\n- 1 piece of fresh fruit\n Grab the muffin and fruit, and you're ready to go. (Prep time: 1 minute)\n\nThese breakfast ideas are quick, nutritious, and can be prepared in no more than 5 minutes. You can also customize them to suit your dietary preferences and ingredient availability.",
+  "input_tokens": 58,
+  "output_tokens": 478,
+  "from_cache": false,
+  "timestamp": "2026-04-26T23:06:37.759553"
+}

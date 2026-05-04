@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_04",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a grocery list for a family of four for one week. Our total budget is $60.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the limited budget of $60 for a family of four for one week, I'll suggest a basic grocery list that should help you get by. Please note that this list will prioritize essential items and might require some compromises on variety and brand preferences.\n\n**Assumptions:**\n\n* You already have some pantry staples like salt, pepper, oil, and spices.\n* You'll be cooking simple meals and using ingredients in multiple dishes.\n* You'll be shopping for store-brand or generic products to save money.\n\n**Grocery List:**\n\n1. Grains:\n\t* 1 loaf of bread ($1.50)\n\t* 1 bag of rice (20 lbs, $10)\n\t* 1 box of pasta (12 oz, $1)\n2. Proteins:\n\t* 1 pack of chicken thighs (5 lbs, $8)\n\t* 1 can of black beans (15 oz, $1)\n\t* 1 can of tuna (5 oz, $1)\n3. Vegetables:\n\t* 1 bag of carrots (2 lbs, $1.50)\n\t* 1 bag of potatoes (5 lbs, $2)\n\t* 1 onion ($0.50)\n\t* 1 bag of frozen mixed vegetables (12 oz, $1)\n4. Fruits:\n\t* 1 bag of apples (3-4 count, $3)\n5. Dairy:\n\t* 1 gallon of milk ($2.50)\n\t* 1 block of cheddar cheese (12 oz, $3)\n6. Pantry:\n\t* 1 jar of marinara sauce ($1)\n\t* 1 bag of oats (4 lbs, $5)\n\n**Total Estimated Cost:** $55.00\n\n**Meal Ideas:**\n\n* Breakfast: Oatmeal with milk and apples, scrambled eggs with toast\n* Lunch: Sandwiches with chicken, cheese, and vegetables, pasta with marinara sauce and vegetables\n* Dinner: Chicken and vegetable stir-fry with rice, black bean and potato soup\n\n**Tips to Stretch Your Budget:**\n\n* Plan meals around the ingredients you have, and avoid food waste.\n* Use leftovers to create new meals.\n* Shop for seasonal and local produce to get better prices.\n* Consider buying in bulk and portioning out ingredients to save money.\n\nKeep in mind that this list is a starting point, and you may need to adjust it based on your family's preferences and dietary needs. Additionally, you may need to supplement this list with items you already have at home or with occasional trips to the store for fresh produce.",
+  "input_tokens": 56,
+  "output_tokens": 529,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:30:33.677661"
+}

@@ -1,0 +1,663 @@
+{
+  "prompt_id": "lif_con_19",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a healthy meal plan for someone who shares a kitchen with many roommates and has limited time/space.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Quick Meal Plan for Shared Kitchen Living\n\n## Strategy: Batch cook on one day, eat simply\n\n**Sunday prep (2-3 hours):**\n- Cook a big pot of rice or pasta\n- Roast a sheet pan of vegetables\n- Bake/grill chicken breasts or cook ground turkey\n- Make a simple sauce (tomato or peanut-based)\n\nStore in labeled containers—clear ones help prevent \"whose is this?\" drama.\n\n## Daily eating (minimal cooking)\n\n**Breakfast:** Oats, yogurt, eggs, or toast\n**Lunch/Dinner:** Mix-and-match from your prepped components\n- Rice + protein + veggies + sauce\n- Pasta + protein + sauce\n- Wraps with stored fillings\n\n## Space-saving tips\n\n- Use the fridge shelf you claim; stick to it\n- Buy a small labeled bin for your ingredients\n- Keep a cutting board and one knife in your room\n- Use a rice cooker or instant pot (takes one outlet)\n- Focus on shelf-stable staples: rice, canned beans, peanut butter\n\n## Quick meals (zero prep drama)\n\n- Canned tuna + crackers + fruit\n- Rotisserie chicken from store\n- Microwaveable rice packets + frozen veggies\n- Sandwiches with deli meat\n\n## Key: Low-conflict foods\nAvoid things that smell strong or require constant fridge space. Stick to your batch-cooked meals and simple additions.\n\nWhat's your main constraint—time, fridge space, or cooking equipment?",
+  "extracted": {
+    "summary": "The response provides a meal plan strategy for someone sharing a kitchen, focusing on batch cooking and simple meal assembly to accommodate limited time and space.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Sunday",
+        "meal_type": "other",
+        "dish_name": "batch cooked components",
+        "ingredients": [
+          "rice",
+          "pasta",
+          "vegetables",
+          "chicken breasts",
+          "ground turkey",
+          "sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 180,
+        "cooking_method": "one-pot",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "breakfast options",
+        "ingredients": [
+          "oats",
+          "yogurt",
+          "eggs",
+          "toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "mix-and-match meals",
+        "ingredients": [
+          "rice",
+          "protein",
+          "veggies",
+          "sauce",
+          "pasta"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "quick snacks",
+        "ingredients": [
+          "canned tuna",
+          "crackers",
+          "fruit",
+          "rotisserie chicken",
+          "microwaveable rice",
+          "frozen veggies",
+          "deli meat"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "rice",
+      "pasta",
+      "vegetables",
+      "chicken breasts",
+      "ground turkey",
+      "sauce",
+      "oats",
+      "yogurt",
+      "eggs",
+      "toast",
+      "protein",
+      "veggies",
+      "canned tuna",
+      "crackers",
+      "fruit",
+      "rotisserie chicken",
+      "microwaveable rice",
+      "frozen veggies",
+      "deli meat"
+    ],
+    "all_dishes_or_foods_named": [
+      "batch cooked components",
+      "breakfast options",
+      "mix-and-match meals",
+      "quick snacks"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 180,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "shared",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "roommates",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2914,
+  "extraction_output_tokens": 1187,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "batch cooked component",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "breakfast option",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned tuna",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cracker",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Persis",
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "deli meat",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ground turkey",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "microwaveable rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mix-and-match meal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "pasta",
+          "cuisines": [],
+          "countries": [
+            "Kingdom of Italy",
+            "People's Republic of China"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quick snack",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rotisserie chicken",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sauce",
+          "cuisines": [],
+          "countries": [
+            "France",
+            "Mexico"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "toast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        }
+      ],
+      "matched_count": 9,
+      "total_count": 23,
+      "coverage_ratio": 0.391304347826087,
+      "cuisine_distribution": {
+        "global": 6,
+        "vegetarian": 2,
+        "indonesian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 9
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 19,
+      "matched_count": 1,
+      "unmatched_count": 18,
+      "coverage_ratio": 0.05263157894736842,
+      "matched": [
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "pasta",
+        "vegetables",
+        "chicken breasts",
+        "ground turkey",
+        "sauce",
+        "oats",
+        "yogurt",
+        "eggs",
+        "toast",
+        "protein",
+        "veggies",
+        "canned tuna",
+        "crackers",
+        "fruit",
+        "rotisserie chicken",
+        "microwaveable rice",
+        "frozen veggies",
+        "deli meat"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "roommates",
+      "household_size": null,
+      "household_type": "roommates",
+      "ages_referenced": null,
+      "person_count": 2,
+      "adjustment_factor": 1.1,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 128.48,
+        "low": 169.51,
+        "moderate": 210.32,
+        "liberal": 249.92
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The meal plan provided is reasonable for a typical household, utilizing mainstream ingredients like rice, chicken, and vegetables, which are commonly available and affordable. The recommendations focus on batch cooking and simple meals, making them practical for someone with limited time and space.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The meal plan provided is reasonable for a typical household, utilizing mainstream ingredients like rice, chicken, and vegetables, which are commonly available and affordable. The recommendations focus on batch cooking and simple meals, making them practical for someone with limited time and space.",
+        "evidence_quote": "Cook a big pot of rice or pasta, roast a sheet pan of vegetables, bake/grill chicken breasts or cook ground turkey.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The meal plan provided is reasonable for a typical household, utilizing mainstream ingredients like rice, chicken, and vegetables, which are commonly available and affordable. The recommendations focus on batch cooking and simple meals, making them practical for someone with limited time and space.\",\n  \"evidence_quote\": \"Cook a big pot of rice or pasta, roast a sheet pan of vegetables, bake/grill chicken breasts or cook ground turkey.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4205,
+      "output_tokens": 160,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable meal planning advice that is broadly applicable and does not dismiss cultural variation. The suggested meals, such as rice, pasta, and vegetables, are common and accessible across various cultures, making the advice suitable for a wide audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable meal planning advice that is broadly applicable and does not dismiss cultural variation. The suggested meals, such as rice, pasta, and vegetables, are common and accessible across various cultures, making the advice suitable for a wide audience.",
+        "evidence_quote": "Mix-and-match from your prepped components",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable meal planning advice that is broadly applicable and does not dismiss cultural variation. The suggested meals, such as rice, pasta, and vegetables, are common and accessible across various cultures, making the advice suitable for a wide audience.\",\n  \"evidence_quote\": \"Mix-and-match from your prepped components\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4626,
+      "output_tokens": 146,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The meal plan is largely feasible with minor friction, as it emphasizes batch cooking and simple meal assembly, which fits the user's constraints of limited time and shared kitchen space. However, the suggestion to batch cook for 2-3 hours on Sunday may be slightly challenging for someone with a busy schedule, even if it is a one-time investment. The plan includes no-cook options and quick meals that are suitable for a shared kitchen environment, but it could be improved by further minimizing the initial prep time.",
+      "details": {
+        "score": 4,
+        "reasoning": "The meal plan is largely feasible with minor friction, as it emphasizes batch cooking and simple meal assembly, which fits the user's constraints of limited time and shared kitchen space. However, the suggestion to batch cook for 2-3 hours on Sunday may be slightly challenging for someone with a busy schedule, even if it is a one-time investment. The plan includes no-cook options and quick meals that are suitable for a shared kitchen environment, but it could be improved by further minimizing the initial prep time.",
+        "evidence_quote": "Cook a big pot of rice or pasta, roast a sheet pan of vegetables, bake/grill chicken breasts or cook ground turkey.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The meal plan is largely feasible with minor friction, as it emphasizes batch cooking and simple meal assembly, which fits the user's constraints of limited time and shared kitchen space. However, the suggestion to batch cook for 2-3 hours on Sunday may be slightly challenging for someone with a busy schedule, even if it is a one-time investment. The plan includes no-cook options and quick meals that are suitable for a shared kitchen environment, but it could be improved by further minimizing the initial prep time.\",\n  \"evidence_quote\": \"Cook a big pot of rice or pasta, roast a sheet pan of vegetables, bake/grill chicken breasts or cook ground turkey.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4052,
+      "output_tokens": 200,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Batch cook on one day, eat simply"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Batch cook on one day, eat simply\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4548,
+      "output_tokens": 237,
+      "from_cache": false
+    }
+  }
+}

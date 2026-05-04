@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a healthy and budget-friendly recipe for a Chicken and Vegetable Stir-Fry that can be made for under $4. This meal is nutritious, filling, and easy to prepare.\n\n### Healthy Chicken and Vegetable Stir-Fry\n\n#### Ingredients:\n- **1 cup of boneless, skinless chicken breast** (about 0.5 lb) - $1.50\n- **2 cups of mixed frozen vegetables** (like broccoli, carrots, and bell peppers) - $1.00\n- **2 tablespoons of soy sauce** - $0.10\n- **1 tablespoon of olive oil or vegetable oil** - $0.10\n- **1 clove of garlic, minced** - $0.05\n- **1 teaspoon of ginger (fresh or powdered)** - $0.05\n- **Salt and pepper to taste** - negligible cost\n\n#### Total Cost: Approx. $2.80\n\n#### Instructions:\n\n1. **Prepare the Chicken**:\n   - Cut the chicken breast into bite-sized pieces. Season with salt and pepper.\n\n2. **Cook the Chicken**:\n   - Heat the olive oil in a large skillet or wok over medium-high heat.\n   - Add the chicken pieces and cook until they are browned and cooked through, about 5-7 minutes. Stir occasionally to ensure even cooking.\n\n3. **Add Vegetables**:\n   - Add the minced garlic and ginger to the skillet and sauté for about 30 seconds until fragrant.\n   - Add the frozen mixed vegetables to the skillet. Stir and cook until the vegetables are heated through and tender, about 5-7 minutes.\n\n4. **Add Soy Sauce**:\n   - Pour the soy sauce over the chicken and vegetables. Stir well to combine and cook for another minute.\n\n5. **Serve**:\n   - Serve the stir-fry on its own or over a bed of cooked rice or quinoa (if budget allows). Enjoy your healthy meal!\n\n### Tips:\n- You can substitute the chicken with tofu or beans for a vegetarian option.\n- If you have any leftover vegetables at home, feel free to add them in to use up what you have.\n- Adjust the seasoning based on your preference; you can add chili flakes for some heat or sesame oil for extra flavor.\n\nThis meal is not only cost-effective but also packed with protein and vitamins from the vegetables!",
+  "input_tokens": 29,
+  "output_tokens": 477,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:31:04.327734"
+}

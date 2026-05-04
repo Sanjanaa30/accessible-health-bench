@@ -1,0 +1,267 @@
+{
+  "prompt_id": "lif_base_09",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest ways to stay physically active daily.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here are some ways to stay physically active daily:\n\n1. **Create a morning routine**: Start your day with some light exercise, such as yoga, stretching, or a short walk.\n2. **Take the stairs**: Instead of using the elevator, opt for the stairs to get some cardiovascular exercise and strengthen your legs.\n3. **Walk to work or school**: If possible, walk or bike to work or school to get some fresh air and exercise.\n4. **Schedule workouts**: Set aside time each day for a workout, whether it's a trip to the gym, a home workout, or a fitness class.\n5. **Take breaks at work**: Take a short walk or do some stretching exercises during your work breaks to stay active and refreshed.\n6. **Do household chores**: Household chores like vacuuming, mopping, and gardening can be great ways to stay physically active while also keeping your home clean and tidy.\n7. **Play with your kids**: If you have kids, play active games with them, such as tag, hide-and-seek, or soccer.\n8. **Take a walk during lunch**: Use your lunch break to take a walk outside and get some fresh air and exercise.\n9. **Try bodyweight exercises**: Do push-ups, squats, lunges, and other bodyweight exercises during commercial breaks while watching TV.\n10. **Dance to your favorite music**: Put on some music and dance around your living room to get your heart rate up and have fun.\n11. **Try active commuting**: Consider using a bike or walking to run errands or do chores.\n12. **Join a sports team or club**: Join a local sports team or club to stay active and meet new people.\n13. **Take the dog for a walk**: If you have a dog, take them for a walk or run to get some exercise and fresh air.\n14. **Try high-intensity interval training (HIIT)**: Incorporate HIIT workouts into your daily routine, such as sprint intervals or burpees.\n15. **Make it a habit**: Make physical activity a habit by incorporating it into your daily routine, such as right after waking up or before bed.\n\nRemember, every bit counts, and even small amounts of physical activity can have a positive impact on your health and well-being.",
+  "extracted": {
+    "summary": "The response provides various suggestions for staying physically active on a daily basis, including creating a morning routine, taking the stairs, and scheduling workouts.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "morning routine",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "taking the stairs",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "indoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "walking or biking to work or school",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "scheduled workouts",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "gym"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "taking breaks at work",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "indoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "doing household chores",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "playing with kids",
+        "activity_type": "sport",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "walking during lunch",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "bodyweight exercises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "dancing",
+        "activity_type": "dance",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "active commuting",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "joining a sports team or club",
+        "activity_type": "sport",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "walking the dog",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "high-intensity interval training (HIIT)",
+        "activity_type": "hiit",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "making physical activity a habit",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [
+        "morning",
+        "day",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3033,
+  "extraction_output_tokens": 1653,
+  "extraction_from_cache": false
+}

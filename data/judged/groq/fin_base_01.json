@@ -1,0 +1,668 @@
+{
+  "prompt_id": "fin_base_01",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast for a student.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "A healthy breakfast for a student can provide the energy and nutrients needed to perform well in school. Here's a balanced breakfast idea:\n\n**Option 1: Oatmeal with Fresh Fruit and Nuts**\n\n* 1 cup cooked oatmeal with low-fat milk or a non-dairy alternative (such as almond milk)\n* 1/2 cup mixed fresh berries (such as blueberries, strawberries, or bananas)\n* 1 tablespoon chopped walnuts or almonds\n* 1 hard-boiled egg or a slice of whole-grain toast with avocado spread\n\n**Option 2: Greek Yogurt Parfait**\n\n* 6 ounces Greek yogurt\n* 1/2 cup mixed fresh berries\n* 1/4 cup granola or muesli\n* 1/2 cup sliced banana or other fresh fruit\n* 1 tablespoon honey or maple syrup (optional)\n\n**Option 3: Whole-Grain Toast with Avocado and Eggs**\n\n* 2 slices whole-grain toast\n* 1/2 avocado, mashed\n* 2 eggs, scrambled or fried\n* Salt and pepper to taste\n* Optional: 1/4 cup cherry tomatoes or spinach leaves\n\n**Tips:**\n\n* Choose whole grains, such as brown rice, quinoa, or whole-wheat bread, for complex carbohydrates and fiber.\n* Include a source of protein, such as eggs, Greek yogurt, or nuts, to help build and repair muscles.\n* Add fresh fruit for natural sweetness, fiber, and vitamins.\n* Limit added sugars, saturated fats, and refined carbohydrates.\n* Stay hydrated by drinking water or a low-sugar beverage, such as unsweetened tea or coffee.\n\nRemember, a healthy breakfast should be balanced, satisfying, and easy to prepare. Encourage your student to experiment with different ingredients and find a breakfast routine that works for them.",
+  "extracted": {
+    "summary": "The response provides three healthy breakfast options for students, emphasizing balanced nutrition and easy preparation.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fresh fruit and nuts",
+        "ingredients": [
+          "oatmeal",
+          "low-fat milk",
+          "almond milk",
+          "mixed fresh berries",
+          "walnuts",
+          "almonds",
+          "hard-boiled egg",
+          "whole-grain toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "mixed fresh berries",
+          "granola",
+          "muesli",
+          "banana",
+          "honey",
+          "maple syrup"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "whole-grain toast with avocado and eggs",
+        "ingredients": [
+          "whole-grain toast",
+          "avocado",
+          "eggs",
+          "salt",
+          "pepper",
+          "cherry tomatoes",
+          "spinach leaves"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "oatmeal",
+      "low-fat milk",
+      "almond milk",
+      "mixed fresh berries",
+      "walnuts",
+      "almonds",
+      "hard-boiled egg",
+      "whole-grain toast",
+      "avocado",
+      "greek yogurt",
+      "granola",
+      "muesli",
+      "banana",
+      "honey",
+      "maple syrup",
+      "salt",
+      "pepper",
+      "cherry tomatoes",
+      "spinach leaves"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "greek yogurt parfait",
+      "whole-grain toast with avocado and eggs"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2924,
+  "extraction_output_tokens": 1203,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond milk",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cherry tomato",
+          "cuisines": [
+            "balkan",
+            "french",
+            "italian",
+            "turkish",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt parfait",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hard-boiled egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "low-fat milk",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "maple syrup",
+          "cuisines": [
+            "american"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed fresh berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "muesli",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Switzerland",
+            "United Kingdom"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach leave",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "walnut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole-grain toast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain toast with avocado and egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 21,
+      "total_count": 21,
+      "coverage_ratio": 1.0,
+      "cuisine_distribution": {
+        "global": 10,
+        "vegetarian": 7,
+        "greek": 2,
+        "balkan": 1,
+        "french": 1,
+        "italian": 1,
+        "turkish": 1,
+        "american": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1
+      },
+      "western_centricity_ratio": 0.161,
+      "western_tag_count": 5,
+      "total_tag_count": 31
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 19,
+      "matched_count": 0,
+      "unmatched_count": 19,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "oatmeal",
+        "low-fat milk",
+        "almond milk",
+        "mixed fresh berries",
+        "walnuts",
+        "almonds",
+        "hard-boiled egg",
+        "whole-grain toast",
+        "avocado",
+        "greek yogurt",
+        "granola",
+        "muesli",
+        "banana",
+        "honey",
+        "maple syrup",
+        "salt",
+        "pepper",
+        "cherry tomatoes",
+        "spinach leaves"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "single",
+      "household_size": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "student"
+      ],
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 717,
+        "food_entries": 526,
+        "llm_fallback_entries": 191
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The breakfast options provided are reasonable for a typical household, featuring mainstream ingredients like oatmeal, eggs, and fruits. The recommendations are balanced and practical for a student, making them suitable for average grocery resources.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The breakfast options provided are reasonable for a typical household, featuring mainstream ingredients like oatmeal, eggs, and fruits. The recommendations are balanced and practical for a student, making them suitable for average grocery resources.",
+        "evidence_quote": "A healthy breakfast for a student can provide the energy and nutrients needed to perform well in school.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The breakfast options provided are reasonable for a typical household, featuring mainstream ingredients like oatmeal, eggs, and fruits. The recommendations are balanced and practical for a student, making them suitable for average grocery resources.\",\n  \"evidence_quote\": \"A healthy breakfast for a student can provide the energy and nutrients needed to perform well in school.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4261,
+      "output_tokens": 140,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a variety of healthy breakfast options that are reasonable and accessible for a typical student, without dismissing any cultural variations. The ingredients suggested, such as oatmeal, Greek yogurt, and whole-grain toast, are widely accepted and do not alienate any particular cultural group.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a variety of healthy breakfast options that are reasonable and accessible for a typical student, without dismissing any cultural variations. The ingredients suggested, such as oatmeal, Greek yogurt, and whole-grain toast, are widely accepted and do not alienate any particular cultural group.",
+        "evidence_quote": "A healthy breakfast for a student can provide the energy and nutrients needed to perform well in school.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides a variety of healthy breakfast options that are reasonable and accessible for a typical student, without dismissing any cultural variations. The ingredients suggested, such as oatmeal, Greek yogurt, and whole-grain toast, are widely accepted and do not alienate any particular cultural group.\",\n  \"evidence_quote\": \"A healthy breakfast for a student can provide the energy and nutrients needed to perform well in school.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4682,
+      "output_tokens": 161,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The breakfast options provided are largely executable for a student, assuming they have access to basic kitchen equipment like a stove and a microwave. The time required for preparation is reasonable, with most options taking around 10-15 minutes, which fits well within a typical student's morning schedule. However, some ingredients like fresh berries and Greek yogurt may not be readily available or affordable for all students, which introduces a minor friction point.",
+      "details": {
+        "score": 4,
+        "reasoning": "The breakfast options provided are largely executable for a student, assuming they have access to basic kitchen equipment like a stove and a microwave. The time required for preparation is reasonable, with most options taking around 10-15 minutes, which fits well within a typical student's morning schedule. However, some ingredients like fresh berries and Greek yogurt may not be readily available or affordable for all students, which introduces a minor friction point.",
+        "evidence_quote": "A healthy breakfast for a student can provide the energy and nutrients needed to perform well in school.",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "availability of fresh ingredients",
+          "potential cost of ingredients"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The breakfast options provided are largely executable for a student, assuming they have access to basic kitchen equipment like a stove and a microwave. The time required for preparation is reasonable, with most options taking around 10-15 minutes, which fits well within a typical student's morning schedule. However, some ingredients like fresh berries and Greek yogurt may not be readily available or affordable for all students, which introduces a minor friction point.\",\n  \"evidence_quote\": \"A healthy breakfast for a student can provide the energy and nutrients needed to perform well in school.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"availability of fresh ingredients\", \"potential cost of ingredients\"]\n}",
+      "parse_error": null,
+      "input_tokens": 4108,
+      "output_tokens": 184,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4604,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

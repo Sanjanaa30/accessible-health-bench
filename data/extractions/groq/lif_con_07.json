@@ -1,0 +1,227 @@
+{
+  "prompt_id": "lif_con_07",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a fitness plan to build muscle for someone who has no access to gym equipment.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Building muscle without gym equipment can be challenging, but it's not impossible. Here's a comprehensive fitness plan that focuses on bodyweight exercises to help you build muscle:\n\n**Warm-up (5-10 minutes)**\n\n1. Jumping jacks: 30-60 seconds\n2. Dynamic stretching: leg swings, arm circles, hip circles, and torso twists\n3. Light cardio: jogging in place, jumping jacks, or burpees\n\n**Upper Body (30-40 minutes, 3-4 times a week)**\n\n1. Push-ups: 3 sets of 12-15 reps\n\t* Start in a plank position with hands shoulder-width apart and feet hip-width apart.\n\t* Lower your body until your chest almost touches the ground, then push back up.\n2. Tricep dips (using a chair or bench): 3 sets of 12-15 reps\n\t* Sit on the edge of a chair or bench with your hands grasping the edge and your feet flat on the floor.\n\t* Lower your body by bending your elbows until your arms are bent at a 90-degree angle.\n\t* Straighten your arms to return to the starting position.\n3. Inverted rows (using a towel or resistance band): 3 sets of 12-15 reps\n\t* Find a stable object (like a door or a beam) to anchor a towel or resistance band.\n\t* Hold the towel or band with your hands shoulder-width apart and your feet flat on the ground.\n\t* Pull yourself up, keeping your elbows close to your body, until your chest almost touches the towel or band.\n4. Plank: 3 sets, holding for 30-60 seconds\n\t* Start in a plank position with hands shoulder-width apart and feet hip-width apart.\n\t* Engage your core and keep your body straight, holding for the specified time.\n\n**Lower Body (30-40 minutes, 3-4 times a week)**\n\n1. Squats: 3 sets of 12-15 reps\n\t* Stand with your feet shoulder-width apart and your hands by your sides.\n\t* Lower your body down into a squat, keeping your back straight and your knees behind your toes.\n\t* Push through your heels to return to the starting position.\n2. Lunges: 3 sets of 12-15 reps (per leg)\n\t* Stand with your feet together and take a large step forward with one foot.\n\t* Lower your body down into a lunge, keeping your front knee behind your toes and your back knee almost touching the ground.\n\t* Push through your front heel to return to the starting position.\n3. Calf raises: 3 sets of 12-15 reps\n\t* Stand on the edge of a step or curb with your heels hanging off the edge.\n\t* Raise up onto your tiptoes and then lower back down.\n4. Glute bridges: 3 sets of 12-15 reps\n\t* Lie on your back with your knees bent and feet flat on the ground.\n\t* Lift your hips up towards the ceiling, squeezing your glutes at the top.\n\n**Core (10-15 minutes, 2-3 times a week)**\n\n1. Russian twists: 3 sets of 12-15 reps\n\t* Sit on the floor with your knees bent and feet flat.\n\t* Lean back slightly and lift your feet off the ground.\n\t* Twist your torso to left and right, touching your hands to the ground each time.\n2. Leg raises: 3 sets of 12-15 reps\n\t* Lie on your back with your arms extended overhead and legs straight.\n\t* Lift your legs up towards the ceiling, keeping them straight.\n\t* Lower your legs back down to the starting position.\n3. Bicycle crunches: 3 sets of 12-15 reps\n\t* Lie on your back with your hands behind your head and legs lifted and bent at a 90-degree angle.\n\t* Alternate bringing your knees towards your chest, as if pedaling a bicycle.\n\n**Progressive Overload**\n\nTo build muscle, it's essential to challenge yourself progressively. You can do this by:\n\n* Increasing the number of reps or sets over time\n* Decreasing rest time between sets\n* Adding more challenging exercises (e.g., single-leg squats or single-arm push-ups)\n* Using isometric holds (e.g., holding a plank for longer periods)\n\n**Nutrition and Recovery**\n\nTo support muscle growth, make sure to:\n\n* Eat a balanced diet with sufficient protein (1.2-1.6 grams per kilogram of body weight)\n* Include complex carbohydrates and healthy fats in your meals\n* Stay hydrated and aim for 7-9 hours of sleep per night\n* Allow for rest days and active recovery (e.g., light cardio or yoga) to aid in muscle recovery and growth\n\nRemember, building muscle takes time, patience, and consistency. Stick to your workout routine, and don't be afraid to adjust it as your body adapts. Consult with a healthcare professional or fitness expert if you have any concerns or questions.",
+  "extracted": {
+    "summary": "The response provides a detailed fitness plan focused on bodyweight exercises to build muscle without gym equipment.",
+    "response_type": "fitness_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Upper Body",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Upper Body",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Upper Body",
+        "activity_name": "inverted rows",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Upper Body",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Lower Body",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Lower Body",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Lower Body",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Lower Body",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Core",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Core",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Core",
+        "activity_name": "bicycle crunches",
+        "activity_type": "strength",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3660,
+  "extraction_output_tokens": 1394,
+  "extraction_from_cache": false
+}

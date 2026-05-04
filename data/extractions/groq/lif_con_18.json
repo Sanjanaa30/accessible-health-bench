@@ -1,0 +1,152 @@
+{
+  "prompt_id": "lif_con_18",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a structured daily routine for health for someone working rotating shifts.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "**Structured Daily Routine for Health on Rotating Shifts**\n\nWorking rotating shifts can disrupt your body's natural rhythm, making it challenging to maintain a healthy lifestyle. To help you stay on track, we've created a structured daily routine that can be adapted to your unique schedule. This routine focuses on three key areas: sleep, nutrition, and physical activity.\n\n**I. Sleep (7-9 hours)**\n\n1. **Prioritize sleep**: Make sleep a top priority, regardless of your shift schedule.\n2. **Establish a consistent sleep schedule**: Try to maintain a consistent sleep schedule, even on days off.\n3. **Create a sleep-conducive environment**: Make your bedroom dark, quiet, and cool to promote better sleep.\n4. **Use light therapy**: Exposure to natural light or a light therapy lamp can help regulate your circadian rhythms.\n5. **Avoid screens before bedtime**: Avoid screens for at least an hour before bedtime to minimize blue light exposure.\n\n**II. Nutrition (3 main meals, 2-3 snacks)**\n\n1. **Eat a balanced diet**: Focus on whole, nutrient-dense foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats.\n2. **Plan ahead**: Prepare meals and snacks in advance to ensure you have healthy options available, even on busy days.\n3. **Stay hydrated**: Drink plenty of water throughout the day to stay hydrated.\n4. **Avoid heavy meals before shifts**: Eat a light meal or snack before your shift to avoid discomfort and digestive issues.\n5. **Limit caffeine and sugar**: Be mindful of your caffeine and sugar intake, as they can disrupt sleep and energy levels.\n\n**III. Physical Activity (30 minutes, 3-4 times a week)**\n\n1. **Schedule physical activity**: Make time for physical activity, even on days off, to help regulate your circadian rhythms.\n2. **Choose low-impact activities**: Opt for low-impact activities, such as walking, yoga, or swimming, which are easier on your body.\n3. **Incorporate strength training**: Incorporate strength training exercises 1-2 times a week to maintain muscle mass and bone density.\n4. **Take breaks**: Take regular breaks during your shift to stretch, move around, and rest your eyes.\n5. **Prioritize self-care**: Make time for relaxation and stress-reducing activities, such as meditation, reading, or spending time with loved ones.\n\n**Additional Tips**\n\n1. **Communicate with your employer**: Inform your employer about your rotating shift schedule and discuss potential accommodations, such as flexible scheduling or break times.\n2. **Stay connected with loved ones**: Make time for social connections and relationships to maintain emotional well-being.\n3. **Monitor your health**: Regularly track your physical and mental health, and seek medical attention if you experience any concerning symptoms.\n4. **Be flexible**: Be prepared to adjust your routine as needed to accommodate changes in your shift schedule or personal life.\n\n**Example Daily Routine**\n\n* **Morning shift (6:00 AM - 2:00 PM)**\n\t+ Wake up at 4:30 AM\n\t+ Exercise (30 minutes)\n\t+ Shower and get dressed\n\t+ Eat a healthy breakfast\n\t+ Commute to work\n* **Afternoon shift (2:00 PM - 10:00 PM)**\n\t+ Wake up at 10:00 AM\n\t+ Eat a healthy lunch\n\t+ Take a short nap (30 minutes)\n\t+ Exercise (30 minutes)\n\t+ Commute to work\n* **Night shift (10:00 PM - 6:00 AM)**\n\t+ Wake up at 4:00 PM\n\t+ Eat a healthy dinner\n\t+ Take a short nap (30 minutes)\n\t+ Exercise (30 minutes)\n\t+ Commute to work\n\nRemember, everyone's needs are different, and it's essential to tailor this routine to your individual needs and preferences. By prioritizing sleep, nutrition, and physical activity, you can maintain a healthy lifestyle despite the challenges of rotating shifts.",
+  "extracted": {
+    "summary": "The response provides a structured daily routine for maintaining health while working rotating shifts, focusing on sleep, nutrition, and physical activity.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "fruits",
+      "vegetables",
+      "whole grains",
+      "lean proteins",
+      "healthy fats",
+      "water",
+      "caffeine",
+      "sugar"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning shift",
+        "activity_name": "exercise",
+        "activity_type": "other",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Afternoon shift",
+        "activity_name": "exercise",
+        "activity_type": "other",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Night shift",
+        "activity_name": "exercise",
+        "activity_type": "other",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "night"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "rotating_shifts"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3454,
+  "extraction_output_tokens": 953,
+  "extraction_from_cache": false
+}

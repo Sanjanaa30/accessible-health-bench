@@ -1,0 +1,144 @@
+{
+  "prompt_id": "lif_con_15",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Access",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Access",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest healthy eating habits for someone who eats most meals outside due to work constraints.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Eating most meals outside due to work constraints can make it challenging to maintain healthy eating habits. However, with some planning and mindful choices, you can still make healthy decisions. Here are some tips to help you eat healthily while eating out:\n\n1. **Research restaurants in advance**: Look up restaurants near your workplace or frequent locations and check their menus online. Choose places that offer healthy options, such as salads, grilled meats, and whole grains.\n2. **Opt for healthy take-out options**: Instead of opting for fast food or fried foods, choose take-out options like sushi, salads, or wraps with lean proteins and vegetables.\n3. **Pack your own snacks**: Bring healthy snacks like fruits, nuts, or energy bars to munch on during the day. This will help you avoid relying on vending machine snacks or convenience store treats.\n4. **Choose wisely at cafes and food courts**: Select cafes and food courts that offer healthy options like oatmeal, yogurt parfaits, or whole-grain sandwiches.\n5. **Be mindful of portion sizes**: When eating out, it's easy to overeat due to large portions. Try to eat until you're satisfied, not stuffed, and save leftovers for later.\n6. **Select healthy sides**: Instead of fries or chips, choose side salads, steamed vegetables, or brown rice.\n7. **Drink plenty of water**: Stay hydrated by drinking water throughout the day, and avoid sugary drinks like soda or juice.\n8. **Avoid late-night eating**: Try to eat your main meals during the day and avoid eating late at night, as this can disrupt your sleep and digestive system.\n9. **Consider meal prep or delivery services**: If possible, consider meal prep or delivery services that offer healthy, pre-portioned meals.\n10. **Make healthy swaps**: When eating out, make healthy swaps like choosing whole-grain bread instead of white bread, or opting for a side salad instead of fries.\n\nSome specific healthy eating options to look for when eating out include:\n\n* Grilled chicken or fish with roasted vegetables\n* Salads with lean proteins like turkey, chicken, or tofu\n* Whole-grain wraps or sandwiches with lean fillings\n* Brown rice or quinoa bowls with vegetables and lean proteins\n* Lentil or vegetable soups with whole-grain bread\n\nRemember, even with healthy eating habits, it's essential to maintain a balanced diet and consult with a healthcare professional or registered dietitian for personalized advice.",
+  "extracted": {
+    "summary": "The response provides tips for maintaining healthy eating habits while eating out due to work constraints, including meal choices and snack suggestions.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "water",
+      "fruits",
+      "nuts",
+      "energy bars",
+      "salads",
+      "grilled meats",
+      "whole grains",
+      "sushi",
+      "lean proteins",
+      "vegetables",
+      "oatmeal",
+      "yogurt",
+      "parfaits",
+      "whole-grain sandwiches",
+      "brown rice",
+      "quinoa",
+      "lentil soups",
+      "vegetable soups",
+      "whole-grain bread",
+      "chicken",
+      "fish",
+      "roasted vegetables",
+      "turkey",
+      "tofu"
+    ],
+    "all_dishes_or_foods_named": [
+      "sushi",
+      "salads",
+      "wraps",
+      "oatmeal",
+      "yogurt parfaits",
+      "whole-grain sandwiches",
+      "brown rice bowls",
+      "quinoa bowls",
+      "lentil soups",
+      "vegetable soups"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "desk_job"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "It's essential to maintain a balanced diet and consult with a healthcare professional or registered dietitian for personalized advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3109,
+  "extraction_output_tokens": 924,
+  "extraction_from_cache": false
+}

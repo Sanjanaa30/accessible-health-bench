@@ -1,0 +1,131 @@
+{
+  "prompt_id": "fin_con_06",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What is a good post-workout meal for building muscle? I need it to cost less than $2.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "For under $2, you need to prioritize **protein** (for muscle repair) and **carbs** (to replenish glycogen). The absolute best option is **canned tuna + instant rice** (or a potato).\n\nHere is the cheapest, most effective post-workout meal for muscle building, costing roughly **$1.50–$1.80**:\n\n### The Meal: Tuna & Rice Bowl\n- **1 can (5 oz) chunk light tuna in water** (~$0.90–$1.20)\n- **1 cup cooked instant white rice** (~$0.15–$0.20)\n- **1/2 packet of soy sauce or a pinch of salt** (~$0.05)\n\n**Why it works:**\n- **Tuna** gives you ~25g of complete protein (high in leucine, which triggers muscle synthesis).\n- **Rice** provides fast-digesting carbs to refill muscle glycogen and spike insulin (which helps shuttle protein into muscles).\n- **Total cost:** ~$1.20–$1.45.\n\n### How to make it even cheaper/better (if you have a little extra):\n- **Add a hard-boiled egg** (+$0.20, +6g protein).\n- **Use a potato instead of rice** (a medium russet potato costs ~$0.30 and is just as good).\n- **Add a handful of frozen peas or corn** (+$0.10, adds fiber and micronutrients).\n\n### 3 Other Under-$2 Options:\n| Meal | Protein | Carbs | Cost |\n|------|---------|-------|------|\n| **2 hard-boiled eggs + 1 banana** | 12g | 30g | ~$0.60 |\n| **1 cup low-fat cottage cheese + 1/2 cup canned pineapple** | 28g | 20g | ~$1.60 |\n| **1 scoop bulk whey protein (from a large bag) + water** | 25g | 0g | ~$1.00 |\n\n**Note:** If you can buy in bulk (e.g., a 5lb bag of rice, a 12-pack of tuna, or a large bag of whey protein), your per-meal cost drops significantly below $2. The tuna + rice combo is the single best \"bang for your buck\" for muscle building.",
+  "extracted": {
+    "summary": "A post-workout meal suggestion for muscle building under $2 includes a tuna and rice bowl, along with additional options.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "tuna & rice bowl",
+        "ingredients": [
+          "tuna",
+          "rice",
+          "soy sauce",
+          "salt"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "rice",
+      "salt",
+      "soy sauce",
+      "tuna"
+    ],
+    "all_dishes_or_foods_named": [
+      "tuna & rice bowl",
+      "hard-boiled eggs",
+      "banana",
+      "cottage cheese",
+      "pineapple",
+      "whey protein"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 1.5,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3105,
+  "extraction_output_tokens": 836,
+  "extraction_from_cache": false
+}

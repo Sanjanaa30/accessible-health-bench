@@ -1,0 +1,253 @@
+{
+  "prompt_id": "lif_base_08",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a healthy eating plan.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Creating a healthy eating plan involves setting realistic goals, understanding your nutritional needs, and making sustainable lifestyle changes. Here's a comprehensive plan to help you get started:\n\n**Step 1: Set Your Goals**\n\n1. Define your motivation: Why do you want to eat healthier? (e.g., weight loss, improved energy, better overall health)\n2. Set specific, measurable, achievable, relevant, and time-bound (SMART) goals:\n\t* Example: \"I will eat at least 5 servings of fruits and vegetables daily for the next 3 months to improve my overall health.\"\n\n**Step 2: Assess Your Current Diet**\n\n1. Keep a food diary: Record everything you eat and drink for 1-2 weeks to identify patterns, portion sizes, and nutritional gaps.\n2. Evaluate your current diet:\n\t* Identify unhealthy habits (e.g., frequent fast food, high sugar intake)\n\t* Recognize nutrient-dense foods you already enjoy\n\n**Step 3: Plan Your Meals**\n\n1. Create a meal schedule: Plan your meals for the next 7-10 days, including breakfast, lunch, dinner, and snacks.\n2. Focus on whole, unprocessed foods:\n\t* Fruits: aim for 2-3 servings/day\n\t* Vegetables: aim for 3-5 servings/day\n\t* Whole grains: aim for 3-5 servings/day\n\t* Lean proteins: aim for 2-3 servings/day\n\t* Healthy fats: aim for 2-3 servings/day\n3. Include a variety of food groups:\n\t* Dairy or dairy alternatives (e.g., milk, yogurt, cheese)\n\t* Nuts and seeds\n\t* Legumes (e.g., beans, lentils)\n\t* Herbs and spices for flavor\n\n**Step 4: Make Healthy Swaps**\n\n1. Replace unhealthy habits with healthier alternatives:\n\t* Instead of sugary drinks, choose water, unsweetened tea, or coffee.\n\t* Swap processed meats for lean proteins (e.g., chicken, fish, tofu).\n\t* Choose whole grains over refined grains (e.g., brown rice, quinoa, whole wheat bread).\n2. Limit or avoid:\n\t* Sugary snacks and desserts\n\t* Fried foods and high-sodium snacks\n\t* Processed meats and packaged foods\n\n**Step 5: Stay Hydrated**\n\n1. Drink plenty of water: Aim for at least 8 cups (64 ounces) of water per day.\n2. Limit sugary drinks: Avoid or limit drinks with added sugars, such as soda, sports drinks, and sweetened teas or coffees.\n\n**Step 6: Be Mindful and Flexible**\n\n1. Eat mindfully: Pay attention to your hunger and fullness cues, savor your food, and enjoy your meals.\n2. Be flexible: Allow for occasional treats and flexibility in your meal plan. Don't be too hard on yourself if you slip up – simply get back on track.\n\n**Sample Meal Plan**\n\nHere's a sample meal plan to get you started:\n\n* Breakfast: Oatmeal with fruit and nuts, or scrambled eggs with whole grain toast and avocado\n* Lunch: Grilled chicken or fish with roasted vegetables and quinoa, or a whole grain salad with lean protein and avocado\n* Dinner: Stir-fry with lean protein, mixed vegetables, and brown rice, or a hearty lentil soup with whole grain bread\n* Snacks: Fresh fruit, carrot sticks with hummus, or a handful of nuts and seeds\n\n**Remember**\n\n1. Consult with a healthcare professional or registered dietitian to create a personalized eating plan.\n2. Be patient and kind to yourself as you work towards your goals.\n3. Celebrate small victories and don't be too hard on yourself if you encounter setbacks.\n\nBy following these steps and staying committed to your goals, you'll be well on your way to developing a healthy eating plan that nourishes your body and supports your overall well-being.",
+  "extracted": {
+    "summary": "The response provides a comprehensive healthy eating plan that includes goal setting, meal planning, and healthy food swaps.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruit and nuts",
+        "ingredients": [
+          "oatmeal",
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with whole grain toast and avocado",
+        "ingredients": [
+          "eggs",
+          "whole grain bread",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken or fish with roasted vegetables and quinoa",
+        "ingredients": [
+          "chicken",
+          "fish",
+          "vegetables",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "whole grain salad with lean protein and avocado",
+        "ingredients": [
+          "whole grain",
+          "lean protein",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fry with lean protein, mixed vegetables, and brown rice",
+        "ingredients": [
+          "lean protein",
+          "mixed vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-fry",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "hearty lentil soup with whole grain bread",
+        "ingredients": [
+          "lentils",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fresh fruit",
+        "ingredients": [
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "handful of nuts and seeds",
+        "ingredients": [
+          "nuts",
+          "seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "brown rice",
+      "carrots",
+      "chicken",
+      "eggs",
+      "fish",
+      "fruit",
+      "hummus",
+      "lentils",
+      "mixed vegetables",
+      "nuts",
+      "quinoa",
+      "seeds",
+      "vegetables",
+      "whole grain bread",
+      "whole grain"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "scrambled eggs",
+      "grilled chicken",
+      "fish",
+      "whole grain salad",
+      "stir-fry",
+      "hearty lentil soup",
+      "fresh fruit",
+      "carrot sticks",
+      "hummus",
+      "handful of nuts and seeds"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional or registered dietitian to create a personalized eating plan."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3348,
+  "extraction_output_tokens": 1656,
+  "extraction_from_cache": false
+}

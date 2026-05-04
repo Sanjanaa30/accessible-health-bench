@@ -1,0 +1,159 @@
+{
+  "prompt_id": "lif_con_17",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Behavioral",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Behavioral",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest ways to improve physical health for someone with a sedentary lifestyle and no motivation to exercise.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Improving physical health can be challenging, especially when faced with a sedentary lifestyle and lack of motivation. Here are some suggestions to help you get started:\n\n1. **Start small**: Begin with short, manageable sessions (5-10 minutes) of light physical activity, such as taking a short walk, stretching, or doing a few jumping jacks. Gradually increase the duration and intensity over time.\n2. **Find an enjoyable activity**: Engage in physical activities that you enjoy, such as walking, swimming, cycling, or dancing. This will help make exercise feel less like a chore and more like a fun experience.\n3. **Schedule it in**: Treat physical activity as a non-negotiable part of your daily routine, just like brushing your teeth or taking a shower. Set a specific time and day for exercise, and stick to it.\n4. **Get a workout buddy**: Having someone to hold you accountable and share the experience with can be a great motivator. Invite a friend, family member, or colleague to join you in your physical activity.\n5. **Track your progress**: Use a fitness tracker, pedometer, or mobile app to monitor your progress. Seeing your accomplishments can be a great motivator and help you stay on track.\n6. **Make it convenient**: Incorporate physical activity into your daily routine, such as taking the stairs instead of the elevator, walking to work, or doing a few jumping jacks during commercial breaks while watching TV.\n7. **Seek professional help**: Consult with a doctor, personal trainer, or fitness coach to create a personalized exercise plan that suits your needs and abilities.\n8. **Focus on how you feel**: Instead of focusing on the exercise itself, focus on how it makes you feel. Regular physical activity can boost your mood, energy levels, and overall well-being.\n9. **Celebrate small victories**: Reward yourself for small achievements, such as completing a week of exercise or reaching a new personal best. This can help motivate you to continue and build momentum.\n10. **Be kind to yourself**: Remember that it's okay to have off days or miss a workout. Don't be too hard on yourself, and instead, focus on getting back on track as soon as possible.\n\nAdditionally, consider the following strategies to overcome a lack of motivation:\n\n1. **Set specific, achievable goals**: Break down larger goals into smaller, manageable objectives, such as exercising for 10 minutes a day, three times a week.\n2. **Create a positive environment**: Surround yourself with people who support and encourage your physical activity, and remove distractions that may hinder your progress.\n3. **Find intrinsic motivation**: Identify the reasons why you want to exercise, such as improving your health, feeling more confident, or having more energy. Connect with these reasons and let them drive your motivation.\n4. **Use positive self-talk**: Encourage yourself with positive affirmations, such as \"I can do this,\" \"I'm capable,\" or \"I'm strong.\"\n5. **Get enough sleep**: Aim for 7-9 hours of sleep per night to help regulate your mood, energy levels, and motivation.\n\nRemember, developing a regular exercise habit takes time, patience, and persistence. Start with small, achievable steps, and gradually build up to more significant challenges. With time and consistency, you can overcome a sedentary lifestyle and develop a more active, healthy routine.",
+  "extracted": {
+    "summary": "The response provides various strategies to improve physical health for someone with a sedentary lifestyle, focusing on small, enjoyable activities and building a routine.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "light physical activity",
+        "activity_type": "walking",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stretching",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "jumping jacks",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "walking",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "taking the stairs",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "indoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3312,
+  "extraction_output_tokens": 1008,
+  "extraction_from_cache": false
+}

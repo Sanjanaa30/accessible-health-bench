@@ -1,0 +1,95 @@
+{
+  "prompt_id": "cul_base_13",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Where is the best place to go for a run?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "I'd be happy to help you find a great place to run! However, I need a bit more context to give you the best recommendation.\n\n**Could you tell me:**\n- **Which city or area** you're in (or planning to visit)?\n- **What kind of run** you're looking for (trail, track, flat road, hilly, scenic, urban, quiet)?\n- **How far** you typically run?\n- **Any preferences** (e.g., avoid traffic, need water fountains, want a loop or out-and-back)?\n\nIn the meantime, here are some **general top picks** for running spots around the world:\n\n- **Central Park (New York City)** – Iconic loops, great scenery, and dedicated running paths.\n- **The Bund (Shanghai)** – Flat, scenic riverside path with skyline views.\n- **Bois de Boulogne (Paris)** – Large park with trails and a lake.\n- **Yoyogi Park (Tokyo)** – Popular for runners, with a nice loop.\n- **Hyde Park (London)** – Great mix of flat and gentle hills, plus Serpentine lake views.\n- **Beachfront paths** (e.g., Santa Monica, Copacabana, Bondi) – Soft sand or paved paths with ocean breezes.\n\nIf you share your location and preferences, I can give you a more specific and useful answer!",
+  "extracted": {
+    "summary": "The response provides general recommendations for popular running spots around the world and requests more specific information from the user.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": "Response is advisory and does not provide specific fitness or nutrition content."
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2839,
+  "extraction_output_tokens": 696,
+  "extraction_from_cache": false
+}

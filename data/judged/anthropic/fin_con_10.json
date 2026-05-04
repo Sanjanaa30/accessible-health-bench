@@ -1,0 +1,582 @@
+{
+  "prompt_id": "fin_con_10",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Govt Policy",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Govt Policy",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old. The total must be under $25 and every item must be 100% WIC-eligible (Women, Infants, and Children program",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# WIC-Eligible Grocery List Under $25\n\n## Proteins\n- **Eggs** (1 dozen) - $2.50\n- **Peanut butter** (18 oz) - $2.00\n- **Canned beans** (2 cans) - $1.00\n\n## Dairy\n- **Milk** (1 gallon) - $3.50\n- **Cheese** (8 oz block) - $2.50\n- **Yogurt** (32 oz) - $2.50\n\n## Grains\n- **Whole wheat bread** - $2.50\n- **Whole grain cereal** (low sugar) - $3.00\n- **Brown rice** (2 lb bag) - $1.50\n\n## Fruits & Vegetables\n- **Apples** (3 lb bag) - $2.00\n- **Bananas** (1 lb) - $0.60\n- **Carrots** (2 lb bag) - $1.00\n- **Canned pumpkin** (15 oz) - $0.80\n\n## Infant Formula/Cereal (if needed)\n- **Infant cereal** (8 oz) - $2.00\n\n**Total: ~$24.90**\n\n---\n\n## Tips\n- Check your state's WIC website for current approved brands\n- Prices vary by location; adjust quantities as needed\n- All items are soft/mashable for toddlers\n- Avoid honey for children under 1 year",
+  "extracted": {
+    "summary": "The response provides a healthy grocery list for a mother and a 2-year-old, ensuring all items are WIC-eligible and under $25.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "apples",
+      "bananas",
+      "brown rice",
+      "canned beans",
+      "canned pumpkin",
+      "cheese",
+      "eggs",
+      "infant cereal",
+      "milk",
+      "peanut butter",
+      "yogurt",
+      "whole grain cereal",
+      "whole wheat bread",
+      "carrots"
+    ],
+    "all_dishes_or_foods_named": [
+      "canned beans",
+      "canned pumpkin",
+      "infant cereal",
+      "peanut butter",
+      "yogurt",
+      "whole grain cereal",
+      "whole wheat bread",
+      "milk",
+      "cheese",
+      "eggs",
+      "brown rice",
+      "apples",
+      "bananas",
+      "carrots"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 24.9,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "wic"
+      ],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "family_with_children",
+      "ages_referenced": [
+        "2_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Prices vary by location; adjust quantities as needed."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2950,
+  "extraction_output_tokens": 883,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned pumpkin",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cheese",
+          "cuisines": [
+            "italian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "infant cereal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "milk",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole grain cereal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole wheat bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        }
+      ],
+      "matched_count": 9,
+      "total_count": 14,
+      "coverage_ratio": 0.6428571428571429,
+      "cuisine_distribution": {
+        "vegetarian": 3,
+        "global": 3,
+        "italian": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "indonesian": 1
+      },
+      "western_centricity_ratio": 0.071,
+      "western_tag_count": 1,
+      "total_tag_count": 14
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 14,
+      "matched_count": 4,
+      "unmatched_count": 10,
+      "coverage_ratio": 0.2857142857142857,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "cheese",
+          "matched_bls_item": "cheese, cheddar, natural",
+          "price_usd": 5.97,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000710212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "milk",
+          "matched_bls_item": "milk, fresh, whole, fortified",
+          "price_usd": 4.067,
+          "unit": "per_gallon",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000709112",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "whole wheat bread",
+          "matched_bls_item": "bread, whole wheat, pan",
+          "price_usd": 2.747,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "apples",
+        "bananas",
+        "canned beans",
+        "canned pumpkin",
+        "eggs",
+        "infant cereal",
+        "peanut butter",
+        "yogurt",
+        "whole grain cereal",
+        "carrots"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "ages_referenced(1)",
+      "household_size": 2,
+      "household_type": "family_with_children",
+      "ages_referenced": [
+        "2_year_old"
+      ],
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 40.92,
+        "low": 53.04,
+        "moderate": 66.48,
+        "liberal": 80.16
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": 24.9,
+      "response_cost_period_status": "normalized",
+      "response_cost_vs_thrifty_ratio": 0.609,
+      "classification": "well_below_thrifty"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 3,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a financial limit of $25 and specified WIC eligibility. The response provides a grocery list that totals approximately $24.90, which is within the budget, but it includes some items that may not be the cheapest options available, such as cheese and yogurt, without offering clear substitutions for more affordable alternatives. Additionally, while the response does mention WIC eligibility, it does not fully engage with the budget in a way that suggests a strong awareness of cost-saving measures.",
+      "details": {
+        "branch": "constrained",
+        "score": 3,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a financial limit of $25 and specified WIC eligibility. The response provides a grocery list that totals approximately $24.90, which is within the budget, but it includes some items that may not be the cheapest options available, such as cheese and yogurt, without offering clear substitutions for more affordable alternatives. Additionally, while the response does mention WIC eligibility, it does not fully engage with the budget in a way that suggests a strong awareness of cost-saving measures.",
+        "evidence_quote": "Total: ~$24.90",
+        "luxury_items_flagged": [
+          "cheese",
+          "yogurt"
+        ],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 3,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly stated a financial limit of $25 and specified WIC eligibility. The response provides a grocery list that totals approximately $24.90, which is within the budget, but it includes some items that may not be the cheapest options available, such as cheese and yogurt, without offering clear substitutions for more affordable alternatives. Additionally, while the response does mention WIC eligibility, it does not fully engage with the budget in a way that suggests a strong awareness of cost-saving measures.\",\n  \"evidence_quote\": \"Total: ~$24.90\",\n  \"luxury_items_flagged\": [\"cheese\", \"yogurt\"],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 4204,
+      "output_tokens": 178,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt. The response provides a reasonable grocery list that includes a variety of foods suitable for a mother and a toddler, which is appropriate for a general audience. The items listed are common and accessible, and the response does not dismiss any cultural variations. Overall, it offers sensible advice that a typical reader could engage with regardless of cultural background.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt. The response provides a reasonable grocery list that includes a variety of foods suitable for a mother and a toddler, which is appropriate for a general audience. The items listed are common and accessible, and the response does not dismiss any cultural variations. Overall, it offers sensible advice that a typical reader could engage with regardless of cultural background.",
+        "evidence_quote": "Total: ~$24.90",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt. The response provides a reasonable grocery list that includes a variety of foods suitable for a mother and a toddler, which is appropriate for a general audience. The items listed are common and accessible, and the response does not dismiss any cultural variations. Overall, it offers sensible advice that a typical reader could engage with regardless of cultural background.\",\n  \"evidence_quote\": \"Total: ~$24.90\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4625,
+      "output_tokens": 154,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The grocery list is largely feasible within the financial constraint of $25, but it does not fully account for the potential variability in prices and availability of WIC-eligible items. While the items listed are generally appropriate for a mother and a toddler, the plan does not provide specific guidance on how to adapt to potential local price differences or availability issues, which could lead to challenges in execution. Additionally, the list assumes that the user has access to a full grocery store with WIC options, which may not be the case for everyone.",
+      "details": {
+        "score": 3,
+        "reasoning": "The grocery list is largely feasible within the financial constraint of $25, but it does not fully account for the potential variability in prices and availability of WIC-eligible items. While the items listed are generally appropriate for a mother and a toddler, the plan does not provide specific guidance on how to adapt to potential local price differences or availability issues, which could lead to challenges in execution. Additionally, the list assumes that the user has access to a full grocery store with WIC options, which may not be the case for everyone.",
+        "evidence_quote": "Check your state's WIC website for current approved brands",
+        "time_fit": "not_applicable",
+        "equipment_match": "not_applicable",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "price variability",
+          "availability of WIC items"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The grocery list is largely feasible within the financial constraint of $25, but it does not fully account for the potential variability in prices and availability of WIC-eligible items. While the items listed are generally appropriate for a mother and a toddler, the plan does not provide specific guidance on how to adapt to potential local price differences or availability issues, which could lead to challenges in execution. Additionally, the list assumes that the user has access to a full grocery store with WIC options, which may not be the case for everyone.\",\n  \"evidence_quote\": \"Check your state's WIC website for current approved brands\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"not_applicable\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"price variability\", \"availability of WIC items\"]\n}",
+      "parse_error": null,
+      "input_tokens": 4051,
+      "output_tokens": 200,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "no",
+          "evidence": "Total: ~$24.90"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"no\",\n    \"evidence\": \"Total: ~$24.90\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4547,
+      "output_tokens": 235,
+      "from_cache": false
+    }
+  }
+}

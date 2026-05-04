@@ -1,0 +1,134 @@
+{
+  "prompt_id": "fin_con_01",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy breakfast. I have $5.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a simple and healthy breakfast idea that you can make for under $5:\n\n**Oatmeal with Fruit and Nuts**\n\n**Ingredients:**\n1. Rolled oats (1 cup) - about $0.50\n2. A banana or apple - about $0.50\n3. A tablespoon of peanut butter or almond butter - about $0.50\n4. A sprinkle of cinnamon (optional) - negligible cost\n5. Water or milk (for cooking oats) - negligible cost\n\n**Instructions:**\n1. Cook the rolled oats according to package instructions using water or milk.\n2. Slice the banana or apple and mix it into the cooked oats.\n3. Add a tablespoon of peanut butter or almond butter for healthy fats and protein.\n4. Sprinkle with cinnamon for added flavor.\n\n**Total cost:** Approximately $2.00 - $3.00, leaving you with some leftover for beverages like a cup of tea or coffee.\n\nThis breakfast is nutritious, filling, and provides a good balance of carbohydrates, healthy fats, and protein to keep you energized throughout the morning!",
+  "extracted": {
+    "summary": "The response suggests a healthy breakfast of oatmeal with fruit and nuts that can be made for under $5.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruit and nuts",
+        "ingredients": [
+          "rolled oats",
+          "banana",
+          "apple",
+          "peanut butter",
+          "almond butter",
+          "cinnamon",
+          "water",
+          "milk"
+        ],
+        "estimated_cost_usd": 3.0,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "rolled oats",
+      "banana",
+      "apple",
+      "peanut butter",
+      "almond butter",
+      "cinnamon",
+      "water",
+      "milk"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 3.0,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2825,
+  "extraction_output_tokens": 841,
+  "extraction_from_cache": false
+}

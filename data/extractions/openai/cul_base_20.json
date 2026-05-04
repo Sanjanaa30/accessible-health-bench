@@ -1,0 +1,263 @@
+{
+  "prompt_id": "cul_base_20",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily routine for a 70-year-old man.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a daily routine for a 70-year-old man should focus on maintaining physical health, mental wellness, social engagement, and personal interests. Here’s a balanced daily routine that can be adjusted based on individual health conditions, preferences, and lifestyle:\n\n### Morning\n\n**7:00 AM - Wake Up**\n- Start the day with gentle stretching or light yoga to improve flexibility and circulation.\n\n**7:30 AM - Breakfast**\n- A nutritious breakfast, such as oatmeal with fruits, whole grain toast with avocado, or a smoothie with greens and protein.\n\n**8:00 AM - Morning Walk**\n- A 20-30 minute walk in a nearby park or around the neighborhood to get fresh air and sunlight.\n\n### Mid-Morning\n\n**9:00 AM - Personal Care**\n- Shower, grooming, and dressing. Taking time for personal hygiene is important for self-esteem.\n\n**10:00 AM - Mental Stimulation**\n- Engage in activities like reading, doing crossword puzzles, or playing games (chess, card games) to keep the mind sharp.\n\n**11:00 AM - Social Interaction**\n- Call a friend or family member, or engage in a social activity (like visiting a senior center or participating in a club).\n\n### Afternoon\n\n**12:00 PM - Lunch**\n- A balanced meal with lean protein (chicken, fish, legumes), whole grains (brown rice, quinoa), and vegetables.\n\n**1:00 PM - Rest/Quiet Time**\n- A short nap or relaxation time to recharge.\n\n**2:00 PM - Hobby or Learning Activity**\n- Spend time on a hobby (gardening, knitting, painting) or take an online course to learn something new.\n\n**3:00 PM - Light Exercise**\n- Engage in light exercise or physical therapy exercises as recommended by a healthcare provider (e.g., tai chi, water aerobics).\n\n### Evening\n\n**4:00 PM - Snack Time**\n- Healthy snacks like nuts, yogurt, or fruit.\n\n**4:30 PM - Family Time or Social Activity**\n- Spend time with family, attend community events, or join a local group (book club, art class).\n\n**5:30 PM - Dinner**\n- A healthy dinner with a mix of protein, vegetables, and healthy fats.\n\n### Night\n\n**6:30 PM - Evening Walk or Relaxation**\n- Another short walk or engage in a calming activity like meditation or listening to music.\n\n**7:30 PM - Wind Down**\n- Limit screen time and engage in relaxing activities (reading, light stretching).\n\n**8:30 PM - Prepare for Bed**\n- Follow a calming bedtime routine, including dimming lights and avoiding caffeine.\n\n**9:00 PM - Sleep**\n- Aim for 7-8 hours of sleep for optimal rest and recovery.\n\n### Additional Tips:\n- **Stay Hydrated**: Drink water throughout the day.\n- **Monitor Health**: Keep track of any medications and regular health check-ups.\n- **Adapt as Needed**: Adjust activities based on energy levels and health conditions.\n- **Stay Connected**: Make an effort to connect with friends and family regularly.\n\nThis routine can serve as a guideline and can be tailored to fit individual preferences and needs. Always consult with a healthcare provider before starting any new exercise or dietary regimen.",
+  "extracted": {
+    "summary": "The response provides a balanced daily routine for a 70-year-old man, focusing on physical health, mental wellness, social engagement, and personal interests.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruits",
+        "ingredients": [
+          "oatmeal",
+          "fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "whole grain toast with avocado",
+        "ingredients": [
+          "whole grain toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie with greens and protein",
+        "ingredients": [
+          "greens",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "balanced meal",
+        "ingredients": [
+          "lean protein",
+          "whole grains",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "healthy snacks",
+        "ingredients": [
+          "nuts",
+          "yogurt",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "healthy dinner",
+        "ingredients": [
+          "protein",
+          "vegetables",
+          "healthy fats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "fruit",
+      "greens",
+      "healthy fats",
+      "lean protein",
+      "nuts",
+      "oatmeal",
+      "protein",
+      "vegetables",
+      "whole grain toast",
+      "whole grains",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with fruits",
+      "whole grain toast with avocado",
+      "smoothie with greens and protein",
+      "balanced meal",
+      "healthy snacks",
+      "healthy dinner"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "gentle stretching or light yoga",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "morning walk",
+        "activity_type": "walking",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Mid-Morning",
+        "activity_name": "mental stimulation activities",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Afternoon",
+        "activity_name": "light exercise or physical therapy exercises",
+        "activity_type": "rehab",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "evening walk or relaxation",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-morning",
+        "afternoon",
+        "evening",
+        "night"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [
+        "70_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3220,
+  "extraction_output_tokens": 1610,
+  "extraction_from_cache": false
+}

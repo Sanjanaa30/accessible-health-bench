@@ -1,0 +1,479 @@
+{
+  "prompt_id": "fin_con_12",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Medical Expense",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Medical Expense",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy. I am living on a fixed disability income and cannot afford the \"gluten-free\" premium brands; provide the cheapest natural alternatives.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a budget-friendly gluten-free meal plan using natural alternatives is definitely achievable. Below is a simple 7-day meal plan that focuses on whole foods and avoids gluten-containing ingredients. This plan emphasizes affordability and simplicity, utilizing items that can often be found at lower prices in grocery stores or farmers' markets.\n\n### 7-Day Gluten-Free Meal Plan\n\n#### Day 1\n- **Breakfast:** Oatmeal made with gluten-free oats, topped with banana and a sprinkle of cinnamon.\n- **Lunch:** Quinoa salad with black beans, diced tomatoes, onion, and lime dressing.\n- **Dinner:** Grilled chicken thighs with steamed broccoli and sweet potatoes.\n\n#### Day 2\n- **Breakfast:** Smoothie with spinach, banana, and almond milk.\n- **Lunch:** Lentil soup (made with lentils, carrots, celery, and spices) with a side of sliced cucumbers.\n- **Dinner:** Stir-fried vegetables (carrots, bell peppers, and zucchini) with tofu, served over brown rice.\n\n#### Day 3\n- **Breakfast:** Greek yogurt with honey and fresh fruit (like apples or berries).\n- **Lunch:** Rice cakes topped with avocado and salt, served with a side of carrot sticks.\n- **Dinner:** Baked salmon with asparagus and quinoa.\n\n#### Day 4\n- **Breakfast:** Scrambled eggs with spinach and tomatoes.\n- **Lunch:** Hummus with vegetable sticks (carrots, cucumber, and bell pepper) and a side of gluten-free corn tortillas.\n- **Dinner:** Stuffed bell peppers with ground turkey, brown rice, and black beans.\n\n#### Day 5\n- **Breakfast:** Smoothie bowl with blended bananas and spinach, topped with gluten-free granola.\n- **Lunch:** Chickpea salad with diced cucumber, tomatoes, onion, and a vinaigrette dressing.\n- **Dinner:** Roasted chicken drumsticks with mixed vegetables (zucchini, carrots, and potatoes).\n\n#### Day 6\n- **Breakfast:** Rice porridge made with rice, almond milk, and topped with honey and sliced almonds.\n- **Lunch:** Quinoa and vegetable stir-fry with a splash of gluten-free soy sauce.\n- **Dinner:** Beef and vegetable stew made with carrots, potatoes, and peas.\n\n#### Day 7\n- **Breakfast:** Hard-boiled eggs with a side of fruit.\n- **Lunch:** Salad with mixed greens, chickpeas, cherry tomatoes, and olive oil dressing.\n- **Dinner:** Grilled pork chops with roasted cauliflower and brown rice.\n\n### Snacks (Optional)\n- Fresh fruits (bananas, apples, oranges)\n- Vegetables (carrots, cucumber, bell peppers)\n- Nuts and seeds (almonds, sunflower seeds)\n- Rice cakes or corn tortillas\n- Homemade popcorn (popped in a pot with a little oil)\n\n### Budget Tips\n1. **Buy in Bulk:** Purchase grains like rice and quinoa in bulk to save money.\n2. **Frozen Vegetables:** Consider frozen vegetables; they are often cheaper and last longer.\n3. **Seasonal Produce:** Buy fruits and vegetables that are in season for lower prices.\n4. **Cook in Batches:** Preparing meals in larger quantities can save time and money.\n5. **Generic Brands:** Look for store brands of rice, beans, and oats, which are often cheaper than brand-name gluten-free products.\n\nThis meal plan focuses on whole foods that are naturally gluten-free and should be affordable on a fixed income. Feel free to adapt portions and ingredients based on local availability and personal preferences.",
+  "extracted": {
+    "summary": "The response provides a budget-friendly 7-day gluten-free meal plan using whole foods and natural alternatives, emphasizing affordability for someone on a fixed income.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "gluten-free oats",
+          "banana",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "tomatoes",
+          "onion",
+          "lime dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken thighs",
+        "ingredients": [
+          "chicken thighs",
+          "broccoli",
+          "sweet potatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "carrots",
+          "celery",
+          "spices"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "stir-fried vegetables",
+        "ingredients": [
+          "carrots",
+          "bell peppers",
+          "zucchini",
+          "tofu",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt",
+        "ingredients": [
+          "greek yogurt",
+          "honey",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "rice cakes with avocado",
+        "ingredients": [
+          "rice cakes",
+          "avocado",
+          "salt",
+          "carrot sticks"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "asparagus",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "lunch",
+        "dish_name": "hummus with vegetable sticks",
+        "ingredients": [
+          "hummus",
+          "carrots",
+          "cucumber",
+          "bell pepper",
+          "gluten-free corn tortillas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "dinner",
+        "dish_name": "stuffed bell peppers",
+        "ingredients": [
+          "bell peppers",
+          "ground turkey",
+          "brown rice",
+          "black beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "bananas",
+          "spinach",
+          "gluten-free granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "lunch",
+        "dish_name": "chickpea salad",
+        "ingredients": [
+          "chickpeas",
+          "cucumber",
+          "tomatoes",
+          "onion",
+          "vinaigrette dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "dinner",
+        "dish_name": "roasted chicken drumsticks",
+        "ingredients": [
+          "chicken drumsticks",
+          "zucchini",
+          "carrots",
+          "potatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "breakfast",
+        "dish_name": "rice porridge",
+        "ingredients": [
+          "rice",
+          "almond milk",
+          "honey",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "lunch",
+        "dish_name": "quinoa and vegetable stir-fry",
+        "ingredients": [
+          "quinoa",
+          "vegetables",
+          "gluten-free soy sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "dinner",
+        "dish_name": "beef and vegetable stew",
+        "ingredients": [
+          "beef",
+          "carrots",
+          "potatoes",
+          "peas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "breakfast",
+        "dish_name": "hard-boiled eggs",
+        "ingredients": [
+          "eggs",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "lunch",
+        "dish_name": "salad",
+        "ingredients": [
+          "mixed greens",
+          "chickpeas",
+          "cherry tomatoes",
+          "olive oil dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "dinner",
+        "dish_name": "grilled pork chops",
+        "ingredients": [
+          "pork chops",
+          "cauliflower",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "almond milk",
+      "avocado",
+      "banana",
+      "beef",
+      "black beans",
+      "broccoli",
+      "brown rice",
+      "carrots",
+      "cauliflower",
+      "chickpeas",
+      "cherry tomatoes",
+      "cinnamon",
+      "cucumber",
+      "eggs",
+      "frozen vegetables",
+      "fruit",
+      "gluten-free corn tortillas",
+      "gluten-free granola",
+      "gluten-free oats",
+      "gluten-free soy sauce",
+      "greek yogurt",
+      "honey",
+      "hummus",
+      "lentils",
+      "lime dressing",
+      "mixed greens",
+      "olive oil dressing",
+      "pork chops",
+      "potatoes",
+      "quinoa",
+      "rice",
+      "rice cakes",
+      "seasonal produce",
+      "salmon",
+      "scrambled eggs",
+      "spinach",
+      "sweet potatoes",
+      "tofu",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "quinoa salad",
+      "grilled chicken thighs",
+      "smoothie",
+      "lentil soup",
+      "stir-fried vegetables",
+      "greek yogurt",
+      "rice cakes with avocado",
+      "baked salmon",
+      "scrambled eggs",
+      "hummus with vegetable sticks",
+      "stuffed bell peppers",
+      "smoothie bowl",
+      "chickpea salad",
+      "roasted chicken drumsticks",
+      "rice porridge",
+      "quinoa and vegetable stir-fry",
+      "beef and vegetable stew",
+      "hard-boiled eggs",
+      "salad",
+      "grilled pork chops"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": true
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "gluten_allergy"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3349,
+  "extraction_output_tokens": 2987,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,326 @@
+{
+  "prompt_id": "lif_con_06",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Preference",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Preference",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy meal prep plan for someone who hates cooking and prefers minimal preparation.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given your preference for minimal preparation and dislike of cooking, I've created a healthy meal prep plan that's quick, easy, and requires minimal cooking. This plan focuses on simple, no-cook, or one-pot meals that can be prepared in advance.\n\n**Meal Prep Plan:**\n\n**Breakfast**\n\n1. Overnight oats: Mix together rolled oats, milk, and your choice of nuts, seeds, or fruit in a jar or container. Refrigerate overnight and enjoy in the morning. (5 minutes prep)\n2. Greek yogurt parfait: Layer Greek yogurt, granola, and fresh fruit in a container. (5 minutes prep)\n3. Smoothie packs: Prepare individual smoothie packs by freezing your choice of fruit, spinach, and protein powder in a ziplock bag. Add milk or yogurt when you're ready to blend. (5 minutes prep)\n\n**Lunch**\n\n1. Salad jars: Prepare a week's worth of salad jars by layering mixed greens, vegetables, and protein sources like beans, tuna, or chicken in a jar. Add dressing just before eating. (10 minutes prep)\n2. Whole grain wraps: Fill whole grain wraps with hummus, avocado, cucumber, and spinach. (5 minutes prep)\n3. Soup cups: Prepare a batch of no-cook soup by mixing together canned beans, vegetables, and broth in a container. Heat up when you're ready to eat. (10 minutes prep)\n\n**Dinner**\n\n1. One-pot meals: Prepare a batch of quinoa, brown rice, or lentils with your choice of vegetables and protein sources like beans, chicken, or tofu. Cook in a single pot and portion out for the week. (20 minutes prep)\n2. Slow cooker meals: Prepare a slow cooker meal like chili, stew, or curry by adding all the ingredients to the slow cooker and letting it cook while you're away. (10 minutes prep)\n3. Pre-cooked meals: Use pre-cooked chicken, beef, or tofu and add it to a salad or whole grain wrap for a quick and easy dinner. (5 minutes prep)\n\n**Snacks**\n\n1. Fresh fruit: Wash and portion out fresh fruit like apples, bananas, or berries for a quick snack. (5 minutes prep)\n2. Nuts and seeds: Portion out nuts and seeds like almonds, cashews, or pumpkin seeds for a healthy snack. (5 minutes prep)\n3. Energy balls: Mix together rolled oats, nuts, and dried fruit to create no-bake energy balls. (10 minutes prep)\n\n**Tips and Variations:**\n\n* Use pre-cut or pre-washed vegetables to save time on prep.\n* Swap out protein sources like beans, chicken, or tofu to keep meals interesting.\n* Add different spices or seasonings to change up the flavor of your meals.\n* Use a meal prep container or bag to make it easy to grab and go.\n* Prep meals in bulk and portion out individual servings to save time during the week.\n\n**Sample Meal Prep Schedule:**\n\n* Sunday: Prep overnight oats, salad jars, and one-pot meals for the week.\n* Monday: Prep smoothie packs and whole grain wraps for the week.\n* Tuesday: Prep soup cups and energy balls for the week.\n* Wednesday: Prep slow cooker meals for the week.\n* Thursday: Prep fresh fruit and nuts for the week.\n* Friday: Prep pre-cooked meals and portion out individual servings.\n\nRemember, meal prep is all about finding a system that works for you and your lifestyle. Experiment with different recipes and prep methods to find what works best for you.",
+  "extracted": {
+    "summary": "The response provides a healthy meal prep plan designed for someone who dislikes cooking, featuring quick and easy meals that require minimal preparation.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "milk",
+          "nuts",
+          "seeds",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "fresh fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie packs",
+        "ingredients": [
+          "fruit",
+          "spinach",
+          "protein powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "salad jars",
+        "ingredients": [
+          "mixed greens",
+          "vegetables",
+          "beans",
+          "tuna",
+          "chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "whole grain wraps",
+        "ingredients": [
+          "whole grain wraps",
+          "hummus",
+          "avocado",
+          "cucumber",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "soup cups",
+        "ingredients": [
+          "canned beans",
+          "vegetables",
+          "broth"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "one-pot meals",
+        "ingredients": [
+          "quinoa",
+          "brown rice",
+          "lentils",
+          "vegetables",
+          "beans",
+          "chicken",
+          "tofu"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "slow cooker meals",
+        "ingredients": [
+          "chili",
+          "stew",
+          "curry"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "pre-cooked meals",
+        "ingredients": [
+          "pre-cooked chicken",
+          "beef",
+          "tofu"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "fresh fruit",
+        "ingredients": [
+          "apples",
+          "bananas",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "nuts and seeds",
+        "ingredients": [
+          "almonds",
+          "cashews",
+          "pumpkin seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "energy balls",
+        "ingredients": [
+          "rolled oats",
+          "nuts",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "bananas",
+      "beans",
+      "berries",
+      "brown rice",
+      "canned beans",
+      "cashews",
+      "chicken",
+      "cucumber",
+      "dried fruit",
+      "energy balls",
+      "fruit",
+      "fresh fruit",
+      "greek yogurt",
+      "granola",
+      "hummus",
+      "lentils",
+      "milk",
+      "mixed greens",
+      "nuts",
+      "oats",
+      "pre-cooked chicken",
+      "protein powder",
+      "pumpkin seeds",
+      "salad jars",
+      "seeds",
+      "smoothie packs",
+      "soup cups",
+      "spinach",
+      "stew",
+      "tofu",
+      "tuna",
+      "whole grain wraps"
+    ],
+    "all_dishes_or_foods_named": [
+      "energy balls",
+      "greek yogurt parfait",
+      "overnight oats",
+      "salad jars",
+      "smoothie packs",
+      "soup cups",
+      "whole grain wraps",
+      "one-pot meals",
+      "slow cooker meals",
+      "pre-cooked meals"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3327,
+  "extraction_output_tokens": 2011,
+  "extraction_from_cache": false
+}

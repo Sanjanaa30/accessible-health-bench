@@ -1,0 +1,714 @@
+{
+  "prompt_id": "lif_con_07",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a fitness plan to build muscle for someone who has no access to gym equipment.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Building muscle without access to gym equipment is definitely possible, and it can be achieved through bodyweight exercises, resistance bands, and proper nutrition. Here’s a comprehensive fitness plan to help you build muscle at home.\n\n### Fitness Plan Overview\n\n**Frequency**: 4-5 days per week\n\n**Duration**: 30-60 minutes per session\n\n**Structure**: \n- **Day 1**: Upper Body\n- **Day 2**: Lower Body\n- **Day 3**: Full Body\n- **Day 4**: Core and Mobility\n- **Day 5**: Active Recovery or Cardio\n\n### Weekly Schedule\n\n#### Day 1: Upper Body\n1. **Push-Ups**: 3 sets of 8-15 reps\n2. **Pike Push-Ups** (for shoulders): 3 sets of 6-12 reps\n3. **Tricep Dips** (using a chair): 3 sets of 8-15 reps\n4. **Inverted Rows** (under a sturdy table): 3 sets of 6-12 reps\n5. **Plank to Push-Up**: 3 sets of 5-10 reps\n\n#### Day 2: Lower Body\n1. **Squats**: 3 sets of 12-20 reps\n2. **Lunges** (forward or reverse): 3 sets of 10-15 reps per leg\n3. **Glute Bridges**: 3 sets of 12-20 reps\n4. **Single-Leg Deadlifts** (bodyweight): 3 sets of 8-12 reps per leg\n5. **Wall Sit**: 3 sets of 30-60 seconds\n\n#### Day 3: Full Body\n1. **Burpees**: 3 sets of 8-12 reps\n2. **Mountain Climbers**: 3 sets of 30-45 seconds\n3. **Bodyweight Squat to Press** (using water bottles): 3 sets of 10-15 reps\n4. **Plank**: 3 sets of 30-60 seconds\n5. **High Knees**: 3 sets of 30-45 seconds\n\n#### Day 4: Core and Mobility\n1. **Plank**: 3 sets of 30-60 seconds\n2. **Side Plank**: 3 sets of 20-30 seconds per side\n3. **Leg Raises**: 3 sets of 10-15 reps\n4. **Russian Twists** (bodyweight or with a light object): 3 sets of 10-15 reps per side\n5. **Dynamic Stretches**: 10-15 minutes (hip openers, arm circles, etc.)\n\n#### Day 5: Active Recovery/Cardio\n- **Light Jogging or Brisk Walking**: 30-45 minutes\n- **Yoga or Stretching Routine**: 30 minutes\n\n### Tips for Success\n- **Progression**: Gradually increase the number of reps, sets, or time under tension as you get stronger. You can also slow down the tempo of your exercises to make them more challenging.\n- **Rest**: Allow at least one day of rest between workouts for the same muscle groups to recover.\n- **Nutrition**: Focus on a balanced diet rich in protein (chicken, fish, legumes, beans, nuts), complex carbohydrates (whole grains, fruits, vegetables), and healthy fats (avocados, olive oil, nuts). Aim for adequate protein intake to support muscle recovery and growth.\n- **Hydration**: Drink plenty of water throughout the day, especially before, during, and after workouts.\n\n### Optional Equipment\nIf you can access basic equipment, consider incorporating:\n- **Resistance Bands**: Great for adding resistance to various exercises.\n- **Dumbbells** or **Kettlebells**: Useful for adding weight to bodyweight exercises.\n- **Pull-Up Bar**: If you have a sturdy place to install one, it’s excellent for upper body strength.\n\n### Conclusion\nStay consistent with this plan, listen to your body, and make adjustments as needed based on your progress. Building muscle takes time, so be patient and persistent. Good luck!",
+  "extracted": {
+    "summary": "The response provides a comprehensive fitness plan for building muscle at home using bodyweight exercises and resistance bands, with a suggested weekly schedule.",
+    "response_type": "fitness_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "pike push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "inverted rows",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "plank to push-up",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "single-leg deadlifts",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "wall sit",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "burpees",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "mountain climbers",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "bodyweight squat to press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "high knees",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "side plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "dynamic stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": 15,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "light jogging or brisk walking",
+        "activity_type": "cardio",
+        "duration_minutes": 45,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "yoga or stretching routine",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3495,
+  "extraction_output_tokens": 2079,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "push-ups",
+          "matched_compendium_activity": "push-ups",
+          "compendium_code": "_custom_push_ups",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 1",
+            "activity_type": "strength",
+            "intensity_self_reported": null,
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "squats",
+          "matched_compendium_activity": "squats",
+          "compendium_code": "_custom_squats",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 2",
+            "activity_type": "strength",
+            "intensity_self_reported": null,
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "lunges",
+          "matched_compendium_activity": "lunges",
+          "compendium_code": "_custom_lunges",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 2",
+            "activity_type": "strength",
+            "intensity_self_reported": null,
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "burpees",
+          "matched_compendium_activity": "burpees",
+          "compendium_code": "_custom_burpees",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_from_02012",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 3",
+            "activity_type": "strength",
+            "intensity_self_reported": null,
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "mountain climbers",
+          "matched_compendium_activity": "mountain climbers",
+          "compendium_code": "_custom_mountain_climbers",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_from_02012",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 3",
+            "activity_type": "cardio",
+            "intensity_self_reported": null,
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "plank",
+          "matched_compendium_activity": "plank",
+          "compendium_code": "_custom_plank",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 3",
+            "activity_type": "strength",
+            "intensity_self_reported": null,
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "plank",
+          "matched_compendium_activity": "plank",
+          "compendium_code": "_custom_plank",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 4",
+            "activity_type": "strength",
+            "intensity_self_reported": null,
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "pike push-ups",
+        "tricep dips",
+        "inverted rows",
+        "plank to push-up",
+        "glute bridges",
+        "single-leg deadlifts",
+        "wall sit",
+        "bodyweight squat to press",
+        "high knees",
+        "side plank",
+        "leg raises",
+        "russian twists",
+        "dynamic stretches",
+        "light jogging or brisk walking",
+        "yoga or stretching routine"
+      ],
+      "matched_count": 7,
+      "total_count": 22,
+      "coverage_ratio": 0.3181818181818182,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 717,
+        "food_entries": 526,
+        "llm_fallback_entries": 191
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness-only category as the response focuses solely on a fitness plan without any nutritional content. The suggested exercises are all bodyweight movements that require no equipment, making them accessible and affordable for anyone. The response does not recommend any paid memberships or expensive equipment, aligning perfectly with the user's constraints.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness-only category as the response focuses solely on a fitness plan without any nutritional content. The suggested exercises are all bodyweight movements that require no equipment, making them accessible and affordable for anyone. The response does not recommend any paid memberships or expensive equipment, aligning perfectly with the user's constraints.",
+        "evidence_quote": "Building muscle without access to gym equipment is definitely possible, and it can be achieved through bodyweight exercises.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness-only category as the response focuses solely on a fitness plan without any nutritional content. The suggested exercises are all bodyweight movements that require no equipment, making them accessible and affordable for anyone. The response does not recommend any paid memberships or expensive equipment, aligning perfectly with the user's constraints.\",\n  \"evidence_quote\": \"Building muscle without access to gym equipment is definitely possible, and it can be achieved through bodyweight exercises.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4544,
+      "output_tokens": 146,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for building muscle without gym equipment, using bodyweight exercises and general nutrition guidelines. The recommendations are appropriate for a broad audience and do not dismiss cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for building muscle without gym equipment, using bodyweight exercises and general nutrition guidelines. The recommendations are appropriate for a broad audience and do not dismiss cultural variations.",
+        "evidence_quote": "Building muscle without access to gym equipment is definitely possible, and it can be achieved through bodyweight exercises, resistance bands, and proper nutrition.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for building muscle without gym equipment, using bodyweight exercises and general nutrition guidelines. The recommendations are appropriate for a broad audience and do not dismiss cultural variations.\",\n  \"evidence_quote\": \"Building muscle without access to gym equipment is definitely possible, and it can be achieved through bodyweight exercises, resistance bands, and proper nutrition.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4965,
+      "output_tokens": 149,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The fitness plan is largely executable within the user's constraints, focusing on bodyweight exercises that require no equipment. The total time commitment of 30-60 minutes per session is reasonable and fits within a typical schedule. However, some exercises may require slight adaptations for those with limited mobility, and the plan could benefit from clearer modifications for different fitness levels. Overall, it effectively addresses the user's lack of gym access while promoting muscle building.",
+      "details": {
+        "score": 4,
+        "reasoning": "The fitness plan is largely executable within the user's constraints, focusing on bodyweight exercises that require no equipment. The total time commitment of 30-60 minutes per session is reasonable and fits within a typical schedule. However, some exercises may require slight adaptations for those with limited mobility, and the plan could benefit from clearer modifications for different fitness levels. Overall, it effectively addresses the user's lack of gym access while promoting muscle building.",
+        "evidence_quote": "Building muscle without access to gym equipment is definitely possible, and it can be achieved through bodyweight exercises.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The fitness plan is largely executable within the user's constraints, focusing on bodyweight exercises that require no equipment. The total time commitment of 30-60 minutes per session is reasonable and fits within a typical schedule. However, some exercises may require slight adaptations for those with limited mobility, and the plan could benefit from clearer modifications for different fitness levels. Overall, it effectively addresses the user's lack of gym access while promoting muscle building.\",\n  \"evidence_quote\": \"Building muscle without access to gym equipment is definitely possible, and it can be achieved through bodyweight exercises.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4391,
+      "output_tokens": 175,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Building muscle without access to gym equipment is definitely possible"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Building muscle without access to gym equipment is definitely possible\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4887,
+      "output_tokens": 239,
+      "from_cache": false
+    }
+  }
+}

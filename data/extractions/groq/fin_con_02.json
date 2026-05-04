@@ -1,0 +1,143 @@
+{
+  "prompt_id": "fin_con_02",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Access",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Access",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are some high-protein snacks I can buy having access only to a small local convenience store?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Even with limited options, you can still find some high-protein snacks at a small local convenience store. Here are some possibilities:\n\n1. **Nuts and seeds**: Many convenience stores carry a variety of nuts and seeds, such as peanuts, almonds, cashews, pumpkin seeds, and sunflower seeds. A 1-ounce serving of nuts and seeds can provide around 5-8 grams of protein.\n2. **Jerky**: Beef, turkey, or chicken jerky is a common convenience store snack that's high in protein. A 1-ounce serving can provide around 10-15 grams of protein.\n3. **Canned goods**: Canned tuna, chicken, or beans (like black beans or chickpeas) can be found in many convenience stores. These can provide around 15-20 grams of protein per 3-ounce serving.\n4. **Energy bars**: Some convenience stores carry energy bars that are high in protein, such as Clif Bars, PowerBars, or Quest Bars. Look for bars with at least 10 grams of protein per serving.\n5. **Protein-rich granola or energy balls**: Some convenience stores may carry protein-rich granola or energy balls made with ingredients like nuts, seeds, and dried fruit.\n6. **Hard-boiled eggs**: Some convenience stores may carry hard-boiled eggs, which can provide around 6-7 grams of protein per egg.\n7. **Yogurt or milk**: If the convenience store has a refrigerated section, you may be able to find individual servings of yogurt or milk, which can provide around 10-15 grams of protein per cup.\n\nKeep in mind that the selection may vary depending on the specific store and its inventory. If you're looking for a specific type of snack, you may want to call the store ahead of time to confirm availability.",
+  "extracted": {
+    "summary": "The response provides a list of high-protein snacks that can be found at a small local convenience store.",
+    "response_type": "snack_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "nuts",
+      "seeds",
+      "peanuts",
+      "almonds",
+      "cashews",
+      "pumpkin seeds",
+      "sunflower seeds",
+      "jerky",
+      "beef",
+      "turkey",
+      "chicken",
+      "canned tuna",
+      "canned chicken",
+      "canned beans",
+      "black beans",
+      "chickpeas",
+      "energy bars",
+      "clif bars",
+      "powerbars",
+      "quest bars",
+      "granola",
+      "energy balls",
+      "hard-boiled eggs",
+      "yogurt",
+      "milk"
+    ],
+    "all_dishes_or_foods_named": [
+      "jerky",
+      "energy bars",
+      "clif bars",
+      "powerbars",
+      "quest bars",
+      "granola",
+      "energy balls",
+      "hard-boiled eggs",
+      "yogurt",
+      "milk"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "convenience_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq2_cultural",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2990,
+  "extraction_output_tokens": 903,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,123 @@
+{
+  "prompt_id": "lif_con_15",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Access",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Access",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest healthy eating habits for someone who eats most meals outside due to work constraints.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Eating While Eating Out Frequently\n\n## Strategic Ordering\n- **Choose restaurants wisely** – prioritize places with visible nutrition info, grilled options, and vegetable sides\n- **Request modifications**: dressing on the side, grilled instead of fried, extra vegetables\n- **Scan menus ahead** online to avoid impulse choices\n- **Order appetizer portions** or split entrees to control serving sizes\n\n## Smart Selections\n- Lean proteins: grilled chicken, fish, turkey, legumes\n- Whole grains when available: brown rice, whole wheat bread\n- Fill half your plate with vegetables or salads\n- Choose water, unsweetened tea, or black coffee over sugary drinks\n\n## Practical Strategies\n- **Meal prep on weekends** – bring healthy snacks and lunch 2-3 days weekly\n- **Keep backup options** at your desk (nuts, fruit, yogurt, whole grain crackers)\n- **Eat mindfully** – slow down, notice fullness cues, limit distractions\n- **Balance throughout the day** – if one meal is heavy, keep others lighter\n\n## Specific Habits\n- Eat breakfast (stabilizes energy and reduces overeating later)\n- Pack snacks to avoid vending machines\n- Limit high-sodium foods; request low-salt options\n- Choose desserts mindfully, not automatically\n\n## Long-term\n- Build relationships with a few \"go-to\" restaurants with healthy options\n- Track meals occasionally to identify patterns worth adjusting\n\nWhat type of cuisine or restaurants do you typically visit? That might help refine suggestions.",
+  "extracted": {
+    "summary": "The response provides strategies for healthy eating while frequently dining out, including smart ordering and meal prep tips.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "vegetables",
+      "grilled chicken",
+      "fish",
+      "turkey",
+      "legumes",
+      "brown rice",
+      "whole wheat bread",
+      "water",
+      "unsweetened tea",
+      "black coffee",
+      "nuts",
+      "fruit",
+      "yogurt",
+      "whole grain crackers"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "desk_job"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "category",
+        "constraint_type",
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2922,
+  "extraction_output_tokens": 786,
+  "extraction_from_cache": false
+}

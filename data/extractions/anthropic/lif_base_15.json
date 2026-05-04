@@ -1,0 +1,105 @@
+{
+  "prompt_id": "lif_base_15",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest healthy eating habits.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Eating Habits\n\n## Foundation Principles\n- **Eat whole foods** – fruits, vegetables, whole grains, lean proteins, healthy fats\n- **Control portions** – use smaller plates, listen to hunger cues\n- **Stay hydrated** – drink plenty of water throughout the day\n\n## Daily Practices\n- **Eat balanced meals** – include protein, fiber, and nutrients at each meal\n- **Prioritize vegetables** – aim for variety and color on your plate\n- **Choose whole grains** – brown rice, oats, quinoa over refined options\n- **Limit processed foods** – reduce added sugars, sodium, and unhealthy fats\n\n## Smart Choices\n- **Plan ahead** – meal prep to avoid impulsive unhealthy choices\n- **Read labels** – check ingredients and nutritional information\n- **Snack wisely** – nuts, yogurt, fruit instead of chips or candy\n- **Cook at home** – gives you control over ingredients and portions\n\n## Lifestyle Habits\n- **Eat mindfully** – slow down, chew well, enjoy your food\n- **Don't skip meals** – especially breakfast\n- **Limit sugary drinks** – water, tea, or unsweetened beverages instead\n- **Practice moderation** – occasional treats are okay; it's about balance\n\n## Getting Started\nPick 1-2 habits to focus on first, then gradually add more as they become routine.\n\nWould you like specific advice for your dietary needs or goals?",
+  "extracted": {
+    "summary": "The response provides a comprehensive guide on healthy eating habits, emphasizing whole foods, portion control, and mindful eating.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "fruits",
+      "vegetables",
+      "whole grains",
+      "lean proteins",
+      "healthy fats",
+      "nuts",
+      "yogurt",
+      "water",
+      "tea"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2846,
+  "extraction_output_tokens": 733,
+  "extraction_from_cache": false
+}

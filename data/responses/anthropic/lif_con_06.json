@@ -1,0 +1,21 @@
+{
+  "prompt_id": "lif_con_06",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Preference",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Preference",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy meal prep plan for someone who hates cooking and prefers minimal preparation.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# No-Fuss Meal Prep Plan\n\n## Strategy: Assembly Over Cooking\n\nInstead of cooking from scratch, focus on combining pre-made/minimally-processed ingredients.\n\n### Breakfast (5 min prep)\n- **Overnight oats**: Mix oats, yogurt, milk, berries (prep 3 jars Sunday)\n- **Egg muffins**: Buy pre-cooked or bake a batch once weekly\n- **Smoothie packs**: Freeze fruit + greens in bags, blend with yogurt\n\n### Lunch (0 prep)\n- **Rotisserie chicken** + bagged salad + olive oil dressing\n- **Canned tuna/salmon** + whole grain bread + pre-cut veggies\n- **Greek yogurt bowls** with granola and fruit\n- **Deli turkey wraps** with hummus and pre-cut vegetables\n\n### Dinner (10 min max)\n- Sheet pan meals: Frozen vegetables + pre-seasoned protein, roast 20 min\n- **Rice bowls**: Microwaveable rice + canned beans + salsa + rotisserie chicken\n- **Pasta**: Whole grain pasta + jarred pesto + cherry tomatoes + mozzarella\n- **Slow cooker**: Dump ingredients Sunday, eat all week\n\n### Snacks\n- String cheese, nuts, fruit, hard-boiled eggs (buy pre-made)\n- Hummus with pre-cut veggies\n\n## Shopping Hack\nBuy pre-prepped: rotisserie chicken, bagged salads, frozen vegetables, canned beans, microwaveable grains.\n\n**Time investment**: 1-2 hours Sunday = meals ready all week\n\nWhat type of foods do you actually enjoy?",
+  "input_tokens": 25,
+  "output_tokens": 402,
+  "from_cache": false,
+  "timestamp": "2026-04-26T23:07:26.024156"
+}

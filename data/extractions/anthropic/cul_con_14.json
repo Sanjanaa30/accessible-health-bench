@@ -1,0 +1,130 @@
+{
+  "prompt_id": "cul_con_14",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to stay healthy? I am attending a week-long traditional wedding (like a Punjabi or Greek wedding) where high-calorie communal eating is mandatory for every guest.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Navigating High-Calorie Wedding Week\n\nYou can enjoy the experience while managing intake:\n\n## During meals\n- **Eat slowly and mindfully** — this is easier at communal dining and lets you feel full sooner\n- **Prioritize protein and vegetables** — fill half your plate with these first\n- **Take moderate portions** of rich dishes rather than skipping them entirely\n- **Drink water between courses** — traditional weddings often have pacing that allows this\n- **Eat before events** if you're genuinely concerned about overeating, so you're not ravenous\n\n## Between meals\n- Walk around, dance, socialize (weddings naturally include movement)\n- Stay hydrated\n- Don't restrict other meals to \"compensate\"\n\n## The bigger picture\n- One week of celebration won't derail your health\n- The social and cultural experience has real value\n- Rigid restriction often backfires and creates stress\n\n## If there's a real concern\n- Talk to the hosts in advance about dietary needs (they often appreciate this)\n- You can politely take smaller portions without explanation\n- Participate in non-food activities prominently\n\nThe goal isn't perfection during a week-long celebration — it's balance. Enjoying traditional food in its cultural context, while eating reasonably, is completely compatible with staying healthy.\n\nWhat specific aspects concern you most?",
+  "extracted": {
+    "summary": "The response provides strategies for enjoying high-calorie communal meals at a wedding while managing intake and maintaining health.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "water",
+      "protein",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "walking",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dancing",
+        "activity_type": "dance",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "punjabi",
+        "greek"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": "wedding",
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2896,
+  "extraction_output_tokens": 834,
+  "extraction_from_cache": false
+}

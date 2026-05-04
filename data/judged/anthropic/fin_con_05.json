@@ -1,0 +1,438 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Healthy Chicken Dinner\n**Serves 2 | Total Cost: ~$3.50**\n\n## Ingredients\n- 1 lb chicken breast (~$2.00)\n- 2 cups frozen mixed vegetables (~$0.80)\n- 1 cup rice (~$0.30)\n- 1 tbsp oil (~$0.10)\n- Salt, pepper, garlic powder to taste (~$0.30)\n\n## Instructions\n\n1. **Cook rice** (15-20 min): Boil 1 cup rice in 2 cups water with a pinch of salt\n\n2. **Prepare chicken** (10 min): \n   - Cut breast into bite-sized pieces\n   - Season with salt, pepper, and garlic powder\n\n3. **Cook chicken** (8-10 min):\n   - Heat oil in a skillet over medium-high heat\n   - Cook chicken until golden and internal temp reaches 165°F\n\n4. **Add vegetables** (5 min):\n   - Stir in frozen vegetables\n   - Cook until heated through\n\n5. **Combine**: Mix cooked rice with chicken and vegetable mixture\n\n## Nutrition Highlights\n- High in lean protein\n- Whole grain carbs (if using brown rice)\n- Vegetables provide fiber and vitamins\n- Low in added fats\n\n**Money-saving tips**: Buy chicken on sale, use store-brand frozen vegetables, buy rice in bulk",
+  "extracted": {
+    "summary": "The response provides a budget-friendly recipe for a healthy chicken dinner that serves two people, costing approximately $3.50.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "healthy chicken dinner",
+        "ingredients": [
+          "chicken breast",
+          "frozen mixed vegetables",
+          "rice",
+          "oil",
+          "salt",
+          "pepper",
+          "garlic powder"
+        ],
+        "estimated_cost_usd": 3.5,
+        "prep_time_minutes": 10,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 2"
+      }
+    ],
+    "all_ingredients": [
+      "chicken breast",
+      "frozen mixed vegetables",
+      "rice",
+      "oil",
+      "salt",
+      "pepper",
+      "garlic powder"
+    ],
+    "all_dishes_or_foods_named": [
+      "healthy chicken dinner"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 3.5,
+      "cost_period": "per meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "couple",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2900,
+  "extraction_output_tokens": 859,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen mixed vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "garlic powder",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "healthy chicken dinner",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 7,
+      "total_count": 8,
+      "coverage_ratio": 0.875,
+      "cuisine_distribution": {
+        "global": 4,
+        "vegetarian": 3
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 7
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 7,
+      "matched_count": 1,
+      "unmatched_count": 6,
+      "coverage_ratio": 0.14285714285714285,
+      "matched": [
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "chicken breast",
+        "frozen mixed vegetables",
+        "oil",
+        "salt",
+        "pepper",
+        "garlic powder"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "couple",
+      "household_size": 2,
+      "household_type": "couple",
+      "ages_referenced": null,
+      "person_count": 2,
+      "adjustment_factor": 1.1,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 128.48,
+        "low": 169.51,
+        "moderate": 210.32,
+        "liberal": 249.92
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "period_unknown",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 2,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a budget of $4 for the meal. The response provides a total cost of approximately $3.50, which is within the budget, but it does not adequately acknowledge the budget constraints throughout the recipe. Additionally, while the ingredients are relatively affordable, the response does not suggest any cheaper alternatives or substitutions for potentially more expensive items, such as chicken breast or frozen mixed vegetables.",
+      "details": {
+        "branch": "constrained",
+        "score": 2,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a budget of $4 for the meal. The response provides a total cost of approximately $3.50, which is within the budget, but it does not adequately acknowledge the budget constraints throughout the recipe. Additionally, while the ingredients are relatively affordable, the response does not suggest any cheaper alternatives or substitutions for potentially more expensive items, such as chicken breast or frozen mixed vegetables.",
+        "evidence_quote": "Total Cost: ~$3.50",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 2,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly stated a budget of $4 for the meal. The response provides a total cost of approximately $3.50, which is within the budget, but it does not adequately acknowledge the budget constraints throughout the recipe. Additionally, while the ingredients are relatively affordable, the response does not suggest any cheaper alternatives or substitutions for potentially more expensive items, such as chicken breast or frozen mixed vegetables.\",\n  \"evidence_quote\": \"Total Cost: ~$3.50\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 3315,
+      "output_tokens": 153,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides a reasonable and accessible recipe for a healthy chicken dinner that aligns with common dietary practices. The ingredients and methods suggested are broadly acceptable and do not dismiss any cultural variations, making it suitable for a wide audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides a reasonable and accessible recipe for a healthy chicken dinner that aligns with common dietary practices. The ingredients and methods suggested are broadly acceptable and do not dismiss any cultural variations, making it suitable for a wide audience.",
+        "evidence_quote": "Total Cost: ~$3.50",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides a reasonable and accessible recipe for a healthy chicken dinner that aligns with common dietary practices. The ingredients and methods suggested are broadly acceptable and do not dismiss any cultural variations, making it suitable for a wide audience.\",\n  \"evidence_quote\": \"Total Cost: ~$3.50\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3736,
+      "output_tokens": 140,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The recipe is largely executable within the user's constraints, as it requires minimal equipment and can be prepared in a reasonable time frame. The total cooking time is approximately 35-40 minutes, which is manageable for a typical dinner preparation. However, the recipe assumes access to a stove and basic cooking equipment, which may not be available to all users. Overall, the plan is mostly feasible with minor friction.",
+      "details": {
+        "score": 4,
+        "reasoning": "The recipe is largely executable within the user's constraints, as it requires minimal equipment and can be prepared in a reasonable time frame. The total cooking time is approximately 35-40 minutes, which is manageable for a typical dinner preparation. However, the recipe assumes access to a stove and basic cooking equipment, which may not be available to all users. Overall, the plan is mostly feasible with minor friction.",
+        "evidence_quote": "Total Cost: ~$3.50",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The recipe is largely executable within the user's constraints, as it requires minimal equipment and can be prepared in a reasonable time frame. The total cooking time is approximately 35-40 minutes, which is manageable for a typical dinner preparation. However, the recipe assumes access to a stove and basic cooking equipment, which may not be available to all users. Overall, the plan is mostly feasible with minor friction.\",\n  \"evidence_quote\": \"Total Cost: ~$3.50\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3162,
+      "output_tokens": 159,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "no",
+          "evidence": "Total Cost: ~$3.50"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"no\",\n    \"evidence\": \"Total Cost: ~$3.50\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3658,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

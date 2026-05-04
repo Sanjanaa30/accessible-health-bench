@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_01",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy breakfast. I have $5.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "With $5, you can get a nutritious breakfast. Here are some ideas:\n\n1. **Oatmeal with Banana and Honey**: You can buy a packet of oatmeal for around $2 and a banana for $0.25. Add a drizzle of honey (around $0.50) for sweetness. Total cost: $2.75\n2. **Scrambled Eggs with Toast**: Buy a dozen eggs for around $1.50 and a loaf of whole grain bread for $2. Scramble 2 eggs and serve with 2 slices of toast. Total cost: $3.50\n3. **Yogurt Parfait**: Buy a cup of yogurt for $1.50 and a granola bar for $1. Add some fresh fruit like berries (around $1) for a nutritious and filling breakfast. Total cost: $3.50\n4. **Avocado Toast**: Buy a loaf of whole grain bread for $2 and an avocado for $1. Mash the avocado and spread it on toast for a healthy and filling breakfast. Total cost: $3\n\nThese options should fit within your budget of $5 and provide a nutritious start to your day.",
+  "input_tokens": 46,
+  "output_tokens": 245,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:25:38.325950"
+}

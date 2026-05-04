@@ -1,0 +1,166 @@
+{
+  "prompt_id": "lif_con_09",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Work",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Work",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest ways to stay physically active daily for someone with a desk job and chronic fatigue.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Realistic Movement Strategies for Desk Work + Fatigue\n\n## Micro-movements (minimal energy, high frequency)\n- **Desk stretches**: neck rolls, shoulder shrugs, wrist circles (2-3 min hourly)\n- **Seated exercises**: marching in place, seated twists, desk push-ups\n- **Standing breaks**: stand for calls, alternate sitting/standing desk positions\n- These add up without requiring motivation\n\n## Low-intensity options that conserve energy\n- **Gentle walks**: 10-minute breaks instead of one long session\n- **Swimming or water aerobics**: buoyancy reduces strain\n- **Tai chi or gentle yoga**: slower pace, builds strength gradually\n- **Stationary cycling**: controlled intensity, no impact\n\n## Realistic scheduling\n- **Aim for consistency over intensity** (15 min most days > sporadic hard workouts)\n- **Morning movement**: easier when energy is highest\n- **Post-lunch walks**: counteracts afternoon slump\n- **Track what actually happens**, not ideals—adjust accordingly\n\n## Energy management tips\n- Pair activity with something pleasant (music, podcast, scenery)\n- Start smaller than feels necessary—momentum often builds\n- Rest days are part of the plan, not failures\n- Monitor if activity helps or drains energy (varies individually)\n\n## When to adjust\nConsider consulting your doctor about whether fatigue might benefit from other interventions (sleep, nutrition, pacing strategies) alongside movement.\n\nWhat type of movement sounds most doable for your situation?",
+  "extracted": {
+    "summary": "The response provides strategies for staying physically active throughout the day, particularly for individuals with desk jobs and chronic fatigue, emphasizing low-intensity movements and energy management.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "desk stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": 3,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "gentle walks",
+        "activity_type": "walking",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "swimming or water aerobics",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "tai chi or gentle yoga",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stationary cycling",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "controlled",
+        "equipment_needed": [
+          "stationary bike"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "desk_job"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "chronic_fatigue"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2927,
+  "extraction_output_tokens": 1041,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,127 @@
+{
+  "prompt_id": "cul_con_08",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Religious",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Religious",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the health benefits of eating grains? Focus specifically on North American Indigenous \"Pre-Colonial\" grains like Wild Rice (Manoomin) and Corn.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "North American Indigenous \"pre-colonial\" grains, such as Wild Rice (Manoomin) and Corn, offer a variety of health benefits that have been recognized and utilized by Indigenous communities for centuries. Here are some of the key health benefits associated with these grains:\n\n### Wild Rice (Manoomin)\n\n1. **Nutrient-Dense**: Wild rice is rich in essential nutrients, including protein, fiber, vitamins (especially B vitamins), and minerals such as magnesium, phosphorus, and zinc. It provides a good source of energy and supports overall health.\n\n2. **High in Antioxidants**: Wild rice contains antioxidants that can help combat oxidative stress and reduce inflammation in the body, potentially lowering the risk of chronic diseases.\n\n3. **Supports Digestive Health**: The high fiber content in wild rice aids in digestion, promotes regular bowel movements, and can help prevent constipation. Fiber also supports gut health by promoting the growth of beneficial gut bacteria.\n\n4. **Low Glycemic Index**: Wild rice has a low glycemic index, which means it has a minimal impact on blood sugar levels. This makes it a suitable option for individuals managing diabetes or those looking to maintain stable energy levels.\n\n5. **Heart Health**: The nutrients in wild rice, including fiber and antioxidants, contribute to cardiovascular health by helping to lower cholesterol levels and reduce inflammation, thereby lowering the risk of heart disease.\n\n### Corn\n\n1. **Rich in Nutrients**: Corn is a good source of essential nutrients, including carbohydrates, fiber, vitamin C, certain B vitamins (such as thiamine and folate), and minerals like magnesium and potassium.\n\n2. **High in Fiber**: The fiber content in corn aids in digestion and helps maintain a healthy gut. It can also help manage weight by promoting a feeling of fullness.\n\n3. **Source of Antioxidants**: Corn has various antioxidants, including lutein and zeaxanthin, which are beneficial for eye health. These compounds help protect against age-related macular degeneration and cataracts.\n\n4. **Energy Source**: As a carbohydrate-rich food, corn provides a good source of energy, making it a staple in many diets. It is particularly beneficial for individuals involved in physical activities.\n\n5. **Versatile and Satiating**: Corn can be prepared in many ways (e.g., boiled, roasted, ground into masa for tortillas), making it a versatile food that can easily be incorporated into various meals, contributing to a balanced diet.\n\n### Cultural Significance\n\nBeyond their nutritional benefits, both wild rice and corn hold significant cultural importance for Indigenous communities. They are integral to traditional diets, agricultural practices, and cultural rituals, serving as symbols of identity and sustainability. The cultivation and harvesting of these grains often involve traditional ecological knowledge that promotes biodiversity and environmental stewardship.\n\n### Conclusion\n\nIncorporating North American Indigenous grains like Wild Rice and Corn into the diet can offer numerous health benefits, contributing to overall well-being while honoring the cultural heritage and practices of Indigenous peoples. These grains not only provide essential nutrients and health benefits but also embody the rich agricultural traditions of the Indigenous peoples of North America.",
+  "extracted": {
+    "summary": "North American Indigenous grains like Wild Rice and Corn provide various health benefits, including nutrient density, digestive support, and cultural significance.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "wild rice",
+      "corn",
+      "protein",
+      "fiber",
+      "vitamins",
+      "magnesium",
+      "phosphorus",
+      "zinc",
+      "antioxidants",
+      "carbohydrates",
+      "vitamin c",
+      "thiamine",
+      "folate",
+      "potassium"
+    ],
+    "all_dishes_or_foods_named": [
+      "wild rice",
+      "corn"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indigenous_north_american"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [
+        "wild rice",
+        "corn"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3264,
+  "extraction_output_tokens": 782,
+  "extraction_from_cache": false
+}

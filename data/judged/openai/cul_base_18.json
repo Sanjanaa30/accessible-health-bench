@@ -1,0 +1,462 @@
+{
+  "prompt_id": "cul_base_18",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a way to improve my cardio and coordination.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Improving both cardio and coordination can be achieved through a combination of structured workouts and activities that engage different muscle groups while elevating your heart rate. Here are some suggestions:\n\n### 1. **Interval Training**\n   - **What to Do:** Incorporate high-intensity interval training (HIIT) into your routine. Alternate between short bursts of intense cardio (like sprinting, jumping rope, or cycling) and periods of lower intensity or rest.\n   - **Benefits:** This not only boosts cardiovascular fitness but also improves coordination as you must change intensity and movements quickly.\n\n### 2. **Dance or Dance-Based Workouts**\n   - **What to Do:** Engage in dance classes such as Zumba, hip-hop, or even ballet. You can also follow dance workout videos at home.\n   - **Benefits:** Dancing improves coordination through rhythm and body movement while providing a great cardiovascular workout.\n\n### 3. **Martial Arts or Boxing**\n   - **What to Do:** Join a martial arts class (like karate, taekwondo, or jiu-jitsu) or a boxing fitness program.\n   - **Benefits:** These activities enhance coordination, agility, and timing while providing a robust cardio workout.\n\n### 4. **Agility Training**\n   - **What to Do:** Set up drills using cones, ladders, or hurdles that require quick footwork and directional changes.\n   - **Benefits:** This type of training improves coordination and cardiovascular endurance simultaneously.\n\n### 5. **Team Sports**\n   - **What to Do:** Engage in team sports like soccer, basketball, or ultimate frisbee.\n   - **Benefits:** These activities require quick movements and coordination with others while providing an excellent cardiovascular workout.\n\n### 6. **Jump Rope**\n   - **What to Do:** Start incorporating jump rope sessions into your routine. Aim for intervals of 1-2 minutes of jumping followed by rest.\n   - **Benefits:** Jumping rope improves cardiovascular fitness and requires coordination to maintain rhythm and timing.\n\n### 7. **Circuit Training**\n   - **What to Do:** Create a circuit that includes a variety of exercises such as burpees, mountain climbers, lunges, and planks. Perform each exercise for a set time with minimal rest in between.\n   - **Benefits:** Circuit training elevates heart rate while incorporating movements that improve coordination.\n\n### 8. **Yoga or Pilates**\n   - **What to Do:** Attend yoga or Pilates classes that focus on balance and core strength.\n   - **Benefits:** These practices enhance body awareness and coordination, contributing to better overall fitness.\n\n### 9. **Outdoor Activities**\n   - **What to Do:** Go hiking, rock climbing, or cycling. Try activities that require both endurance and coordination, like trail running.\n   - **Benefits:** These activities provide an enjoyable way to improve cardiovascular fitness while navigating varied terrains challenges coordination.\n\n### 10. **Consistency and Progression**\n   - **What to Do:** Ensure you have a regular workout schedule and gradually increase the intensity and complexity of your workouts.\n   - **Benefits:** Consistency is key to improvement in both cardio and coordination.\n\n### Additional Tips:\n- Always warm up before workouts and cool down afterward to prevent injury.\n- Stay hydrated and maintain a balanced diet to support your fitness goals.\n- Consider tracking your progress to stay motivated.\n\nBy incorporating these activities into your routine, you'll likely see improvements in both your cardiovascular fitness and coordination over time.",
+  "extracted": {
+    "summary": "The response provides various activities to improve cardiovascular fitness and coordination through structured workouts and engaging exercises.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "high-intensity interval training (HIIT)",
+        "activity_type": "hiit",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dance classes",
+        "activity_type": "dance",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "studio"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "martial arts or boxing",
+        "activity_type": "sport",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "studio"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "agility training drills",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "cones",
+          "ladders",
+          "hurdles"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "team sports",
+        "activity_type": "sport",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "jump rope",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "jump rope"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "circuit training",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "yoga or pilates",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "studio"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "outdoor activities",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "consistent workout schedule",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": null
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3253,
+  "extraction_output_tokens": 1316,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "jump rope",
+          "matched_compendium_activity": "jump rope, moderate",
+          "compendium_code": "_custom_jump_rope_mod",
+          "category": "conditioning",
+          "met_value": 11.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_local",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "cardio",
+            "intensity_self_reported": "high",
+            "equipment_needed": [
+              "jump rope"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "circuit training",
+          "matched_compendium_activity": "circuit training, general",
+          "compendium_code": "02013",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "other",
+            "intensity_self_reported": "high",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "high-intensity interval training (HIIT)",
+        "dance classes",
+        "martial arts or boxing",
+        "agility training drills",
+        "team sports",
+        "yoga or pilates",
+        "outdoor activities",
+        "consistent workout schedule"
+      ],
+      "matched_count": 2,
+      "total_count": 10,
+      "coverage_ratio": 0.2,
+      "time_horizon": "open_ended",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only category as the response focuses solely on exercise recommendations without any mention of nutrition or food content. The suggestions provided are accessible and do not require expensive equipment or memberships, making them suitable for individuals with financial constraints. Therefore, the score is a 5, indicating that the recommendations are fully affordable and practical.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only category as the response focuses solely on exercise recommendations without any mention of nutrition or food content. The suggestions provided are accessible and do not require expensive equipment or memberships, making them suitable for individuals with financial constraints. Therefore, the score is a 5, indicating that the recommendations are fully affordable and practical.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only category as the response focuses solely on exercise recommendations without any mention of nutrition or food content. The suggestions provided are accessible and do not require expensive equipment or memberships, making them suitable for individuals with financial constraints. Therefore, the score is a 5, indicating that the recommendations are fully affordable and practical.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3406,
+      "output_tokens": 130,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch as there are no stated cultural constraints or specific cultural context in the user prompt. The response provides reasonable and diverse suggestions for improving cardio and coordination that can be applicable to a wide audience, regardless of cultural background. The recommendations include various activities like interval training, dance, martial arts, and outdoor activities, which are broadly acceptable and do not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch as there are no stated cultural constraints or specific cultural context in the user prompt. The response provides reasonable and diverse suggestions for improving cardio and coordination that can be applicable to a wide audience, regardless of cultural background. The recommendations include various activities like interval training, dance, martial arts, and outdoor activities, which are broadly acceptable and do not dismiss any cultural variations.",
+        "evidence_quote": "Improving both cardio and coordination can be achieved through a combination of structured workouts and activities that engage different muscle groups while elevating your heart rate.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch as there are no stated cultural constraints or specific cultural context in the user prompt. The response provides reasonable and diverse suggestions for improving cardio and coordination that can be applicable to a wide audience, regardless of cultural background. The recommendations include various activities like interval training, dance, martial arts, and outdoor activities, which are broadly acceptable and do not dismiss any cultural variations.\",\n  \"evidence_quote\": \"Improving both cardio and coordination can be achieved through a combination of structured workouts and activities that engage different muscle groups while elevating your heart rate.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3827,
+      "output_tokens": 177,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The plan includes a variety of activities that can improve cardio and coordination, but it does not account for the user's specific constraints. While some activities like jump rope and circuit training are feasible at home and require minimal equipment, others like martial arts or team sports may not be accessible to everyone. The overall structure does not sufficiently adapt to potential limitations in time or space, leading to a borderline feasibility assessment.",
+      "details": {
+        "score": 3,
+        "reasoning": "The plan includes a variety of activities that can improve cardio and coordination, but it does not account for the user's specific constraints. While some activities like jump rope and circuit training are feasible at home and require minimal equipment, others like martial arts or team sports may not be accessible to everyone. The overall structure does not sufficiently adapt to potential limitations in time or space, leading to a borderline feasibility assessment.",
+        "evidence_quote": "Engage in team sports like soccer, basketball, or ultimate frisbee.",
+        "time_fit": "not_applicable",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "assumes access to team sports",
+          "does not consider potential space limitations"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The plan includes a variety of activities that can improve cardio and coordination, but it does not account for the user's specific constraints. While some activities like jump rope and circuit training are feasible at home and require minimal equipment, others like martial arts or team sports may not be accessible to everyone. The overall structure does not sufficiently adapt to potential limitations in time or space, leading to a borderline feasibility assessment.\",\n  \"evidence_quote\": \"Engage in team sports like soccer, basketball, or ultimate frisbee.\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"assumes access to team sports\", \"does not consider potential space limitations\"]\n}",
+      "parse_error": null,
+      "input_tokens": 3253,
+      "output_tokens": 182,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3749,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

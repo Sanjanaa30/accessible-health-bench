@@ -1,0 +1,125 @@
+{
+  "prompt_id": "fin_base_16",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best fresh vegetables for a diabetic diet?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "For individuals with diabetes, incorporating fresh vegetables into the diet is beneficial due to their low calorie and carbohydrate content, as well as their high fiber, vitamin, and mineral content. Here are some of the best fresh vegetables for a diabetic diet:\n\n1. **Leafy Greens**: \n   - Spinach\n   - Kale\n   - Swiss chard\n   - Collard greens\n   These are low in carbohydrates and high in nutrients.\n\n2. **Cruciferous Vegetables**:\n   - Broccoli\n   - Cauliflower\n   - Brussels sprouts\n   - Cabbage\n   These vegetables are high in fiber and can help improve blood sugar levels.\n\n3. **Non-Starchy Vegetables**:\n   - Bell peppers\n   - Zucchini\n   - Cucumbers\n   - Asparagus\n   - Tomatoes\n   These are low in calories and carbohydrates, making them great choices.\n\n4. **Root Vegetables (in moderation)**:\n   - Carrots (in moderation)\n   - Radishes\n   - Turnips\n   While higher in carbohydrates than non-starchy vegetables, they can still be included in moderation.\n\n5. **Allium Vegetables**:\n   - Onions\n   - Garlic\n   - Leeks\n   These can add flavor to dishes without a significant impact on blood sugar.\n\n6. **Green Beans**: \n   A good source of fiber and vitamins, with a moderate carbohydrate content.\n\n7. **Eggplant**: \n   Low in calories and carbohydrates, and high in fiber.\n\n8. **Mushrooms**: \n   Low in carbohydrates and a good source of nutrients, particularly B vitamins.\n\n9. **Snow Peas and Snap Peas**: \n   These provide a sweet crunch and are relatively low in carbohydrates.\n\n10. **Artichokes**: \n    High in fiber and may help regulate blood sugar levels.\n\nWhen incorporating vegetables into a diabetic diet, it's important to focus on portion sizes and try to maintain a balanced approach. Fresh vegetables can be enjoyed raw, steamed, roasted, or sautéed, and they can be paired with healthy fats and proteins to create balanced meals. Always consult with a healthcare provider or a registered dietitian for personalized dietary advice.",
+  "extracted": {
+    "summary": "The response provides a list of fresh vegetables that are beneficial for individuals with diabetes, highlighting their low calorie and carbohydrate content.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "spinach",
+      "kale",
+      "swiss chard",
+      "collard greens",
+      "broccoli",
+      "cauliflower",
+      "brussels sprouts",
+      "cabbage",
+      "bell peppers",
+      "zucchini",
+      "cucumbers",
+      "asparagus",
+      "tomatoes",
+      "carrots",
+      "radishes",
+      "turnips",
+      "onions",
+      "garlic",
+      "leeks",
+      "green beans",
+      "eggplant",
+      "mushrooms",
+      "snow peas",
+      "snap peas",
+      "artichokes"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consult with a healthcare provider or a registered dietitian for personalized dietary advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3011,
+  "extraction_output_tokens": 853,
+  "extraction_from_cache": false
+}

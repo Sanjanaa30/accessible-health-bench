@@ -1,0 +1,591 @@
+{
+  "prompt_id": "lif_base_01",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a healthy weekly meal plan.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a sample healthy weekly meal plan that includes breakfast, lunch, dinner, and snack options. This meal plan is tailored to provide approximately 2000 calories per day, with a balance of protein, healthy fats, and complex carbohydrates.\n\n**Monday**\n\n* Breakfast: Oatmeal with banana, almond butter, and a splash of low-fat milk (400 calories)\n* Lunch: Grilled chicken breast with quinoa, roasted vegetables, and a side salad with vinaigrette dressing (500 calories)\n* Dinner: Baked salmon with sweet potato, green beans, and a side of brown rice (500 calories)\n* Snack: Apple slices with peanut butter (150 calories)\n\n**Tuesday**\n\n* Breakfast: Greek yogurt with berries, granola, and a sprinkle of spinach (350 calories)\n* Lunch: Turkey and avocado wrap with mixed greens and a side of carrot sticks (550 calories)\n* Dinner: Grilled chicken breast with roasted broccoli, brown rice, and a side of steamed asparagus (500 calories)\n* Snack: Hard-boiled egg and cherry tomatoes (100 calories)\n\n**Wednesday**\n\n* Breakfast: Smoothie bowl with banana, spinach, almond milk, and almond butter topping (400 calories)\n* Lunch: Grilled chicken Caesar salad with whole wheat croutons (450 calories)\n* Dinner: Slow-cooker lentil soup with whole grain bread and a side salad (550 calories)\n* Snack: Cottage cheese with cucumber slices (150 calories)\n\n**Thursday**\n\n* Breakfast: Avocado toast with scrambled eggs and cherry tomatoes on whole grain bread (350 calories)\n* Lunch: Grilled chicken breast with mixed greens and a balsamic vinaigrette dressing, served with a side of quinoa (500 calories)\n* Dinner: Baked chicken thighs with roasted Brussels sprouts, sweet potato, and a side of brown rice (500 calories)\n* Snack: Rice cakes with almond butter and banana slices (150 calories)\n\n**Friday**\n\n* Breakfast: Overnight oats with almond milk, chia seeds, and fresh berries (400 calories)\n* Lunch: Turkey and cheese sandwich on whole grain bread with a side of carrot sticks (500 calories)\n* Dinner: Grilled shrimp with quinoa, roasted asparagus, and a side of steamed green beans (500 calories)\n* Snack: Greek yogurt with honey and almonds (150 calories)\n\n**Saturday**\n\n* Breakfast: Breakfast burrito with scrambled eggs, black beans, and avocado, wrapped in a whole grain tortilla (400 calories)\n* Lunch: Grilled chicken breast with mixed greens and a side of whole grain pita chips (500 calories)\n* Dinner: Baked chicken breast with roasted bell peppers, quinoa, and a side of steamed broccoli (500 calories)\n* Snack: Apple slices with cheddar cheese (150 calories)\n\n**Sunday**\n\n* Breakfast: Breakfast tacos with scrambled eggs, black beans, and avocado, served with a side of whole grain tortilla chips (400 calories)\n* Lunch: Turkey and cheese wrap with mixed greens and a side of carrot sticks (500 calories)\n* Dinner: Slow-cooker chicken stew with whole grain bread and a side salad (550 calories)\n* Snack: Hard-boiled egg and cherry tomatoes (100 calories)\n\n**Tips and Variations**\n\n* Drink at least 8 cups of water per day\n* Incorporate physical activity, such as walking or jogging, for at least 30 minutes per day\n* Swap out ingredients with similar alternatives to keep the meal plan interesting and tailored to your preferences\n* Consider meal prepping on the weekends to save time during the week\n* Adjust the portion sizes based on your individual calorie needs\n\nRemember, this meal plan is just a sample and may need to be adjusted based on your personal preferences, dietary needs, and lifestyle. Be sure to consult with a healthcare professional or registered dietitian before making any significant changes to your diet.",
+  "extracted": {
+    "summary": "The response provides a detailed healthy weekly meal plan with specific meals for each day, including breakfast, lunch, dinner, and snacks.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "almond butter",
+          "low-fat milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with quinoa",
+        "ingredients": [
+          "grilled chicken breast",
+          "quinoa",
+          "roasted vegetables",
+          "side salad",
+          "vinaigrette dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "baked salmon",
+          "sweet potato",
+          "green beans",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "apple slices with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "granola",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and avocado wrap",
+        "ingredients": [
+          "turkey",
+          "avocado",
+          "mixed greens",
+          "carrot sticks"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken breast with roasted broccoli",
+        "ingredients": [
+          "grilled chicken breast",
+          "roasted broccoli",
+          "brown rice",
+          "steamed asparagus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg and cherry tomatoes",
+        "ingredients": [
+          "hard-boiled egg",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "banana",
+          "spinach",
+          "almond milk",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken caesar salad",
+        "ingredients": [
+          "grilled chicken",
+          "caesar dressing",
+          "whole wheat croutons"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "slow-cooker lentil soup",
+        "ingredients": [
+          "lentils",
+          "whole grain bread",
+          "side salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with cucumber slices",
+        "ingredients": [
+          "cottage cheese",
+          "cucumber"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "avocado",
+          "eggs",
+          "cherry tomatoes",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with mixed greens",
+        "ingredients": [
+          "grilled chicken breast",
+          "mixed greens",
+          "balsamic vinaigrette",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken thighs",
+        "ingredients": [
+          "baked chicken thighs",
+          "roasted brussels sprouts",
+          "sweet potato",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "rice cakes with almond butter",
+        "ingredients": [
+          "rice cakes",
+          "almond butter",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "almond milk",
+          "chia seeds",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and cheese sandwich",
+        "ingredients": [
+          "turkey",
+          "cheese",
+          "whole grain bread",
+          "carrot sticks"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "grilled shrimp",
+        "ingredients": [
+          "grilled shrimp",
+          "quinoa",
+          "roasted asparagus",
+          "steamed green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey",
+        "ingredients": [
+          "greek yogurt",
+          "honey",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast burrito",
+        "ingredients": [
+          "eggs",
+          "black beans",
+          "avocado",
+          "whole grain tortilla"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with mixed greens",
+        "ingredients": [
+          "grilled chicken breast",
+          "mixed greens",
+          "whole grain pita chips"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken breast",
+        "ingredients": [
+          "baked chicken breast",
+          "roasted bell peppers",
+          "quinoa",
+          "steamed broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "apple slices with cheddar cheese",
+        "ingredients": [
+          "apple",
+          "cheddar cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast tacos",
+        "ingredients": [
+          "eggs",
+          "black beans",
+          "avocado",
+          "whole grain tortilla chips"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and cheese wrap",
+        "ingredients": [
+          "turkey",
+          "cheese",
+          "mixed greens",
+          "carrot sticks"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "slow-cooker chicken stew",
+        "ingredients": [
+          "chicken",
+          "whole grain bread",
+          "side salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg and cherry tomatoes",
+        "ingredients": [
+          "hard-boiled egg",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "apples",
+      "asparagus",
+      "avocado",
+      "baked chicken breast",
+      "baked chicken thighs",
+      "banana",
+      "berries",
+      "black beans",
+      "brown rice",
+      "brussels sprouts",
+      "carrot sticks",
+      "caesar dressing",
+      "cheddar cheese",
+      "chia seeds",
+      "chicken",
+      "cottage cheese",
+      "eggs",
+      "granola",
+      "greek yogurt",
+      "grilled chicken",
+      "grilled chicken breast",
+      "grilled shrimp",
+      "hard-boiled egg",
+      "honey",
+      "lentils",
+      "low-fat milk",
+      "mixed greens",
+      "oats",
+      "overnight oats",
+      "peanut butter",
+      "quinoa",
+      "rice cakes",
+      "roasted asparagus",
+      "roasted bell peppers",
+      "roasted broccoli",
+      "roasted vegetables",
+      "salad",
+      "side salad",
+      "side salad with vinaigrette dressing",
+      "slow-cooker chicken stew",
+      "slow-cooker lentil soup",
+      "spinach",
+      "sweet potato",
+      "turkey",
+      "turkey and cheese sandwich",
+      "turkey and cheese wrap",
+      "turkey and avocado wrap",
+      "whole grain bread",
+      "whole grain pita chips",
+      "whole grain tortilla",
+      "whole grain tortilla chips",
+      "whole wheat croutons"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "grilled chicken breast with quinoa",
+      "baked salmon",
+      "apple slices with peanut butter",
+      "greek yogurt with berries",
+      "turkey and avocado wrap",
+      "grilled chicken breast with roasted broccoli",
+      "hard-boiled egg and cherry tomatoes",
+      "smoothie bowl",
+      "grilled chicken caesar salad",
+      "slow-cooker lentil soup",
+      "cottage cheese with cucumber slices",
+      "avocado toast",
+      "grilled chicken breast with mixed greens",
+      "baked chicken thighs",
+      "rice cakes with almond butter",
+      "overnight oats",
+      "turkey and cheese sandwich",
+      "grilled shrimp",
+      "greek yogurt with honey",
+      "breakfast burrito",
+      "grilled chicken breast with mixed greens",
+      "baked chicken breast",
+      "apple slices with cheddar cheese",
+      "breakfast tacos",
+      "turkey and cheese wrap",
+      "slow-cooker chicken stew",
+      "hard-boiled egg and cherry tomatoes"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "This meal plan is just a sample and may need to be adjusted based on your personal preferences, dietary needs, and lifestyle. Be sure to consult with a healthcare professional or registered dietitian before making any significant changes to your diet."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3319,
+  "extraction_output_tokens": 3839,
+  "extraction_from_cache": false
+}

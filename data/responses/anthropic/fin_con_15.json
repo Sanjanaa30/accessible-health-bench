@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_15",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the best superfoods for heart health and energy? I can only shop at a food pantry that mostly provides canned goods and dry grains.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "Good news—you can build heart-healthy, energizing meals from pantry staples:\n\n**Canned goods to prioritize:**\n- **Beans** (black, kidney, pinto) - fiber, protein, minerals\n- **Fish** (sardines, canned salmon) - omega-3s are excellent for heart health\n- **Tomatoes** - lycopene and potassium\n- **Vegetables** (carrots, green beans, peas) - nutrients and fiber\n\n**Dry grains:**\n- **Oats** - soluble fiber helps cholesterol\n- **Brown rice** - B vitamins for energy\n- **Whole wheat pasta** - sustained energy\n- **Lentils/split peas** - protein + fiber combo\n\n**Practical combinations:**\n- Bean + grain meals (rice and beans, lentil soup)\n- Canned fish on whole grain toast\n- Oatmeal with canned fruit if available\n\n**Budget tip:** Beans and grains together create complete proteins, so you get more nutritional value per dollar.\n\n**One caution:** Canned goods can be high in sodium. If you have access to rinsing water, draining and rinsing canned beans/vegetables reduces salt by ~40%.\n\nDoes your pantry sometimes have fresh items, or access to any frozen vegetables? That would add options. Also worth asking pantry staff if they have whole grain options—some do.",
+  "input_tokens": 40,
+  "output_tokens": 322,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:41:15.389250"
+}

@@ -1,0 +1,190 @@
+{
+  "prompt_id": "fin_con_20",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Bulk/Cheap prices",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Bulk/Cheap prices",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I get enough fiber in my daily diet using only the cheapest bulk grains and legumes?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Incorporating fiber into your daily diet using inexpensive bulk grains and legumes is a great way to improve your overall health while keeping costs low. Here are some effective strategies and suggestions:\n\n### 1. **Choose High-Fiber Grains:**\n   - **Oats:** Rolled or steel-cut oats are affordable and high in fiber. A bowl of oatmeal for breakfast is a great start.\n   - **Brown Rice:** A whole grain that is cheap in bulk. It can be used as a base for many dishes.\n   - **Barley:** A nutritious, fiber-rich grain that can be added to soups or salads.\n   - **Quinoa:** While slightly more expensive than other grains, it’s a complete protein and high in fiber. Look for sales or buy in bulk to save costs.\n\n### 2. **Incorporate Legumes:**\n   - **Lentils:** Very high in fiber and protein, they cook quickly and can be used in soups, stews, or salads.\n   - **Chickpeas (Garbanzo Beans):** Buy dried chickpeas in bulk; they are versatile for making hummus, salads, or curries.\n   - **Black Beans and Pinto Beans:** Both are inexpensive, high in fiber, and can be used in various dishes, including burritos, soups, and stews.\n   - **Split Peas:** Great for making soups and very high in fiber.\n\n### 3. **Combine Grains and Legumes:**\n   - Create meals that combine both grains and legumes for a fiber boost. For example, you can make a grain bowl with brown rice and black beans, topped with vegetables.\n\n### 4. **Use Whole Grain Bread and Pasta:**\n   - Look for whole grain bread and pasta options. They are usually affordable, especially if you buy in bulk or on sale.\n\n### 5. **Snack Smart:**\n   - Make snacks from whole grains and legumes. For example, roasted chickpeas or popcorn (air-popped) can be healthy and high-fiber snacks.\n\n### 6. **Incorporate Vegetables:**\n   - Although this focuses on grains and legumes, adding vegetables to your diet will also help increase fiber intake. Look for affordable options like carrots, broccoli, and leafy greens.\n\n### 7. **Meal Prep:**\n   - Cook large batches of grains and legumes at the beginning of the week to make it easier to add them to meals. Store them in the fridge or freezer for quick use.\n\n### 8. **Monitor Fiber Intake:**\n   - Aim for a gradual increase in fiber intake to prevent digestive discomfort. The recommended daily fiber intake is around 25 grams for women and 38 grams for men.\n\n### Sample Meal Ideas:\n- **Breakfast:** Oatmeal topped with fruits or nuts.\n- **Lunch:** A salad with quinoa, black beans, and mixed vegetables.\n- **Dinner:** A stir-fry with brown rice, lentils, and assorted vegetables.\n- **Snacks:** Hummus made from chickpeas with carrot sticks or air-popped popcorn.\n\nBy focusing on these strategies and utilizing bulk grains and legumes, you’ll be able to meet your fiber needs economically.",
+  "extracted": {
+    "summary": "The response provides strategies for incorporating fiber into a diet using inexpensive bulk grains and legumes, including meal ideas and snack suggestions.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "mixed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fry",
+        "ingredients": [
+          "brown rice",
+          "lentils",
+          "assorted vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hummus with carrot sticks",
+        "ingredients": [
+          "chickpeas",
+          "carrots"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "air-popped popcorn",
+        "ingredients": [
+          "popcorn"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "air-fryer",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "oats",
+      "brown rice",
+      "barley",
+      "quinoa",
+      "lentils",
+      "chickpeas",
+      "black beans",
+      "pinto beans",
+      "split peas",
+      "mixed vegetables",
+      "carrots",
+      "broccoli",
+      "leafy greens",
+      "popcorn"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "quinoa salad",
+      "stir-fry",
+      "hummus",
+      "air-popped popcorn"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "bulk_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3267,
+  "extraction_output_tokens": 1170,
+  "extraction_from_cache": false
+}

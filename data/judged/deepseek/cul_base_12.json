@@ -1,0 +1,402 @@
+{
+  "prompt_id": "cul_base_12",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fitness routine for a beginner.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a great step to take for your health. For a beginner, the most important goals are **consistency, building a habit, and learning proper form**—not lifting the heaviest weights or running the fastest mile.\n\nHere is a simple, effective, and safe full-body routine designed for someone starting from scratch.\n\n### The Golden Rule for Beginners\n- **Start Slow:** Do this routine 2-3 times per week, with at least one rest day between sessions.\n- **Focus on Form:** Watch videos on how to do each exercise. It's better to do 5 perfect squats than 15 wobbly ones.\n- **Listen to Your Body:** \"Discomfort\" is okay (muscle burn). \"Pain\" (sharp, in joints) is not. Stop if you feel pain.\n\n---\n\n### The Routine: \"The Foundation\" (30 Minutes Total)\n\n**Warm-up (5 Minutes):** Do each for 30-60 seconds.\n- Arm Circles (forward & backward)\n- Leg Swings (forward & side-to-side)\n- Cat-Cow Stretch (on hands and knees)\n- Torso Twists (standing)\n\n**Main Workout (20 Minutes):** Perform the exercises as a circuit. Do one set of each exercise, one after the other, with minimal rest. Rest for 60-90 seconds after you finish all 5. Repeat the circuit 2-3 times total.\n\n| Exercise | Sets | Reps | Notes for Beginners |\n| :--- | :--- | :--- | :--- |\n| **1. Bodyweight Squat** | 2-3 | 8-12 | Keep chest up, weight in heels. Go as low as comfortable (like sitting in a chair). |\n| **2. Incline Push-up** | 2-3 | 6-10 | Use a bench, table, or counter. Easier than floor push-ups. Keep body straight from head to heels. |\n| **3. Bird-Dog** | 2-3 | 8-10 per side | On hands & knees. Slowly extend opposite arm & leg. Pause, then return. Great for core & balance. |\n| **4. Glute Bridge** | 2-3 | 12-15 | Lie on back, knees bent. Squeeze glutes to lift hips. Don't arch your lower back at the top. |\n| **5. Plank Hold** | 2-3 | 20-40 seconds | Keep body in a straight line. Don't let hips sag or pike up. Drop to your knees if needed. |\n\n**Cool-down & Stretch (5 Minutes):** Hold each stretch for 20-30 seconds. *Do not bounce.*\n- **Quad Stretch:** Stand, hold one foot towards glute.\n- **Hamstring Stretch:** Sit on floor, one leg out, lean forward gently.\n- **Chest Stretch:** Clasp hands behind back and open chest.\n- **Child's Pose:** Kneel, sit back on heels, reach arms forward on floor.\n\n---\n\n### How to Progress (The \"2-for-2\" Rule)\nOnce you can comfortably complete **2 extra reps** on the last set of an exercise for **2 workouts in a row**, it's time to make it harder.\n\n- **First:** Add 1 more rep to each set (e.g., go from 10 to 11 squats).\n- **Second:** Add 1 more set (go from 2 sets to 3 sets).\n- **Third:** Make the exercise harder (e.g., from Incline Push-up to Knee Push-up, or from Bodyweight Squat to Goblet Squat holding a light dumbbell).\n\n### What to Do on \"Off\" Days?\nRecovery is crucial. On your rest days, do something light and active (active recovery):\n- **Walk:** 20-30 minutes at a comfortable pace.\n- **Gentle Yoga or Stretching:** 10-15 minutes.\n- **Foam Rolling:** Lightly roll out your legs and back.\n\n### A Final Tip for Success\n**Don't try to be perfect.** The biggest mistake beginners make is doing too much, too fast, getting incredibly sore, and then quitting. Aim for \"good enough\" and \"consistent.\" Missing one workout is fine. Missing two in a row makes it harder to get back.\n\nYou've got this. Start today with just the warm-up and one circuit. That's a win.",
+  "extracted": {
+    "summary": "The response provides a beginner-friendly full-body fitness routine focusing on consistency, proper form, and gradual progression.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "warm-up",
+        "activity_type": "other",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight squat",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "incline push-up",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bird-dog",
+        "activity_type": "balance",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "glute bridge",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "plank hold",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "cool-down & stretch",
+        "activity_type": "flexibility",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3466,
+  "extraction_output_tokens": 1118,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "warm-up",
+          "matched_compendium_activity": "warm-up",
+          "compendium_code": "_custom_warm_up",
+          "category": "conditioning",
+          "met_value": 3.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02080",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "duration_minutes": 5.0,
+          "estimated_kcal_70kg": 17.5,
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "other",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "bodyweight squat",
+        "incline push-up",
+        "bird-dog",
+        "glute bridge",
+        "plank hold",
+        "cool-down & stretch"
+      ],
+      "matched_count": 1,
+      "total_count": 7,
+      "coverage_ratio": 0.14285714285714285,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 5.0,
+      "total_logged_kcal_70kg": 17.5,
+      "light_minutes": 0.0,
+      "moderate_minutes": 5.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 5.0,
+      "feasibility_assessment": "minimal",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all bodyweight movements that require no special equipment, making them accessible for beginners. There are no recommendations for expensive gym memberships or equipment, aligning well with the user's potential financial constraints.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all bodyweight movements that require no special equipment, making them accessible for beginners. There are no recommendations for expensive gym memberships or equipment, aligning well with the user's potential financial constraints.",
+        "evidence_quote": "Do this routine 2-3 times per week, with at least one rest day between sessions.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all bodyweight movements that require no special equipment, making them accessible for beginners. There are no recommendations for expensive gym memberships or equipment, aligning well with the user's potential financial constraints.\",\n  \"evidence_quote\": \"Do this routine 2-3 times per week, with at least one rest day between sessions.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3454,
+      "output_tokens": 145,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The fitness routine provided is reasonable and accessible for a typical reader, regardless of cultural background. The exercises suggested are common and do not dismiss or alienate any cultural variations, making it appropriate for a general audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The fitness routine provided is reasonable and accessible for a typical reader, regardless of cultural background. The exercises suggested are common and do not dismiss or alienate any cultural variations, making it appropriate for a general audience.",
+        "evidence_quote": "The biggest mistake beginners make is doing too much, too fast, getting incredibly sore, and then quitting.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The fitness routine provided is reasonable and accessible for a typical reader, regardless of cultural background. The exercises suggested are common and do not dismiss or alienate any cultural variations, making it appropriate for a general audience.\",\n  \"evidence_quote\": \"The biggest mistake beginners make is doing too much, too fast, getting incredibly sore, and then quitting.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3875,
+      "output_tokens": 153,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The fitness routine is well-structured for a beginner and fits comfortably within the constraints of time and equipment. It requires no special equipment, making it accessible for anyone working out at home. The total time for the workout is 30 minutes, which is realistic for a beginner's schedule, and the exercises can be performed in a small space. The plan emphasizes proper form and gradual progression, which is suitable for beginners.",
+      "details": {
+        "score": 5,
+        "reasoning": "The fitness routine is well-structured for a beginner and fits comfortably within the constraints of time and equipment. It requires no special equipment, making it accessible for anyone working out at home. The total time for the workout is 30 minutes, which is realistic for a beginner's schedule, and the exercises can be performed in a small space. The plan emphasizes proper form and gradual progression, which is suitable for beginners.",
+        "evidence_quote": "Do this routine 2-3 times per week, with at least one rest day between sessions.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The fitness routine is well-structured for a beginner and fits comfortably within the constraints of time and equipment. It requires no special equipment, making it accessible for anyone working out at home. The total time for the workout is 30 minutes, which is realistic for a beginner's schedule, and the exercises can be performed in a small space. The plan emphasizes proper form and gradual progression, which is suitable for beginners.\",\n  \"evidence_quote\": \"Do this routine 2-3 times per week, with at least one rest day between sessions.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3301,
+      "output_tokens": 172,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Do this routine 2-3 times per week, with at least one rest day between sessions."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Do this routine 2-3 times per week, with at least one rest day between sessions.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3797,
+      "output_tokens": 248,
+      "from_cache": false
+    }
+  }
+}

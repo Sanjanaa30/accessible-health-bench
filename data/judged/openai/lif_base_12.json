@@ -1,0 +1,931 @@
+{
+  "prompt_id": "lif_base_12",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a weight management plan.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a weight management plan involves several key components, including dietary changes, physical activity, behavioral strategies, and ongoing monitoring. Below is a comprehensive plan that can be customized to individual needs and preferences.\n\n### Weight Management Plan\n\n#### 1. Set Clear Goals\n- **Short-Term Goals:** Aim for a realistic weight loss of 1-2 pounds per week. \n- **Long-Term Goals:** Establish a target weight that is healthy for your height and body type, and set a timeframe to reach it (e.g., 6 months to 1 year).\n\n#### 2. Dietary Changes\n- **Balanced Diet:**\n  - **Fruits and Vegetables:** Aim for at least 5 servings per day. Choose a variety of colors to ensure a wide range of nutrients.\n  - **Whole Grains:** Incorporate whole grains like brown rice, quinoa, and whole wheat bread.\n  - **Lean Proteins:** Include sources such as chicken, turkey, fish, beans, tofu, and legumes.\n  - **Healthy Fats:** Focus on unsaturated fats found in avocados, nuts, seeds, and olive oil, while limiting saturated and trans fats.\n  \n- **Portion Control:**\n  - Use smaller plates and bowls to help control portion sizes.\n  - Be mindful of serving sizes, especially for high-calorie foods.\n\n- **Meal Planning:**\n  - Plan meals and snacks ahead of time to avoid impulsive eating.\n  - Prepare a grocery list based on healthy recipes to avoid buying unhealthy options.\n\n- **Hydration:**\n  - Drink plenty of water throughout the day. Aim for at least 8 cups (64 ounces) or more, depending on activity level.\n  - Limit sugary drinks and alcohol.\n\n#### 3. Physical Activity\n- **Exercise Routine:**\n  - Aim for at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity each week. Activities can include walking, jogging, cycling, swimming, or group fitness classes.\n  - Incorporate strength training exercises at least two days a week to build muscle and boost metabolism.\n\n- **Daily Activity:**\n  - Increase daily physical activity by taking the stairs, walking or biking instead of driving, and incorporating short exercise breaks throughout the day.\n\n#### 4. Behavioral Strategies\n- **Mindful Eating:**\n  - Practice mindfulness by eating slowly, savoring each bite, and paying attention to hunger and fullness cues.\n  \n- **Food Diary:**\n  - Keep a food diary to track what and when you eat. This can help identify eating patterns and areas for improvement.\n\n- **Support System:**\n  - Engage family and friends for support. Consider joining a weight loss group or working with a registered dietitian or nutritionist for guidance.\n\n- **Stress Management:**\n  - Implement stress-reduction techniques such as yoga, meditation, or deep breathing exercises, as stress can lead to emotional eating.\n\n#### 5. Monitoring Progress\n- **Regular Weigh-Ins:**\n  - Weigh yourself weekly at the same time of day to track progress. \n  - Focus on trends over time rather than daily fluctuations.\n\n- **Adjustments:**\n  - Be willing to adjust your plan as needed based on your progress and any challenges you encounter.\n\n- **Celebrate Milestones:**\n  - Celebrate non-food-related milestones (like completing a workout or hitting a weight loss goal) to maintain motivation.\n\n### Example Weekly Meal Plan\n\n**Day 1:**\n- Breakfast: Overnight oats with berries and almond milk\n- Snack: Greek yogurt with honey\n- Lunch: Grilled chicken salad with mixed greens and vinaigrette\n- Snack: Carrot sticks with hummus\n- Dinner: Baked salmon with quinoa and steamed broccoli\n\n**Day 2:**\n- Breakfast: Smoothie with spinach, banana, and protein powder\n- Snack: Apple slices with almond butter\n- Lunch: Turkey wrap with whole grain tortilla and veggies\n- Snack: Cottage cheese with pineapple\n- Dinner: Stir-fried tofu with mixed vegetables and brown rice\n\nRepeat this structure with different meals throughout the week for variety.\n\n### Conclusion\nThis weight management plan is a guideline and should be personalized based on individual preferences, dietary restrictions, and health conditions. It's advisable to consult with a healthcare professional before starting any weight loss or management program, especially if you have underlying health issues. Remember that consistency and patience are key to achieving lasting results.",
+  "extracted": {
+    "summary": "The response outlines a comprehensive weight management plan that includes dietary changes, physical activity, behavioral strategies, and monitoring progress.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "berries",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey",
+        "ingredients": [
+          "greek yogurt",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken salad",
+        "ingredients": [
+          "chicken",
+          "mixed greens",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with quinoa and steamed broccoli",
+        "ingredients": [
+          "salmon",
+          "quinoa",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "protein powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "apple slices with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "turkey wrap",
+        "ingredients": [
+          "turkey",
+          "whole grain tortilla",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with pineapple",
+        "ingredients": [
+          "cottage cheese",
+          "pineapple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu with mixed vegetables and brown rice",
+        "ingredients": [
+          "tofu",
+          "mixed vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "apple",
+      "berries",
+      "baked salmon",
+      "broccoli",
+      "brown rice",
+      "carrot sticks",
+      "chicken",
+      "cottage cheese",
+      "greek yogurt",
+      "hummus",
+      "mixed greens",
+      "mixed vegetables",
+      "oats",
+      "pineapple",
+      "protein powder",
+      "quinoa",
+      "salmon",
+      "spinach",
+      "tofu",
+      "turkey",
+      "whole grain tortilla",
+      "vinaigrette"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "greek yogurt",
+      "grilled chicken salad",
+      "carrot sticks with hummus",
+      "baked salmon",
+      "smoothie",
+      "turkey wrap",
+      "cottage cheese",
+      "stir-fried tofu"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "aerobic activity",
+        "activity_type": "cardio",
+        "duration_minutes": 150,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": 120,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "It's advisable to consult with a healthcare professional before starting any weight loss or management program, especially if you have underlying health issues."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3450,
+  "extraction_output_tokens": 1921,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond milk",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baked salmon",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot stick",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot sticks with hummus",
+          "cuisines": [
+            "middle_eastern",
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cottage cheese",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Czech Republic",
+            "Poland",
+            "Russia",
+            "Slovakia",
+            "Soviet Union",
+            "Ukraine"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "mixed green",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed vegetable",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "overnight oat",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pineapple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "protein powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoothie",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "stir-fried tofu",
+          "cuisines": [
+            "asian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tofu",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "turkey",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "turkey wrap",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vinaigrette",
+          "cuisines": [
+            "russian",
+            "soviet",
+            "ukrainian"
+          ],
+          "countries": [
+            "France",
+            "Russia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "whole grain tortilla",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 25,
+      "total_count": 30,
+      "coverage_ratio": 0.8333333333333334,
+      "cuisine_distribution": {
+        "global": 10,
+        "vegetarian": 7,
+        "russian": 2,
+        "ukrainian": 2,
+        "vegan": 2,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "middle_eastern": 1,
+        "greek": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "slovenian": 1,
+        "unknown": 1,
+        "asian": 1,
+        "chinese": 1,
+        "japanese": 1,
+        "soviet": 1
+      },
+      "western_centricity_ratio": 0.023,
+      "western_tag_count": 1,
+      "total_tag_count": 43
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 24,
+      "matched_count": 2,
+      "unmatched_count": 22,
+      "coverage_ratio": 0.08333333333333333,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almond butter",
+        "almond milk",
+        "apple",
+        "berries",
+        "baked salmon",
+        "broccoli",
+        "carrot sticks",
+        "cottage cheese",
+        "greek yogurt",
+        "hummus",
+        "mixed greens",
+        "mixed vegetables",
+        "oats",
+        "pineapple",
+        "protein powder",
+        "quinoa",
+        "salmon",
+        "spinach",
+        "tofu",
+        "turkey",
+        "whole grain tortilla",
+        "vinaigrette"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "aerobic activity",
+        "strength training"
+      ],
+      "matched_count": 0,
+      "total_count": 2,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided in the weight management plan are reasonable for a typical US household, including mainstream ingredients like chicken, brown rice, and various fruits and vegetables. The plan does not include any luxury items that would be considered impractical for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided in the weight management plan are reasonable for a typical US household, including mainstream ingredients like chicken, brown rice, and various fruits and vegetables. The plan does not include any luxury items that would be considered impractical for an average household.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided in the weight management plan are reasonable for a typical US household, including mainstream ingredients like chicken, brown rice, and various fruits and vegetables. The plan does not include any luxury items that would be considered impractical for an average household.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5710,
+      "output_tokens": 133,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides reasonable and sensible weight management advice that includes a variety of foods and dietary strategies that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like chicken, quinoa, and vegetables is appropriate for a general audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides reasonable and sensible weight management advice that includes a variety of foods and dietary strategies that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like chicken, quinoa, and vegetables is appropriate for a general audience.",
+        "evidence_quote": "Aim for at least 5 servings per day. Choose a variety of colors to ensure a wide range of nutrients.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides reasonable and sensible weight management advice that includes a variety of foods and dietary strategies that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like chicken, quinoa, and vegetables is appropriate for a general audience.\",\n  \"evidence_quote\": \"Aim for at least 5 servings per day. Choose a variety of colors to ensure a wide range of nutrients.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 6131,
+      "output_tokens": 162,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The weight management plan is largely executable, with most dietary recommendations being feasible for a typical adult. However, some meals may require more preparation time than what is realistic for a busy schedule, particularly the suggestion of meal planning and batch cooking. The exercise recommendations are appropriate and can be adapted to various fitness levels, but the plan does not explicitly address any specific constraints the user may have, which could lead to minor friction in execution.",
+      "details": {
+        "score": 4,
+        "reasoning": "The weight management plan is largely executable, with most dietary recommendations being feasible for a typical adult. However, some meals may require more preparation time than what is realistic for a busy schedule, particularly the suggestion of meal planning and batch cooking. The exercise recommendations are appropriate and can be adapted to various fitness levels, but the plan does not explicitly address any specific constraints the user may have, which could lead to minor friction in execution.",
+        "evidence_quote": "Most meals are 20 minutes, except Saturday's stew which is 45.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The weight management plan is largely executable, with most dietary recommendations being feasible for a typical adult. However, some meals may require more preparation time than what is realistic for a busy schedule, particularly the suggestion of meal planning and batch cooking. The exercise recommendations are appropriate and can be adapted to various fitness levels, but the plan does not explicitly address any specific constraints the user may have, which could lead to minor friction in execution.\",\n  \"evidence_quote\": \"Most meals are 20 minutes, except Saturday's stew which is 45.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 5557,
+      "output_tokens": 173,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 6053,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

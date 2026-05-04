@@ -1,0 +1,21 @@
+{
+  "prompt_id": "cul_con_13",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Urban Environment",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Urban Environment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Where is the best place to go for a run? I live in a high-density 'Mega-City' (like Dhaka or Manila) with extreme air pollution; suggest the healthiest times or indoor alternatives.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Running in High-Pollution Cities\n\n## Best Outdoor Times\n- **Early morning (5-7 AM)**: Pollution typically lowest before traffic peaks\n- **After rain**: Air clears noticeably for a few hours\n- **Weekends/holidays**: Reduced vehicle emissions\n- Check real-time AQI apps (AirVisual, IQAir) before heading out\n\n## Location Priorities (If Going Outside)\n- Parks with tree coverage (trees filter some particles)\n- Waterfront areas where breezes help disperse pollution\n- Elevated spots away from street-level exhaust\n- Away from major roads and industrial zones\n\n## Indoor Alternatives (More Realistic Long-Term)\n- **Gym treadmills** with air filtration\n- **Shopping malls** (climate-controlled, some allow early morning walking)\n- **Indoor tracks** at sports facilities\n- **Stair climbing** in your building\n- **Home workouts** (YouTube routines, jump rope)\n- **Swimming pools** (excellent full-body alternative)\n\n## Honest Assessment\nIn severe pollution conditions (AQI >150), outdoor running genuinely risks respiratory damage. The health gains from running can be offset by pollution exposure. Many serious runners in these cities shift to:\n- Early morning when possible\n- Primarily indoor training\n- Relocating temporarily during worst seasons\n\nWhat's your current AQI range? That would help refine recommendations.",
+  "input_tokens": 54,
+  "output_tokens": 324,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:56:01.173108"
+}

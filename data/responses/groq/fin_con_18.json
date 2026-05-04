@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_18",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Seasonal/Inflation",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Seasonal/Inflation",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fruit-based snack high in antioxidants. Fresh fruit prices have doubled this month; what is the absolute cheapest frozen or dried alternative?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the sudden increase in fresh fruit prices, opting for frozen or dried alternatives can be a cost-effective way to maintain a healthy diet rich in antioxidants. \n\nOne of the cheapest frozen alternatives is frozen mixed berries, which include a combination of blueberries, strawberries, raspberries, and blackberries. These berries are packed with antioxidants like anthocyanins and vitamin C. A 1-pound (450g) bag of frozen mixed berries can cost between $2 to $3, depending on the store and location.\n\nAs for dried alternatives, dried apricots are a budget-friendly option. They are rich in vitamin A and beta-carotene, which are powerful antioxidants. A 12-ounce (340g) bag of dried apricots can cost between $2 to $4, depending on the brand and quality.\n\nIn comparison, frozen mixed berries are likely to be the absolute cheapest option, with a lower cost per ounce than dried apricots. However, prices may vary depending on your location and the specific store you shop at. It's always a good idea to check prices at different stores to find the best deal.",
+  "input_tokens": 63,
+  "output_tokens": 229,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:43:34.703703"
+}

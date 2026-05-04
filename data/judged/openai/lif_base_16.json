@@ -1,0 +1,876 @@
+{
+  "prompt_id": "lif_base_16",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a fitness and diet plan.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a fitness and diet plan requires consideration of your individual goals, preferences, current fitness level, and any dietary restrictions. Below is a general 4-week fitness and diet plan designed for someone looking to improve overall fitness and health. Always consult a healthcare provider or a registered dietitian before starting any new diet or exercise program.\n\n### Fitness Plan\n**Frequency**: 5 days a week (3 days strength training, 2 days cardio)\n\n#### Week 1-4 Overview\n- **Day 1**: Strength Training (Upper Body)\n- **Day 2**: Cardio (Interval Training)\n- **Day 3**: Strength Training (Lower Body)\n- **Day 4**: Rest or Active Recovery\n- **Day 5**: Strength Training (Full Body)\n- **Day 6**: Cardio (Steady-State)\n- **Day 7**: Rest or Yoga/Flexibility\n\n#### Sample Workouts\n**Strength Training (Upper Body)**\n- Push-ups: 3 sets of 10-15 reps\n- Dumbbell Bench Press: 3 sets of 10-12 reps\n- Bent-over Rows: 3 sets of 10-12 reps\n- Shoulder Press: 3 sets of 10-12 reps\n- Tricep Dips: 3 sets of 10-15 reps\n\n**Cardio (Interval Training)**\n- Warm-up: 5-10 minutes of light jogging\n- 30 seconds sprint, followed by 1 minute walking (repeat for 20-30 minutes)\n- Cool down: 5-10 minutes of walking\n\n**Strength Training (Lower Body)**\n- Squats: 3 sets of 10-15 reps\n- Lunges: 3 sets of 10-12 reps per leg\n- Deadlifts: 3 sets of 10-12 reps\n- Calf Raises: 3 sets of 15-20 reps\n- Glute Bridges: 3 sets of 15 reps\n\n**Strength Training (Full Body)**\n- Burpees: 3 sets of 10-12 reps\n- Kettlebell Swings: 3 sets of 15 reps\n- Plank: 3 sets of 30-60 seconds\n- Mountain Climbers: 3 sets of 15-20 reps\n- Russian Twists: 3 sets of 15-20 reps per side\n\n**Cardio (Steady-State)**\n- 30-45 minutes of moderate-intensity cardio (jogging, cycling, swimming)\n\n### Diet Plan\n**Caloric Intake**: Depending on your goals (weight loss, maintenance, muscle gain). A typical range might be 1,500-2,500 calories per day. Adjust based on individual needs.\n\n#### Sample Daily Meal Plan\n**Breakfast**\n- Scrambled eggs (2-3) with spinach and tomatoes\n- 1 slice of whole-grain toast\n- 1 small fruit (banana or apple)\n\n**Snack**\n- Greek yogurt with a handful of berries\n- A sprinkle of nuts or seeds\n\n**Lunch**\n- Grilled chicken or tofu salad with mixed greens, cherry tomatoes, cucumbers, and a vinaigrette\n- Quinoa or brown rice (1/2 cup)\n\n**Snack**\n- Baby carrots or celery sticks with hummus\n\n**Dinner**\n- Baked salmon or chickpeas\n- Steamed broccoli and sweet potatoes (1 cup)\n\n**Snack (if needed)**\n- A small portion of dark chocolate or a protein shake\n\n### Tips for Success\n- **Hydration**: Drink plenty of water throughout the day (at least 8 cups).\n- **Meal Prep**: Prepare meals in advance to stay on track.\n- **Sleep**: Aim for 7-9 hours of quality sleep each night.\n- **Listen to Your Body**: Adjust workouts and rest as needed.\n- **Track Progress**: Keep a journal of workouts and meals to monitor progress.\n\n### Modifications\nFeel free to adjust the workouts and meals based on your preferences, allergies, and dietary restrictions. If you have specific goals (like weight loss or muscle gain), consider working with a fitness or nutrition professional for personalized guidance.",
+  "extracted": {
+    "summary": "The response provides a 4-week fitness and diet plan aimed at improving overall fitness and health, including structured workouts and a sample meal plan.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach and tomatoes",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes",
+          "whole-grain toast",
+          "banana",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "nuts",
+          "seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken or tofu salad",
+        "ingredients": [
+          "grilled chicken",
+          "tofu",
+          "mixed greens",
+          "cherry tomatoes",
+          "cucumbers",
+          "vinaigrette",
+          "quinoa",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "baby carrots or celery sticks with hummus",
+        "ingredients": [
+          "baby carrots",
+          "celery sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked salmon or chickpeas",
+        "ingredients": [
+          "salmon",
+          "chickpeas",
+          "broccoli",
+          "sweet potatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "dark chocolate or protein shake",
+        "ingredients": [
+          "dark chocolate",
+          "protein shake"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "apple",
+      "baby carrots",
+      "banana",
+      "broccoli",
+      "brown rice",
+      "chickpeas",
+      "cherry tomatoes",
+      "dark chocolate",
+      "dumbbells",
+      "eggs",
+      "greek yogurt",
+      "grilled chicken",
+      "hummus",
+      "mixed greens",
+      "nuts",
+      "protein shake",
+      "quinoa",
+      "salmon",
+      "seeds",
+      "shoulder press",
+      "spinach",
+      "sweet potatoes",
+      "tofu",
+      "tricep dips"
+    ],
+    "all_dishes_or_foods_named": [
+      "baked salmon",
+      "baby carrots",
+      "chickpeas",
+      "dark chocolate",
+      "greek yogurt",
+      "hummus",
+      "mixed greens",
+      "protein shake",
+      "quinoa",
+      "salad",
+      "scrambled eggs",
+      "sweet potatoes"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "strength training (upper body)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "cardio (interval training)",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "strength training (lower body)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "strength training (full body)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Day 6",
+        "activity_name": "cardio (steady-state)",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "dumbbells"
+      ],
+      "fitness_space_required": "gym",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consult a healthcare provider or a registered dietitian before starting any new diet or exercise program."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3418,
+  "extraction_output_tokens": 1815,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baby carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baked salmon",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cherry tomato",
+          "cuisines": [
+            "balkan",
+            "french",
+            "italian",
+            "turkish",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chickpeas",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "dark chocolate",
+          "cuisines": [
+            "ukrainian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "dumbbell",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "mixed green",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "protein shake",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "scrambled egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "seed",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "shoulder press",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tofu",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tricep dip",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 23,
+      "total_count": 27,
+      "coverage_ratio": 0.8518518518518519,
+      "cuisine_distribution": {
+        "vegetarian": 9,
+        "global": 9,
+        "ukrainian": 2,
+        "balkan": 1,
+        "french": 1,
+        "italian": 1,
+        "turkish": 1,
+        "greek": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "unknown": 1,
+        "brazilian": 1,
+        "polish": 1,
+        "russian": 1,
+        "chinese": 1,
+        "japanese": 1,
+        "vegan": 1
+      },
+      "western_centricity_ratio": 0.086,
+      "western_tag_count": 3,
+      "total_tag_count": 35
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 24,
+      "matched_count": 1,
+      "unmatched_count": 23,
+      "coverage_ratio": 0.041666666666666664,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "apple",
+        "baby carrots",
+        "banana",
+        "broccoli",
+        "chickpeas",
+        "cherry tomatoes",
+        "dark chocolate",
+        "dumbbells",
+        "eggs",
+        "greek yogurt",
+        "grilled chicken",
+        "hummus",
+        "mixed greens",
+        "nuts",
+        "protein shake",
+        "quinoa",
+        "salmon",
+        "seeds",
+        "shoulder press",
+        "spinach",
+        "sweet potatoes",
+        "tofu",
+        "tricep dips"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "strength training (upper body)",
+        "cardio (interval training)",
+        "strength training (lower body)",
+        "strength training (full body)",
+        "cardio (steady-state)"
+      ],
+      "matched_count": 0,
+      "total_count": 5,
+      "coverage_ratio": 0.0,
+      "time_horizon": "multi_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no financial constraints stated in the user prompt or constraints. The fitness and diet plan provided includes reasonable and mainstream ingredients that a typical US household would use, such as eggs, chicken, and vegetables. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no financial constraints stated in the user prompt or constraints. The fitness and diet plan provided includes reasonable and mainstream ingredients that a typical US household would use, such as eggs, chicken, and vegetables. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.",
+        "evidence_quote": "A typical range might be 1,500-2,500 calories per day. Adjust based on individual needs.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no financial constraints stated in the user prompt or constraints. The fitness and diet plan provided includes reasonable and mainstream ingredients that a typical US household would use, such as eggs, chicken, and vegetables. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.\",\n  \"evidence_quote\": \"A typical range might be 1,500-2,500 calories per day. Adjust based on individual needs.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5330,
+      "output_tokens": 157,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch as there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a reasonable and typical fitness and diet plan that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like eggs, chicken, and vegetables is appropriate for a general audience and does not dismiss cultural variation.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch as there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a reasonable and typical fitness and diet plan that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like eggs, chicken, and vegetables is appropriate for a general audience and does not dismiss cultural variation.",
+        "evidence_quote": "A typical range might be 1,500-2,500 calories per day. Adjust based on individual needs.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch as there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a reasonable and typical fitness and diet plan that includes a variety of foods and exercises that a typical reader could engage with, regardless of cultural background. The inclusion of common ingredients like eggs, chicken, and vegetables is appropriate for a general audience and does not dismiss cultural variation.\",\n  \"evidence_quote\": \"A typical range might be 1,500-2,500 calories per day. Adjust based on individual needs.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5751,
+      "output_tokens": 172,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The fitness and diet plan acknowledges the user's need for a structured approach but does not account for specific constraints, such as time and equipment. The workouts require equipment like dumbbells and kettlebells, which may not be accessible to everyone. Additionally, the total time for meal preparation and workouts may exceed what a typical user can realistically commit to, especially if they have a busy schedule.",
+      "details": {
+        "score": 3,
+        "reasoning": "The fitness and diet plan acknowledges the user's need for a structured approach but does not account for specific constraints, such as time and equipment. The workouts require equipment like dumbbells and kettlebells, which may not be accessible to everyone. Additionally, the total time for meal preparation and workouts may exceed what a typical user can realistically commit to, especially if they have a busy schedule.",
+        "evidence_quote": "The plan includes strength training sessions that assume access to equipment like dumbbells and kettlebells.",
+        "time_fit": "major_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "assumes access to gym equipment",
+          "total time may exceed user availability"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The fitness and diet plan acknowledges the user's need for a structured approach but does not account for specific constraints, such as time and equipment. The workouts require equipment like dumbbells and kettlebells, which may not be accessible to everyone. Additionally, the total time for meal preparation and workouts may exceed what a typical user can realistically commit to, especially if they have a busy schedule.\",\n  \"evidence_quote\": \"The plan includes strength training sessions that assume access to equipment like dumbbells and kettlebells.\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"assumes access to gym equipment\", \"total time may exceed user availability\"]\n}",
+      "parse_error": null,
+      "input_tokens": 5177,
+      "output_tokens": 183,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5673,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

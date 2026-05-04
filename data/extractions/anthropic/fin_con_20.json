@@ -1,0 +1,117 @@
+{
+  "prompt_id": "fin_con_20",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Bulk/Cheap prices",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Bulk/Cheap prices",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I get enough fiber in my daily diet using only the cheapest bulk grains and legumes?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "Here's a practical approach:\n\n**Best budget options for fiber:**\n- Dried beans (black, pinto, kidney) - ~7g fiber per cooked cup, very cheap\n- Lentils - ~8g per cooked cup, quick-cooking\n- Oats - ~8g per cup dry, versatile\n- Brown rice - ~3.5g per cooked cup\n- Whole wheat flour - if you bake your own bread\n\n**Realistic daily strategy:**\n- 1 cup cooked beans/lentils (7-8g)\n- 1 cup oatmeal (8g)\n- 2 slices whole grain bread (4-6g)\n- Gets you to ~20-25g fairly easily\n\n**Practical tips:**\n- Buy in bulk from bins or ethnic markets (often cheaper)\n- Cook large batches and freeze portions\n- Mix grains/legumes together for complete proteins and better taste\n- Start fiber increases gradually to avoid digestive issues\n- Drink plenty of water—fiber needs it to work\n\n**Honest limitation:**\nYou'll probably need *some* variety to stick with it (vegetables add fiber too and aren't always expensive—seasonal produce, frozen, canned). Pure grain/legume diets get monotonous fast.\n\nWhat's your current fiber intake? That affects how aggressively you should increase it.",
+  "extracted": {
+    "summary": "The response provides budget-friendly options for increasing fiber intake through bulk grains and legumes, along with a daily strategy and practical tips.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "black beans",
+      "brown rice",
+      "dried beans",
+      "ethnic markets",
+      "frozen",
+      "kidney beans",
+      "lentils",
+      "oats",
+      "pinto beans",
+      "whole grain bread",
+      "whole wheat flour"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "ethnic markets"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "You'll probably need some variety to stick with it."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2888,
+  "extraction_output_tokens": 772,
+  "extraction_from_cache": false
+}

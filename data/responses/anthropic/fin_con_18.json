@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_18",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Seasonal/Inflation",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Seasonal/Inflation",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fruit-based snack high in antioxidants. Fresh fruit prices have doubled this month; what is the absolute cheapest frozen or dried alternative?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Antioxidant-Rich Fruit Snacks\n\n**Fresh option if prices normalize:** Berries (blueberries especially) are antioxidant powerhouses.\n\n## Cheapest alternatives right now:\n\n**Frozen blueberries** typically offer the best value:\n- Usually $2-4/lb frozen vs. $6-8+ fresh\n- Antioxidants are preserved well in freezing\n- Versatile (eat thawed, blend, bake)\n\n**If frozen is still pricey, dried options:**\n- **Raisins** - often cheapest dried fruit, decent antioxidants\n- **Dried cranberries** - higher antioxidants but pricier\n- **Prunes** - very affordable, good antioxidant content\n\n**Pro tip:** Check store-brand frozen berries and bulk bins for dried fruit—often 30-50% cheaper than name brands.\n\n**Reality check:** Frozen beats dried on both cost and antioxidant retention in most cases right now. A bag of frozen blueberries will stretch further than dried alternatives.\n\nAre you looking for something shelf-stable, or is freezer space available?",
+  "input_tokens": 41,
+  "output_tokens": 267,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:43:27.147202"
+}

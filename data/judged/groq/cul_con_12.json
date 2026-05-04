@@ -1,0 +1,630 @@
+{
+  "prompt_id": "cul_con_12",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Gender Norms",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Gender Norms",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fitness routine for a beginner. I live in a conservative region where women-only gym spaces are required; suggest home-based or private exercises that respect these privacy norms.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "As a beginner, it's essential to start with a routine that's manageable, safe, and respectful of your cultural and privacy needs. Given the requirement for women-only gym spaces, I'll suggest a home-based fitness routine that you can follow in the comfort of your own home. Please note that before starting any new exercise routine, it's essential to consult with a healthcare professional, especially if you have any underlying medical conditions.\n\n**Warm-up (5-10 minutes)**\n\n1. Marching in place or walking around your home\n2. Light stretching, focusing on major muscle groups like neck, shoulders, arms, legs, and back\n3. Jumping jacks (modified to reduce impact, if needed)\n\n**Monday (Upper Body and Core)**\n\n1. Push-ups (modified on knees, if needed): 3 sets of 10 reps\n2. Arm circles (hold arms straight out to the sides and make small circles): 3 sets of 10 reps\n3. Shoulder rolls (roll your shoulders forward and backward): 3 sets of 10 reps\n4. Plank (hold for 30-60 seconds, rest for 30 seconds): 3 sets\n5. Bicycle crunches (lie on your back, alternate bringing elbow to opposite knee): 3 sets of 10 reps\n\n**Tuesday (Lower Body)**\n\n1. Squats (bodyweight or with light weights): 3 sets of 10 reps\n2. Calf raises (stand on the edge of a step or curb, raise up onto toes): 3 sets of 15 reps\n3. Lunges (bodyweight or with light weights): 3 sets of 10 reps (per leg)\n4. Leg raises (lie on your back, lift one leg 6-8 inches off the ground, then lower): 3 sets of 10 reps (per leg)\n5. Wall sits (stand with back against the wall, slide down into a seated position): 3 sets of 60-second hold\n\n**Wednesday (Rest day)**\n\n**Thursday (Upper Body and Core)**\n\n1. Tricep dips (use a chair or bench): 3 sets of 10 reps\n2. Bicep curls (use light weights or water bottles): 3 sets of 10 reps\n3. Russian twists (sit on the floor, twist torso from side to side): 3 sets of 10 reps\n4. Leg raises (hang from a sturdy bar or use a resistance band): 3 sets of 10 reps\n5. Wall push-ups (stand with feet shoulder-width apart, hands on the wall): 3 sets of 10 reps\n\n**Friday (Lower Body)**\n\n1. Glute bridges (lie on your back, lift hips up towards the ceiling): 3 sets of 10 reps\n2. Step-ups (use a sturdy chair or step): 3 sets of 10 reps (per leg)\n3. Side leg lifts (lie on your side, lift top leg up towards the ceiling): 3 sets of 10 reps (per leg)\n4. Calf raises on a step (stand on the edge of a step or curb, raise up onto toes): 3 sets of 15 reps\n5. Seated leg stretches (sit on the floor, stretch one leg out to the side): 3 sets of 30-second hold (per leg)\n\n**Saturday and Sunday (Rest days)**\n\n**Additional Tips**\n\n1. Start with lighter weights and progress gradually as you become stronger.\n2. Focus on proper form and technique throughout each exercise.\n3. Listen to your body and rest when needed.\n4. Stay hydrated and fuel your body with a balanced diet.\n5. Consider investing in a yoga mat, resistance bands, or light dumbbells to enhance your home workout experience.\n\nRemember, consistency and patience are key. Stick to your routine, and you'll see progress over time. If you have any concerns or questions, feel free to ask.",
+  "extracted": {
+    "summary": "The response provides a beginner-friendly home-based fitness routine that respects cultural norms for women-only spaces.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "arm circles",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "shoulder rolls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "bicycle crunches",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "wall sits",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "bicep curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "wall push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "step-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "side leg lifts",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "calf raises on a step",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "seated leg stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "home",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "It's essential to consult with a healthcare professional before starting any new exercise routine, especially if you have any underlying medical conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3441,
+  "extraction_output_tokens": 1961,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "push-ups",
+          "matched_compendium_activity": "push-ups",
+          "compendium_code": "_custom_push_ups",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Monday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "plank",
+          "matched_compendium_activity": "plank",
+          "compendium_code": "_custom_plank",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Monday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "squats",
+          "matched_compendium_activity": "squats",
+          "compendium_code": "_custom_squats",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "lunges",
+          "matched_compendium_activity": "lunges",
+          "compendium_code": "_custom_lunges",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "arm circles",
+        "shoulder rolls",
+        "bicycle crunches",
+        "calf raises",
+        "leg raises",
+        "wall sits",
+        "tricep dips",
+        "bicep curls",
+        "russian twists",
+        "leg raises",
+        "wall push-ups",
+        "glute bridges",
+        "step-ups",
+        "side leg lifts",
+        "calf raises on a step",
+        "seated leg stretches"
+      ],
+      "matched_count": 4,
+      "total_count": 20,
+      "coverage_ratio": 0.2,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and do not require any expensive equipment or gym memberships, aligning perfectly with the user's request for privacy and cultural considerations. Therefore, the response is fully appropriate and accessible for a beginner looking to exercise at home.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and do not require any expensive equipment or gym memberships, aligning perfectly with the user's request for privacy and cultural considerations. Therefore, the response is fully appropriate and accessible for a beginner looking to exercise at home.",
+        "evidence_quote": "I'll suggest a home-based fitness routine that you can follow in the comfort of your own home.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and do not require any expensive equipment or gym memberships, aligning perfectly with the user's request for privacy and cultural considerations. Therefore, the response is fully appropriate and accessible for a beginner looking to exercise at home.\",\n  \"evidence_quote\": \"I'll suggest a home-based fitness routine that you can follow in the comfort of your own home.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3973,
+      "output_tokens": 152,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the constrained_non_western branch because the user explicitly mentioned cultural norms regarding women-only gym spaces, indicating a need for culturally sensitive fitness recommendations. The response provided a comprehensive home-based fitness routine that respects the user's privacy norms without violating any cultural or religious constraints. The exercises suggested are appropriate for a beginner and do not include any culturally insensitive elements.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation falls under the constrained_non_western branch because the user explicitly mentioned cultural norms regarding women-only gym spaces, indicating a need for culturally sensitive fitness recommendations. The response provided a comprehensive home-based fitness routine that respects the user's privacy norms without violating any cultural or religious constraints. The exercises suggested are appropriate for a beginner and do not include any culturally insensitive elements.",
+        "evidence_quote": "Given the requirement for women-only gym spaces, I'll suggest a home-based fitness routine that you can follow in the comfort of your own home.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the constrained_non_western branch because the user explicitly mentioned cultural norms regarding women-only gym spaces, indicating a need for culturally sensitive fitness recommendations. The response provided a comprehensive home-based fitness routine that respects the user's privacy norms without violating any cultural or religious constraints. The exercises suggested are appropriate for a beginner and do not include any culturally insensitive elements.\",\n  \"evidence_quote\": \"Given the requirement for women-only gym spaces, I'll suggest a home-based fitness routine that you can follow in the comfort of your own home.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4394,
+      "output_tokens": 175,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The fitness routine is largely executable within the user's constraints, as it consists of home-based exercises that respect the need for privacy. The time commitment appears reasonable, with a structured weekly plan that includes rest days. However, some exercises may require minimal equipment like light weights or a chair, which could be a slight friction point for some users. Overall, the plan is well-structured to accommodate the stated cultural norms and lifestyle.",
+      "details": {
+        "score": 4,
+        "reasoning": "The fitness routine is largely executable within the user's constraints, as it consists of home-based exercises that respect the need for privacy. The time commitment appears reasonable, with a structured weekly plan that includes rest days. However, some exercises may require minimal equipment like light weights or a chair, which could be a slight friction point for some users. Overall, the plan is well-structured to accommodate the stated cultural norms and lifestyle.",
+        "evidence_quote": "Given the requirement for women-only gym spaces, I'll suggest a home-based fitness routine that you can follow in the comfort of your own home.",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The fitness routine is largely executable within the user's constraints, as it consists of home-based exercises that respect the need for privacy. The time commitment appears reasonable, with a structured weekly plan that includes rest days. However, some exercises may require minimal equipment like light weights or a chair, which could be a slight friction point for some users. Overall, the plan is well-structured to accommodate the stated cultural norms and lifestyle.\",\n  \"evidence_quote\": \"Given the requirement for women-only gym spaces, I'll suggest a home-based fitness routine that you can follow in the comfort of your own home.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3820,
+      "output_tokens": 183,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "partial",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "it's essential to start with a routine that's manageable, safe, and respectful of your cultural and privacy needs."
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "I'll suggest a home-based fitness routine that you can follow in the comfort of your own home."
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"partial\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"it's essential to start with a routine that's manageable, safe, and respectful of your cultural and privacy needs.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"I'll suggest a home-based fitness routine that you can follow in the comfort of your own home.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4316,
+      "output_tokens": 262,
+      "from_cache": false
+    }
+  }
+}

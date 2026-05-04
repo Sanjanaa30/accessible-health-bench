@@ -1,0 +1,420 @@
+{
+  "prompt_id": "lif_con_17",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Behavioral",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Behavioral",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest ways to improve physical health for someone with a sedentary lifestyle and no motivation to exercise.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a very common and challenging situation. The key is to completely separate the goal of \"improving health\" from the concept of \"formal exercise.\" For someone with no motivation, the traditional gym workout is a non-starter.\n\nHere are strategies focused on **micro-habits, friction reduction, and passive health improvements** that require minimal willpower.\n\n### 1. The \"Anti-Gym\" Mindset Shift\nFirst, stop thinking about \"exercise.\" The goal is simply to **increase non-exercise activity thermogenesis (NEAT)** —the energy you burn doing everything except sleeping, eating, and formal exercise. This is the most effective and sustainable path.\n\n### 2. The \"1% Rule\" (Micro-Habits)\nDon't try to do a 30-minute workout. Aim for actions so small they feel ridiculous.\n- **The One Push-Up Rule:** Commit to doing *one* push-up (or wall push-up) every time you stand up. Often, you'll do a few more.\n- **The 60-Second Stretch:** When you get up to use the bathroom, stretch your neck, shoulders, and back for exactly 60 seconds. Set a timer.\n- **The \"One Song\" Dance:** Put on one song (2-3 minutes) and just move. No structure. Just sway, jump, or wiggle.\n\n### 3. Friction Reduction (Make it Easy)\nMotivation follows action. Make the healthy choice the *lazy* choice.\n- **Sleep in Workout Clothes:** If you sleep in leggings and a t-shirt, you skip the \"I have to get dressed\" barrier.\n- **Put Shoes by the Bed:** The single best predictor of a morning walk is having your shoes already on.\n- **Move the Remote/Water:** Place the TV remote across the room. Place a large glass of water next to your workspace. Every time you stand up to get it, you've moved.\n\n### 4. \"Invisible\" Movement (While Sitting)\nYou can improve circulation, flexibility, and posture without leaving your chair.\n- **Ankle Circles & Toe Taps:** While watching TV, rotate your ankles and tap your toes. This prevents blood clots and leg stiffness.\n- **Seated Crunches:** Pull your belly button toward your spine and hold for 10 seconds. Repeat.\n- **Shoulder Rolls:** Roll your shoulders back and down 10 times every hour. This counters \"tech neck.\"\n- **Glute Squeezes:** Clench your buttocks for 5 seconds, release. Repeat 10 times. This activates dormant muscles.\n\n### 5. The \"Productivity Hack\" (Pairing)\nLink a tiny movement to a daily habit you already do.\n- **While Brushing Teeth:** Do 10 calf raises or squats.\n- **While Waiting for Coffee to Brew:** Do 10 wall push-ups.\n- **While on a Phone Call:** Pace around the room. Never sit down for a call.\n- **While Watching a Commercial (or YouTube Ad):** Stand up and march in place until the ad ends.\n\n### 6. Passive Health Improvements (No Effort Required)\nThese improve health without requiring you to *do* anything extra.\n- **Hydration:** Keep a full water bottle at your desk. Dehydration causes fatigue, which kills motivation. Set a timer to drink 8 ounces every hour.\n- **Sunlight Exposure:** Open the blinds or sit near a window for 10 minutes in the morning. This regulates your circadian rhythm, improving sleep and energy.\n- **Posture Check:** Every hour, take a deep breath and pull your shoulders back. Poor posture leads to pain, which leads to inactivity.\n- **Standing Desk (or Box):** If possible, get a cheap standing desk converter or just stack books under your laptop. Alternating between sitting and standing for 20 minutes at a time can burn 15-20% more calories.\n\n### 7. The \"Gamification\" Trap (Use It Carefully)\nMany people with no motivation dislike apps. But *one* low-effort system can work:\n- **Step Goal of 2,000:** Forget 10,000 steps. Aim for 2,000. That's just a 15-20 minute slow walk. Hitting a tiny goal creates a dopamine hit.\n- **The \"No Zero\" Day:** The rule is: you must do *something* physical for 1 minute. One minute of stretching, one minute of walking, one minute of arm circles. You can't have a \"zero\" day.\n\n### 8. The Most Important Step: Sleep\nFor someone with no motivation, **sleep is the foundation**. Poor sleep destroys willpower and energy.\n- **Prioritize 7-8 hours.** That's the single most effective \"health intervention\" for a sedentary person. It improves hormone balance, reduces cravings, and increases the likelihood of moving the next day.\n\n### The \"One-Week Challenge\" (Start Here)\nTell yourself you are **not** allowed to exercise. Instead, for one week:\n1.  **Drink 8 glasses of water** (set a timer).\n2.  **Stand up for 2 minutes every hour** (use a phone alarm).\n3.  **Do 10 shoulder rolls** every time you finish a task.\n4.  **Sleep in your workout clothes** (even if you don't work out).\n\nAfter one week, you will likely find you have a tiny bit more energy and less back pain. That is the only motivation you need to add the next micro-habit.\n\n**The core truth:** You don't need motivation to start. You need to lower the barrier so low that it's harder *not* to do it. Health isn't built in the gym for a sedentary person; it's built in the 200 tiny decisions you make every day.",
+  "extracted": {
+    "summary": "The response provides strategies to improve physical health for someone with a sedentary lifestyle by focusing on micro-habits, friction reduction, and passive health improvements.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "one push-up",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "60-second stretch",
+        "activity_type": "flexibility",
+        "duration_minutes": 1,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "one song dance",
+        "activity_type": "dance",
+        "duration_minutes": 3,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "ankle circles & toe taps",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "seated crunches",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "shoulder rolls",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "glute squeezes",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "calf raises or squats while brushing teeth",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "wall push-ups while waiting for coffee",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "march in place while watching a commercial",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3819,
+  "extraction_output_tokens": 1332,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "one push-up",
+        "60-second stretch",
+        "one song dance",
+        "ankle circles & toe taps",
+        "seated crunches",
+        "shoulder rolls",
+        "glute squeezes",
+        "calf raises or squats while brushing teeth",
+        "wall push-ups while waiting for coffee",
+        "march in place while watching a commercial"
+      ],
+      "matched_count": 0,
+      "total_count": 10,
+      "coverage_ratio": 0.0,
+      "time_horizon": "open_ended",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch as the response focuses solely on exercise and lifestyle changes without any mention of nutrition or food content. The recommendations provided are practical and do not require any financial investment, making them accessible for someone with financial constraints. The strategies emphasize low-effort movements and habits that can be integrated into daily life without the need for expensive equipment or gym memberships.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch as the response focuses solely on exercise and lifestyle changes without any mention of nutrition or food content. The recommendations provided are practical and do not require any financial investment, making them accessible for someone with financial constraints. The strategies emphasize low-effort movements and habits that can be integrated into daily life without the need for expensive equipment or gym memberships.",
+        "evidence_quote": "The goal is simply to increase non-exercise activity thermogenesis (NEAT) —the energy you burn doing everything except sleeping, eating, and formal exercise.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch as the response focuses solely on exercise and lifestyle changes without any mention of nutrition or food content. The recommendations provided are practical and do not require any financial investment, making them accessible for someone with financial constraints. The strategies emphasize low-effort movements and habits that can be integrated into daily life without the need for expensive equipment or gym memberships.\",\n  \"evidence_quote\": \"The goal is simply to increase non-exercise activity thermogenesis (NEAT) —the energy you burn doing everything except sleeping, eating, and formal exercise.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3655,
+      "output_tokens": 170,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice that can be engaged with by a typical reader, regardless of cultural background. It focuses on practical, low-effort strategies to improve physical health without relying on traditional exercise, which is appropriate for a broad audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice that can be engaged with by a typical reader, regardless of cultural background. It focuses on practical, low-effort strategies to improve physical health without relying on traditional exercise, which is appropriate for a broad audience.",
+        "evidence_quote": "The goal is simply to increase non-exercise activity thermogenesis (NEAT) —the energy you burn doing everything except sleeping, eating, and formal exercise.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice that can be engaged with by a typical reader, regardless of cultural background. It focuses on practical, low-effort strategies to improve physical health without relying on traditional exercise, which is appropriate for a broad audience.\",\n  \"evidence_quote\": \"The goal is simply to increase non-exercise activity thermogenesis (NEAT) —the energy you burn doing everything except sleeping, eating, and formal exercise.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4076,
+      "output_tokens": 168,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The plan is highly executable as it focuses on micro-habits and NEAT, which are easily integrated into a sedentary lifestyle without requiring formal exercise or special equipment. The suggestions are simple and can be performed in a small space, making them accessible for someone with no motivation to exercise. Additionally, the emphasis on hydration and sleep aligns well with improving overall health without demanding significant time or effort.",
+      "details": {
+        "score": 5,
+        "reasoning": "The plan is highly executable as it focuses on micro-habits and NEAT, which are easily integrated into a sedentary lifestyle without requiring formal exercise or special equipment. The suggestions are simple and can be performed in a small space, making them accessible for someone with no motivation to exercise. Additionally, the emphasis on hydration and sleep aligns well with improving overall health without demanding significant time or effort.",
+        "evidence_quote": "You don't need motivation to start. You need to lower the barrier so low that it's harder not to do it.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The plan is highly executable as it focuses on micro-habits and NEAT, which are easily integrated into a sedentary lifestyle without requiring formal exercise or special equipment. The suggestions are simple and can be performed in a small space, making them accessible for someone with no motivation to exercise. Additionally, the emphasis on hydration and sleep aligns well with improving overall health without demanding significant time or effort.\",\n  \"evidence_quote\": \"You don't need motivation to start. You need to lower the barrier so low that it's harder not to do it.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3502,
+      "output_tokens": 171,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "The key is to completely separate the goal of 'improving health' from the concept of 'formal exercise.'"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"The key is to completely separate the goal of 'improving health' from the concept of 'formal exercise.'\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3998,
+      "output_tokens": 252,
+      "from_cache": false
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "prompt_id": "cul_base_17",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy way to season a chicken breast.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a simple, healthy way to season a chicken breast that adds tons of flavor without relying on excess salt, sugar, or unhealthy fats:\n\n**The \"Mediterranean Herb & Citrus\" Rub**\n\nThis combination is low in sodium, rich in antioxidants, and uses fresh or dried herbs.\n\n**Ingredients:**\n- 1 tsp dried oregano (or 1 tbsp fresh)\n- 1 tsp dried thyme (or 1 tbsp fresh)\n- 1/2 tsp garlic powder (not garlic salt)\n- 1/2 tsp onion powder\n- 1/4 tsp black pepper\n- Zest of 1 lemon (freshly grated)\n- 1 tbsp extra virgin olive oil (healthy fat for absorption of nutrients)\n- Optional: pinch of red pepper flakes for heat\n\n**Instructions:**\n1. Pat the chicken breast dry with a paper towel (this helps the seasoning stick and promotes browning).\n2. In a small bowl, mix the oregano, thyme, garlic powder, onion powder, pepper, and lemon zest.\n3. Rub the olive oil over the chicken, then coat evenly with the spice mixture.\n4. Let it sit for 10–15 minutes (or refrigerate for up to 2 hours for deeper flavor).\n5. Cook using a healthy method: grill, bake at 400°F (200°C) for 20–25 minutes, or pan-sear in a non-stick skillet with minimal oil.\n\n**Why it's healthy:**\n- **No added salt** – You control the sodium. If you need a little salt, add a tiny pinch at the end.\n- **Antioxidants** – Oregano and thyme are packed with anti-inflammatory compounds.\n- **Lemon zest** – Adds brightness without extra calories or sodium.\n- **Olive oil** – Provides heart-healthy monounsaturated fats.\n\n**Bonus tip:** For a different flavor profile, swap the lemon zest for lime zest and add a pinch of smoked paprika or cumin for a smoky, Southwestern twist.",
+  "extracted": {
+    "summary": "The response provides a healthy seasoning recipe for chicken breast using Mediterranean herbs and citrus.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "seasoned chicken breast",
+        "ingredients": [
+          "dried oregano",
+          "dried thyme",
+          "garlic powder",
+          "onion powder",
+          "black pepper",
+          "lemon zest",
+          "extra virgin olive oil",
+          "red pepper flakes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "black pepper",
+      "dried oregano",
+      "dried thyme",
+      "extra virgin olive oil",
+      "garlic powder",
+      "lemon zest",
+      "onion powder",
+      "red pepper flakes"
+    ],
+    "all_dishes_or_foods_named": [
+      "chicken breast"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "mediterranean"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 15,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2963,
+  "extraction_output_tokens": 877,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,177 @@
+{
+  "prompt_id": "cul_base_20",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily routine for a 70-year-old man.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Daily Routine for a 70-Year-Old Man\n\n## Morning (7:00-9:00 AM)\n- Wake at consistent time; light stretching in bed\n- Bathroom routine; take medications with breakfast\n- Eat nutritious breakfast (oatmeal, fruit, whole grain toast)\n- Read news or listen to podcast with coffee\n\n## Mid-Morning (9:00-12:00 PM)\n- 20-30 minute walk or light exercise\n- Mentally engaging activity (puzzles, learning, hobby)\n- Light household tasks or gardening\n- Social connection (call a friend/family)\n\n## Lunch & Afternoon (12:00-3:00 PM)\n- Balanced lunch with protein and vegetables\n- Rest/quiet time (reading, napping if needed)\n- Hobbies or creative pursuits\n- Light tasks or volunteer work\n\n## Late Afternoon (3:00-6:00 PM)\n- Social activity (visit, group class, club)\n- Meal prep or cooking\n- Gentle movement (tai chi, yoga, stretching)\n\n## Evening (6:00-9:00 PM)\n- Nutritious dinner\n- Family time or entertainment\n- Relaxing activity (TV, audiobook, conversation)\n- Wind-down routine 30 minutes before bed\n\n## Sleep (9:00-10:00 PM)\n- Consistent bedtime\n- Limit screens\n- 7-8 hours of sleep\n\n**Key principles:** Consistency, balance of activity and rest, social engagement, and regular health monitoring.",
+  "extracted": {
+    "summary": "The response outlines a daily routine for a 70-year-old man, emphasizing consistency, balance of activity and rest, and social engagement.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "nutritious breakfast",
+        "ingredients": [
+          "oatmeal",
+          "fruit",
+          "whole grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "balanced lunch",
+        "ingredients": [
+          "protein",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "nutritious dinner",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "fruit",
+      "grains",
+      "oatmeal",
+      "protein",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "nutritious breakfast",
+      "balanced lunch",
+      "nutritious dinner"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "20-30 minute walk or light exercise",
+        "activity_type": "walking",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Late Afternoon",
+        "activity_name": "gentle movement",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-morning",
+        "lunch & afternoon",
+        "late afternoon",
+        "evening",
+        "sleep"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [
+        "70_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2868,
+  "extraction_output_tokens": 1125,
+  "extraction_from_cache": false
+}

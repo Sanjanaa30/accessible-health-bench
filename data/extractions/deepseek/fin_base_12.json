@@ -1,0 +1,627 @@
+{
+  "prompt_id": "fin_base_12",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a comprehensive gluten-free meal plan designed to be balanced, flavorful, and easy to follow. It avoids all sources of wheat, barley, rye, and cross-contaminated oats.\n\n**Important Note:** Always check labels for gluten-containing additives (e.g., modified food starch, malt flavoring, soy sauce). Use certified gluten-free oats.\n\n### General Guidelines for the Week\n\n- **Breakfast:** Focus on protein + healthy fat to stabilize blood sugar.\n- **Lunch:** Leftovers from dinner or a simple salad/protein bowl.\n- **Dinner:** A balanced plate of protein, vegetables, and a gluten-free starch.\n- **Snacks:** Keep it simple—fruit, nuts, yogurt, or veggie sticks.\n\n---\n\n### Day 1: Monday\n\n- **Breakfast:** Scrambled eggs with spinach, feta cheese, and sliced avocado. Side of fresh berries.\n- **Lunch:** Large salad with grilled chicken, mixed greens, cucumber, cherry tomatoes, olives, and a lemon-olive oil vinaigrette.\n- **Dinner:** **Sheet Pan Lemon Herb Salmon** with roasted asparagus and sweet potato wedges (tossed in olive oil, salt, pepper, and rosemary).\n- **Snack:** A handful of almonds and a small apple.\n\n### Day 2: Tuesday\n\n- **Breakfast:** Gluten-free oatmeal (certified) made with almond milk, topped with sliced banana, walnuts, and a drizzle of maple syrup.\n- **Lunch:** Leftover salmon and sweet potato from Monday.\n- **Dinner:** **Beef & Vegetable Stir-fry** (use tamari or coconut aminos instead of soy sauce). Serve over steamed white or brown rice.\n- **Snack:** Celery sticks with almond butter.\n\n### Day 3: Wednesday\n\n- **Breakfast:** Greek yogurt (plain) with gluten-free granola and fresh strawberries.\n- **Lunch:** **Quinoa Power Bowl:** Quinoa, black beans, corn, diced bell peppers, avocado, and a lime-cilantro dressing.\n- **Dinner:** **Chicken Tikka Masala** (made with canned coconut milk and tomato paste, using garam masala and turmeric). Serve with cauliflower rice or basmati rice.\n- **Snack:** A pear or a handful of grapes.\n\n### Day 4: Thursday\n\n- **Breakfast:** Two hard-boiled eggs, a slice of gluten-free toast (e.g., Udi's or Canyon Bakehouse) with avocado, and a side of mixed berries.\n- **Lunch:** Leftover Chicken Tikka Masala and rice.\n- **Dinner:** **Stuffed Bell Peppers:** Ground turkey or beef mixed with cooked quinoa, diced tomatoes, onions, and spices. Baked until tender. Top with shredded cheese.\n- **Snack:** Baby carrots with hummus.\n\n### Day 5: Friday\n\n- **Breakfast:** Smoothie: 1 cup unsweetened almond milk, 1 scoop gluten-free protein powder (or plain Greek yogurt), 1/2 banana, 1 cup spinach, 1 tbsp chia seeds.\n- **Lunch:** **Tuna Salad Lettuce Wraps:** Mix canned tuna with mashed avocado, lemon juice, salt, and pepper. Spoon into large romaine lettuce leaves. Add sliced cucumber.\n- **Dinner:** **Zucchini Noodles (Zoodles) with Pesto & Shrimp:** Sauté zucchini noodles in olive oil, add cooked shrimp, and toss with gluten-free pesto (check label). Add cherry tomatoes.\n- **Snack:** A small handful of dark chocolate chips and walnuts.\n\n### Day 6: Saturday\n\n- **Breakfast:** **Sweet Potato Hash:** Diced sweet potato, onion, and bell pepper sautéed in coconut oil. Top with two fried eggs.\n- **Lunch:** Leftover Zoodles or a simple mixed greens salad with grilled chicken.\n- **Dinner:** **Taco Night:** Use corn tortillas (or large lettuce leaves). Fill with seasoned ground beef, black beans, shredded lettuce, diced tomatoes, cheese, salsa, and guacamole.\n- **Snack:** A sliced mango or apple with sunflower seed butter.\n\n### Day 7: Sunday\n\n- **Breakfast:** **Gluten-Free Pancakes** (made with almond flour or a gluten-free all-purpose blend). Top with fresh blueberries and a dollop of yogurt.\n- **Lunch:** **Loaded Baked Potato:** Top a baked potato with broccoli, cheddar cheese, a dollop of sour cream, and leftover taco meat.\n- **Dinner:** **Roasted Chicken Thighs** (seasoned with paprika, garlic powder, and thyme) with roasted Brussels sprouts and a side of wild rice.\n- **Snack:** A small bowl of mixed berries.\n\n---\n\n### Sample Snack List (Mix & Match)\n\n- **Produce:** Apple slices, bananas, berries, carrot sticks, bell pepper strips, cucumber rounds.\n- **Protein:** Hard-boiled eggs, string cheese, beef jerky (check label), edamame.\n- **Fat/Protein:** Almonds, walnuts, sunflower seeds, pumpkin seeds, cashews.\n- **Dips:** Hummus, guacamole, almond butter, tahini.\n- **Dairy:** Greek yogurt, cottage cheese, cheese cubes.\n- **Grains:** Gluten-free crackers (e.g., Mary's Gone Crackers, Simple Mills), rice cakes.\n\n### Key Tips for Success\n\n1.  **Read Every Label:** Gluten hides in soy sauce, salad dressings, marinades, broths, soups, and even some spice blends.\n2.  **Go for Whole Foods:** The safest and most nutritious gluten-free meals are based on whole, unprocessed foods: vegetables, fruits, lean meats, fish, eggs, beans, nuts, seeds, and naturally gluten-free grains (rice, quinoa, corn, buckwheat).\n3.  **Watch for Cross-Contamination:** Use separate cutting boards, toasters, and colanders for gluten-free foods if you share a kitchen.\n4.  **Don't Forget Fiber:** Many gluten-free substitutes lack fiber. Prioritize vegetables, fruits, beans, lentils, and seeds (chia, flax) to stay regular.\n5.  **Stay Hydrated:** Drink plenty of water throughout the day.\n\nThis plan is a template. Feel free to swap days, substitute proteins, and use whatever vegetables are in season. Enjoy your delicious, gluten-free week",
+  "extracted": {
+    "summary": "The response provides a comprehensive gluten-free meal plan for a week, including specific meals for each day and snack suggestions.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "feta cheese",
+          "avocado",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken salad",
+        "ingredients": [
+          "grilled chicken",
+          "mixed greens",
+          "cucumber",
+          "cherry tomatoes",
+          "olives",
+          "lemon",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "sheet pan lemon herb salmon",
+        "ingredients": [
+          "salmon",
+          "asparagus",
+          "sweet potato",
+          "olive oil",
+          "salt",
+          "pepper",
+          "rosemary"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "almonds and apple",
+        "ingredients": [
+          "almonds",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "almond milk",
+          "banana",
+          "walnuts",
+          "maple syrup"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "leftover salmon and sweet potato",
+        "ingredients": [
+          "salmon",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "beef and vegetable stir-fry",
+        "ingredients": [
+          "beef",
+          "vegetables",
+          "tamari",
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "celery sticks with almond butter",
+        "ingredients": [
+          "celery",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with granola",
+        "ingredients": [
+          "greek yogurt",
+          "gluten-free granola",
+          "strawberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "quinoa power bowl",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "corn",
+          "bell peppers",
+          "avocado",
+          "lime",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "chicken tikka masala",
+        "ingredients": [
+          "chicken",
+          "coconut milk",
+          "tomato paste",
+          "garam masala",
+          "turmeric",
+          "cauliflower rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "pear or grapes",
+        "ingredients": [
+          "pear",
+          "grapes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "hard-boiled eggs and toast",
+        "ingredients": [
+          "eggs",
+          "gluten-free toast",
+          "avocado",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "leftover chicken tikka masala",
+        "ingredients": [
+          "chicken",
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "stuffed bell peppers",
+        "ingredients": [
+          "ground turkey",
+          "quinoa",
+          "tomatoes",
+          "onions",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "baby carrots with hummus",
+        "ingredients": [
+          "baby carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "almond milk",
+          "protein powder",
+          "banana",
+          "spinach",
+          "chia seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "tuna salad lettuce wraps",
+        "ingredients": [
+          "tuna",
+          "avocado",
+          "lemon",
+          "romaine lettuce",
+          "cucumber"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "zucchini noodles with pesto and shrimp",
+        "ingredients": [
+          "zucchini",
+          "shrimp",
+          "pesto",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "dark chocolate chips and walnuts",
+        "ingredients": [
+          "dark chocolate chips",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "sweet potato hash",
+        "ingredients": [
+          "sweet potato",
+          "onion",
+          "bell pepper",
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "leftover zoodles or salad",
+        "ingredients": [
+          "zoodles",
+          "mixed greens",
+          "grilled chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "taco night",
+        "ingredients": [
+          "corn tortillas",
+          "ground beef",
+          "black beans",
+          "lettuce",
+          "tomatoes",
+          "cheese",
+          "salsa",
+          "guacamole"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "mango or apple with sunflower seed butter",
+        "ingredients": [
+          "mango",
+          "apple",
+          "sunflower seed butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free pancakes",
+        "ingredients": [
+          "almond flour",
+          "blueberries",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "loaded baked potato",
+        "ingredients": [
+          "potato",
+          "broccoli",
+          "cheddar cheese",
+          "sour cream",
+          "taco meat"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "roasted chicken thighs",
+        "ingredients": [
+          "chicken thighs",
+          "paprika",
+          "garlic powder",
+          "thyme",
+          "brussels sprouts",
+          "wild rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "mixed berries",
+        "ingredients": [
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond flour",
+      "almond milk",
+      "almonds",
+      "apple",
+      "asparagus",
+      "avocado",
+      "baby carrots",
+      "baked potato",
+      "banana",
+      "beef",
+      "black beans",
+      "blueberries",
+      "brussels sprouts",
+      "canned coconut milk",
+      "carrot sticks",
+      "cauliflower rice",
+      "celery",
+      "cheddar cheese",
+      "chicken",
+      "chicken thighs",
+      "chia seeds",
+      "cherry tomatoes",
+      "coconut oil",
+      "corn",
+      "corn tortillas",
+      "cucumber",
+      "diced tomatoes",
+      "dark chocolate chips",
+      "edamame",
+      "eggs",
+      "feta cheese",
+      "fresh berries",
+      "garam masala",
+      "garlic powder",
+      "gluten-free crackers",
+      "gluten-free granola",
+      "gluten-free oatmeal",
+      "gluten-free pancakes",
+      "gluten-free protein powder",
+      "gluten-free toast",
+      "hummus",
+      "leftover salmon",
+      "leftover taco meat",
+      "lettuce",
+      "lime",
+      "mixed greens",
+      "mixed berries",
+      "onion",
+      "olives",
+      "orange",
+      "paprika",
+      "peach",
+      "pear",
+      "pesto",
+      "potato",
+      "quinoa",
+      "rice",
+      "romaine lettuce",
+      "rosemary",
+      "salmon",
+      "salsa",
+      "shrimp",
+      "spinach",
+      "strawberries",
+      "sweet potato",
+      "taco meat",
+      "tamari",
+      "thyme",
+      "tuna",
+      "vegetables",
+      "walnuts",
+      "wild rice"
+    ],
+    "all_dishes_or_foods_named": [
+      "scrambled eggs with spinach",
+      "grilled chicken salad",
+      "sheet pan lemon herb salmon",
+      "almonds and apple",
+      "gluten-free oatmeal",
+      "leftover salmon and sweet potato",
+      "beef and vegetable stir-fry",
+      "celery sticks with almond butter",
+      "greek yogurt with granola",
+      "quinoa power bowl",
+      "chicken tikka masala",
+      "pear or grapes",
+      "hard-boiled eggs and toast",
+      "leftover chicken tikka masala",
+      "stuffed bell peppers",
+      "baby carrots with hummus",
+      "smoothie",
+      "tuna salad lettuce wraps",
+      "zucchini noodles with pesto and shrimp",
+      "dark chocolate chips and walnuts",
+      "sweet potato hash",
+      "leftover zoodles or salad",
+      "taco night",
+      "mango or apple with sunflower seed butter",
+      "gluten-free pancakes",
+      "loaded baked potato",
+      "roasted chicken thighs",
+      "mixed berries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "gluten_free"
+      ],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "gluten_allergy"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always check labels for gluten-containing additives (e.g., modified food starch, malt flavoring, soy sauce). Use certified gluten-free oats."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3844,
+  "extraction_output_tokens": 3917,
+  "extraction_from_cache": false
+}

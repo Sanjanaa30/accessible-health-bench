@@ -1,0 +1,455 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a healthy and budget-friendly recipe for a Chicken and Vegetable Stir-Fry that can be made for under $4. This meal is nutritious, filling, and easy to prepare.\n\n### Healthy Chicken and Vegetable Stir-Fry\n\n#### Ingredients:\n- **1 cup of boneless, skinless chicken breast** (about 0.5 lb) - $1.50\n- **2 cups of mixed frozen vegetables** (like broccoli, carrots, and bell peppers) - $1.00\n- **2 tablespoons of soy sauce** - $0.10\n- **1 tablespoon of olive oil or vegetable oil** - $0.10\n- **1 clove of garlic, minced** - $0.05\n- **1 teaspoon of ginger (fresh or powdered)** - $0.05\n- **Salt and pepper to taste** - negligible cost\n\n#### Total Cost: Approx. $2.80\n\n#### Instructions:\n\n1. **Prepare the Chicken**:\n   - Cut the chicken breast into bite-sized pieces. Season with salt and pepper.\n\n2. **Cook the Chicken**:\n   - Heat the olive oil in a large skillet or wok over medium-high heat.\n   - Add the chicken pieces and cook until they are browned and cooked through, about 5-7 minutes. Stir occasionally to ensure even cooking.\n\n3. **Add Vegetables**:\n   - Add the minced garlic and ginger to the skillet and sauté for about 30 seconds until fragrant.\n   - Add the frozen mixed vegetables to the skillet. Stir and cook until the vegetables are heated through and tender, about 5-7 minutes.\n\n4. **Add Soy Sauce**:\n   - Pour the soy sauce over the chicken and vegetables. Stir well to combine and cook for another minute.\n\n5. **Serve**:\n   - Serve the stir-fry on its own or over a bed of cooked rice or quinoa (if budget allows). Enjoy your healthy meal!\n\n### Tips:\n- You can substitute the chicken with tofu or beans for a vegetarian option.\n- If you have any leftover vegetables at home, feel free to add them in to use up what you have.\n- Adjust the seasoning based on your preference; you can add chili flakes for some heat or sesame oil for extra flavor.\n\nThis meal is not only cost-effective but also packed with protein and vitamins from the vegetables!",
+  "extracted": {
+    "summary": "The response provides a budget-friendly recipe for a healthy chicken and vegetable stir-fry that costs under $4.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chicken and vegetable stir-fry",
+        "ingredients": [
+          "chicken breast",
+          "mixed frozen vegetables",
+          "soy sauce",
+          "olive oil",
+          "garlic",
+          "ginger",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": 2.8,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "chicken breast",
+      "mixed frozen vegetables",
+      "soy sauce",
+      "olive oil",
+      "garlic",
+      "ginger",
+      "salt",
+      "pepper"
+    ],
+    "all_dishes_or_foods_named": [
+      "chicken and vegetable stir-fry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 2.8,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3094,
+  "extraction_output_tokens": 869,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "chicken and vegetable stir-fry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ginger",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "mixed frozen vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "soy sauce",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan",
+            "vegetarian"
+          ],
+          "countries": [
+            "China",
+            "People's Republic of China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 7,
+      "total_count": 9,
+      "coverage_ratio": 0.7777777777777778,
+      "cuisine_distribution": {
+        "vegetarian": 5,
+        "global": 2,
+        "chinese": 1,
+        "japanese": 1,
+        "vegan": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 10
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 8,
+      "matched_count": 0,
+      "unmatched_count": 8,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "chicken breast",
+        "mixed frozen vegetables",
+        "soy sauce",
+        "olive oil",
+        "garlic",
+        "ginger",
+        "salt",
+        "pepper"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": 58.8,
+      "response_cost_period_status": "per_meal_extrapolated",
+      "response_cost_vs_thrifty_ratio": 0.901,
+      "classification": "near_thrifty"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a budget of $4 for the meal. The response provides a detailed recipe that not only acknowledges this budget but also lists ingredients with their respective costs, totaling approximately $2.80, which is well within the user's financial constraint. Additionally, the response suggests using leftover vegetables, which further supports affordability.",
+      "details": {
+        "branch": "constrained",
+        "score": 5,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a budget of $4 for the meal. The response provides a detailed recipe that not only acknowledges this budget but also lists ingredients with their respective costs, totaling approximately $2.80, which is well within the user's financial constraint. Additionally, the response suggests using leftover vegetables, which further supports affordability.",
+        "evidence_quote": "Total Cost: Approx. $2.80",
+        "luxury_items_flagged": [],
+        "substitutions_offered": true,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly stated a budget of $4 for the meal. The response provides a detailed recipe that not only acknowledges this budget but also lists ingredients with their respective costs, totaling approximately $2.80, which is well within the user's financial constraint. Additionally, the response suggests using leftover vegetables, which further supports affordability.\",\n  \"evidence_quote\": \"Total Cost: Approx. $2.80\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": true,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 3542,
+      "output_tokens": 140,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and nutritious chicken dinner recipe that is accessible to a wide audience. The ingredients and cooking methods are common and do not dismiss any cultural variations, making it appropriate for a general audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and nutritious chicken dinner recipe that is accessible to a wide audience. The ingredients and cooking methods are common and do not dismiss any cultural variations, making it appropriate for a general audience.",
+        "evidence_quote": "Here's a healthy and budget-friendly recipe for a Chicken and Vegetable Stir-Fry that can be made for under $4.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and nutritious chicken dinner recipe that is accessible to a wide audience. The ingredients and cooking methods are common and do not dismiss any cultural variations, making it appropriate for a general audience.\",\n  \"evidence_quote\": \"Here's a healthy and budget-friendly recipe for a Chicken and Vegetable Stir-Fry that can be made for under $4.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3963,
+      "output_tokens": 151,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The recipe for the Chicken and Vegetable Stir-Fry is largely executable within the user's budget constraint of $4. The preparation and cooking time is reasonable, likely fitting within a typical dinner timeframe. However, the recipe assumes access to a stove and basic cooking equipment, which may not be available to all users. Overall, the plan is mostly feasible with minor friction regarding equipment access.",
+      "details": {
+        "score": 4,
+        "reasoning": "The recipe for the Chicken and Vegetable Stir-Fry is largely executable within the user's budget constraint of $4. The preparation and cooking time is reasonable, likely fitting within a typical dinner timeframe. However, the recipe assumes access to a stove and basic cooking equipment, which may not be available to all users. Overall, the plan is mostly feasible with minor friction regarding equipment access.",
+        "evidence_quote": "Total Cost: Approx. $2.80",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "assumes stove and cooking equipment"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The recipe for the Chicken and Vegetable Stir-Fry is largely executable within the user's budget constraint of $4. The preparation and cooking time is reasonable, likely fitting within a typical dinner timeframe. However, the recipe assumes access to a stove and basic cooking equipment, which may not be available to all users. Overall, the plan is mostly feasible with minor friction regarding equipment access.\",\n  \"evidence_quote\": \"Total Cost: Approx. $2.80\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"assumes stove and cooking equipment\"]\n}",
+      "parse_error": null,
+      "input_tokens": 3389,
+      "output_tokens": 163,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "no",
+          "evidence": "This meal is nutritious, filling, and easy to prepare."
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"no\",\n    \"evidence\": \"This meal is nutritious, filling, and easy to prepare.\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3885,
+      "output_tokens": 240,
+      "from_cache": false
+    }
+  }
+}

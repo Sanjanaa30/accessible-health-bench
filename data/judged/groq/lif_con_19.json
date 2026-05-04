@@ -1,0 +1,1111 @@
+{
+  "prompt_id": "lif_con_19",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a healthy meal plan for someone who shares a kitchen with many roommates and has limited time/space.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the constraints of sharing a kitchen with many roommates and having limited time and space, a healthy meal plan should focus on simplicity, flexibility, and minimal cleanup. Here's a suggested meal plan:\n\n**Breakfast Ideas**\n\n1. Overnight oats: Prepare a jar or container with rolled oats, milk, and your choice of nuts, seeds, or fruit the night before.\n2. Avocado toast: Toast whole-grain bread, mash an avocado, and add a sliced egg or tomato for protein.\n3. Yogurt parfait: Layer Greek yogurt, granola, and fresh fruit in a bowl.\n4. Smoothie: Blend your favorite fruits, yogurt, and milk to create a quick and nutritious breakfast.\n\n**Lunch Ideas**\n\n1. Salads in a jar: Prepare a week's worth of salad jars with mixed greens, veggies, and proteins like beans, tuna, or chicken.\n2. Whole-grain wraps: Fill wraps with hummus, veggies, and lean proteins like turkey or chicken.\n3. Soup and crackers: Heat up a canned or homemade soup and pair it with whole-grain crackers.\n4. Quesadillas: Fill whole-grain tortillas with beans, cheese, and veggies for a quick and easy meal.\n\n**Dinner Ideas**\n\n1. One-pot meals: Cook meals like lentil soup, chili, or stir-fries in a single pot to minimize cleanup.\n2. Slow cooker meals: Prepare a slow cooker recipe like chicken and rice or black bean tacos that can simmer all day.\n3. Omelette and veggies: Whip up an omelette with eggs, veggies, and cheese for a protein-packed dinner.\n4. Grilled chicken and veggies: Grill chicken and veggies in a foil packet for a quick and easy meal.\n\n**Snacks**\n\n1. Fresh fruit: Keep a bowl of fresh fruit on the counter for a quick snack.\n2. Nuts and seeds: Store nuts and seeds like almonds, cashews, and pumpkin seeds in a jar for a healthy snack.\n3. Energy balls: Prepare a batch of energy balls with oats, nuts, and dried fruit for a convenient snack.\n4. Yogurt and honey: Mix together yogurt and honey for a sweet and satisfying snack.\n\n**Tips for Sharing a Kitchen**\n\n1. Label and date your food: Use labels and dates to keep track of your food and avoid confusion with your roommates.\n2. Store food in airtight containers: Keep your food fresh and secure in airtight containers to prevent spoilage and contamination.\n3. Clean up as you go: Wash dishes and wipe down surfaces as you cook to minimize cleanup and maintain a clean kitchen.\n4. Communicate with your roommates: Discuss kitchen etiquette and schedules with your roommates to avoid conflicts and ensure a harmonious kitchen environment.\n\n**Time-Saving Tips**\n\n1. Meal prep: Set aside time on the weekends to prepare meals for the week ahead.\n2. Use leftovers: Transform last night's dinner into tomorrow's lunch or use leftovers to create a new meal.\n3. Keep it simple: Focus on simple, one-pot meals that require minimal ingredients and cleanup.\n4. Use a slow cooker: Let a slow cooker do the work for you, simmering meals all day while you're busy with other activities.\n\nBy following this meal plan and incorporating these tips, you can enjoy healthy, delicious meals despite the challenges of sharing a kitchen with many roommates and having limited time and space.",
+  "extracted": {
+    "summary": "The response provides a healthy meal plan suitable for someone sharing a kitchen with roommates, focusing on simplicity and minimal cleanup.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "milk",
+          "nuts",
+          "seeds",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "whole-grain bread",
+          "avocado",
+          "egg",
+          "tomato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "toasting",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "fresh fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "fruits",
+          "yogurt",
+          "milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "salads in a jar",
+        "ingredients": [
+          "mixed greens",
+          "veggies",
+          "beans",
+          "tuna",
+          "chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "whole-grain wraps",
+        "ingredients": [
+          "wraps",
+          "hummus",
+          "veggies",
+          "turkey",
+          "chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "soup and crackers",
+        "ingredients": [
+          "soup",
+          "whole-grain crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "heating",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "quesadillas",
+        "ingredients": [
+          "whole-grain tortillas",
+          "beans",
+          "cheese",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "one-pot meals",
+        "ingredients": [
+          "lentils",
+          "vegetables",
+          "spices"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "slow cooker meals",
+        "ingredients": [
+          "chicken",
+          "rice",
+          "black beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "omelette and veggies",
+        "ingredients": [
+          "eggs",
+          "veggies",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken and veggies",
+        "ingredients": [
+          "chicken",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fresh fruit",
+        "ingredients": [
+          "fresh fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts and seeds",
+        "ingredients": [
+          "nuts",
+          "seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "energy balls",
+        "ingredients": [
+          "oats",
+          "nuts",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "yogurt and honey",
+        "ingredients": [
+          "yogurt",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "beans",
+      "chicken",
+      "dried fruit",
+      "eggs",
+      "energy balls",
+      "fruit",
+      "fresh fruit",
+      "garlic",
+      "granola",
+      "greek yogurt",
+      "honey",
+      "hummus",
+      "lentils",
+      "milk",
+      "mixed greens",
+      "nuts",
+      "oats",
+      "rice",
+      "salad",
+      "seeds",
+      "soup",
+      "tuna",
+      "turkey",
+      "veggies",
+      "whole-grain bread",
+      "whole-grain crackers",
+      "whole-grain tortillas"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "avocado toast",
+      "yogurt parfait",
+      "smoothie",
+      "salads in a jar",
+      "whole-grain wraps",
+      "soup and crackers",
+      "quesadillas",
+      "one-pot meals",
+      "slow cooker meals",
+      "omelette and veggies",
+      "grilled chicken and veggies",
+      "fresh fruit",
+      "nuts and seeds",
+      "energy balls",
+      "yogurt and honey"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "shared",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "roommates",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3299,
+  "extraction_output_tokens": 2313,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado toast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "dried fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "France"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "energy ball",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fresh fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken and veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "milk",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed green",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "nuts and seed",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "omelette and veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "one-pot meal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "overnight oat",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quesadilla",
+          "cuisines": [
+            "mexican"
+          ],
+          "countries": [
+            "Mexico",
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "salads in a jar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "seed",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "slow cooker meal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoothie",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "soup",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "soup and cracker",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "turkey",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain cracker",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain tortilla",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain wrap",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "yogurt and honey",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "yogurt parfait",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 28,
+      "total_count": 42,
+      "coverage_ratio": 0.6666666666666666,
+      "cuisine_distribution": {
+        "global": 18,
+        "vegetarian": 6,
+        "greek": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1,
+        "mexican": 1
+      },
+      "western_centricity_ratio": 0.028,
+      "western_tag_count": 1,
+      "total_tag_count": 36
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 28,
+      "matched_count": 3,
+      "unmatched_count": 25,
+      "coverage_ratio": 0.10714285714285714,
+      "matched": [
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "milk",
+          "matched_bls_item": "milk, fresh, whole, fortified",
+          "price_usd": 4.067,
+          "unit": "per_gallon",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000709112",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "avocado",
+        "beans",
+        "dried fruit",
+        "eggs",
+        "energy balls",
+        "fruit",
+        "fresh fruit",
+        "garlic",
+        "granola",
+        "greek yogurt",
+        "honey",
+        "hummus",
+        "lentils",
+        "mixed greens",
+        "nuts",
+        "oats",
+        "salad",
+        "seeds",
+        "soup",
+        "tuna",
+        "turkey",
+        "veggies",
+        "whole-grain bread",
+        "whole-grain crackers",
+        "whole-grain tortillas"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "roommates",
+      "household_size": null,
+      "household_type": "roommates",
+      "ages_referenced": null,
+      "person_count": 2,
+      "adjustment_factor": 1.1,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 128.48,
+        "low": 169.51,
+        "moderate": 210.32,
+        "liberal": 249.92
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt. The meal plan provided includes reasonable and mainstream ingredients that a typical household would use, such as chicken, eggs, and oats, which are all affordable and accessible. The recommendations are practical for someone sharing a kitchen and do not include any luxury items that would be considered out of reach for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt. The meal plan provided includes reasonable and mainstream ingredients that a typical household would use, such as chicken, eggs, and oats, which are all affordable and accessible. The recommendations are practical for someone sharing a kitchen and do not include any luxury items that would be considered out of reach for an average household.",
+        "evidence_quote": "Cook meals like lentil soup, chili, or stir-fries in a single pot to minimize cleanup.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt. The meal plan provided includes reasonable and mainstream ingredients that a typical household would use, such as chicken, eggs, and oats, which are all affordable and accessible. The recommendations are practical for someone sharing a kitchen and do not include any luxury items that would be considered out of reach for an average household.\",\n  \"evidence_quote\": \"Cook meals like lentil soup, chili, or stir-fries in a single pot to minimize cleanup.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 6125,
+      "output_tokens": 162,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable meal suggestions that are broadly applicable and do not dismiss cultural variation. The meal plan includes a variety of ingredients and dishes that a typical reader could engage with, regardless of their cultural background.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable meal suggestions that are broadly applicable and do not dismiss cultural variation. The meal plan includes a variety of ingredients and dishes that a typical reader could engage with, regardless of their cultural background.",
+        "evidence_quote": "By following this meal plan and incorporating these tips, you can enjoy healthy, delicious meals despite the challenges of sharing a kitchen with many roommates and having limited time and space.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable meal suggestions that are broadly applicable and do not dismiss cultural variation. The meal plan includes a variety of ingredients and dishes that a typical reader could engage with, regardless of their cultural background.\",\n  \"evidence_quote\": \"By following this meal plan and incorporating these tips, you can enjoy healthy, delicious meals despite the challenges of sharing a kitchen with many roommates and having limited time and space.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 6546,
+      "output_tokens": 163,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The meal plan is largely feasible, focusing on quick and simple meals that can be prepared with minimal equipment and time. Most meals are designed to be quick, with options like overnight oats and salads in jars that fit well within the constraints of a shared kitchen. However, some items, like slow cooker meals, may require more time than the user has available, which slightly detracts from the overall execution. The plan does a good job of accommodating the shared kitchen environment by emphasizing minimal cleanup and batch preparation.",
+      "details": {
+        "score": 4,
+        "reasoning": "The meal plan is largely feasible, focusing on quick and simple meals that can be prepared with minimal equipment and time. Most meals are designed to be quick, with options like overnight oats and salads in jars that fit well within the constraints of a shared kitchen. However, some items, like slow cooker meals, may require more time than the user has available, which slightly detracts from the overall execution. The plan does a good job of accommodating the shared kitchen environment by emphasizing minimal cleanup and batch preparation.",
+        "evidence_quote": "Focus on simple, one-pot meals that require minimal ingredients and cleanup.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "slow cooker meals may require more time than stated"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The meal plan is largely feasible, focusing on quick and simple meals that can be prepared with minimal equipment and time. Most meals are designed to be quick, with options like overnight oats and salads in jars that fit well within the constraints of a shared kitchen. However, some items, like slow cooker meals, may require more time than the user has available, which slightly detracts from the overall execution. The plan does a good job of accommodating the shared kitchen environment by emphasizing minimal cleanup and batch preparation.\",\n  \"evidence_quote\": \"Focus on simple, one-pot meals that require minimal ingredients and cleanup.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"slow cooker meals may require more time than stated\"]\n}",
+      "parse_error": null,
+      "input_tokens": 5972,
+      "output_tokens": 198,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "a healthy meal plan should focus on simplicity, flexibility, and minimal cleanup."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"a healthy meal plan should focus on simplicity, flexibility, and minimal cleanup.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 6468,
+      "output_tokens": 243,
+      "from_cache": false
+    }
+  }
+}

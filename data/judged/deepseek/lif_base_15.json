@@ -1,0 +1,668 @@
+{
+  "prompt_id": "lif_base_15",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest healthy eating habits.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here are several healthy eating habits that are backed by nutrition science and designed to be sustainable for long-term wellness.\n\n### Foundation Habits (The \"Big Rocks\")\n\n1.  **Prioritize Whole, Single-Ingredient Foods.**\n    - **What it means:** Build your meals around foods that come from nature: vegetables, fruits, lean proteins (chicken, fish, beans, tofu), whole grains (oats, brown rice, quinoa), and healthy fats (avocado, nuts, olive oil).\n    - **Why it works:** These foods are naturally nutrient-dense (vitamins, minerals, fiber) and free from added sugars, unhealthy fats, and preservatives.\n\n2.  **Eat the Rainbow.**\n    - **What it means:** Aim to include a variety of colors on your plate each day (red, orange, yellow, green, blue/purple, white).\n    - **Why it works:** Different colors represent different phytonutrients and antioxidants. A diverse diet ensures a wider range of health benefits, from reduced inflammation to better immune function.\n\n3.  **Master the \"Plate Method.\"**\n    - **What it means:** Visualize your dinner plate as three sections:\n        - **½** filled with non-starchy vegetables (broccoli, spinach, peppers, salad).\n        - **¼** filled with lean protein (chicken, fish, eggs, legumes).\n        - **¼** filled with complex carbohydrates (whole grains, starchy veggies like sweet potatoes).\n    - **Why it works:** This naturally controls portions and ensures a balanced intake of fiber, protein, and energy.\n\n### Habits for Better Digestion & Satiety\n\n4.  **Drink Water First.**\n    - **What it means:** Start your day with a glass of water. Drink a full glass of water 20-30 minutes *before* each meal. Carry a reusable water bottle.\n    - **Why it works:** Thirst is often mistaken for hunger. Pre-loading with water can help you eat less and improves digestion. It also supports metabolism and energy levels.\n\n5.  **Eat Mindfully, Without Distractions.**\n    - **What it means:** Sit down at a table. Put your phone away, turn off the TV. Take small bites, chew thoroughly, and pause between bites.\n    - **Why it works:** Your brain takes about 20 minutes to register fullness. Eating slowly allows you to recognize satiety cues, preventing overeating. It also improves digestion.\n\n6.  **Don't Fear Healthy Fats.**\n    - **What it means:** Include sources of unsaturated fats daily: avocado, nuts, seeds, olive oil, fatty fish (salmon, mackerel).\n    - **Why it works:** Healthy fats are crucial for brain health, hormone production, and absorbing fat-soluble vitamins (A, D, E, K). They also add flavor and keep you feeling full longer.\n\n### Practical & Sustainable Habits\n\n7.  **Plan & Prep (Even a Little).**\n    - **What it means:** Spend 1-2 hours on the weekend chopping vegetables, cooking a batch of quinoa or brown rice, grilling chicken, or making a salad dressing (olive oil + vinegar + mustard).\n    - **Why it works:** This removes the \"I have nothing healthy to eat\" excuse and makes it easier to grab a healthy meal or snack when you're tired or busy.\n\n8.  **Snack with Purpose.**\n    - **What it means:** Pair a carb with a protein or fat. Examples: apple slices with peanut butter, carrots with hummus, Greek yogurt with berries, a handful of almonds.\n    - **Why it works:** This stabilizes blood sugar, provides sustained energy, and prevents you from reaching for processed, sugary snacks.\n\n9.  **The 80/20 Rule.**\n    - **What it means:** Aim to eat nutritious, whole foods 80% of the time. Allow 20% for flexible, \"fun\" foods (dessert, pizza, your favorite treat) without guilt.\n    - **Why it works:** Perfection is unsustainable. This approach prevents feelings of deprivation and binge-eating, making healthy eating a lifestyle, not a temporary diet.\n\n### A Simple, Healthy Day Example\n\n- **Breakfast:** Oatmeal with berries, a tablespoon of chia seeds, and a handful of walnuts.\n- **Lunch:** Large salad (mixed greens, cucumber, bell peppers, cherry tomatoes) with grilled chicken, chickpeas, avocado, and a simple vinaigrette.\n- **Snack:** Greek yogurt with a drizzle of honey and a few almonds.\n- **Dinner:** Baked salmon with roasted broccoli and a small sweet potato.\n\n### One Final Tip: **Listen to Your Body.**\n\nThe healthiest habit of all is learning to eat when you're hungry and stop when you're comfortably full (not stuffed). This is called \"intuitive eating\" and is the bedrock of a healthy relationship with food.",
+  "extracted": {
+    "summary": "The response provides several healthy eating habits focused on whole foods, mindful eating, and meal planning for long-term wellness.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with berries",
+        "ingredients": [
+          "oatmeal",
+          "berries",
+          "chia seeds",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "large salad",
+        "ingredients": [
+          "mixed greens",
+          "cucumber",
+          "bell peppers",
+          "cherry tomatoes",
+          "grilled chicken",
+          "chickpeas",
+          "avocado",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey",
+        "ingredients": [
+          "greek yogurt",
+          "honey",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with roasted broccoli",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "berries",
+      "broccoli",
+      "chickpeas",
+      "chia seeds",
+      "cucumber",
+      "grilled chicken",
+      "greek yogurt",
+      "honey",
+      "mixed greens",
+      "nuts",
+      "olive oil",
+      "oatmeal",
+      "salmon",
+      "sweet potato",
+      "vinaigrette"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with berries",
+      "large salad",
+      "greek yogurt with honey",
+      "baked salmon with roasted broccoli"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3564,
+  "extraction_output_tokens": 1186,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baked salmon with roasted broccoli",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chickpeas",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "cucumber",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt with honey",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "large salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed green",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oatmeal with berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vinaigrette",
+          "cuisines": [
+            "russian",
+            "soviet",
+            "ukrainian"
+          ],
+          "countries": [
+            "France",
+            "Russia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        }
+      ],
+      "matched_count": 18,
+      "total_count": 21,
+      "coverage_ratio": 0.8571428571428571,
+      "cuisine_distribution": {
+        "vegetarian": 9,
+        "global": 5,
+        "russian": 3,
+        "ukrainian": 3,
+        "polish": 2,
+        "greek": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "slovenian": 1,
+        "vegan": 1,
+        "unknown": 1,
+        "brazilian": 1,
+        "soviet": 1
+      },
+      "western_centricity_ratio": 0.033,
+      "western_tag_count": 1,
+      "total_tag_count": 30
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 17,
+      "matched_count": 0,
+      "unmatched_count": 17,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "almonds",
+        "avocado",
+        "berries",
+        "broccoli",
+        "chickpeas",
+        "chia seeds",
+        "cucumber",
+        "grilled chicken",
+        "greek yogurt",
+        "honey",
+        "mixed greens",
+        "nuts",
+        "olive oil",
+        "oatmeal",
+        "salmon",
+        "sweet potato",
+        "vinaigrette"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "open_ended",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided are reasonable for a typical household, featuring mainstream ingredients like chicken, fish, vegetables, and whole grains. The response does not include any luxury items that would be considered impractical for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided are reasonable for a typical household, featuring mainstream ingredients like chicken, fish, vegetables, and whole grains. The response does not include any luxury items that would be considered impractical for an average household.",
+        "evidence_quote": "Build your meals around foods that come from nature: vegetables, fruits, lean proteins (chicken, fish, beans, tofu), whole grains (oats, brown rice, quinoa), and healthy fats (avocado, nuts, olive oil).",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided are reasonable for a typical household, featuring mainstream ingredients like chicken, fish, vegetables, and whole grains. The response does not include any luxury items that would be considered impractical for an average household.\",\n  \"evidence_quote\": \"Build your meals around foods that come from nature: vegetables, fruits, lean proteins (chicken, fish, beans, tofu), whole grains (oats, brown rice, quinoa), and healthy fats (avocado, nuts, olive oil).\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4895,
+      "output_tokens": 177,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural context in the prompt. The response provides reasonable and sensible healthy eating habits that are applicable to a wide audience, including a variety of foods that are commonly accepted across different cultures. The inclusion of ingredients like oatmeal, salmon, and vegetables does not alienate any particular cultural group and is appropriate for a general audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural context in the prompt. The response provides reasonable and sensible healthy eating habits that are applicable to a wide audience, including a variety of foods that are commonly accepted across different cultures. The inclusion of ingredients like oatmeal, salmon, and vegetables does not alienate any particular cultural group and is appropriate for a general audience.",
+        "evidence_quote": "Build your meals around foods that come from nature: vegetables, fruits, lean proteins (chicken, fish, beans, tofu), whole grains (oats, brown rice, quinoa), and healthy fats (avocado, nuts, olive oil).",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no stated cultural constraints or specific cultural context in the prompt. The response provides reasonable and sensible healthy eating habits that are applicable to a wide audience, including a variety of foods that are commonly accepted across different cultures. The inclusion of ingredients like oatmeal, salmon, and vegetables does not alienate any particular cultural group and is appropriate for a general audience.\",\n  \"evidence_quote\": \"Build your meals around foods that come from nature: vegetables, fruits, lean proteins (chicken, fish, beans, tofu), whole grains (oats, brown rice, quinoa), and healthy fats (avocado, nuts, olive oil).\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5316,
+      "output_tokens": 192,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The recommendations largely fit within typical constraints for a healthy eating plan, emphasizing whole foods and meal prep. However, some items may require more time than suggested, particularly the meal prep and cooking aspects, which could push the total time slightly beyond what a busy individual might realistically manage. The plan does not specify any particular equipment needs, making it generally accessible, but it could benefit from more explicit adaptations for time-poor users.",
+      "details": {
+        "score": 4,
+        "reasoning": "The recommendations largely fit within typical constraints for a healthy eating plan, emphasizing whole foods and meal prep. However, some items may require more time than suggested, particularly the meal prep and cooking aspects, which could push the total time slightly beyond what a busy individual might realistically manage. The plan does not specify any particular equipment needs, making it generally accessible, but it could benefit from more explicit adaptations for time-poor users.",
+        "evidence_quote": "Spend 1-2 hours on the weekend chopping vegetables, cooking a batch of quinoa or brown rice, grilling chicken, or making a salad dressing.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The recommendations largely fit within typical constraints for a healthy eating plan, emphasizing whole foods and meal prep. However, some items may require more time than suggested, particularly the meal prep and cooking aspects, which could push the total time slightly beyond what a busy individual might realistically manage. The plan does not specify any particular equipment needs, making it generally accessible, but it could benefit from more explicit adaptations for time-poor users.\",\n  \"evidence_quote\": \"Spend 1-2 hours on the weekend chopping vegetables, cooking a batch of quinoa or brown rice, grilling chicken, or making a salad dressing.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4742,
+      "output_tokens": 186,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5238,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

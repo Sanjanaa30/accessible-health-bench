@@ -1,0 +1,197 @@
+{
+  "prompt_id": "lif_base_09",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest ways to stay physically active daily.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Daily Physical Activity Ideas\n\n## Quick, Habit-Forming Options\n- **Walk or bike** for errands and commutes\n- **Take stairs** instead of elevators\n- **Do 10-minute movement breaks** between tasks\n- **Stretch while watching TV** or during phone calls\n- **Park farther away** to add walking\n\n## Structured Exercise\n- Morning or evening workouts (gym, home videos, apps)\n- Group classes (yoga, dance, cycling)\n- Sports or recreational leagues\n- Running, swimming, or cycling routines\n\n## Lifestyle Integration\n- Garden or do yard work\n- Dance while cooking or cleaning\n- Stand or pace during calls\n- Join a walking group or gym buddy\n- Use a standing desk\n\n## Low-Barrier Starters\n- Start with 15-30 minutes daily\n- Choose activities you actually enjoy\n- Mix cardio, strength, and flexibility work\n- Track progress for motivation\n\n## Tips for Consistency\n- Schedule it like appointments\n- Prepare workout clothes the night before\n- Find an accountability partner\n- Celebrate small wins\n- Adjust if life gets busy (something beats nothing)\n\n**Key insight:** The best activity is one you'll actually do regularly. Start small and build from there.\n\nWhat type of activity appeals to you most?",
+  "extracted": {
+    "summary": "The response provides various suggestions for staying physically active daily, including quick habits, structured exercises, and lifestyle integration.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "walking or biking for errands and commutes",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "taking stairs instead of elevators",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "10-minute movement breaks",
+        "activity_type": "other",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stretching while watching TV",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "gardening or yard work",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dancing while cooking or cleaning",
+        "activity_type": "dance",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "joining a walking group",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "using a standing desk",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "standing desk"
+        ],
+        "location": "indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "15-30 minutes of daily activity",
+        "activity_type": "other",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2819,
+  "extraction_output_tokens": 1275,
+  "extraction_from_cache": false
+}

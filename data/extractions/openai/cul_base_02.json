@@ -1,0 +1,392 @@
+{
+  "prompt_id": "cul_base_02",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a 3-day meal plan for a healthy heart.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a 3-day meal plan focused on heart-healthy foods. This plan emphasizes whole grains, fruits, vegetables, lean proteins, healthy fats, and low sodium. Always consult with a healthcare professional or a registered dietitian for personalized advice.\n\n### Day 1\n\n**Breakfast:**\n- Oatmeal topped with sliced bananas and a sprinkle of cinnamon\n- A handful of walnuts\n- A cup of green tea\n\n**Snack:**\n- A small apple with a tablespoon of almond butter\n\n**Lunch:**\n- Quinoa salad with chickpeas, diced cucumber, cherry tomatoes, red onion, parsley, and a lemon-olive oil dressing\n- A side of mixed greens with balsamic vinaigrette\n\n**Snack:**\n- Carrot sticks and hummus\n\n**Dinner:**\n- Grilled salmon seasoned with herbs and lemon\n- Steamed broccoli and brown rice\n- A side of mixed berries for dessert\n\n### Day 2\n\n**Breakfast:**\n- Greek yogurt topped with fresh berries and a tablespoon of flaxseeds\n- A slice of whole-grain toast with avocado\n\n**Snack:**\n- A pear\n\n**Lunch:**\n- Whole grain wrap filled with turkey breast, spinach, avocado, and sliced tomatoes\n- A side of baby carrots\n\n**Snack:**\n- A handful of unsalted almonds\n\n**Dinner:**\n- Stir-fried tofu with mixed vegetables (bell peppers, broccoli, and snap peas) in a low-sodium soy sauce\n- Served over brown rice or quinoa\n\n### Day 3\n\n**Breakfast:**\n- Smoothie made with spinach, banana, Greek yogurt, and a tablespoon of chia seeds\n- A slice of whole-grain toast with a thin spread of peanut butter\n\n**Snack:**\n- Celery sticks with hummus\n\n**Lunch:**\n- Lentil soup with a side salad (mixed greens, cucumbers, and tomatoes with lemon vinaigrette)\n- Whole-grain bread or crackers\n\n**Snack:**\n- A small handful of mixed nuts (unsalted)\n\n**Dinner:**\n- Baked chicken breast seasoned with herbs, served with roasted sweet potatoes and asparagus\n- A fruit salad for dessert (mixed fruits like melon, berries, and kiwi)\n\n### General Tips:\n- Stay hydrated by drinking plenty of water throughout the day.\n- Limit processed foods, added sugars, and saturated fats.\n- Choose healthy cooking methods like grilling, baking, steaming, or sautéing with minimal oil.\n- Adjust portion sizes based on individual needs and activity levels.\n\nFeel free to mix and match meals and snacks from different days to suit your preferences!",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan focused on heart-healthy foods, emphasizing whole grains, fruits, vegetables, lean proteins, and healthy fats.",
+    "response_type": "meal_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "bananas",
+          "cinnamon",
+          "walnuts",
+          "green tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "chickpeas",
+          "cucumber",
+          "cherry tomatoes",
+          "red onion",
+          "parsley",
+          "lemon",
+          "olive oil",
+          "mixed greens",
+          "balsamic vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks and hummus",
+        "ingredients": [
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon",
+        "ingredients": [
+          "salmon",
+          "herbs",
+          "lemon",
+          "broccoli",
+          "brown rice",
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "flaxseeds",
+          "whole-grain toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "pear",
+        "ingredients": [
+          "pear"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "whole grain wrap",
+        "ingredients": [
+          "whole grain wrap",
+          "turkey breast",
+          "spinach",
+          "avocado",
+          "tomatoes",
+          "baby carrots"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "unsalted almonds",
+        "ingredients": [
+          "unsalted almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu",
+        "ingredients": [
+          "tofu",
+          "mixed vegetables",
+          "low-sodium soy sauce",
+          "brown rice",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "greek yogurt",
+          "chia seeds",
+          "whole-grain toast",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "celery sticks with hummus",
+        "ingredients": [
+          "celery sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "mixed greens",
+          "cucumbers",
+          "tomatoes",
+          "lemon vinaigrette",
+          "whole-grain bread",
+          "crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "herbs",
+          "sweet potatoes",
+          "asparagus",
+          "mixed fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almonds",
+      "asparagus",
+      "avocado",
+      "baby carrots",
+      "bananas",
+      "baking",
+      "balsamic vinaigrette",
+      "brown rice",
+      "carrot sticks",
+      "chia seeds",
+      "chickpeas",
+      "cucumber",
+      "crackers",
+      "celery sticks",
+      "cinnamon",
+      "diced cucumber",
+      "dinner",
+      "eggs",
+      "flaxseeds",
+      "fruit salad",
+      "greek yogurt",
+      "grilled salmon",
+      "herbs",
+      "hummus",
+      "lemon",
+      "lemon vinaigrette",
+      "lentils",
+      "low-sodium soy sauce",
+      "mixed berries",
+      "mixed greens",
+      "mixed vegetables",
+      "mixed nuts",
+      "oatmeal",
+      "olive oil",
+      "peanut butter",
+      "pear",
+      "quinoa",
+      "red onion",
+      "salmon",
+      "sliced tomatoes",
+      "spinach",
+      "sweet potatoes",
+      "tofu",
+      "turkey breast",
+      "whole grain wrap",
+      "whole-grain bread",
+      "whole-grain toast"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "quinoa salad",
+      "grilled salmon",
+      "greek yogurt",
+      "whole grain wrap",
+      "stir-fried tofu",
+      "smoothie",
+      "lentil soup",
+      "baked chicken breast"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "heart_health"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consult with a healthcare professional or a registered dietitian for personalized advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3087,
+  "extraction_output_tokens": 2477,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,132 @@
+{
+  "prompt_id": "fin_con_01",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy breakfast. I have $5.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a healthy and filling breakfast idea for under $5, using common grocery store items (prices may vary slightly by location).\n\n**The \"Power Oatmeal Bowl\"**\n\n- **1/2 cup rolled oats** (~$0.20 from a bulk bin or large container)\n- **1 cup water or milk** (water is free; milk adds ~$0.30)\n- **1 small banana** (~$0.25)\n- **1 large egg** (~$0.20)\n- **1 tablespoon peanut butter** (from a $3 jar, ~$0.20)\n- **Optional: Sprinkle of cinnamon** (negligible cost)\n\n**Total estimated cost: ~$1.15** (leaving you plenty of change for coffee or extra fruit)\n\n**Instructions:**\n1. Cook oats with water or milk according to package directions (usually 2-3 minutes in microwave or 5 minutes on stove).\n2. While oats cook, scramble or fry the egg in a non-stick pan (no oil needed if non-stick).\n3. Slice the banana.\n4. Top the cooked oats with the egg, banana slices, and a dollop of peanut butter. Sprinkle cinnamon on top.\n\n**Why it works:**\n- **Oats** provide fiber and slow-release energy.\n- **Egg** adds protein and healthy fats to keep you full.\n- **Banana** gives natural sweetness and potassium.\n- **Peanut butter** adds healthy fats and more protein.\n\n**Budget tips:**\n- Buy oats in bulk, not instant packets.\n- Use a whole banana instead of pricier berries.\n- Skip the milk and use water if you’re really pinching pennies.\n\nYou’ll have about $3.85 left over—maybe enough for a second breakfast or to save for lunch!",
+  "extracted": {
+    "summary": "The response suggests a healthy breakfast called the 'Power Oatmeal Bowl' that can be made for under $5.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "power oatmeal bowl",
+        "ingredients": [
+          "rolled oats",
+          "water",
+          "milk",
+          "banana",
+          "egg",
+          "peanut butter",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": 1.15,
+        "prep_time_minutes": 5,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "rolled oats",
+      "water",
+      "milk",
+      "banana",
+      "egg",
+      "peanut butter",
+      "cinnamon"
+    ],
+    "all_dishes_or_foods_named": [
+      "power oatmeal bowl"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 1.15,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 5,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2971,
+  "extraction_output_tokens": 859,
+  "extraction_from_cache": false
+}

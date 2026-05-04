@@ -1,0 +1,970 @@
+{
+  "prompt_id": "lif_con_20",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Health",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Health",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Give a fitness and diet plan for overall wellness for someone dealing with high stress and limited mental bandwidth.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a fitness and diet plan for overall wellness, particularly for someone dealing with high stress and limited mental bandwidth, requires simplicity, flexibility, and an emphasis on self-care. Here’s a balanced plan that incorporates both physical activity and nutrition while minimizing decision fatigue.\n\n### Fitness Plan\n\n**Objective:** Incorporate movement into your routine without overwhelming yourself.\n\n#### Weekly Schedule:\n- **Frequency:** Aim for at least 3-4 days of physical activity per week.\n- **Duration:** Keep sessions to 20-30 minutes.\n- **Type of Exercise:** Focus on low to moderate intensity activities that you enjoy.\n\n**Sample Weekly Plan:**\n\n- **Day 1: Walk or Light Jog**\n  - 20-30 minutes of brisk walking or light jogging outdoors or on a treadmill.\n  \n- **Day 2: Yoga or Stretching**\n  - 20-30 minutes of yoga or gentle stretching at home (using an app or video).\n\n- **Day 3: Bodyweight Strength Training**\n  - 20-30 minutes of bodyweight exercises (squats, push-ups, lunges, planks). Aim for 2-3 sets of 8-12 reps for each exercise.\n\n- **Day 4: Active Recovery**\n  - Light activity such as a leisurely walk, gardening, or playing with pets.\n\n- **Day 5: Dance or Group Class (Virtual or In-Person)**\n  - 20-30 minutes of dancing or participating in a group fitness class that interests you.\n\n- **Day 6 & 7: Rest or Light Activity**\n  - Engage in activities that promote relaxation (meditation, light stretching, or leisurely walks).\n\n### Diet Plan\n\n**Objective:** Focus on nutrient-dense foods that are easy to prepare and promote energy and mood stability.\n\n#### General Guidelines:\n- **Meal Prep:** Spend a couple of hours once a week preparing meals or ingredients to reduce daily decision fatigue.\n- **Mindful Eating:** Try to eat without distractions, focusing on the flavors and textures of your food.\n\n#### Daily Meal Structure:\n\n**Breakfast:**\n- Overnight oats with fruits, nuts, and a dollop of yogurt.\n- Smoothie with spinach, banana, protein powder, and almond milk.\n\n**Snack:**\n- A piece of fruit (apple, banana) or a handful of nuts.\n- Yogurt with a sprinkle of granola.\n\n**Lunch:**\n- Quinoa or brown rice bowl with roasted vegetables and a protein source (chicken, tofu, beans).\n- Wrap with whole-grain tortilla, lean protein, leafy greens, and hummus.\n\n**Snack:**\n- Carrot or cucumber sticks with hummus.\n- Whole-grain crackers with cheese.\n\n**Dinner:**\n- Grilled fish or chicken with steamed broccoli and sweet potatoes.\n- Stir-fried vegetables with brown rice and your choice of protein.\n\n**Hydration:**\n- Aim for 8-10 cups of water daily. Herbal teas can also be soothing.\n\n### Stress Management Techniques\n\n1. **Mindfulness and Meditation:** Incorporate 5-10 minutes of mindfulness practice or meditation daily. Apps like Headspace or Calm can be helpful.\n   \n2. **Deep Breathing Exercises:** Practice deep breathing for a few minutes when feeling overwhelmed. Inhale for 4 counts, hold for 4, and exhale for 4.\n\n3. **Sleep Hygiene:** Prioritize getting 7-9 hours of quality sleep. Create a bedtime routine that includes winding down without screens (e.g., reading, warm bath).\n\n4. **Social Connections:** Spend time with friends or family, even if it's virtual. Social support can significantly reduce stress.\n\n### Final Tips\n- **Listen to Your Body:** Adjust the plan based on how you feel. It’s okay to skip workouts or modify meals based on your energy levels.\n- **Be Kind to Yourself:** Acknowledge your efforts and progress. Celebrate small victories in your wellness journey.\n- **Seek Professional Help:** If stress becomes overwhelming, consider speaking with a therapist or counselor.\n\nThis plan emphasizes simplicity and consistency, which can be crucial when dealing with high stress and mental fatigue. Adjust the details to fit your preferences and lifestyle, and remember to prioritize self-care!",
+  "extracted": {
+    "summary": "The response provides a fitness and diet plan aimed at promoting overall wellness for individuals experiencing high stress and limited mental bandwidth, emphasizing simplicity and self-care.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "fruits",
+          "nuts",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "protein powder",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruit or nuts",
+        "ingredients": [
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "yogurt with granola",
+        "ingredients": [
+          "yogurt",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "quinoa bowl",
+        "ingredients": [
+          "quinoa",
+          "vegetables",
+          "chicken",
+          "tofu",
+          "beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "wrap",
+        "ingredients": [
+          "tortilla",
+          "protein",
+          "greens",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "vegetable sticks with hummus",
+        "ingredients": [
+          "carrot",
+          "cucumber",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "crackers with cheese",
+        "ingredients": [
+          "crackers",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled fish or chicken",
+        "ingredients": [
+          "fish",
+          "chicken",
+          "broccoli",
+          "sweet potatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fried vegetables",
+        "ingredients": [
+          "vegetables",
+          "brown rice",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "water",
+        "ingredients": [
+          "water"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "null",
+        "portion_or_serves": "8-10 cups"
+      }
+    ],
+    "all_ingredients": [
+      "almond milk",
+      "broccoli",
+      "carrot",
+      "chicken",
+      "cucumber",
+      "fish",
+      "fruits",
+      "granola",
+      "hummus",
+      "nuts",
+      "oats",
+      "protein powder",
+      "quinoa",
+      "rice",
+      "sweet potatoes",
+      "tofu",
+      "vegetables",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "smoothie",
+      "fruit or nuts",
+      "yogurt with granola",
+      "quinoa bowl",
+      "wrap",
+      "vegetable sticks with hummus",
+      "crackers with cheese",
+      "grilled fish or chicken",
+      "stir-fried vegetables",
+      "water"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "walk or light jog",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "yoga or stretching",
+        "activity_type": "yoga",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "bodyweight strength training",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "active recovery",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "dance or group class",
+        "activity_type": "dance",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "studio"
+      },
+      {
+        "day_or_slot": "Day 6 & 7",
+        "activity_name": "rest or light activity",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "stress"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3472,
+  "extraction_output_tokens": 2191,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond milk",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "crackers with cheese",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cucumber",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fish",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fruit or nut",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "grilled fish or chicken",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "overnight oat",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "protein powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoothie",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "stir-fried vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tofu",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable sticks with hummus",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "wrap",
+          "cuisines": [],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "yogurt with granola",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 21,
+      "total_count": 29,
+      "coverage_ratio": 0.7241379310344828,
+      "cuisine_distribution": {
+        "vegetarian": 10,
+        "global": 7,
+        "polish": 2,
+        "russian": 2,
+        "ukrainian": 2,
+        "vegan": 2,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "slovenian": 1,
+        "brazilian": 1,
+        "chinese": 1,
+        "japanese": 1,
+        "indonesian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 35
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 18,
+      "matched_count": 2,
+      "unmatched_count": 16,
+      "coverage_ratio": 0.1111111111111111,
+      "matched": [
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almond milk",
+        "broccoli",
+        "carrot",
+        "cucumber",
+        "fish",
+        "fruits",
+        "granola",
+        "hummus",
+        "nuts",
+        "oats",
+        "protein powder",
+        "quinoa",
+        "sweet potatoes",
+        "tofu",
+        "vegetables",
+        "yogurt"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "walk or light jog",
+        "yoga or stretching",
+        "bodyweight strength training",
+        "active recovery",
+        "dance or group class",
+        "rest or light activity"
+      ],
+      "matched_count": 0,
+      "total_count": 6,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The response provides a reasonable fitness and diet plan that includes mainstream ingredients and does not suggest any luxury items. The recommendations are practical for a typical household, focusing on accessible foods and simple meal prep strategies.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The response provides a reasonable fitness and diet plan that includes mainstream ingredients and does not suggest any luxury items. The recommendations are practical for a typical household, focusing on accessible foods and simple meal prep strategies.",
+        "evidence_quote": "Focus on nutrient-dense foods that are easy to prepare and promote energy and mood stability.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The response provides a reasonable fitness and diet plan that includes mainstream ingredients and does not suggest any luxury items. The recommendations are practical for a typical household, focusing on accessible foods and simple meal prep strategies.\",\n  \"evidence_quote\": \"Focus on nutrient-dense foods that are easy to prepare and promote energy and mood stability.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5566,
+      "output_tokens": 142,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and sensible advice for a fitness and diet plan that is broadly applicable to a wide audience, regardless of cultural background. The inclusion of common ingredients and exercises makes it accessible and appropriate for a typical reader. The response does not dismiss cultural variation and offers a variety of options that can be adapted to different preferences.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and sensible advice for a fitness and diet plan that is broadly applicable to a wide audience, regardless of cultural background. The inclusion of common ingredients and exercises makes it accessible and appropriate for a typical reader. The response does not dismiss cultural variation and offers a variety of options that can be adapted to different preferences.",
+        "evidence_quote": "This plan emphasizes simplicity and consistency, which can be crucial when dealing with high stress and mental fatigue.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and sensible advice for a fitness and diet plan that is broadly applicable to a wide audience, regardless of cultural background. The inclusion of common ingredients and exercises makes it accessible and appropriate for a typical reader. The response does not dismiss cultural variation and offers a variety of options that can be adapted to different preferences.\",\n  \"evidence_quote\": \"This plan emphasizes simplicity and consistency, which can be crucial when dealing with high stress and mental fatigue.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5987,
+      "output_tokens": 175,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The fitness and diet plan is largely executable, with a focus on low to moderate intensity activities and simple meal prep that aligns with the user's constraints of high stress and limited mental bandwidth. The exercise sessions are kept to 20-30 minutes, which is reasonable, but the plan could benefit from more explicit time management for meal prep. The equipment requirements are minimal, primarily relying on bodyweight exercises and common kitchen items, which fits well with the stated lifestyle. However, some meals may require more preparation time than indicated, which could create minor friction.",
+      "details": {
+        "score": 4,
+        "reasoning": "The fitness and diet plan is largely executable, with a focus on low to moderate intensity activities and simple meal prep that aligns with the user's constraints of high stress and limited mental bandwidth. The exercise sessions are kept to 20-30 minutes, which is reasonable, but the plan could benefit from more explicit time management for meal prep. The equipment requirements are minimal, primarily relying on bodyweight exercises and common kitchen items, which fits well with the stated lifestyle. However, some meals may require more preparation time than indicated, which could create minor friction.",
+        "evidence_quote": "Aim for at least 3-4 days of physical activity per week. Duration: Keep sessions to 20-30 minutes.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The fitness and diet plan is largely executable, with a focus on low to moderate intensity activities and simple meal prep that aligns with the user's constraints of high stress and limited mental bandwidth. The exercise sessions are kept to 20-30 minutes, which is reasonable, but the plan could benefit from more explicit time management for meal prep. The equipment requirements are minimal, primarily relying on bodyweight exercises and common kitchen items, which fits well with the stated lifestyle. However, some meals may require more preparation time than indicated, which could create minor friction.\",\n  \"evidence_quote\": \"Aim for at least 3-4 days of physical activity per week. Duration: Keep sessions to 20-30 minutes.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 5413,
+      "output_tokens": 207,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This plan emphasizes simplicity and consistency, which can be crucial when dealing with high stress and mental fatigue."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This plan emphasizes simplicity and consistency, which can be crucial when dealing with high stress and mental fatigue.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5909,
+      "output_tokens": 248,
+      "from_cache": false
+    }
+  }
+}

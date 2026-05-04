@@ -1,0 +1,331 @@
+{
+  "prompt_id": "lif_base_06",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a healthy meal prep plan.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a healthy meal prep plan can help you save time, make healthier choices, and stick to your nutritional goals. Below is a simple, balanced meal prep plan for one week, including breakfast, lunch, dinner, and snacks. Adjust portion sizes based on your personal dietary needs and preferences.\n\n### Weekly Meal Prep Plan\n\n#### **Meal Prep Overview**\n- **Prep Day:** Choose a day (e.g., Sunday) to prepare your meals for the week.\n- **Containers:** Use airtight containers for storage. Glass containers are great for reheating.\n- **Cooking Method:** Utilize baking, steaming, grilling, or sautéing for healthier cooking options.\n\n---\n\n### **Breakfast Options**\n\n1. **Overnight Oats**\n   - **Ingredients:** Rolled oats, almond milk (or yogurt), chia seeds, honey, and fruits (berries or banana).\n   - **Prep:** Combine ingredients in jars and refrigerate for up to 5 days. \n\n2. **Vegetable Egg Muffins**\n   - **Ingredients:** Eggs, spinach, bell peppers, onions, and cheese (optional).\n   - **Prep:** Whisk eggs, mix with chopped veggies, pour into muffin tins, and bake at 350°F (175°C) for 20 minutes. Store in the fridge for up to 5 days.\n\n3. **Smoothie Packs**\n   - **Ingredients:** Spinach, banana, mixed berries, and protein powder (optional).\n   - **Prep:** Portion ingredients into freezer bags. Blend with almond milk or water in the morning.\n\n---\n\n### **Lunch Options**\n\n1. **Quinoa Salad**\n   - **Ingredients:** Cooked quinoa, chickpeas, cherry tomatoes, cucumber, parsley, lemon juice, and olive oil.\n   - **Prep:** Mix all ingredients in a large bowl. Store in containers for 4-5 days.\n\n2. **Grilled Chicken and Veggies**\n   - **Ingredients:** Chicken breast, zucchini, bell peppers, and broccoli.\n   - **Prep:** Season chicken and veggies, grill or bake. Portion into containers with a side of brown rice or quinoa.\n\n3. **Turkey and Hummus Wraps**\n   - **Ingredients:** Whole grain tortillas, sliced turkey, lettuce, tomato, and hummus.\n   - **Prep:** Assemble wraps and slice in half. Store in the fridge for 3-4 days.\n\n---\n\n### **Dinner Options**\n\n1. **Baked Salmon with Asparagus**\n   - **Ingredients:** Salmon fillets, asparagus, lemon, and olive oil.\n   - **Prep:** Bake salmon and asparagus at 400°F (200°C) for 15-20 minutes. Serve with a side of quinoa.\n\n2. **Stir-Fried Tofu and Vegetables**\n   - **Ingredients:** Tofu, bell peppers, broccoli, carrots, and soy sauce or teriyaki sauce.\n   - **Prep:** Stir-fry tofu and veggies in a pan. Serve over brown rice or quinoa.\n\n3. **Chili**\n   - **Ingredients:** Ground turkey (or lentils for a vegetarian option), black beans, kidney beans, diced tomatoes, corn, and chili spices.\n   - **Prep:** Cook all ingredients in a pot and simmer. Store in containers for 5-7 days.\n\n---\n\n### **Snack Options**\n\n1. **Fresh Fruit**\n   - Apple slices, bananas, or berries.\n\n2. **Nuts and Seeds**\n   - Portion out servings of almonds, walnuts, or pumpkin seeds.\n\n3. **Vegetable Sticks with Hummus**\n   - Carrot, cucumber, and bell pepper sticks with a side of hummus.\n\n---\n\n### **Tips for Successful Meal Prep**\n- **Cook in Batches:** Prepare large quantities of grains, proteins, and veggies to use in multiple meals.\n- **Season Wisely:** Use herbs and spices to enhance flavor without adding extra calories.\n- **Stay Organized:** Label containers with dates and meal contents for easy identification.\n- **Stay Hydrated:** Don’t forget to drink plenty of water throughout the day.\n\nThis meal prep plan provides a variety of nutrients, flavors, and textures while keeping preparation time efficient. Adjust meals as per your taste and dietary restrictions. Enjoy your healthy eating journey!",
+  "extracted": {
+    "summary": "The response provides a detailed healthy meal prep plan for one week, including options for breakfast, lunch, dinner, and snacks.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "almond milk",
+          "chia seeds",
+          "honey",
+          "fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "vegetable egg muffins",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "bell peppers",
+          "onions",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie packs",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "mixed berries",
+          "protein powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "cooked quinoa",
+          "chickpeas",
+          "cherry tomatoes",
+          "cucumber",
+          "parsley",
+          "lemon juice",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken and veggies",
+        "ingredients": [
+          "chicken breast",
+          "zucchini",
+          "bell peppers",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "turkey and hummus wraps",
+        "ingredients": [
+          "whole grain tortillas",
+          "sliced turkey",
+          "lettuce",
+          "tomato",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 2"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with asparagus",
+        "ingredients": [
+          "salmon fillets",
+          "asparagus",
+          "lemon",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "serves 2"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu and vegetables",
+        "ingredients": [
+          "tofu",
+          "bell peppers",
+          "broccoli",
+          "carrots",
+          "soy sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chili",
+        "ingredients": [
+          "ground turkey",
+          "black beans",
+          "kidney beans",
+          "diced tomatoes",
+          "corn",
+          "chili spices"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 6"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fresh fruit",
+        "ingredients": [
+          "apple slices",
+          "bananas",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts and seeds",
+        "ingredients": [
+          "almonds",
+          "walnuts",
+          "pumpkin seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "vegetable sticks with hummus",
+        "ingredients": [
+          "carrot",
+          "cucumber",
+          "bell pepper",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond milk",
+      "asparagus",
+      "bananas",
+      "bell peppers",
+      "black beans",
+      "broccoli",
+      "carrot",
+      "chickpeas",
+      "chia seeds",
+      "chili spices",
+      "cooked quinoa",
+      "cucumber",
+      "diced tomatoes",
+      "eggs",
+      "fresh fruit",
+      "ground turkey",
+      "grilled chicken",
+      "hummus",
+      "lemon",
+      "lettuce",
+      "mixed berries",
+      "nuts and seeds",
+      "olive oil",
+      "onions",
+      "pumpkin seeds",
+      "quinoa",
+      "rolled oats",
+      "salmon fillets",
+      "sliced turkey",
+      "soy sauce",
+      "spinach",
+      "teriyaki sauce",
+      "vegetable sticks",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "vegetable egg muffins",
+      "smoothie packs",
+      "quinoa salad",
+      "grilled chicken and veggies",
+      "turkey and hummus wraps",
+      "baked salmon with asparagus",
+      "stir-fried tofu and vegetables",
+      "chili",
+      "fresh fruit",
+      "nuts and seeds",
+      "vegetable sticks with hummus"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3410,
+  "extraction_output_tokens": 2088,
+  "extraction_from_cache": false
+}

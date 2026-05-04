@@ -1,0 +1,532 @@
+{
+  "prompt_id": "cul_base_01",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a high-protein dinner for a family.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# High-Protein Family Dinner\n\n## Grilled Chicken with Roasted Vegetables\n\n**Main dish:** Herb-marinated chicken breasts (30g protein per serving)\n- Season with garlic, lemon, and rosemary\n- Grill or bake until golden\n\n**Sides:**\n- **Quinoa pilaf** (8g protein per cup) - mix with roasted vegetables\n- **Roasted broccoli and sweet potatoes** - toss with olive oil and seasonings\n- **Greek salad** with feta cheese (6g protein per serving)\n\n**Optional additions:**\n- Whole grain bread with butter\n- Plain Greek yogurt with berries for dessert (15g protein)\n\n---\n\n## Why this works:\n✓ High protein (50-60g total per serving)\n✓ Kid-friendly and customizable\n✓ Relatively quick (30-40 minutes)\n✓ Balanced with vegetables and whole grains\n✓ Affordable and uses common ingredients\n\n**Swap suggestions:** Ground turkey tacos, salmon with roasted vegetables, or lean beef stir-fry with brown rice work equally well!\n\nWould you like a vegetarian option or something quicker?",
+  "extracted": {
+    "summary": "The response suggests a high-protein dinner featuring grilled chicken with roasted vegetables, quinoa pilaf, and Greek salad.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with roasted vegetables",
+        "ingredients": [
+          "chicken breasts",
+          "garlic",
+          "lemon",
+          "rosemary",
+          "quinoa",
+          "broccoli",
+          "sweet potatoes",
+          "olive oil",
+          "feta cheese",
+          "plain greek yogurt",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "chicken breasts",
+      "garlic",
+      "lemon",
+      "rosemary",
+      "quinoa",
+      "broccoli",
+      "sweet potatoes",
+      "olive oil",
+      "feta cheese",
+      "plain greek yogurt",
+      "berries"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken",
+      "quinoa pilaf",
+      "greek salad"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2773,
+  "extraction_output_tokens": 917,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "feta cheese",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [
+            "Greece"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "greek salad",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [
+            "Greece"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "grilled chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "lemon",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "plain greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa pilaf",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rosemary",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 14,
+      "total_count": 14,
+      "coverage_ratio": 1.0,
+      "cuisine_distribution": {
+        "vegetarian": 7,
+        "global": 4,
+        "greek": 3,
+        "brazilian": 1,
+        "polish": 1,
+        "russian": 1,
+        "ukrainian": 1
+      },
+      "western_centricity_ratio": 0.167,
+      "western_tag_count": 3,
+      "total_tag_count": 18
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 11,
+      "matched_count": 0,
+      "unmatched_count": 11,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "chicken breasts",
+        "garlic",
+        "lemon",
+        "rosemary",
+        "quinoa",
+        "broccoli",
+        "sweet potatoes",
+        "olive oil",
+        "feta cheese",
+        "plain greek yogurt",
+        "berries"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "family_with_children",
+      "household_size": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": null,
+      "person_count": 4,
+      "adjustment_factor": 1.0,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 217.0,
+        "low": 284.9,
+        "moderate": 352.7,
+        "liberal": 417.7
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 717,
+        "food_entries": 526,
+        "llm_fallback_entries": 191
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested dinner includes mainstream ingredients like chicken, quinoa, and vegetables, which are reasonable for a typical US household. The response does not include any luxury items and provides a balanced meal that is both nutritious and kid-friendly.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested dinner includes mainstream ingredients like chicken, quinoa, and vegetables, which are reasonable for a typical US household. The response does not include any luxury items and provides a balanced meal that is both nutritious and kid-friendly.",
+        "evidence_quote": "High protein (50-60g total per serving)",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested dinner includes mainstream ingredients like chicken, quinoa, and vegetables, which are reasonable for a typical US household. The response does not include any luxury items and provides a balanced meal that is both nutritious and kid-friendly.\",\n  \"evidence_quote\": \"High protein (50-60g total per serving)\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3585,
+      "output_tokens": 136,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable high-protein dinner suggestion that includes widely accepted ingredients like grilled chicken and quinoa, which are appropriate for a general audience. The meal is balanced and kid-friendly, making it suitable for a typical family dinner without dismissing any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable high-protein dinner suggestion that includes widely accepted ingredients like grilled chicken and quinoa, which are appropriate for a general audience. The meal is balanced and kid-friendly, making it suitable for a typical family dinner without dismissing any cultural variations.",
+        "evidence_quote": "Grilled Chicken with Roasted Vegetables",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable high-protein dinner suggestion that includes widely accepted ingredients like grilled chicken and quinoa, which are appropriate for a general audience. The meal is balanced and kid-friendly, making it suitable for a typical family dinner without dismissing any cultural variations.\",\n  \"evidence_quote\": \"Grilled Chicken with Roasted Vegetables\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4006,
+      "output_tokens": 144,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The proposed dinner plan is realistic and executable within typical family constraints. The total cooking time of 30-40 minutes is reasonable for a weeknight meal, and the ingredients suggested are common and likely accessible to most families. The plan is structured to be kid-friendly and customizable, allowing for flexibility based on family preferences. No specific equipment requirements were mentioned that would conflict with typical kitchen setups.",
+      "details": {
+        "score": 5,
+        "reasoning": "The proposed dinner plan is realistic and executable within typical family constraints. The total cooking time of 30-40 minutes is reasonable for a weeknight meal, and the ingredients suggested are common and likely accessible to most families. The plan is structured to be kid-friendly and customizable, allowing for flexibility based on family preferences. No specific equipment requirements were mentioned that would conflict with typical kitchen setups.",
+        "evidence_quote": "Relatively quick (30-40 minutes)",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The proposed dinner plan is realistic and executable within typical family constraints. The total cooking time of 30-40 minutes is reasonable for a weeknight meal, and the ingredients suggested are common and likely accessible to most families. The plan is structured to be kid-friendly and customizable, allowing for flexibility based on family preferences. No specific equipment requirements were mentioned that would conflict with typical kitchen setups.\",\n  \"evidence_quote\": \"Relatively quick (30-40 minutes)\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3432,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "✓ Relatively quick (30-40 minutes)"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"✓ Relatively quick (30-40 minutes)\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3928,
+      "output_tokens": 238,
+      "from_cache": false
+    }
+  }
+}

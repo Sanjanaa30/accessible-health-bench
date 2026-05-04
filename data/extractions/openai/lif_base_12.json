@@ -1,0 +1,296 @@
+{
+  "prompt_id": "lif_base_12",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a weight management plan.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a weight management plan involves several key components, including dietary changes, physical activity, behavioral strategies, and ongoing monitoring. Below is a comprehensive plan that can be customized to individual needs and preferences.\n\n### Weight Management Plan\n\n#### 1. Set Clear Goals\n- **Short-Term Goals:** Aim for a realistic weight loss of 1-2 pounds per week. \n- **Long-Term Goals:** Establish a target weight that is healthy for your height and body type, and set a timeframe to reach it (e.g., 6 months to 1 year).\n\n#### 2. Dietary Changes\n- **Balanced Diet:**\n  - **Fruits and Vegetables:** Aim for at least 5 servings per day. Choose a variety of colors to ensure a wide range of nutrients.\n  - **Whole Grains:** Incorporate whole grains like brown rice, quinoa, and whole wheat bread.\n  - **Lean Proteins:** Include sources such as chicken, turkey, fish, beans, tofu, and legumes.\n  - **Healthy Fats:** Focus on unsaturated fats found in avocados, nuts, seeds, and olive oil, while limiting saturated and trans fats.\n  \n- **Portion Control:**\n  - Use smaller plates and bowls to help control portion sizes.\n  - Be mindful of serving sizes, especially for high-calorie foods.\n\n- **Meal Planning:**\n  - Plan meals and snacks ahead of time to avoid impulsive eating.\n  - Prepare a grocery list based on healthy recipes to avoid buying unhealthy options.\n\n- **Hydration:**\n  - Drink plenty of water throughout the day. Aim for at least 8 cups (64 ounces) or more, depending on activity level.\n  - Limit sugary drinks and alcohol.\n\n#### 3. Physical Activity\n- **Exercise Routine:**\n  - Aim for at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity each week. Activities can include walking, jogging, cycling, swimming, or group fitness classes.\n  - Incorporate strength training exercises at least two days a week to build muscle and boost metabolism.\n\n- **Daily Activity:**\n  - Increase daily physical activity by taking the stairs, walking or biking instead of driving, and incorporating short exercise breaks throughout the day.\n\n#### 4. Behavioral Strategies\n- **Mindful Eating:**\n  - Practice mindfulness by eating slowly, savoring each bite, and paying attention to hunger and fullness cues.\n  \n- **Food Diary:**\n  - Keep a food diary to track what and when you eat. This can help identify eating patterns and areas for improvement.\n\n- **Support System:**\n  - Engage family and friends for support. Consider joining a weight loss group or working with a registered dietitian or nutritionist for guidance.\n\n- **Stress Management:**\n  - Implement stress-reduction techniques such as yoga, meditation, or deep breathing exercises, as stress can lead to emotional eating.\n\n#### 5. Monitoring Progress\n- **Regular Weigh-Ins:**\n  - Weigh yourself weekly at the same time of day to track progress. \n  - Focus on trends over time rather than daily fluctuations.\n\n- **Adjustments:**\n  - Be willing to adjust your plan as needed based on your progress and any challenges you encounter.\n\n- **Celebrate Milestones:**\n  - Celebrate non-food-related milestones (like completing a workout or hitting a weight loss goal) to maintain motivation.\n\n### Example Weekly Meal Plan\n\n**Day 1:**\n- Breakfast: Overnight oats with berries and almond milk\n- Snack: Greek yogurt with honey\n- Lunch: Grilled chicken salad with mixed greens and vinaigrette\n- Snack: Carrot sticks with hummus\n- Dinner: Baked salmon with quinoa and steamed broccoli\n\n**Day 2:**\n- Breakfast: Smoothie with spinach, banana, and protein powder\n- Snack: Apple slices with almond butter\n- Lunch: Turkey wrap with whole grain tortilla and veggies\n- Snack: Cottage cheese with pineapple\n- Dinner: Stir-fried tofu with mixed vegetables and brown rice\n\nRepeat this structure with different meals throughout the week for variety.\n\n### Conclusion\nThis weight management plan is a guideline and should be personalized based on individual preferences, dietary restrictions, and health conditions. It's advisable to consult with a healthcare professional before starting any weight loss or management program, especially if you have underlying health issues. Remember that consistency and patience are key to achieving lasting results.",
+  "extracted": {
+    "summary": "The response outlines a comprehensive weight management plan that includes dietary changes, physical activity, behavioral strategies, and monitoring progress.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "berries",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey",
+        "ingredients": [
+          "greek yogurt",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken salad",
+        "ingredients": [
+          "chicken",
+          "mixed greens",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with quinoa and steamed broccoli",
+        "ingredients": [
+          "salmon",
+          "quinoa",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "protein powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "apple slices with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "turkey wrap",
+        "ingredients": [
+          "turkey",
+          "whole grain tortilla",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with pineapple",
+        "ingredients": [
+          "cottage cheese",
+          "pineapple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu with mixed vegetables and brown rice",
+        "ingredients": [
+          "tofu",
+          "mixed vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "apple",
+      "berries",
+      "baked salmon",
+      "broccoli",
+      "brown rice",
+      "carrot sticks",
+      "chicken",
+      "cottage cheese",
+      "greek yogurt",
+      "hummus",
+      "mixed greens",
+      "mixed vegetables",
+      "oats",
+      "pineapple",
+      "protein powder",
+      "quinoa",
+      "salmon",
+      "spinach",
+      "tofu",
+      "turkey",
+      "whole grain tortilla",
+      "vinaigrette"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "greek yogurt",
+      "grilled chicken salad",
+      "carrot sticks with hummus",
+      "baked salmon",
+      "smoothie",
+      "turkey wrap",
+      "cottage cheese",
+      "stir-fried tofu"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "aerobic activity",
+        "activity_type": "cardio",
+        "duration_minutes": 150,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": 120,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "It's advisable to consult with a healthcare professional before starting any weight loss or management program, especially if you have underlying health issues."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3450,
+  "extraction_output_tokens": 1921,
+  "extraction_from_cache": false
+}

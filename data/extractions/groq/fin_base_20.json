@@ -1,0 +1,132 @@
+{
+  "prompt_id": "fin_base_20",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "How can I get enough fiber in my daily diet",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Getting enough fiber in your daily diet can have numerous health benefits, including promoting regular bowel movements, lowering cholesterol levels, and controlling blood sugar levels. Here are some tips to help you increase your fiber intake:\n\n1. **Eat a variety of fruits and vegetables**: Fruits and vegetables are rich in fiber, so aim to include a variety of them in your diet. Some high-fiber options include:\n\t* Berries (raspberries, strawberries, blueberries)\n\t* Leafy greens (spinach, kale, broccoli)\n\t* Cruciferous vegetables (cauliflower, Brussels sprouts, cabbage)\n\t* Citrus fruits (oranges, grapefruits, lemons)\n2. **Incorporate whole grains**: Whole grains, such as:\n\t* Brown rice\n\t* Quinoa\n\t* Whole wheat bread\n\t* Whole grain pasta\n\t* Oats\n3. **Legumes are a great source of fiber**: Legumes, such as:\n\t* Beans (kidney beans, black beans, chickpeas)\n\t* Lentils\n\t* Peas\n4. **Nuts and seeds are fiber-rich**: Almonds, chia seeds, flaxseeds, and pumpkin seeds are all high in fiber.\n5. **Incorporate fiber-rich snacks**: Snack on:\n\t* Fresh fruit\n\t* Raw vegetables with hummus\n\t* Trail mix with nuts and seeds\n\t* Whole grain crackers with avocado or peanut butter\n6. **Drink plenty of water**: Adequate hydration helps fiber move through your digestive system and prevents constipation.\n7. **Gradually increase your fiber intake**: If you're not used to eating a high-fiber diet, it's essential to increase your intake gradually to allow your gut microbiome to adjust. A sudden increase in fiber can cause digestive discomfort, such as bloating, gas, and stomach cramps.\n8. **Consider a fiber supplement**: If you're having trouble getting enough fiber from whole foods, consider taking a fiber supplement. However, always consult with a healthcare professional before adding any supplements to your diet.\n\n**Daily fiber recommendations**:\n\n* The American Heart Association recommends 25-30 grams of fiber per day.\n* The Academy of Nutrition and Dietetics recommends 38 grams of fiber per day for men and 25 grams per day for women.\n\n**Tips for tracking your fiber intake**:\n\n* Use a food diary or mobile app to track your daily fiber intake.\n* Read food labels to check the fiber content of packaged foods.\n* Aim to include a source of fiber at each meal and snack.\n\nRemember, increasing your fiber intake can have numerous health benefits, but it's essential to do so gradually and in conjunction with a balanced diet and a healthy lifestyle.",
+  "extracted": {
+    "summary": "To increase fiber intake, include a variety of fruits, vegetables, whole grains, legumes, nuts, and seeds in your diet, and consider fiber supplements if necessary.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "beans",
+      "berries",
+      "broccoli",
+      "brown rice",
+      "cabbage",
+      "cauliflower",
+      "chia seeds",
+      "citrus fruits",
+      "flaxseeds",
+      "grapefruits",
+      "hummus",
+      "kidney beans",
+      "kale",
+      "lentils",
+      "lemons",
+      "oranges",
+      "peas",
+      "pumpkin seeds",
+      "quinoa",
+      "raw vegetables",
+      "strawberries",
+      "trail mix",
+      "whole grain crackers",
+      "whole grain pasta",
+      "whole wheat bread",
+      "oats"
+    ],
+    "all_dishes_or_foods_named": [
+      "hummus",
+      "trail mix"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol",
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional before adding any supplements to your diet."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3113,
+  "extraction_output_tokens": 896,
+  "extraction_from_cache": false
+}

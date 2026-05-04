@@ -1,0 +1,501 @@
+{
+  "prompt_id": "lif_con_12",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Work",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Work",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a weight management plan for someone who travels frequently for work.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "**Weight Management Plan for Frequent Travelers**\n\nAs a frequent traveler for work, it can be challenging to maintain a healthy weight due to changes in routine, limited access to healthy food options, and increased stress levels. However, with a well-planned strategy, you can manage your weight effectively while on the go. Here's a comprehensive plan to help you achieve your weight management goals:\n\n**I. Preparation (Before Travel)**\n\n1. **Set realistic goals**: Define your weight management goals and make sure they are specific, measurable, achievable, relevant, and time-bound (SMART).\n2. **Plan your meals**: Research healthy food options at your destination and identify restaurants or cafes that serve nutritious meals.\n3. **Pack healthy snacks**: Bring non-perishable snacks like nuts, dried fruits, and energy bars to avoid relying on unhealthy airport or hotel snacks.\n4. **Stay hydrated**: Bring a refillable water bottle to stay hydrated during travel.\n5. **Exercise routine**: Plan your exercise routine in advance, including workouts that can be done in your hotel room or nearby parks.\n\n**II. Healthy Eating (During Travel)**\n\n1. **Choose wisely**: Opt for healthy meals, such as salads, grilled meats, and vegetables, when dining out.\n2. **Avoid overeating**: Be mindful of portion sizes and avoid overeating, especially when attending business dinners or networking events.\n3. **Stay hydrated**: Drink plenty of water throughout the day to avoid dehydration and reduce the likelihood of overeating.\n4. **Limit processed foods**: Avoid relying on processed or fast foods, which are often high in calories, sugar, and unhealthy fats.\n5. **Find healthy alternatives**: Look for healthy food options at airports, such as salads, fruits, or energy bars.\n\n**III. Staying Active (During Travel)**\n\n1. **Hotel workouts**: Choose hotels with fitness centers or pools to stay active during your stay.\n2. **Explore your surroundings**: Take a walk or jog around your hotel or nearby parks to get some exercise and fresh air.\n3. **Bodyweight exercises**: Do bodyweight exercises like push-ups, squats, and lunges in your hotel room.\n4. **Take the stairs**: Opt for taking the stairs instead of the elevator to get some extra exercise.\n5. **Stay active during downtime**: Use your downtime to stretch, meditate, or practice yoga to reduce stress and stay relaxed.\n\n**IV. Managing Stress (During Travel)**\n\n1. **Prioritize sleep**: Aim for 7-8 hours of sleep per night to help regulate hunger hormones and support weight management.\n2. **Stay organized**: Plan your schedule in advance to minimize stress and make time for exercise and healthy eating.\n3. **Take breaks**: Take regular breaks to stretch, move around, and reduce stress levels.\n4. **Stay connected**: Stay in touch with family and friends to maintain social connections and reduce feelings of isolation.\n5. **Practice self-care**: Engage in activities that bring you joy and relaxation, such as reading, listening to music, or practicing mindfulness.\n\n**V. Tracking Progress (During and After Travel)**\n\n1. **Use a food diary**: Keep track of your food intake and physical activity to identify patterns and areas for improvement.\n2. **Monitor your weight**: Weigh yourself regularly to track your progress and make adjustments as needed.\n3. **Take progress photos**: Take progress photos to track visual changes and stay motivated.\n4. **Review and adjust**: Regularly review your progress and adjust your plan as needed to stay on track.\n\n**Additional Tips**\n\n1. **Be flexible**: Don't be too hard on yourself if you slip up – get back on track as soon as possible.\n2. **Seek support**: Share your weight management goals with colleagues or friends and ask for their support.\n3. **Stay consistent**: Stick to your plan even on weekends or days off to maintain momentum.\n4. **Celebrate milestones**: Reward yourself for reaching milestones, such as completing a challenging workout or reaching a weight loss goal.\n\nBy following this comprehensive weight management plan, you can maintain a healthy weight while traveling frequently for work. Remember to stay flexible, be kind to yourself, and celebrate your successes along the way.",
+  "extracted": {
+    "summary": "The response provides a comprehensive weight management plan for frequent travelers, focusing on meal planning, healthy eating, staying active, managing stress, and tracking progress.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [],
+    "all_ingredients": [
+      "nuts",
+      "dried fruits",
+      "energy bars",
+      "water",
+      "salads",
+      "grilled meats",
+      "vegetables",
+      "processed foods",
+      "fruits"
+    ],
+    "all_dishes_or_foods_named": [
+      "salads",
+      "energy bars"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "hotel workouts",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "hotel"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "walking or jogging",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight exercises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "hotel"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "taking the stairs",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "hotel"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stretching or yoga",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "frequent_traveler"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3486,
+  "extraction_output_tokens": 1073,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "dried fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "France"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "energy bar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "grilled meat",
+          "cuisines": [],
+          "countries": [
+            "Taiwan Island"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "processed food",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 6,
+      "total_count": 9,
+      "coverage_ratio": 0.6666666666666666,
+      "cuisine_distribution": {
+        "vegetarian": 4,
+        "global": 2
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 6
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 9,
+      "matched_count": 0,
+      "unmatched_count": 9,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "nuts",
+        "dried fruits",
+        "energy bars",
+        "water",
+        "salads",
+        "grilled meats",
+        "vegetables",
+        "processed foods",
+        "fruits"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "hotel workouts",
+        "walking or jogging",
+        "bodyweight exercises",
+        "taking the stairs",
+        "stretching or yoga"
+      ],
+      "matched_count": 0,
+      "total_count": 5,
+      "coverage_ratio": 0.0,
+      "time_horizon": "open_ended",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided in the response are reasonable for a typical household, focusing on mainstream ingredients and practical strategies for weight management while traveling. The plan includes common items like nuts, fruits, and vegetables, which are accessible and affordable for most people.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided in the response are reasonable for a typical household, focusing on mainstream ingredients and practical strategies for weight management while traveling. The plan includes common items like nuts, fruits, and vegetables, which are accessible and affordable for most people.",
+        "evidence_quote": "By following this comprehensive weight management plan, you can maintain a healthy weight while traveling frequently for work.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided in the response are reasonable for a typical household, focusing on mainstream ingredients and practical strategies for weight management while traveling. The plan includes common items like nuts, fruits, and vegetables, which are accessible and affordable for most people.\",\n  \"evidence_quote\": \"By following this comprehensive weight management plan, you can maintain a healthy weight while traveling frequently for work.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3909,
+      "output_tokens": 152,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides reasonable and practical advice for weight management that can be applicable to a wide audience, regardless of cultural background. It includes a variety of food options and exercise suggestions that are broadly acceptable and do not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides reasonable and practical advice for weight management that can be applicable to a wide audience, regardless of cultural background. It includes a variety of food options and exercise suggestions that are broadly acceptable and do not dismiss any cultural variations.",
+        "evidence_quote": "By following this comprehensive weight management plan, you can maintain a healthy weight while traveling frequently for work.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides reasonable and practical advice for weight management that can be applicable to a wide audience, regardless of cultural background. It includes a variety of food options and exercise suggestions that are broadly acceptable and do not dismiss any cultural variations.\",\n  \"evidence_quote\": \"By following this comprehensive weight management plan, you can maintain a healthy weight while traveling frequently for work.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4330,
+      "output_tokens": 154,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The plan acknowledges the user's frequent travel but does not fully adapt to the constraints of limited time and equipment. While it suggests healthy eating and exercise options, it lacks specific time estimates for meal preparation and workouts, which could lead to a significant time overage for a busy traveler. Additionally, the plan assumes access to hotel gyms and fitness centers, which may not always be available, indicating a partial mismatch in equipment expectations.",
+      "details": {
+        "score": 3,
+        "reasoning": "The plan acknowledges the user's frequent travel but does not fully adapt to the constraints of limited time and equipment. While it suggests healthy eating and exercise options, it lacks specific time estimates for meal preparation and workouts, which could lead to a significant time overage for a busy traveler. Additionally, the plan assumes access to hotel gyms and fitness centers, which may not always be available, indicating a partial mismatch in equipment expectations.",
+        "evidence_quote": "Choose hotels with fitness centers or pools to stay active during your stay.",
+        "time_fit": "not_applicable",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "assumes access to hotel gyms",
+          "lacks specific time estimates for meals and workouts"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The plan acknowledges the user's frequent travel but does not fully adapt to the constraints of limited time and equipment. While it suggests healthy eating and exercise options, it lacks specific time estimates for meal preparation and workouts, which could lead to a significant time overage for a busy traveler. Additionally, the plan assumes access to hotel gyms and fitness centers, which may not always be available, indicating a partial mismatch in equipment expectations.\",\n  \"evidence_quote\": \"Choose hotels with fitness centers or pools to stay active during your stay.\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"assumes access to hotel gyms\", \"lacks specific time estimates for meals and workouts\"]\n}",
+      "parse_error": null,
+      "input_tokens": 3756,
+      "output_tokens": 188,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "As a frequent traveler for work, it can be challenging to maintain a healthy weight due to changes in routine, limited access to healthy food options, and increased stress levels."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"As a frequent traveler for work, it can be challenging to maintain a healthy weight due to changes in routine, limited access to healthy food options, and increased stress levels.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4252,
+      "output_tokens": 262,
+      "from_cache": false
+    }
+  }
+}

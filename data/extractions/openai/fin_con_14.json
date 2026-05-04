@@ -1,0 +1,163 @@
+{
+  "prompt_id": "fin_con_14",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Design a marathon training schedule for a beginner. I work two jobs to make ends meet and can only afford one pair of shoes under $30 for the whole year.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a marathon training schedule for a beginner, especially with limited time and resources, requires a smart and flexible approach. Here's a 16-week training plan that accommodates your busy lifestyle and focuses on gradual progression while ensuring you stay injury-free. This plan assumes you're starting from a basic fitness level, with some running experience.\n\n### General Guidelines:\n- **Shoes:** Invest in the best running shoes you can find within your budget. Look for local sales, clearance items, or consider second-hand shoes in good condition.\n- **Cross-Training:** Incorporate low-impact activities (like cycling or swimming) on cross-training days to improve cardiovascular fitness without additional running strain.\n- **Rest Days:** Ensure you have complete rest days to allow your body to recover.\n- **Listen to Your Body:** If you're feeling overly fatigued or in pain, take an extra rest day or adjust your training.\n\n### Weekly Structure:\n- **Monday:** Rest or light cross-training\n- **Tuesday:** Short run\n- **Wednesday:** Cross-training\n- **Thursday:** Medium run\n- **Friday:** Rest\n- **Saturday:** Long run\n- **Sunday:** Easy run or rest\n\n### 16-Week Training Schedule:\n\n#### Weeks 1-4 (Base Building)\n- **Week 1:** \n  - Tue: 2 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 3 miles\n  - Sat: 4 miles\n  - Sun: Rest or 1 mile easy\n\n- **Week 2:** \n  - Tue: 2 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 3 miles\n  - Sat: 5 miles\n  - Sun: Rest or 1 mile easy\n\n- **Week 3:** \n  - Tue: 2.5 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 3 miles\n  - Sat: 6 miles\n  - Sun: Rest or 1 mile easy\n\n- **Week 4:** \n  - Tue: 3 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 4 miles\n  - Sat: 7 miles\n  - Sun: Rest or 1.5 miles easy\n\n#### Weeks 5-8 (Building Endurance)\n- **Week 5:** \n  - Tue: 3 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 4 miles\n  - Sat: 8 miles\n  - Sun: Rest or 1.5 miles easy\n\n- **Week 6:** \n  - Tue: 3.5 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 4 miles\n  - Sat: 9 miles\n  - Sun: Rest or 2 miles easy\n\n- **Week 7:** \n  - Tue: 4 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 5 miles\n  - Sat: 10 miles\n  - Sun: Rest or 2 miles easy\n\n- **Week 8:** \n  - Tue: 4 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 5 miles\n  - Sat: 11 miles\n  - Sun: Rest or 2.5 miles easy\n\n#### Weeks 9-12 (Increasing Distance)\n- **Week 9:** \n  - Tue: 4 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 5 miles\n  - Sat: 12 miles\n  - Sun: Rest or 2.5 miles easy\n\n- **Week 10:** \n  - Tue: 5 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 6 miles\n  - Sat: 13 miles\n  - Sun: Rest or 3 miles easy\n\n- **Week 11:** \n  - Tue: 5 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 6 miles\n  - Sat: 14 miles\n  - Sun: Rest or 3 miles easy\n\n- **Week 12:** \n  - Tue: 5 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 7 miles\n  - Sat: 15 miles\n  - Sun: Rest or 3 miles easy\n\n#### Weeks 13-16 (Taper and Race Preparation)\n- **Week 13:** \n  - Tue: 5 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 7 miles\n  - Sat: 16 miles\n  - Sun: Rest or 3 miles easy\n\n- **Week 14:** \n  - Tue: 6 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 7 miles\n  - Sat: 10 miles\n  - Sun: Rest or 3 miles easy\n\n- **Week 15:** \n  - Tue: 4 miles\n  - Wed: Cross-train (30 min)\n  - Thu: 5 miles\n  - Sat: 8 miles\n  - Sun: Rest or 2 miles easy\n\n- **Week 16 (Race Week):** \n  - Tue: 3 miles\n  - Wed: Rest or light cross-train\n  - Thu: 2 miles (easy)\n  - Sat: **Race Day** (26.2 miles)\n  - Sun: Rest\n\n### Additional Tips:\n- **Nutrition:** Focus on a balanced diet to fuel your runs. Carbohydrates are crucial for endurance.\n- **Hydration:** Stay hydrated, especially during longer runs. Consider carrying water or planning routes with water availability.\n- **Community:** Join local running groups or online forums for support and motivation.\n- **Flexibility:** If your work schedule changes, feel free to adjust the running days as needed. The key is consistency over perfection.\n\nGood luck with your training, and remember to enjoy the journey!",
+  "extracted": {
+    "summary": "The response provides a 16-week marathon training schedule for beginners, accommodating a busy lifestyle and limited resources.",
+    "response_type": "fitness_plan",
+    "primary_goal": "endurance",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "short run",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "cross-train",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "medium run",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "long run",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "easy run or rest",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "two_jobs"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "endurance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3889,
+  "extraction_output_tokens": 1007,
+  "extraction_from_cache": false
+}

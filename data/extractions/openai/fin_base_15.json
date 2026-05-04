@@ -1,0 +1,136 @@
+{
+  "prompt_id": "fin_base_15",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best superfoods for heart health and energy?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Incorporating superfoods into your diet can support heart health and boost energy levels. Here are some of the best superfoods known for their beneficial properties in these areas:\n\n### For Heart Health:\n\n1. **Berries**: Blueberries, strawberries, and raspberries are rich in antioxidants, particularly flavonoids, which can help lower blood pressure and reduce inflammation.\n\n2. **Fatty Fish**: Salmon, mackerel, and sardines are high in omega-3 fatty acids, which are known to reduce triglycerides, lower blood pressure, and decrease the risk of heart disease.\n\n3. **Nuts and Seeds**: Walnuts, almonds, flaxseeds, and chia seeds provide healthy fats, fiber, and protein, contributing to improved heart health by lowering cholesterol levels.\n\n4. **Leafy Greens**: Spinach, kale, and Swiss chard are high in vitamins, minerals, and antioxidants that support cardiovascular health.\n\n5. **Avocado**: Rich in monounsaturated fats and potassium, avocados can help lower bad cholesterol levels and support overall heart health.\n\n6. **Legumes**: Beans, lentils, and chickpeas are excellent sources of fiber and protein, which can help lower cholesterol and improve heart health.\n\n7. **Olive Oil**: Extra virgin olive oil is rich in monounsaturated fats and antioxidants, which can help reduce inflammation and lower the risk of heart disease.\n\n### For Energy:\n\n1. **Quinoa**: A complete protein and complex carbohydrate, quinoa provides sustained energy and contains essential nutrients like magnesium and iron.\n\n2. **Sweet Potatoes**: High in complex carbohydrates and fiber, sweet potatoes offer a steady source of energy and are rich in vitamins A and C.\n\n3. **Bananas**: A great source of quick energy, bananas are rich in carbohydrates, potassium, and vitamin B6, making them excellent for fueling workouts.\n\n4. **Dark Chocolate**: Contains flavonoids that can improve circulation and provide a quick energy boost due to its caffeine and theobromine content.\n\n5. **Greek Yogurt**: High in protein and probiotics, Greek yogurt can provide lasting energy while supporting gut health.\n\n6. **Oats**: Rich in fiber and slow-digesting carbohydrates, oats can provide long-lasting energy and stabilize blood sugar levels.\n\n7. **Chia Seeds**: Packed with omega-3 fatty acids, protein, and fiber, chia seeds can help sustain energy levels and prevent spikes in blood sugar.\n\n### Combining Superfoods:\nFor optimal heart health and energy, consider incorporating a variety of these superfoods into your meals. For example, a salad with leafy greens, berries, nuts, and avocado, paired with a side of quinoa or a smoothie with Greek yogurt, spinach, and banana can be both nutritious and energizing. \n\nAlways consult with a healthcare provider or a registered dietitian before making significant changes to your diet, especially if you have underlying health conditions.",
+  "extracted": {
+    "summary": "The response recommends various superfoods that support heart health and boost energy levels, including berries, fatty fish, nuts, and quinoa.",
+    "response_type": "advisory",
+    "primary_goal": "heart_health",
+    "meal_components": [],
+    "all_ingredients": [
+      "avocado",
+      "bananas",
+      "beans",
+      "berries",
+      "chia seeds",
+      "dark chocolate",
+      "extra virgin olive oil",
+      "fatty fish",
+      "flaxseeds",
+      "greek yogurt",
+      "kale",
+      "legumes",
+      "mackerel",
+      "olives",
+      "quinoa",
+      "raspberries",
+      "salmon",
+      "seeds",
+      "spinach",
+      "sweet potatoes",
+      "walnuts"
+    ],
+    "all_dishes_or_foods_named": [
+      "berries",
+      "fatty fish",
+      "nuts and seeds",
+      "leafy greens",
+      "avocado",
+      "legumes",
+      "olive oil",
+      "quinoa",
+      "sweet potatoes",
+      "bananas",
+      "dark chocolate",
+      "greek yogurt",
+      "oats",
+      "chia seeds"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "heart_health"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consult with a healthcare provider or a registered dietitian before making significant changes to your diet, especially if you have underlying health conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3158,
+  "extraction_output_tokens": 912,
+  "extraction_from_cache": false
+}

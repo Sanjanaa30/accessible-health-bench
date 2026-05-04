@@ -1,0 +1,367 @@
+{
+  "prompt_id": "lif_con_09",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Work",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Work",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest ways to stay physically active daily for someone with a desk job and chronic fatigue.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Realistic Movement Strategies for Desk Work + Fatigue\n\n## Micro-movements (minimal energy, high frequency)\n- **Desk stretches**: neck rolls, shoulder shrugs, wrist circles (2-3 min hourly)\n- **Seated exercises**: marching in place, seated twists, desk push-ups\n- **Standing breaks**: stand for calls, alternate sitting/standing desk positions\n- These add up without requiring motivation\n\n## Low-intensity options that conserve energy\n- **Gentle walks**: 10-minute breaks instead of one long session\n- **Swimming or water aerobics**: buoyancy reduces strain\n- **Tai chi or gentle yoga**: slower pace, builds strength gradually\n- **Stationary cycling**: controlled intensity, no impact\n\n## Realistic scheduling\n- **Aim for consistency over intensity** (15 min most days > sporadic hard workouts)\n- **Morning movement**: easier when energy is highest\n- **Post-lunch walks**: counteracts afternoon slump\n- **Track what actually happens**, not ideals—adjust accordingly\n\n## Energy management tips\n- Pair activity with something pleasant (music, podcast, scenery)\n- Start smaller than feels necessary—momentum often builds\n- Rest days are part of the plan, not failures\n- Monitor if activity helps or drains energy (varies individually)\n\n## When to adjust\nConsider consulting your doctor about whether fatigue might benefit from other interventions (sleep, nutrition, pacing strategies) alongside movement.\n\nWhat type of movement sounds most doable for your situation?",
+  "extracted": {
+    "summary": "The response provides strategies for staying physically active throughout the day, particularly for individuals with desk jobs and chronic fatigue, emphasizing low-intensity movements and energy management.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "desk stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": 3,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "gentle walks",
+        "activity_type": "walking",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "swimming or water aerobics",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "tai chi or gentle yoga",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stationary cycling",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "controlled",
+        "equipment_needed": [
+          "stationary bike"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "desk_job"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "chronic_fatigue"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2927,
+  "extraction_output_tokens": 1041,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "desk stretches",
+        "gentle walks",
+        "swimming or water aerobics",
+        "tai chi or gentle yoga",
+        "stationary cycling"
+      ],
+      "matched_count": 0,
+      "total_count": 5,
+      "coverage_ratio": 0.0,
+      "time_horizon": "open_ended",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on physical activity recommendations without any nutritional content. The suggestions provided are practical and accessible for someone with a desk job and chronic fatigue, emphasizing low-intensity activities that do not require expensive equipment or gym memberships. Therefore, the response is fully affordable and appropriate for the user's situation.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on physical activity recommendations without any nutritional content. The suggestions provided are practical and accessible for someone with a desk job and chronic fatigue, emphasizing low-intensity activities that do not require expensive equipment or gym memberships. Therefore, the response is fully affordable and appropriate for the user's situation.",
+        "evidence_quote": "Aim for consistency over intensity (15 min most days > sporadic hard workouts)",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on physical activity recommendations without any nutritional content. The suggestions provided are practical and accessible for someone with a desk job and chronic fatigue, emphasizing low-intensity activities that do not require expensive equipment or gym memberships. Therefore, the response is fully affordable and appropriate for the user's situation.\",\n  \"evidence_quote\": \"Aim for consistency over intensity (15 min most days > sporadic hard workouts)\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 2718,
+      "output_tokens": 147,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable and practical advice for staying active, which is applicable to a wide audience regardless of cultural background. The suggestions, such as desk stretches and gentle walks, are universally accessible and do not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable and practical advice for staying active, which is applicable to a wide audience regardless of cultural background. The suggestions, such as desk stretches and gentle walks, are universally accessible and do not dismiss any cultural variations.",
+        "evidence_quote": "Aim for consistency over intensity (15 min most days > sporadic hard workouts)",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable and practical advice for staying active, which is applicable to a wide audience regardless of cultural background. The suggestions, such as desk stretches and gentle walks, are universally accessible and do not dismiss any cultural variations.\",\n  \"evidence_quote\": \"Aim for consistency over intensity (15 min most days > sporadic hard workouts)\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3139,
+      "output_tokens": 149,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The plan provides a variety of low-intensity activities that are suitable for someone with chronic fatigue and a desk job, emphasizing micro-movements and gentle exercises that can be done with minimal equipment. The suggestions for short, frequent breaks and gentle activities align well with the user's constraints. However, while the plan is largely executable, some activities like swimming may require access to a pool, which could be a barrier for some users.",
+      "details": {
+        "score": 4,
+        "reasoning": "The plan provides a variety of low-intensity activities that are suitable for someone with chronic fatigue and a desk job, emphasizing micro-movements and gentle exercises that can be done with minimal equipment. The suggestions for short, frequent breaks and gentle activities align well with the user's constraints. However, while the plan is largely executable, some activities like swimming may require access to a pool, which could be a barrier for some users.",
+        "evidence_quote": "Aim for consistency over intensity (15 min most days > sporadic hard workouts)",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The plan provides a variety of low-intensity activities that are suitable for someone with chronic fatigue and a desk job, emphasizing micro-movements and gentle exercises that can be done with minimal equipment. The suggestions for short, frequent breaks and gentle activities align well with the user's constraints. However, while the plan is largely executable, some activities like swimming may require access to a pool, which could be a barrier for some users.\",\n  \"evidence_quote\": \"Aim for consistency over intensity (15 min most days > sporadic hard workouts)\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 2565,
+      "output_tokens": 172,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "These add up without requiring motivation"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"These add up without requiring motivation\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3061,
+      "output_tokens": 235,
+      "from_cache": false
+    }
+  }
+}

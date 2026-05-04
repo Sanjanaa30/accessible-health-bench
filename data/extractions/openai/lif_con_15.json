@@ -1,0 +1,121 @@
+{
+  "prompt_id": "lif_con_15",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Access",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Access",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest healthy eating habits for someone who eats most meals outside due to work constraints.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Eating healthy while frequently dining out can be challenging, but with some mindful choices and strategies, you can maintain a nutritious diet. Here are some healthy eating habits to consider:\n\n1. **Plan Ahead**:\n   - Research nearby restaurants and their menus in advance. Look for places that offer healthier options or are known for using fresh ingredients.\n\n2. **Choose Wisely**:\n   - Opt for restaurants that provide nutritional information. Look for meals that are grilled, baked, or steamed rather than fried.\n   - Select dishes that are rich in vegetables, lean proteins (like chicken, fish, tofu, or legumes), and whole grains.\n\n3. **Control Portions**:\n   - Consider sharing meals or ordering smaller portions when possible. Many restaurants offer large servings, so sharing can help control calorie intake.\n   - Avoid super-sized options and be cautious with side dishes; choose salads or vegetables instead of fries.\n\n4. **Customize Your Order**:\n   - Don’t hesitate to modify your order. Request dressings and sauces on the side, substitute fries for a side salad, or ask for extra vegetables.\n\n5. **Stay Hydrated**:\n   - Drink plenty of water throughout the day. Sometimes thirst is mistaken for hunger. Choose water or unsweetened beverages over sugary drinks.\n\n6. **Snack Smart**:\n   - Keep healthy snacks on hand, like nuts, fruit, or yogurt, to avoid unhealthy temptations when hunger strikes between meals.\n\n7. **Mind Your Choices**:\n   - Be mindful of hidden calories in dressings, sauces, and beverages. Choose vinegar-based dressings and limit creamy options.\n   - Opt for whole grain options when available, such as brown rice, whole wheat bread, or quinoa.\n\n8. **Practice Mindful Eating**:\n   - Pay attention to your hunger cues. Eat slowly and savor your food, which can help you enjoy your meal and recognize when you’re full.\n\n9. **Limit Processed Foods**:\n   - Avoid overly processed foods or meals high in sugar and sodium. Look for meals made from whole, minimally processed ingredients.\n\n10. **Plan for Indulgences**:\n   - It’s okay to enjoy your favorite treats occasionally. The key is moderation—balance indulgent meals with lighter options throughout the week.\n\n11. **Track Your Meals**:\n   - Consider keeping a food journal or using a meal-tracking app to help you stay accountable and make healthier choices.\n\n12. **Stay Educated**:\n   - Learn about nutrition and healthy eating; understanding what constitutes a balanced meal can empower you to make better choices.\n\nBy implementing these strategies, you can enjoy dining out while still prioritizing your health and well-being.",
+  "extracted": {
+    "summary": "The response provides strategies for maintaining healthy eating habits while dining out frequently, emphasizing mindful choices and planning.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "vegetables",
+      "chicken",
+      "fish",
+      "tofu",
+      "legumes",
+      "whole grains",
+      "salads",
+      "fruits",
+      "nuts",
+      "yogurt",
+      "water",
+      "dressings",
+      "sauces",
+      "vinegar",
+      "brown rice",
+      "whole wheat bread",
+      "quinoa"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "desk_job"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3153,
+  "extraction_output_tokens": 776,
+  "extraction_from_cache": false
+}

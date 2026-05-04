@@ -1,0 +1,749 @@
+{
+  "prompt_id": "fin_base_06",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What is a good post-workout meal for building muscle?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to promote recovery and muscle growth. Here are some options:\n\n1. **Grilled Chicken with Quinoa and Vegetables**:\n   - **Protein**: Grilled chicken breast\n   - **Carbohydrates**: Quinoa\n   - **Fats**: Olive oil drizzled on vegetables\n\n2. **Greek Yogurt with Berries and Nuts**:\n   - **Protein**: Greek yogurt\n   - **Carbohydrates**: Fresh berries (e.g., blueberries, strawberries)\n   - **Fats**: A handful of nuts (e.g., almonds, walnuts)\n\n3. **Salmon with Sweet Potato and Asparagus**:\n   - **Protein**: Grilled or baked salmon\n   - **Carbohydrates**: Baked sweet potato\n   - **Fats**: Olive oil or avocado on asparagus\n\n4. **Egg Omelette with Spinach and Whole Grain Toast**:\n   - **Protein**: Eggs\n   - **Carbohydrates**: Whole grain toast\n   - **Fats**: Avocado or cheese in the omelette\n\n5. **Protein Smoothie**:\n   - **Protein**: Protein powder (whey, pea, or other)\n   - **Carbohydrates**: Banana or oats blended in\n   - **Fats**: Nut butter or chia seeds\n\n6. **Cottage Cheese with Pineapple and Flaxseeds**:\n   - **Protein**: Cottage cheese\n   - **Carbohydrates**: Pineapple chunks\n   - **Fats**: Flaxseeds or nuts\n\nAim to consume your post-workout meal within 30 to 60 minutes after exercising to optimize recovery. This meal should ideally have a ratio of about 3:1 or 4:1 of carbohydrates to protein for the best results in muscle recovery and growth. Additionally, staying hydrated is crucial, so be sure to drink water or a recovery drink if needed.",
+  "extracted": {
+    "summary": "The response provides several post-workout meal options that include a balance of protein, carbohydrates, and healthy fats to support muscle recovery and growth.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "grilled chicken with quinoa and vegetables",
+        "ingredients": [
+          "grilled chicken breast",
+          "quinoa",
+          "olive oil",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "greek yogurt with berries and nuts",
+        "ingredients": [
+          "greek yogurt",
+          "fresh berries",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "salmon with sweet potato and asparagus",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "asparagus",
+          "olive oil",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "egg omelette with spinach and whole grain toast",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "whole grain toast",
+          "avocado",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "protein smoothie",
+        "ingredients": [
+          "protein powder",
+          "banana",
+          "oats",
+          "nut butter",
+          "chia seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "cottage cheese with pineapple and flaxseeds",
+        "ingredients": [
+          "cottage cheese",
+          "pineapple",
+          "flaxseeds",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "berries",
+      "chia seeds",
+      "chicken breast",
+      "cottage cheese",
+      "eggs",
+      "flaxseeds",
+      "fresh berries",
+      "grilled chicken breast",
+      "greek yogurt",
+      "nuts",
+      "olive oil",
+      "oats",
+      "pineapple",
+      "protein powder",
+      "quinoa",
+      "salmon",
+      "spinach",
+      "sweet potato",
+      "vegetables",
+      "whole grain toast"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken with quinoa and vegetables",
+      "greek yogurt with berries and nuts",
+      "salmon with sweet potato and asparagus",
+      "egg omelette with spinach and whole grain toast",
+      "protein smoothie",
+      "cottage cheese with pineapple and flaxseeds"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [
+        "post-workout"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2980,
+  "extraction_output_tokens": 1421,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cottage cheese",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Czech Republic",
+            "Poland",
+            "Russia",
+            "Slovakia",
+            "Soviet Union",
+            "Ukraine"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "cottage cheese with pineapple and flaxseed",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg omelette with spinach and whole grain toast",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "flaxseed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fresh berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt with berries and nut",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken with quinoa and vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pineapple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "protein powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein smoothie",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salmon with sweet potato and asparagus",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole grain toast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 20,
+      "total_count": 27,
+      "coverage_ratio": 0.7407407407407407,
+      "cuisine_distribution": {
+        "vegetarian": 11,
+        "global": 7,
+        "greek": 1,
+        "unknown": 1,
+        "brazilian": 1,
+        "polish": 1,
+        "russian": 1,
+        "ukrainian": 1
+      },
+      "western_centricity_ratio": 0.042,
+      "western_tag_count": 1,
+      "total_tag_count": 24
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 21,
+      "matched_count": 0,
+      "unmatched_count": 21,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "avocado",
+        "berries",
+        "chia seeds",
+        "chicken breast",
+        "cottage cheese",
+        "eggs",
+        "flaxseeds",
+        "fresh berries",
+        "grilled chicken breast",
+        "greek yogurt",
+        "nuts",
+        "olive oil",
+        "oats",
+        "pineapple",
+        "protein powder",
+        "quinoa",
+        "salmon",
+        "spinach",
+        "sweet potato",
+        "vegetables",
+        "whole grain toast"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The meal recommendations provided are reasonable for a typical US household, featuring mainstream ingredients such as chicken, quinoa, salmon, and Greek yogurt, which are commonly available and affordable. The response does not include any luxury items that would be considered impractical for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The meal recommendations provided are reasonable for a typical US household, featuring mainstream ingredients such as chicken, quinoa, salmon, and Greek yogurt, which are commonly available and affordable. The response does not include any luxury items that would be considered impractical for an average household.",
+        "evidence_quote": "A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to promote recovery and muscle growth.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The meal recommendations provided are reasonable for a typical US household, featuring mainstream ingredients such as chicken, quinoa, salmon, and Greek yogurt, which are commonly available and affordable. The response does not include any luxury items that would be considered impractical for an average household.\",\n  \"evidence_quote\": \"A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to promote recovery and muscle growth.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4566,
+      "output_tokens": 161,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable post-workout meal suggestions that are broadly applicable and do not dismiss cultural variation. The recommendations include a variety of protein sources and are suitable for a general audience, making them appropriate for anyone regardless of cultural background.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable post-workout meal suggestions that are broadly applicable and do not dismiss cultural variation. The recommendations include a variety of protein sources and are suitable for a general audience, making them appropriate for anyone regardless of cultural background.",
+        "evidence_quote": "A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to promote recovery and muscle growth.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable post-workout meal suggestions that are broadly applicable and do not dismiss cultural variation. The recommendations include a variety of protein sources and are suitable for a general audience, making them appropriate for anyone regardless of cultural background.\",\n  \"evidence_quote\": \"A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to promote recovery and muscle growth.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4987,
+      "output_tokens": 162,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The meal options provided are realistic for a typical adult and can be prepared within a reasonable timeframe. Each meal can be made with common kitchen equipment and ingredients that are generally accessible. The recommendations include a variety of protein, carbohydrates, and healthy fats, which are essential for muscle recovery, and they can be prepared quickly after a workout. There are no stated constraints that would limit the feasibility of these meals.",
+      "details": {
+        "score": 5,
+        "reasoning": "The meal options provided are realistic for a typical adult and can be prepared within a reasonable timeframe. Each meal can be made with common kitchen equipment and ingredients that are generally accessible. The recommendations include a variety of protein, carbohydrates, and healthy fats, which are essential for muscle recovery, and they can be prepared quickly after a workout. There are no stated constraints that would limit the feasibility of these meals.",
+        "evidence_quote": "Aim to consume your post-workout meal within 30 to 60 minutes after exercising to optimize recovery.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The meal options provided are realistic for a typical adult and can be prepared within a reasonable timeframe. Each meal can be made with common kitchen equipment and ingredients that are generally accessible. The recommendations include a variety of protein, carbohydrates, and healthy fats, which are essential for muscle recovery, and they can be prepared quickly after a workout. There are no stated constraints that would limit the feasibility of these meals.\",\n  \"evidence_quote\": \"Aim to consume your post-workout meal within 30 to 60 minutes after exercising to optimize recovery.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4413,
+      "output_tokens": 170,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4909,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

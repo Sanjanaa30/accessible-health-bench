@@ -1,0 +1,128 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "To create a healthy chicken dinner under $4, I've come up with a simple and affordable recipe. Here's a delicious and nutritious meal that fits your budget:\n\n**Recipe: Chicken and Rice Bowl**\n\n** Servings: 1**\n**Total Cost: Approximately $3.50**\n\n**Ingredients:**\n\n* 1 boneless, skinless chicken breast or thigh (approximately $1.50)\n* 1/2 cup uncooked white or brown rice (approximately $0.25)\n* 1 cup mixed frozen vegetables (such as peas, carrots, and corn) (approximately $0.50)\n* 1 tablespoon olive oil (approximately $0.25)\n* Salt and pepper to taste (approximately $0.05)\n\n**Instructions:**\n\n1. Preheat your oven to 400°F (200°C).\n2. Season the chicken breast or thigh with salt and pepper.\n3. In a small bowl, mix together the olive oil and a pinch of salt and pepper.\n4. Place the chicken in a baking dish and brush the olive oil mixture on both sides of the chicken.\n5. Bake the chicken in the preheated oven for 20-25 minutes, or until it reaches an internal temperature of 165°F (74°C).\n6. While the chicken is cooking, prepare the rice according to package instructions. Typically, you'll want to boil 1 cup of water, add the rice, cover, and simmer for 15-20 minutes or until the water is absorbed.\n7. Steam the frozen mixed vegetables in the microwave or on the stovetop according to package instructions.\n8. Once the chicken is cooked, slice it into thin strips.\n9. Serve the chicken on top of the cooked rice, with the steamed vegetables on the side.\n\n**Tips to stay within budget:**\n\n* Buy chicken in bulk and freeze it for future meals.\n* Use affordable frozen vegetables instead of fresh.\n* Opt for white or brown rice, which is generally cheaper than specialty grains.\n* Use olive oil sparingly, as it can be expensive.\n\nThis recipe provides a balanced and satisfying meal, with approximately 350 calories, 35g of protein, and 40g of carbohydrates. Enjoy your healthy and affordable chicken dinner!",
+  "extracted": {
+    "summary": "The response provides a recipe for a healthy chicken dinner that costs approximately $3.50 and includes chicken, rice, and mixed vegetables.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chicken and rice bowl",
+        "ingredients": [
+          "chicken breast",
+          "rice",
+          "mixed vegetables",
+          "olive oil",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": 3.5,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "chicken breast",
+      "rice",
+      "mixed vegetables",
+      "olive oil",
+      "salt",
+      "pepper"
+    ],
+    "all_dishes_or_foods_named": [
+      "chicken and rice bowl"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 3.5,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3067,
+  "extraction_output_tokens": 846,
+  "extraction_from_cache": false
+}

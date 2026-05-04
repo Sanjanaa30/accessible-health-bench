@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_10",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Govt Policy",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Govt Policy",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old. The total must be under $25 and every item must be 100% WIC-eligible (Women, Infants, and Children program",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# WIC-Eligible Grocery List Under $25\n\n## Proteins\n- **Eggs** (1 dozen) - $2.50\n- **Peanut butter** (18 oz) - $2.00\n- **Canned beans** (2 cans) - $1.00\n\n## Dairy\n- **Milk** (1 gallon) - $3.50\n- **Cheese** (8 oz block) - $2.50\n- **Yogurt** (32 oz) - $2.50\n\n## Grains\n- **Whole wheat bread** - $2.50\n- **Whole grain cereal** (low sugar) - $3.00\n- **Brown rice** (2 lb bag) - $1.50\n\n## Fruits & Vegetables\n- **Apples** (3 lb bag) - $2.00\n- **Bananas** (1 lb) - $0.60\n- **Carrots** (2 lb bag) - $1.00\n- **Canned pumpkin** (15 oz) - $0.80\n\n## Infant Formula/Cereal (if needed)\n- **Infant cereal** (8 oz) - $2.00\n\n**Total: ~$24.90**\n\n---\n\n## Tips\n- Check your state's WIC website for current approved brands\n- Prices vary by location; adjust quantities as needed\n- All items are soft/mashable for toddlers\n- Avoid honey for children under 1 year",
+  "input_tokens": 55,
+  "output_tokens": 357,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:36:25.277425"
+}

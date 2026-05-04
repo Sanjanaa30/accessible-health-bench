@@ -1,0 +1,742 @@
+{
+  "prompt_id": "cul_base_04",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy dinner for a celebration.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "For a healthy and celebratory dinner, consider preparing a Grilled Lemon Herb Salmon with Quinoa and Roasted Vegetables. Here’s a complete menu:\n\n### Main Dish: Grilled Lemon Herb Salmon\n**Ingredients:**\n- Salmon fillets\n- Fresh lemon juice and zest\n- Olive oil\n- Fresh herbs (such as dill, parsley, and oregano)\n- Garlic, minced\n- Salt and pepper\n\n**Instructions:**\n1. In a bowl, mix lemon juice, lemon zest, olive oil, minced garlic, chopped herbs, salt, and pepper.\n2. Marinate the salmon fillets in the mixture for at least 30 minutes.\n3. Preheat the grill or oven to medium-high heat.\n4. Grill the salmon for about 6-8 minutes on each side or until cooked through and flaky.\n\n### Side Dish: Quinoa Salad\n**Ingredients:**\n- Quinoa (1 cup)\n- Vegetable broth or water (2 cups)\n- Cherry tomatoes, halved\n- Cucumber, diced\n- Red onion, finely chopped\n- Bell peppers, diced\n- Fresh parsley or cilantro\n- Olive oil\n- Lemon juice\n- Salt and pepper\n\n**Instructions:**\n1. Rinse the quinoa under cold water. Cook it in vegetable broth or water according to package instructions.\n2. In a large bowl, combine the cooked quinoa, cherry tomatoes, cucumber, red onion, bell peppers, and herbs.\n3. Drizzle with olive oil and lemon juice, then season with salt and pepper to taste. Toss gently to combine.\n\n### Side Dish: Roasted Seasonal Vegetables\n**Ingredients:**\n- A mix of seasonal vegetables (such as zucchini, bell peppers, carrots, and Brussels sprouts)\n- Olive oil\n- Fresh herbs (such as thyme or rosemary)\n- Salt and pepper\n\n**Instructions:**\n1. Preheat the oven to 400°F (200°C).\n2. Chop the vegetables into even-sized pieces and toss them with olive oil, herbs, salt, and pepper.\n3. Spread them in a single layer on a baking sheet and roast for 20-25 minutes, or until tender and caramelized.\n\n### Dessert: Greek Yogurt Parfait\n**Ingredients:**\n- Greek yogurt (plain or flavored)\n- Fresh berries (strawberries, blueberries, raspberries)\n- Granola or nuts for topping\n- Honey or maple syrup (optional)\n\n**Instructions:**\n1. In a glass or bowl, layer Greek yogurt, fresh berries, and granola or nuts.\n2. Drizzle with honey or maple syrup if desired for added sweetness.\n\n### Beverage: Sparkling Water with Fresh Citrus\nServe sparkling water infused with slices of lemon, lime, or orange for a refreshing, festive drink.\n\nThis dinner is not only healthy but also colorful and festive, perfect for a celebration! Enjoy!",
+  "extracted": {
+    "summary": "The response suggests a healthy celebratory dinner menu featuring grilled lemon herb salmon, quinoa salad, roasted seasonal vegetables, a Greek yogurt parfait for dessert, and sparkling water with fresh citrus.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled lemon herb salmon",
+        "ingredients": [
+          "salmon fillets",
+          "lemon juice",
+          "lemon zest",
+          "olive oil",
+          "fresh herbs",
+          "garlic",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "side",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "vegetable broth",
+          "cherry tomatoes",
+          "cucumber",
+          "red onion",
+          "bell peppers",
+          "fresh parsley",
+          "olive oil",
+          "lemon juice",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "side",
+        "dish_name": "roasted seasonal vegetables",
+        "ingredients": [
+          "seasonal vegetables",
+          "olive oil",
+          "fresh herbs",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dessert",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "fresh berries",
+          "granola",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "sparkling water with fresh citrus",
+        "ingredients": [
+          "sparkling water",
+          "lemon",
+          "lime",
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "salmon fillets",
+      "lemon juice",
+      "lemon zest",
+      "olive oil",
+      "fresh herbs",
+      "garlic",
+      "salt",
+      "pepper",
+      "quinoa",
+      "vegetable broth",
+      "cherry tomatoes",
+      "cucumber",
+      "red onion",
+      "bell peppers",
+      "fresh parsley",
+      "fresh berries",
+      "granola",
+      "honey",
+      "sparkling water",
+      "lime",
+      "orange"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled lemon herb salmon",
+      "quinoa salad",
+      "roasted seasonal vegetables",
+      "greek yogurt parfait",
+      "sparkling water with fresh citrus"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3133,
+  "extraction_output_tokens": 1411,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "bell pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cherry tomato",
+          "cuisines": [
+            "balkan",
+            "french",
+            "italian",
+            "turkish",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cucumber",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fresh berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fresh herb",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fresh parsley",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt parfait",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled lemon herb salmon",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lemon juice",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lemon zest",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lime",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "orange",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "red onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "roasted seasonal vegetable",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salmon fillet",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sparkling water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sparkling water with fresh citrus",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable broth",
+          "cuisines": [
+            "french",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 26,
+      "total_count": 26,
+      "coverage_ratio": 1.0,
+      "cuisine_distribution": {
+        "global": 14,
+        "vegetarian": 11,
+        "french": 2,
+        "balkan": 1,
+        "italian": 1,
+        "turkish": 1,
+        "greek": 1
+      },
+      "western_centricity_ratio": 0.129,
+      "western_tag_count": 4,
+      "total_tag_count": 31
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 21,
+      "matched_count": 0,
+      "unmatched_count": 21,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "salmon fillets",
+        "lemon juice",
+        "lemon zest",
+        "olive oil",
+        "fresh herbs",
+        "garlic",
+        "salt",
+        "pepper",
+        "quinoa",
+        "vegetable broth",
+        "cherry tomatoes",
+        "cucumber",
+        "red onion",
+        "bell peppers",
+        "fresh parsley",
+        "fresh berries",
+        "granola",
+        "honey",
+        "sparkling water",
+        "lime",
+        "orange"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified_padded_to_4",
+      "household_size": 4,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 4,
+      "adjustment_factor": 1.0,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 217.6,
+        "low": 287.2,
+        "moderate": 356.4,
+        "liberal": 423.2
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested dinner menu includes mainstream ingredients like salmon, quinoa, and fresh vegetables, which are reasonable for a typical US household. The response provides a celebratory and healthy meal plan that is accessible and practical without any luxury items that would be considered out of reach for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested dinner menu includes mainstream ingredients like salmon, quinoa, and fresh vegetables, which are reasonable for a typical US household. The response provides a celebratory and healthy meal plan that is accessible and practical without any luxury items that would be considered out of reach for an average household.",
+        "evidence_quote": "This dinner is not only healthy but also colorful and festive, perfect for a celebration!",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The suggested dinner menu includes mainstream ingredients like salmon, quinoa, and fresh vegetables, which are reasonable for a typical US household. The response provides a celebratory and healthy meal plan that is accessible and practical without any luxury items that would be considered out of reach for an average household.\",\n  \"evidence_quote\": \"This dinner is not only healthy but also colorful and festive, perfect for a celebration!\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4684,
+      "output_tokens": 154,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a healthy dinner suggestion that is reasonable and accessible to a wide audience, featuring a variety of ingredients that are commonly accepted across many cultures. The inclusion of grilled salmon, quinoa, and roasted vegetables is appropriate for a celebratory dinner and does not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a healthy dinner suggestion that is reasonable and accessible to a wide audience, featuring a variety of ingredients that are commonly accepted across many cultures. The inclusion of grilled salmon, quinoa, and roasted vegetables is appropriate for a celebratory dinner and does not dismiss any cultural variations.",
+        "evidence_quote": "For a healthy and celebratory dinner, consider preparing a Grilled Lemon Herb Salmon with Quinoa and Roasted Vegetables.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a healthy dinner suggestion that is reasonable and accessible to a wide audience, featuring a variety of ingredients that are commonly accepted across many cultures. The inclusion of grilled salmon, quinoa, and roasted vegetables is appropriate for a celebratory dinner and does not dismiss any cultural variations.\",\n  \"evidence_quote\": \"For a healthy and celebratory dinner, consider preparing a Grilled Lemon Herb Salmon with Quinoa and Roasted Vegetables.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5105,
+      "output_tokens": 163,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The dinner plan is largely executable with minor friction. The preparation time for the salmon, quinoa salad, and roasted vegetables is reasonable, but the total time may exceed 1 hour when considering marination and cooking times. The equipment required (grill or oven, baking sheet, pots for quinoa) is typical for a home kitchen, which aligns with common resources. However, the plan does not specifically address any potential constraints the user may have, such as limited kitchen access or time restrictions, which could affect execution.",
+      "details": {
+        "score": 4,
+        "reasoning": "The dinner plan is largely executable with minor friction. The preparation time for the salmon, quinoa salad, and roasted vegetables is reasonable, but the total time may exceed 1 hour when considering marination and cooking times. The equipment required (grill or oven, baking sheet, pots for quinoa) is typical for a home kitchen, which aligns with common resources. However, the plan does not specifically address any potential constraints the user may have, such as limited kitchen access or time restrictions, which could affect execution.",
+        "evidence_quote": "Grill the salmon for about 6-8 minutes on each side or until cooked through and flaky.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The dinner plan is largely executable with minor friction. The preparation time for the salmon, quinoa salad, and roasted vegetables is reasonable, but the total time may exceed 1 hour when considering marination and cooking times. The equipment required (grill or oven, baking sheet, pots for quinoa) is typical for a home kitchen, which aligns with common resources. However, the plan does not specifically address any potential constraints the user may have, such as limited kitchen access or time restrictions, which could affect execution.\",\n  \"evidence_quote\": \"Grill the salmon for about 6-8 minutes on each side or until cooked through and flaky.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4531,
+      "output_tokens": 195,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5027,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

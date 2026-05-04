@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_18",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Seasonal/Inflation",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Seasonal/Inflation",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fruit-based snack high in antioxidants. Fresh fruit prices have doubled this month; what is the absolute cheapest frozen or dried alternative?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "A great fruit-based snack high in antioxidants is a mix of frozen blueberries and dried cranberries. \n\n**Frozen Blueberries:** They are packed with antioxidants, particularly anthocyanins, and are often less expensive than fresh fruit. You can find them at most grocery stores, and they can be used in smoothies, yogurt, or eaten on their own.\n\n**Dried Cranberries:** While they can sometimes contain added sugars, unsweetened dried cranberries are a good source of antioxidants. They can be mixed with the frozen blueberries or enjoyed as a chewy snack on their own.\n\n**Cost-Effectiveness:** Generally, frozen fruits are more affordable than fresh, especially when prices rise. Dried fruits can also be a budget-friendly option, especially when bought in bulk. Always check for sales or store brands to find the cheapest options available.\n\nMixing these two together can give you a delicious and healthy snack high in antioxidants without breaking the bank!",
+  "input_tokens": 34,
+  "output_tokens": 189,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:43:23.569033"
+}

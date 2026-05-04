@@ -1,0 +1,345 @@
+{
+  "prompt_id": "fin_con_09",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Energy Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Energy Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a 3-day meal plan for a student who needs to improve their iron levels. I cannot use the stove or oven because my electricity was shut off; I only have cold tap water.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a challenging situation, but it is absolutely possible to boost your iron intake with no electricity. Since you cannot cook, we will focus on **high-iron, no-cook foods** and pair them with **Vitamin C** (which dramatically increases iron absorption) from raw fruits and vegetables.\n\n**Important Medical Note:** If you have been diagnosed with severe anemia, this meal plan is a supportive measure, but you should seek medical advice. If your electricity is off due to financial hardship, look for local food banks or community fridges that may have canned goods.\n\n### Key Strategy for No-Cook Iron\n- **Heme Iron (best absorption):** Canned fish (sardines, tuna, salmon), deli meats (beef, turkey).\n- **Non-Heme Iron (good when paired with Vitamin C):** Canned beans, lentils (pre-cooked pouches), spinach (raw), pumpkin seeds, oats (cold soaked), fortified cereals.\n- **Vitamin C Boosters:** Lemon juice, bell peppers, oranges, kiwi, strawberries, tomatoes (raw or canned).\n\n---\n\n### Day 1: \"Canned & Fresh\" Focus\n\n**Breakfast:**\n- **Cold Overnight Oats:** ½ cup rolled oats + ½ cup cold water (soak for 10 mins). Stir in 2 tbsp **pumpkin seeds** (iron) + 1 tbsp raisins. Squeeze half a **lemon** (Vitamin C) over the top.\n- **1 glass of water** (hydration helps blood volume).\n\n**Lunch:**\n- **No-Cook Bean & Tuna Salad:** 1 can (5 oz) **tuna** (drained) + ½ can **chickpeas** (rinsed) + 1 chopped **bell pepper** (high Vitamin C). Dress with 2 tbsp olive oil + lemon juice + salt.\n- **1 large handful of raw spinach** (iron) – toss with the salad.\n\n**Dinner:**\n- **Sardine \"Toast\" (no bread needed):** 1 can **sardines** (with bones, crushed) + ½ avocado (healthy fat for absorption) + squeeze of **lime**.\n- **Side:** 1 cup cherry tomatoes (Vitamin C).\n\n**Snack:**\n- **Handful of almonds** (copper helps iron transport) + **1 kiwi** (Vitamin C).\n\n---\n\n### Day 2: \"High-Protein & Raw Veggie\" Day\n\n**Breakfast:**\n- **Fortified Cereal Bowl:** 1 cup of a **high-iron cereal** (check label: Total, Cheerios, or Malt-O-Meal) + cold water (or shelf-stable milk if you have it). Top with **strawberries** (sliced, Vitamin C).\n\n**Lunch:**\n- **Smashed Lentil & Tomato Wrap:** 1 pouch (or can) **pre-cooked lentils** (rinsed) + ½ can **diced tomatoes** (drained) + 1 tbsp **sunflower seeds**. Mix and eat with large **lettuce leaves** as wraps.\n- **1 orange** (Vitamin C).\n\n**Dinner:**\n- **No-Cook \"Ceviche\" Bowl:** 1 can **wild salmon** (drained) + juice of 2 **limes** (Vitamin C) + ½ cup diced **cucumber** + ¼ cup diced **onion**. Let sit 5 minutes. Eat with a handful of **raw baby spinach**.\n\n**Snack:**\n- **1 apple** + 1 tbsp **peanut butter** (iron from peanut butter, Vitamin C from apple helps absorption).\n\n---\n\n### Day 3: \"Bean & Seed\" Power Day\n\n**Breakfast:**\n- **Chia & Hemp Pudding:** 2 tbsp **chia seeds** + 1 tbsp **hemp seeds** + ½ cup cold water. Let sit 15 minutes. Stir in 1 tbsp **cocoa powder** (iron) + 1 mashed **banana** (Vitamin C).\n- *Note: Chia seeds are high in iron, but need soaking.*\n\n**Lunch:**\n- **Smoked Turkey & Spinach Roll-Ups:** 4 slices **smoked turkey** (deli, high heme iron) + 1 cup **raw spinach** + ½ sliced **red bell pepper** (Vitamin C). Roll up and eat.\n- **1 handful of **pumpkin seeds**** (eat as a side).\n\n**Dinner:**\n- **No-Cook Black Bean \"Bowl\":** 1 can **black beans** (rinsed) + ½ cup **canned corn** + 1 chopped **tomato** + juice of 1 **lemon**. Add 1 tbsp **sesame seeds** (iron). Eat cold.\n\n**Snack:**\n- **1 cup **fortified orange juice**** (double win: iron + Vitamin C).\n\n---\n\n### Critical Tips for Success (No Electricity)\n\n1.  **Avoid Tea & Coffee with Meals:** Tannins in tea/coffee block iron absorption. Wait 1 hour after eating to drink them.\n2.  **Cold Soaking:** For oats, chia, or lentils, use cold water and let them sit 10-30 minutes. They will soften enough to eat.\n3.  **Canned Fish Bones:** If using sardines or salmon, **crush the soft bones** with a fork. They are a major source of iron and calcium.\n4.  **Rinse Canned Beans:** This reduces sodium and removes \"tinny\" taste.\n5.  **Water is Your Friend:** Dehydration thickens blood, making iron deficiency symptoms worse. Drink cold tap water constantly.\n\n### Quick Shopping List (No-Cook)\n- **Canned:** Tuna, sardines (in water or oil), salmon, black beans, chickpeas, lentils, diced tomatoes, corn.\n- **Produce:** Spinach (bagged), bell peppers, lemons/limes, oranges/kiwi/strawberries, tomatoes, avocado, bananas, apples.\n- **Pantry:** Rolled oats, pumpkin seeds, sunflower seeds, chia seeds, sesame seeds, raisins, fortified cereal, peanut butter, olive oil, salt, pepper.\n- **Protein:** Smoked turkey or roast beef (deli).\n\n**If you feel dizzy, weak, or short of breath, please seek medical help immediately. This plan is for mild improvement, not emergency treatment.**",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan focused on high-iron, no-cook foods to help improve iron levels without the use of electricity.",
+    "response_type": "meal_plan",
+    "primary_goal": "iron_deficiency",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "cold overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "cold water",
+          "pumpkin seeds",
+          "raisins",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "no-cook bean & tuna salad",
+        "ingredients": [
+          "tuna",
+          "chickpeas",
+          "bell pepper",
+          "olive oil",
+          "lemon juice",
+          "salt",
+          "raw spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "sardine toast",
+        "ingredients": [
+          "sardines",
+          "avocado",
+          "lime",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "handful of almonds and kiwi",
+        "ingredients": [
+          "almonds",
+          "kiwi"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "fortified cereal bowl",
+        "ingredients": [
+          "high-iron cereal",
+          "cold water",
+          "strawberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "smashed lentil & tomato wrap",
+        "ingredients": [
+          "pre-cooked lentils",
+          "diced tomatoes",
+          "sunflower seeds",
+          "lettuce leaves",
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "no-cook ceviche bowl",
+        "ingredients": [
+          "wild salmon",
+          "limes",
+          "cucumber",
+          "onion",
+          "raw baby spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "apple with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "chia & hemp pudding",
+        "ingredients": [
+          "chia seeds",
+          "hemp seeds",
+          "cold water",
+          "cocoa powder",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "smoked turkey & spinach roll-ups",
+        "ingredients": [
+          "smoked turkey",
+          "raw spinach",
+          "red bell pepper",
+          "pumpkin seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "no-cook black bean bowl",
+        "ingredients": [
+          "black beans",
+          "canned corn",
+          "tomato",
+          "lemon",
+          "sesame seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "fortified orange juice",
+        "ingredients": [
+          "fortified orange juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "banana",
+      "bell pepper",
+      "black beans",
+      "canned corn",
+      "canned fish",
+      "chia seeds",
+      "chickpeas",
+      "cocoa powder",
+      "cold tap water",
+      "cucumber",
+      "diced tomatoes",
+      "fortified cereal",
+      "fortified orange juice",
+      "hemp seeds",
+      "kiwi",
+      "lemon",
+      "limes",
+      "olive oil",
+      "onion",
+      "orange",
+      "pumpkin seeds",
+      "peanut butter",
+      "raw baby spinach",
+      "raw spinach",
+      "raisins",
+      "red bell pepper",
+      "sardines",
+      "smoked turkey",
+      "strawberries",
+      "sunflower seeds",
+      "tuna"
+    ],
+    "all_dishes_or_foods_named": [
+      "cold overnight oats",
+      "no-cook bean & tuna salad",
+      "sardine toast",
+      "handful of almonds and kiwi",
+      "fortified cereal bowl",
+      "smashed lentil & tomato wrap",
+      "no-cook ceviche bowl",
+      "apple with peanut butter",
+      "chia & hemp pudding",
+      "smoked turkey & spinach roll-ups",
+      "no-cook black bean bowl",
+      "fortified orange juice"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "food_bank"
+      ],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": 15,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "iron_deficiency"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "If you have been diagnosed with severe anemia, this meal plan is a supportive measure, but you should seek medical advice.",
+      "If your electricity is off due to financial hardship, look for local food banks or community fridges that may have canned goods.",
+      "This plan is for mild improvement, not emergency treatment."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3977,
+  "extraction_output_tokens": 2195,
+  "extraction_from_cache": false
+}

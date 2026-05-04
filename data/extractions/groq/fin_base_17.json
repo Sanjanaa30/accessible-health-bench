@@ -1,0 +1,192 @@
+{
+  "prompt_id": "fin_base_17",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy dinner for a family of five.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a healthy dinner idea that can serve a family of five:\n\n**Grilled Chicken Fajitas with Roasted Vegetables**\n\nIngredients:\n\n* 1 lb boneless, skinless chicken breast, cut into strips\n* 1 large onion, sliced\n* 2 large bell peppers (any color), sliced\n* 2 large zucchinis, sliced\n* 2 cloves of garlic, minced\n* 1 tablespoon olive oil\n* 1 teaspoon cumin\n* 1 teaspoon chili powder\n* Salt and pepper, to taste\n* 5 whole wheat tortillas\n* Optional toppings: avocado, sour cream, salsa, shredded cheese, cilantro\n\nInstructions:\n\n1. Preheat the grill to medium-high heat. Season the chicken with cumin, chili powder, salt, and pepper. Grill the chicken for 5-6 minutes per side, or until cooked through.\n2. In a large bowl, toss the sliced onion, bell peppers, and zucchinis with olive oil, garlic, salt, and pepper. Spread the vegetables on a baking sheet and roast in the oven at 400°F (200°C) for 20-25 minutes, or until tender.\n3. Warm the whole wheat tortillas by wrapping them in a damp paper towel and microwaving for 20-30 seconds.\n4. Assemble the fajitas by slicing the grilled chicken and adding it to the tortillas along with the roasted vegetables. Serve with your choice of toppings.\n\n**Side Dish: Mexican Street Corn**\n\n* 5 ears of corn, husked and silked\n* 2 tablespoons olive oil\n* 1 tablespoon lime juice\n* 1 teaspoon ground cumin\n* Salt and pepper, to taste\n* 1/4 cup crumbled queso fresco (or feta cheese)\n* Chopped cilantro, for garnish\n\nGrill the corn on the cob for 10-15 minutes, turning frequently, until lightly charred. Slather with olive oil, lime juice, and cumin. Season with salt and pepper to taste. Sprinkle with queso fresco and garnish with cilantro.\n\n**Beverage: Fresh Fruit Infused Water**\n\n* 1 pitcher of water\n* Slices of orange, lemon, lime, and cucumber\n* Fresh mint leaves\n\nAdd slices of citrus fruits and cucumber to a pitcher of water. Add a few sprigs of fresh mint leaves for a refreshing and healthy beverage.\n\nThis meal is not only delicious, but it's also packed with nutrients, fiber, and protein to keep your family satisfied and energized. Enjoy!",
+  "extracted": {
+    "summary": "The response suggests a healthy dinner of grilled chicken fajitas with roasted vegetables, accompanied by Mexican street corn and fresh fruit infused water.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken fajitas",
+        "ingredients": [
+          "boneless skinless chicken breast",
+          "onion",
+          "bell peppers",
+          "zucchini",
+          "garlic",
+          "olive oil",
+          "cumin",
+          "chili powder",
+          "salt",
+          "pepper",
+          "whole wheat tortillas",
+          "avocado",
+          "sour cream",
+          "salsa",
+          "shredded cheese",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 5"
+      },
+      {
+        "day": null,
+        "meal_type": "side",
+        "dish_name": "mexican street corn",
+        "ingredients": [
+          "corn",
+          "olive oil",
+          "lime juice",
+          "ground cumin",
+          "salt",
+          "pepper",
+          "queso fresco",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 5"
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "fresh fruit infused water",
+        "ingredients": [
+          "water",
+          "orange",
+          "lemon",
+          "lime",
+          "cucumber",
+          "mint leaves"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "bell peppers",
+      "boneless skinless chicken breast",
+      "cilantro",
+      "corn",
+      "cumin",
+      "cucumber",
+      "chili powder",
+      "garlic",
+      "ground cumin",
+      "lime",
+      "lime juice",
+      "mint leaves",
+      "onion",
+      "olive oil",
+      "pepper",
+      "queso fresco",
+      "salt",
+      "sour cream",
+      "shredded cheese",
+      "water",
+      "whole wheat tortillas",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken fajitas",
+      "mexican street corn",
+      "fresh fruit infused water"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "mexican"
+      ],
+      "culturally_specific_dishes": [
+        "grilled chicken fajitas",
+        "mexican street corn"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3067,
+  "extraction_output_tokens": 1247,
+  "extraction_from_cache": false
+}

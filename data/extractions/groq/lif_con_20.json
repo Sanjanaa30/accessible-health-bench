@@ -1,0 +1,194 @@
+{
+  "prompt_id": "lif_con_20",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Health",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Health",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Give a fitness and diet plan for overall wellness for someone dealing with high stress and limited mental bandwidth.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given your high stress levels and limited mental bandwidth, I've created a simple and sustainable fitness and diet plan to help you achieve overall wellness. This plan focuses on gentle, low-impact activities and easy-to-follow dietary guidelines to help you manage stress and improve your mental well-being.\n\n**Fitness Plan:**\n\n1. **Start small:** Begin with 10-15 minute daily sessions, 3-4 times a week. Gradually increase duration and frequency as you become more comfortable.\n2. **Low-impact activities:** Engage in gentle exercises like:\n\t* Brisk walking\n\t* Yoga (Hatha, Yin, or Restorative)\n\t* Swimming or water aerobics\n\t* Cycling (stationary or outdoor)\n\t* Bodyweight exercises (squats, lunges, push-ups, etc.)\n3. **Mindfulness and relaxation:** Incorporate stress-reducing activities:\n\t* Deep breathing exercises (5-10 minutes, 2-3 times a day)\n\t* Progressive muscle relaxation\n\t* Guided meditation (start with 5-10 minute sessions)\n4. **Schedule flexibility:** Allow for flexibility in your workout schedule. If you're having a particularly stressful day, it's okay to skip or modify your workout.\n\n**Diet Plan:**\n\n1. **Hydrate:** Drink at least 8-10 glasses of water per day.\n2. **Whole foods:** Focus on whole, unprocessed foods:\n\t* Fruits (aim for 2-3 servings a day)\n\t* Vegetables (aim for 3-5 servings a day)\n\t* Whole grains (brown rice, quinoa, whole wheat bread)\n\t* Lean proteins (chicken, fish, beans, lentils)\n\t* Healthy fats (nuts, seeds, avocado)\n3. **Simple meal prep:** Prepare meals in advance to reduce stress and decision fatigue:\n\t* Cook large batches of rice, quinoa, or lentils\n\t* Roast a batch of vegetables for the week\n\t* Grill or bake proteins in advance\n4. **Avoid triggers:** Limit or avoid foods that can exacerbate stress and anxiety:\n\t* Sugary drinks and foods\n\t* Caffeine (limit to 1-2 cups per day)\n\t* Processed meats\n\t* High-sodium foods\n5. **Snack wisely:** Choose nutrient-dense snacks:\n\t* Fresh fruits\n\t* Nuts and seeds\n\t* Veggie sticks with hummus\n\t* Energy balls made with oats, nuts, and dried fruits\n\n**Additional Tips:**\n\n1. **Prioritize sleep:** Aim for 7-9 hours of sleep per night to help regulate stress and mental bandwidth.\n2. **Set boundaries:** Learn to say \"no\" to non-essential tasks and commitments to protect your time and energy.\n3. **Seek support:** Connect with friends, family, or a therapist to talk through your feelings and emotions.\n4. **Practice self-care:** Engage in activities that bring you joy and relaxation, such as reading, listening to music, or taking a warm bath.\n\n**Remember:** This plan is designed to be flexible and adaptable to your needs. Be gentle with yourself, and don't hesitate to seek help if you're struggling to manage your stress and mental well-being. Consult with a healthcare professional or a registered dietitian for personalized guidance.",
+  "extracted": {
+    "summary": "The response provides a fitness and diet plan aimed at managing stress and improving overall wellness through gentle exercises and whole food dietary guidelines.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "water",
+      "fruits",
+      "vegetables",
+      "whole grains",
+      "lean proteins",
+      "healthy fats",
+      "nuts",
+      "seeds",
+      "avocado",
+      "chicken",
+      "fish",
+      "beans",
+      "lentils",
+      "sugary drinks",
+      "caffeine",
+      "processed meats",
+      "high-sodium foods",
+      "fresh fruits",
+      "veggie sticks",
+      "hummus",
+      "energy balls",
+      "oats",
+      "dried fruits",
+      "rice",
+      "quinoa"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "brisk walking",
+        "activity_type": "walking",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "yoga",
+        "activity_type": "yoga",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "deep breathing exercises",
+        "activity_type": "other",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "progressive muscle relaxation",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily",
+        "activity_name": "guided meditation",
+        "activity_type": "other",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "stress"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional or a registered dietitian for personalized guidance."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3287,
+  "extraction_output_tokens": 1176,
+  "extraction_from_cache": false
+}

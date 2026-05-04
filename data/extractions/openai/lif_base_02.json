@@ -1,0 +1,179 @@
+{
+  "prompt_id": "lif_base_02",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily fitness routine.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a daily fitness routine can vary depending on your fitness level, goals, and preferences. Below is a balanced routine that incorporates cardiovascular exercise, strength training, flexibility, and rest. Aim for about 30-60 minutes of activity each day:\n\n### Sample Daily Fitness Routine\n\n#### **Day 1: Full-Body Strength Training**\n- **Warm-Up (5-10 minutes):**\n  - Jumping jacks or brisk walking\n  - Dynamic stretches (arm circles, leg swings)\n\n- **Workout (30-40 minutes):**  \n  Perform 2-3 sets of 10-15 reps for each exercise.\n  1. Squats \n  2. Push-ups (knee or standard)\n  3. Bent-over rows (using dumbbells or resistance bands)\n  4. Lunges (alternating legs)\n  5. Plank (hold for 30 seconds to 1 minute)\n\n- **Cool Down (5-10 minutes):**\n  - Static stretches focusing on major muscle groups.\n\n#### **Day 2: Cardio and Core**\n- **Warm-Up (5-10 minutes):**\n  - Light jogging or brisk walking\n  - Dynamic stretches\n\n- **Workout (30-40 minutes):**  \n  Choose one of the following:\n  - Running or jogging\n  - Cycling \n  - Swimming\n  - HIIT (High-Intensity Interval Training) - 20 seconds of intense activity followed by 40 seconds of rest, repeat for 20-30 minutes.\n\n- **Core Workout (10 minutes):**\n  1. Bicycle crunches (15-20 reps)\n  2. Russian twists (15-20 reps)\n  3. Leg raises (10-15 reps)\n  4. Side planks (hold for 20-30 seconds each side)\n\n- **Cool Down (5-10 minutes):**\n  - Static stretches focusing on the core and legs.\n\n#### **Day 3: Active Recovery and Flexibility**\n- **Activity (30-60 minutes):**\n  - Yoga or Pilates\n  - Light walking or cycling\n  - Foam rolling or stretching session\n\n#### **Day 4: Upper Body Strength**\n- **Warm-Up (5-10 minutes):**\n  - Arm swings, shoulder circles, and light cardio\n\n- **Workout (30-40 minutes):**  \n  Perform 2-3 sets of 10-15 reps for each exercise.\n  1. Dumbbell chest press\n  2. Shoulder press\n  3. Dumbbell bicep curls\n  4. Tricep dips (using a bench or chair)\n  5. Lateral raises\n\n- **Cool Down (5-10 minutes):**\n  - Static stretches focusing on the upper body.\n\n#### **Day 5: Lower Body Strength**\n- **Warm-Up (5-10 minutes):**\n  - Light cardio and dynamic leg stretches\n\n- **Workout (30-40 minutes):**  \n  Perform 2-3 sets of 10-15 reps for each exercise.\n  1. Deadlifts (dumbbell or barbell)\n  2. Glute bridges\n  3. Step-ups (using a bench or sturdy surface)\n  4. Calf raises\n  5. Side lunges \n\n- **Cool Down (5-10 minutes):**\n  - Static stretches focusing on the lower body.\n\n#### **Day 6: Cardio and Agility**\n- **Warm-Up (5-10 minutes):**\n  - Light jogging or dynamic movements\n\n- **Workout (30-40 minutes):**  \n  Choose one of the following:\n  - Dance class (Zumba, hip-hop)\n  - Kickboxing\n  - Circuit training with agility drills (ladder drills, cone drills)\n\n- **Cool Down (5-10 minutes):**\n  - Static stretches focusing on legs and core.\n\n#### **Day 7: Rest Day**\n- Focus on relaxation, hydration, and light activities like walking or gentle stretching.\n\n### Tips for Success:\n- **Listen to Your Body:** Adjust the intensity and duration based on how you feel.\n- **Stay Hydrated:** Drink plenty of water throughout the day.\n- **Nutrition:** Fuel your body with balanced meals to support your workouts.\n- **Consistency is Key:** Stick to your routine, but be flexible and make changes as needed.\n\nFeel free to modify this routine to suit your personal preferences and fitness level!",
+  "extracted": {
+    "summary": "The response provides a structured seven-day fitness routine that includes strength training, cardio, flexibility, and rest days.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "full-body strength training",
+        "activity_type": "strength",
+        "duration_minutes": 40,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "dumbbells",
+          "resistance bands"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2",
+        "activity_name": "cardio and core",
+        "activity_type": "cardio",
+        "duration_minutes": 40,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 3",
+        "activity_name": "active recovery and flexibility",
+        "activity_type": "flexibility",
+        "duration_minutes": 60,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 4",
+        "activity_name": "upper body strength",
+        "activity_type": "strength",
+        "duration_minutes": 40,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 5",
+        "activity_name": "lower body strength",
+        "activity_type": "strength",
+        "duration_minutes": 40,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "dumbbells",
+          "barbell"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 6",
+        "activity_name": "cardio and agility",
+        "activity_type": "cardio",
+        "duration_minutes": 40,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Day 7",
+        "activity_name": "rest day",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "dumbbells",
+        "resistance bands",
+        "barbell"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3469,
+  "extraction_output_tokens": 1172,
+  "extraction_from_cache": false
+}

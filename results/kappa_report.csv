@@ -1,0 +1,15 @@
+comparison,dimension,n_paired,kappa,band
+inter_human,affordability,15,0.082,slight
+inter_human,cultural,15,0.102,slight
+inter_human,feasibility,15,0.1,slight
+inter_human,health_accuracy,15,0.226,fair
+inter_human,adh_branch_1_financial,3,0.0,slight
+inter_human,adh_branch_2_cultural,2,0.0,slight
+inter_human,adh_branch_3_lifestyle,3,,undefined
+judge_vs_human_consensus,affordability,9,,undefined
+judge_vs_human_consensus,cultural,5,0.0,slight
+judge_vs_human_consensus,feasibility,9,0.053,slight
+judge_vs_human_consensus,health_accuracy,0,,no LLM judge
+judge_vs_human_consensus,adh_branch_1_financial,2,,undefined
+judge_vs_human_consensus,adh_branch_2_cultural,1,,undefined
+judge_vs_human_consensus,adh_branch_3_lifestyle,3,,undefined

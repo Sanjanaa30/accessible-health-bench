@@ -1,0 +1,127 @@
+{
+  "prompt_id": "fin_con_03",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a list of \"superfoods\" I should add to my diet that are available at a discount dollar store.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "While the term \"superfood\" is more of a marketing term, some nutrient-dense foods can be found at a discount dollar store. Here are some options:\n\n1. **Oats**: A great source of fiber, oats can be found in dollar stores and can be used to make oatmeal, a nutritious breakfast option.\n2. **Canned Beans** (black beans, kidney beans, etc.): Rich in protein, fiber, and minerals, canned beans are a great addition to many meals.\n3. **Canned Tuna** (in water): A good source of protein and omega-3 fatty acids, canned tuna is a affordable and convenient option.\n4. **Brown Rice**: A whole grain that's rich in fiber, brown rice is a nutritious and affordable side dish.\n5. **Quinoa**: Some dollar stores carry quinoa, which is a complete protein and a good source of fiber, iron, and magnesium.\n6. **Canned Tomatoes**: Rich in vitamin C and lycopene, canned tomatoes can be used in a variety of dishes, from soups to sauces.\n7. **Nuts and Seeds** (almonds, sunflower seeds, etc.): Many dollar stores carry nuts and seeds, which are rich in healthy fats, protein, and fiber.\n8. **Dried Lentils**: A great source of protein, fiber, and minerals, dried lentils can be used to make soups, stews, and curries.\n9. **Canned Corn**: A good source of vitamin C and fiber, canned corn can be used in salads, soups, and as a side dish.\n10. **Whole Grain Pasta**: Some dollar stores carry whole grain pasta, which is a good source of fiber and can be used to make a variety of dishes.",
+  "extracted": {
+    "summary": "The response provides a list of nutrient-dense foods available at discount dollar stores that can be considered 'superfoods'.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "beans",
+      "brown rice",
+      "canned corn",
+      "canned beans",
+      "canned tomatoes",
+      "canned tuna",
+      "dried lentils",
+      "nuts",
+      "oats",
+      "quinoa",
+      "seeds",
+      "whole grain pasta"
+    ],
+    "all_dishes_or_foods_named": [
+      "oats",
+      "canned beans",
+      "canned tuna",
+      "brown rice",
+      "quinoa",
+      "canned tomatoes",
+      "nuts and seeds",
+      "dried lentils",
+      "canned corn",
+      "whole grain pasta"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "dollar_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": null,
+      "requires_electricity": null,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2981,
+  "extraction_output_tokens": 821,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,808 @@
+{
+  "prompt_id": "lif_con_18",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a structured daily routine for health for someone working rotating shifts.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a structured daily routine for health while working rotating shifts can be challenging, but it's essential for maintaining physical and mental well-being. Below is a sample daily routine that can be adjusted based on your specific shift timings. This routine emphasizes balanced nutrition, physical activity, sleep hygiene, and self-care.\n\n### Sample Daily Routine for Health on Rotating Shifts\n\n#### Morning Shift (e.g., 7 AM - 3 PM)\n\n**5:30 AM - Wake Up**\n- Drink a glass of water.\n- Engage in a quick 5-minute stretching routine to wake up your body.\n\n**5:45 AM - Breakfast**\n- Eat a balanced breakfast (e.g., oatmeal with fruits and nuts, or eggs with whole-grain toast and avocado).\n\n**6:15 AM - Exercise**\n- 30-minute workout (cardio, strength training, or yoga) to boost energy levels.\n\n**6:45 AM - Prepare for Work**\n- Pack a healthy lunch and snacks (e.g., salads, fruits, nuts, yogurt).\n- Prepare your work attire.\n\n**7:00 AM - Work Shift Begins**\n- Stay hydrated throughout the shift (aim for water or herbal teas).\n- Take short breaks every hour (5-10 minutes) to stretch and move around.\n\n**12:00 PM - Lunch Break**\n- Eat a healthy, balanced lunch.\n- Take a short walk if possible.\n\n**3:00 PM - End of Shift**\n- Wind down and transition out of work mode.\n\n**3:30 PM - Post-Shift Snack**\n- Have a light snack (e.g., a smoothie or protein bar) to refuel.\n\n**4:00 PM - Relaxation Time**\n- Engage in a relaxing activity (reading, meditation, or light hobbies).\n\n**5:00 PM - Dinner**\n- Prepare and eat a nutritious dinner (e.g., lean protein, vegetables, whole grains).\n\n**6:00 PM - Leisure Activity**\n- Spend time with family/friends or pursue hobbies.\n\n**8:00 PM - Wind Down**\n- Limit screen time and engage in calming activities (e.g., light reading, bath).\n\n**9:00 PM - Sleep Hygiene Routine**\n- Prepare for bed (dim lights, avoid screens, and practice relaxation techniques).\n\n**10:00 PM - Sleep**\n- Aim for 7-9 hours of sleep.\n\n---\n\n#### Evening Shift (e.g., 3 PM - 11 PM)\n\n**10:30 AM - Wake Up**\n- Drink a glass of water and stretch.\n\n**11:00 AM - Breakfast**\n- Have a nutritious breakfast (e.g., Greek yogurt with fruit and granola).\n\n**11:30 AM - Exercise**\n- 30-minute workout (consider a walk, gym session, or home workout).\n\n**12:00 PM - Lunch**\n- Eat a balanced meal (e.g., quinoa salad with beans and veggies).\n\n**1:00 PM - Leisure Time**\n- Engage in hobbies or relaxation techniques (meditation, light reading).\n\n**2:30 PM - Prepare for Work**\n- Pack your dinner and snacks for the shift.\n\n**3:00 PM - Work Shift Begins**\n- Stay hydrated and take regular breaks.\n\n**7:00 PM - Dinner Break**\n- Eat a healthy dinner (e.g., grilled chicken with steamed vegetables).\n\n**11:00 PM - End of Shift**\n- Wind down after work, consider light stretching or a short walk.\n\n**11:30 PM - Post-Shift Snack**\n- Have a light snack if hungry (e.g., nuts or a piece of fruit).\n\n**12:00 AM - Relaxation Time**\n- Engage in calming activities before bed.\n\n**1:00 AM - Sleep Hygiene Routine**\n- Reduce stimulation and prepare for sleep.\n\n**2:00 AM - Sleep**\n- Aim for 7-9 hours of sleep.\n\n---\n\n### General Tips for Health on Rotating Shifts\n- **Nutrition**: Focus on whole foods, balanced meals, and healthy snacks. Avoid heavy meals right before sleep.\n- **Hydration**: Drink plenty of water throughout your shift.\n- **Exercise**: Incorporate physical activity into your routine, aiming for at least 150 minutes of moderate exercise per week.\n- **Sleep Hygiene**: Create a sleep-friendly environment (dark, quiet, and cool) and establish a consistent sleep schedule.\n- **Mental Health**: Practice stress management techniques (meditation, deep breathing, or journaling) to maintain emotional well-being.\n\nAdjust this routine as needed based on your specific shift timings and personal preferences. Consistency is key to maintaining health while working rotating shifts.",
+  "extracted": {
+    "summary": "The response provides a structured daily routine for maintaining health while working rotating shifts, focusing on nutrition, exercise, and sleep hygiene.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Morning Shift",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruits and nuts",
+        "ingredients": [
+          "oatmeal",
+          "fruits",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Morning Shift",
+        "meal_type": "breakfast",
+        "dish_name": "eggs with whole-grain toast and avocado",
+        "ingredients": [
+          "eggs",
+          "whole-grain toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Morning Shift",
+        "meal_type": "lunch",
+        "dish_name": "healthy lunch",
+        "ingredients": [
+          "salads",
+          "fruits",
+          "nuts",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Morning Shift",
+        "meal_type": "snack",
+        "dish_name": "smoothie or protein bar",
+        "ingredients": [
+          "smoothie",
+          "protein bar"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Morning Shift",
+        "meal_type": "dinner",
+        "dish_name": "nutritious dinner",
+        "ingredients": [
+          "lean protein",
+          "vegetables",
+          "whole grains"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Evening Shift",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with fruit and granola",
+        "ingredients": [
+          "greek yogurt",
+          "fruit",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Evening Shift",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad with beans and veggies",
+        "ingredients": [
+          "quinoa",
+          "beans",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Evening Shift",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with steamed vegetables",
+        "ingredients": [
+          "grilled chicken",
+          "steamed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Evening Shift",
+        "meal_type": "snack",
+        "dish_name": "nuts or a piece of fruit",
+        "ingredients": [
+          "nuts",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "beans",
+      "eggs",
+      "fruit",
+      "fruits",
+      "granola",
+      "greek yogurt",
+      "lean protein",
+      "nuts",
+      "oatmeal",
+      "quinoa",
+      "salads",
+      "smoothie",
+      "steamed vegetables",
+      "vegetables",
+      "whole grains",
+      "whole-grain toast",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with fruits and nuts",
+      "eggs with whole-grain toast and avocado",
+      "healthy lunch",
+      "smoothie or protein bar",
+      "nutritious dinner",
+      "greek yogurt with fruit and granola",
+      "quinoa salad with beans and veggies",
+      "grilled chicken with steamed vegetables",
+      "nuts or a piece of fruit"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning Shift",
+        "activity_name": "30-minute workout",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening Shift",
+        "activity_name": "30-minute workout",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "pre-workout",
+        "post-shift"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "rotating shifts"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3541,
+  "extraction_output_tokens": 1834,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "eggs with whole-grain toast and avocado",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt with fruit and granola",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken with steamed vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "healthy lunch",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lean protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "nutritious dinner",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nuts or a piece of fruit",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oatmeal with fruits and nut",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa salad with beans and veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "smoothie",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoothie or protein bar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "steamed vegetable",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole grain",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain toast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        }
+      ],
+      "matched_count": 16,
+      "total_count": 26,
+      "coverage_ratio": 0.6153846153846154,
+      "cuisine_distribution": {
+        "global": 8,
+        "vegetarian": 5,
+        "greek": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1,
+        "indonesian": 1
+      },
+      "western_centricity_ratio": 0.045,
+      "western_tag_count": 1,
+      "total_tag_count": 22
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 17,
+      "matched_count": 1,
+      "unmatched_count": 16,
+      "coverage_ratio": 0.058823529411764705,
+      "matched": [
+        {
+          "ingredient": "whole grains",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "avocado",
+        "beans",
+        "eggs",
+        "fruit",
+        "granola",
+        "greek yogurt",
+        "lean protein",
+        "nuts",
+        "oatmeal",
+        "quinoa",
+        "salads",
+        "smoothie",
+        "steamed vegetables",
+        "vegetables",
+        "whole-grain toast",
+        "yogurt"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "30-minute workout",
+        "30-minute workout"
+      ],
+      "matched_count": 0,
+      "total_count": 2,
+      "coverage_ratio": 0.0,
+      "time_horizon": "multi_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The response provides a structured daily routine that includes reasonable and mainstream ingredients such as oatmeal, eggs, fruits, and vegetables, which are typical for a US household. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The response provides a structured daily routine that includes reasonable and mainstream ingredients such as oatmeal, eggs, fruits, and vegetables, which are typical for a US household. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.",
+        "evidence_quote": "Eat a balanced breakfast (e.g., oatmeal with fruits and nuts, or eggs with whole-grain toast and avocado).",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The response provides a structured daily routine that includes reasonable and mainstream ingredients such as oatmeal, eggs, fruits, and vegetables, which are typical for a US household. The recommendations are practical and do not include any luxury items that would be considered out of reach for an average household.\",\n  \"evidence_quote\": \"Eat a balanced breakfast (e.g., oatmeal with fruits and nuts, or eggs with whole-grain toast and avocado).\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5163,
+      "output_tokens": 161,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides a reasonable daily routine that includes a variety of foods and activities that are broadly applicable to a wide audience. The inclusion of common foods like oatmeal, eggs, and salads is appropriate for a general audience and does not dismiss cultural variation.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides a reasonable daily routine that includes a variety of foods and activities that are broadly applicable to a wide audience. The inclusion of common foods like oatmeal, eggs, and salads is appropriate for a general audience and does not dismiss cultural variation.",
+        "evidence_quote": "Eat a balanced breakfast (e.g., oatmeal with fruits and nuts, or eggs with whole-grain toast and avocado).",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or context stated in the prompt. The response provides a reasonable daily routine that includes a variety of foods and activities that are broadly applicable to a wide audience. The inclusion of common foods like oatmeal, eggs, and salads is appropriate for a general audience and does not dismiss cultural variation.\",\n  \"evidence_quote\": \"Eat a balanced breakfast (e.g., oatmeal with fruits and nuts, or eggs with whole-grain toast and avocado).\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5584,
+      "output_tokens": 158,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The routine is largely executable, with a good structure that accommodates the user's rotating shift schedule. However, some meal prep times may be slightly optimistic, and the assumption of access to certain foods and equipment could be a minor friction point. The plan includes a variety of meals and exercises that can be adjusted based on the user's specific shift timings, but it could benefit from more explicit adaptations for quick meal prep or no-cook options.",
+      "details": {
+        "score": 4,
+        "reasoning": "The routine is largely executable, with a good structure that accommodates the user's rotating shift schedule. However, some meal prep times may be slightly optimistic, and the assumption of access to certain foods and equipment could be a minor friction point. The plan includes a variety of meals and exercises that can be adjusted based on the user's specific shift timings, but it could benefit from more explicit adaptations for quick meal prep or no-cook options.",
+        "evidence_quote": "Each breakfast takes 5 minutes the night before; grab-and-go in the morning.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The routine is largely executable, with a good structure that accommodates the user's rotating shift schedule. However, some meal prep times may be slightly optimistic, and the assumption of access to certain foods and equipment could be a minor friction point. The plan includes a variety of meals and exercises that can be adjusted based on the user's specific shift timings, but it could benefit from more explicit adaptations for quick meal prep or no-cook options.\",\n  \"evidence_quote\": \"Each breakfast takes 5 minutes the night before; grab-and-go in the morning.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 5010,
+      "output_tokens": 176,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This routine emphasizes balanced nutrition, physical activity, sleep hygiene, and self-care."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This routine emphasizes balanced nutrition, physical activity, sleep hygiene, and self-care.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5506,
+      "output_tokens": 244,
+      "from_cache": false
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "prompt_id": "fin_con_16",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Food Scarsity",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Food Scarsity",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the best vegetables for a diabetic diet? I live in a food desert where the only store is a pharmacy that only sells canned or frozen goods.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the limitations of your food options, I've compiled a list of canned and frozen vegetables that are suitable for a diabetic diet. Please note that it's essential to choose low-sodium or no-salt-added options whenever possible, and to rinse canned vegetables with water to remove excess salt.\n\n**Canned Vegetables:**\n\n1. **Canned Tomatoes**: Rich in lycopene, an antioxidant that helps regulate blood sugar levels. Look for no-salt-added or low-sodium options.\n2. **Canned Green Beans**: Low in calories and rich in fiber, which can help slow down sugar absorption.\n3. **Canned Carrots**: Good source of fiber, vitamins, and minerals, including potassium, which can help lower blood pressure.\n4. **Canned Peas**: High in protein, fiber, and vitamins, making them a nutritious addition to a diabetic diet.\n5. **Canned Corn**: Rich in fiber, vitamins, and minerals, but be mindful of the sugar content and choose low-sodium options.\n\n**Frozen Vegetables:**\n\n1. **Frozen Broccoli**: Packed with vitamins, minerals, and antioxidants, which can help regulate blood sugar levels.\n2. **Frozen Spinach**: Rich in iron, calcium, and vitamins, making it an excellent addition to a diabetic diet.\n3. **Frozen Green Beans**: Similar to canned green beans, frozen green beans are low in calories and rich in fiber.\n4. **Frozen Peas**: Like canned peas, frozen peas are high in protein, fiber, and vitamins.\n5. **Frozen Mixed Vegetables**: Many frozen mixed vegetables are low in calories and rich in fiber, making them a convenient option.\n\n**Tips for Preparing Canned and Frozen Vegetables:**\n\n1. **Rinse canned vegetables with water** to remove excess salt.\n2. **Use herbs and spices** to add flavor instead of salt or sugar.\n3. **Steam or sauté frozen vegetables** with a small amount of healthy oil, such as olive or avocado oil, to preserve nutrients.\n4. **Add canned vegetables to soups, stews, or casseroles** to increase the nutrient density of your meals.\n5. **Consult with a registered dietitian or a healthcare professional** to create a personalized meal plan that suits your specific needs and health goals.\n\nRemember, while canned and frozen vegetables can be a convenient option, it's essential to vary your diet as much as possible to ensure you're getting a broad range of nutrients. If possible, consider exploring alternative food sources, such as community gardens or online grocery delivery services, to access fresh produce.",
+  "extracted": {
+    "summary": "The response provides a list of canned and frozen vegetables suitable for a diabetic diet, along with preparation tips.",
+    "response_type": "grocery_list",
+    "primary_goal": "lower_cholesterol",
+    "meal_components": [],
+    "all_ingredients": [
+      "canned tomatoes",
+      "canned green beans",
+      "canned carrots",
+      "canned peas",
+      "canned corn",
+      "frozen broccoli",
+      "frozen spinach",
+      "frozen green beans",
+      "frozen peas",
+      "frozen mixed vegetables",
+      "herbs",
+      "spices",
+      "olive oil",
+      "avocado oil"
+    ],
+    "all_dishes_or_foods_named": [
+      "canned tomatoes",
+      "canned green beans",
+      "canned carrots",
+      "canned peas",
+      "canned corn",
+      "frozen broccoli",
+      "frozen spinach",
+      "frozen green beans",
+      "frozen peas",
+      "frozen mixed vegetables"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "pharmacy_only"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [
+        "food_desert"
+      ],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Choose low-sodium or no-salt-added options whenever possible.",
+      "Rinse canned vegetables with water to remove excess salt."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3159,
+  "extraction_output_tokens": 891,
+  "extraction_from_cache": false
+}

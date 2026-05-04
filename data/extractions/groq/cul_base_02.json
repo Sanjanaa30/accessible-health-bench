@@ -1,0 +1,313 @@
+{
+  "prompt_id": "cul_base_02",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a 3-day meal plan for a healthy heart.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a 3-day meal plan that incorporates heart-healthy foods to support a healthy cardiovascular system:\n\n**Day 1**\n\n* **Breakfast**: Oatmeal with banana, almond butter, and a splash of low-fat milk\n\t+ 1 cup cooked oatmeal\n\t+ 1 medium banana, sliced\n\t+ 2 tbsp almond butter\n\t+ 1/2 cup low-fat milk\n* **Lunch**: Grilled chicken breast with roasted vegetables and quinoa\n\t+ 4 oz grilled chicken breast\n\t+ 1 cup mixed roasted vegetables (such as broccoli, carrots, and bell peppers)\n\t+ 1/2 cup cooked quinoa\n* **Dinner**: Baked salmon with sweet potato and green beans\n\t+ 6 oz baked salmon\n\t+ 1 medium sweet potato, baked\n\t+ 1 cup steamed green beans\n* **Snack**: Apple slices with peanut butter\n\t+ 1 medium apple, sliced\n\t+ 2 tbsp peanut butter\n\n**Day 2**\n\n* **Breakfast**: Greek yogurt with berries and granola\n\t+ 6 oz Greek yogurt\n\t+ 1/2 cup mixed berries (such as blueberries, strawberries, and raspberries)\n\t+ 2 tbsp granola\n* **Lunch**: Turkey and avocado wrap with mixed greens\n\t+ 1 whole wheat tortilla\n\t+ 2 oz sliced turkey breast\n\t+ 1/2 avocado, sliced\n\t+ 1 cup mixed greens\n* **Dinner**: Grilled turkey burger with roasted Brussels sprouts and brown rice\n\t+ 4 oz grilled turkey burger\n\t+ 1 cup roasted Brussels sprouts\n\t+ 1/2 cup cooked brown rice\n* **Snack**: Carrot sticks with hummus\n\t+ 4-6 carrot sticks\n\t+ 2 tbsp hummus\n\n**Day 3**\n\n* **Breakfast**: Smoothie bowl with spinach, banana, and almond milk\n\t+ 2 cups spinach\n\t+ 1 medium banana\n\t+ 1 cup almond milk\n\t+ 1/2 cup sliced almonds\n* **Lunch**: Grilled chicken breast with mixed greens and a balsamic vinaigrette dressing\n\t+ 4 oz grilled chicken breast\n\t+ 2 cups mixed greens\n\t+ 2 tbsp balsamic vinaigrette dressing\n* **Dinner**: Shrimp and vegetable stir-fry with brown rice\n\t+ 4 oz cooked shrimp\n\t+ 1 cup mixed stir-fried vegetables (such as bell peppers, onions, and snow peas)\n\t+ 1/2 cup cooked brown rice\n* **Snack**: Cottage cheese with cucumber slices\n\t+ 1/2 cup cottage cheese\n\t+ 4-6 cucumber slices\n\nThis meal plan incorporates heart-healthy foods such as:\n\n* Fatty fish (salmon and shrimp) rich in omega-3 fatty acids\n* Lean protein sources (chicken breast, turkey breast, and turkey burger)\n* Whole grains (quinoa, brown rice, and whole wheat tortilla)\n* Fresh fruits and vegetables (berries, apples, carrots, broccoli, and sweet potatoes)\n* Healthy fats (almond butter, peanut butter, and avocado)\n* Low-fat dairy products (Greek yogurt and cottage cheese)\n\nRemember to stay hydrated by drinking plenty of water throughout the day. Also, consult with a healthcare professional or a registered dietitian to create a personalized meal plan that suits your specific needs and health goals.",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan featuring heart-healthy foods to support cardiovascular health.",
+    "response_type": "meal_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and almond butter",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "almond butter",
+          "low-fat milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken with roasted vegetables and quinoa",
+        "ingredients": [
+          "chicken breast",
+          "mixed roasted vegetables",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with sweet potato and green beans",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple slices with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries and granola",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "turkey and avocado wrap",
+        "ingredients": [
+          "whole wheat tortilla",
+          "turkey breast",
+          "avocado",
+          "mixed greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "grilled turkey burger with roasted brussels sprouts and brown rice",
+        "ingredients": [
+          "turkey burger",
+          "brussels sprouts",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrot",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl with spinach and banana",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "almond milk",
+          "sliced almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken with mixed greens and balsamic vinaigrette",
+        "ingredients": [
+          "chicken breast",
+          "mixed greens",
+          "balsamic vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "shrimp and vegetable stir-fry with brown rice",
+        "ingredients": [
+          "shrimp",
+          "mixed stir-fried vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with cucumber slices",
+        "ingredients": [
+          "cottage cheese",
+          "cucumber"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "apple",
+      "banana",
+      "balsamic vinaigrette",
+      "brown rice",
+      "brussels sprouts",
+      "carrot",
+      "chicken breast",
+      "cottage cheese",
+      "cucumber",
+      "granola",
+      "greek yogurt",
+      "hummus",
+      "mixed berries",
+      "mixed greens",
+      "mixed roasted vegetables",
+      "quinoa",
+      "peanut butter",
+      "salmon",
+      "shrimp",
+      "sliced almonds",
+      "sweet potato",
+      "turkey burger",
+      "turkey breast",
+      "water",
+      "green beans",
+      "spinach"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "greek yogurt",
+      "smoothie bowl",
+      "grilled chicken",
+      "baked salmon",
+      "turkey and avocado wrap",
+      "grilled turkey burger",
+      "carrot sticks",
+      "shrimp and vegetable stir-fry",
+      "cottage cheese"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening",
+        "snack time"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "heart_health"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional or a registered dietitian to create a personalized meal plan that suits your specific needs and health goals."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3277,
+  "extraction_output_tokens": 2085,
+  "extraction_from_cache": false
+}

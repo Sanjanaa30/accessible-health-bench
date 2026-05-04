@@ -1,0 +1,210 @@
+{
+  "prompt_id": "cul_con_04",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a celebration. The menu should reflect a traditional Lunar New Year meal but with low-sodium modifications.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Lunar New Year Celebration Dinner\n\n## Main Dishes\n\n**Steamed Whole Fish with Ginger & Scallions**\n- Use fresh fish (symbolizes abundance)\n- Steam instead of frying\n- Season with fresh ginger, garlic, low-sodium soy sauce, and sesame oil\n- Garnish with cilantro and scallions\n\n**Chicken with Mushrooms & Chestnuts**\n- Poach or steam chicken breast\n- Use dried shiitake mushrooms (umami flavor without salt)\n- Add roasted chestnuts for traditional texture\n- Light broth base with herbs instead of salty sauces\n\n## Vegetables & Sides\n\n**Leafy Greens with Garlic**\n- Bok choy or gai lan (symbolizes prosperity)\n- Stir-fry with minimal oil and garlic\n- Use low-sodium soy sauce sparingly\n\n**Longevity Noodles**\n- Whole wheat or vegetable noodles\n- Toss with sesame oil, fresh herbs, and vegetables\n- Skip added salt; let diners season to taste\n\n## Dessert\n\n**Homemade Tangyuan (Sweet Rice Balls)**\n- Glutinous rice flour dough with sweet filling\n- Serve in light ginger or rock sugar syrup\n- No added sodium\n\n## Tips\n- Use fresh herbs and spices (ginger, star anise, Sichuan pepper) for flavor\n- Prepare broths from scratch to control sodium\n- Encourage family-style serving for portion awareness\n\nThis maintains symbolic traditions while supporting heart health!",
+  "extracted": {
+    "summary": "The response suggests a healthy dinner menu for a Lunar New Year celebration with low-sodium modifications, including various traditional dishes.",
+    "response_type": "meal_plan",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "steamed whole fish with ginger & scallions",
+        "ingredients": [
+          "fish",
+          "ginger",
+          "garlic",
+          "low-sodium soy sauce",
+          "sesame oil",
+          "cilantro",
+          "scallions"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chicken with mushrooms & chestnuts",
+        "ingredients": [
+          "chicken breast",
+          "shiitake mushrooms",
+          "chestnuts",
+          "herbs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "poaching",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "leafy greens with garlic",
+        "ingredients": [
+          "bok choy",
+          "garlic",
+          "low-sodium soy sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-fry",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "longevity noodles",
+        "ingredients": [
+          "whole wheat noodles",
+          "vegetables",
+          "sesame oil",
+          "fresh herbs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dessert",
+        "dish_name": "homemade tangyuan",
+        "ingredients": [
+          "glutinous rice flour",
+          "sweet filling",
+          "ginger",
+          "rock sugar"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "bok choy",
+      "chicken breast",
+      "chestnuts",
+      "fish",
+      "fresh herbs",
+      "garlic",
+      "ginger",
+      "glutinous rice flour",
+      "herbs",
+      "low-sodium soy sauce",
+      "rock sugar",
+      "sesame oil",
+      "shiitake mushrooms",
+      "sweet filling",
+      "vegetables",
+      "whole wheat noodles"
+    ],
+    "all_dishes_or_foods_named": [
+      "steamed whole fish with ginger & scallions",
+      "chicken with mushrooms & chestnuts",
+      "leafy greens with garlic",
+      "longevity noodles",
+      "homemade tangyuan"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [
+        "steamed whole fish with ginger & scallions",
+        "homemade tangyuan"
+      ],
+      "ingredients_culturally_anchored": [
+        "fish",
+        "glutinous rice flour"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": "lunar_new_year",
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2918,
+  "extraction_output_tokens": 1306,
+  "extraction_from_cache": false
+}

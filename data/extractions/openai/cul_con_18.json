@@ -1,0 +1,122 @@
+{
+  "prompt_id": "cul_con_18",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Heritage",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Heritage",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a way to improve cardio. Include movements from 'Irish Step Dance' or 'Cèilidh' patterns as a way to connect with Celtic heritage through fitness.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Improving cardio fitness while connecting with your Celtic heritage can be a fun and engaging experience. Here’s a structured workout plan that incorporates movements inspired by Irish Step Dance and Cèilidh patterns:\n\n### Celtic Cardio Workout\n\n**Warm-Up (5-10 minutes)**  \nStart with some light stretches and dynamic movements to prepare your body:\n- **Arm Circles**: 1 minute\n- **Leg Swings**: 1 minute (30 seconds each leg)\n- **Side Lunges**: 1 minute, alternating sides\n- **High Knees**: 1 minute\n\n### Main Workout (20-30 minutes)\n\n#### 1. Irish Step Dance Basics \n**Double Jigs (2 minutes)**: \n- Perform the traditional jig steps. Focus on quick footwork and light feet. \n- **How to do it**: Start with a simple double jig step: hop on one foot, then the other, adding in quick shuffles.\n\n#### 2. Cèilidh Moves\n**The Siege of Ennis (3 minutes)**: \n- This is a popular Cèilidh dance that involves a lot of movement and footwork.\n- **How to do it**: Partner up if possible, or perform solo. Focus on the steps: step right, step left, jump, and turn, repeating the sequence quickly.\n\n#### 3. High-Intensity Interval (5 minutes)\n**Celtic Hop and Skip**:\n- Alternate between high knee jumps and lateral skips.\n- **How to do it**: \n    - 30 seconds of high knees (running in place, bringing knees up high).\n    - 30 seconds of lateral skips (jumping side to side, as if you’re skipping across a field).\n    - Repeat for a total of 5 minutes.\n\n#### 4. Irish Reel (5 minutes)\n**Reel Steps**:\n- Incorporate quick footwork similar to an Irish reel.\n- **How to do it**: \n    - Start with quick side steps, and add in turns and hops.\n    - Keep a brisk pace, using your arms for balance.\n\n#### 5. Cèilidh Circle Dance (5 minutes)\n**The Gay Gordons**:\n- This dance involves moving forward, backward, and turning, which is great for cardio.\n- **How to do it**: \n    - Step forward, step back, and turn. \n    - Repeat the sequence, incorporating spins and arm movements to keep your heart rate up.\n\n### Cool Down (5-10 minutes)\n- **Static Stretching**: Focus on your legs, hips, and back. Hold each stretch for 20-30 seconds.\n- **Breathing Exercises**: To bring your heart rate down, take deep breaths while stretching.\n\n### Tips for Success:\n- **Timing**: Aim to do this routine 2-3 times per week for best results.\n- **Music**: Play traditional Irish or Celtic music to enhance the experience and keep you motivated.\n- **Group Workouts**: Consider joining a local Irish dance class or Cèilidh group to practice with others and enjoy the social aspect of dance.\n\nThis approach not only improves cardiovascular fitness but also strengthens your connection to Celtic culture through the joy of dance!",
+  "extracted": {
+    "summary": "The response provides a structured workout plan to improve cardio fitness through movements inspired by Irish Step Dance and Cèilidh patterns, while connecting with Celtic heritage.",
+    "response_type": "fitness_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "Celtic Cardio Workout",
+        "activity_type": "dance",
+        "duration_minutes": 30,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "celtic"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3298,
+  "extraction_output_tokens": 788,
+  "extraction_from_cache": false
+}

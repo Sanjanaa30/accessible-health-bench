@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_10",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Govt Policy",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Govt Policy",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old. The total must be under $25 and every item must be 100% WIC-eligible (Women, Infants, and Children program",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a healthy grocery list for a mother and her 2-year-old that meets the WIC eligibility criteria and stays under $25 is a great way to ensure nutritious options. Here’s a suggested list:\n\n### Healthy Grocery List (WIC-Eligible):\n\n1. **Whole Wheat Bread (1 loaf)** - Approx. $2.50\n   - Good source of fiber and whole grains.\n\n2. **Brown Rice (1 lb)** - Approx. $1.50\n   - Healthy whole grain option.\n\n3. **Oatmeal (18 oz container)** - Approx. $3.00\n   - A nutritious breakfast option.\n\n4. **Milk (1 gallon)** - Approx. $3.00\n   - Essential for calcium and vitamin D.\n\n5. **Eggs (1 dozen)** - Approx. $2.00\n   - High in protein and versatile for meals.\n\n6. **Peanut Butter (16 oz)** - Approx. $2.00\n   - Good source of protein and healthy fats.\n\n7. **Canned Beans (15 oz, any variety)** - Approx. $1.00\n   - High in protein and fiber.\n\n8. **Fresh Fruits (Bananas, 1 bunch)** - Approx. $1.50\n   - Great source of vitamins and easy for toddlers to eat.\n\n9. **Fresh Vegetables (Carrots, 1 lb)** - Approx. $1.50\n   - Nutritious and good for snacking.\n\n10. **Frozen Vegetables (1 lb, mixed or another variety)** - Approx. $1.50\n    - Convenient and nutritious.\n\n11. **Canned Tuna (5 oz)** - Approx. $1.00\n    - High in protein and omega-3 fatty acids.\n\n### Estimated Total: $22.00\n\n### Notes:\n- Prices are approximate and may vary by location.\n- Ensure to check the labels to confirm WIC eligibility for each item.\n- This list provides a variety of food groups, ensuring balanced nutrition for both mother and child. \n\nFeel free to adjust the quantities or specific items based on local availability and personal preferences!",
+  "input_tokens": 50,
+  "output_tokens": 438,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:36:21.583768"
+}

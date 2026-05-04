@@ -1,0 +1,567 @@
+{
+  "prompt_id": "fin_base_11",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "How can I prepare healthy meals if I work 60 hours a week?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Preparing healthy meals while working long hours can be challenging, but with some planning and organization, it is definitely achievable. Here are some strategies to help you prepare healthy meals efficiently:\n\n### 1. **Meal Planning**\n   - **Plan Ahead**: Dedicate some time each week to plan your meals. Choose recipes that are quick to prepare or can be made in bulk.\n   - **Create a Menu**: Write down a menu for the week that includes breakfast, lunch, dinner, and snacks.\n\n### 2. **Batch Cooking**\n   - **Cook in Bulk**: Prepare large quantities of meals on your days off. Soups, stews, casseroles, and grain bowls are great options.\n   - **Portion Control**: Divide cooked meals into individual portions and store them in containers for easy grab-and-go options.\n\n### 3. **Quick and Easy Recipes**\n   - **Focus on Simplicity**: Look for recipes with minimal ingredients and quick cooking times. Stir-fries, salads, and sheet pan meals can be prepared in under 30 minutes.\n   - **Use a Slow Cooker or Instant Pot**: These appliances can save time and allow you to prepare meals with little hands-on time.\n\n### 4. **Healthy Snacks**\n   - **Prepare Quick Snacks**: Have healthy snacks ready, such as cut vegetables, hummus, nuts, and yogurt, to avoid reaching for unhealthy options.\n   - **Batch Snack Preparation**: Prepare snack bags or containers on your days off.\n\n### 5. **Use Freezer-Friendly Meals**\n   - **Freeze Portions**: Many cooked meals freeze well. Label and date containers to keep track of what you have.\n   - **Prep Freezer Meals**: Spend some time making meals specifically for the freezer that can be cooked straight from frozen.\n\n### 6. **Smart Grocery Shopping**\n   - **Make a Shopping List**: Stick to your meal plan and make a list to avoid impulse buys.\n   - **Choose Convenience Wisely**: Consider pre-cut vegetables, pre-marinated proteins, or frozen fruits and vegetables to save time.\n\n### 7. **Healthy Convenience Items**\n   - **Stock Up on Staples**: Keep items like whole grains (brown rice, quinoa), canned beans, frozen veggies, and lean proteins on hand for quick meals.\n   - **Healthy Ready-Made Options**: If time is very tight, consider healthy pre-packaged meals or meal kits from the grocery store.\n\n### 8. **Incorporate Leftovers**\n   - **Make Extra**: When cooking, always make a little more to have leftovers for lunch or dinner the next day.\n   - **Creative Leftover Use**: Use leftovers in new ways, such as transforming roasted veggies into a salad or grains into a grain bowl.\n\n### 9. **Stay Hydrated**\n   - **Drink Water**: Staying hydrated can help with energy levels and reduce the temptation to snack unnecessarily.\n\n### 10. **Mindful Eating**\n   - **Take Time to Eat**: Even with a busy schedule, try to set aside time to enjoy your meals, which can help prevent overeating and improve digestion.\n\nBy implementing these strategies, you can maintain a healthy diet even with a demanding work schedule. Prioritizing meal prep and planning will help you stay on track while saving time and energy during your busy week.",
+  "extracted": {
+    "summary": "The response provides strategies for preparing healthy meals efficiently while working long hours, including meal planning, batch cooking, and quick recipes.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "beans",
+      "brown rice",
+      "canned beans",
+      "cut vegetables",
+      "frozen fruits",
+      "frozen vegetables",
+      "grain bowls",
+      "hummus",
+      "lean proteins",
+      "nuts",
+      "quinoa",
+      "salads",
+      "soups",
+      "stews",
+      "vegetables",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "casseroles",
+      "grain bowls",
+      "salads",
+      "soups",
+      "stews",
+      "stir-fries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "manual_labor"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3247,
+  "extraction_output_tokens": 820,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "casserole",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cut vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen fruit",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "grain bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "lean protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "soup",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "stew",
+          "cuisines": [],
+          "countries": [
+            "France"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "stir-fry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        }
+      ],
+      "matched_count": 11,
+      "total_count": 18,
+      "coverage_ratio": 0.6111111111111112,
+      "cuisine_distribution": {
+        "global": 4,
+        "vegetarian": 4,
+        "brazilian": 1,
+        "polish": 1,
+        "russian": 1,
+        "ukrainian": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "indonesian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 16
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 16,
+      "matched_count": 1,
+      "unmatched_count": 15,
+      "coverage_ratio": 0.0625,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "beans",
+        "canned beans",
+        "cut vegetables",
+        "frozen fruits",
+        "frozen vegetables",
+        "grain bowls",
+        "hummus",
+        "lean proteins",
+        "nuts",
+        "quinoa",
+        "salads",
+        "soups",
+        "stews",
+        "vegetables",
+        "yogurt"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on meal planning, batch cooking, and using common ingredients like beans, brown rice, and frozen vegetables, which are all mainstream and affordable options.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on meal planning, batch cooking, and using common ingredients like beans, brown rice, and frozen vegetables, which are all mainstream and affordable options.",
+        "evidence_quote": "Preparing healthy meals while working long hours can be challenging, but with some planning and organization, it is definitely achievable.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on meal planning, batch cooking, and using common ingredients like beans, brown rice, and frozen vegetables, which are all mainstream and affordable options.\",\n  \"evidence_quote\": \"Preparing healthy meals while working long hours can be challenging, but with some planning and organization, it is definitely achievable.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4398,
+      "output_tokens": 146,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and practical advice for preparing healthy meals that can be applicable to a wide audience, regardless of cultural background. The suggestions include a variety of meal prep strategies and ingredients that are broadly acceptable and do not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and practical advice for preparing healthy meals that can be applicable to a wide audience, regardless of cultural background. The suggestions include a variety of meal prep strategies and ingredients that are broadly acceptable and do not dismiss any cultural variations.",
+        "evidence_quote": "By implementing these strategies, you can maintain a healthy diet even with a demanding work schedule.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and practical advice for preparing healthy meals that can be applicable to a wide audience, regardless of cultural background. The suggestions include a variety of meal prep strategies and ingredients that are broadly acceptable and do not dismiss any cultural variations.\",\n  \"evidence_quote\": \"By implementing these strategies, you can maintain a healthy diet even with a demanding work schedule.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4819,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The meal preparation strategies provided are largely feasible for someone working 60 hours a week, with a strong emphasis on meal planning, batch cooking, and quick recipes. However, some suggestions, like using a slow cooker or Instant Pot, may require equipment that the user hasn't confirmed they have. Overall, the plan is well-structured to accommodate the user's time constraints, but there are minor friction points regarding equipment assumptions.",
+      "details": {
+        "score": 4,
+        "reasoning": "The meal preparation strategies provided are largely feasible for someone working 60 hours a week, with a strong emphasis on meal planning, batch cooking, and quick recipes. However, some suggestions, like using a slow cooker or Instant Pot, may require equipment that the user hasn't confirmed they have. Overall, the plan is well-structured to accommodate the user's time constraints, but there are minor friction points regarding equipment assumptions.",
+        "evidence_quote": "Use a Slow Cooker or Instant Pot: These appliances can save time and allow you to prepare meals with little hands-on time.",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "assumes availability of slow cooker or Instant Pot"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The meal preparation strategies provided are largely feasible for someone working 60 hours a week, with a strong emphasis on meal planning, batch cooking, and quick recipes. However, some suggestions, like using a slow cooker or Instant Pot, may require equipment that the user hasn't confirmed they have. Overall, the plan is well-structured to accommodate the user's time constraints, but there are minor friction points regarding equipment assumptions.\",\n  \"evidence_quote\": \"Use a Slow Cooker or Instant Pot: These appliances can save time and allow you to prepare meals with little hands-on time.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"assumes availability of slow cooker or Instant Pot\"]\n}",
+      "parse_error": null,
+      "input_tokens": 4245,
+      "output_tokens": 188,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Preparing healthy meals while working long hours can be challenging, but with some planning and organization, it is definitely achievable."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Preparing healthy meals while working long hours can be challenging, but with some planning and organization, it is definitely achievable.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4741,
+      "output_tokens": 251,
+      "from_cache": false
+    }
+  }
+}

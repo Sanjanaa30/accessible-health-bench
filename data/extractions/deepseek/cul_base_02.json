@@ -1,0 +1,378 @@
+{
+  "prompt_id": "cul_base_02",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a 3-day meal plan for a healthy heart.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a 3-day heart-healthy meal plan designed to be low in saturated fat, sodium, and added sugars, while being rich in fiber, omega-3s, and antioxidants.\n\n**Key Principles of this Plan:**\n- **Lean Protein:** Fish (especially fatty fish like salmon), skinless poultry, legumes, and tofu.\n- **Healthy Fats:** Olive oil, avocados, nuts, and seeds.\n- **Whole Grains:** Oats, quinoa, brown rice, whole-wheat bread.\n- **Plenty of Produce:** Fruits and vegetables at every meal.\n- **Low Sodium:** Uses herbs, spices, citrus, and no-salt-added ingredients.\n- **Portion Control:** Focuses on appropriate serving sizes.\n\n---\n\n### Day 1: Mediterranean Start\n\n- **Breakfast (approx. 350 cal):** **Overnight Oats with Berries & Almonds.**\n    - 1/2 cup rolled oats, 1/2 cup unsweetened almond milk, 1 tbsp chia seeds, 1/2 cup mixed berries (fresh or frozen), 1 tbsp slivered almonds. Mix and refrigerate overnight. Top with a sprinkle of cinnamon.\n- **Lunch (approx. 450 cal):** **Mediterranean Chickpea Salad.**\n    - 1 cup chickpeas (rinsed and drained), 1 cup chopped cucumber, 1 cup halved cherry tomatoes, 1/4 cup crumbled low-fat feta cheese, 2 tbsp chopped red onion. Dressing: 2 tbsp lemon juice, 1 tbsp olive oil, 1 tsp dried oregano, black pepper to taste.\n- **Dinner (approx. 500 cal):** **Baked Salmon with Roasted Vegetables.**\n    - 4-5 oz salmon fillet, brushed with 1 tsp olive oil, garlic powder, and dill. Bake at 400°F (200°C) for 12-15 min. Serve with 1 cup roasted broccoli and 1/2 cup roasted sweet potato (tossed in 1 tsp olive oil, rosemary, and black pepper).\n- **Snack (approx. 100 cal):** 1 medium apple or 1/4 cup unsalted almonds.\n\n---\n\n### Day 2: Plant-Powered & Flavorful\n\n- **Breakfast (approx. 300 cal):** **Greek Yogurt Parfait.**\n    - 1 cup plain non-fat Greek yogurt, 1/2 cup sliced strawberries, 1 tbsp chopped walnuts, 1 tsp honey (optional).\n- **Lunch (approx. 450 cal):** **Lentil & Vegetable Soup.**\n    - 2 cups of lentil soup made with vegetable broth, carrots, celery, onions, and tomatoes (low-sodium or homemade). Pair with 1 small whole-wheat roll.\n- **Dinner (approx. 500 cal):** **Turkey & Black Bean Chili.**\n    - 4 oz lean ground turkey (93/7), browned with 1/2 onion and 1 clove garlic. Add 1/2 cup black beans (rinsed), 1 cup crushed no-salt-added tomatoes, 1 tbsp chili powder, 1 tsp cumin. Simmer 15 min. Serve with 2 tbsp avocado and a squeeze of lime.\n- **Snack (approx. 100 cal):** 1 cup baby carrots with 2 tbsp hummus.\n\n---\n\n### Day 3: Global Flavors\n\n- **Breakfast (approx. 350 cal):** **Avocado Toast with Egg.**\n    - 1 slice 100% whole-wheat bread, toasted. Top with 1/4 mashed avocado, a squeeze of lemon, and red pepper flakes. Add 1 poached or fried egg (cooked in 1/2 tsp olive oil).\n- **Lunch (approx. 450 cal):** **Quinoa & Black Bean Bowl.**\n    - 1 cup cooked quinoa, 1/2 cup black beans (rinsed), 1/2 cup corn (no salt added), 1/2 cup diced bell peppers, 2 tbsp chopped cilantro. Dressing: 2 tbsp lime juice, 1 tbsp olive oil, cumin, and chili powder.\n- **Dinner (approx. 500 cal):** **Grilled Chicken with Lemon-Herb Sauce & Brown Rice.**\n    - 4-5 oz grilled or baked chicken breast (seasoned with salt-free Italian herb blend). Serve with 1/2 cup cooked brown rice and 1 cup steamed green beans (tossed with 1 tsp olive oil and a squeeze of lemon).\n- **Snack (approx. 100 cal):** 1 small pear or 1/4 cup unsalted pistachios (in shell).\n\n---\n\n### Important Tips for Success:\n\n- **Hydrate:** Drink plenty of water throughout the day. Unsweetened herbal tea is also great.\n- **Read Labels:** Always check for \"no-salt-added\" or \"low-sodium\" versions of canned goods (beans, tomatoes, broth).\n- **Cook in Bulk:** Make extra quinoa, brown rice, or lentil soup for easy lunches.\n- **Herbs & Spices are your Friends:** Use garlic, onion, oregano, basil, rosemary, cumin, chili powder, paprika, and black pepper to flavor food without salt.\n- **Listen to Your Body:** Adjust portion sizes based on your hunger, activity level, and individual calorie needs. This plan is a general guideline.\n\n**Disclaimer:** This meal plan is for informational purposes and is not a substitute for professional medical advice. If you have specific health conditions (e.g., high blood pressure, diabetes, kidney disease) or are on medications (especially blood thinners like Warfarin), please consult your doctor or a registered dietitian before making significant dietary changes.",
+  "extracted": {
+    "summary": "The response provides a 3-day heart-healthy meal plan that emphasizes low saturated fat, sodium, and added sugars while being rich in fiber, omega-3s, and antioxidants.",
+    "response_type": "meal_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats with berries & almonds",
+        "ingredients": [
+          "rolled oats",
+          "almond milk",
+          "chia seeds",
+          "mixed berries",
+          "slivered almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "mediterranean chickpea salad",
+        "ingredients": [
+          "chickpeas",
+          "cucumber",
+          "cherry tomatoes",
+          "low-fat feta cheese",
+          "red onion",
+          "lemon juice",
+          "olive oil",
+          "dried oregano",
+          "black pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with roasted vegetables",
+        "ingredients": [
+          "salmon fillet",
+          "olive oil",
+          "garlic powder",
+          "dill",
+          "broccoli",
+          "sweet potato",
+          "rosemary",
+          "black pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple or almonds",
+        "ingredients": [
+          "apple",
+          "unsalted almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "plain non-fat greek yogurt",
+          "strawberries",
+          "walnuts",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "lentil & vegetable soup",
+        "ingredients": [
+          "lentils",
+          "vegetable broth",
+          "carrots",
+          "celery",
+          "onions",
+          "tomatoes",
+          "whole-wheat roll"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "2 servings"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "turkey & black bean chili",
+        "ingredients": [
+          "lean ground turkey",
+          "onion",
+          "garlic",
+          "black beans",
+          "crushed tomatoes",
+          "chili powder",
+          "cumin",
+          "avocado",
+          "lime"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "2 servings"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "baby carrots with hummus",
+        "ingredients": [
+          "baby carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast with egg",
+        "ingredients": [
+          "whole-wheat bread",
+          "avocado",
+          "lemon",
+          "red pepper flakes",
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "quinoa & black bean bowl",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "corn",
+          "bell peppers",
+          "cilantro",
+          "lime juice",
+          "olive oil",
+          "cumin",
+          "chili powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with lemon-herb sauce & brown rice",
+        "ingredients": [
+          "chicken breast",
+          "brown rice",
+          "green beans",
+          "olive oil",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "pear or pistachios",
+        "ingredients": [
+          "pear",
+          "unsalted pistachios"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "rolled oats",
+      "almond milk",
+      "chia seeds",
+      "mixed berries",
+      "slivered almonds",
+      "chickpeas",
+      "cucumber",
+      "cherry tomatoes",
+      "low-fat feta cheese",
+      "red onion",
+      "lemon juice",
+      "olive oil",
+      "dried oregano",
+      "black pepper",
+      "salmon fillet",
+      "garlic powder",
+      "dill",
+      "broccoli",
+      "sweet potato",
+      "rosemary",
+      "plain non-fat greek yogurt",
+      "strawberries",
+      "walnuts",
+      "honey",
+      "lentils",
+      "vegetable broth",
+      "carrots",
+      "celery",
+      "onions",
+      "tomatoes",
+      "whole-wheat roll",
+      "lean ground turkey",
+      "onion",
+      "garlic",
+      "black beans",
+      "crushed tomatoes",
+      "chili powder",
+      "cumin",
+      "avocado",
+      "lime",
+      "whole-wheat bread",
+      "avocado",
+      "lemon",
+      "red pepper flakes",
+      "egg",
+      "quinoa",
+      "black beans",
+      "corn",
+      "bell peppers",
+      "cilantro",
+      "lime juice",
+      "olive oil",
+      "cumin",
+      "chili powder",
+      "chicken breast",
+      "brown rice",
+      "green beans",
+      "olive oil",
+      "lemon",
+      "pear",
+      "unsalted pistachios"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats with berries & almonds",
+      "mediterranean chickpea salad",
+      "baked salmon with roasted vegetables",
+      "apple or almonds",
+      "greek yogurt parfait",
+      "lentil & vegetable soup",
+      "turkey & black bean chili",
+      "baby carrots with hummus",
+      "avocado toast with egg",
+      "quinoa & black bean bowl",
+      "grilled chicken with lemon-herb sauce & brown rice",
+      "pear or pistachios"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "mediterranean"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "This meal plan is for informational purposes and is not a substitute for professional medical advice. If you have specific health conditions (e.g., high blood pressure, diabetes, kidney disease) or are on medications (especially blood thinners like Warfarin), please consult your doctor or a registered dietitian before making significant dietary changes."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3755,
+  "extraction_output_tokens": 2564,
+  "extraction_from_cache": false
+}

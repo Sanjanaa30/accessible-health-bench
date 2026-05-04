@@ -1,0 +1,287 @@
+{
+  "prompt_id": "cul_con_02",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "West African Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "West African Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a 3-day meal plan for a healthy heart. I only cook West African cuisine (specifically Nigerian staples).",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a 3-day meal plan for a healthy heart, incorporating traditional Nigerian dishes:\n\n**Day 1**\n\n* Breakfast: Akara (Bean Cakes) with whole wheat bread and a glass of freshly squeezed orange juice. Akara is made from mashed beans, which are rich in fiber, protein, and potassium, all of which support heart health.\n* Lunch: Jollof Rice with grilled chicken and steamed vegetables (such as spinach, carrots, and green beans). Use brown rice instead of white rice to increase the fiber content. Jollof Rice is a staple Nigerian dish made with tomatoes, peppers, and spices, which are rich in antioxidants and vitamins.\n* Dinner: Egusi Soup with fufu (made from cassava flour or yam) and a side of sautéed leafy greens (such as pumpkin leaves or bitter leaves). Egusi seeds are rich in healthy fats, protein, and fiber, which support heart health.\n\n**Day 2**\n\n* Breakfast: Puff-Puff (Nigerian doughnuts) made with whole wheat flour and served with a glass of low-fat milk and a slice of fresh fruit (such as pineapple or mango). Puff-Puff is a popular Nigerian snack that can be made healthier by using whole wheat flour and reducing the amount of sugar.\n* Lunch: Suya (grilled meat skewers) made with lean beef or chicken, served with a side of mixed greens salad and a light vinaigrette dressing. Suya is a popular Nigerian snack that is high in protein and low in fat.\n* Dinner: Okra Soup with fufu (made from cassava flour or yam) and a side of steamed vegetables (such as okra, carrots, and green beans). Okra is rich in fiber, vitamins, and minerals, which support heart health.\n\n**Day 3**\n\n* Breakfast: Oatmeal with mashed plantains and a glass of freshly squeezed pineapple juice. Oatmeal is a good source of fiber, which supports heart health, while plantains are rich in potassium and vitamins.\n* Lunch: Moi Moi (steamed bean pudding) made with mashed beans, onions, and spices, served with a side of mixed greens salad and a light vinaigrette dressing. Moi Moi is a popular Nigerian snack that is high in protein, fiber, and vitamins.\n* Dinner: Pepper Soup with lean beef or chicken, served with a side of steamed vegetables (such as carrots, green beans, and peas). Pepper Soup is a spicy Nigerian soup made with a variety of peppers, which are rich in antioxidants and vitamins.\n\n**Healthy tips:**\n\n* Use lean protein sources (such as chicken, beef, or fish) and reduce the amount of oil used in cooking.\n* Incorporate a variety of colorful vegetables and fruits into your meals to increase the antioxidant and fiber content.\n* Choose whole grains (such as brown rice, whole wheat bread, and fufu made from cassava flour or yam) instead of refined grains.\n* Limit the amount of sugar and salt used in cooking, and opt for herbs and spices to add flavor to your meals.\n\nI hope you enjoy this meal plan! Remember to consult with a healthcare professional or registered dietitian for personalized dietary advice.",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan featuring traditional Nigerian dishes aimed at promoting heart health.",
+    "response_type": "meal_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "akara",
+        "ingredients": [
+          "bean",
+          "whole wheat bread",
+          "orange juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "jollof rice",
+        "ingredients": [
+          "brown rice",
+          "grilled chicken",
+          "spinach",
+          "carrots",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "egusi soup",
+        "ingredients": [
+          "egusi seeds",
+          "fufu",
+          "pumpkin leaves",
+          "bitter leaves"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "puff-puff",
+        "ingredients": [
+          "whole wheat flour",
+          "low-fat milk",
+          "pineapple",
+          "mango"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "suya",
+        "ingredients": [
+          "lean beef",
+          "mixed greens",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "okra soup",
+        "ingredients": [
+          "okra",
+          "fufu",
+          "carrots",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "plantains",
+          "pineapple juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "moi moi",
+        "ingredients": [
+          "beans",
+          "onions",
+          "mixed greens",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "pepper soup",
+        "ingredients": [
+          "lean beef",
+          "carrots",
+          "green beans",
+          "peas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "bean",
+      "brown rice",
+      "carrots",
+      "egusi seeds",
+      "fufu",
+      "grilled chicken",
+      "lean beef",
+      "mixed greens",
+      "okra",
+      "onions",
+      "pineapple",
+      "pineapple juice",
+      "plantains",
+      "pumpkin leaves",
+      "spinach",
+      "whole wheat bread",
+      "whole wheat flour",
+      "vinaigrette",
+      "green beans",
+      "bitter leaves",
+      "mango",
+      "low-fat milk"
+    ],
+    "all_dishes_or_foods_named": [
+      "akara",
+      "jollof rice",
+      "egusi soup",
+      "puff-puff",
+      "suya",
+      "okra soup",
+      "oatmeal",
+      "moi moi",
+      "pepper soup"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "west_african_nigerian"
+      ],
+      "culturally_specific_dishes": [
+        "akara",
+        "jollof rice",
+        "egusi soup",
+        "puff-puff",
+        "suya",
+        "okra soup",
+        "moi moi",
+        "pepper soup"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "heart_health"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Remember to consult with a healthcare professional or registered dietitian for personalized dietary advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3270,
+  "extraction_output_tokens": 1777,
+  "extraction_from_cache": false
+}

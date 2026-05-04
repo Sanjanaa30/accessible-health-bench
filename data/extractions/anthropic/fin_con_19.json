@@ -1,0 +1,188 @@
+{
+  "prompt_id": "fin_con_19",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Weight Loss",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Weight Loss",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a meal plan to help with weight loss. I am living on a SNAP/Food Stamp budget of $30/week.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Weight Loss Meal Plan ($30/week)\n\n## Shopping Strategy\n- Buy dried beans, rice, oats, eggs, canned vegetables\n- Shop sales and use store brands\n- Frozen vegetables are cheaper than fresh and just as nutritious\n\n## Sample Weekly Meal Plan\n\n### Proteins (budget-friendly)\n- Eggs (cheapest protein)\n- Dried beans/lentils\n- Canned tuna or chicken\n- Peanut butter\n\n### Vegetables & Fruits\n- Frozen mixed vegetables\n- Canned tomatoes\n- Bananas, apples (seasonal)\n- Carrots, onions\n\n### Grains\n- Brown rice\n- Oats\n- Whole wheat bread\n- Dried pasta\n\n---\n\n## Sample Daily Meals\n\n**Breakfast:** Oatmeal with banana + peanut butter (fills you up)\n\n**Lunch:** Bean and rice bowl with frozen vegetables\n\n**Dinner:** Egg scramble with onions, tomatoes, and toast\n\n**Snack:** Apple or hard-boiled eggs\n\n---\n\n## Weight Loss Tips on This Budget\n- Drink water instead of soda (saves money + calories)\n- Fill half your plate with vegetables\n- Beans and eggs keep you full longer\n- Avoid processed foods—they're pricey and less filling\n- Cook in batches to stretch meals\n\n## Reality Check\nLosing weight on $30/week is possible but slow. Consider applying for additional assistance programs (WIC, local food banks) if eligible—they can supplement your diet.\n\nWould you like specific recipes or a detailed shopping list?",
+  "extracted": {
+    "summary": "The response provides a budget-friendly meal plan aimed at weight loss, emphasizing low-cost ingredients and strategies for shopping on a SNAP budget.",
+    "response_type": "meal_plan",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and peanut butter",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "bean and rice bowl",
+        "ingredients": [
+          "beans",
+          "rice",
+          "frozen vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "egg scramble",
+        "ingredients": [
+          "eggs",
+          "onions",
+          "tomatoes",
+          "toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "apple or hard-boiled eggs",
+        "ingredients": [
+          "apple",
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "apple",
+      "banana",
+      "beans",
+      "brown rice",
+      "canned tuna",
+      "canned vegetables",
+      "carrots",
+      "dried beans",
+      "dried pasta",
+      "eggs",
+      "frozen mixed vegetables",
+      "onions",
+      "oatmeal",
+      "peanut butter",
+      "rice",
+      "toast",
+      "tomatoes"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "bean and rice bowl",
+      "egg scramble",
+      "apple",
+      "hard-boiled eggs"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 30,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [
+        "snap"
+      ],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Losing weight on $30/week is possible but slow. Consider applying for additional assistance programs (WIC, local food banks) if eligible."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2925,
+  "extraction_output_tokens": 1191,
+  "extraction_from_cache": false
+}

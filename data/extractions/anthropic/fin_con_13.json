@@ -1,0 +1,226 @@
+{
+  "prompt_id": "fin_con_13",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a workout plan and a diet to help me lose 10 lbs. I have $0 for a gym membership and my total food budget is $4 per day.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly 10 lb Loss Plan\n\n## Workout (Free, Home/Outdoor)\n\n**3-4 days/week, 30-40 min:**\n- Bodyweight circuits: push-ups, squats, lunges, planks\n- Walking/jogging (free cardio)\n- YouTube fitness channels (free videos)\n- Stairs, hills, or running in place\n\n**Daily habits:**\n- Take stairs instead of elevators\n- Walk for errands when possible\n- Stretch/light movement on rest days\n\n---\n\n## Budget Diet ($4/day = ~$120/month)\n\n**Buy in bulk (cheapest options):**\n- Rice, oats, dried beans, lentils\n- Eggs, canned tuna\n- Peanut butter\n- Bananas, potatoes, carrots, cabbage\n- Flour, oil\n\n**Sample daily eating (~1,500-1,700 cal):**\n\n- **Breakfast:** Oatmeal with peanut butter + banana ($0.50)\n- **Lunch:** Rice + beans + carrots ($0.80)\n- **Dinner:** Eggs with potatoes + cabbage ($1.00)\n- **Snack:** Peanut butter on bread ($0.70)\n\n---\n\n## Key Points\n\n- **Drink water** (free, reduces hunger)\n- **Aim for 10-12 weeks** to lose 10 lbs safely\n- **Prioritize protein** (eggs, beans) to stay full\n- **Track portions** even on a budget\n- **Be consistent** — this matters more than perfection\n\nWould you like specific recipes or a shopping list?",
+  "extracted": {
+    "summary": "The response provides a budget-friendly workout plan and diet to help lose 10 lbs, focusing on free exercises and low-cost meals.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with peanut butter and banana",
+        "ingredients": [
+          "oatmeal",
+          "peanut butter",
+          "banana"
+        ],
+        "estimated_cost_usd": 0.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "rice and beans with carrots",
+        "ingredients": [
+          "rice",
+          "beans",
+          "carrots"
+        ],
+        "estimated_cost_usd": 0.8,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "eggs with potatoes and cabbage",
+        "ingredients": [
+          "eggs",
+          "potatoes",
+          "cabbage"
+        ],
+        "estimated_cost_usd": 1.0,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "peanut butter on bread",
+        "ingredients": [
+          "peanut butter",
+          "bread"
+        ],
+        "estimated_cost_usd": 0.7,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "oatmeal",
+      "peanut butter",
+      "banana",
+      "rice",
+      "beans",
+      "carrots",
+      "eggs",
+      "potatoes",
+      "cabbage",
+      "bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with peanut butter and banana",
+      "rice and beans with carrots",
+      "eggs with potatoes and cabbage",
+      "peanut butter on bread"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight circuits",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "walking/jogging",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "youtube fitness videos",
+        "activity_type": "other",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stairs or running in place",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 120,
+      "cost_period": "per_month",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "home",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2948,
+  "extraction_output_tokens": 1392,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,243 @@
+{
+  "prompt_id": "cul_con_04",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a celebration. The menu should reflect a traditional Lunar New Year meal but with low-sodium modifications.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Celebrating Lunar New Year with a healthy, low-sodium twist is a wonderful idea! Here’s a suggested menu that maintains the essence of traditional dishes while being mindful of sodium levels:\n\n### Healthy Lunar New Year Dinner Menu\n\n#### Appetizer\n**Steamed Vegetable Dumplings**\n- Fill with a mix of finely chopped napa cabbage, shiitake mushrooms, carrots, and scallions. Use ginger and garlic for flavor, and serve with a low-sodium dipping sauce made from rice vinegar and a splash of sesame oil.\n\n#### Main Course\n**Herb-Infused Ginger Soy Chicken**\n- Use skinless chicken breast marinated in a mixture of low-sodium soy sauce, fresh ginger, garlic, and a splash of rice vinegar. Bake or grill the chicken until cooked through and serve sliced over a bed of steamed bok choy and spinach.\n\n**Stir-Fried Brown Rice with Vegetables**\n- Cook brown rice and stir-fry with a colorful mix of bell peppers, snap peas, carrots, and broccoli. Season with low-sodium soy sauce and a sprinkle of sesame seeds. Add a hint of garlic and fresh herbs like cilantro for added flavor.\n\n#### Side Dish\n**Braised Tofu with Mushrooms and Greens**\n- Use firm tofu, marinated in a low-sodium soy sauce and ginger mixture. Sauté with shiitake mushrooms and kale or bok choy until tender. Top with a sprinkle of sesame oil for richness.\n\n#### Dessert\n**Fresh Fruit Platter**\n- Celebrate with a vibrant assortment of seasonal fruits like mandarin oranges, kiwi, pomegranate seeds, and dragon fruit, symbolizing prosperity and good luck.\n\n#### Beverage\n**Jasmine Tea**\n- Serve hot jasmine tea, which is aromatic and refreshing, perfectly complementing the meal.\n\n### Tips for Preparation:\n- Use fresh herbs and spices to enhance flavors without adding salt.\n- Opt for cooking methods like steaming, grilling, or baking instead of frying.\n- Always taste as you go, adjusting flavors with acidity (like lemon or vinegar) rather than salt.\n\nThis menu reflects the traditional elements of a Lunar New Year feast while promoting a healthier lifestyle. Enjoy your celebration!",
+  "extracted": {
+    "summary": "The response suggests a healthy, low-sodium Lunar New Year dinner menu that includes traditional dishes with healthier modifications.",
+    "response_type": "meal_plan",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "steamed vegetable dumplings",
+        "ingredients": [
+          "napa cabbage",
+          "shiitake mushrooms",
+          "carrots",
+          "scallions",
+          "ginger",
+          "garlic",
+          "rice vinegar",
+          "sesame oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "herb-infused ginger soy chicken",
+        "ingredients": [
+          "skinless chicken breast",
+          "low-sodium soy sauce",
+          "fresh ginger",
+          "garlic",
+          "rice vinegar",
+          "bok choy",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fried brown rice with vegetables",
+        "ingredients": [
+          "brown rice",
+          "bell peppers",
+          "snap peas",
+          "carrots",
+          "broccoli",
+          "low-sodium soy sauce",
+          "sesame seeds",
+          "garlic",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "braised tofu with mushrooms and greens",
+        "ingredients": [
+          "firm tofu",
+          "low-sodium soy sauce",
+          "ginger",
+          "shiitake mushrooms",
+          "kale",
+          "bok choy",
+          "sesame oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "sautéing",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dessert",
+        "dish_name": "fresh fruit platter",
+        "ingredients": [
+          "mandarin oranges",
+          "kiwi",
+          "pomegranate seeds",
+          "dragon fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "jasmine tea",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "bok choy",
+      "brown rice",
+      "carrots",
+      "cilantro",
+      "dragon fruit",
+      "fresh ginger",
+      "firm tofu",
+      "garlic",
+      "ginger",
+      "jasmine tea",
+      "kiwi",
+      "low-sodium soy sauce",
+      "mandarin oranges",
+      "pomegranate seeds",
+      "rice vinegar",
+      "sesame oil",
+      "sesame seeds",
+      "shiitake mushrooms",
+      "spinach",
+      "snap peas",
+      "steamed vegetable dumplings",
+      "herb-infused ginger soy chicken",
+      "stir-fried brown rice with vegetables",
+      "braised tofu with mushrooms and greens",
+      "fresh fruit platter"
+    ],
+    "all_dishes_or_foods_named": [
+      "steamed vegetable dumplings",
+      "herb-infused ginger soy chicken",
+      "stir-fried brown rice with vegetables",
+      "braised tofu with mushrooms and greens",
+      "fresh fruit platter",
+      "jasmine tea"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [
+        "steamed vegetable dumplings",
+        "herb-infused ginger soy chicken",
+        "stir-fried brown rice with vegetables",
+        "braised tofu with mushrooms and greens",
+        "fresh fruit platter"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": "lunar_new_year",
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3062,
+  "extraction_output_tokens": 1550,
+  "extraction_from_cache": false
+}

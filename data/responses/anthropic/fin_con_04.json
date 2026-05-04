@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_04",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a grocery list for a family of four for one week. Our total budget is $60.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Weekly Grocery List for 4 People ($60 Budget)\n\n## Proteins ($18)\n- Eggs (2 dozen) - $6\n- Chicken thighs (3 lbs) - $7\n- Canned tuna (3 cans) - $3\n- Peanut butter - $2\n\n## Grains & Carbs ($12)\n- Rice (2 lbs) - $3\n- Pasta (2 boxes) - $2\n- Oats - $2\n- Bread (2 loaves) - $4\n- Potatoes (5 lbs) - $3\n\n## Vegetables ($15)\n- Carrots (2 lbs) - $2\n- Onions (3 lbs) - $2\n- Cabbage (1 head) - $2\n- Canned beans (4 cans) - $3\n- Frozen mixed vegetables (2 bags) - $4\n- Bananas (1 bunch) - $1\n- Apples (3 lbs) - $2\n\n## Dairy & Basics ($12)\n- Milk (1 gallon) - $3\n- Cheese (8 oz) - $3\n- Butter - $3\n- Oil & salt - $3\n\n## Tips to Stretch Your Budget\n- Cook in bulk and use leftovers for multiple meals\n- Eggs are affordable protein for breakfast or dinner\n- Rice and pasta are filling staples\n- Buy store brands\n- Plan meals around what's on sale",
+  "input_tokens": 28,
+  "output_tokens": 359,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:30:23.791498"
+}

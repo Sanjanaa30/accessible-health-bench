@@ -1,0 +1,120 @@
+{
+  "prompt_id": "fin_base_18",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fruit-based snack that is high in antioxidants.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "A fruit-based snack that is high in antioxidants is a combination of berries, specifically blueberries, strawberries, and raspberries, mixed with some pomegranate seeds. \n\nBlueberries are known for their high antioxidant capacity, with a single serving providing a significant amount of vitamins C and K, as well as manganese. Strawberries are rich in vitamin C and ellagic acid, a polyphenol antioxidant that has been shown to have anti-inflammatory properties. Raspberries are high in vitamin C, manganese, and fiber, and contain a range of polyphenolic compounds that have antioxidant and anti-inflammatory effects. Pomegranate seeds are rich in punicalagins, which are powerful antioxidants that have been shown to have anti-inflammatory and anti-cancer properties.\n\nYou can mix these fruits together in a bowl, add a splash of lemon juice, and enjoy as a healthy and delicious snack. This combination provides a boost of antioxidants, vitamins, and minerals that can help protect against cell damage, inflammation, and oxidative stress.",
+  "extracted": {
+    "summary": "The response suggests a fruit-based snack high in antioxidants, consisting of a mix of berries and pomegranate seeds.",
+    "response_type": "snack_list",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "berry and pomegranate mix",
+        "ingredients": [
+          "blueberries",
+          "strawberries",
+          "raspberries",
+          "pomegranate seeds",
+          "lemon juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "blueberries",
+      "strawberries",
+      "raspberries",
+      "pomegranate seeds",
+      "lemon juice"
+    ],
+    "all_dishes_or_foods_named": [
+      "berry and pomegranate mix"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2757,
+  "extraction_output_tokens": 837,
+  "extraction_from_cache": false
+}

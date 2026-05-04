@@ -1,0 +1,175 @@
+{
+  "prompt_id": "cul_base_12",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fitness routine for a beginner.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a great step to take for your health. For a beginner, the most important goals are **consistency, building a habit, and learning proper form**—not lifting the heaviest weights or running the fastest mile.\n\nHere is a simple, effective, and safe full-body routine designed for someone starting from scratch.\n\n### The Golden Rule for Beginners\n- **Start Slow:** Do this routine 2-3 times per week, with at least one rest day between sessions.\n- **Focus on Form:** Watch videos on how to do each exercise. It's better to do 5 perfect squats than 15 wobbly ones.\n- **Listen to Your Body:** \"Discomfort\" is okay (muscle burn). \"Pain\" (sharp, in joints) is not. Stop if you feel pain.\n\n---\n\n### The Routine: \"The Foundation\" (30 Minutes Total)\n\n**Warm-up (5 Minutes):** Do each for 30-60 seconds.\n- Arm Circles (forward & backward)\n- Leg Swings (forward & side-to-side)\n- Cat-Cow Stretch (on hands and knees)\n- Torso Twists (standing)\n\n**Main Workout (20 Minutes):** Perform the exercises as a circuit. Do one set of each exercise, one after the other, with minimal rest. Rest for 60-90 seconds after you finish all 5. Repeat the circuit 2-3 times total.\n\n| Exercise | Sets | Reps | Notes for Beginners |\n| :--- | :--- | :--- | :--- |\n| **1. Bodyweight Squat** | 2-3 | 8-12 | Keep chest up, weight in heels. Go as low as comfortable (like sitting in a chair). |\n| **2. Incline Push-up** | 2-3 | 6-10 | Use a bench, table, or counter. Easier than floor push-ups. Keep body straight from head to heels. |\n| **3. Bird-Dog** | 2-3 | 8-10 per side | On hands & knees. Slowly extend opposite arm & leg. Pause, then return. Great for core & balance. |\n| **4. Glute Bridge** | 2-3 | 12-15 | Lie on back, knees bent. Squeeze glutes to lift hips. Don't arch your lower back at the top. |\n| **5. Plank Hold** | 2-3 | 20-40 seconds | Keep body in a straight line. Don't let hips sag or pike up. Drop to your knees if needed. |\n\n**Cool-down & Stretch (5 Minutes):** Hold each stretch for 20-30 seconds. *Do not bounce.*\n- **Quad Stretch:** Stand, hold one foot towards glute.\n- **Hamstring Stretch:** Sit on floor, one leg out, lean forward gently.\n- **Chest Stretch:** Clasp hands behind back and open chest.\n- **Child's Pose:** Kneel, sit back on heels, reach arms forward on floor.\n\n---\n\n### How to Progress (The \"2-for-2\" Rule)\nOnce you can comfortably complete **2 extra reps** on the last set of an exercise for **2 workouts in a row**, it's time to make it harder.\n\n- **First:** Add 1 more rep to each set (e.g., go from 10 to 11 squats).\n- **Second:** Add 1 more set (go from 2 sets to 3 sets).\n- **Third:** Make the exercise harder (e.g., from Incline Push-up to Knee Push-up, or from Bodyweight Squat to Goblet Squat holding a light dumbbell).\n\n### What to Do on \"Off\" Days?\nRecovery is crucial. On your rest days, do something light and active (active recovery):\n- **Walk:** 20-30 minutes at a comfortable pace.\n- **Gentle Yoga or Stretching:** 10-15 minutes.\n- **Foam Rolling:** Lightly roll out your legs and back.\n\n### A Final Tip for Success\n**Don't try to be perfect.** The biggest mistake beginners make is doing too much, too fast, getting incredibly sore, and then quitting. Aim for \"good enough\" and \"consistent.\" Missing one workout is fine. Missing two in a row makes it harder to get back.\n\nYou've got this. Start today with just the warm-up and one circuit. That's a win.",
+  "extracted": {
+    "summary": "The response provides a beginner-friendly full-body fitness routine focusing on consistency, proper form, and gradual progression.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "warm-up",
+        "activity_type": "other",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight squat",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "incline push-up",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bird-dog",
+        "activity_type": "balance",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "glute bridge",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "plank hold",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "cool-down & stretch",
+        "activity_type": "flexibility",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3466,
+  "extraction_output_tokens": 1118,
+  "extraction_from_cache": false
+}

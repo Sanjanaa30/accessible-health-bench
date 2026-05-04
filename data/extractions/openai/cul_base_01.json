@@ -1,0 +1,140 @@
+{
+  "prompt_id": "cul_base_01",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a high-protein dinner for a family.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a delicious and high-protein dinner idea for a family: **Grilled Lemon Herb Chicken with Quinoa and Roasted Vegetables**.\n\n### Grilled Lemon Herb Chicken\n\n#### Ingredients:\n- 4 boneless, skinless chicken breasts\n- 1/4 cup olive oil\n- Juice of 2 lemons\n- 3 cloves garlic, minced\n- 1 tablespoon fresh thyme (or 1 teaspoon dried)\n- 1 tablespoon fresh rosemary (or 1 teaspoon dried)\n- Salt and pepper to taste\n\n#### Instructions:\n1. In a bowl, whisk together olive oil, lemon juice, garlic, thyme, rosemary, salt, and pepper.\n2. Place the chicken breasts in a resealable plastic bag or a shallow dish and pour the marinade over the chicken. Seal or cover and refrigerate for at least 30 minutes (or up to 2 hours for more flavor).\n3. Preheat the grill to medium-high heat.\n4. Remove chicken from marinade and grill for about 6-7 minutes on each side or until cooked through (internal temperature should reach 165°F/75°C).\n5. Let it rest for a few minutes before slicing.\n\n### Quinoa\n\n#### Ingredients:\n- 1 cup quinoa\n- 2 cups chicken or vegetable broth (or water)\n- Salt to taste\n\n#### Instructions:\n1. Rinse quinoa under cold water.\n2. In a saucepan, combine quinoa, broth, and salt. Bring to a boil.\n3. Reduce heat to low, cover, and simmer for about 15 minutes or until quinoa is fluffy and liquid is absorbed.\n4. Fluff with a fork before serving.\n\n### Roasted Vegetables\n\n#### Ingredients:\n- 2 cups broccoli florets\n- 2 cups bell peppers (red, yellow, or green), chopped\n- 1 zucchini, sliced\n- 2 tablespoons olive oil\n- Salt and pepper to taste\n\n#### Instructions:\n1. Preheat the oven to 425°F (220°C).\n2. On a baking sheet, toss the vegetables with olive oil, salt, and pepper.\n3. Roast in the oven for 20-25 minutes, or until tender and slightly browned, stirring halfway through.\n\n### Serving:\nServe the grilled lemon herb chicken alongside the fluffy quinoa and roasted vegetables. You can also sprinkle some feta cheese or fresh herbs on top for added flavor and presentation.\n\n### Nutritional Benefits:\n- **Chicken** provides a significant amount of protein.\n- **Quinoa** is a complete protein source, containing all nine essential amino acids, and is also rich in fiber.\n- **Vegetables** add vitamins, minerals, and fiber to the meal, making it well-balanced and nutritious.\n\nEnjoy your high-protein family dinner!",
+  "extracted": {
+    "summary": "The response suggests a high-protein dinner of grilled lemon herb chicken served with quinoa and roasted vegetables.",
+    "response_type": "recipe",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled lemon herb chicken with quinoa and roasted vegetables",
+        "ingredients": [
+          "chicken breasts",
+          "olive oil",
+          "lemons",
+          "garlic",
+          "thyme",
+          "rosemary",
+          "salt",
+          "pepper",
+          "quinoa",
+          "broth",
+          "broccoli florets",
+          "bell peppers",
+          "zucchini"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "bell peppers",
+      "broccoli florets",
+      "broth",
+      "chicken breasts",
+      "garlic",
+      "lemons",
+      "olive oil",
+      "pepper",
+      "quinoa",
+      "rosemary",
+      "salt",
+      "thyme",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled lemon herb chicken",
+      "quinoa",
+      "roasted vegetables"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3113,
+  "extraction_output_tokens": 939,
+  "extraction_from_cache": false
+}

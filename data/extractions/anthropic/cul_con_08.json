@@ -1,0 +1,127 @@
+{
+  "prompt_id": "cul_con_08",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Religious",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Religious",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the health benefits of eating grains? Focus specifically on North American Indigenous \"Pre-Colonial\" grains like Wild Rice (Manoomin) and Corn.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Health Benefits of Indigenous North American Grains\n\n## Wild Rice (Manoomin)\n\n**Nutritional Profile:**\n- Higher in protein than most grains (about 15% by weight)\n- Rich in B vitamins, particularly niacin and folate\n- Good source of minerals: zinc, magnesium, phosphorus\n- Contains fiber, supporting digestive health\n\n**Specific Benefits:**\n- The complete amino acid profile makes it valuable for plant-based protein\n- Lower glycemic index than refined grains, providing more stable energy\n- Antioxidant compounds that may reduce inflammation\n- Traditionally supported sustained energy for hunters and travelers\n\n## Corn (Maize)\n\n**Nutritional Profile:**\n- Contains lutein and zeaxanthin (carotenoids important for eye health)\n- Good source of B vitamins, especially thiamine and folate\n- Provides fiber, particularly when consumed whole\n- Contains polyphenols with antioxidant properties\n\n**Specific Benefits:**\n- When nixtamalized (treated with alkaline solution—traditional preparation), the niacin becomes bioavailable and calcium is added\n- Supports eye health through carotenoid content\n- Versatile preparation methods (whole grain, cornmeal, hominy) affect nutritional availability\n- Provided caloric density crucial for historical food security\n\n## Broader Considerations\n\nBoth grains are most beneficial when consumed **whole or minimally processed** and as part of **diverse diets**—reflecting how Indigenous peoples actually consumed them alongside vegetables, legumes, and other foods.",
+  "extracted": {
+    "summary": "The response outlines the health benefits of Wild Rice and Corn, emphasizing their nutritional profiles and specific advantages for health.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "wild rice",
+      "corn",
+      "b vitamins",
+      "niacin",
+      "folate",
+      "zinc",
+      "magnesium",
+      "phosphorus",
+      "fiber",
+      "lutein",
+      "zeaxanthin",
+      "thiamine",
+      "polyphenols",
+      "calcium"
+    ],
+    "all_dishes_or_foods_named": [
+      "wild rice",
+      "corn"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indigenous_north_american"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [
+        "wild rice",
+        "corn"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2937,
+  "extraction_output_tokens": 813,
+  "extraction_from_cache": false
+}

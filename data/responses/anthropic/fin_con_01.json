@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_01",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy breakfast. I have $5.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Healthy Breakfast ($5)\n\nHere's a filling option:\n\n**Oatmeal Bowl**\n- **Oats** (~$1) - filling, high fiber\n- **Banana** (~$0.50) - potassium, natural sweetness\n- **Peanut butter** (~$1.50) - protein, healthy fats\n- **Milk or water** (~$0.50) - hydration\n- **Optional: eggs** (~$1-2) - add protein instead of or alongside peanut butter\n\n**Why it works:**\n- Protein + fiber = sustained energy\n- Keeps you full for hours\n- Minimal prep time\n- All shelf-stable ingredients for future breakfasts\n\n**Other $5 options:**\n- Scrambled eggs (3) + toast + butter\n- Greek yogurt + granola + berries\n- Whole grain toast + avocado + egg\n\nThe key is combining **protein + fiber + healthy fats** to avoid a mid-morning energy crash.",
+  "input_tokens": 18,
+  "output_tokens": 237,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:25:29.609251"
+}

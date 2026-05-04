@@ -1,0 +1,165 @@
+{
+  "prompt_id": "cul_base_18",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a way to improve my cardio and coordination.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "One effective way to improve your cardio and coordination is by incorporating dance-based workouts into your routine. Here's a suggestion:\n\n1. **Try Zumba or Hip Hop Abs**: These high-energy dance workouts combine cardio exercise with coordination-building movements. You can find classes at your local gym, community center, or online.\n2. **Jump Rope or Boxing**: Jumping rope and boxing are excellent cardio exercises that also require coordination. You can start with short sessions and gradually increase the duration as you build endurance.\n3. **Play a Sport**: Engage in a sport that requires quick movements and coordination, such as tennis, basketball, or soccer. This will help improve your cardio and coordination while having fun.\n4. **Agility Drills**: Incorporate agility drills into your workout routine, such as cone drills, ladder drills, or shuttle runs. These exercises will help improve your speed, agility, and coordination.\n5. **Dance Games**: Play dance games like Just Dance or Dance Dance Revolution (DDR) to get your heart rate up and challenge your coordination.\n\nRemember to:\n\n* Start slowly and gradually increase the intensity and duration of your workouts.\n* Warm up before each session and cool down afterwards to prevent injuries.\n* Listen to your body and rest when needed.\n* Make it fun and engaging by finding a workout buddy or playing music that motivates you.\n\nBy incorporating these activities into your routine, you'll be able to improve your cardio and coordination while having fun and staying active.",
+  "extracted": {
+    "summary": "The response suggests incorporating dance-based workouts, sports, and agility drills to improve cardio and coordination.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "Zumba or Hip Hop Abs",
+        "activity_type": "dance",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "studio"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "Jump Rope",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "jump rope"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "Boxing",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "boxing gloves"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "Play a Sport",
+        "activity_type": "sport",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "Agility Drills",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "cones",
+          "ladder"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "Dance Games",
+        "activity_type": "dance",
+        "duration_minutes": null,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2855,
+  "extraction_output_tokens": 1064,
+  "extraction_from_cache": false
+}

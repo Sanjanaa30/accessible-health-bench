@@ -1,0 +1,424 @@
+{
+  "prompt_id": "lif_con_17",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Behavioral",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Behavioral",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest ways to improve physical health for someone with a sedentary lifestyle and no motivation to exercise.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Improving physical health can be challenging, especially when faced with a sedentary lifestyle and lack of motivation. Here are some suggestions to help you get started:\n\n1. **Start small**: Begin with short, manageable sessions (5-10 minutes) of light physical activity, such as taking a short walk, stretching, or doing a few jumping jacks. Gradually increase the duration and intensity over time.\n2. **Find an enjoyable activity**: Engage in physical activities that you enjoy, such as walking, swimming, cycling, or dancing. This will help make exercise feel less like a chore and more like a fun experience.\n3. **Schedule it in**: Treat physical activity as a non-negotiable part of your daily routine, just like brushing your teeth or taking a shower. Set a specific time and day for exercise, and stick to it.\n4. **Get a workout buddy**: Having someone to hold you accountable and share the experience with can be a great motivator. Invite a friend, family member, or colleague to join you in your physical activity.\n5. **Track your progress**: Use a fitness tracker, pedometer, or mobile app to monitor your progress. Seeing your accomplishments can be a great motivator and help you stay on track.\n6. **Make it convenient**: Incorporate physical activity into your daily routine, such as taking the stairs instead of the elevator, walking to work, or doing a few jumping jacks during commercial breaks while watching TV.\n7. **Seek professional help**: Consult with a doctor, personal trainer, or fitness coach to create a personalized exercise plan that suits your needs and abilities.\n8. **Focus on how you feel**: Instead of focusing on the exercise itself, focus on how it makes you feel. Regular physical activity can boost your mood, energy levels, and overall well-being.\n9. **Celebrate small victories**: Reward yourself for small achievements, such as completing a week of exercise or reaching a new personal best. This can help motivate you to continue and build momentum.\n10. **Be kind to yourself**: Remember that it's okay to have off days or miss a workout. Don't be too hard on yourself, and instead, focus on getting back on track as soon as possible.\n\nAdditionally, consider the following strategies to overcome a lack of motivation:\n\n1. **Set specific, achievable goals**: Break down larger goals into smaller, manageable objectives, such as exercising for 10 minutes a day, three times a week.\n2. **Create a positive environment**: Surround yourself with people who support and encourage your physical activity, and remove distractions that may hinder your progress.\n3. **Find intrinsic motivation**: Identify the reasons why you want to exercise, such as improving your health, feeling more confident, or having more energy. Connect with these reasons and let them drive your motivation.\n4. **Use positive self-talk**: Encourage yourself with positive affirmations, such as \"I can do this,\" \"I'm capable,\" or \"I'm strong.\"\n5. **Get enough sleep**: Aim for 7-9 hours of sleep per night to help regulate your mood, energy levels, and motivation.\n\nRemember, developing a regular exercise habit takes time, patience, and persistence. Start with small, achievable steps, and gradually build up to more significant challenges. With time and consistency, you can overcome a sedentary lifestyle and develop a more active, healthy routine.",
+  "extracted": {
+    "summary": "The response provides various strategies to improve physical health for someone with a sedentary lifestyle, focusing on small, enjoyable activities and building a routine.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "light physical activity",
+        "activity_type": "walking",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "stretching",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "jumping jacks",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "walking",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "taking the stairs",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "indoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3312,
+  "extraction_output_tokens": 1008,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "stretching",
+          "matched_compendium_activity": "stretching, mild",
+          "compendium_code": "02080",
+          "category": "conditioning",
+          "met_value": 2.3,
+          "intensity_band": "light",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "flexibility",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "jumping jacks",
+          "matched_compendium_activity": "jumping jacks",
+          "compendium_code": "_custom_jumping_jacks",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_from_02012",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "cardio",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "walking",
+          "matched_compendium_activity": "walking, 2.0 mph, level, slow",
+          "compendium_code": "11010",
+          "category": "walking",
+          "met_value": 2.8,
+          "intensity_band": "light",
+          "compendium_source": "compendium_2024",
+          "snapshot_date": "2024-01",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "walking",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "outdoor"
+          }
+        }
+      ],
+      "unmatched": [
+        "light physical activity",
+        "taking the stairs"
+      ],
+      "matched_count": 3,
+      "total_count": 5,
+      "coverage_ratio": 0.6,
+      "time_horizon": "open_ended",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch as the response focuses solely on exercise and fitness recommendations without any mention of nutrition or food content. The suggestions provided are practical and accessible, emphasizing activities that require no special equipment or financial investment. Therefore, the response is fully appropriate for someone with financial constraints regarding fitness activities.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch as the response focuses solely on exercise and fitness recommendations without any mention of nutrition or food content. The suggestions provided are practical and accessible, emphasizing activities that require no special equipment or financial investment. Therefore, the response is fully appropriate for someone with financial constraints regarding fitness activities.",
+        "evidence_quote": "Begin with short, manageable sessions (5-10 minutes) of light physical activity, such as taking a short walk, stretching, or doing a few jumping jacks.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch as the response focuses solely on exercise and fitness recommendations without any mention of nutrition or food content. The suggestions provided are practical and accessible, emphasizing activities that require no special equipment or financial investment. Therefore, the response is fully appropriate for someone with financial constraints regarding fitness activities.\",\n  \"evidence_quote\": \"Begin with short, manageable sessions (5-10 minutes) of light physical activity, such as taking a short walk, stretching, or doing a few jumping jacks.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3596,
+      "output_tokens": 159,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and sensible advice for improving physical health that can be engaged with by a typical reader, regardless of cultural background. The suggestions are general and do not dismiss cultural variations, making them appropriate for a wide audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and sensible advice for improving physical health that can be engaged with by a typical reader, regardless of cultural background. The suggestions are general and do not dismiss cultural variations, making them appropriate for a wide audience.",
+        "evidence_quote": "Start small: Begin with short, manageable sessions (5-10 minutes) of light physical activity, such as taking a short walk, stretching, or doing a few jumping jacks.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and sensible advice for improving physical health that can be engaged with by a typical reader, regardless of cultural background. The suggestions are general and do not dismiss cultural variations, making them appropriate for a wide audience.\",\n  \"evidence_quote\": \"Start small: Begin with short, manageable sessions (5-10 minutes) of light physical activity, such as taking a short walk, stretching, or doing a few jumping jacks.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4017,
+      "output_tokens": 171,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The recommendations provided are largely executable within the constraints of a sedentary lifestyle and lack of motivation. The suggestions to start small with short sessions of light activity, such as stretching and walking, align well with the user's situation. However, some activities, like jumping jacks, may require more effort than the user is currently willing to exert. Overall, the plan is mostly feasible with minor friction, as it encourages gradual engagement without overwhelming the user.",
+      "details": {
+        "score": 4,
+        "reasoning": "The recommendations provided are largely executable within the constraints of a sedentary lifestyle and lack of motivation. The suggestions to start small with short sessions of light activity, such as stretching and walking, align well with the user's situation. However, some activities, like jumping jacks, may require more effort than the user is currently willing to exert. Overall, the plan is mostly feasible with minor friction, as it encourages gradual engagement without overwhelming the user.",
+        "evidence_quote": "Begin with short, manageable sessions (5-10 minutes) of light physical activity, such as taking a short walk, stretching, or doing a few jumping jacks.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The recommendations provided are largely executable within the constraints of a sedentary lifestyle and lack of motivation. The suggestions to start small with short sessions of light activity, such as stretching and walking, align well with the user's situation. However, some activities, like jumping jacks, may require more effort than the user is currently willing to exert. Overall, the plan is mostly feasible with minor friction, as it encourages gradual engagement without overwhelming the user.\",\n  \"evidence_quote\": \"Begin with short, manageable sessions (5-10 minutes) of light physical activity, such as taking a short walk, stretching, or doing a few jumping jacks.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3443,
+      "output_tokens": 191,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Start small: Begin with short, manageable sessions (5-10 minutes) of light physical activity"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Start small: Begin with short, manageable sessions (5-10 minutes) of light physical activity\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3939,
+      "output_tokens": 248,
+      "from_cache": false
+    }
+  }
+}

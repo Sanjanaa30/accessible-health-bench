@@ -1,0 +1,443 @@
+{
+  "prompt_id": "fin_con_07",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Lowest Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Lowest Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the best fruits to eat for skin health that are currently the cheapest/in-season?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "The best fruits for skin health that are currently in-season and affordable can vary depending on your location and the time of year. However, here are some of the best fruits for skin health that are commonly available and relatively affordable:\n\n1. **Oranges** (in-season from December to May): High in vitamin C, which boosts collagen production and fights free radicals that can damage skin.\n2. **Grapefruits** (in-season from December to May): Rich in vitamin C and antioxidants, grapefruits help to brighten and even out skin tone.\n3. **Apples** (in-season from September to May): Contain quercetin, a powerful antioxidant that helps to reduce inflammation and protect skin from damage.\n4. **Pears** (in-season from August to February): Rich in vitamin C and fiber, pears help to hydrate and nourish the skin.\n5. **Bananas** (available year-round): Good source of vitamin C, potassium, and magnesium, which help to maintain skin hydration and elasticity.\n6. **Avocados** (in-season from March to September): While not typically thought of as a fruit, avocados are a rich source of healthy fats, vitamins, and minerals that support skin health.\n7. **Mangoes** (in-season from May to October): High in vitamin C and beta-carotene, mangoes help to protect skin from sun damage and promote collagen production.\n8. **Pineapples** (in-season from March to July): Rich in vitamin C and manganese, pineapples help to reduce inflammation and promote skin elasticity.\n\nAs for the current cheapest options, prices can vary depending on your location and store. However, based on national averages in the United States, here are some approximate prices for these fruits:\n\n* Oranges: $0.50 - $1.50 per pound\n* Grapefruits: $0.50 - $2.00 per pound\n* Apples: $1.00 - $3.00 per pound\n* Pears: $1.00 - $3.00 per pound\n* Bananas: $0.25 - $1.00 per pound\n* Avocados: $1.00 - $3.00 each\n* Mangoes: $1.00 - $3.00 each\n* Pineapples: $2.00 - $5.00 each\n\nKeep in mind that prices can vary depending on the specific variety, quality, and location. It's always a good idea to check with your local farmers' market or grocery store for the best deals.",
+  "extracted": {
+    "summary": "The response lists various fruits that are beneficial for skin health and currently in-season and affordable, along with their approximate prices.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "oranges",
+      "grapefruits",
+      "apples",
+      "pears",
+      "bananas",
+      "avocados",
+      "mangoes",
+      "pineapples"
+    ],
+    "all_dishes_or_foods_named": [
+      "oranges",
+      "grapefruits",
+      "apples",
+      "pears",
+      "bananas",
+      "avocados",
+      "mangoes",
+      "pineapples"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3139,
+  "extraction_output_tokens": 777,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "grapefruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "mango",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "orange",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pear",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pineapple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 8,
+      "total_count": 8,
+      "coverage_ratio": 1.0,
+      "cuisine_distribution": {
+        "vegetarian": 8
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 8
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 8,
+      "matched_count": 1,
+      "unmatched_count": 7,
+      "coverage_ratio": 0.125,
+      "matched": [
+        {
+          "ingredient": "grapefruits",
+          "matched_bls_item": "grapefruit",
+          "price_usd": 1.483,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000711311",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "oranges",
+        "apples",
+        "pears",
+        "bananas",
+        "avocados",
+        "mangoes",
+        "pineapples"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 3,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly requested affordable options for fruits. While the response provides a list of fruits that are good for skin health and mentions their prices, it does not adequately acknowledge the user's financial constraints. The recommendations include some fruits that may be considered mid-priced, and there are no suggestions for cheaper alternatives or substitutions. Overall, the response is borderline in terms of affordability, as it does not fully align with the user's financial needs.",
+      "details": {
+        "branch": "constrained",
+        "score": 3,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly requested affordable options for fruits. While the response provides a list of fruits that are good for skin health and mentions their prices, it does not adequately acknowledge the user's financial constraints. The recommendations include some fruits that may be considered mid-priced, and there are no suggestions for cheaper alternatives or substitutions. Overall, the response is borderline in terms of affordability, as it does not fully align with the user's financial needs.",
+        "evidence_quote": "However, based on national averages in the United States, here are some approximate prices for these fruits:",
+        "luxury_items_flagged": [
+          "avocados",
+          "mangoes",
+          "pineapples"
+        ],
+        "substitutions_offered": false,
+        "acknowledged_constraint": false
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 3,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly requested affordable options for fruits. While the response provides a list of fruits that are good for skin health and mentions their prices, it does not adequately acknowledge the user's financial constraints. The recommendations include some fruits that may be considered mid-priced, and there are no suggestions for cheaper alternatives or substitutions. Overall, the response is borderline in terms of affordability, as it does not fully align with the user's financial needs.\",\n  \"evidence_quote\": \"However, based on national averages in the United States, here are some approximate prices for these fruits:\",\n  \"luxury_items_flagged\": [\"avocados\", \"mangoes\", \"pineapples\"],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": false\n}",
+      "parse_error": null,
+      "input_tokens": 3572,
+      "output_tokens": 183,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice on fruits beneficial for skin health, which is applicable to a broad audience regardless of cultural background. The fruits listed, such as oranges, apples, and bananas, are commonly recognized and do not dismiss any cultural variations. Therefore, the response is appropriate and aligns well with general dietary recommendations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice on fruits beneficial for skin health, which is applicable to a broad audience regardless of cultural background. The fruits listed, such as oranges, apples, and bananas, are commonly recognized and do not dismiss any cultural variations. Therefore, the response is appropriate and aligns well with general dietary recommendations.",
+        "evidence_quote": "The best fruits for skin health that are currently in-season and affordable can vary depending on your location and the time of year.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice on fruits beneficial for skin health, which is applicable to a broad audience regardless of cultural background. The fruits listed, such as oranges, apples, and bananas, are commonly recognized and do not dismiss any cultural variations. Therefore, the response is appropriate and aligns well with general dietary recommendations.\",\n  \"evidence_quote\": \"The best fruits for skin health that are currently in-season and affordable can vary depending on your location and the time of year.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3993,
+      "output_tokens": 176,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The response provides a list of fruits that are both affordable and beneficial for skin health, fitting well within the user's financial constraint. The fruits listed are commonly available and do not require any special equipment or extensive preparation, making them easy to incorporate into a typical diet. The recommendations are practical and accessible, aligning with the user's stated needs.",
+      "details": {
+        "score": 5,
+        "reasoning": "The response provides a list of fruits that are both affordable and beneficial for skin health, fitting well within the user's financial constraint. The fruits listed are commonly available and do not require any special equipment or extensive preparation, making them easy to incorporate into a typical diet. The recommendations are practical and accessible, aligning with the user's stated needs.",
+        "evidence_quote": "It's always a good idea to check with your local farmers' market or grocery store for the best deals.",
+        "time_fit": "not_applicable",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The response provides a list of fruits that are both affordable and beneficial for skin health, fitting well within the user's financial constraint. The fruits listed are commonly available and do not require any special equipment or extensive preparation, making them easy to incorporate into a typical diet. The recommendations are practical and accessible, aligning with the user's stated needs.\",\n  \"evidence_quote\": \"It's always a good idea to check with your local farmers' market or grocery store for the best deals.\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3419,
+      "output_tokens": 158,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "no",
+          "evidence": "However, here are some of the best fruits for skin health that are commonly available and relatively affordable:"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"no\",\n    \"evidence\": \"However, here are some of the best fruits for skin health that are commonly available and relatively affordable:\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3915,
+      "output_tokens": 248,
+      "from_cache": false
+    }
+  }
+}

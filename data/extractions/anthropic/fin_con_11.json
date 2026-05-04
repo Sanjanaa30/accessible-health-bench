@@ -1,0 +1,139 @@
+{
+  "prompt_id": "fin_con_11",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Opportunity Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Opportunity Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I prepare healthy meals if I work 60 hours a week? I have no money for \"convenience\" or pre-cut foods and must find the cheapest possible way to meal prep with a $15 weekly budget.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Meal Prep on 60 Hours/Week\n\n## Reality check first\n$15/week is tight but doable if you're strategic. You'll need 1-2 hours on one day to prep everything.\n\n## Best bang-for-buck staples\n\n**Proteins** (cheapest per serving):\n- Dried beans/lentils (buy bulk, cook big batches)\n- Eggs (if affordable in your area)\n- Canned fish (watch sales)\n- Chicken leg quarters (often cheaper than breasts)\n\n**Carbs:**\n- Rice, oats, pasta (bulk bins)\n- Potatoes (store for weeks)\n- Bread (day-old sections)\n\n**Vegetables:**\n- Seasonal/on-sale only (carrots, onions, cabbage last longest)\n- Frozen mixed vegetables (often cheaper than fresh, lasts longer)\n- Canned tomatoes\n\n## Realistic prep strategy\n\n- **Sunday:** Cook 2-3 large pots (beans, rice, roasted vegetables)\n- **Mix-and-match containers:** Same base ingredients, different seasonings\n- **Aim for:** 5-7 days of lunches + breakfasts; dinner can be simpler\n\n## Honest limitations\nAt this budget and time commitment, you won't have variety. That's okay—eating the same thing multiple days is fine nutritionally. Focus on:\n- Protein + carb + vegetable per meal\n- Basic salt/oil/spices you already own\n\nWhat's your access like—bulk bins nearby? Do you have freezer space? That changes the strategy.",
+  "extracted": {
+    "summary": "The response provides budget-friendly meal prep strategies for someone working 60 hours a week, focusing on affordable staples and a realistic cooking schedule.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "mixed meal prep",
+        "ingredients": [
+          "dried beans",
+          "rice",
+          "roasted vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 120,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "serves 5-7"
+      }
+    ],
+    "all_ingredients": [
+      "canned fish",
+      "carrots",
+      "chicken leg quarters",
+      "cooked big batches",
+      "dried beans",
+      "eggs",
+      "frozen mixed vegetables",
+      "onions",
+      "pasta",
+      "potatoes",
+      "rice",
+      "seasonal",
+      "spices",
+      "tomatoes",
+      "vegetables",
+      "bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "mixed meal prep"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "pre-workout"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": 15,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 120,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "60 hours a week"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2946,
+  "extraction_output_tokens": 890,
+  "extraction_from_cache": false
+}

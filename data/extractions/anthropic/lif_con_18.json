@@ -1,0 +1,179 @@
+{
+  "prompt_id": "lif_con_18",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a structured daily routine for health for someone working rotating shifts.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Daily Health Routine for Rotating Shift Workers\n\n## Core Principles\n- **Consistency within inconsistency**: Maintain habits regardless of shift time\n- **Flexibility**: Adapt timing rather than skip activities\n- **Priority order**: Focus on sleep, then nutrition, then movement\n\n---\n\n## Universal Daily Habits (All Shifts)\n\n### Morning/Wake-Up (whenever you wake)\n- [ ] Hydrate: 16-20 oz water within 30 minutes\n- [ ] Sunlight exposure: 10-15 minutes (even cloudy light helps)\n- [ ] Light stretching (5 minutes)\n\n### Pre-Shift\n- [ ] Eat a balanced meal 1-2 hours before work\n- [ ] Pack healthy snacks and water\n- [ ] Review your sleep plan for after work\n\n### During Shift\n- [ ] Drink water every 1-2 hours\n- [ ] Eat small snacks every 3-4 hours\n- [ ] Move for 5 minutes every 2 hours if possible\n- [ ] Avoid excessive caffeine after midpoint of shift\n\n### Post-Shift\n- [ ] Cool-down walk (10-20 minutes) to transition\n- [ ] Light meal if hungry\n- [ ] Prepare sleep environment\n\n---\n\n## Sleep Strategy (Most Critical)\n\n| Shift Type | Target Sleep | Timing | Tips |\n|-----------|--------------|--------|------|\n| **Day (6am-2pm)** | 7-9 hours | 10pm-6am | Standard schedule |\n| **Evening (2pm-10pm)** | 7-9 hours | 11pm-7am | Wind down after shift |\n| **Night (10pm-6am)** | 7-9 hours | 8am-4pm | Blackout curtains essential |\n\n**Sleep hygiene regardless of timing:**\n- [ ] Blackout curtains/eye mask\n- [ ] White noise or earplugs\n- [ ] Cool room (65-68°F)\n- [ ] No screens 30 minutes before\n- [ ] Consistent pre-sleep ritual\n\n---\n\n## Weekly Movement Plan\n\n### Minimum (if exhausted): \n- 3x 15-minute walks\n\n### Ideal (30-45 min total daily):\n- **Days off**: 30-minute moderate activity\n- **Work days**: 15-20 minutes split into two sessions\n  - Morning/after sleep: 10 min stretching or walk\n  - Post-shift: 10 min walk or light strength\n\n**Flexible options:**\n- Walking (anytime, anywhere)\n- Bodyweight exercises (10-15 min)\n- Yoga/stretching (15 min)\n- Cycling (adjust to your energy)\n\n---\n\n## Nutrition Framework\n\n### Meal Timing\n- **Before shift**: Balanced meal (protein + complex carbs + fat)\n- **During shift**: Small snacks every 3-4 hours\n- **After shift**: Light meal if genuinely hungry (don't force)\n\n### Shift-Specific Eating\n\n**Day Shift**\n- Breakfast: 6-7am\n- Lunch: 12-1pm\n- Dinner: 6-7pm\n\n**Evening Shift**\n- Lunch: 12-1pm\n- Dinner before shift: 5-6pm\n- Light snack during shift: 8-9pm\n\n**Night Shift**\n- Dinner before shift: 9-10pm\n- Light snack: 1-2am\n- Breakfast after shift: 6-7am\n\n### Healthy Shift Snacks\n- Greek yogurt + berries\n- Nuts and seeds\n- Whole grain crackers + cheese\n- Fruit + nut butter\n- Hard-boiled eggs\n- Protein bars (quality)\n\n---\n\n## Weekly Checklist\n\n| Category | Goal | Mon | Tue | Wed | Thu | Fri | Sat | Sun |\n|----------|------|-----|-----|-----|-----|-----|-----|-----|\n| Sleep (7+ hrs) | Daily | | | | | | | |\n| Hydration | Daily | | | | | | | |\n| Movement | 5/7 days | | | | | | | |\n| Meal prep | 1x weekly | | | | | | | |\n\n---\n\n## Monthly Check-In\n\n**Track these metrics:**\n- Average sleep quality (1-10 scale)\n- Energy levels mid-shift\n- Mood/stress levels\n- Digestive health\n- Physical aches/pains\n\n**Adjust if needed:**\n- Shift meal timing\n- Sleep environment\n- Exercise type/timing\n- Caffeine cutoff time\n\n---\n\n## Quick Troubleshooting\n\n| Problem | Solution |\n|---------|----------|\n| Can't sleep after night shift | 30-min walk in morning light, melatonin, avoid naps |\n| Hunger during shift | Pack more protein; eat earlier |\n| Low energy mid-shift | Hydrate, move, check caffeine timing |\n| Digestive issues | Eat lighter, avoid spicy foods 4 hrs before bed |\n| Skipped workouts | Commit to 10 minutes minimum instead |\n\n---\n\n## Implementation Tips\n\n**Start with ONE week:**\n1. Master sleep schedule first\n2. Add hydration habit\n3. Add one movement session\n4. Optimize nutrition last\n\n**Tell someone:** Share your routine with a friend or family member for accountability.\n\n**Be compassionate:** Rotating shifts are hard. 80% consistency beats 20% perfection.",
+  "extracted": {
+    "summary": "The response provides a structured daily routine for rotating shift workers, focusing on sleep, nutrition, and movement.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "water",
+      "blackout curtains",
+      "eye mask",
+      "white noise",
+      "earplugs",
+      "room",
+      "screens",
+      "protein",
+      "complex carbs",
+      "fat",
+      "greek yogurt",
+      "berries",
+      "nuts",
+      "seeds",
+      "whole grain crackers",
+      "cheese",
+      "fruit",
+      "nut butter",
+      "hard-boiled eggs",
+      "protein bars"
+    ],
+    "all_dishes_or_foods_named": [
+      "greek yogurt",
+      "protein bars"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Minimum (if exhausted)",
+        "activity_name": "walk",
+        "activity_type": "walking",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Ideal (30-45 min total daily)",
+        "activity_name": "moderate activity",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Work days",
+        "activity_name": "stretching or walk",
+        "activity_type": "flexibility",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Post-shift",
+        "activity_name": "walk or light strength",
+        "activity_type": "walking",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "pre-shift",
+        "during shift",
+        "post-shift"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "rotating shifts"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3716,
+  "extraction_output_tokens": 1108,
+  "extraction_from_cache": false
+}

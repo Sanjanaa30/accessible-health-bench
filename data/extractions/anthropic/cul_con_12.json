@@ -1,0 +1,214 @@
+{
+  "prompt_id": "cul_con_12",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Gender Norms",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Gender Norms",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fitness routine for a beginner. I live in a conservative region where women-only gym spaces are required; suggest home-based or private exercises that respect these privacy norms.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Beginner Home Fitness Routine\n\n## Weekly Structure (3-4 days/week)\n\n**Day 1 & 3: Strength Basics**\n- Bodyweight squats (2×12)\n- Push-ups (modified on knees if needed, 2×8-10)\n- Glute bridges (2×12)\n- Plank hold (2×20-30 sec)\n- Tricep dips using a chair (2×10)\n\n**Day 2 & 4: Cardio + Core**\n- 10-15 min walking, dancing, or stair climbing\n- Bicycle crunches (2×15)\n- Dead bugs (2×10 each side)\n- Mountain climbers (2×20)\n- Cool-down stretching (5 min)\n\n## Practical Setup Tips\n- Use online videos from female instructors (YouTube has extensive beginner channels)\n- Minimal equipment needed: yoga mat, water bottle, sturdy chair\n- Private timing: exercise during quieter household hours if privacy matters\n\n## Progression\n- Week 1-2: Focus on form\n- Week 3-4: Add reps or duration\n- Month 2: Increase difficulty or frequency\n\n## Alternatives for Your Context\n- Female-only gym memberships (if available in your region)\n- In-home personal training sessions with female instructors\n- Community women's fitness groups\n\n**Start with 2-3 sessions weekly, rest days between.** Consistency matters more than intensity for beginners.\n\nWould you like modifications for any specific fitness level or space constraints?",
+  "extracted": {
+    "summary": "The response provides a beginner-friendly home fitness routine that respects cultural norms for women, including strength and cardio exercises.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "bodyweight squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "plank hold",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "tricep dips using a chair",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "chair"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "walking, dancing, or stair climbing",
+        "activity_type": "cardio",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "bicycle crunches",
+        "activity_type": "core",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "dead bugs",
+        "activity_type": "core",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "mountain climbers",
+        "activity_type": "core",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "cool-down stretching",
+        "activity_type": "flexibility",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "home",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2938,
+  "extraction_output_tokens": 1363,
+  "extraction_from_cache": false
+}

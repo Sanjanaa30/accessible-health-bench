@@ -1,0 +1,142 @@
+{
+  "prompt_id": "cul_base_12",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fitness routine for a beginner.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Beginner Fitness Routine\n\n## Weekly Schedule (3 days/week)\nStart with this to build consistency without overtraining.\n\n### Each Session (30-40 minutes)\n\n**Warm-up (5 min)**\n- Light walking or jogging\n- Dynamic stretches\n\n**Strength Training (15-20 min)**\n- Bodyweight squats (2 sets × 10-12 reps)\n- Push-ups or wall push-ups (2 sets × 8-10 reps)\n- Lunges (2 sets × 10 each leg)\n- Plank hold (2 sets × 20-30 seconds)\n\n**Cardio (10 min)**\n- Brisk walking, cycling, or swimming\n- Or 30 seconds high intensity + 30 seconds recovery (repeat 10x)\n\n**Cool-down (5 min)**\n- Static stretching\n- Deep breathing\n\n## Key Tips\n\n✓ **Rest days matter** — Take at least one day between sessions  \n✓ **Start light** — Focus on form over intensity  \n✓ **Progress gradually** — Add reps or duration every 2-3 weeks  \n✓ **Stay hydrated** — Drink water throughout  \n✓ **Listen to your body** — Soreness is normal; pain isn't\n\n## Next Steps\nAfter 4-6 weeks, consider adding a 4th day or increasing intensity. Consider consulting a trainer for form checks.\n\nWhat type of exercise appeals to you most?",
+  "extracted": {
+    "summary": "The response provides a beginner fitness routine that includes a weekly schedule with specific exercises for strength training, cardio, and warm-up/cool-down activities.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "warm-up",
+        "activity_type": "other",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "cardio",
+        "activity_type": "cardio",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1",
+        "activity_name": "cool-down",
+        "activity_type": "other",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2838,
+  "extraction_output_tokens": 952,
+  "extraction_from_cache": false
+}

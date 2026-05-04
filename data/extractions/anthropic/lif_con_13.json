@@ -1,0 +1,188 @@
+{
+  "prompt_id": "lif_con_13",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a daily wellness routine for someone working two jobs.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Daily Wellness Routine for Two-Job Schedule\n\n## Morning (15 min)\n- Hydrate first thing + light stretching\n- Quick breakfast with protein\n- 5-minute meditation or breathing exercise\n\n## Between Jobs (if possible)\n- 10-minute walk or sunlight exposure\n- Healthy snack\n- Mental reset (music, podcast, or silence)\n\n## Evening (20-30 min)\n- Prepare simple, nutritious dinner\n- 10-15 minute movement (yoga, walk, or gentle exercise)\n- Digital wind-down 30 min before bed\n\n## Weekly Priorities\n- **Sleep**: Non-negotiable 7 hours (critical with two jobs)\n- **Movement**: 3x structured activity, even 20 minutes counts\n- **Social**: One meaningful connection daily, even brief\n- **Meal prep**: 1-2 hours Sunday for easier weekday eating\n\n## Realistic Adjustments\n- Combine activities (listen to podcasts while walking)\n- Use commute time productively\n- Lower the bar on \"perfect\"—consistency beats intensity\n- Consider which job is more draining and protect recovery time accordingly\n\n## Warning Signs to Watch\n- Persistent fatigue despite sleep\n- Frequent illness\n- Mood changes\n\nThese might signal you need to reassess the two-job situation itself.\n\n**What's your biggest wellness challenge right now?** That might help me tailor this further.",
+  "extracted": {
+    "summary": "The response provides a daily wellness routine tailored for someone working two jobs, including morning, between jobs, and evening activities to promote overall wellness.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "quick breakfast",
+        "ingredients": [
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "healthy snack",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "simple nutritious dinner",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "protein"
+    ],
+    "all_dishes_or_foods_named": [
+      "quick breakfast",
+      "healthy snack",
+      "simple nutritious dinner"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "light stretching",
+        "activity_type": "flexibility",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Between Jobs",
+        "activity_name": "10-minute walk",
+        "activity_type": "walking",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "10-15 minute movement",
+        "activity_type": "yoga",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "between_jobs",
+        "evening"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "two_jobs"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "burnout",
+        "stress"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2892,
+  "extraction_output_tokens": 1158,
+  "extraction_from_cache": false
+}

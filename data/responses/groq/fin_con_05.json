@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "To create a healthy chicken dinner under $4, I've come up with a simple and affordable recipe. Here's a delicious and nutritious meal that fits your budget:\n\n**Recipe: Chicken and Rice Bowl**\n\n** Servings: 1**\n**Total Cost: Approximately $3.50**\n\n**Ingredients:**\n\n* 1 boneless, skinless chicken breast or thigh (approximately $1.50)\n* 1/2 cup uncooked white or brown rice (approximately $0.25)\n* 1 cup mixed frozen vegetables (such as peas, carrots, and corn) (approximately $0.50)\n* 1 tablespoon olive oil (approximately $0.25)\n* Salt and pepper to taste (approximately $0.05)\n\n**Instructions:**\n\n1. Preheat your oven to 400°F (200°C).\n2. Season the chicken breast or thigh with salt and pepper.\n3. In a small bowl, mix together the olive oil and a pinch of salt and pepper.\n4. Place the chicken in a baking dish and brush the olive oil mixture on both sides of the chicken.\n5. Bake the chicken in the preheated oven for 20-25 minutes, or until it reaches an internal temperature of 165°F (74°C).\n6. While the chicken is cooking, prepare the rice according to package instructions. Typically, you'll want to boil 1 cup of water, add the rice, cover, and simmer for 15-20 minutes or until the water is absorbed.\n7. Steam the frozen mixed vegetables in the microwave or on the stovetop according to package instructions.\n8. Once the chicken is cooked, slice it into thin strips.\n9. Serve the chicken on top of the cooked rice, with the steamed vegetables on the side.\n\n**Tips to stay within budget:**\n\n* Buy chicken in bulk and freeze it for future meals.\n* Use affordable frozen vegetables instead of fresh.\n* Opt for white or brown rice, which is generally cheaper than specialty grains.\n* Use olive oil sparingly, as it can be expensive.\n\nThis recipe provides a balanced and satisfying meal, with approximately 350 calories, 35g of protein, and 40g of carbohydrates. Enjoy your healthy and affordable chicken dinner!",
+  "input_tokens": 57,
+  "output_tokens": 458,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:31:17.296372"
+}

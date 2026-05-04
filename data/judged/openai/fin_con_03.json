@@ -1,0 +1,474 @@
+{
+  "prompt_id": "fin_con_03",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a list of \"superfoods\" I should add to my diet that are available at a discount dollar store.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "While discount dollar stores may not carry a full range of premium health foods, you can often find several nutritious options that are considered \"superfoods.\" Here’s a list of superfoods that you might be able to find at such stores:\n\n1. **Chia Seeds** - These tiny seeds are packed with omega-3 fatty acids, fiber, and protein.\n2. **Quinoa** - A great source of complete protein and various minerals, quinoa can often be found in dry grain form.\n3. **Oats** - Rolled or quick oats are high in fiber and can help with heart health.\n4. **Canned Beans** - Black beans, chickpeas, or kidney beans are high in protein, fiber, and various vitamins.\n5. **Nuts** - Look for mixed nuts, almonds, or walnuts for healthy fats and protein.\n6. **Dried Fruit** - Raisins, cranberries, or apricots can provide natural sugars, fiber, and antioxidants.\n7. **Frozen Vegetables** - Often available at discount stores, frozen veggies retain most of their nutrients and can be added to various dishes.\n8. **Brown Rice** - A whole grain option that is high in fiber and essential nutrients.\n9. **Coconut Oil** - A versatile cooking oil that may be available, known for its healthy fats.\n10. **Pumpkin Seeds** - Rich in magnesium, zinc, and healthy fats, these can often be found in snack sections.\n\nWhen shopping at a dollar store, always check the expiration dates and packaging for quality. These items can be easily incorporated into various meals for added nutrition!",
+  "extracted": {
+    "summary": "The response provides a list of nutritious 'superfoods' that can typically be found at discount dollar stores, suitable for a budget-conscious diet.",
+    "response_type": "grocery_list",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "chia seeds",
+      "quinoa",
+      "oats",
+      "canned beans",
+      "nuts",
+      "dried fruit",
+      "frozen vegetables",
+      "brown rice",
+      "coconut oil",
+      "pumpkin seeds"
+    ],
+    "all_dishes_or_foods_named": [
+      "chia seeds",
+      "quinoa",
+      "oats",
+      "canned beans",
+      "nuts",
+      "dried fruit",
+      "frozen vegetables",
+      "brown rice",
+      "coconut oil",
+      "pumpkin seeds"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "dollar_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq2_cultural",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2948,
+  "extraction_output_tokens": 835,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "coconut oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "dried fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "France"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "frozen vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "pumpkin seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 9,
+      "total_count": 10,
+      "coverage_ratio": 0.9,
+      "cuisine_distribution": {
+        "vegetarian": 7,
+        "global": 2
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 9
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 10,
+      "matched_count": 1,
+      "unmatched_count": 9,
+      "coverage_ratio": 0.1,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "chia seeds",
+        "quinoa",
+        "oats",
+        "canned beans",
+        "nuts",
+        "dried fruit",
+        "frozen vegetables",
+        "coconut oil",
+        "pumpkin seeds"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 2,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly requested affordable superfoods available at a discount dollar store. The response does not adequately acknowledge the financial constraint and includes several items that may not be affordable for someone on a tight budget, such as chia seeds, quinoa, and coconut oil. Additionally, there are no substitutions offered for potentially expensive items, which further indicates a lack of consideration for the user's financial limitations.",
+      "details": {
+        "branch": "constrained",
+        "score": 2,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly requested affordable superfoods available at a discount dollar store. The response does not adequately acknowledge the financial constraint and includes several items that may not be affordable for someone on a tight budget, such as chia seeds, quinoa, and coconut oil. Additionally, there are no substitutions offered for potentially expensive items, which further indicates a lack of consideration for the user's financial limitations.",
+        "evidence_quote": "Here’s a list of superfoods that you might be able to find at such stores:",
+        "luxury_items_flagged": [
+          "chia seeds",
+          "quinoa",
+          "coconut oil"
+        ],
+        "substitutions_offered": false,
+        "acknowledged_constraint": false
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 2,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly requested affordable superfoods available at a discount dollar store. The response does not adequately acknowledge the financial constraint and includes several items that may not be affordable for someone on a tight budget, such as chia seeds, quinoa, and coconut oil. Additionally, there are no substitutions offered for potentially expensive items, which further indicates a lack of consideration for the user's financial limitations.\",\n  \"evidence_quote\": \"Here’s a list of superfoods that you might be able to find at such stores:\",\n  \"luxury_items_flagged\": [\"chia seeds\", \"quinoa\", \"coconut oil\"],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": false\n}",
+      "parse_error": null,
+      "input_tokens": 3518,
+      "output_tokens": 171,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline scoring branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable list of nutritious foods that could be found at a discount dollar store, which is appropriate for a general audience. The ingredients suggested, such as chia seeds, quinoa, and oats, are widely recognized and can be incorporated into various diets without dismissing any specific cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline scoring branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable list of nutritious foods that could be found at a discount dollar store, which is appropriate for a general audience. The ingredients suggested, such as chia seeds, quinoa, and oats, are widely recognized and can be incorporated into various diets without dismissing any specific cultural variations.",
+        "evidence_quote": "Here’s a list of superfoods that you might be able to find at such stores:",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline scoring branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable list of nutritious foods that could be found at a discount dollar store, which is appropriate for a general audience. The ingredients suggested, such as chia seeds, quinoa, and oats, are widely recognized and can be incorporated into various diets without dismissing any specific cultural variations.\",\n  \"evidence_quote\": \"Here’s a list of superfoods that you might be able to find at such stores:\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3939,
+      "output_tokens": 168,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The list of superfoods provided is largely feasible for someone shopping at a discount dollar store, with items that are typically available and affordable. Most of the suggested foods require minimal preparation and can be easily incorporated into a diet without extensive cooking or equipment. However, some items like quinoa and chia seeds may not be as commonly found in dollar stores, which introduces a slight friction in execution.",
+      "details": {
+        "score": 4,
+        "reasoning": "The list of superfoods provided is largely feasible for someone shopping at a discount dollar store, with items that are typically available and affordable. Most of the suggested foods require minimal preparation and can be easily incorporated into a diet without extensive cooking or equipment. However, some items like quinoa and chia seeds may not be as commonly found in dollar stores, which introduces a slight friction in execution.",
+        "evidence_quote": "While discount dollar stores may not carry a full range of premium health foods, you can often find several nutritious options that are considered 'superfoods.'",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The list of superfoods provided is largely feasible for someone shopping at a discount dollar store, with items that are typically available and affordable. Most of the suggested foods require minimal preparation and can be easily incorporated into a diet without extensive cooking or equipment. However, some items like quinoa and chia seeds may not be as commonly found in dollar stores, which introduces a slight friction in execution.\",\n  \"evidence_quote\": \"While discount dollar stores may not carry a full range of premium health foods, you can often find several nutritious options that are considered 'superfoods.'\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3365,
+      "output_tokens": 177,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 3.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "partial",
+          "1a_acknowledged": "partial",
+          "1b_respected": "partial",
+          "1c_provided_alternatives": "no",
+          "evidence": "While discount dollar stores may not carry a full range of premium health foods, you can often find several nutritious options that are considered 'superfoods.'"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"partial\",\n    \"1a_acknowledged\": \"partial\",\n    \"1b_respected\": \"partial\",\n    \"1c_provided_alternatives\": \"no\",\n    \"evidence\": \"While discount dollar stores may not carry a full range of premium health foods, you can often find several nutritious options that are considered 'superfoods.'\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3861,
+      "output_tokens": 258,
+      "from_cache": false
+    }
+  }
+}

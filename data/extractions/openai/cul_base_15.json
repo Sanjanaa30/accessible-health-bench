@@ -1,0 +1,245 @@
+{
+  "prompt_id": "cul_base_15",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What kind of exercise helps with back pain?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "If you're experiencing back pain, it's important to engage in exercises that promote flexibility, strength, and stability in the back and core muscles. Here are some types of exercises that may help alleviate back pain:\n\n1. **Stretching Exercises**:\n   - **Cat-Cow Stretch**: This yoga pose helps improve flexibility and relieve tension in the spine.\n   - **Child's Pose**: A gentle stretch that helps elongate the spine and relax the back muscles.\n   - **Hamstring Stretch**: Tight hamstrings can contribute to back pain; stretching them can help relieve tension.\n\n2. **Strengthening Exercises**:\n   - **Bridges**: Strengthens the glutes and lower back muscles.\n   - **Planks**: Engages the core muscles, providing support to the spine.\n   - **Bird-Dog**: This exercise improves balance and strengthens both the core and lower back.\n\n3. **Low-Impact Aerobic Exercises**:\n   - **Walking**: Regular walking can improve circulation and strengthen the back muscles.\n   - **Swimming**: The buoyancy of water helps reduce strain on the back while providing a full-body workout.\n   - **Cycling**: Stationary biking can strengthen the lower body without putting too much strain on the back.\n\n4. **Core Strengthening**:\n   - **Pelvic Tilts**: Helps strengthen the abdominal muscles while providing support to the lower back.\n   - **Side Planks**: Strengthens the obliques and stabilizes the lumbar spine.\n\n5. **Yoga and Pilates**: Both practices focus on flexibility, strength, and proper body alignment, which can alleviate back pain.\n\n### Important Considerations:\n- **Consult a Healthcare Provider**: Before starting any exercise program, especially if you have chronic back pain, consult a healthcare provider or physical therapist to ensure the exercises are appropriate for your specific condition.\n- **Start Slowly**: Begin with gentle exercises and gradually increase intensity as tolerated.\n- **Listen to Your Body**: Pay attention to any pain or discomfort, and stop if an exercise exacerbates your symptoms.\n\nIncorporating these exercises into your routine, combined with proper posture and ergonomics, can help manage and reduce back pain over time.",
+  "extracted": {
+    "summary": "The response recommends various exercises to help alleviate back pain, focusing on stretching, strengthening, low-impact aerobic activities, and core strengthening.",
+    "response_type": "fitness_plan",
+    "primary_goal": "recovery",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "cat-cow stretch",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "child's pose",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "hamstring stretch",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "planks",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bird-dog",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "walking",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "swimming",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "cycling",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "pelvic tilts",
+        "activity_type": "core",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "side planks",
+        "activity_type": "core",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "yoga",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "pilates",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "back_pain"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult a healthcare provider before starting any exercise program, especially if you have chronic back pain."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3006,
+  "extraction_output_tokens": 1511,
+  "extraction_from_cache": false
+}

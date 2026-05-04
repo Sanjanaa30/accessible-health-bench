@@ -1,0 +1,441 @@
+{
+  "prompt_id": "lif_con_01",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy weekly meal plan for a college student with a busy schedule who has only 20 minutes to cook per day.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Quick & Healthy Weekly Meal Plan (20 min/day)\n\n## Strategy\n- **Sunday prep**: 30 min of chopping/cooking base ingredients\n- **Weekday cooking**: Simple assembly and quick cooking\n- **Freezer-friendly**: Most meals reheat well\n\n---\n\n## Sunday Prep (30 minutes)\n- Cook 2 cups brown rice\n- Grill/bake 2 lbs chicken breast\n- Roast sheet pan: broccoli, bell peppers, sweet potato\n- Cook 1 pot lentil soup\n\n---\n\n## Daily Meal Ideas\n\n### **Monday**\n- **Breakfast**: Overnight oats (prep night before)\n- **Lunch**: Chicken + rice + roasted veggies\n- **Dinner**: Pasta with jarred marinara, frozen spinach (15 min)\n\n### **Tuesday**\n- **Breakfast**: Yogurt + granola + berries\n- **Lunch**: Lentil soup + whole grain bread\n- **Dinner**: Stir-fry (prep veggies, cook noodles, add protein) (18 min)\n\n### **Wednesday**\n- **Breakfast**: Scrambled eggs + toast\n- **Lunch**: Chicken grain bowl with roasted veggies\n- **Dinner**: Quesadillas with canned beans + cheese (12 min)\n\n### **Thursday**\n- **Breakfast**: Smoothie (frozen fruit, yogurt, spinach)\n- **Lunch**: Lentil soup + salad\n- **Dinner**: Canned tuna + whole wheat pasta + frozen peas (15 min)\n\n### **Friday**\n- **Breakfast**: Cereal + milk + fruit\n- **Lunch**: Leftover stir-fry\n- **Dinner**: **Treat yourself**: Order out or simple frozen pizza\n\n### **Saturday**\n- **Breakfast**: Pancakes (frozen, reheat)\n- **Lunch**: Chickpea salad (canned chickpeas, cucumber, tomato, dressing)\n- **Dinner**: Egg fried rice with frozen veggies (16 min)\n\n### **Sunday**\n- **Breakfast**: Avocado toast\n- **Lunch**: Meal prep for next week\n- **Dinner**: Sheet pan salmon + roasted vegetables (20 min)\n\n---\n\n## Time-Saving Staples\n✓ Canned beans, lentils, tuna  \n✓ Frozen vegetables & fruit  \n✓ Rotisserie chicken (when short on time)  \n✓ Jarred sauces, peanut butter  \n✓ Eggs, Greek yogurt, cheese  \n✓ Quick-cook grains (rice, pasta, instant oats)  \n✓ Pre-cut veggies (when budget allows)\n\n---\n\n## Budget Tips\n- Buy rice/pasta in bulk\n- Choose eggs as affordable protein\n- Use seasonal produce\n- Buy store brands\n\nThis plan balances nutrition, convenience, and realistic college life!",
+  "extracted": {
+    "summary": "The response provides a quick and healthy weekly meal plan designed for a college student with a busy schedule, emphasizing meals that can be prepared in 20 minutes or less.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "chicken + rice + roasted veggies",
+        "ingredients": [
+          "chicken",
+          "rice",
+          "broccoli",
+          "bell peppers",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "pasta with marinara",
+        "ingredients": [
+          "pasta",
+          "marinara",
+          "frozen spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "yogurt + granola + berries",
+        "ingredients": [
+          "yogurt",
+          "granola",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup + whole grain bread",
+        "ingredients": [
+          "lentils",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "stir-fry",
+        "ingredients": [
+          "veggies",
+          "noodles",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 18,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs + toast",
+        "ingredients": [
+          "eggs",
+          "bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "chicken grain bowl",
+        "ingredients": [
+          "chicken",
+          "roasted veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "quesadillas",
+        "ingredients": [
+          "canned beans",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 12,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "frozen fruit",
+          "yogurt",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup + salad",
+        "ingredients": [
+          "lentils",
+          "salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "canned tuna + pasta",
+        "ingredients": [
+          "canned tuna",
+          "whole wheat pasta",
+          "frozen peas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "cereal + milk + fruit",
+        "ingredients": [
+          "cereal",
+          "milk",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "leftover stir-fry",
+        "ingredients": [
+          "leftover stir-fry"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "order out or frozen pizza",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "pancakes",
+        "ingredients": [
+          "pancakes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "chickpea salad",
+        "ingredients": [
+          "canned chickpeas",
+          "cucumber",
+          "tomato",
+          "dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "egg fried rice",
+        "ingredients": [
+          "egg",
+          "rice",
+          "frozen veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 16,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "avocado",
+          "bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "meal prep for next week",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "sheet pan salmon + roasted vegetables",
+        "ingredients": [
+          "salmon",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "beans",
+      "bell peppers",
+      "bread",
+      "broccoli",
+      "canned chickpeas",
+      "canned tuna",
+      "cereal",
+      "chicken",
+      "cucumber",
+      "dressing",
+      "eggs",
+      "frozen peas",
+      "frozen spinach",
+      "frozen veggies",
+      "frozen fruit",
+      "granola",
+      "lentils",
+      "milk",
+      "noodles",
+      "oats",
+      "pasta",
+      "pancakes",
+      "rice",
+      "salad",
+      "salmon",
+      "sweet potato",
+      "toast",
+      "vegetables",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "chicken + rice + roasted veggies",
+      "pasta with marinara",
+      "yogurt + granola + berries",
+      "lentil soup + whole grain bread",
+      "stir-fry",
+      "scrambled eggs + toast",
+      "chicken grain bowl",
+      "quesadillas",
+      "smoothie",
+      "lentil soup + salad",
+      "canned tuna + pasta",
+      "cereal + milk + fruit",
+      "leftover stir-fry",
+      "order out or frozen pizza",
+      "pancakes",
+      "chickpea salad",
+      "egg fried rice",
+      "avocado toast",
+      "sheet pan salmon + roasted vegetables"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "shared",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3176,
+  "extraction_output_tokens": 2815,
+  "extraction_from_cache": false
+}

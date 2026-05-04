@@ -1,0 +1,186 @@
+{
+  "prompt_id": "cul_base_09",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a routine to improve my balance and focus.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Balance & Focus Routine\n\n## Daily Practice (15-20 minutes)\n\n**Warm-up (2 min)**\n- Gentle neck rolls and shoulder shrugs\n- Arm circles\n\n**Balance Work (8-10 min)**\n- Single-leg stands: 30 seconds each leg, 3 sets\n- Heel-to-toe walk: 20 steps forward, 20 back\n- Eyes-closed balance: 20-30 seconds per leg\n- Tree pose: 30-60 seconds each side\n\n**Focus Training (5-7 min)**\n- Meditation or breathwork (3-5 min)\n- Concentration exercise: follow a moving object with eyes only\n\n**Cool-down (1-2 min)**\n- Stretching major muscle groups\n\n## Additional Tips\n\n- **Consistency**: Practice 4-5 days/week for best results\n- **Progression**: Close your eyes during balance exercises to increase difficulty\n- **Environment**: Minimize distractions during focus work\n- **Sleep**: Aim for 7-9 hours—essential for both balance and cognition\n- **Nutrition**: Eat omega-3s and stay hydrated\n- **Variety**: Add yoga, tai chi, or dance for dynamic balance work\n\n## Quick Wins\n- Stand on one leg while brushing teeth\n- Take the stairs slowly, focusing on each step\n- Practice single-leg movements throughout the day\n\nStart slow and increase intensity gradually. Results typically appear within 2-3 weeks.",
+  "extracted": {
+    "summary": "The response provides a routine to improve balance and focus through daily practice, including warm-up, balance work, focus training, and cool-down exercises.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Daily Practice",
+        "activity_name": "warm-up",
+        "activity_type": "other",
+        "duration_minutes": 2,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily Practice",
+        "activity_name": "single-leg stands",
+        "activity_type": "balance",
+        "duration_minutes": 3,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily Practice",
+        "activity_name": "heel-to-toe walk",
+        "activity_type": "balance",
+        "duration_minutes": 2,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily Practice",
+        "activity_name": "eyes-closed balance",
+        "activity_type": "balance",
+        "duration_minutes": 2,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily Practice",
+        "activity_name": "tree pose",
+        "activity_type": "balance",
+        "duration_minutes": 2,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily Practice",
+        "activity_name": "meditation or breathwork",
+        "activity_type": "other",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily Practice",
+        "activity_name": "concentration exercise",
+        "activity_type": "other",
+        "duration_minutes": 2,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Daily Practice",
+        "activity_name": "cool-down stretching",
+        "activity_type": "other",
+        "duration_minutes": 2,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2862,
+  "extraction_output_tokens": 1209,
+  "extraction_from_cache": false
+}

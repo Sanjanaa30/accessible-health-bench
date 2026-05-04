@@ -1,0 +1,400 @@
+{
+  "prompt_id": "lif_con_01",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy weekly meal plan for a college student with a busy schedule who has only 20 minutes to cook per day.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the time constraint, I've created a healthy weekly meal plan that can be prepared in 20 minutes or less per day. This plan includes quick, easy, and nutritious meals that can be customized to suit your dietary preferences.\n\n**Monday**\n\n* Breakfast: Overnight oats (5 minutes prep, refrigerate overnight)\n\t+ 1/2 cup rolled oats, 1/2 cup milk, 1/2 cup yogurt, 1 tablespoon honey, and your choice of fruit (e.g., banana, berries)\n* Lunch: Whole grain pita stuffed with roasted turkey, avocado, lettuce, and tomato (10 minutes prep)\n\t+ 1 whole grain pita, 2 slices roasted turkey, 1/2 avocado, lettuce, tomato, and your choice of hummus or mustard\n* Dinner: One-pot pasta with marinara sauce and veggies (15 minutes prep)\n\t+ 1 cup whole grain pasta, 1 cup marinara sauce, 1 cup mixed veggies (e.g., bell peppers, onions, mushrooms), and 1 tablespoon olive oil\n\n**Tuesday**\n\n* Breakfast: Scrambled eggs with spinach and whole grain toast (10 minutes prep)\n\t+ 2 eggs, 1/4 cup fresh spinach, 2 slices whole grain bread, and salt and pepper to taste\n* Lunch: Grilled chicken and veggie wrap (10 minutes prep)\n\t+ 1 whole grain tortilla, 2 slices grilled chicken, 1/2 cup mixed veggies (e.g., cucumber, carrots, lettuce), and 1 tablespoon hummus\n* Dinner: Quick stir-fry with pre-cooked chicken, broccoli, and brown rice (15 minutes prep)\n\t+ 1 cup pre-cooked chicken, 1 cup broccoli, 1/2 cup cooked brown rice, and 1 tablespoon soy sauce\n\n**Wednesday**\n\n* Breakfast: Greek yogurt parfait with granola and berries (5 minutes prep)\n\t+ 1 cup Greek yogurt, 2 tablespoons granola, and 1/2 cup mixed berries\n* Lunch: Lentil soup with whole grain bread (10 minutes prep)\n\t+ 1 cup cooked lentils, 1 cup vegetable broth, 1 slice whole grain bread, and 1 tablespoon olive oil\n* Dinner: Tacos with pre-cooked ground beef, lettuce, and tomatoes (10 minutes prep)\n\t+ 1 cup pre-cooked ground beef, 1 cup mixed greens, 1 cup diced tomatoes, 1 tablespoon salsa, and 1 whole grain tortilla\n\n**Thursday**\n\n* Breakfast: Smoothie bowl with banana, spinach, and almond milk (5 minutes prep)\n\t+ 1 banana, 1 cup spinach, 1 cup almond milk, and 1 tablespoon almond butter\n* Lunch: Grilled cheese and tomato sandwich on whole grain bread (5 minutes prep)\n\t+ 2 slices whole grain bread, 1 slice cheese, 1 tomato, and 1 tablespoon olive oil\n* Dinner: Quesadilla with pre-cooked chicken, bell peppers, and onions (10 minutes prep)\n\t+ 1 whole grain tortilla, 1 cup pre-cooked chicken, 1/2 cup mixed bell peppers and onions, and 1 tablespoon salsa\n\n**Friday**\n\n* Breakfast: Avocado toast with scrambled eggs (10 minutes prep)\n\t+ 1 slice whole grain bread, 1/2 avocado, 2 eggs, and salt and pepper to taste\n* Lunch: Chicken and quinoa bowl with roasted veggies (10 minutes prep)\n\t+ 1 cup cooked quinoa, 1 cup pre-cooked chicken, 1 cup mixed roasted veggies (e.g., broccoli, carrots, sweet potatoes), and 1 tablespoon tahini sauce\n* Dinner: One-pot chili with ground turkey, beans, and veggies (15 minutes prep)\n\t+ 1 cup ground turkey, 1 cup canned beans, 1 cup mixed veggies (e.g., bell peppers, onions, tomatoes), and 1 tablespoon chili powder\n\n**Saturday and Sunday**\n\n* You can use leftovers from the week or prepare similar meals with different ingredients. Consider meal prepping on the weekends to save time during the week.\n\n**Tips and Swaps**\n\n* Use pre-cooked meats, such as rotisserie chicken or ground turkey, to save time.\n* Swap out veggies and fruits with what's in season and on sale.\n* Keep a stash of whole grain staples, such as bread, tortillas, and rice, to make meal prep easier.\n* Experiment with different spices and seasonings to add flavor to your meals.\n* Consider investing in a slow cooker or Instant Pot to make meal prep even faster.\n\nRemember, this meal plan is just a starting point. Feel free to adjust the portion sizes and ingredients based on your personal preferences and dietary needs. Happy cooking!",
+  "extracted": {
+    "summary": "The response provides a healthy weekly meal plan designed for a college student with a busy schedule, featuring quick and nutritious meals that can be prepared in 20 minutes or less.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "milk",
+          "yogurt",
+          "honey",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "whole grain pita",
+        "ingredients": [
+          "whole grain pita",
+          "roasted turkey",
+          "avocado",
+          "lettuce",
+          "tomato",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "one-pot pasta",
+        "ingredients": [
+          "whole grain pasta",
+          "marinara sauce",
+          "mixed veggies",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken wrap",
+        "ingredients": [
+          "whole grain tortilla",
+          "grilled chicken",
+          "mixed veggies",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "quick stir-fry",
+        "ingredients": [
+          "pre-cooked chicken",
+          "broccoli",
+          "brown rice",
+          "soy sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "cooked lentils",
+          "vegetable broth",
+          "whole grain bread",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "tacos",
+        "ingredients": [
+          "pre-cooked ground beef",
+          "mixed greens",
+          "diced tomatoes",
+          "salsa",
+          "whole grain tortilla"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "banana",
+          "spinach",
+          "almond milk",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "grilled cheese sandwich",
+        "ingredients": [
+          "whole grain bread",
+          "cheese",
+          "tomato",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "quesadilla",
+        "ingredients": [
+          "whole grain tortilla",
+          "pre-cooked chicken",
+          "mixed bell peppers",
+          "onions",
+          "salsa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "whole grain bread",
+          "avocado",
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "chicken quinoa bowl",
+        "ingredients": [
+          "cooked quinoa",
+          "pre-cooked chicken",
+          "mixed roasted veggies",
+          "tahini sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "one-pot chili",
+        "ingredients": [
+          "ground turkey",
+          "canned beans",
+          "mixed veggies",
+          "chili powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": null,
+        "dish_name": "leftovers",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "banana",
+      "beans",
+      "bell peppers",
+      "broccoli",
+      "brown rice",
+      "canned beans",
+      "cheese",
+      "chicken",
+      "cooked lentils",
+      "cooked quinoa",
+      "diced tomatoes",
+      "eggs",
+      "fruit",
+      "granola",
+      "grilled chicken",
+      "honey",
+      "hummus",
+      "lentils",
+      "lettuce",
+      "marinara sauce",
+      "mixed greens",
+      "mixed roasted veggies",
+      "mixed veggies",
+      "olive oil",
+      "pre-cooked chicken",
+      "pre-cooked ground beef",
+      "quinoa",
+      "roasted turkey",
+      "salsa",
+      "spinach",
+      "tahini sauce",
+      "tomato",
+      "whole grain bread",
+      "whole grain pita",
+      "whole grain tortilla",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "avocado toast",
+      "greek yogurt parfait",
+      "grilled cheese sandwich",
+      "grilled chicken wrap",
+      "lentil soup",
+      "one-pot chili",
+      "one-pot pasta",
+      "quesadilla",
+      "quick stir-fry",
+      "scrambled eggs",
+      "smoothie bowl",
+      "tacos",
+      "whole grain pita",
+      "chicken quinoa bowl"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "shared",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3593,
+  "extraction_output_tokens": 2452,
+  "extraction_from_cache": false
+}

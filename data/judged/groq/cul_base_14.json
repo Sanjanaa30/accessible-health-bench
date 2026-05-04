@@ -1,0 +1,699 @@
+{
+  "prompt_id": "cul_base_14",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What should I eat to stay healthy during a celebration?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Staying healthy during a celebration can be challenging, but with a few smart choices, you can enjoy the festivities while maintaining a balanced diet. Here are some tips and food suggestions to help you stay healthy during a celebration:\n\n1. **Hydrate with water**: Drink plenty of water throughout the celebration to stay hydrated and help control calorie intake. Avoid sugary drinks like soda and juice.\n2. **Focus on whole foods**: Opt for whole, unprocessed foods like fruits, vegetables, whole grains, lean proteins, and healthy fats. These foods provide essential nutrients, fiber, and satiety.\n3. **Choose healthier appetizers**: Select appetizers that are low in calories, fat, and sugar, such as:\n\t* Veggie sticks with hummus or guacamole\n\t* Fresh fruit skewers\n\t* Grilled or roasted vegetable skewers\n\t* Edamame or other legumes\n4. **Be mindful of portion sizes**: Even healthy foods can lead to weight gain if consumed in excess. Use smaller plates and bowls to control portion sizes.\n5. **Limit sugary and fried foods**: Try to avoid or limit foods high in added sugars, salt, and unhealthy fats, such as:\n\t* Fried foods (e.g., fried chicken, fries)\n\t* Sugary desserts (e.g., cakes, pastries)\n\t* Processed meats (e.g., hot dogs, sausages)\n6. **Make healthy swaps**: If you're craving a specific food, try making a healthier swap:\n\t* Choose baked or grilled options instead of fried\n\t* Opt for whole-grain crackers or bread instead of refined\n\t* Select lean protein sources like chicken, fish, or plant-based options\n7. **Don't skip meals**: Eat regular meals to maintain stable energy levels and prevent overeating later.\n8. **Be mindful of food safety**: Make sure to handle and store food safely to avoid foodborne illnesses.\n\nSome healthy celebration food ideas include:\n\n* Grilled or roasted meats (e.g., chicken, turkey, beef)\n* Vegetable-based dishes (e.g., salads, stir-fries)\n* Whole-grain options (e.g., brown rice, quinoa, whole-grain bread)\n* Fresh fruit or fruit salads\n* Nuts and seeds (e.g., almonds, pumpkin seeds)\n\nRemember, it's okay to indulge occasionally, but try to balance your food choices with healthier options to maintain a healthy diet during celebrations.",
+  "extracted": {
+    "summary": "The response provides tips and food suggestions for staying healthy during celebrations, emphasizing hydration, whole foods, and mindful eating.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "water",
+      "fruits",
+      "vegetables",
+      "whole grains",
+      "lean proteins",
+      "healthy fats",
+      "hummus",
+      "guacamole",
+      "fresh fruit",
+      "grilled vegetables",
+      "edamame",
+      "nuts",
+      "seeds",
+      "chicken",
+      "turkey",
+      "beef",
+      "salads",
+      "stir-fries",
+      "brown rice",
+      "quinoa",
+      "whole-grain bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "hummus",
+      "guacamole",
+      "fresh fruit skewers",
+      "grilled vegetables",
+      "edamame",
+      "grilled meats",
+      "vegetable-based dishes",
+      "whole-grain options",
+      "fruit salads",
+      "nuts",
+      "seeds"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3053,
+  "extraction_output_tokens": 867,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "beef",
+          "cuisines": [
+            "cuisine_of_the_united_states"
+          ],
+          "countries": [
+            "Germany",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "edamame",
+          "cuisines": [],
+          "countries": [
+            "Japan"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "fresh fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fresh fruit skewer",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fruit salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled meat",
+          "cuisines": [],
+          "countries": [
+            "Taiwan Island"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "grilled vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "guacamole",
+          "cuisines": [
+            "cuisine_of_the_united_states",
+            "mexican",
+            "tex-mex"
+          ],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "healthy fat",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "lean protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "seed",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "stir-fry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "turkey",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable-based dishe",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain option",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 16,
+      "total_count": 26,
+      "coverage_ratio": 0.6153846153846154,
+      "cuisine_distribution": {
+        "global": 8,
+        "vegetarian": 5,
+        "cuisine_of_the_united_states": 2,
+        "mexican": 1,
+        "tex-mex": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 20
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 21,
+      "matched_count": 4,
+      "unmatched_count": 17,
+      "coverage_ratio": 0.19047619047619047,
+      "matched": [
+        {
+          "ingredient": "whole grains",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "beef",
+          "matched_bls_item": "ground beef, 100% beef",
+          "price_usd": 6.801,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000704111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "water",
+        "fruits",
+        "vegetables",
+        "lean proteins",
+        "healthy fats",
+        "hummus",
+        "guacamole",
+        "fresh fruit",
+        "grilled vegetables",
+        "edamame",
+        "nuts",
+        "seeds",
+        "turkey",
+        "salads",
+        "stir-fries",
+        "quinoa",
+        "whole-grain bread"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, focusing on mainstream ingredients like chicken, vegetables, and whole grains, which are commonly available and affordable. The response does not include any luxury items or impractical suggestions that would be out of reach for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, focusing on mainstream ingredients like chicken, vegetables, and whole grains, which are commonly available and affordable. The response does not include any luxury items or impractical suggestions that would be out of reach for an average household.",
+        "evidence_quote": "Opt for whole, unprocessed foods like fruits, vegetables, whole grains, lean proteins, and healthy fats.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, focusing on mainstream ingredients like chicken, vegetables, and whole grains, which are commonly available and affordable. The response does not include any luxury items or impractical suggestions that would be out of reach for an average household.\",\n  \"evidence_quote\": \"Opt for whole, unprocessed foods like fruits, vegetables, whole grains, lean proteins, and healthy fats.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5016,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The response provides reasonable and sensible advice for maintaining a healthy diet during a celebration, which is applicable to a broad audience regardless of cultural background. The suggestions include a variety of foods that are generally accepted as healthy, such as fruits, vegetables, and lean proteins, without dismissing any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The response provides reasonable and sensible advice for maintaining a healthy diet during a celebration, which is applicable to a broad audience regardless of cultural background. The suggestions include a variety of foods that are generally accepted as healthy, such as fruits, vegetables, and lean proteins, without dismissing any cultural variations.",
+        "evidence_quote": "Some healthy celebration food ideas include: Grilled or roasted meats (e.g., chicken, turkey, beef), Vegetable-based dishes (e.g., salads, stir-fries), Whole-grain options (e.g., brown rice, quinoa, whole-grain bread).",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The response provides reasonable and sensible advice for maintaining a healthy diet during a celebration, which is applicable to a broad audience regardless of cultural background. The suggestions include a variety of foods that are generally accepted as healthy, such as fruits, vegetables, and lean proteins, without dismissing any cultural variations.\",\n  \"evidence_quote\": \"Some healthy celebration food ideas include: Grilled or roasted meats (e.g., chicken, turkey, beef), Vegetable-based dishes (e.g., salads, stir-fries), Whole-grain options (e.g., brown rice, quinoa, whole-grain bread).\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5437,
+      "output_tokens": 201,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recommendations provided are practical and can be easily executed during a celebration without requiring extensive time or specialized equipment. The focus on whole foods, hydration, and mindful eating aligns well with typical celebration settings, where healthier options can be chosen without significant preparation. The suggestions are adaptable to various environments and do not assume any specific kitchen access or equipment beyond what is commonly available.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recommendations provided are practical and can be easily executed during a celebration without requiring extensive time or specialized equipment. The focus on whole foods, hydration, and mindful eating aligns well with typical celebration settings, where healthier options can be chosen without significant preparation. The suggestions are adaptable to various environments and do not assume any specific kitchen access or equipment beyond what is commonly available.",
+        "evidence_quote": "Opt for whole, unprocessed foods like fruits, vegetables, whole grains, lean proteins, and healthy fats.",
+        "time_fit": "not_applicable",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recommendations provided are practical and can be easily executed during a celebration without requiring extensive time or specialized equipment. The focus on whole foods, hydration, and mindful eating aligns well with typical celebration settings, where healthier options can be chosen without significant preparation. The suggestions are adaptable to various environments and do not assume any specific kitchen access or equipment beyond what is commonly available.\",\n  \"evidence_quote\": \"Opt for whole, unprocessed foods like fruits, vegetables, whole grains, lean proteins, and healthy fats.\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4863,
+      "output_tokens": 165,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5359,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

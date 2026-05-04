@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_13",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a workout plan and a diet to help me lose 10 lbs. I have $0 for a gym membership and my total food budget is $4 per day.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly 10 lb Loss Plan\n\n## Workout (Free, Home/Outdoor)\n\n**3-4 days/week, 30-40 min:**\n- Bodyweight circuits: push-ups, squats, lunges, planks\n- Walking/jogging (free cardio)\n- YouTube fitness channels (free videos)\n- Stairs, hills, or running in place\n\n**Daily habits:**\n- Take stairs instead of elevators\n- Walk for errands when possible\n- Stretch/light movement on rest days\n\n---\n\n## Budget Diet ($4/day = ~$120/month)\n\n**Buy in bulk (cheapest options):**\n- Rice, oats, dried beans, lentils\n- Eggs, canned tuna\n- Peanut butter\n- Bananas, potatoes, carrots, cabbage\n- Flour, oil\n\n**Sample daily eating (~1,500-1,700 cal):**\n\n- **Breakfast:** Oatmeal with peanut butter + banana ($0.50)\n- **Lunch:** Rice + beans + carrots ($0.80)\n- **Dinner:** Eggs with potatoes + cabbage ($1.00)\n- **Snack:** Peanut butter on bread ($0.70)\n\n---\n\n## Key Points\n\n- **Drink water** (free, reduces hunger)\n- **Aim for 10-12 weeks** to lose 10 lbs safely\n- **Prioritize protein** (eggs, beans) to stay full\n- **Track portions** even on a budget\n- **Be consistent** — this matters more than perfection\n\nWould you like specific recipes or a shopping list?",
+  "input_tokens": 45,
+  "output_tokens": 386,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:39:10.713034"
+}

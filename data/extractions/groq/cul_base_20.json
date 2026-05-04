@@ -1,0 +1,212 @@
+{
+  "prompt_id": "cul_base_20",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a daily routine for a 70-year-old man.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "As people age, it's essential to prioritize health, mobility, and cognitive function. Here's a suggested daily routine for a 70-year-old man:\n\n**Morning Routine (7:00 am - 9:00 am)**\n\n1. **Wake-up and stretching**: Start with gentle stretches to loosen up muscles and improve flexibility.\n2. **Hydration**: Drink a full glass of water to rehydrate after a night of sleep.\n3. **Breakfast**: Eat a balanced breakfast that includes protein, whole grains, and fruits.\n4. **Medication**: Take any prescribed medications as directed by the doctor.\n5. **Morning walk**: Take a short, gentle walk (10-15 minutes) to get some fresh air and sunlight.\n\n**Physical Activity (9:00 am - 12:00 pm)**\n\n1. **Exercise**: Engage in low-impact exercises like yoga, tai chi, or swimming (30-45 minutes) to maintain flexibility, strength, and balance.\n2. **Household chores**: Perform light household tasks, such as gardening, cooking, or laundry, to stay active and engaged.\n3. **Socializing**: Meet with friends or family members for a social activity, such as playing cards, watching a movie, or going for a walk.\n\n**Lunch and Relaxation (12:00 pm - 2:00 pm)**\n\n1. **Lunch**: Eat a nutritious lunch that includes a variety of foods, such as whole grains, lean proteins, and vegetables.\n2. **Rest**: Take a short nap (20-30 minutes) to recharge and prevent fatigue.\n3. **Reading or hobbies**: Engage in a relaxing activity, such as reading, listening to music, or working on a hobby.\n\n**Afternoon Routine (2:00 pm - 5:00 pm)**\n\n1. **Cognitive stimulation**: Engage in mentally stimulating activities, such as puzzles, games, or learning a new skill.\n2. **Socializing**: Participate in social activities, such as volunteering, joining a club, or attending a community event.\n3. **Outdoor activities**: Spend time outdoors, such as taking a walk, tending to a garden, or simply enjoying nature.\n\n**Evening Routine (5:00 pm - 9:00 pm)**\n\n1. **Dinner**: Eat a balanced dinner that includes a variety of foods.\n2. **Relaxation**: Engage in a relaxing activity, such as listening to music, watching a movie, or practicing gentle stretches.\n3. **Socializing**: Spend time with family or friends, either in person or over the phone.\n4. **Preparation for bed**: Begin winding down for the night by taking a warm bath, practicing gentle stretches, or reading a book.\n\n**Bedtime Routine (9:00 pm - 10:00 pm)**\n\n1. **Winding down**: Continue to relax and unwind, avoiding screens and stimulating activities.\n2. **Sleep preparation**: Get ready for bed, including brushing teeth, changing into comfortable clothes, and turning off lights.\n3. **Sleep**: Aim for 7-8 hours of sleep to help maintain physical and mental health.\n\nRemember, this is just a suggested routine, and it's essential to tailor it to the individual's needs, preferences, and health status. It's also crucial to consult with a healthcare professional before starting any new exercise or activity program.",
+  "extracted": {
+    "summary": "The response provides a suggested daily routine for a 70-year-old man, focusing on health, mobility, and cognitive function.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "balanced breakfast",
+        "ingredients": [
+          "protein",
+          "whole grains",
+          "fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "nutritious lunch",
+        "ingredients": [
+          "whole grains",
+          "lean proteins",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "balanced dinner",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "fruits",
+      "gardening",
+      "lean proteins",
+      "light household tasks",
+      "whole grains",
+      "vegetables",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [
+      "balanced breakfast",
+      "nutritious lunch",
+      "balanced dinner"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "gentle stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "morning walk",
+        "activity_type": "walking",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Physical Activity",
+        "activity_name": "low-impact exercises",
+        "activity_type": "yoga",
+        "duration_minutes": 45,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Afternoon",
+        "activity_name": "cognitive stimulation activities",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "gentle stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [
+        "70_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "It's essential to tailor the routine to the individual's needs, preferences, and health status. Consult with a healthcare professional before starting any new exercise or activity program."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3255,
+  "extraction_output_tokens": 1326,
+  "extraction_from_cache": false
+}

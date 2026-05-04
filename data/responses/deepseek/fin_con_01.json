@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_01",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy breakfast. I have $5.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a healthy and filling breakfast idea for under $5, using common grocery store items (prices may vary slightly by location).\n\n**The \"Power Oatmeal Bowl\"**\n\n- **1/2 cup rolled oats** (~$0.20 from a bulk bin or large container)\n- **1 cup water or milk** (water is free; milk adds ~$0.30)\n- **1 small banana** (~$0.25)\n- **1 large egg** (~$0.20)\n- **1 tablespoon peanut butter** (from a $3 jar, ~$0.20)\n- **Optional: Sprinkle of cinnamon** (negligible cost)\n\n**Total estimated cost: ~$1.15** (leaving you plenty of change for coffee or extra fruit)\n\n**Instructions:**\n1. Cook oats with water or milk according to package directions (usually 2-3 minutes in microwave or 5 minutes on stove).\n2. While oats cook, scramble or fry the egg in a non-stick pan (no oil needed if non-stick).\n3. Slice the banana.\n4. Top the cooked oats with the egg, banana slices, and a dollop of peanut butter. Sprinkle cinnamon on top.\n\n**Why it works:**\n- **Oats** provide fiber and slow-release energy.\n- **Egg** adds protein and healthy fats to keep you full.\n- **Banana** gives natural sweetness and potassium.\n- **Peanut butter** adds healthy fats and more protein.\n\n**Budget tips:**\n- Buy oats in bulk, not instant packets.\n- Use a whole banana instead of pricier berries.\n- Skip the milk and use water if you’re really pinching pennies.\n\nYou’ll have about $3.85 left over—maybe enough for a second breakfast or to save for lunch!",
+  "input_tokens": 14,
+  "output_tokens": 377,
+  "from_cache": false,
+  "timestamp": "2026-04-27T10:42:27.920753"
+}

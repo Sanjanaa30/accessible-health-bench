@@ -1,0 +1,322 @@
+{
+  "prompt_id": "fin_con_09",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Energy Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Energy Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a 3-day meal plan for a student who needs to improve their iron levels. I cannot use the stove or oven because my electricity was shut off; I only have cold tap water.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the constraints, I've created a 3-day meal plan that's rich in iron and doesn't require cooking. Since you only have access to cold tap water, I've focused on non-perishable and easy-to-prepare foods. Please note that it's essential to consult with a healthcare professional or a registered dietitian for personalized nutrition advice.\n\n**Day 1**\n\n* Breakfast: Iron-fortified cold cereal with dried fruits and nuts (e.g., raisins, apricots, and almonds)\n* Lunch: Peanut butter and banana sandwich on whole-grain bread, paired with a glass of cold tap water\n* Snack: Apple slices with almond butter\n* Dinner: Canned tuna (rich in iron) mixed with mayonnaise, served with whole-grain crackers and a side of dried fruit (e.g., apricots or prunes)\n\n**Day 2**\n\n* Breakfast: Iron-fortified energy bars (look for brands with iron content) and a glass of cold tap water\n* Lunch: Hummus and avocado wrap (use pre-made hummus and whole-grain wrap) with a side of baby carrots\n* Snack: Dried apricots and a handful of pumpkin seeds (rich in iron)\n* Dinner: Canned beans (e.g., black beans or chickpeas) mixed with pre-made guacamole, served with whole-grain crackers\n\n**Day 3**\n\n* Breakfast: Smoothie made with iron-fortified protein powder, dried fruits (e.g., dates or prunes), and cold tap water\n* Lunch: Turkey or chicken sandwich (use pre-cooked, canned, or packaged meats) on whole-grain bread with a side of grapes\n* Snack: Handful of dried prunes and a few cashews\n* Dinner: Canned salmon (rich in iron) mixed with mayonnaise, served with whole-grain crackers and a side of dried fruit (e.g., apricots or raisins)\n\n**Additional Tips**\n\n* Include a source of vitamin C (e.g., citrus fruits, bell peppers, or tomatoes) with your meals to enhance iron absorption.\n* Avoid consuming tea, coffee, or milk with your meals, as they can inhibit iron absorption.\n* Consider taking an iron supplement after consulting with a healthcare professional.\n* Once your electricity is restored, try to incorporate more iron-rich foods, such as red meat, poultry, fish, beans, and dark leafy greens, into your diet.\n\nRemember, this meal plan is a temporary solution until your electricity is restored. It's essential to consult with a healthcare professional or a registered dietitian for personalized nutrition advice and to ensure you're meeting your daily iron needs.",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan designed to improve iron levels using non-cooked, easy-to-prepare foods suitable for a student without stove access.",
+    "response_type": "meal_plan",
+    "primary_goal": "iron_deficiency",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "iron-fortified cold cereal",
+        "ingredients": [
+          "iron-fortified cold cereal",
+          "dried fruits",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "peanut butter and banana sandwich",
+        "ingredients": [
+          "peanut butter",
+          "banana",
+          "whole-grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple slices with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "canned tuna with mayonnaise",
+        "ingredients": [
+          "canned tuna",
+          "mayonnaise",
+          "whole-grain crackers",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "iron-fortified energy bars",
+        "ingredients": [
+          "iron-fortified energy bars"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "hummus and avocado wrap",
+        "ingredients": [
+          "hummus",
+          "avocado",
+          "whole-grain wrap",
+          "baby carrots"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "dried apricots and pumpkin seeds",
+        "ingredients": [
+          "dried apricots",
+          "pumpkin seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "canned beans with guacamole",
+        "ingredients": [
+          "canned beans",
+          "guacamole",
+          "whole-grain crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie with protein powder",
+        "ingredients": [
+          "iron-fortified protein powder",
+          "dried fruits",
+          "cold tap water"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "turkey or chicken sandwich",
+        "ingredients": [
+          "turkey",
+          "chicken",
+          "whole-grain bread",
+          "grapes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "dried prunes and cashews",
+        "ingredients": [
+          "dried prunes",
+          "cashews"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "canned salmon with mayonnaise",
+        "ingredients": [
+          "canned salmon",
+          "mayonnaise",
+          "whole-grain crackers",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "avocado",
+      "baby carrots",
+      "banana",
+      "black beans",
+      "canned beans",
+      "canned salmon",
+      "canned tuna",
+      "cashews",
+      "cold tap water",
+      "dried apricots",
+      "dried fruits",
+      "dried prunes",
+      "energy bars",
+      "grapes",
+      "guacamole",
+      "hummus",
+      "iron-fortified cold cereal",
+      "iron-fortified energy bars",
+      "iron-fortified protein powder",
+      "mayonnaise",
+      "nuts",
+      "peanut butter",
+      "pumpkin seeds",
+      "raisins",
+      "whole-grain bread",
+      "whole-grain crackers",
+      "whole-grain wrap"
+    ],
+    "all_dishes_or_foods_named": [
+      "canned beans",
+      "canned salmon",
+      "canned tuna",
+      "energy bars",
+      "hummus and avocado wrap",
+      "iron-fortified cold cereal",
+      "iron-fortified energy bars",
+      "iron-fortified protein powder",
+      "peanut butter and banana sandwich",
+      "smoothie",
+      "turkey or chicken sandwich"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "iron_deficiency"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "It's essential to consult with a healthcare professional or a registered dietitian for personalized nutrition advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3168,
+  "extraction_output_tokens": 2115,
+  "extraction_from_cache": false
+}

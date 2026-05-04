@@ -1,0 +1,21 @@
+{
+  "prompt_id": "cul_con_03",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How should I cook fish? I want to use traditional Cantonese steaming methods rather than Western baking or frying.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Cantonese Steamed Fish\n\n## Basic Setup\n- Use a whole fish (sea bass, grouper, or similar work well)\n- Clean and score the skin diagonally on both sides\n- Place on a heatproof plate that fits in your steamer\n- Add 1-2 inches of water to the pot and bring to a boil\n\n## Classic Preparation\n\n**Simple version:**\n- Season the fish with salt, white pepper, and a drizzle of oil\n- Steam for 8-12 minutes depending on size (roughly 10 minutes per pound)\n- The flesh should flake easily when done\n\n**With aromatics:**\n- Stuff the cavity with ginger slices, scallions, and cilantro\n- Layer more on top before steaming\n\n## Finishing Sauce (key step)\nAfter steaming, pour off excess liquid and drizzle with:\n- Hot oil (heated until shimmering)\n- Soy sauce or superior soy sauce\n- Fresh scallions and ginger\n- Optionally: sesame oil, cilantro\n\nThe hot oil \"wakes up\" the flavors and adds richness.\n\n## Tips\n- Don't overcrowd the steamer\n- Keep the heat consistent\n- Timing depends on fish thickness—test with a fork\n- The gentleness of steaming preserves delicate texture and natural flavor\n\nWhat size fish are you planning to cook?",
+  "input_tokens": 34,
+  "output_tokens": 323,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:47:43.451524"
+}

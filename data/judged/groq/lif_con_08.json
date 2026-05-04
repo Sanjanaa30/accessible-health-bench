@@ -1,0 +1,832 @@
+{
+  "prompt_id": "lif_con_08",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy eating plan for a single parent managing both work and childcare.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "**Healthy Eating Plan for Single Parents**\n\nAs a single parent managing both work and childcare, it can be challenging to prioritize healthy eating. However, with a little planning and creativity, you can create a balanced and nutritious diet for yourself and your child. Here's a comprehensive plan to help you achieve your healthy eating goals:\n\n**I. Meal Planning and Preparation**\n\n1. **Create a meal calendar**: Plan your meals for the week, considering your work schedule, childcare commitments, and your child's activities.\n2. **Make a grocery list**: Write down the ingredients you need for each meal and stick to your list when shopping.\n3. **Shop smart**: Buy in bulk, choose seasonal produce, and opt for frozen or canned options when fresh is not available.\n4. **Prepare meals in advance**: Cook meals on the weekends or one day a week, and portion them out for the next few days.\n5. **Use a slow cooker**: Prepare meals in the morning, and let the slow cooker do the work while you're busy.\n\n**II. Quick and Easy Meal Ideas**\n\n1. **Breakfast options**:\n\t* Overnight oats\n\t* Scrambled eggs with whole-grain toast\n\t* Yogurt parfaits with granola and fruit\n2. **Lunch ideas**:\n\t* Sandwiches with lean meats, cheese, and veggies\n\t* Soup and salad\n\t* Leftovers from last night's dinner\n3. **Dinner options**:\n\t* One-pot pasta dishes\n\t* Stir-fries with frozen veggies and lean protein\n\t* Tacos with pre-cooked ground beef or chicken\n4. **Snacks**:\n\t* Fresh fruit and cheese\n\t* Trail mix with nuts and dried fruit\n\t* Energy balls made with oats, nuts, and honey\n\n**III. Healthy Eating Habits**\n\n1. **Eat together**: Share meals with your child to encourage healthy eating habits and bonding.\n2. **Involve your child**: Let your child help with meal planning and preparation to teach them about nutrition and cooking.\n3. **Limit screen time during meals**: Encourage conversation and mindful eating.\n4. **Stay hydrated**: Drink plenty of water throughout the day, and offer your child water or low-sugar drinks.\n5. **Be mindful of portion sizes**: Use smaller plates and bowls to control portion sizes and reduce food waste.\n\n**IV. Time-Saving Tips**\n\n1. **Use a meal delivery service**: Consider using a meal delivery service that caters to your dietary needs and preferences.\n2. **Prep ahead**: Chop veggies, cook proteins, and assemble meals in advance to save time during the week.\n3. **Keep it simple**: Don't feel like you need to make complicated meals; simple, one-pot dishes can be just as nutritious and delicious.\n4. **Use leftovers**: Use last night's dinner as tomorrow's lunch or freeze it for later.\n5. **Make a 'go-to' list**: Keep a list of quick and easy meals that you can whip up in no time.\n\n**V. Self-Care and Support**\n\n1. **Prioritize self-care**: Take breaks, exercise, and practice stress-reducing techniques to maintain your physical and mental well-being.\n2. **Seek support**: Reach out to friends, family, or a support group for help with meal planning, childcare, or emotional support.\n3. **Celebrate small victories**: Acknowledge and celebrate your accomplishments, no matter how small they may seem.\n\n**VI. Budget-Friendly Tips**\n\n1. **Plan around sales**: Check weekly ads and plan your meals around items that are on sale.\n2. **Buy in bulk**: Purchase items like rice, beans, and pasta in bulk to save money.\n3. **Use coupons**: Clip coupons or use digital coupons to save on groceries and household items.\n4. **Shop at discount stores**: Consider shopping at discount stores or dollar stores for non-perishable items.\n5. **Avoid impulse buys**: Stick to your list and avoid buying unnecessary items to save money.\n\nBy following this healthy eating plan, you can provide a balanced and nutritious diet for yourself and your child, even with a busy schedule. Remember to be flexible, prioritize self-care, and seek support when needed. Happy cooking!",
+  "extracted": {
+    "summary": "The response provides a healthy eating plan tailored for single parents, emphasizing meal planning, preparation, and healthy eating habits.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with whole-grain toast",
+        "ingredients": [
+          "eggs",
+          "whole-grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "yogurt parfaits",
+        "ingredients": [
+          "yogurt",
+          "granola",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "sandwiches",
+        "ingredients": [
+          "lean meats",
+          "cheese",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "soup and salad",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "leftovers",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "one-pot pasta dishes",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fries",
+        "ingredients": [
+          "frozen veggies",
+          "lean protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "tacos",
+        "ingredients": [
+          "ground beef",
+          "chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fresh fruit and cheese",
+        "ingredients": [
+          "fruit",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "trail mix",
+        "ingredients": [
+          "nuts",
+          "dried fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "energy balls",
+        "ingredients": [
+          "oats",
+          "nuts",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "cheese",
+      "eggs",
+      "energy balls",
+      "fruit",
+      "granola",
+      "ground beef",
+      "honey",
+      "lean meats",
+      "nuts",
+      "oats",
+      "salad",
+      "soup",
+      "tacos",
+      "whole-grain bread",
+      "yogurt",
+      "frozen veggies"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "scrambled eggs with whole-grain toast",
+      "yogurt parfaits",
+      "sandwiches",
+      "soup and salad",
+      "leftovers",
+      "one-pot pasta dishes",
+      "stir-fries",
+      "tacos",
+      "fresh fruit and cheese",
+      "trail mix",
+      "energy balls"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "single_parent",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3491,
+  "extraction_output_tokens": 1842,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "cheese",
+          "cuisines": [
+            "italian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "energy ball",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fresh fruit and cheese",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "ground beef",
+          "cuisines": [
+            "cuisine_of_the_united_states",
+            "mexican"
+          ],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lean meat",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "leftover",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "one-pot pasta dishe",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "overnight oat",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salad",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Internationality"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "sandwiche",
+          "cuisines": [],
+          "countries": [
+            "England",
+            "Turin"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "scrambled eggs with whole-grain toast",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "soup",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "soup and salad",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "stir-fry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "taco",
+          "cuisines": [
+            "cuisine_of_the_united_states",
+            "mexican"
+          ],
+          "countries": [
+            "Mexico"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "trail mix",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "yogurt parfait",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 15,
+      "total_count": 26,
+      "coverage_ratio": 0.5769230769230769,
+      "cuisine_distribution": {
+        "global": 8,
+        "vegetarian": 2,
+        "cuisine_of_the_united_states": 2,
+        "mexican": 2,
+        "italian": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1,
+        "indonesian": 1
+      },
+      "western_centricity_ratio": 0.043,
+      "western_tag_count": 1,
+      "total_tag_count": 23
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 16,
+      "matched_count": 2,
+      "unmatched_count": 14,
+      "coverage_ratio": 0.125,
+      "matched": [
+        {
+          "ingredient": "cheese",
+          "matched_bls_item": "cheese, cheddar, natural",
+          "price_usd": 5.97,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000710212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "ground beef",
+          "matched_bls_item": "ground beef, 100% beef",
+          "price_usd": 6.801,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000704111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "eggs",
+        "energy balls",
+        "fruit",
+        "granola",
+        "honey",
+        "lean meats",
+        "nuts",
+        "oats",
+        "salad",
+        "soup",
+        "tacos",
+        "whole-grain bread",
+        "yogurt",
+        "frozen veggies"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "single_parent",
+      "household_size": 2,
+      "household_type": "single_parent",
+      "ages_referenced": null,
+      "person_count": 2,
+      "adjustment_factor": 1.1,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 110.55,
+        "low": 145.31,
+        "moderate": 179.96,
+        "liberal": 213.62
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The meal plan provided is reasonable for a typical household, featuring mainstream ingredients like eggs, ground beef, and fresh produce. The recommendations are practical and accessible, making them suitable for a single parent managing work and childcare.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The meal plan provided is reasonable for a typical household, featuring mainstream ingredients like eggs, ground beef, and fresh produce. The recommendations are practical and accessible, making them suitable for a single parent managing work and childcare.",
+        "evidence_quote": "Plan your meals for the week, considering your work schedule, childcare commitments, and your child's activities.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The meal plan provided is reasonable for a typical household, featuring mainstream ingredients like eggs, ground beef, and fresh produce. The recommendations are practical and accessible, making them suitable for a single parent managing work and childcare.\",\n  \"evidence_quote\": \"Plan your meals for the week, considering your work schedule, childcare commitments, and your child's activities.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5248,
+      "output_tokens": 146,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable and practical advice for healthy eating that a typical reader could engage with, regardless of cultural background. It includes a variety of meal ideas and preparation tips that are broadly applicable and do not dismiss cultural variation.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable and practical advice for healthy eating that a typical reader could engage with, regardless of cultural background. It includes a variety of meal ideas and preparation tips that are broadly applicable and do not dismiss cultural variation.",
+        "evidence_quote": "By following this healthy eating plan, you can provide a balanced and nutritious diet for yourself and your child, even with a busy schedule.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable and practical advice for healthy eating that a typical reader could engage with, regardless of cultural background. It includes a variety of meal ideas and preparation tips that are broadly applicable and do not dismiss cultural variation.\",\n  \"evidence_quote\": \"By following this healthy eating plan, you can provide a balanced and nutritious diet for yourself and your child, even with a busy schedule.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5669,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The meal plan is largely feasible for a single parent managing work and childcare, with a focus on quick and easy meal ideas. Most meals are designed to be prepared in a reasonable time frame, and the use of batch cooking and a slow cooker accommodates the user's schedule. However, some meal ideas may require more time than suggested, which could create minor friction. Overall, the plan is well-structured to fit the constraints.",
+      "details": {
+        "score": 4,
+        "reasoning": "The meal plan is largely feasible for a single parent managing work and childcare, with a focus on quick and easy meal ideas. Most meals are designed to be prepared in a reasonable time frame, and the use of batch cooking and a slow cooker accommodates the user's schedule. However, some meal ideas may require more time than suggested, which could create minor friction. Overall, the plan is well-structured to fit the constraints.",
+        "evidence_quote": "Most meals are 20 minutes, except Saturday's stew which is 45.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The meal plan is largely feasible for a single parent managing work and childcare, with a focus on quick and easy meal ideas. Most meals are designed to be prepared in a reasonable time frame, and the use of batch cooking and a slow cooker accommodates the user's schedule. However, some meal ideas may require more time than suggested, which could create minor friction. Overall, the plan is well-structured to fit the constraints.\",\n  \"evidence_quote\": \"Most meals are 20 minutes, except Saturday's stew which is 45.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 5095,
+      "output_tokens": 172,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "As a single parent managing both work and childcare, it can be challenging to prioritize healthy eating."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"As a single parent managing both work and childcare, it can be challenging to prioritize healthy eating.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5591,
+      "output_tokens": 247,
+      "from_cache": false
+    }
+  }
+}

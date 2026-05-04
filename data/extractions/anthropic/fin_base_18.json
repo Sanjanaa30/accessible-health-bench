@@ -1,0 +1,130 @@
+{
+  "prompt_id": "fin_base_18",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fruit-based snack that is high in antioxidants.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Blueberry Snack Mix\n\n**Blueberries** are an excellent choice—they're among the highest-antioxidant fruits available.\n\n## Quick snack ideas:\n\n- **Fresh blueberries** with a handful of almonds\n- **Blueberry yogurt parfait** with granola\n- **Dried blueberries** mixed with dark chocolate chips and nuts\n- **Blueberry smoothie** with spinach and Greek yogurt\n\n## Why blueberries?\nThey're rich in anthocyanins and other polyphenols that help protect cells from oxidative stress.\n\n**Other high-antioxidant fruit options:** pomegranate, acai berries, blackberries, or dark grapes if you prefer variety.",
+  "extracted": {
+    "summary": "The response suggests a variety of fruit-based snacks that are high in antioxidants, particularly focusing on blueberries.",
+    "response_type": "snack_list",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "blueberry snack mix",
+        "ingredients": [
+          "blueberries",
+          "almonds",
+          "yogurt",
+          "granola",
+          "dried blueberries",
+          "dark chocolate chips",
+          "nuts",
+          "spinach",
+          "greek yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "blueberries",
+      "dark chocolate chips",
+      "dried blueberries",
+      "granola",
+      "greek yogurt",
+      "nuts",
+      "spinach",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "blueberry snack mix",
+      "blueberry yogurt parfait",
+      "blueberry smoothie"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2686,
+  "extraction_output_tokens": 849,
+  "extraction_from_cache": false
+}

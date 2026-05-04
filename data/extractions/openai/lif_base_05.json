@@ -1,0 +1,241 @@
+{
+  "prompt_id": "lif_base_05",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast plan for a week.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a healthy breakfast plan for a week, featuring a variety of nutritious options to keep your mornings exciting and balanced:\n\n### Day 1: Overnight Oats\n- **Ingredients**: Rolled oats, almond milk, chia seeds, honey, sliced banana, and walnuts.\n- **Preparation**: Mix 1/2 cup oats, 1 cup almond milk, 1 tbsp chia seeds, and 1 tsp honey in a jar. Refrigerate overnight. In the morning, top with sliced banana and walnuts.\n\n### Day 2: Greek Yogurt Parfait\n- **Ingredients**: Greek yogurt, mixed berries (strawberries, blueberries, raspberries), and granola.\n- **Preparation**: Layer 1 cup Greek yogurt with 1 cup mixed berries and 1/4 cup granola in a bowl or glass. Drizzle with honey if desired.\n\n### Day 3: Avocado Toast\n- **Ingredients**: Whole grain bread, ripe avocado, cherry tomatoes, salt, pepper, and a poached egg (optional).\n- **Preparation**: Toast 1 slice of whole grain bread. Mash 1/2 an avocado and spread it on the toast. Top with halved cherry tomatoes, salt, pepper, and a poached egg if desired.\n\n### Day 4: Smoothie Bowl\n- **Ingredients**: Spinach, banana, almond milk, protein powder, and toppings (sliced fruit, nuts, seeds).\n- **Preparation**: Blend 1 cup spinach, 1 banana, and 1 cup almond milk until smooth. Pour into a bowl and top with sliced fruit, nuts, and seeds.\n\n### Day 5: Quinoa Breakfast Bowl\n- **Ingredients**: Cooked quinoa, almond milk, cinnamon, honey, sliced apple, and almonds.\n- **Preparation**: Heat 1 cup cooked quinoa with 1/2 cup almond milk, 1/2 tsp cinnamon, and 1 tsp honey. Top with sliced apple and a handful of almonds.\n\n### Day 6: Egg and Veggie Scramble\n- **Ingredients**: Eggs, spinach, bell peppers, onions, tomatoes, and feta cheese.\n- **Preparation**: Scramble 2 eggs in a pan with chopped veggies (spinach, bell peppers, onions, tomatoes) until cooked. Add crumbled feta cheese before serving.\n\n### Day 7: Chia Seed Pudding\n- **Ingredients**: Chia seeds, coconut milk, vanilla extract, honey, and fresh fruit.\n- **Preparation**: Mix 1/4 cup chia seeds with 1 cup coconut milk, 1 tsp vanilla extract, and 1 tbsp honey. Refrigerate overnight. In the morning, top with fresh fruit.\n\n### Tips for Preparation:\n- Prep ingredients the night before for quick assembly in the morning.\n- Feel free to swap ingredients based on your preferences or dietary needs.\n- Stay hydrated with a glass of water or herbal tea alongside your breakfast.\n\nEnjoy your healthy breakfasts!",
+  "extracted": {
+    "summary": "The response provides a healthy breakfast plan for a week with various nutritious options.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "rolled oats",
+          "almond milk",
+          "chia seeds",
+          "honey",
+          "banana",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast",
+        "ingredients": [
+          "whole grain bread",
+          "avocado",
+          "cherry tomatoes",
+          "salt",
+          "pepper",
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "toasting",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "almond milk",
+          "protein powder"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "breakfast",
+        "dish_name": "quinoa breakfast bowl",
+        "ingredients": [
+          "quinoa",
+          "almond milk",
+          "cinnamon",
+          "honey",
+          "apple",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "breakfast",
+        "dish_name": "egg and veggie scramble",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "bell peppers",
+          "onions",
+          "tomatoes",
+          "feta cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "breakfast",
+        "dish_name": "chia seed pudding",
+        "ingredients": [
+          "chia seeds",
+          "coconut milk",
+          "vanilla extract",
+          "honey",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond milk",
+      "avocado",
+      "banana",
+      "bell peppers",
+      "chia seeds",
+      "cinnamon",
+      "eggs",
+      "feta cheese",
+      "fruit",
+      "geek yogurt",
+      "granola",
+      "honey",
+      "mixed berries",
+      "onions",
+      "quinoa",
+      "rolled oats",
+      "salt",
+      "smoothie powder",
+      "spinach",
+      "tomatoes",
+      "walnuts"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "greek yogurt parfait",
+      "avocado toast",
+      "smoothie bowl",
+      "quinoa breakfast bowl",
+      "egg and veggie scramble",
+      "chia seed pudding"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3165,
+  "extraction_output_tokens": 1519,
+  "extraction_from_cache": false
+}

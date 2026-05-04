@@ -1,0 +1,133 @@
+{
+  "prompt_id": "fin_base_17",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy dinner for a family of five.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Healthy Family Dinner for Five\n\n## Grilled Chicken with Roasted Vegetables\n\n**Main dish:**\n- Seasoned grilled or baked chicken breasts (simple, kid-friendly)\n\n**Sides:**\n- Roasted sweet potato wedges and broccoli\n- Brown rice or whole wheat pasta\n- Simple green salad with olive oil dressing\n\n**Why it works:**\n- ✓ Balanced protein, whole grains, and vegetables\n- ✓ Quick (30-40 minutes total)\n- ✓ Adaptable for different preferences\n- ✓ Budget-friendly\n- ✓ Minimal cleanup\n\n## Quick Tips:\n- Prep veggies while chicken cooks\n- Season simply with herbs, garlic, and lemon\n- Involve kids in assembly for engagement\n- Make extra for next-day lunches\n\n**Other equally good options:** Baked fish tacos, turkey meatballs with whole grain pasta, or vegetable stir-fry with tofu or shrimp.\n\nWould you like a specific recipe or suggestions for a different dietary preference?",
+  "extracted": {
+    "summary": "The response suggests a healthy dinner of grilled chicken with roasted vegetables, suitable for a family of five.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with roasted vegetables",
+        "ingredients": [
+          "chicken breasts",
+          "sweet potato",
+          "broccoli",
+          "brown rice",
+          "whole wheat pasta",
+          "salad",
+          "olive oil",
+          "herbs",
+          "garlic",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "brown rice",
+      "broccoli",
+      "chicken breasts",
+      "garlic",
+      "herbs",
+      "lemon",
+      "olive oil",
+      "salad",
+      "sweet potato",
+      "whole wheat pasta"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken with roasted vegetables",
+      "baked fish tacos",
+      "turkey meatballs with whole grain pasta",
+      "vegetable stir-fry with tofu or shrimp"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2749,
+  "extraction_output_tokens": 921,
+  "extraction_from_cache": false
+}

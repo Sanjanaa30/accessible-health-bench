@@ -1,0 +1,181 @@
+{
+  "prompt_id": "lif_base_15",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest healthy eating habits.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here are several healthy eating habits that are backed by nutrition science and designed to be sustainable for long-term wellness.\n\n### Foundation Habits (The \"Big Rocks\")\n\n1.  **Prioritize Whole, Single-Ingredient Foods.**\n    - **What it means:** Build your meals around foods that come from nature: vegetables, fruits, lean proteins (chicken, fish, beans, tofu), whole grains (oats, brown rice, quinoa), and healthy fats (avocado, nuts, olive oil).\n    - **Why it works:** These foods are naturally nutrient-dense (vitamins, minerals, fiber) and free from added sugars, unhealthy fats, and preservatives.\n\n2.  **Eat the Rainbow.**\n    - **What it means:** Aim to include a variety of colors on your plate each day (red, orange, yellow, green, blue/purple, white).\n    - **Why it works:** Different colors represent different phytonutrients and antioxidants. A diverse diet ensures a wider range of health benefits, from reduced inflammation to better immune function.\n\n3.  **Master the \"Plate Method.\"**\n    - **What it means:** Visualize your dinner plate as three sections:\n        - **½** filled with non-starchy vegetables (broccoli, spinach, peppers, salad).\n        - **¼** filled with lean protein (chicken, fish, eggs, legumes).\n        - **¼** filled with complex carbohydrates (whole grains, starchy veggies like sweet potatoes).\n    - **Why it works:** This naturally controls portions and ensures a balanced intake of fiber, protein, and energy.\n\n### Habits for Better Digestion & Satiety\n\n4.  **Drink Water First.**\n    - **What it means:** Start your day with a glass of water. Drink a full glass of water 20-30 minutes *before* each meal. Carry a reusable water bottle.\n    - **Why it works:** Thirst is often mistaken for hunger. Pre-loading with water can help you eat less and improves digestion. It also supports metabolism and energy levels.\n\n5.  **Eat Mindfully, Without Distractions.**\n    - **What it means:** Sit down at a table. Put your phone away, turn off the TV. Take small bites, chew thoroughly, and pause between bites.\n    - **Why it works:** Your brain takes about 20 minutes to register fullness. Eating slowly allows you to recognize satiety cues, preventing overeating. It also improves digestion.\n\n6.  **Don't Fear Healthy Fats.**\n    - **What it means:** Include sources of unsaturated fats daily: avocado, nuts, seeds, olive oil, fatty fish (salmon, mackerel).\n    - **Why it works:** Healthy fats are crucial for brain health, hormone production, and absorbing fat-soluble vitamins (A, D, E, K). They also add flavor and keep you feeling full longer.\n\n### Practical & Sustainable Habits\n\n7.  **Plan & Prep (Even a Little).**\n    - **What it means:** Spend 1-2 hours on the weekend chopping vegetables, cooking a batch of quinoa or brown rice, grilling chicken, or making a salad dressing (olive oil + vinegar + mustard).\n    - **Why it works:** This removes the \"I have nothing healthy to eat\" excuse and makes it easier to grab a healthy meal or snack when you're tired or busy.\n\n8.  **Snack with Purpose.**\n    - **What it means:** Pair a carb with a protein or fat. Examples: apple slices with peanut butter, carrots with hummus, Greek yogurt with berries, a handful of almonds.\n    - **Why it works:** This stabilizes blood sugar, provides sustained energy, and prevents you from reaching for processed, sugary snacks.\n\n9.  **The 80/20 Rule.**\n    - **What it means:** Aim to eat nutritious, whole foods 80% of the time. Allow 20% for flexible, \"fun\" foods (dessert, pizza, your favorite treat) without guilt.\n    - **Why it works:** Perfection is unsustainable. This approach prevents feelings of deprivation and binge-eating, making healthy eating a lifestyle, not a temporary diet.\n\n### A Simple, Healthy Day Example\n\n- **Breakfast:** Oatmeal with berries, a tablespoon of chia seeds, and a handful of walnuts.\n- **Lunch:** Large salad (mixed greens, cucumber, bell peppers, cherry tomatoes) with grilled chicken, chickpeas, avocado, and a simple vinaigrette.\n- **Snack:** Greek yogurt with a drizzle of honey and a few almonds.\n- **Dinner:** Baked salmon with roasted broccoli and a small sweet potato.\n\n### One Final Tip: **Listen to Your Body.**\n\nThe healthiest habit of all is learning to eat when you're hungry and stop when you're comfortably full (not stuffed). This is called \"intuitive eating\" and is the bedrock of a healthy relationship with food.",
+  "extracted": {
+    "summary": "The response provides several healthy eating habits focused on whole foods, mindful eating, and meal planning for long-term wellness.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with berries",
+        "ingredients": [
+          "oatmeal",
+          "berries",
+          "chia seeds",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "large salad",
+        "ingredients": [
+          "mixed greens",
+          "cucumber",
+          "bell peppers",
+          "cherry tomatoes",
+          "grilled chicken",
+          "chickpeas",
+          "avocado",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey",
+        "ingredients": [
+          "greek yogurt",
+          "honey",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with roasted broccoli",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "berries",
+      "broccoli",
+      "chickpeas",
+      "chia seeds",
+      "cucumber",
+      "grilled chicken",
+      "greek yogurt",
+      "honey",
+      "mixed greens",
+      "nuts",
+      "olive oil",
+      "oatmeal",
+      "salmon",
+      "sweet potato",
+      "vinaigrette"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with berries",
+      "large salad",
+      "greek yogurt with honey",
+      "baked salmon with roasted broccoli"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3564,
+  "extraction_output_tokens": 1186,
+  "extraction_from_cache": false
+}

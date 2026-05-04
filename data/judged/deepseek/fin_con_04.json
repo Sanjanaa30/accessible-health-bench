@@ -1,0 +1,909 @@
+{
+  "prompt_id": "fin_con_04",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a grocery list for a family of four for one week. Our total budget is $60.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Creating a grocery list for a family of four on a $60 weekly budget is extremely challenging, as this works out to roughly $2.14 per person per day. This requires a focus on **staples (rice, beans, oats), frozen vegetables, and the cheapest protein sources (eggs, lentils, chicken leg quarters)**. You will need to shop at discount stores (Aldi, Lidl, Grocery Outlet) or use a price-matching policy at Walmart.\n\nThis list assumes you already have basic pantry items: salt, pepper, oil, and a few spices (garlic powder, chili powder, cumin).\n\n### The Strategy: \"No Waste, Bulk Up\"\n\n- **Breakfast:** Oatmeal or eggs with toast.\n- **Lunch:** Leftovers from dinner or simple bean/rice bowls.\n- **Dinner:** One-pot meals (soups, stews, casseroles) that stretch ingredients.\n\n---\n\n### The $60 Grocery List\n\n**1. Grains & Starches (Buy in bulk - $12)**\n- **5 lbs White Rice** ($3.50) – The foundation of most meals.\n- **1 lb Rolled Oats** ($1.50) – Breakfast.\n- **1 loaf White Bread** ($1.00) – For toast and sandwiches.\n- **1 bag (5 lbs) Potatoes** ($3.00) – Roasted, mashed, or in soup.\n- **1 bag (16 oz) Pasta** ($1.00) – Spaghetti or elbows for casseroles.\n\n**2. Protein (Cheapest sources - $14)**\n- **1 dozen Eggs** ($2.50) – Breakfast, fried rice, hard-boiled snacks.\n- **1 bag (1 lb) Dried Brown or Green Lentils** ($2.00) – Cooks in 20 mins, great for soup or curry.\n- **1 bag (1 lb) Dried Beans** (pinto or black) ($2.00) – Soak overnight to save money vs. canned.\n- **1 package (3-4 lbs) Chicken Leg Quarters or Thighs** ($6.00) – Cheapest cut of meat. Roast one night, shred leftovers for tacos/soup.\n- **1 can Tuna** ($1.50) – For sandwiches or casseroles.\n\n**3. Vegetables & Fruit (Frozen & Affordable Fresh - $15)**\n- **1 bag Frozen Mixed Vegetables** (peas, carrots, corn, green beans) ($2.00) – For soups, stir-fries, sides.\n- **1 bag Frozen Chopped Spinach** ($1.50) – Add to lentils, eggs, or pasta.\n- **1 bag Frozen Broccoli** ($1.50) – Side dish with chicken.\n- **1 large Onion** ($0.80) – Flavor base for almost everything.\n- **1 head Garlic** ($0.60) – Essential flavor.\n- **1 bag Carrots** ($1.50) – Roast with potatoes, add to soup.\n- **1 bunch Celery** ($1.50) – For soup base.\n- **1 head Cabbage** ($2.00) – Lasts a week; use in slaw, stir-fry, or soup.\n- **1 bag Apples** (cheapest variety, ~5 apples) ($3.60) – Snacks.\n\n**4. Dairy & Fats ($7)**\n- **1 gallon Whole Milk** ($3.50) – Drink, cooking, oatmeal.\n- **1 block (8 oz) Cheddar Cheese** ($2.50) – Grate over pasta, beans, or eggs.\n- **1 stick Butter or Margarine** ($1.00) – For cooking and toast.\n\n**5. Pantry & Misc. ($12)**\n- **1 small bottle Vegetable Oil** ($2.50) – For cooking.\n- **1 jar Peanut Butter** ($3.00) – Sandwiches, oatmeal.\n- **1 can (28 oz) Crushed Tomatoes** ($1.50) – For pasta sauce, soup base.\n- **1 small bag (16 oz) Sugar** ($1.50) – For oatmeal, tea, baking.\n- **1 small bag (16 oz) Flour** ($1.50) – For thickening soups, making tortillas.\n- **Salt & Pepper** (if you don't have) ($2.00)\n\n**Total Estimate: ~$60**\n\n---\n\n### Sample Meal Plan (To Make This Work)\n\n- **Monday:** Lentil soup (lentils, carrots, celery, onion, crushed tomatoes) + rice.\n- **Tuesday:** Roasted chicken leg quarters + mashed potatoes + frozen broccoli.\n- **Wednesday:** Chicken & rice casserole (leftover chicken, rice, frozen veg, cheese).\n- **Thursday:** Bean burritos (dried pinto beans, rice, onion, cabbage slaw).\n- **Friday:** Tuna pasta casserole (pasta, tuna, frozen peas, cream sauce from milk/flour).\n- **Saturday:** Fried rice (leftover rice, eggs, frozen veg, soy sauce if you have it).\n- **Sunday:** Oatmeal for dinner (stretch budget) or potato & egg scramble.\n\n### Crucial Tips to Stay Under $60\n\n1.  **No drinks except water and milk.** Skip juice, soda, coffee, tea.\n2.  **No snacks.** Popcorn (buy kernels) or an apple is your treat.\n3.  **Use every leftover.** Bones from chicken? Boil for broth. Veggie scraps? Save for soup.\n4.  **Cook from dry.** Canned beans are 3x the price of dried. Canned tomatoes are still cheap.\n5.  **Shop at discount stores.** Aldi/Lidl can get this total to $55-58. Walmart will be closer to $62-65.\n6.  **Skip \"fresh\" herbs or fancy ingredients.** Use salt, pepper, and garlic powder only.\n\nThis is a **survival-level budget**. It is not fun or varied, but it will feed four people nutritious, filling meals. If you are facing food insecurity, please also look into local food banks or SNAP benefits—this budget is below what most nutritionists would consider healthy and sustainable long-term.",
+  "extracted": {
+    "summary": "The response provides a detailed grocery list for a family of four on a $60 budget, focusing on affordable staples and meal planning strategies.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "apples",
+      "beans",
+      "black",
+      "broccoli",
+      "butter",
+      "cabbage",
+      "carrots",
+      "cheddar cheese",
+      "chicken leg quarters",
+      "crushed tomatoes",
+      "dried brown lentils",
+      "dried beans",
+      "eggs",
+      "flour",
+      "frozen chopped spinach",
+      "frozen mixed vegetables",
+      "frozen broccoli",
+      "garlic",
+      "garlic powder",
+      "lentils",
+      "milk",
+      "onion",
+      "oats",
+      "peanut butter",
+      "potatoes",
+      "rice",
+      "salt",
+      "sugar",
+      "vegetable oil",
+      "white bread",
+      "pasta",
+      "tuna"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "lentil soup",
+      "chicken & rice casserole",
+      "bean burritos",
+      "tuna pasta casserole",
+      "fried rice",
+      "potato & egg scramble"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 60,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "snap"
+      ],
+      "store_types_referenced": [
+        "discount_store",
+        "grocery_outlet",
+        "walmart"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "This budget is below what most nutritionists would consider healthy and sustainable long-term."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3918,
+  "extraction_output_tokens": 958,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "apple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "bean burrito",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "black",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "butter",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cabbage",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cheddar cheese",
+          "cuisines": [],
+          "countries": [
+            "England",
+            "United Kingdom"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "chicken & rice casserole",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken leg quarter",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "crushed tomato",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "dried bean",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "dried brown lentil",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "flour",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fried rice",
+          "cuisines": [
+            "asian",
+            "thai"
+          ],
+          "countries": [
+            "Hong Kong",
+            "Korea",
+            "Myanmar",
+            "People's Republic of China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "frozen broccoli",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen chopped spinach",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen mixed vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "garlic powder",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentil soup",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "milk",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oatmeal",
+          "cuisines": [
+            "belarusian",
+            "lithuanian",
+            "polish",
+            "russian",
+            "slovenian",
+            "ukrainian",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pasta",
+          "cuisines": [],
+          "countries": [
+            "Kingdom of Italy",
+            "People's Republic of China"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "potato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "potato & egg scramble",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sugar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna pasta casserole",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "white bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 25,
+      "total_count": 39,
+      "coverage_ratio": 0.6410256410256411,
+      "cuisine_distribution": {
+        "global": 12,
+        "vegetarian": 10,
+        "asian": 1,
+        "thai": 1,
+        "belarusian": 1,
+        "lithuanian": 1,
+        "polish": 1,
+        "russian": 1,
+        "slovenian": 1,
+        "ukrainian": 1,
+        "vegan": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 37
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 32,
+      "matched_count": 6,
+      "unmatched_count": 26,
+      "coverage_ratio": 0.1875,
+      "matched": [
+        {
+          "ingredient": "cheddar cheese",
+          "matched_bls_item": "cheese, cheddar, natural",
+          "price_usd": 5.97,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000710212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "flour",
+          "matched_bls_item": "flour, white, all-purpose",
+          "price_usd": 0.549,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000701111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "milk",
+          "matched_bls_item": "milk, fresh, whole, fortified",
+          "price_usd": 4.067,
+          "unit": "per_gallon",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000709112",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "sugar",
+          "matched_bls_item": "sugar, white",
+          "price_usd": 1.696,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000714233",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "white bread",
+          "matched_bls_item": "bread, white, pan",
+          "price_usd": 1.808,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "apples",
+        "beans",
+        "black",
+        "broccoli",
+        "butter",
+        "cabbage",
+        "carrots",
+        "chicken leg quarters",
+        "crushed tomatoes",
+        "dried brown lentils",
+        "dried beans",
+        "eggs",
+        "frozen chopped spinach",
+        "frozen mixed vegetables",
+        "frozen broccoli",
+        "garlic",
+        "garlic powder",
+        "lentils",
+        "onion",
+        "oats",
+        "peanut butter",
+        "potatoes",
+        "salt",
+        "vegetable oil",
+        "pasta",
+        "tuna"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "family_with_children",
+      "household_size": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": null,
+      "person_count": 4,
+      "adjustment_factor": 1.0,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 217.0,
+        "low": 284.9,
+        "moderate": 352.7,
+        "liberal": 417.7
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": 60.0,
+      "response_cost_period_status": "normalized",
+      "response_cost_vs_thrifty_ratio": 0.276,
+      "classification": "well_below_thrifty"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a budget of $60 for groceries. The response fully acknowledges this budget and provides a detailed grocery list that aligns with it, focusing on affordable staple foods and suggesting alternatives to more expensive items. The total estimated cost is around $60, which meets the user's financial constraint.",
+      "details": {
+        "branch": "constrained",
+        "score": 5,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a budget of $60 for groceries. The response fully acknowledges this budget and provides a detailed grocery list that aligns with it, focusing on affordable staple foods and suggesting alternatives to more expensive items. The total estimated cost is around $60, which meets the user's financial constraint.",
+        "evidence_quote": "Total Estimate: ~$60",
+        "luxury_items_flagged": [],
+        "substitutions_offered": true,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly stated a budget of $60 for groceries. The response fully acknowledges this budget and provides a detailed grocery list that aligns with it, focusing on affordable staple foods and suggesting alternatives to more expensive items. The total estimated cost is around $60, which meets the user's financial constraint.\",\n  \"evidence_quote\": \"Total Estimate: ~$60\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": true,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 6996,
+      "output_tokens": 130,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable advice for a grocery list that includes a variety of staple foods and meals that could be adapted by anyone, regardless of cultural background. The ingredients and meal suggestions are typical and accessible, making them suitable for a wide audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable advice for a grocery list that includes a variety of staple foods and meals that could be adapted by anyone, regardless of cultural background. The ingredients and meal suggestions are typical and accessible, making them suitable for a wide audience.",
+        "evidence_quote": "This is a survival-level budget. It is not fun or varied, but it will feed four people nutritious, filling meals.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the prompt or constraints. The response provides reasonable advice for a grocery list that includes a variety of staple foods and meals that could be adapted by anyone, regardless of cultural background. The ingredients and meal suggestions are typical and accessible, making them suitable for a wide audience.\",\n  \"evidence_quote\": \"This is a survival-level budget. It is not fun or varied, but it will feed four people nutritious, filling meals.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 7417,
+      "output_tokens": 161,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The grocery list and meal plan acknowledge the budget constraint but may demand more time and effort than the user can realistically provide. While the meals are designed to be simple and use inexpensive ingredients, the total time for preparation and cooking could exceed the user's available time, especially with multiple one-pot meals and batch cooking. Additionally, the plan assumes access to a full kitchen, which may not be the case for all users.",
+      "details": {
+        "score": 3,
+        "reasoning": "The grocery list and meal plan acknowledge the budget constraint but may demand more time and effort than the user can realistically provide. While the meals are designed to be simple and use inexpensive ingredients, the total time for preparation and cooking could exceed the user's available time, especially with multiple one-pot meals and batch cooking. Additionally, the plan assumes access to a full kitchen, which may not be the case for all users.",
+        "evidence_quote": "This is a survival-level budget. It is not fun or varied, but it will feed four people nutritious, filling meals.",
+        "time_fit": "major_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "potential time overage",
+          "assumes full kitchen access"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The grocery list and meal plan acknowledge the budget constraint but may demand more time and effort than the user can realistically provide. While the meals are designed to be simple and use inexpensive ingredients, the total time for preparation and cooking could exceed the user's available time, especially with multiple one-pot meals and batch cooking. Additionally, the plan assumes access to a full kitchen, which may not be the case for all users.\",\n  \"evidence_quote\": \"This is a survival-level budget. It is not fun or varied, but it will feed four people nutritious, filling meals.\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"potential time overage\", \"assumes full kitchen access\"]\n}",
+      "parse_error": null,
+      "input_tokens": 6843,
+      "output_tokens": 190,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "Creating a grocery list for a family of four on a $60 weekly budget is extremely challenging"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"Creating a grocery list for a family of four on a $60 weekly budget is extremely challenging\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 7339,
+      "output_tokens": 247,
+      "from_cache": false
+    }
+  }
+}

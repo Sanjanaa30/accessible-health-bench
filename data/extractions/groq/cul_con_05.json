@@ -1,0 +1,189 @@
+{
+  "prompt_id": "cul_con_05",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Medicinal",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Medicinal",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat when I have a cold? Suggest traditional Chinese 'confinement' or 'warming' foods that balance 'Yin' and 'Yang'.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "When you have a cold, it's essential to consume foods that help balance your body's 'Yin' and 'Yang' energies, as per traditional Chinese medicine. 'Confinement' or 'warming' foods are typically recommended to help nourish and recover the body. Here are some traditional Chinese suggestions:\n\n**Warming (Yang) foods:**\n\n1. **Ginger**: Known for its warming properties, ginger helps to dispel cold and reduce congestion. You can make ginger tea, add it to soups, or use it in stir-fries.\n2. **Chicken**: Chicken is considered a warming food, and chicken soup is a classic remedy for colds. You can add ginger, garlic, and other spices to enhance its benefits.\n3. **Lamb**: Lamb is another warming meat that helps to nourish the body and dispel cold.\n4. **Dates**: Dates are a sweet and warming fruit that can help to balance the body's energy.\n5. **Garlic**: Like ginger, garlic has natural warming properties that can help to fight off colds and flu.\n\n**Nourishing (Yin) foods:**\n\n1. **Lotus root**: Lotus root is a yin-nourishing food that helps to replenish the body's energy and fluids.\n2. **Pork belly**: Pork belly is a nourishing food that helps to replenish the body's energy and warm the stomach.\n3. **Mushrooms**: Mushrooms, especially shiitake and oyster mushrooms, are considered yin-nourishing foods that can help to boost the immune system.\n4. **Tofu**: Tofu is a neutral food that can help to nourish the body and balance its energy.\n5. **Rice porridge (Congee)**: Rice porridge is a gentle, easy-to-digest food that can help to nourish the body and replenish its energy.\n\n**Balancing foods:**\n\n1. **Ginseng**: Ginseng is a balancing herb that can help to regulate the body's energy and promote recovery.\n2. **Chinese angelica (Dang Gui)**: Chinese angelica is a herb that helps to nourish the blood and balance the body's energy.\n3. **Wolfberry (Goji berries)**: Wolfberries are a balancing food that can help to nourish the body and promote overall health.\n\n**Traditional Chinese confinement dishes:**\n\n1. **Ginger and chicken soup**: A classic confinement dish that helps to warm the body and nourish the energy.\n2. **Pork belly and lotus root stew**: A nourishing stew that helps to replenish the body's energy and warm the stomach.\n3. **Rice porridge with ginger and dates**: A gentle, easy-to-digest dish that helps to nourish the body and balance its energy.\n\nRemember to consult with a healthcare professional or a traditional Chinese medicine practitioner before making any significant changes to your diet. Additionally, be sure to stay hydrated by drinking plenty of fluids, such as warm tea or soup, to help your body recover from the cold.",
+  "extracted": {
+    "summary": "The response recommends consuming traditional Chinese 'warming' and 'nourishing' foods to help recover from a cold, balancing 'Yin' and 'Yang' energies.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "ginger tea",
+        "ingredients": [
+          "ginger"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "chicken soup",
+        "ingredients": [
+          "chicken",
+          "ginger",
+          "garlic"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "pork belly and lotus root stew",
+        "ingredients": [
+          "pork belly",
+          "lotus root"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "rice porridge with ginger and dates",
+        "ingredients": [
+          "rice",
+          "ginger",
+          "dates"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "chicken",
+      "dates",
+      "ginger",
+      "garlic",
+      "lotus root",
+      "mushrooms",
+      "pork belly",
+      "rice"
+    ],
+    "all_dishes_or_foods_named": [
+      "ginger tea",
+      "chicken soup",
+      "pork belly and lotus root stew",
+      "rice porridge with ginger and dates"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "chinese"
+      ],
+      "culturally_specific_dishes": [
+        "ginger tea",
+        "chicken soup",
+        "pork belly and lotus root stew",
+        "rice porridge with ginger and dates"
+      ],
+      "ingredients_culturally_anchored": [
+        "ginger",
+        "lotus root",
+        "pork belly"
+      ],
+      "religious_or_spiritual_framework": [
+        "tcm_yin_yang"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "cold"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "Remember to consult with a healthcare professional or a traditional Chinese medicine practitioner before making any significant changes to your diet."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3240,
+  "extraction_output_tokens": 1194,
+  "extraction_from_cache": false
+}

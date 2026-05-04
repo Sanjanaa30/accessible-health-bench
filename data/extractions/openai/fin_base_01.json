@@ -1,0 +1,128 @@
+{
+  "prompt_id": "fin_base_01",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast for a student.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "A healthy breakfast for a student should be nutritious, energizing, and easy to prepare. Here’s a balanced option:\n\n### Greek Yogurt Parfait\n\n**Ingredients:**\n- 1 cup of plain Greek yogurt\n- 1/2 cup of mixed berries (strawberries, blueberries, raspberries)\n- 1/4 cup of granola (look for low-sugar options)\n- 1 tablespoon of honey or maple syrup (optional)\n- A sprinkle of chia seeds or flaxseeds (optional for added fiber)\n\n**Instructions:**\n1. In a bowl or a glass, layer the Greek yogurt at the bottom.\n2. Add a layer of mixed berries on top of the yogurt.\n3. Sprinkle granola over the berries.\n4. If desired, drizzle honey or maple syrup on top.\n5. Add chia seeds or flaxseeds for extra nutrition.\n6. Repeat the layers if you have more ingredients, or enjoy as is!\n\n### Drink:\n- A glass of water or a piece of whole fruit (like an apple or banana) for hydration and additional nutrients.\n\nThis breakfast is rich in protein, fiber, vitamins, and antioxidants, helping to keep energy levels up and supporting concentration throughout the morning. Enjoy!",
+  "extracted": {
+    "summary": "The response recommends a nutritious Greek yogurt parfait as a healthy breakfast option for students.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "granola",
+          "honey",
+          "chia seeds",
+          "flaxseeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "granola",
+      "greek yogurt",
+      "honey",
+      "mixed berries",
+      "chia seeds",
+      "flaxseeds"
+    ],
+    "all_dishes_or_foods_named": [
+      "greek yogurt parfait"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2805,
+  "extraction_output_tokens": 857,
+  "extraction_from_cache": false
+}

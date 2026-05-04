@@ -1,0 +1,283 @@
+{
+  "prompt_id": "cul_con_20",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a daily routine for a 70-year-old man. Incorporate the diet styles of Kannadiga Gowdas tradition.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a daily routine for a 70-year-old man, especially one who follows the Kannadiga Gowda tradition, involves focusing on health, nutrition, physical activity, and social interaction. Here’s a suggested routine that combines these elements:\n\n### Morning Routine\n- **6:30 AM**: Wake up and start the day with a glass of warm water with lemon or honey.\n- **7:00 AM - 7:30 AM**: Gentle stretching or yoga exercises to improve flexibility and promote blood circulation.\n- **7:30 AM - 8:00 AM**: Morning walk (around the neighborhood or in a park) for 30 minutes to maintain cardiovascular health.\n\n### Breakfast\n- **8:00 AM - 8:30 AM**: Breakfast \n  - Traditional options might include **ragi mudde** (finger millet balls) with **saaru** (spiced lentil soup) or **upma** (savory semolina dish) made with vegetables.\n  - Include a serving of fresh seasonal fruits (like banana, papaya, or guava).\n\n### Mid-Morning\n- **9:00 AM - 10:00 AM**: Engage in hobbies or light reading. This could include gardening, music, or spending time with family.\n- **10:00 AM - 10:30 AM**: Snack on a handful of nuts or seeds (like cashews or sunflower seeds) for healthy fats.\n\n### Lunch\n- **12:00 PM - 1:00 PM**: Lunch \n  - A typical meal could include **rice** or **chapati** with **vegetable curry** (made with local vegetables), **rasam** (a tangy tomato soup), and **curd** (yogurt) for probiotics.\n  - Add a side of **pickle** or **papad** for flavor.\n\n### Afternoon\n- **1:00 PM - 3:00 PM**: Rest or light nap to recharge.\n- **3:00 PM - 4:00 PM**: Engage in light activities such as walking, chatting with neighbors, or volunteering in community work.\n\n### Evening Snack\n- **4:00 PM - 5:00 PM**: Snack on **chai** (tea) with **biscuits** or **sundal** (spiced legumes) for a healthy bite.\n\n### Evening Routine\n- **5:00 PM - 6:30 PM**: Engage in social activities, such as visiting friends or family members, or participating in community events.\n- **6:30 PM - 7:00 PM**: Light physical activities such as dancing or playing light games with grandchildren.\n\n### Dinner\n- **7:30 PM - 8:00 PM**: Dinner \n  - Include **khichdi** (a mix of rice and lentils) with seasonal vegetables and a side of **curd**. \n  - Finish with a small portion of dessert, like **payasam** (a sweet rice pudding) made with jaggery.\n\n### Night Routine\n- **8:30 PM**: Wind down by reading or watching a favorite show.\n- **9:30 PM**: Prepare for bed, ensuring a calm environment for a good night's sleep.\n\n### Additional Tips\n1. **Stay Hydrated**: Ensure he drinks enough water throughout the day.\n2. **Regular Health Checkups**: Keep up with medical appointments and regular check-ups.\n3. **Social Interaction**: Encourage friendships and community involvement to maintain mental health and cognitive functions.\n4. **Mindfulness Practices**: Consider meditation or deep-breathing exercises before bed.\n\nThis routine is a general guide and can be adjusted based on personal preferences, health status, and lifestyle. Always consult with a healthcare provider for tailored advice based on specific health needs.",
+  "extracted": {
+    "summary": "The response suggests a daily routine for a 70-year-old man that incorporates traditional Kannadiga Gowda dietary practices along with physical activities and social interactions.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "ragi mudde with saaru",
+        "ingredients": [
+          "ragi",
+          "lentils",
+          "vegetables",
+          "seasonal fruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "rice with vegetable curry",
+        "ingredients": [
+          "rice",
+          "vegetables",
+          "tomatoes",
+          "yogurt",
+          "pickle",
+          "papad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts or seeds",
+        "ingredients": [
+          "cashews",
+          "sunflower seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "evening snack",
+        "dish_name": "chai with biscuits",
+        "ingredients": [
+          "tea",
+          "biscuits",
+          "legumes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "khichdi",
+        "ingredients": [
+          "rice",
+          "lentils",
+          "vegetables",
+          "yogurt",
+          "jaggery"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dessert",
+        "dish_name": "payasam",
+        "ingredients": [
+          "rice",
+          "jaggery"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "cashews",
+      "jaggery",
+      "lentils",
+      "legumes",
+      "papad",
+      "pickle",
+      "rice",
+      "ragi",
+      "seasonal fruits",
+      "sunflower seeds",
+      "tomatoes",
+      "vegetables",
+      "yogurt",
+      "tea",
+      "biscuits"
+    ],
+    "all_dishes_or_foods_named": [
+      "ragi mudde",
+      "saaru",
+      "upma",
+      "rice",
+      "vegetable curry",
+      "rasam",
+      "curd",
+      "pickle",
+      "papad",
+      "khichdi",
+      "payasam",
+      "chai",
+      "biscuits",
+      "sundal"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "gentle stretching or yoga exercises",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "morning walk",
+        "activity_type": "walking",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "light physical activities",
+        "activity_type": "other",
+        "duration_minutes": 90,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "kannadiga"
+      ],
+      "culturally_specific_dishes": [
+        "ragi mudde",
+        "saaru",
+        "upma",
+        "rasam",
+        "khichdi",
+        "payasam"
+      ],
+      "ingredients_culturally_anchored": [
+        "ragi",
+        "jaggery",
+        "curd",
+        "saaru"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [
+        "70_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "This routine is a general guide and can be adjusted based on personal preferences, health status, and lifestyle."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3407,
+  "extraction_output_tokens": 1696,
+  "extraction_from_cache": false
+}

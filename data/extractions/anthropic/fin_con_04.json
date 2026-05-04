@@ -1,0 +1,123 @@
+{
+  "prompt_id": "fin_con_04",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a grocery list for a family of four for one week. Our total budget is $60.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Weekly Grocery List for 4 People ($60 Budget)\n\n## Proteins ($18)\n- Eggs (2 dozen) - $6\n- Chicken thighs (3 lbs) - $7\n- Canned tuna (3 cans) - $3\n- Peanut butter - $2\n\n## Grains & Carbs ($12)\n- Rice (2 lbs) - $3\n- Pasta (2 boxes) - $2\n- Oats - $2\n- Bread (2 loaves) - $4\n- Potatoes (5 lbs) - $3\n\n## Vegetables ($15)\n- Carrots (2 lbs) - $2\n- Onions (3 lbs) - $2\n- Cabbage (1 head) - $2\n- Canned beans (4 cans) - $3\n- Frozen mixed vegetables (2 bags) - $4\n- Bananas (1 bunch) - $1\n- Apples (3 lbs) - $2\n\n## Dairy & Basics ($12)\n- Milk (1 gallon) - $3\n- Cheese (8 oz) - $3\n- Butter - $3\n- Oil & salt - $3\n\n## Tips to Stretch Your Budget\n- Cook in bulk and use leftovers for multiple meals\n- Eggs are affordable protein for breakfast or dinner\n- Rice and pasta are filling staples\n- Buy store brands\n- Plan meals around what's on sale",
+  "extracted": {
+    "summary": "The response provides a detailed grocery list for a family of four, adhering to a budget of $60 for one week.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "eggs",
+      "chicken thighs",
+      "canned tuna",
+      "peanut butter",
+      "rice",
+      "pasta",
+      "oats",
+      "bread",
+      "potatoes",
+      "carrots",
+      "onions",
+      "cabbage",
+      "canned beans",
+      "frozen mixed vegetables",
+      "bananas",
+      "apples",
+      "milk",
+      "cheese",
+      "butter",
+      "oil",
+      "salt"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 60,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2906,
+  "extraction_output_tokens": 800,
+  "extraction_from_cache": false
+}

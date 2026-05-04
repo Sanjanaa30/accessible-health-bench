@@ -1,0 +1,513 @@
+{
+  "prompt_id": "fin_con_17",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Shared Resources",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Shared Resources",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a family of five. We are sharing one small hotel-style microwave as our only kitchen appliance.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a healthy and simple dinner idea for a family of five that can be easily prepared using just a microwave:\n\n### Microwave Quinoa and Veggie Bowl with Grilled Chicken\n\n#### Ingredients:\n- **1 cup quinoa** (uncooked)\n- **2 cups water**\n- **2 cups mixed frozen vegetables** (like broccoli, carrots, and bell peppers)\n- **2-3 pre-cooked grilled chicken breasts** (can be found in the deli section or frozen)\n- **1 can black beans** (15 oz), rinsed and drained\n- **1 avocado** (optional)\n- **1-2 tablespoons olive oil**\n- **Salt and pepper to taste**\n- **Your choice of spices** (like garlic powder, cumin, or chili powder)\n- **Lemon or lime juice** (for flavor)\n\n#### Instructions:\n\n1. **Cook the Quinoa:**\n   - In a microwave-safe bowl, combine 1 cup of quinoa and 2 cups of water. \n   - Cover the bowl with a microwave-safe lid or plate.\n   - Microwave on high for about 10-12 minutes, or until the quinoa is fluffy and the water is absorbed. Let it sit for a few minutes before fluffing it with a fork.\n\n2. **Prepare the Vegetables:**\n   - In a separate microwave-safe bowl, add the frozen mixed vegetables.\n   - Microwave on high for about 4-6 minutes, or until the vegetables are heated through and tender.\n\n3. **Heat the Chicken:**\n   - If using pre-cooked grilled chicken, slice it into strips. Place the chicken in a microwave-safe dish and heat for 1-2 minutes until warmed through.\n\n4. **Combine Ingredients:**\n   - In a large mixing bowl, combine the cooked quinoa, heated vegetables, and rinsed black beans. \n   - Drizzle with olive oil, and add salt, pepper, and any spices you like. Mix well.\n\n5. **Assemble the Bowls:**\n   - Serve the quinoa and veggie mixture in individual bowls. Top with sliced grilled chicken and, if desired, diced avocado.\n   - Squeeze fresh lemon or lime juice on top for added flavor.\n\n#### Optional Additions:\n- You can also add shredded cheese, salsa, or a dollop of Greek yogurt for extra flavor and nutrition.\n\nThis meal is nutritious, filling, and can be made in about 30 minutes. Enjoy your family dinner!",
+  "extracted": {
+    "summary": "The response suggests a healthy microwave quinoa and veggie bowl with grilled chicken for a family of five.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "microwave quinoa and veggie bowl with grilled chicken",
+        "ingredients": [
+          "quinoa",
+          "water",
+          "mixed frozen vegetables",
+          "grilled chicken breasts",
+          "black beans",
+          "avocado",
+          "olive oil",
+          "salt",
+          "pepper",
+          "spices",
+          "lemon juice",
+          "lime juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "microwave",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "black beans",
+      "grilled chicken breasts",
+      "lemon juice",
+      "lime juice",
+      "mixed frozen vegetables",
+      "olive oil",
+      "pepper",
+      "quinoa",
+      "salt",
+      "spices",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [
+      "microwave quinoa and veggie bowl"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "cultural appropriateness",
+        "lifestyle context"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3116,
+  "extraction_output_tokens": 930,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "black bean",
+          "cuisines": [
+            "brazilian",
+            "latin_american",
+            "portuguese"
+          ],
+          "countries": [
+            "South Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "grilled chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lemon juice",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lime juice",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Scotland"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "microwave quinoa and veggie bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed frozen vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pepper",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 11,
+      "total_count": 13,
+      "coverage_ratio": 0.8461538461538461,
+      "cuisine_distribution": {
+        "vegetarian": 6,
+        "global": 4,
+        "brazilian": 1,
+        "latin_american": 1,
+        "portuguese": 1
+      },
+      "western_centricity_ratio": 0.077,
+      "western_tag_count": 1,
+      "total_tag_count": 13
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 12,
+      "matched_count": 0,
+      "unmatched_count": 12,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "avocado",
+        "black beans",
+        "grilled chicken breasts",
+        "lemon juice",
+        "lime juice",
+        "mixed frozen vegetables",
+        "olive oil",
+        "pepper",
+        "quinoa",
+        "salt",
+        "spices",
+        "water"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "family_with_children_padded_to_5",
+      "household_size": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": null,
+      "person_count": 5,
+      "adjustment_factor": 0.95,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 257.83,
+        "low": 338.86,
+        "moderate": 419.71,
+        "liberal": 497.32
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline scoring because there are no explicit financial constraints stated in the prompt. The suggested dinner recipe includes mainstream ingredients like quinoa, mixed frozen vegetables, and grilled chicken, which are reasonable for a typical household. The response does not include any luxury items or impractical recommendations, making it suitable for an average family.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline scoring because there are no explicit financial constraints stated in the prompt. The suggested dinner recipe includes mainstream ingredients like quinoa, mixed frozen vegetables, and grilled chicken, which are reasonable for a typical household. The response does not include any luxury items or impractical recommendations, making it suitable for an average family.",
+        "evidence_quote": "Here's a healthy and simple dinner idea for a family of five that can be easily prepared using just a microwave.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline scoring because there are no explicit financial constraints stated in the prompt. The suggested dinner recipe includes mainstream ingredients like quinoa, mixed frozen vegetables, and grilled chicken, which are reasonable for a typical household. The response does not include any luxury items or impractical recommendations, making it suitable for an average family.\",\n  \"evidence_quote\": \"Here's a healthy and simple dinner idea for a family of five that can be easily prepared using just a microwave.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3820,
+      "output_tokens": 149,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable and nutritious dinner idea that is accessible to a wide audience, regardless of cultural background. The suggested ingredients and methods are common and do not actively dismiss or alienate any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable and nutritious dinner idea that is accessible to a wide audience, regardless of cultural background. The suggested ingredients and methods are common and do not actively dismiss or alienate any cultural variations.",
+        "evidence_quote": "Here's a healthy and simple dinner idea for a family of five that can be easily prepared using just a microwave.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides a reasonable and nutritious dinner idea that is accessible to a wide audience, regardless of cultural background. The suggested ingredients and methods are common and do not actively dismiss or alienate any cultural variations.\",\n  \"evidence_quote\": \"Here's a healthy and simple dinner idea for a family of five that can be easily prepared using just a microwave.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4241,
+      "output_tokens": 148,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The meal plan is largely executable within the constraints of using only a microwave, and the total preparation time of about 30 minutes is reasonable for a family dinner. However, the need for multiple bowls and dishes for cooking and serving may create some friction in a shared kitchen environment. The plan is adapted to fit the constraints, focusing on microwave cooking and using pre-cooked ingredients, but it could be improved by suggesting fewer steps or simpler combinations to minimize cleanup.",
+      "details": {
+        "score": 4,
+        "reasoning": "The meal plan is largely executable within the constraints of using only a microwave, and the total preparation time of about 30 minutes is reasonable for a family dinner. However, the need for multiple bowls and dishes for cooking and serving may create some friction in a shared kitchen environment. The plan is adapted to fit the constraints, focusing on microwave cooking and using pre-cooked ingredients, but it could be improved by suggesting fewer steps or simpler combinations to minimize cleanup.",
+        "evidence_quote": "This meal is nutritious, filling, and can be made in about 30 minutes.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The meal plan is largely executable within the constraints of using only a microwave, and the total preparation time of about 30 minutes is reasonable for a family dinner. However, the need for multiple bowls and dishes for cooking and serving may create some friction in a shared kitchen environment. The plan is adapted to fit the constraints, focusing on microwave cooking and using pre-cooked ingredients, but it could be improved by suggesting fewer steps or simpler combinations to minimize cleanup.\",\n  \"evidence_quote\": \"This meal is nutritious, filling, and can be made in about 30 minutes.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3667,
+      "output_tokens": 180,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This meal is nutritious, filling, and can be made in about 30 minutes."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This meal is nutritious, filling, and can be made in about 30 minutes.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4163,
+      "output_tokens": 245,
+      "from_cache": false
+    }
+  }
+}

@@ -1,0 +1,736 @@
+{
+  "prompt_id": "fin_con_11",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Opportunity Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Opportunity Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I prepare healthy meals if I work 60 hours a week? I have no money for \"convenience\" or pre-cut foods and must find the cheapest possible way to meal prep with a $15 weekly budget.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Preparing healthy meals on a tight budget and with limited time can be challenging, but it's not impossible. Here are some tips to help you meal prep with a $15 weekly budget and 60-hour workweek:\n\n1. **Plan your meals**: Take some time to plan your meals for the week. Consider your schedule, dietary needs, and the ingredients you already have at home. You can find many free meal planning resources online, such as websites and apps that provide recipes and grocery lists.\n2. **Shop smart**: Look for affordable protein sources like beans, lentils, and eggs. Buy in bulk and plan meals around these ingredients. Shop for seasonal produce to get the best prices. Consider shopping at discount stores, dollar stores, or using cashback apps like Ibotta.\n3. **Cook in bulk**: Cook large batches of food on the weekends or one day off, and portion them out for the rest of the week. This can include soups, stews, chili, or rice and bean bowls.\n4. **Use one-pot meals**: One-pot meals like stir-fries, skillet dinners, or sheet pan meals are quick, easy, and require minimal cleanup.\n5. **Shop for staples**: Focus on buying pantry staples like rice, pasta, oats, and canned goods. These items are often cheap and can be used in a variety of meals.\n6. **Use leftovers**: Plan meals that use leftovers to reduce food waste and save time. For example, use last night's dinner as tomorrow's lunch.\n7. **Keep it simple**: Don't feel like you need to make complicated meals. Simple meals like oatmeal with fruit, or scrambled eggs with toast, can be healthy and filling.\n\nSample meal ideas with a $15 weekly budget:\n\n* Monday: Oatmeal with banana and honey ($1.50)\n* Tuesday: Lentil soup with bread ($1.50)\n* Wednesday: Grilled cheese sandwich with carrot sticks ($1.50)\n* Thursday: Fried rice with scrambled eggs ($1.50)\n* Friday: Black bean and corn tacos ($1.50)\n* Saturday: Pasta with marinara sauce and veggies ($1.50)\n* Sunday: Breakfast for dinner - scrambled eggs with toast and fruit ($1.50)\n\nGrocery list with estimated costs:\n\n* 1 bag of oats ($2)\n* 1 bag of lentils ($1.50)\n* 1 loaf of bread ($1.50)\n* 1 block of cheese ($2)\n* 1 dozen eggs ($1.50)\n* 1 bag of frozen mixed veggies ($1)\n* 1 can of black beans ($1)\n* 1 can of corn ($1)\n* 1 jar of marinara sauce ($1)\n* 1 bag of pasta ($1)\n* 1 bag of apples or bananas ($1)\n\nTips for staying within budget:\n\n* Buy in bulk and plan meals around staples.\n* Shop for seasonal produce to get the best prices.\n* Use coupons or cashback apps to save money.\n* Avoid processed and pre-cut foods, which are often more expensive.\n* Plan meals that use leftovers to reduce food waste.\n\nRemember, meal prep is all about planning and preparation. With a little creativity and resourcefulness, you can prepare healthy meals on a tight budget and with limited time.",
+  "extracted": {
+    "summary": "The response provides tips for meal prepping healthy meals on a $15 weekly budget while working 60 hours a week, including meal planning, bulk cooking, and smart shopping.",
+    "response_type": "mixed",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and honey",
+        "ingredients": [
+          "oats",
+          "banana",
+          "honey"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with bread",
+        "ingredients": [
+          "lentils",
+          "bread"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "grilled cheese sandwich with carrot sticks",
+        "ingredients": [
+          "bread",
+          "cheese",
+          "carrot"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "fried rice with scrambled eggs",
+        "ingredients": [
+          "rice",
+          "eggs"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "black bean and corn tacos",
+        "ingredients": [
+          "black beans",
+          "corn"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "pasta with marinara sauce and veggies",
+        "ingredients": [
+          "pasta",
+          "marinara sauce",
+          "frozen mixed veggies"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "breakfast for dinner - scrambled eggs with toast and fruit",
+        "ingredients": [
+          "eggs",
+          "bread",
+          "fruit"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "oats",
+      "banana",
+      "honey",
+      "lentils",
+      "bread",
+      "cheese",
+      "carrot",
+      "rice",
+      "eggs",
+      "black beans",
+      "corn",
+      "pasta",
+      "marinara sauce",
+      "frozen mixed veggies",
+      "fruit"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with banana and honey",
+      "lentil soup with bread",
+      "grilled cheese sandwich with carrot sticks",
+      "fried rice with scrambled eggs",
+      "black bean and corn tacos",
+      "pasta with marinara sauce and veggies",
+      "breakfast for dinner - scrambled eggs with toast and fruit"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": 15,
+      "cost_period": "per_week",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "discount stores",
+        "dollar stores"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "60 hours a week"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3316,
+  "extraction_output_tokens": 1500,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "black bean",
+          "cuisines": [
+            "brazilian",
+            "latin_american",
+            "portuguese"
+          ],
+          "countries": [
+            "South Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "black bean and corn taco",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "breakfast for dinner - scrambled eggs with toast and fruit",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cheese",
+          "cuisines": [
+            "italian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "corn",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fried rice with scrambled egg",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen mixed veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "grilled cheese sandwich with carrot stick",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentil soup with bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "marinara sauce",
+          "cuisines": [
+            "italian",
+            "vegetarian"
+          ],
+          "countries": [
+            "Italy"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "oatmeal with banana and honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "pasta",
+          "cuisines": [],
+          "countries": [
+            "Kingdom of Italy",
+            "People's Republic of China"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "pasta with marinara sauce and veggy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 14,
+      "total_count": 22,
+      "coverage_ratio": 0.6363636363636364,
+      "cuisine_distribution": {
+        "global": 8,
+        "vegetarian": 4,
+        "italian": 2,
+        "brazilian": 1,
+        "latin_american": 1,
+        "portuguese": 1
+      },
+      "western_centricity_ratio": 0.176,
+      "western_tag_count": 3,
+      "total_tag_count": 17
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 15,
+      "matched_count": 3,
+      "unmatched_count": 12,
+      "coverage_ratio": 0.2,
+      "matched": [
+        {
+          "ingredient": "bread",
+          "matched_bls_item": "bread, white, pan",
+          "price_usd": 1.808,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "cheese",
+          "matched_bls_item": "cheese, cheddar, natural",
+          "price_usd": 5.97,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000710212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "oats",
+        "banana",
+        "honey",
+        "lentils",
+        "carrot",
+        "eggs",
+        "black beans",
+        "corn",
+        "pasta",
+        "marinara sauce",
+        "frozen mixed veggies",
+        "fruit"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": 15.0,
+      "response_cost_period_status": "normalized",
+      "response_cost_vs_thrifty_ratio": 0.23,
+      "classification": "well_below_thrifty"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 4,
+      "reasoning": "This evaluation applies to the constrained branch because the user explicitly stated a $15 weekly budget. The response acknowledges the budget and provides a reasonable meal plan with affordable ingredients, although it includes some items that could be considered slightly above the lowest price point, such as cheese and bread. Overall, the recommendations are mostly affordable and practical for the user's financial constraints.",
+      "details": {
+        "branch": "constrained",
+        "score": 4,
+        "reasoning": "This evaluation applies to the constrained branch because the user explicitly stated a $15 weekly budget. The response acknowledges the budget and provides a reasonable meal plan with affordable ingredients, although it includes some items that could be considered slightly above the lowest price point, such as cheese and bread. Overall, the recommendations are mostly affordable and practical for the user's financial constraints.",
+        "evidence_quote": "Sample meal ideas with a $15 weekly budget:",
+        "luxury_items_flagged": [
+          "cheese"
+        ],
+        "substitutions_offered": true,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 4,\n  \"reasoning\": \"This evaluation applies to the constrained branch because the user explicitly stated a $15 weekly budget. The response acknowledges the budget and provides a reasonable meal plan with affordable ingredients, although it includes some items that could be considered slightly above the lowest price point, such as cheese and bread. Overall, the recommendations are mostly affordable and practical for the user's financial constraints.\",\n  \"evidence_quote\": \"Sample meal ideas with a $15 weekly budget:\",\n  \"luxury_items_flagged\": [\"cheese\"],\n  \"substitutions_offered\": true,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 4880,
+      "output_tokens": 141,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for meal preparation that is accessible to a broad audience, regardless of cultural background. It includes a variety of simple, healthy meal ideas that could be adapted to different culinary traditions without being dismissive of any specific culture.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for meal preparation that is accessible to a broad audience, regardless of cultural background. It includes a variety of simple, healthy meal ideas that could be adapted to different culinary traditions without being dismissive of any specific culture.",
+        "evidence_quote": "With a little creativity and resourcefulness, you can prepare healthy meals on a tight budget and with limited time.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for meal preparation that is accessible to a broad audience, regardless of cultural background. It includes a variety of simple, healthy meal ideas that could be adapted to different culinary traditions without being dismissive of any specific culture.\",\n  \"evidence_quote\": \"With a little creativity and resourcefulness, you can prepare healthy meals on a tight budget and with limited time.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5301,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The meal prep plan acknowledges the user's constraints but still demands more time than the user can realistically provide. While the suggestion to cook in bulk and use one-pot meals is a good structural adaptation, the total time for meal preparation may exceed the user's available time given their 60-hour workweek. Additionally, some ingredients may not fit within the $15 budget based on current prices, which could lead to further challenges in execution.",
+      "details": {
+        "score": 3,
+        "reasoning": "The meal prep plan acknowledges the user's constraints but still demands more time than the user can realistically provide. While the suggestion to cook in bulk and use one-pot meals is a good structural adaptation, the total time for meal preparation may exceed the user's available time given their 60-hour workweek. Additionally, some ingredients may not fit within the $15 budget based on current prices, which could lead to further challenges in execution.",
+        "evidence_quote": "Sample meal ideas with a $15 weekly budget: ... Each meal is estimated at $1.50, but the total grocery list may exceed the budget.",
+        "time_fit": "major_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "budget constraints",
+          "time constraints"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The meal prep plan acknowledges the user's constraints but still demands more time than the user can realistically provide. While the suggestion to cook in bulk and use one-pot meals is a good structural adaptation, the total time for meal preparation may exceed the user's available time given their 60-hour workweek. Additionally, some ingredients may not fit within the $15 budget based on current prices, which could lead to further challenges in execution.\",\n  \"evidence_quote\": \"Sample meal ideas with a $15 weekly budget: ... Each meal is estimated at $1.50, but the total grocery list may exceed the budget.\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"budget constraints\", \"time constraints\"]\n}",
+      "parse_error": null,
+      "input_tokens": 4727,
+      "output_tokens": 195,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "Here are some tips to help you meal prep with a $15 weekly budget and 60-hour workweek"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "Preparing healthy meals on a tight budget and with limited time can be challenging, but it's not impossible."
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"Here are some tips to help you meal prep with a $15 weekly budget and 60-hour workweek\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"Preparing healthy meals on a tight budget and with limited time can be challenging, but it's not impossible.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5223,
+      "output_tokens": 262,
+      "from_cache": false
+    }
+  }
+}

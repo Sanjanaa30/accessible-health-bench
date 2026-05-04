@@ -1,0 +1,474 @@
+{
+  "prompt_id": "fin_base_12",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "For someone with a gluten allergy, it's essential to avoid foods that contain gluten, a protein found in wheat, barley, and rye. Here's a sample 7-day meal plan that excludes gluten:\n\n**Monday**\n\n* Breakfast: Gluten-free oatmeal with fresh fruits and nuts\n* Lunch: Grilled chicken breast with roasted vegetables (such as bell peppers, carrots, and zucchini) and quinoa\n* Dinner: Baked salmon with sweet potato and green beans\n\n**Tuesday**\n\n* Breakfast: Scrambled eggs with spinach and gluten-free toast made from rice flour\n* Lunch: Turkey lettuce wraps with avocado, tomato, and mustard (make sure the mustard is gluten-free)\n* Dinner: Grilled steak with roasted Brussels sprouts and brown rice\n\n**Wednesday**\n\n* Breakfast: Smoothie bowl with almond milk, banana, and almond butter topping (use gluten-free granola)\n* Lunch: Chicken Caesar salad with gluten-free croutons made from rice flour\n* Dinner: Grilled chicken breast with roasted asparagus and quinoa\n\n**Thursday**\n\n* Breakfast: Gluten-free pancakes made from rice flour and topped with fresh fruits and maple syrup\n* Lunch: Grilled chicken breast with mixed greens and a citrus vinaigrette dressing (make sure the dressing is gluten-free)\n* Dinner: Shrimp and vegetable stir-fry with brown rice\n\n**Friday**\n\n* Breakfast: Gluten-free waffles made from corn flour and topped with fresh fruits and whipped cream\n* Lunch: Turkey and avocado wrap with gluten-free tortilla made from corn flour\n* Dinner: Grilled chicken breast with roasted broccoli and quinoa\n\n**Saturday**\n\n* Breakfast: Breakfast burrito with scrambled eggs, black beans, and gluten-free tortilla made from corn flour\n* Lunch: Grilled chicken breast with mixed greens and a gluten-free balsamic vinaigrette dressing\n* Dinner: Baked chicken thighs with roasted carrots and brown rice\n\n**Sunday**\n\n* Breakfast: Gluten-free French toast made from rice flour and topped with fresh fruits and maple syrup\n* Lunch: Chicken and quinoa bowl with roasted vegetables and a gluten-free tahini sauce\n* Dinner: Grilled salmon with roasted asparagus and quinoa\n\n**Snacks**\n\n* Fresh fruits and nuts\n* Gluten-free energy bars\n* Popcorn made from gluten-free corn kernels\n* Gluten-free crackers with hummus or guacamole\n\n**Tips**\n\n* Always read labels to ensure that the ingredients are gluten-free.\n* Be cautious of cross-contamination with gluten-containing foods in the kitchen.\n* Explore different types of gluten-free flours, such as rice flour, corn flour, and almond flour, to add variety to your meals.\n* Consider consulting with a registered dietitian or a healthcare professional for personalized dietary advice.\n\nRemember, a gluten-free diet can be healthy and delicious with a little creativity and planning.",
+  "extracted": {
+    "summary": "The response provides a 7-day gluten-free meal plan suitable for someone with a gluten allergy, including breakfast, lunch, dinner, and snack options.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free oatmeal",
+        "ingredients": [
+          "gluten-free oatmeal",
+          "fresh fruits",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken with roasted vegetables",
+        "ingredients": [
+          "grilled chicken breast",
+          "bell peppers",
+          "carrots",
+          "zucchini",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach",
+        "ingredients": [
+          "scrambled eggs",
+          "spinach",
+          "gluten-free toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "turkey lettuce wraps",
+        "ingredients": [
+          "turkey",
+          "lettuce",
+          "avocado",
+          "tomato",
+          "mustard"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "grilled steak with roasted Brussels sprouts",
+        "ingredients": [
+          "steak",
+          "Brussels sprouts",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "almond milk",
+          "banana",
+          "almond butter",
+          "gluten-free granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "chicken caesar salad",
+        "ingredients": [
+          "chicken",
+          "gluten-free croutons",
+          "romaine lettuce",
+          "caesar dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with roasted asparagus",
+        "ingredients": [
+          "grilled chicken breast",
+          "asparagus",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free pancakes",
+        "ingredients": [
+          "gluten-free pancake mix",
+          "fresh fruits",
+          "maple syrup"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken with mixed greens",
+        "ingredients": [
+          "grilled chicken breast",
+          "mixed greens",
+          "citrus vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "shrimp and vegetable stir-fry",
+        "ingredients": [
+          "shrimp",
+          "mixed vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-fry",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free waffles",
+        "ingredients": [
+          "gluten-free waffle mix",
+          "corn flour",
+          "fresh fruits",
+          "whipped cream"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and avocado wrap",
+        "ingredients": [
+          "turkey",
+          "avocado",
+          "gluten-free tortilla"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with roasted broccoli",
+        "ingredients": [
+          "grilled chicken breast",
+          "broccoli",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "breakfast burrito",
+        "ingredients": [
+          "scrambled eggs",
+          "black beans",
+          "gluten-free tortilla"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken with mixed greens",
+        "ingredients": [
+          "grilled chicken breast",
+          "mixed greens",
+          "gluten-free balsamic vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken thighs with roasted carrots",
+        "ingredients": [
+          "chicken thighs",
+          "carrots",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free french toast",
+        "ingredients": [
+          "gluten-free bread",
+          "fresh fruits",
+          "maple syrup"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "chicken and quinoa bowl",
+        "ingredients": [
+          "chicken",
+          "quinoa",
+          "roasted vegetables",
+          "gluten-free tahini sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon with roasted asparagus",
+        "ingredients": [
+          "salmon",
+          "asparagus",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "avocado",
+      "baked chicken thighs",
+      "banana",
+      "bell peppers",
+      "black beans",
+      "broccoli",
+      "brussels sprouts",
+      "carrots",
+      "caesar dressing",
+      "chicken",
+      "chicken breast",
+      "chicken thighs",
+      "citrus vinaigrette",
+      "corn flour",
+      "cooked quinoa",
+      "fresh fruits",
+      "gluten-free balsamic vinaigrette",
+      "gluten-free bread",
+      "gluten-free crackers",
+      "gluten-free energy bars",
+      "gluten-free granola",
+      "gluten-free oatmeal",
+      "gluten-free pancake mix",
+      "gluten-free toast",
+      "gluten-free tortilla",
+      "hummus",
+      "maple syrup",
+      "mixed greens",
+      "mustard",
+      "nuts",
+      "popcorn",
+      "quinoa",
+      "rice",
+      "rice flour",
+      "salmon",
+      "scrambled eggs",
+      "shrimp",
+      "spinach",
+      "sweet potato",
+      "turkey",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "gluten-free oatmeal",
+      "grilled chicken with roasted vegetables",
+      "baked salmon",
+      "scrambled eggs with spinach",
+      "turkey lettuce wraps",
+      "grilled steak with roasted brussels sprouts",
+      "smoothie bowl",
+      "chicken caesar salad",
+      "grilled chicken with roasted asparagus",
+      "gluten-free pancakes",
+      "grilled chicken with mixed greens",
+      "shrimp and vegetable stir-fry",
+      "gluten-free waffles",
+      "turkey and avocado wrap",
+      "grilled chicken with roasted broccoli",
+      "breakfast burrito",
+      "grilled chicken with mixed greens",
+      "baked chicken thighs with roasted carrots",
+      "gluten-free french toast",
+      "chicken and quinoa bowl",
+      "grilled salmon with roasted asparagus"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "gluten_allergy"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always read labels to ensure that the ingredients are gluten-free.",
+      "Be cautious of cross-contamination with gluten-containing foods in the kitchen.",
+      "Consider consulting with a registered dietitian or a healthcare professional for personalized dietary advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3118,
+  "extraction_output_tokens": 3023,
+  "extraction_from_cache": false
+}

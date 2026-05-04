@@ -1,0 +1,119 @@
+{
+  "prompt_id": "cul_con_09",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Medicinal Fit",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Medicinal Fit",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a routine to improve my balance and focus. Incorporate the spiritual and 'Asana' elements of Hatha Yoga, not just the physical stretching.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Improving balance and focus through Hatha Yoga can be a profound journey that blends physical postures (asanas), breath control (pranayama), and mindfulness. Here’s a routine that you can follow, which incorporates these elements:\n\n### Hatha Yoga Routine for Balance and Focus\n\n**Duration**: 30-45 minutes  \n**Frequency**: 3-5 times a week  \n**Setting**: A quiet space where you won’t be disturbed, ideally with natural light.\n\n#### 1. **Centering and Intention Setting (5 minutes)**\n\n- **Sit in a Comfortable Position**: Cross-legged or on your heels, with hands resting on your knees.\n- **Close Your Eyes**: Take a few deep breaths. Inhale deeply through the nose, hold for a moment, and exhale slowly through the mouth.\n- **Set an Intention**: Ask yourself what you wish to cultivate in your practice today. Focus on balance and clarity. You might say, \"I am grounded and focused.\"\n  \n#### 2. **Breath Awareness (5 minutes)**\n\n- **Pranayama**: Practice **Nadi Shodhana** (Alternate Nostril Breathing).\n  - Use your right thumb to close your right nostril. Inhale deeply through your left nostril for a count of 4.\n  - Close the left nostril with your right ring finger, release the right nostril, and exhale through it for a count of 4.\n  - Inhale through the right nostril for a count of 4, close it, and exhale through the left for a count of 4.\n  - Repeat for 5 rounds, focusing on your breath.\n\n#### 3. **Warm-Up (5 minutes)**\n\n- **Neck Rolls**: Gently roll your head in circles to release tension.\n- **Shoulder Rolls**: Inhale as you lift your shoulders up towards your ears, exhale as you roll them back.\n- **Cat-Cow Stretch**: On your hands and knees, alternate between arching your back and dropping your belly, synchronizing with your breath.\n\n#### 4. **Asanas for Balance (15-20 minutes)**\n\n- **Tree Pose (Vrksasana)**: Stand tall, shift your weight to one leg, and place the sole of the opposite foot on the inner thigh or calf (avoid the knee). Focus on a point in front of you to maintain balance. Hold for 5-7 breaths on each side.\n\n- **Warrior III (Virabhadrasana III)**: From Warrior I, shift your weight onto your front foot, lift your back leg, and extend your arms forward, creating a straight line from fingertips to toes. Hold for 5-7 breaths on each side.\n\n- **Eagle Pose (Garudasana)**: Stand on one leg, wrap the opposite leg around it, and cross your arms in front of you. Hold for 5-7 breaths on each side.\n\n- **Half Moon Pose (Ardha Chandrasana)**: From a standing position, shift your weight to one leg while extending the opposite leg back. Place one hand on the ground and the other reaching up. Hold for 5-7 breaths on each side.\n\n#### 5. **Mindfulness and Meditation (5-10 minutes)**\n\n- **Seated Meditation**: Return to a comfortable seated position. Focus on your breath. When your mind wanders, gently bring it back to your breath, visualizing balance and clarity.\n- **Visualization**: Picture yourself in a serene environment, like a calm lake or a peaceful forest. Imagine yourself balanced and centered.\n\n#### 6. **Closing (5 minutes)**\n\n- **Savasana (Corpse Pose)**: Lie flat on your back, arms by your sides, palms facing up. Allow your body to relax completely, focusing on your breath and the sensations in your body.\n- **Express Gratitude**: Conclude your practice by expressing gratitude toward yourself for dedicating this time. You may say a silent affirmation or prayer.\n\n### Additional Tips:\n\n- **Stay Present**: Throughout the routine, keep your attention on your breath and body. This will enhance both your focus and balance.\n- **Practice Mindfulness Off the Mat**: Incorporate mindfulness into daily activities, such as walking, eating, or even during conversations.\n- **Consistency is Key**: Regular practice will yield the best results in improving balance and focus.\n\nFeel free to adjust the duration of each segment based on your personal preference and schedule. Enjoy your practice!",
+  "extracted": {
+    "summary": "The response provides a Hatha Yoga routine designed to improve balance and focus, incorporating physical postures, breath control, and mindfulness.",
+    "response_type": "wellness_routine",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "Hatha Yoga Routine",
+        "activity_type": "yoga",
+        "duration_minutes": 30,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "hatha_yoga"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3566,
+  "extraction_output_tokens": 772,
+  "extraction_from_cache": false
+}

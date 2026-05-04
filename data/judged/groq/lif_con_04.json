@@ -1,0 +1,660 @@
+{
+  "prompt_id": "lif_con_04",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a weekly workout plan for someone who cannot go to the gym and can only exercise at home in a small space.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the constraints of exercising at home in a small space, I've created a weekly workout plan that requires minimal equipment and can be adapted to fit a small area. This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.\n\n**Monday (Upper Body):**\n\n1. Warm-up: 5-10 minutes of light cardio (jogging in place, jumping jacks, etc.)\n2. Push-ups: 3 sets of 10-12 reps\n3. Tricep dips (using a chair or bench): 3 sets of 10-12 reps\n4. Arm circles (holding light weights or water bottles): 3 sets of 10-12 reps\n5. Plank: 3 sets of 30-60 seconds\n6. Cool-down: 5-10 minutes of stretching\n\n**Tuesday (Lower Body):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Squats: 3 sets of 10-12 reps\n3. Lunges: 3 sets of 10-12 reps (per leg)\n4. Calf raises: 3 sets of 12-15 reps\n5. Glute bridges: 3 sets of 10-12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Wednesday (Rest day)**\n\n**Thursday (Core):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Russian twists (using a light weight or medicine ball): 3 sets of 10-12 reps\n3. Leg raises (hanging leg raises or lying leg raises): 3 sets of 10-12 reps\n4. Bicycle crunches: 3 sets of 10-12 reps\n5. Plank: 3 sets of 30-60 seconds\n6. Cool-down: 5-10 minutes of stretching\n\n**Friday (Upper Body):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Incline push-ups (using a chair or bench): 3 sets of 10-12 reps\n3. Bicep curls (using light weights or water bottles): 3 sets of 10-12 reps\n4. Tricep extensions (using light weights or water bottles): 3 sets of 10-12 reps\n5. Shoulder press (using light weights or water bottles): 3 sets of 10-12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Saturday (Lower Body):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Step-ups (using a chair or bench): 3 sets of 10-12 reps (per leg)\n3. Wall sits: 3 sets of 60-90 seconds\n4. Calf raises: 3 sets of 12-15 reps\n5. Glute bridges: 3 sets of 10-12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Sunday (Rest day or active recovery)**\n\n**Additional Tips:**\n\n* Start with lighter reps and sets, and gradually increase as you build strength and endurance.\n* Focus on proper form and technique throughout each exercise.\n* Incorporate high-intensity interval training (HIIT) by adding short bursts of intense cardio (20-30 seconds) followed by rest periods (1-2 minutes).\n* Stay hydrated and listen to your body, taking rest days as needed.\n* Consider investing in a few pieces of equipment, such as resistance bands or a jump rope, to add variety to your workouts.\n\nRemember, consistency and patience are key. Stick to the plan, and you'll see improvements in your overall fitness and well-being.",
+  "extracted": {
+    "summary": "The response provides a weekly workout plan designed for home exercise in a small space, focusing on bodyweight exercises with minimal equipment.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "arm circles",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "bicycle crunches",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "incline push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "bicep curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "tricep extensions",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "shoulder press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "step-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "wall sits",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "rest day or active recovery",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3390,
+  "extraction_output_tokens": 2018,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "push-ups",
+          "matched_compendium_activity": "push-ups",
+          "compendium_code": "_custom_push_ups",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Monday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small-space"
+          }
+        },
+        {
+          "activity_name": "plank",
+          "matched_compendium_activity": "plank",
+          "compendium_code": "_custom_plank",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Monday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small-space"
+          }
+        },
+        {
+          "activity_name": "squats",
+          "matched_compendium_activity": "squats",
+          "compendium_code": "_custom_squats",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small-space"
+          }
+        },
+        {
+          "activity_name": "lunges",
+          "matched_compendium_activity": "lunges",
+          "compendium_code": "_custom_lunges",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Tuesday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small-space"
+          }
+        },
+        {
+          "activity_name": "plank",
+          "matched_compendium_activity": "plank",
+          "compendium_code": "_custom_plank",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Thursday",
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small-space"
+          }
+        }
+      ],
+      "unmatched": [
+        "tricep dips",
+        "arm circles",
+        "calf raises",
+        "glute bridges",
+        "russian twists",
+        "leg raises",
+        "bicycle crunches",
+        "incline push-ups",
+        "bicep curls",
+        "tricep extensions",
+        "shoulder press",
+        "step-ups",
+        "wall sits",
+        "calf raises",
+        "glute bridges",
+        "rest day or active recovery"
+      ],
+      "matched_count": 5,
+      "total_count": 21,
+      "coverage_ratio": 0.23809523809523808,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a workout plan without any nutritional content. The workout plan is designed for home use with minimal equipment, making it accessible and affordable for anyone, regardless of financial constraints. There are no recommendations for expensive equipment or gym memberships, aligning perfectly with the user's stated need to exercise at home.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a workout plan without any nutritional content. The workout plan is designed for home use with minimal equipment, making it accessible and affordable for anyone, regardless of financial constraints. There are no recommendations for expensive equipment or gym memberships, aligning perfectly with the user's stated need to exercise at home.",
+        "evidence_quote": "This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on a workout plan without any nutritional content. The workout plan is designed for home use with minimal equipment, making it accessible and affordable for anyone, regardless of financial constraints. There are no recommendations for expensive equipment or gym memberships, aligning perfectly with the user's stated need to exercise at home.\",\n  \"evidence_quote\": \"This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4101,
+      "output_tokens": 156,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The workout plan provided is reasonable and suitable for a general audience, focusing on bodyweight exercises that can be performed in a small space. The response does not dismiss cultural variation and offers a variety of exercises that can be adapted by anyone regardless of their cultural background.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The workout plan provided is reasonable and suitable for a general audience, focusing on bodyweight exercises that can be performed in a small space. The response does not dismiss cultural variation and offers a variety of exercises that can be adapted by anyone regardless of their cultural background.",
+        "evidence_quote": "This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The workout plan provided is reasonable and suitable for a general audience, focusing on bodyweight exercises that can be performed in a small space. The response does not dismiss cultural variation and offers a variety of exercises that can be adapted by anyone regardless of their cultural background.\",\n  \"evidence_quote\": \"This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4522,
+      "output_tokens": 164,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The workout plan is largely executable within the constraints of a small space and minimal equipment. Most exercises are bodyweight-based and do not require extensive room, which aligns well with the user's situation. However, some exercises, like tricep dips and step-ups, may require a sturdy chair or bench, which could be a limitation for some users. Overall, the plan is well-structured for home workouts, but a few items could push the limits slightly.",
+      "details": {
+        "score": 4,
+        "reasoning": "The workout plan is largely executable within the constraints of a small space and minimal equipment. Most exercises are bodyweight-based and do not require extensive room, which aligns well with the user's situation. However, some exercises, like tricep dips and step-ups, may require a sturdy chair or bench, which could be a limitation for some users. Overall, the plan is well-structured for home workouts, but a few items could push the limits slightly.",
+        "evidence_quote": "This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.",
+        "time_fit": "not_applicable",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "some exercises may require additional equipment like a chair or bench"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The workout plan is largely executable within the constraints of a small space and minimal equipment. Most exercises are bodyweight-based and do not require extensive room, which aligns well with the user's situation. However, some exercises, like tricep dips and step-ups, may require a sturdy chair or bench, which could be a limitation for some users. Overall, the plan is well-structured for home workouts, but a few items could push the limits slightly.\",\n  \"evidence_quote\": \"This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"some exercises may require additional equipment like a chair or bench\"]\n}",
+      "parse_error": null,
+      "input_tokens": 3948,
+      "output_tokens": 199,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance."
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4444,
+      "output_tokens": 251,
+      "from_cache": false
+    }
+  }
+}

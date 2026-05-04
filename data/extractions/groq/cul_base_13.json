@@ -1,0 +1,109 @@
+{
+  "prompt_id": "cul_base_13",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Where is the best place to go for a run?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "The best place to go for a run depends on various factors, including your personal preferences, fitness goals, and the terrain you're looking for. Here are some popular options:\n\n1. **Local parks or trails**: Parks and trails offer a scenic and peaceful environment, often with varied terrain, such as hills, woods, and water features. They're ideal for those who enjoy nature and want to avoid traffic.\n2. **Beaches or coastal paths**: Running along a beach or coastal path can be a great way to enjoy the ocean views and sea breeze. The flat, smooth surface is also easy on the joints.\n3. **Urban routes**: If you prefer a more structured run with landmarks and streetlights, urban routes can be a good option. You can explore your city's neighborhoods, take in the sights, and enjoy the energy of the urban environment.\n4. **Trail running**: For those who enjoy off-road running, trail running can be a great way to challenge yourself and connect with nature. Trail running often involves uneven terrain, hills, and obstacles, which can help improve your agility and balance.\n5. **Greenways or bike paths**: Greenways and bike paths are often paved, flat, and well-maintained, making them ideal for runners who want a smooth, traffic-free route.\n6. **Mountainous areas**: If you're looking for a challenging run with stunning views, mountainous areas can be a great option. Be sure to research the terrain and weather conditions before heading out.\n7. **Treadmill or track**: If you prefer a more controlled environment or need to run during inclement weather, a treadmill or track can be a good option. Many gyms and fitness centers offer indoor running facilities.\n\nConsider the following factors when choosing a running location:\n\n* **Safety**: Look for well-lit, populated areas, and avoid running alone in isolated areas, especially at night.\n* **Terrain**: Choose a route that suits your fitness level and running style. Avoid routes with heavy traffic, uneven surfaces, or obstacles that could cause injury.\n* **Weather**: Check the weather forecast and dress accordingly. Avoid running in extreme temperatures, heavy rain, or strong winds.\n* **Amenities**: Consider routes with access to water, restrooms, and other amenities, such as parking, showers, or locker rooms.\n\nUltimately, the best place to go for a run is one that you enjoy and that helps you achieve your fitness goals. Experiment with different locations and routes to find what works best for you.",
+  "extracted": {
+    "summary": "The best place to go for a run varies based on personal preferences and fitness goals, with options including parks, beaches, urban routes, and trails.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "running",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3068,
+  "extraction_output_tokens": 756,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,448 @@
+{
+  "prompt_id": "lif_base_17",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest ways to improve physical health.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Improving physical health involves a combination of regular exercise, balanced nutrition, adequate rest, and healthy lifestyle choices. Here are several strategies to enhance physical health:\n\n### 1. **Regular Exercise**\n   - **Cardiovascular Activities**: Engage in aerobic exercises like walking, running, cycling, or swimming for at least 150 minutes a week.\n   - **Strength Training**: Incorporate weight lifting or bodyweight exercises (like push-ups, squats) at least twice a week to build muscle and improve metabolism.\n   - **Flexibility and Balance**: Include stretching exercises or practices like yoga and Pilates to improve flexibility and stability.\n\n### 2. **Balanced Nutrition**\n   - **Eat Whole Foods**: Focus on whole grains, fruits, vegetables, lean proteins, and healthy fats. Limit processed foods and added sugars.\n   - **Portion Control**: Be mindful of portion sizes to avoid overeating. Consider using smaller plates or bowls.\n   - **Stay Hydrated**: Drink plenty of water throughout the day. Limit sugary drinks and excessive caffeine.\n\n### 3. **Adequate Rest and Sleep**\n   - **Quality Sleep**: Aim for 7-9 hours of quality sleep per night. Establish a consistent sleep schedule.\n   - **Relaxation Techniques**: Consider practices such as meditation, deep breathing exercises, or gentle yoga to reduce stress and improve sleep quality.\n\n### 4. **Routine Health Check-ups**\n   - **Regular Screenings**: Schedule routine check-ups and screenings for blood pressure, cholesterol, and other health indicators.\n   - **Vaccinations**: Stay up-to-date with vaccinations to prevent illness.\n\n### 5. **Healthy Lifestyle Choices**\n   - **Avoid Smoking and Excessive Alcohol**: If you smoke, seek help to quit. Limit alcohol consumption to moderate levels.\n   - **Manage Stress**: Identify stressors and develop coping strategies, such as time management, hobbies, or talking to a professional.\n\n### 6. **Social Connections**\n   - **Stay Connected**: Maintain strong relationships with family and friends. Engage in social activities that promote mental well-being.\n   - **Support Groups**: Join groups that focus on fitness or health-related goals to stay motivated.\n\n### 7. **Set Realistic Goals**\n   - **SMART Goals**: Set Specific, Measurable, Achievable, Relevant, and Time-bound goals for your physical health to track progress and stay motivated.\n\n### 8. **Listen to Your Body**\n   - **Be Attuned to Your Needs**: Pay attention to how your body feels during exercise and daily activities. Rest when needed and avoid pushing through pain.\n\n### 9. **Incorporate Movement into Daily Life**\n   - **Active Lifestyle**: Look for opportunities to be active throughout the day, such as taking stairs instead of elevators, walking or biking for short trips, or doing household chores.\n\n### 10. **Educate Yourself**\n   - **Stay Informed**: Read about nutrition, exercise, and wellness to make informed decisions about your health.\n\nIncorporating these strategies gradually and consistently can lead to significant improvements in physical health over time. Always consider consulting with a healthcare professional before making major changes to your exercise or diet, especially if you have existing health conditions.",
+  "extracted": {
+    "summary": "The response provides various strategies to improve physical health, including regular exercise, balanced nutrition, adequate rest, and healthy lifestyle choices.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "whole grains",
+      "fruits",
+      "vegetables",
+      "lean proteins",
+      "healthy fats",
+      "water",
+      "sugary drinks",
+      "caffeine"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "cardiovascular activities",
+        "activity_type": "cardio",
+        "duration_minutes": 150,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "flexibility and balance exercises",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consider consulting with a healthcare professional before making major changes to your exercise or diet."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3220,
+  "extraction_output_tokens": 949,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "caffeine",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "healthy fat",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lean protein",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sugary drink",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 4,
+      "total_count": 8,
+      "coverage_ratio": 0.5,
+      "cuisine_distribution": {
+        "vegetarian": 2,
+        "global": 2
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 4
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 8,
+      "matched_count": 1,
+      "unmatched_count": 7,
+      "coverage_ratio": 0.125,
+      "matched": [
+        {
+          "ingredient": "whole grains",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "fruits",
+        "vegetables",
+        "lean proteins",
+        "healthy fats",
+        "water",
+        "sugary drinks",
+        "caffeine"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "cardiovascular activities",
+        "strength training",
+        "flexibility and balance exercises"
+      ],
+      "matched_count": 0,
+      "total_count": 3,
+      "coverage_ratio": 0.0,
+      "time_horizon": "open_ended",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no financial constraints stated in the prompt. The recommendations provided are reasonable for a typical US household, focusing on mainstream ingredients and general health strategies without suggesting any luxury items. The response includes a variety of exercise and nutrition tips that are accessible and practical for most individuals.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no financial constraints stated in the prompt. The recommendations provided are reasonable for a typical US household, focusing on mainstream ingredients and general health strategies without suggesting any luxury items. The response includes a variety of exercise and nutrition tips that are accessible and practical for most individuals.",
+        "evidence_quote": "Improving physical health involves a combination of regular exercise, balanced nutrition, adequate rest, and healthy lifestyle choices.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no financial constraints stated in the prompt. The recommendations provided are reasonable for a typical US household, focusing on mainstream ingredients and general health strategies without suggesting any luxury items. The response includes a variety of exercise and nutrition tips that are accessible and practical for most individuals.\",\n  \"evidence_quote\": \"Improving physical health involves a combination of regular exercise, balanced nutrition, adequate rest, and healthy lifestyle choices.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3628,
+      "output_tokens": 146,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides reasonable and sensible advice for improving physical health that can be applicable to a wide audience, regardless of cultural background. It includes general recommendations for exercise and nutrition without dismissing any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides reasonable and sensible advice for improving physical health that can be applicable to a wide audience, regardless of cultural background. It includes general recommendations for exercise and nutrition without dismissing any cultural variations.",
+        "evidence_quote": "Improving physical health involves a combination of regular exercise, balanced nutrition, adequate rest, and healthy lifestyle choices.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no stated cultural constraints or specific cultural signals in the prompt. The response provides reasonable and sensible advice for improving physical health that can be applicable to a wide audience, regardless of cultural background. It includes general recommendations for exercise and nutrition without dismissing any cultural variations.\",\n  \"evidence_quote\": \"Improving physical health involves a combination of regular exercise, balanced nutrition, adequate rest, and healthy lifestyle choices.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4049,
+      "output_tokens": 151,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The recommendations for exercise and nutrition are generally sound but lack specific adaptations for potential constraints. While the plan suggests a variety of activities, it does not account for any stated limitations in time or equipment, which could make execution challenging for some users. The absence of a clear time structure for the exercise components also raises concerns about feasibility, especially for those with busy schedules.",
+      "details": {
+        "score": 3,
+        "reasoning": "The recommendations for exercise and nutrition are generally sound but lack specific adaptations for potential constraints. While the plan suggests a variety of activities, it does not account for any stated limitations in time or equipment, which could make execution challenging for some users. The absence of a clear time structure for the exercise components also raises concerns about feasibility, especially for those with busy schedules.",
+        "evidence_quote": "Incorporating these strategies gradually and consistently can lead to significant improvements in physical health over time.",
+        "time_fit": "not_applicable",
+        "equipment_match": "not_applicable",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The recommendations for exercise and nutrition are generally sound but lack specific adaptations for potential constraints. While the plan suggests a variety of activities, it does not account for any stated limitations in time or equipment, which could make execution challenging for some users. The absence of a clear time structure for the exercise components also raises concerns about feasibility, especially for those with busy schedules.\",\n  \"evidence_quote\": \"Incorporating these strategies gradually and consistently can lead to significant improvements in physical health over time.\",\n  \"time_fit\": \"not_applicable\",\n  \"equipment_match\": \"not_applicable\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3475,
+      "output_tokens": 164,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3971,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

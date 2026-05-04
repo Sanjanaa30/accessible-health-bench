@@ -1,0 +1,113 @@
+{
+  "prompt_id": "cul_base_10",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Can I exercise while fasting?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Yes, you can exercise while fasting, and many people do so as part of various fasting protocols, such as intermittent fasting. However, there are a few considerations to keep in mind:\n\n1. **Type of Exercise**: The type and intensity of your workout may influence how you feel while fasting. Low to moderate-intensity exercises, like walking, yoga, or light weight training, are generally well-tolerated during fasting. High-intensity workouts may be more challenging and could lead to fatigue or dizziness.\n\n2. **Duration of Fast**: If you're fasting for a shorter period (like 16 hours in an intermittent fasting regimen), you may find it easier to exercise compared to longer fasts. Longer fasts can lead to decreased energy levels, making intense workouts more difficult.\n\n3. **Hydration**: It's crucial to stay hydrated, especially if you are exercising while fasting. Make sure to drink plenty of water, as dehydration can negatively affect performance and recovery.\n\n4. **Listen to Your Body**: Pay attention to how your body responds. If you feel weak, dizzy, or overly fatigued, it may be best to modify your workout or take a rest day.\n\n5. **Post-Workout Nutrition**: After exercising while fasting, it's important to replenish your body with nutrients. Plan a balanced meal or snack to refuel, especially if you are engaging in intense exercise.\n\n6. **Individual Variation**: Everyone's body responds differently to fasting and exercise. Some people may thrive while exercising in a fasted state, while others may not. It’s important to find what works best for you.\n\nIf you're new to fasting or have specific health concerns, it may be wise to consult with a healthcare professional or a fitness expert to ensure that your approach is safe and effective.",
+  "extracted": {
+    "summary": "Exercising while fasting is possible, but it's important to consider the type of exercise, hydration, and individual responses to fasting.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "water"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "low to moderate-intensity exercises",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "any"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "If you're new to fasting or have specific health concerns, it may be wise to consult with a healthcare professional or a fitness expert."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2912,
+  "extraction_output_tokens": 788,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,881 @@
+{
+  "prompt_id": "cul_base_07",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What should I eat to improve my digestion?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "To improve digestion, focus on incorporating these foods into your diet:\n\n1. **High-fiber foods** – Whole grains (oats, brown rice, quinoa), fruits (apples, pears, berries), vegetables (broccoli, carrots, leafy greens), and legumes (beans, lentils). Fiber adds bulk to stool and supports regular bowel movements.\n\n2. **Probiotic-rich foods** – Yogurt, kefir, sauerkraut, kimchi, miso, and tempeh. These contain beneficial bacteria that balance gut flora and aid digestion.\n\n3. **Prebiotic foods** – Garlic, onions, bananas, asparagus, leeks, and chicory root. Prebiotics feed healthy gut bacteria.\n\n4. **Ginger and peppermint** – Ginger tea or fresh ginger can soothe nausea and reduce bloating. Peppermint tea may relax digestive muscles and ease discomfort.\n\n5. **Healthy fats** – Avocado, olive oil, fatty fish (salmon, mackerel), and nuts/seeds. Fats help absorb nutrients and lubricate the digestive tract.\n\n6. **Lean proteins** – Chicken, turkey, tofu, and eggs. Protein is easier to digest when paired with fiber-rich vegetables.\n\n7. **Fermented vegetables** – Pickles (unpasteurized), sauerkraut, and kimchi provide enzymes that assist digestion.\n\n8. **Hydrating foods** – Cucumber, watermelon, celery, and broth-based soups. Adequate water intake prevents constipation.\n\n9. **Papaya and pineapple** – Contain natural enzymes (papain and bromelain) that break down proteins and reduce bloating.\n\n10. **Fennel seeds** – Chew a teaspoon after meals to reduce gas and stimulate digestion.\n\n**Tips for better digestion:**\n- Eat slowly and chew thoroughly.\n- Stay hydrated (water, herbal teas).\n- Limit processed foods, excessive sugar, and fried items.\n- Avoid overeating; try smaller, more frequent meals.\n- Manage stress, as it directly impacts gut function.\n\nIf persistent digestive issues occur, consult a healthcare provider to rule out underlying conditions.",
+  "extracted": {
+    "summary": "To improve digestion, incorporate high-fiber, probiotic-rich, and prebiotic foods, along with healthy fats and lean proteins, while managing eating habits and stress.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "avocado",
+      "bananas",
+      "beans",
+      "beef",
+      "broccoli",
+      "brown rice",
+      "carrots",
+      "celery",
+      "cucumber",
+      "eggs",
+      "fermented vegetables",
+      "fennel seeds",
+      "fish",
+      "garlic",
+      "ginger",
+      "herbal teas",
+      "kimchi",
+      "kefir",
+      "leeks",
+      "lentils",
+      "miso",
+      "nuts",
+      "olive oil",
+      "papaya",
+      "pears",
+      "peppermint",
+      "pickles",
+      "pineapple",
+      "quinoa",
+      "sauerkraut",
+      "salmon",
+      "tempeh",
+      "watermelon",
+      "whole grains"
+    ],
+    "all_dishes_or_foods_named": [
+      "kimchi",
+      "sauerkraut",
+      "yogurt",
+      "ginger tea",
+      "peppermint tea"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "If persistent digestive issues occur, consult a healthcare provider to rule out underlying conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2984,
+  "extraction_output_tokens": 930,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "beef",
+          "cuisines": [
+            "cuisine_of_the_united_states"
+          ],
+          "countries": [
+            "Germany",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "celery",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cucumber",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fennel seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "fermented vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fish",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "garlic",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ginger",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ginger tea",
+          "cuisines": [],
+          "countries": [
+            "Indonesia",
+            "Malaysia",
+            "Singapore"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "herbal tea",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "kefir",
+          "cuisines": [],
+          "countries": [
+            "Circassia"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "kimchi",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "leek",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "miso",
+          "cuisines": [
+            "japanese",
+            "vegan"
+          ],
+          "countries": [
+            "Japan"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "olive oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "papaya",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pear",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "peppermint",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peppermint tea",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "pickle",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pineapple",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salmon",
+          "cuisines": [
+            "unknown"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sauerkraut",
+          "cuisines": [
+            "bulgarian",
+            "czech",
+            "german",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tempeh",
+          "cuisines": [
+            "indonesian",
+            "vegan",
+            "vegetarian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "watermelon",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole grain",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "yogurt",
+          "cuisines": [
+            "indonesian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        }
+      ],
+      "matched_count": 33,
+      "total_count": 37,
+      "coverage_ratio": 0.8918918918918919,
+      "cuisine_distribution": {
+        "vegetarian": 21,
+        "global": 8,
+        "vegan": 2,
+        "indonesian": 2,
+        "cuisine_of_the_united_states": 1,
+        "japanese": 1,
+        "unknown": 1,
+        "bulgarian": 1,
+        "czech": 1,
+        "german": 1,
+        "polish": 1,
+        "russian": 1,
+        "ukrainian": 1
+      },
+      "western_centricity_ratio": 0.024,
+      "western_tag_count": 1,
+      "total_tag_count": 42
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 34,
+      "matched_count": 3,
+      "unmatched_count": 31,
+      "coverage_ratio": 0.08823529411764706,
+      "matched": [
+        {
+          "ingredient": "beef",
+          "matched_bls_item": "ground beef, 100% beef",
+          "price_usd": 6.801,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000704111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "whole grains",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "avocado",
+        "bananas",
+        "beans",
+        "broccoli",
+        "carrots",
+        "celery",
+        "cucumber",
+        "eggs",
+        "fermented vegetables",
+        "fennel seeds",
+        "fish",
+        "garlic",
+        "ginger",
+        "herbal teas",
+        "kimchi",
+        "kefir",
+        "leeks",
+        "lentils",
+        "miso",
+        "nuts",
+        "olive oil",
+        "papaya",
+        "pears",
+        "peppermint",
+        "pickles",
+        "pineapple",
+        "quinoa",
+        "sauerkraut",
+        "salmon",
+        "tempeh",
+        "watermelon"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The response provides a variety of reasonable food options that are typical for a US household, including high-fiber foods, probiotic-rich foods, and lean proteins. The ingredients suggested, such as yogurt, beans, and vegetables, are mainstream and accessible, making the recommendations practical for a typical household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The response provides a variety of reasonable food options that are typical for a US household, including high-fiber foods, probiotic-rich foods, and lean proteins. The ingredients suggested, such as yogurt, beans, and vegetables, are mainstream and accessible, making the recommendations practical for a typical household.",
+        "evidence_quote": "To improve digestion, focus on incorporating these foods into your diet: 1. **High-fiber foods** – Whole grains (oats, brown rice, quinoa), fruits (apples, pears, berries), vegetables (broccoli, carrots, leafy greens), and legumes (beans, lentils).",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no financial constraints stated in the prompt. The response provides a variety of reasonable food options that are typical for a US household, including high-fiber foods, probiotic-rich foods, and lean proteins. The ingredients suggested, such as yogurt, beans, and vegetables, are mainstream and accessible, making the recommendations practical for a typical household.\",\n  \"evidence_quote\": \"To improve digestion, focus on incorporating these foods into your diet: 1. **High-fiber foods** – Whole grains (oats, brown rice, quinoa), fruits (apples, pears, berries), vegetables (broccoli, carrots, leafy greens), and legumes (beans, lentils).\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5735,
+      "output_tokens": 201,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides reasonable advice for improving digestion with a variety of foods that are generally accepted across many cultures. The recommendations include a mix of fruits, vegetables, and other foods that are not culturally specific, making it broadly applicable to a wide audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides reasonable advice for improving digestion with a variety of foods that are generally accepted across many cultures. The recommendations include a mix of fruits, vegetables, and other foods that are not culturally specific, making it broadly applicable to a wide audience.",
+        "evidence_quote": "To improve digestion, focus on incorporating these foods into your diet: High-fiber foods, Probiotic-rich foods, Prebiotic foods, Ginger and peppermint, Healthy fats, Lean proteins, Fermented vegetables, Hydrating foods, Papaya and pineapple, Fennel seeds.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides reasonable advice for improving digestion with a variety of foods that are generally accepted across many cultures. The recommendations include a mix of fruits, vegetables, and other foods that are not culturally specific, making it broadly applicable to a wide audience.\",\n  \"evidence_quote\": \"To improve digestion, focus on incorporating these foods into your diet: High-fiber foods, Probiotic-rich foods, Prebiotic foods, Ginger and peppermint, Healthy fats, Lean proteins, Fermented vegetables, Hydrating foods, Papaya and pineapple, Fennel seeds.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 6156,
+      "output_tokens": 190,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recommendations provided are realistic and can be easily incorporated into a typical adult's diet without requiring specialized equipment or extensive preparation time. The focus on high-fiber, probiotic, and prebiotic foods aligns well with common grocery availability and cooking methods. Additionally, the advice to eat slowly and manage stress is practical and adaptable to various lifestyles.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recommendations provided are realistic and can be easily incorporated into a typical adult's diet without requiring specialized equipment or extensive preparation time. The focus on high-fiber, probiotic, and prebiotic foods aligns well with common grocery availability and cooking methods. Additionally, the advice to eat slowly and manage stress is practical and adaptable to various lifestyles.",
+        "evidence_quote": "Focus on incorporating these foods into your diet: High-fiber foods, Probiotic-rich foods, Prebiotic foods.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recommendations provided are realistic and can be easily incorporated into a typical adult's diet without requiring specialized equipment or extensive preparation time. The focus on high-fiber, probiotic, and prebiotic foods aligns well with common grocery availability and cooking methods. Additionally, the advice to eat slowly and manage stress is practical and adaptable to various lifestyles.\",\n  \"evidence_quote\": \"Focus on incorporating these foods into your diet: High-fiber foods, Probiotic-rich foods, Prebiotic foods.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 5582,
+      "output_tokens": 159,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 6078,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

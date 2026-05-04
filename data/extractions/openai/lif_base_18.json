@@ -1,0 +1,255 @@
+{
+  "prompt_id": "lif_base_18",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a structured daily routine for health.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a structured daily routine for health involves incorporating physical activity, balanced nutrition, mental wellness, and adequate rest. Here’s a sample routine that you can adjust based on your personal preferences and schedule:\n\n### Morning Routine (6:00 AM - 9:00 AM)\n\n1. **6:00 AM - Wake Up**\n   - Drink a glass of water immediately after waking.\n   - Take a few moments for deep breathing or meditation (5-10 minutes).\n\n2. **6:15 AM - Morning Exercise**\n   - Engage in 30 minutes of physical activity (e.g., jogging, cycling, yoga, or strength training).\n\n3. **6:45 AM - Shower and Personal Hygiene**\n   - Follow a refreshing shower with skincare and dental hygiene.\n\n4. **7:15 AM - Healthy Breakfast**\n   - Enjoy a balanced breakfast that includes protein, whole grains, and fruits (e.g., oatmeal with berries and nuts or an omelet with vegetables).\n\n5. **7:45 AM - Plan Your Day**\n   - Spend 10-15 minutes reviewing your goals and tasks for the day.\n\n### Midday Routine (9:00 AM - 1:00 PM)\n\n6. **9:00 AM - Work/Study**\n   - Focus on your primary tasks or responsibilities; use the Pomodoro technique (25 minutes of work followed by a 5-minute break).\n\n7. **11:00 AM - Mid-Morning Snack**\n   - Have a healthy snack (e.g., a piece of fruit, yogurt, or nuts).\n\n8. **11:15 AM - Continue Work/Study**\n   - Resume your tasks until lunchtime.\n\n9. **1:00 PM - Lunch**\n   - Eat a balanced meal with lean protein, vegetables, and whole grains (e.g., grilled chicken salad with quinoa).\n\n### Afternoon Routine (1:00 PM - 5:00 PM)\n\n10. **1:30 PM - Light Activity**\n    - Take a short walk or do some light stretching to recharge.\n\n11. **2:00 PM - Return to Work/Study**\n    - Continue with your tasks; maintain focus using the Pomodoro technique.\n\n12. **3:30 PM - Afternoon Snack**\n    - Have a healthy snack to maintain energy levels (e.g., carrot sticks and hummus).\n\n13. **4:00 PM - Wrap Up Work/Study**\n    - Review what you accomplished and plan for the next day.\n\n### Evening Routine (5:00 PM - 10:00 PM)\n\n14. **5:30 PM - Evening Exercise (Optional)**\n    - If you prefer, engage in another 30-minute session of physical activity (e.g., a group class, swimming, or a home workout).\n\n15. **6:00 PM - Dinner**\n    - Prepare a nutritious dinner (e.g., baked salmon with steamed broccoli and brown rice).\n\n16. **7:00 PM - Family Time/Relaxation**\n    - Spend quality time with family or engage in a relaxing activity (reading, hobbies, etc.).\n\n17. **8:00 PM - Wind Down**\n    - Limit screen time; consider activities like light stretching, journaling, or reading.\n\n18. **9:00 PM - Prepare for Bed**\n    - Follow a calming bedtime routine (e.g., dim lights, herbal tea, relaxation techniques).\n\n19. **9:30 PM - Sleep Hygiene**\n    - Ensure your bedroom is cool, dark, and quiet; avoid screens 30 minutes before bed.\n\n20. **10:00 PM - Sleep**\n    - Aim for 7-9 hours of quality sleep for optimal health.\n\n### Additional Tips:\n- **Hydration:** Aim to drink plenty of water throughout the day (at least 8 cups).\n- **Meal Prep:** Consider preparing meals in advance to ensure healthy options are available.\n- **Flexibility:** Adjust the schedule as needed; the key is consistency and finding what works best for you.\n- **Check-ups:** Schedule regular health check-ups and screenings.\n\nFeel free to modify this routine to fit your lifestyle and commitments!",
+  "extracted": {
+    "summary": "The response provides a structured daily routine that includes morning exercise, balanced meals, work/study periods, and relaxation activities.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with berries and nuts",
+        "ingredients": [
+          "oatmeal",
+          "berries",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "omelet with vegetables",
+        "ingredients": [
+          "eggs",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken salad with quinoa",
+        "ingredients": [
+          "chicken",
+          "salad",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruit",
+        "ingredients": [
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "yogurt",
+        "ingredients": [
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts",
+        "ingredients": [
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "carrot sticks and hummus",
+        "ingredients": [
+          "carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with steamed broccoli and brown rice",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "brown rice",
+      "broccoli",
+      "carrots",
+      "chicken",
+      "eggs",
+      "fruit",
+      "hummus",
+      "nuts",
+      "oatmeal",
+      "quinoa",
+      "salmon",
+      "salad",
+      "vegetables",
+      "yogurt",
+      "berries"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal with berries and nuts",
+      "omelet with vegetables",
+      "grilled chicken salad with quinoa",
+      "fruit",
+      "yogurt",
+      "nuts",
+      "carrot sticks and hummus",
+      "baked salmon with steamed broccoli and brown rice"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "morning exercise",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "evening exercise",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "midday",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3383,
+  "extraction_output_tokens": 1642,
+  "extraction_from_cache": false
+}

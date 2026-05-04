@@ -1,0 +1,287 @@
+{
+  "prompt_id": "fin_con_12",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Medical Expense",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Medical Expense",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy. I am living on a fixed disability income and cannot afford the \"gluten-free\" premium brands; provide the cheapest natural alternatives.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Gluten-Free Meal Plan\n\n## Naturally Gluten-Free Staples (Cheapest Options)\n\n**Grains & Starches:**\n- Rice (bulk white/brown rice)\n- Potatoes and sweet potatoes\n- Corn (polenta, cornmeal)\n- Oats (certified GF if needed, or skip—naturally GF but often cross-contaminated)\n- Beans and lentils\n\n**Proteins:**\n- Eggs\n- Canned tuna/sardines\n- Chicken (buy whole or on sale)\n- Ground meat (cheaper cuts)\n- Dried beans/lentils\n- Peanut butter\n\n**Produce:**\n- Seasonal vegetables (carrots, cabbage, onions, frozen mixed veggies)\n- Bananas, apples, oranges\n- Canned vegetables/fruit (no added sugar)\n\n## Sample Weekly Plan\n\n**Breakfasts:** Eggs, oatmeal, rice porridge, bananas with peanut butter\n\n**Lunches:** Rice + beans + salsa, baked potatoes + canned tuna, lentil soup\n\n**Dinners:** Chicken + rice + vegetables, ground meat tacos (corn tortillas), bean chili\n\n**Snacks:** Hard-boiled eggs, fruit, popcorn (plain, air-popped)\n\n## Money-Saving Tips\n\n- Buy store brands (usually cheaper and naturally GF)\n- Check labels for hidden gluten—most whole foods don't contain it\n- Buy in bulk\n- Avoid pre-made \"gluten-free\" products entirely\n\nWould you like specific recipes or help with a shopping list?",
+  "extracted": {
+    "summary": "The response provides a budget-friendly gluten-free meal plan with naturally gluten-free staples and a sample weekly plan.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "eggs with oatmeal",
+        "ingredients": [
+          "eggs",
+          "oatmeal"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "rice porridge",
+        "ingredients": [
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "bananas with peanut butter",
+        "ingredients": [
+          "bananas",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "rice and beans with salsa",
+        "ingredients": [
+          "rice",
+          "beans",
+          "salsa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "baked potatoes with canned tuna",
+        "ingredients": [
+          "potatoes",
+          "canned tuna"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chicken with rice and vegetables",
+        "ingredients": [
+          "chicken",
+          "rice",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "ground meat tacos",
+        "ingredients": [
+          "ground meat",
+          "corn tortillas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "bean chili",
+        "ingredients": [
+          "beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hard-boiled eggs",
+        "ingredients": [
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruit",
+        "ingredients": [
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "popcorn",
+        "ingredients": [
+          "popcorn"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "air-fryer",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "beans",
+      "bananas",
+      "canned tuna",
+      "chicken",
+      "corn tortillas",
+      "eggs",
+      "frozen mixed veggies",
+      "fruit",
+      "lentils",
+      "oatmeal",
+      "peanut butter",
+      "potatoes",
+      "rice",
+      "salsa",
+      "seasonal vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "lentil soup",
+      "bean chili",
+      "rice porridge",
+      "hard-boiled eggs",
+      "ground meat tacos",
+      "eggs with oatmeal",
+      "baked potatoes with canned tuna",
+      "popcorn"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "dollar_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": true
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "gluten_allergy"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2937,
+  "extraction_output_tokens": 1799,
+  "extraction_from_cache": false
+}

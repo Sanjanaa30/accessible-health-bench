@@ -1,0 +1,137 @@
+{
+  "prompt_id": "fin_con_08",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Fixed Income",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Fixed Income",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to lower my cholesterol on a very tight fixed income?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Cholesterol-Lowering Foods\n\n**Cheapest staples to prioritize:**\n- **Oats** (bulk bin or store brand) - soluble fiber helps lower cholesterol\n- **Beans & lentils** (dried, bulk) - cheap protein, high fiber\n- **Canned fish** (sardines, mackerel) - omega-3s, often on sale\n- **Eggs** - affordable protein; newer research is less restrictive about them\n- **Frozen vegetables** - often cheaper than fresh, same nutrients\n- **Brown rice** (bulk) - whole grain fiber\n\n**Budget tips:**\n- Buy store brands and bulk items\n- Watch for sales on canned goods\n- Dried beans/lentils cost pennies per serving\n- Skip expensive \"heart healthy\" branded products\n- Use food banks or community programs if available\n\n**What to limit on any budget:**\n- Fried foods\n- Processed meats\n- Sugary items\n- Butter and full-fat dairy (though small amounts are okay)\n\n**Free/low-cost additions:**\n- Walking 20-30 minutes daily helps as much as diet alone\n- Check if your doctor/clinic offers nutrition counseling\n\nThe good news: cholesterol-lowering foods tend to be among the cheapest—beans, oats, and frozen vegetables are budget winners anyway.\n\nWould specific meal ideas or recipes help?",
+  "extracted": {
+    "summary": "The response provides budget-friendly food options to help lower cholesterol, emphasizing affordable staples and tips for saving money.",
+    "response_type": "advisory",
+    "primary_goal": "lower_cholesterol",
+    "meal_components": [],
+    "all_ingredients": [
+      "beans",
+      "brown rice",
+      "canned fish",
+      "eggs",
+      "frozen vegetables",
+      "lentils",
+      "oats"
+    ],
+    "all_dishes_or_foods_named": [
+      "oats",
+      "beans",
+      "lentils",
+      "canned fish",
+      "eggs",
+      "frozen vegetables",
+      "brown rice"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "walking",
+        "activity_type": "cardio",
+        "duration_minutes": 20,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "food_bank"
+      ],
+      "store_types_referenced": [
+        "bulk_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": true
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2894,
+  "extraction_output_tokens": 841,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,192 @@
+{
+  "prompt_id": "cul_base_04",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy dinner for a celebration.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a suggestion for a healthy yet celebratory dinner that feels special, vibrant, and satisfying without being overly heavy.\n\n---\n\n### Menu: Herb-Crusted Salmon with Roasted Vegetables & Lemony Quinoa\n\nThis meal is packed with protein, healthy fats, and fiber. It’s colorful, elegant, and comes together with minimal fuss—perfect for a celebration.\n\n---\n\n#### Main Dish: Herb-Crusted Salmon\n\n- **Why it’s celebratory:** Salmon feels luxurious, and the fresh herb crust adds a beautiful, fragrant finish.\n- **Ingredients:** 4 (6-oz) salmon fillets, 2 tbsp Dijon mustard, 1/2 cup fresh dill (chopped), 1/4 cup fresh parsley (chopped), 2 tbsp whole-wheat breadcrumbs (optional), 1 tbsp olive oil, salt, pepper.\n- **Method:** Preheat oven to 400°F (200°C). Mix herbs, breadcrumbs, oil, salt, and pepper. Brush salmon with mustard, then press herb mixture on top. Bake for 12–15 minutes until flaky.\n\n#### Side Dish: Roasted Rainbow Vegetables\n\n- **Why it’s celebratory:** The bright colors (red peppers, orange carrots, purple onion, green asparagus) make the plate look like a work of art.\n- **Ingredients:** 2 cups mixed veggies (bell peppers, carrots, red onion, asparagus), 1 tbsp olive oil, 1 tsp smoked paprika, salt, pepper.\n- **Method:** Toss veggies with oil and spices. Roast on a sheet pan at 400°F for 20–25 minutes, flipping halfway.\n\n#### Base: Lemony Quinoa with Toasted Almonds\n\n- **Why it’s celebratory:** Quinoa is light, protein-rich, and feels more special than plain rice. Lemon and almonds add brightness and crunch.\n- **Ingredients:** 1 cup quinoa (rinsed), 2 cups water or low-sodium broth, juice of 1 lemon, 1/4 cup sliced almonds (toasted), 2 tbsp fresh mint or parsley (chopped).\n- **Method:** Cook quinoa according to package directions. Fluff, then stir in lemon juice, almonds, and herbs. Season with salt.\n\n#### Optional Elegant Touch: Simple Arugula Salad with Pomegranate Seeds\n\n- **Why it’s celebratory:** Peppery arugula + sweet-tart pomegranate + a light vinaigrette = a refreshing, festive side.\n- **Dressing:** 2 tbsp extra-virgin olive oil, 1 tbsp balsamic vinegar, 1 tsp honey, salt, pepper.\n\n---\n\n### Why This Works for a Celebration\n\n- **Balanced & nourishing:** High-protein salmon, fiber-rich quinoa, and antioxidant-packed veggies.\n- **Visually stunning:** The rainbow vegetables and fresh herbs make the plate look festive.\n- **Easy to scale:** Perfect for 2 or 20 guests—just multiply ingredients.\n- **Make-ahead friendly:** Quinoa and veggies can be prepped in advance; salmon bakes quickly right before serving.\n\n---\n\n### Suggested Beverage Pairing\n\n- **Non-alcoholic:** Sparkling water with a splash of pomegranate juice and fresh mint.\n- **Alcoholic (optional):** A crisp Sauvignon Blanc or a light Pinot Noir (if serving salmon).\n\n---\n\nWould you like a vegetarian or vegan alternative for this celebration dinner?",
+  "extracted": {
+    "summary": "The response suggests a celebratory dinner menu featuring herb-crusted salmon, roasted vegetables, and lemony quinoa, along with an optional arugula salad.",
+    "response_type": "meal_plan",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "herb-crusted salmon",
+        "ingredients": [
+          "salmon fillets",
+          "dijon mustard",
+          "fresh dill",
+          "fresh parsley",
+          "whole-wheat breadcrumbs",
+          "olive oil",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "roasted rainbow vegetables",
+        "ingredients": [
+          "mixed veggies",
+          "olive oil",
+          "smoked paprika",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "lemony quinoa with toasted almonds",
+        "ingredients": [
+          "quinoa",
+          "water",
+          "lemon",
+          "sliced almonds",
+          "fresh mint",
+          "fresh parsley",
+          "salt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "other",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "simple arugula salad with pomegranate seeds",
+        "ingredients": [
+          "arugula",
+          "pomegranate seeds",
+          "extra-virgin olive oil",
+          "balsamic vinegar",
+          "honey",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "arugula",
+      "balsamic vinegar",
+      "dijon mustard",
+      "extra-virgin olive oil",
+      "fresh dill",
+      "fresh mint",
+      "fresh parsley",
+      "honey",
+      "lemon",
+      "mixed veggies",
+      "olive oil",
+      "pomegranate seeds",
+      "quinoa",
+      "salt",
+      "sliced almonds",
+      "smoked paprika",
+      "pepper",
+      "whole-wheat breadcrumbs",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [
+      "herb-crusted salmon",
+      "roasted rainbow vegetables",
+      "lemony quinoa with toasted almonds",
+      "simple arugula salad with pomegranate seeds"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3245,
+  "extraction_output_tokens": 1313,
+  "extraction_from_cache": false
+}

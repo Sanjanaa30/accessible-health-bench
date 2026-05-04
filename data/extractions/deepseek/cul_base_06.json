@@ -1,0 +1,159 @@
+{
+  "prompt_id": "cul_base_06",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a recipe for a vegetable curry.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here's a delicious and versatile **Vegetable Curry** recipe. It's creamy, mildly spiced, and packed with healthy vegetables. You can easily swap in whatever veggies you have on hand.\n\n### Creamy Coconut Vegetable Curry\n\nThis recipe is naturally vegan and gluten-free.\n\n**Yields:** 4 servings\n**Prep time:** 15 minutes\n**Cook time:** 25 minutes\n\n#### Ingredients\n\n**The Curry Base:**\n- 1 tbsp coconut oil or vegetable oil\n- 1 large onion, diced\n- 3 cloves garlic, minced\n- 1 tbsp fresh ginger, grated (or 1 tsp ground ginger)\n- 2 tbsp curry powder (mild or hot, your choice)\n- 1 tsp ground cumin\n- 1 tsp ground turmeric\n- ½ tsp chili flakes (optional, for heat)\n- 1 can (400ml / 14 oz) full-fat coconut milk\n- 1 can (400g / 14 oz) diced tomatoes (or 2 fresh tomatoes, chopped)\n- 1 cup vegetable broth (or water)\n- Salt and black pepper to taste\n\n**The Vegetables (choose a mix):**\n- 2 cups cauliflower florets (about ½ a head)\n- 1 large carrot, peeled and sliced into rounds\n- 1 bell pepper (any color), chopped\n- 1 cup green beans, trimmed and halved\n- 1 cup frozen peas\n- 1 can (400g / 14 oz) chickpeas, drained and rinsed (adds protein and heartiness)\n\n**For Serving:**\n- Cooked basmati rice or naan bread\n- Fresh cilantro, chopped (for garnish)\n- Lime wedges\n\n---\n\n#### Instructions\n\n1.  **Sauté the aromatics:** In a large pot or deep skillet, heat the coconut oil over medium heat. Add the diced onion and cook for 5-7 minutes until soft and translucent. Add the minced garlic and grated ginger, and cook for 1 more minute until fragrant.\n\n2.  **Bloom the spices:** Add the curry powder, cumin, turmeric, and chili flakes (if using). Stir constantly for about 30-60 seconds. This \"blooms\" the spices, making them much more flavorful. *Be careful not to burn them.*\n\n3.  **Build the sauce:** Pour in the can of coconut milk, diced tomatoes, and vegetable broth. Stir well to combine, scraping up any browned bits from the bottom of the pot. Season with ½ tsp salt and a few grinds of black pepper.\n\n4.  **Simmer the hard vegetables:** Add the cauliflower, carrot, and any other firm vegetables (like green beans or potato). Bring the curry to a gentle simmer, then reduce the heat to low, cover the pot, and cook for 15 minutes, or until the vegetables are almost fork-tender.\n\n5.  **Add the softer vegetables:** Stir in the bell pepper, frozen peas, and the drained chickpeas. Cover and cook for another 5-7 minutes, until the bell pepper is tender-crisp and the peas are bright green.\n\n6.  **Taste and adjust:** Taste the curry. You might want to add more salt (remember, salt brings out all the flavors), a squeeze of lime juice for brightness, or a pinch more chili for heat.\n\n7.  **Serve:** Serve the curry hot over a bed of fluffy basmati rice or with warm naan bread. Garnish generously with fresh cilantro and a lime wedge.\n\n#### Tips & Variations\n\n- **Make it a \"Clean Out the Fridge\" Curry:** Use any vegetables you have: zucchini, sweet potato, spinach (add at the very end, it wilts in 1 minute), mushrooms, or eggplant.\n- **Make it Spicier:** Add a chopped fresh green chili (like serrano or bird's eye) along with the garlic and ginger.\n- **Make it Creamier (not coconut):** For a lighter, non-coconut version, skip the coconut milk and use 1 cup of plain yogurt (stir in at the very end, off the heat) or ½ cup of heavy cream.\n- **Add Protein:** Besides chickpeas, you can add cubed firm tofu (pan-fry first for best texture) or cooked lentils.\n- **Storage:** This curry tastes even better the next day! Store in an airtight container in the fridge for up to 4 days. It also freezes well for up to 3 months.\n\nEnjoy your homemade vegetable curry!",
+  "extracted": {
+    "summary": "The response provides a recipe for a creamy coconut vegetable curry that is vegan and gluten-free, including detailed instructions and ingredient options.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "creamy coconut vegetable curry",
+        "ingredients": [
+          "coconut oil",
+          "onion",
+          "garlic",
+          "ginger",
+          "curry powder",
+          "cumin",
+          "turmeric",
+          "chili flakes",
+          "coconut milk",
+          "diced tomatoes",
+          "vegetable broth",
+          "salt",
+          "black pepper",
+          "cauliflower",
+          "carrot",
+          "bell pepper",
+          "green beans",
+          "peas",
+          "chickpeas",
+          "basmati rice",
+          "naan bread",
+          "cilantro",
+          "lime"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "basmati rice",
+      "bell pepper",
+      "black pepper",
+      "coconut milk",
+      "coconut oil",
+      "cumin",
+      "cauliflower",
+      "carrot",
+      "chickpeas",
+      "chili flakes",
+      "cilantro",
+      "diced tomatoes",
+      "garlic",
+      "ginger",
+      "green beans",
+      "lime",
+      "naan bread",
+      "onion",
+      "peas",
+      "salt",
+      "turmeric",
+      "vegetable broth",
+      "curry powder"
+    ],
+    "all_dishes_or_foods_named": [
+      "creamy coconut vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "vegan",
+        "gluten_free"
+      ],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 15,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3483,
+  "extraction_output_tokens": 1037,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,116 @@
+{
+  "prompt_id": "fin_base_16",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best fresh vegetables for a diabetic diet?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Best Fresh Vegetables for Diabetics\n\n**Non-starchy vegetables** are ideal—they're low in carbs and calories while high in fiber:\n\n## Top choices:\n- **Leafy greens**: spinach, kale, lettuce, arugula\n- **Cruciferous**: broccoli, cauliflower, Brussels sprouts, cabbage\n- **Other low-carb options**: zucchini, bell peppers, cucumber, tomatoes, green beans, asparagus\n- **Alliums**: onions, garlic (in moderation)\n\n## Key benefits:\n- Low glycemic impact\n- High in fiber (slows digestion)\n- Rich in nutrients and antioxidants\n- High volume, low calories (satisfying)\n\n## Tips:\n- Fill half your plate with non-starchy vegetables\n- Eat them raw or lightly cooked to preserve nutrients\n- Pair with protein and healthy fats for balanced meals\n- Watch portions of starchy vegetables (peas, corn, potatoes)\n\n**Note:** While these are excellent choices, individual responses vary. Working with a dietitian can help personalize recommendations based on your specific needs and medications.",
+  "extracted": {
+    "summary": "The response recommends various non-starchy vegetables that are suitable for a diabetic diet, highlighting their low glycemic impact and high fiber content.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "spinach",
+      "kale",
+      "lettuce",
+      "arugula",
+      "broccoli",
+      "cauliflower",
+      "brussels sprouts",
+      "cabbage",
+      "zucchini",
+      "bell peppers",
+      "cucumber",
+      "tomatoes",
+      "green beans",
+      "asparagus",
+      "onions",
+      "garlic"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "While these are excellent choices, individual responses vary. Working with a dietitian can help personalize recommendations based on your specific needs and medications."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2777,
+  "extraction_output_tokens": 817,
+  "extraction_from_cache": false
+}

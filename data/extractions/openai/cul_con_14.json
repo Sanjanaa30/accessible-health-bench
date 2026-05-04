@@ -1,0 +1,138 @@
+{
+  "prompt_id": "cul_con_14",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to stay healthy? I am attending a week-long traditional wedding (like a Punjabi or Greek wedding) where high-calorie communal eating is mandatory for every guest.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Attending a week-long traditional wedding with high-calorie communal eating can be a delightful experience, but it's understandable to want to maintain a healthy balance. Here are some tips on what to eat and how to navigate the festivities while staying healthy:\n\n### 1. **Prioritize Whole Foods:**\n   - **Fruits and Vegetables:** Start your meals with salads or vegetable dishes. They are usually lower in calories and high in nutrients. Look for options like roasted vegetables, fresh salads, or fruit platters.\n   - **Whole Grains:** Opt for whole grain options if available. Choose brown rice, quinoa, or whole-wheat bread over white rice or bread.\n\n### 2. **Lean Proteins:**\n   - Select lean protein sources such as grilled chicken, fish, or legumes. These options provide essential nutrients without excessive calories.\n   - If there are options like lentil dishes, chickpeas, or other beans, they can be a great addition to your meal.\n\n### 3. **Portion Control:**\n   - Enjoy the communal dishes, but take smaller portions. You can always go back for more if you're still hungry.\n   - Use a smaller plate if possible, which can help control portion sizes.\n\n### 4. **Be Mindful of Sauces and Dressings:**\n   - Traditional dishes may be rich in sauces and dressings. Consider asking for them on the side or using less than what is typically served.\n   - Opt for yogurt-based sauces or dressings if available, as they tend to be lighter.\n\n### 5. **Limit High-Calorie Foods:**\n   - While it's okay to indulge occasionally, be mindful of foods that are fried, creamy, or high in sugar. Limit your intake of sweets and desserts.\n   - If there are fried foods, consider having a small taste rather than a full serving.\n\n### 6. **Stay Hydrated:**\n   - Drink plenty of water throughout the day. Staying hydrated can help control hunger and reduce the temptation to overeat.\n   - Limit sugary drinks and alcoholic beverages, which can add extra calories.\n\n### 7. **Practice Mindful Eating:**\n   - Take your time to enjoy each meal. Chew slowly and savor the flavors. This can help you recognize when you’re full.\n   - Engage in conversations and enjoy the social aspect of eating, which can help you eat more mindfully.\n\n### 8. **Balance Your Meals:**\n   - If you overindulge at one meal, try to eat lighter at the next. For instance, if you have a heavy lunch, opt for a lighter dinner with more vegetables and lean proteins.\n\n### 9. **Stay Active:**\n   - If possible, incorporate some physical activity during the week. Even short walks or dancing can help balance out the extra calories consumed.\n\n### 10. **Enjoy in Moderation:**\n   - Remember that it’s about celebrating and enjoying the experience. It’s okay to indulge in traditional dishes that are special to the occasion, just do so in moderation.\n\nBy following these tips, you can enjoy the wedding festivities while still making choices that support your health. Enjoy the celebrations!",
+  "extracted": {
+    "summary": "The response provides tips for maintaining a healthy diet while attending a week-long traditional wedding with high-calorie communal eating.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "fruits",
+      "vegetables",
+      "salads",
+      "whole grains",
+      "brown rice",
+      "quinoa",
+      "whole-wheat bread",
+      "white rice",
+      "grilled chicken",
+      "fish",
+      "legumes",
+      "lentils",
+      "chickpeas",
+      "beans",
+      "sauces",
+      "dressings",
+      "yogurt",
+      "fried foods",
+      "sweets",
+      "desserts",
+      "water",
+      "sugary drinks",
+      "alcoholic beverages"
+    ],
+    "all_dishes_or_foods_named": [
+      "salads",
+      "vegetable dishes",
+      "fruit platters",
+      "lentil dishes",
+      "chickpeas",
+      "fried foods"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "punjabi",
+        "greek"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": "punjabi_wedding",
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3276,
+  "extraction_output_tokens": 889,
+  "extraction_from_cache": false
+}

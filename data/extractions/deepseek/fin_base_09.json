@@ -1,0 +1,341 @@
+{
+  "prompt_id": "fin_base_09",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a 3-day meal plan for a student who needs to improve their iron levels.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a 3-day meal plan designed for a student to improve iron levels. It focuses on **heme iron** (from animal sources, which is easily absorbed) and **non-heme iron** (from plants) paired with **Vitamin C** to boost absorption.\n\n**Key Tips for this Plan:**\n- **Vitamin C is your best friend:** Always pair iron-rich plant foods with Vitamin C (citrus, bell peppers, broccoli, tomatoes).\n- **Avoid tea/coffee with meals:** Tannins in tea and coffee block iron absorption. Drink them between meals (e.g., 1 hour before or 2 hours after).\n- **Cook in a cast-iron pan:** This can leach small amounts of iron into your food, especially acidic foods like tomato sauce.\n\n---\n\n### Day 1: Boost & Build\n\n**Breakfast (Iron + Vitamin C combo)**\n- **Oatmeal** made with milk or fortified plant milk (check label for iron).\n- Stir in **2 tbsp pumpkin seeds** (good iron source).\n- Top with **strawberries or kiwi** (Vitamin C).\n- *Drink:* A small glass of orange juice.\n\n**Lunch (Heme Iron + Veggies)**\n- **Turkey and spinach wrap:** Whole wheat tortilla, 3-4 slices of lean turkey, handful of fresh spinach, sliced bell peppers (Vitamin C), and hummus.\n- **Side:** A handful of cherry tomatoes.\n- *Snack:* Apple slices (Vitamin C helps with later meals).\n\n**Dinner (High Heme Iron)**\n- **Beef stir-fry:** Small portion of lean beef strips (very high in heme iron) with broccoli, red bell peppers, and snap peas. Use a sauce made of low-sodium soy sauce, garlic, and ginger.\n- Serve over a small portion of **brown rice**.\n- *Tip:* Squeeze lime juice over the stir-fry for extra Vitamin C.\n\n**Evening Snack (if hungry)**\n- **Handful of dried apricots** (non-heme iron) and a few almonds.\n\n---\n\n### Day 2: Plant-Powered Iron\n\n**Breakfast (Iron + Vitamin C)**\n- **Scrambled eggs** (heme iron) with a handful of **chopped spinach** and **mushrooms**.\n- **Side:** Half a grapefruit (Vitamin C).\n- *Drink:* Water or milk.\n\n**Lunch (Lentil Power)**\n- **Lentil soup** (lentils are an iron powerhouse) made with tomatoes (Vitamin C), carrots, and celery.\n- **Side:** Whole grain bread or crackers.\n- *Snack:* **Hummus** with raw **broccoli florets** or **red pepper strips** (Vitamin C).\n\n**Dinner (Seafood Iron)**\n- **Canned sardines or mackerel** on whole wheat toast (sardines are very high in heme iron and cheap).\n- **Side:** A large **side salad** with spinach, bell peppers, and a lemon vinaigrette (Vitamin C).\n- *Tip:* If you don't like fish, swap for a **bean and quinoa bowl** (see Day 3 lunch style).\n\n**Evening Snack**\n- **A small square of dark chocolate** (70%+ cocoa – contains iron).\n\n---\n\n### Day 3: Mix & Match\n\n**Breakfast (Quick & Easy)**\n- **Fortified breakfast cereal** (e.g., Total, Cheerios, or Bran Flakes – check label for 100% DV iron).\n- **Top with** **sliced strawberries** (Vitamin C) and **milk**.\n- *Drink:* Water or milk.\n\n**Lunch (Bean & Grain Bowl)**\n- **Quinoa and black bean bowl:** Mix cooked quinoa (good iron) with black beans (excellent iron), corn, diced tomatoes, and avocado.\n- **Dressing:** Lime juice and cilantro (Vitamin C).\n- *Snack:* **Edamame** (soybeans) pods – a great iron-rich snack.\n\n**Dinner (Chicken & Greens)**\n- **Grilled chicken thigh** (contains more iron than breast) with a **sweet potato** (baked) and **steamed kale or collard greens** (very high in non-heme iron).\n- *Tip:* Squeeze lemon juice over the greens to boost iron absorption.\n- **Optional:** Add a side of **sautéed mushrooms**.\n\n**Evening Snack**\n- **A handful of raisins or dried mulberries** (both contain iron).\n\n---\n\n### Shopping List (Student Budget-Friendly)\n\n**Produce:**\n- Spinach (fresh or frozen)\n- Broccoli\n- Bell peppers (red/yellow)\n- Lemons & limes\n- Oranges or grapefruit\n- Strawberries or kiwi\n- Tomatoes (canned or fresh)\n- Avocado\n- Garlic, ginger, onion\n- Sweet potato\n\n**Proteins:**\n- Lean beef strips (buy in bulk, freeze portions)\n- Chicken thighs\n- Canned sardines or mackerel (very cheap)\n- Eggs\n- Turkey slices (deli)\n\n**Pantry / Canned:**\n- Canned lentils or dried lentils\n- Canned black beans\n- Quinoa\n- Brown rice\n- Fortified breakfast cereal\n- Dried apricots\n- Pumpkin seeds\n- Hummus\n- Dark chocolate (70%+)\n- Oatmeal\n\n**Dairy / Alternatives:**\n- Milk or fortified plant milk\n- Yogurt (optional – calcium can interfere, so eat separately from iron meals)\n\n### Final Advice for a Student:\n- **Prep ahead:** Cook a batch of quinoa, lentils, or brown rice at the start of the week.\n- **Frozen veggies:** Frozen spinach and broccoli are just as nutritious and cheaper.\n- **Take Vitamin C supplements?** Even a 250mg Vitamin C tablet taken with a meal can triple non-heme iron absorption.\n- **Don't overdo calcium:** Avoid taking calcium supplements or drinking milk at the same meal as your high-iron foods.\n\nLet me know if you have any dietary restrictions (vegetarian, vegan, allergies) and I can adjust the plan further!",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan aimed at improving iron levels for a student, including specific meals and a shopping list.",
+    "response_type": "meal_plan",
+    "primary_goal": "iron_deficiency",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "milk",
+          "pumpkin seeds",
+          "strawberries",
+          "orange juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "turkey and spinach wrap",
+        "ingredients": [
+          "whole wheat tortilla",
+          "turkey",
+          "spinach",
+          "bell peppers",
+          "hummus",
+          "cherry tomatoes",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "beef stir-fry",
+        "ingredients": [
+          "beef",
+          "broccoli",
+          "red bell peppers",
+          "snap peas",
+          "brown rice",
+          "lime juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "dried apricots and almonds",
+        "ingredients": [
+          "dried apricots",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "mushrooms",
+          "grapefruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "tomatoes",
+          "carrots",
+          "celery",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "canned sardines on toast",
+        "ingredients": [
+          "sardines",
+          "whole wheat toast",
+          "salad",
+          "spinach",
+          "bell peppers",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "dark chocolate",
+        "ingredients": [
+          "dark chocolate"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "fortified breakfast cereal",
+        "ingredients": [
+          "fortified breakfast cereal",
+          "strawberries",
+          "milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "quinoa and black bean bowl",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "corn",
+          "tomatoes",
+          "avocado",
+          "lime",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken thigh",
+        "ingredients": [
+          "chicken thigh",
+          "sweet potato",
+          "kale",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "raisins or dried mulberries",
+        "ingredients": [
+          "raisins",
+          "dried mulberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "beef",
+      "bell peppers",
+      "black beans",
+      "broccoli",
+      "canned lentils",
+      "canned sardines",
+      "carrots",
+      "chicken thigh",
+      "cherry tomatoes",
+      "dark chocolate",
+      "dried apricots",
+      "edamame",
+      "eggs",
+      "fortified breakfast cereal",
+      "grapefruit",
+      "hummus",
+      "kale",
+      "kiwi",
+      "lentils",
+      "lime",
+      "milk",
+      "mushrooms",
+      "orange juice",
+      "pumpkin seeds",
+      "quinoa",
+      "raisins",
+      "red bell peppers",
+      "sardines",
+      "spinach",
+      "strawberries",
+      "sweet potato",
+      "tomatoes",
+      "turkey",
+      "whole grain bread",
+      "whole wheat toast"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "turkey and spinach wrap",
+      "beef stir-fry",
+      "dried apricots and almonds",
+      "scrambled eggs",
+      "lentil soup",
+      "canned sardines on toast",
+      "dark chocolate",
+      "fortified breakfast cereal",
+      "quinoa and black bean bowl",
+      "grilled chicken thigh",
+      "raisins or dried mulberries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "shared",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "iron_deficiency"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3836,
+  "extraction_output_tokens": 2140,
+  "extraction_from_cache": false
+}

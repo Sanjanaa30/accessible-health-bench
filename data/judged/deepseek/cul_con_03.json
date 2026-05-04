@@ -1,0 +1,429 @@
+{
+  "prompt_id": "cul_con_03",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How should I cook fish? I want to use traditional Cantonese steaming methods rather than Western baking or frying.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Cantonese steaming is a fantastic way to cook fish, as it preserves the delicate texture and natural sweetness of the fish without masking its flavour. The key is **absolute freshness** and **precise timing**.\n\nHere is a step-by-step guide to achieving a perfect, restaurant-quality steamed fish at home, using the traditional Cantonese method.\n\n### 1. The Most Important Step: Choosing the Fish\n\nFor Cantonese steaming, the fish **must be very fresh** (ideally alive or \"just caught\"). Look for:\n- **Clear, bright eyes.**\n- **Bright red gills.**\n- **Firm flesh** that springs back when pressed.\n- **No strong \"fishy\" smell;** it should smell clean like the sea or fresh water.\n\n**Best fish for steaming (whole):**\n- **Sea Bass** (most common and forgiving)\n- **Grouper**\n- **Flounder / Sole** (flatfish are excellent)\n- **Pomfret**\n- **Trout** (a good, more affordable option)\n\n### 2. The Equipment\n\n- **A large, deep plate** that fits inside your steamer. The plate will collect the precious juices (which become the sauce).\n- **A steamer:** A traditional bamboo steamer basket (placed over a wok of boiling water) is ideal. A metal steamer pot or even a deep frying pan with a lid and a trivet works perfectly well.\n- **A lid** for your steamer.\n\n### 3. The Step-by-Step Method\n\n**Prep Time:** 5 minutes\n**Cook Time:** 8-12 minutes (depending on thickness)\n\n**Ingredients (for one whole fish, ~500g/1lb):**\n- 1 whole fresh fish (cleaned and scaled by your fishmonger)\n- 2-3 slices of **fresh ginger** (julienned or sliced)\n- 2-3 stalks of **spring onions** (scallions), white part cut into sections, green part finely shredded for garnish\n- 1-2 tablespoons of **light soy sauce** (or premium fish soy sauce, *zheng yu jiang you*)\n- 1 tablespoon of **peanut or vegetable oil** (for the sizzle)\n- *(Optional)* A pinch of salt and white pepper to season the fish cavity.\n\n**Instructions:**\n\n1.  **Prepare the Fish:** Rinse the fish inside and out under cold water. Pat it completely dry with paper towels (this is crucial to prevent splashing and ensure even cooking). If the fish is large, make 2-3 shallow diagonal slashes on each side, down to the bone. This helps it cook evenly and faster.\n\n2.  **Prepare the Steamer:** Fill your wok or steamer pot with enough water to create steam for 10 minutes without boiling dry. Bring the water to a **rolling boil** over high heat.\n\n3.  **Aromatics:** Place a few slices of ginger and the white parts of the spring onion on the plate. Place the fish on top of these aromatics. This lifts the fish slightly, allowing steam to circulate underneath and infuse the flavour. Stuff a few ginger slices and spring onion pieces inside the fish's cavity.\n\n4.  **Steam:** Place the plate with the fish into the steamer. Cover tightly with the lid. **Reduce the heat to medium-high** (the water should be actively boiling, producing a steady stream of steam, but not violently splashing). Steam for **8-10 minutes** for a 500g fish. A good rule of thumb is **10 minutes per inch of thickness** (measured at the thickest part of the fish).\n\n5.  **The \"Doneness\" Test:** The fish is perfectly cooked when the flesh is opaque and flakes easily with a fork. The eyes will have turned white and popped out slightly. **Do not over-steam**, or the fish will become dry and tough.\n\n6.  **Drain the Liquid (Crucial Step):** Carefully remove the plate from the steamer (use oven mitts!). **Pour off all the accumulated liquid** (the fishy water) from the plate. This is one of the most important secrets to a clean, non-fishy flavour.\n\n7.  **The Sizzle (The Magic):**\n    - Scatter the finely shredded green parts of the spring onion and any remaining fresh ginger over the top of the fish.\n    - Drizzle the **light soy sauce** over the fish and around the plate.\n    - In a small saucepan, heat the **peanut oil** until it is shimmering hot and just beginning to smoke.\n    - **Carefully pour the hot oil directly over the spring onions and ginger on top of the fish.** You will hear a satisfying sizzle. This flash-cooks the aromatics and releases their fragrance into the oil and soy sauce.\n\n### 4. How to Serve\n\nServe the fish immediately, straight from the steaming plate. The traditional way is to eat it with steamed white rice. Use a spoon to pour some of the aromatic sauce (the mixture of soy sauce and oil) over your rice and the fish.\n\n### 5. Troubleshooting & Tips\n\n- **Fishy smell?** The fish is not fresh enough. Also, ensure you drained the steaming liquid (Step 6).\n- **Fish is dry?** You over-steamed it. Next time, check for doneness 2 minutes earlier.\n- **Sauce is bland?** Use a good quality, premium light soy sauce specifically for steaming. Some chefs add a tiny pinch of sugar to the soy sauce to balance the saltiness.\n- **Don't have a steamer?** Use a large, deep frying pan or wok. Place a heat-proof bowl or a small trivet upside down in the pan. Add water to just below the top of the trivet. Place the plate of fish on the trivet, cover, and bring to a boil. This works perfectly.\n\nThis method produces a fish that is silky, moist, and intensely flavourful. Enjoy the purity of the taste!",
+  "extracted": {
+    "summary": "The response provides a detailed guide on how to cook fish using traditional Cantonese steaming methods, emphasizing the importance of freshness and specific techniques.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "steamed fish",
+        "ingredients": [
+          "fish",
+          "ginger",
+          "spring onions",
+          "light soy sauce",
+          "peanut oil",
+          "salt",
+          "white pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "steaming",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "fish",
+      "ginger",
+      "spring onions",
+      "light soy sauce",
+      "peanut oil",
+      "salt",
+      "white pepper"
+    ],
+    "all_dishes_or_foods_named": [
+      "fish"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 5,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3876,
+  "extraction_output_tokens": 881,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "fish",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "ginger",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "light soy sauce",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "peanut oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spring onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Korea"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "white pepper",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 6,
+      "total_count": 7,
+      "coverage_ratio": 0.8571428571428571,
+      "cuisine_distribution": {
+        "vegetarian": 3,
+        "global": 2,
+        "chinese": 1,
+        "japanese": 1,
+        "vegan": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 8
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 7,
+      "matched_count": 0,
+      "unmatched_count": 7,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "fish",
+        "ginger",
+        "spring onions",
+        "light soy sauce",
+        "peanut oil",
+        "salt",
+        "white pepper"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This is a baseline evaluation as there are no explicit financial constraints stated in the prompt. The response provides a detailed and reasonable method for cooking fish using traditional Cantonese steaming techniques, which is appropriate for a typical household. The ingredients suggested, such as fresh fish, ginger, and soy sauce, are common and accessible in most grocery stores, making the recommendations practical for average consumers.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This is a baseline evaluation as there are no explicit financial constraints stated in the prompt. The response provides a detailed and reasonable method for cooking fish using traditional Cantonese steaming techniques, which is appropriate for a typical household. The ingredients suggested, such as fresh fish, ginger, and soy sauce, are common and accessible in most grocery stores, making the recommendations practical for average consumers.",
+        "evidence_quote": "Cantonese steaming is a fantastic way to cook fish, as it preserves the delicate texture and natural sweetness of the fish without masking its flavour.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This is a baseline evaluation as there are no explicit financial constraints stated in the prompt. The response provides a detailed and reasonable method for cooking fish using traditional Cantonese steaming techniques, which is appropriate for a typical household. The ingredients suggested, such as fresh fish, ginger, and soy sauce, are common and accessible in most grocery stores, making the recommendations practical for average consumers.\",\n  \"evidence_quote\": \"Cantonese steaming is a fantastic way to cook fish, as it preserves the delicate texture and natural sweetness of the fish without masking its flavour.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4168,
+      "output_tokens": 166,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly requested a traditional Cantonese method for cooking fish. The response provides a detailed and authentic guide to Cantonese steaming, including culturally appropriate ingredients and methods. The advice respects the cultural context by emphasizing the importance of freshness and specific cooking techniques that are integral to Cantonese cuisine.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly requested a traditional Cantonese method for cooking fish. The response provides a detailed and authentic guide to Cantonese steaming, including culturally appropriate ingredients and methods. The advice respects the cultural context by emphasizing the importance of freshness and specific cooking techniques that are integral to Cantonese cuisine.",
+        "evidence_quote": "Cantonese steaming is a fantastic way to cook fish, as it preserves the delicate texture and natural sweetness of the fish without masking its flavour.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly requested a traditional Cantonese method for cooking fish. The response provides a detailed and authentic guide to Cantonese steaming, including culturally appropriate ingredients and methods. The advice respects the cultural context by emphasizing the importance of freshness and specific cooking techniques that are integral to Cantonese cuisine.\",\n  \"evidence_quote\": \"Cantonese steaming is a fantastic way to cook fish, as it preserves the delicate texture and natural sweetness of the fish without masking its flavour.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4589,
+      "output_tokens": 168,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The plan for cooking fish using traditional Cantonese steaming methods is fully executable within typical constraints. The preparation time of 5 minutes and cooking time of 8-12 minutes fits comfortably within a reasonable cooking schedule. The equipment required, such as a steamer or a deep frying pan, is commonly available in most kitchens, and the instructions are clear and straightforward, allowing for easy execution. Additionally, the response is culturally sensitive and aligns perfectly with the user's request for Cantonese cooking methods.",
+      "details": {
+        "score": 5,
+        "reasoning": "The plan for cooking fish using traditional Cantonese steaming methods is fully executable within typical constraints. The preparation time of 5 minutes and cooking time of 8-12 minutes fits comfortably within a reasonable cooking schedule. The equipment required, such as a steamer or a deep frying pan, is commonly available in most kitchens, and the instructions are clear and straightforward, allowing for easy execution. Additionally, the response is culturally sensitive and aligns perfectly with the user's request for Cantonese cooking methods.",
+        "evidence_quote": "The key is absolute freshness and precise timing.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The plan for cooking fish using traditional Cantonese steaming methods is fully executable within typical constraints. The preparation time of 5 minutes and cooking time of 8-12 minutes fits comfortably within a reasonable cooking schedule. The equipment required, such as a steamer or a deep frying pan, is commonly available in most kitchens, and the instructions are clear and straightforward, allowing for easy execution. Additionally, the response is culturally sensitive and aligns perfectly with the user's request for Cantonese cooking methods.\",\n  \"evidence_quote\": \"The key is absolute freshness and precise timing.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4015,
+      "output_tokens": 175,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "Cantonese steaming is a fantastic way to cook fish, as it preserves the delicate texture and natural sweetness of the fish without masking its flavour."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"Cantonese steaming is a fantastic way to cook fish, as it preserves the delicate texture and natural sweetness of the fish without masking its flavour.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4511,
+      "output_tokens": 259,
+      "from_cache": false
+    }
+  }
+}

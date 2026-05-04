@@ -1,0 +1,124 @@
+{
+  "prompt_id": "cul_base_17",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy way to season a chicken breast.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "A healthy way to season a chicken breast is to use a combination of fresh herbs, citrus, and spices. Here’s a simple recipe:\n\n### Lemon Herb Marinade\n\n**Ingredients:**\n- 2 tablespoons olive oil\n- Juice of 1 lemon\n- Zest of 1 lemon\n- 2 cloves garlic, minced\n- 1 teaspoon dried oregano (or 1 tablespoon fresh oregano, chopped)\n- 1 teaspoon dried thyme (or 1 tablespoon fresh thyme, chopped)\n- Salt and pepper to taste\n\n**Instructions:**\n1. In a bowl, whisk together the olive oil, lemon juice, lemon zest, minced garlic, oregano, thyme, salt, and pepper.\n2. Place the chicken breast in a resealable plastic bag or a shallow dish and pour the marinade over it. Make sure the chicken is well-coated.\n3. Marinate in the refrigerator for at least 30 minutes (up to 2 hours for more flavor).\n4. Grill, bake, or pan-sear the chicken breast until fully cooked.\n\nThis marinade not only adds flavor but also keeps the chicken moist and tender. Enjoy!",
+  "extracted": {
+    "summary": "The response provides a healthy lemon herb marinade recipe for seasoning chicken breast using fresh herbs, citrus, and spices.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "lemon herb marinade",
+        "ingredients": [
+          "olive oil",
+          "lemon",
+          "garlic",
+          "oregano",
+          "thyme",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "olive oil",
+      "lemon",
+      "garlic",
+      "oregano",
+      "thyme",
+      "salt",
+      "pepper"
+    ],
+    "all_dishes_or_foods_named": [
+      "lemon herb marinade"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2785,
+  "extraction_output_tokens": 839,
+  "extraction_from_cache": false
+}

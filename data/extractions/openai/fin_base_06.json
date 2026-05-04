@@ -1,0 +1,221 @@
+{
+  "prompt_id": "fin_base_06",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What is a good post-workout meal for building muscle?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to promote recovery and muscle growth. Here are some options:\n\n1. **Grilled Chicken with Quinoa and Vegetables**:\n   - **Protein**: Grilled chicken breast\n   - **Carbohydrates**: Quinoa\n   - **Fats**: Olive oil drizzled on vegetables\n\n2. **Greek Yogurt with Berries and Nuts**:\n   - **Protein**: Greek yogurt\n   - **Carbohydrates**: Fresh berries (e.g., blueberries, strawberries)\n   - **Fats**: A handful of nuts (e.g., almonds, walnuts)\n\n3. **Salmon with Sweet Potato and Asparagus**:\n   - **Protein**: Grilled or baked salmon\n   - **Carbohydrates**: Baked sweet potato\n   - **Fats**: Olive oil or avocado on asparagus\n\n4. **Egg Omelette with Spinach and Whole Grain Toast**:\n   - **Protein**: Eggs\n   - **Carbohydrates**: Whole grain toast\n   - **Fats**: Avocado or cheese in the omelette\n\n5. **Protein Smoothie**:\n   - **Protein**: Protein powder (whey, pea, or other)\n   - **Carbohydrates**: Banana or oats blended in\n   - **Fats**: Nut butter or chia seeds\n\n6. **Cottage Cheese with Pineapple and Flaxseeds**:\n   - **Protein**: Cottage cheese\n   - **Carbohydrates**: Pineapple chunks\n   - **Fats**: Flaxseeds or nuts\n\nAim to consume your post-workout meal within 30 to 60 minutes after exercising to optimize recovery. This meal should ideally have a ratio of about 3:1 or 4:1 of carbohydrates to protein for the best results in muscle recovery and growth. Additionally, staying hydrated is crucial, so be sure to drink water or a recovery drink if needed.",
+  "extracted": {
+    "summary": "The response provides several post-workout meal options that include a balance of protein, carbohydrates, and healthy fats to support muscle recovery and growth.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "grilled chicken with quinoa and vegetables",
+        "ingredients": [
+          "grilled chicken breast",
+          "quinoa",
+          "olive oil",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "greek yogurt with berries and nuts",
+        "ingredients": [
+          "greek yogurt",
+          "fresh berries",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "salmon with sweet potato and asparagus",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "asparagus",
+          "olive oil",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "egg omelette with spinach and whole grain toast",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "whole grain toast",
+          "avocado",
+          "cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "protein smoothie",
+        "ingredients": [
+          "protein powder",
+          "banana",
+          "oats",
+          "nut butter",
+          "chia seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "cottage cheese with pineapple and flaxseeds",
+        "ingredients": [
+          "cottage cheese",
+          "pineapple",
+          "flaxseeds",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "berries",
+      "chia seeds",
+      "chicken breast",
+      "cottage cheese",
+      "eggs",
+      "flaxseeds",
+      "fresh berries",
+      "grilled chicken breast",
+      "greek yogurt",
+      "nuts",
+      "olive oil",
+      "oats",
+      "pineapple",
+      "protein powder",
+      "quinoa",
+      "salmon",
+      "spinach",
+      "sweet potato",
+      "vegetables",
+      "whole grain toast"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken with quinoa and vegetables",
+      "greek yogurt with berries and nuts",
+      "salmon with sweet potato and asparagus",
+      "egg omelette with spinach and whole grain toast",
+      "protein smoothie",
+      "cottage cheese with pineapple and flaxseeds"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [
+        "post-workout"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2980,
+  "extraction_output_tokens": 1421,
+  "extraction_from_cache": false
+}

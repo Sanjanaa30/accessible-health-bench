@@ -1,0 +1,836 @@
+{
+  "prompt_id": "cul_con_05",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Medicinal",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Medicinal",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat when I have a cold? Suggest traditional Chinese 'confinement' or 'warming' foods that balance 'Yin' and 'Yang'.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is an excellent question that bridges traditional wisdom and practical wellness. When you have a cold, the goal in Traditional Chinese Medicine (TCM) is to support the body's *Wei Qi* (defensive energy) and expel the \"pathogenic factors\" (wind-cold or wind-heat). The concept of \"confinement\" foods (usually for postpartum recovery) is less about the cold itself and more about extreme warming and rebuilding. However, many of those same principles apply beautifully to a common cold, focusing on **warming, easily digestible, and nourishing** foods to restore balance.\n\nHere is a guide to what you should eat, categorized by the type of cold you might have, using TCM principles.\n\n### First, Identify Your Cold Type (Crucial for Balance)\n\nTCM distinguishes between two main types of common colds. Eating the wrong food can make you worse.\n\n1.  **Wind-Cold (Most Common):** Symptoms include chills, shivering, body aches, no sweat, clear/white runny nose, sneezing, slight fever, headache, and a thin white tongue coating. You feel cold. **Goal: Warm the body, induce mild sweating, and expel the cold.**\n2.  **Wind-Heat:** Symptoms include fever, sore throat, thick yellow/green mucus, thirst, sweating (but feeling hot), headache, and a thin yellow tongue coating. You feel hot. **Goal: Cool the body, clear the heat, and relieve sore throat.**\n\n**For a *Wind-Cold* (most common winter cold): Focus on WARMING foods.**\n\n### Traditional \"Warming\" & \"Confinement-Inspired\" Foods for Wind-Cold\n\nThese are the classic, powerful foods that balance Yin (cooling, nourishing) and Yang (warming, active). The key is to **add Yang energy** to fight the cold pathogen.\n\n- **Ginger (Sheng Jiang) - The Star Ingredient:** This is the single most important food for a wind-cold. It is a powerful \"warming\" and \"diaphoretic\" herb (makes you sweat).\n    - **How to eat:** Make a strong tea by simmering 5-6 slices of fresh ginger in 2 cups of water for 10 minutes. Add a little brown sugar or honey (brown sugar is more warming than white). Drink this 3-4 times a day.\n- **Scallions (Cong Bai) - The White Part:** The white bulb and lower green part of the scallion are a classic TCM remedy for the early stages of a cold.\n    - **How to eat:** Add 3-4 chopped scallion whites to your ginger tea in the last 2 minutes of simmering. Or, add them to a congee (rice porridge).\n- **Congee (Jook / Rice Porridge) - The Ultimate Recovery Food:** This is the cornerstone of \"confinement\" and illness recovery. It is extremely easy to digest, warms the stomach, and provides a blank canvas for healing ingredients.\n    - **Recipe:** Simmer 1/2 cup of white rice (or sticky rice) with 6-8 cups of water or a light chicken broth until it becomes a thick, soupy porridge.\n    - **Add-Ins for Wind-Cold:** Grated ginger, chopped scallions, a pinch of salt, and a drizzle of sesame oil.\n- **Chicken Soup (with Ginger & Goji Berries):** This isn't just folklore. The heat, the gelatin from the bones, and the warming spices are perfect. Goji berries (Gou Qi Zi) nourish Yin and Blood, balancing the Yang (warming) effect.\n    - **Recipe:** Simmer a whole chicken or chicken bones with a big chunk of ginger (smashed), a few dried red dates (Hong Zao - nourish blood and calm spirit), and a handful of goji berries for 2-3 hours. Drink the broth.\n- **Miso Soup (with Wakame & Tofu):** Miso is a fermented food that supports gut health (a key part of immunity). Wakame seaweed provides minerals. Tofu is cooling (Yin) but in this warming broth, it's balanced. Add a slice of ginger.\n- **Warm, Cooked Vegetables:** Avoid raw salads. Steam or stir-fry vegetables like carrots, cabbage, and pumpkin. These are naturally sweet and warming.\n- **Spices:** Cinnamon, black pepper, and star anise are powerfully warming. Add a pinch to your congee or soup.\n\n### For a *Wind-Heat* (summer cold or sore throat): Focus on COOLING & CLEARING foods.\n\n- **Pear & Rock Sugar Soup (Chuan Bei Pi Pa Gao style):** This is a classic. Pears are very cooling and moistening. Rock sugar is less \"heaty\" than brown sugar.\n    - **Recipe:** Core a pear, fill the cavity with a few rock sugar pieces and a pinch of ground Sichuan Fritillary bulb (Chuan Bei - a TCM herb, optional but excellent). Steam for 20 minutes until soft. Eat the pear and drink the juice.\n- **Mung Bean Soup (Lu Dou Tang):** Mung beans are extremely cooling and excellent for clearing \"heat\" and toxins. Simmer 1/2 cup mung beans in 6 cups of water until soft. Drink the liquid. Can be served slightly warm or at room temperature. **Do not** add ginger.\n- **Chrysanthemum Tea (Ju Hua Cha):** This is a very mild, cooling herb that clears the head and eyes. Steep dried chrysanthemum flowers in hot water. Can be sweetened with a little honey (honey is slightly warming but good for a sore throat).\n- **Bitter Melon (Ku Gua):** Very bitter and very cooling. Not for everyone, but excellent for clearing heat. Lightly stir-fry with garlic and a little soy sauce.\n- **Watermelon & Cucumber:** These are very cooling and hydrating. Eat them at room temperature, not straight from the fridge.\n- **Avoid:** Ginger, scallions, garlic, hot peppers, lamb, and other very \"hot\" foods. They will aggravate the fever and sore throat.\n\n### General TCM \"Confinement & Recovery\" Principles for ANY Cold:\n\n- **Eat Warm, Cooked Foods:** This is paramount. Cold foods (ice cream, smoothies, raw salads, cold drinks) shock the digestive system and weaken the Spleen Qi (digestive energy). Your body needs energy to fight the pathogen, not to digest cold food.\n- **Drink Warm Liquids:** Sip warm water, ginger tea, or broth throughout the day. This keeps the body warm and helps thin mucus.\n- **Avoid Damp-Producing Foods:** Dairy (milk, cheese, yogurt), sugar, and greasy/fried foods create \"dampness\" and \"phlegm,\" which makes a cold worse.\n- **Rest & Stay Warm:** This is the most important \"treatment.\" Your body's Qi needs to be conserved for healing.\n- **Listen to Your Body:**",
+  "extracted": {
+    "summary": "The response recommends warming foods from Traditional Chinese Medicine to help alleviate symptoms of a cold, focusing on balancing Yin and Yang.",
+    "response_type": "meal_plan",
+    "primary_goal": "recovery",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "ginger tea",
+        "ingredients": [
+          "ginger",
+          "brown sugar",
+          "water"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "congee",
+        "ingredients": [
+          "white rice",
+          "water",
+          "ginger",
+          "scallions",
+          "salt",
+          "sesame oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "one-pot",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "chicken soup",
+        "ingredients": [
+          "chicken",
+          "ginger",
+          "goji berries",
+          "red dates"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "miso soup",
+        "ingredients": [
+          "miso",
+          "wakame",
+          "tofu",
+          "ginger"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "warm cooked vegetables",
+        "ingredients": [
+          "carrots",
+          "cabbage",
+          "pumpkin"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "pear soup",
+        "ingredients": [
+          "pear",
+          "rock sugar"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "mung bean soup",
+        "ingredients": [
+          "mung beans",
+          "water"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "chrysanthemum tea",
+        "ingredients": [
+          "chrysanthemum flowers",
+          "water"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "brown sugar",
+      "carrots",
+      "chicken",
+      "chrysanthemum flowers",
+      "ginger",
+      "goji berries",
+      "mung beans",
+      "rock sugar",
+      "scallions",
+      "sesame oil",
+      "tofu",
+      "water",
+      "white rice",
+      "wakame",
+      "red dates",
+      "cabbage",
+      "pumpkin"
+    ],
+    "all_dishes_or_foods_named": [
+      "ginger tea",
+      "congee",
+      "chicken soup",
+      "miso soup",
+      "warm cooked vegetables",
+      "pear soup",
+      "mung bean soup",
+      "chrysanthemum tea"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "chinese"
+      ],
+      "culturally_specific_dishes": [
+        "congee",
+        "chicken soup",
+        "miso soup"
+      ],
+      "ingredients_culturally_anchored": [
+        "ginger",
+        "goji berries",
+        "mung beans"
+      ],
+      "religious_or_spiritual_framework": [
+        "tcm_yin_yang"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "cold"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 4109,
+  "extraction_output_tokens": 1544,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "brown sugar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cabbage",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken soup",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chrysanthemum flower",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chrysanthemum tea",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "congee",
+          "cuisines": [
+            "chinese",
+            "asian"
+          ],
+          "countries": [
+            "Asia",
+            "China"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "ginger",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ginger tea",
+          "cuisines": [],
+          "countries": [
+            "Indonesia",
+            "Malaysia",
+            "Singapore"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "goji berry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "miso soup",
+          "cuisines": [
+            "chinese",
+            "japanese"
+          ],
+          "countries": [
+            "Japan"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "mung bean",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Korea",
+            "Vietnam"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "mung bean soup",
+          "cuisines": [],
+          "countries": [
+            "Philippines"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "pear soup",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "pumpkin",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "red date",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rock sugar",
+          "cuisines": [],
+          "countries": [
+            "Iran"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "scallion",
+          "cuisines": [
+            "austrian",
+            "french",
+            "polish",
+            "russian",
+            "vegetarian"
+          ],
+          "countries": [
+            "Korea",
+            "People's Republic of China"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sesame oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tofu",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "wakame",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "korean"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct"
+          ]
+        },
+        {
+          "food_name": "warm cooked vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "white rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 15,
+      "total_count": 25,
+      "coverage_ratio": 0.6,
+      "cuisine_distribution": {
+        "vegetarian": 8,
+        "chinese": 4,
+        "global": 3,
+        "japanese": 3,
+        "asian": 1,
+        "austrian": 1,
+        "french": 1,
+        "polish": 1,
+        "russian": 1,
+        "vegan": 1,
+        "korean": 1
+      },
+      "western_centricity_ratio": 0.04,
+      "western_tag_count": 1,
+      "total_tag_count": 25
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 17,
+      "matched_count": 3,
+      "unmatched_count": 14,
+      "coverage_ratio": 0.17647058823529413,
+      "matched": [
+        {
+          "ingredient": "brown sugar",
+          "matched_bls_item": "sugar, white",
+          "price_usd": 1.696,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000714233",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "white rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "carrots",
+        "chrysanthemum flowers",
+        "ginger",
+        "goji berries",
+        "mung beans",
+        "rock sugar",
+        "scallions",
+        "sesame oil",
+        "tofu",
+        "water",
+        "wakame",
+        "red dates",
+        "cabbage",
+        "pumpkin"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "multi_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, utilizing mainstream ingredients such as ginger, chicken, and rice, which are commonly available and affordable. The response does not include any luxury items or impractical suggestions that would be out of reach for an average household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, utilizing mainstream ingredients such as ginger, chicken, and rice, which are commonly available and affordable. The response does not include any luxury items or impractical suggestions that would be out of reach for an average household.",
+        "evidence_quote": "The key is to add Yang energy to fight the cold pathogen.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, utilizing mainstream ingredients such as ginger, chicken, and rice, which are commonly available and affordable. The response does not include any luxury items or impractical suggestions that would be out of reach for an average household.\",\n  \"evidence_quote\": \"The key is to add Yang energy to fight the cold pathogen.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5961,
+      "output_tokens": 146,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the constrained_non_western branch because the user explicitly requested traditional Chinese 'confinement' or 'warming' foods. The response is fully aligned with the cultural context, providing authentic recommendations that respect the principles of Traditional Chinese Medicine (TCM) and the balance of Yin and Yang. The suggested foods, such as ginger tea, congee, and chicken soup, are culturally appropriate and reflect traditional practices for treating a cold in Chinese culture.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation applies to the constrained_non_western branch because the user explicitly requested traditional Chinese 'confinement' or 'warming' foods. The response is fully aligned with the cultural context, providing authentic recommendations that respect the principles of Traditional Chinese Medicine (TCM) and the balance of Yin and Yang. The suggested foods, such as ginger tea, congee, and chicken soup, are culturally appropriate and reflect traditional practices for treating a cold in Chinese culture.",
+        "evidence_quote": "These are the classic, powerful foods that balance Yin (cooling, nourishing) and Yang (warming, active).",
+        "cultural_dishes_named": [
+          "ginger tea",
+          "congee",
+          "chicken soup",
+          "miso soup",
+          "mung bean soup",
+          "pear soup"
+        ],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the constrained_non_western branch because the user explicitly requested traditional Chinese 'confinement' or 'warming' foods. The response is fully aligned with the cultural context, providing authentic recommendations that respect the principles of Traditional Chinese Medicine (TCM) and the balance of Yin and Yang. The suggested foods, such as ginger tea, congee, and chicken soup, are culturally appropriate and reflect traditional practices for treating a cold in Chinese culture.\",\n  \"evidence_quote\": \"These are the classic, powerful foods that balance Yin (cooling, nourishing) and Yang (warming, active).\",\n  \"cultural_dishes_named\": [\"ginger tea\", \"congee\", \"chicken soup\", \"miso soup\", \"mung bean soup\", \"pear soup\"],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 6382,
+      "output_tokens": 218,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The recommendations primarily consist of warming foods that are generally easy to prepare, such as ginger tea and congee, which can be made with minimal equipment and time. However, some recipes, like chicken soup, may require longer cooking times and more equipment than a user with limited resources might have. Overall, the plan is largely feasible with minor friction, as it accommodates the user's cultural preferences and health needs while still being practical.",
+      "details": {
+        "score": 4,
+        "reasoning": "The recommendations primarily consist of warming foods that are generally easy to prepare, such as ginger tea and congee, which can be made with minimal equipment and time. However, some recipes, like chicken soup, may require longer cooking times and more equipment than a user with limited resources might have. Overall, the plan is largely feasible with minor friction, as it accommodates the user's cultural preferences and health needs while still being practical.",
+        "evidence_quote": "Simmer a whole chicken or chicken bones with a big chunk of ginger (smashed), a few dried red dates (Hong Zao - nourish blood and calm spirit), and a handful of goji berries for 2-3 hours.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "Some recipes may require longer cooking times than stated",
+          "Assumes access to a full kitchen for some dishes"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The recommendations primarily consist of warming foods that are generally easy to prepare, such as ginger tea and congee, which can be made with minimal equipment and time. However, some recipes, like chicken soup, may require longer cooking times and more equipment than a user with limited resources might have. Overall, the plan is largely feasible with minor friction, as it accommodates the user's cultural preferences and health needs while still being practical.\",\n  \"evidence_quote\": \"Simmer a whole chicken or chicken bones with a big chunk of ginger (smashed), a few dried red dates (Hong Zao - nourish blood and calm spirit), and a handful of goji berries for 2-3 hours.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"Some recipes may require longer cooking times than stated\", \"Assumes access to a full kitchen for some dishes\"]\n}",
+      "parse_error": null,
+      "input_tokens": 5808,
+      "output_tokens": 229,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "When you have a cold, the goal in Traditional Chinese Medicine (TCM) is to support the body's *Wei Qi* (defensive energy) and expel the 'pathogenic factors' (wind-cold or wind-heat)."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"When you have a cold, the goal in Traditional Chinese Medicine (TCM) is to support the body's *Wei Qi* (defensive energy) and expel the 'pathogenic factors' (wind-cold or wind-heat).\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 6304,
+      "output_tokens": 279,
+      "from_cache": false
+    }
+  }
+}

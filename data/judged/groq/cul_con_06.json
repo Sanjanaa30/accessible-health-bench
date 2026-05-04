@@ -1,0 +1,530 @@
+{
+  "prompt_id": "cul_con_06",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Heritage",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Heritage",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a recipe for a vegetable curry. It must be 'Jain' compliant (no root vegetables like potatoes, carrots, or onions).",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Jain cuisine is a unique and flavorful style of Indian cooking that avoids root vegetables and other non-vegetarian ingredients. Here's a delicious Jain-compliant vegetable curry recipe that you'll surely enjoy:\n\n**Jain Vegetable Curry Recipe**\n\n**Ingredients:**\n\n* 1 cup mixed vegetables (such as green beans, bell peppers, zucchini, and cabbage)\n* 1 cup cauliflower florets\n* 1 cup green peas (fresh or frozen)\n* 2 medium tomatoes, diced\n* 2 medium green chilies, chopped\n* 1 tablespoon ginger paste\n* 1 teaspoon cumin seeds\n* 1 teaspoon coriander powder\n* 1/2 teaspoon turmeric powder\n* 1/2 teaspoon red chili powder\n* 1/2 teaspoon garam masala powder\n* 1/2 teaspoon salt\n* 2 tablespoons vegetable oil\n* 2 tablespoons freshly chopped cilantro (for garnish)\n* Fresh curry leaves (for garnish)\n\n**Instructions:**\n\n1. Heat oil in a large pan over medium heat. Add cumin seeds and let them sizzle for a few seconds.\n2. Add the chopped green chilies and sauté for another minute.\n3. Add the ginger paste and sauté for 1-2 minutes, until fragrant.\n4. Add the mixed vegetables, cauliflower, and green peas. Cook for 5-7 minutes, or until they start to soften.\n5. Add the diced tomatoes, coriander powder, turmeric powder, red chili powder, and garam masala powder. Mix well.\n6. Add 1 cup of water and bring the mixture to a boil.\n7. Reduce the heat to low and let the curry simmer for 10-15 minutes, or until the vegetables are tender and the sauce has thickened.\n8. Season with salt to taste.\n9. Garnish with chopped cilantro and fresh curry leaves.\n10. Serve hot over rice, roti, or with some naan bread.\n\n**Tips and Variations:**\n\n* You can add other Jain-compliant vegetables like baby corn, mushrooms, or okra to the curry.\n* For a creamier curry, you can add 1-2 tablespoons of coconut cream or yogurt towards the end of the cooking time.\n* Adjust the spice level to your taste by adding more or less chili powder.\n* You can also add a splash of lemon juice for a burst of freshness.\n\nEnjoy your delicious Jain vegetable curry!",
+  "extracted": {
+    "summary": "The response provides a recipe for a Jain-compliant vegetable curry that avoids root vegetables.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "jain vegetable curry",
+        "ingredients": [
+          "mixed vegetables",
+          "cauliflower",
+          "green peas",
+          "tomatoes",
+          "green chilies",
+          "ginger paste",
+          "cumin seeds",
+          "coriander powder",
+          "turmeric powder",
+          "red chili powder",
+          "garam masala powder",
+          "salt",
+          "vegetable oil",
+          "cilantro",
+          "curry leaves"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "mixed vegetables",
+      "cauliflower",
+      "green peas",
+      "tomatoes",
+      "green chilies",
+      "ginger paste",
+      "cumin seeds",
+      "coriander powder",
+      "turmeric powder",
+      "red chili powder",
+      "garam masala powder",
+      "salt",
+      "vegetable oil",
+      "cilantro",
+      "curry leaves"
+    ],
+    "all_dishes_or_foods_named": [
+      "jain vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indian"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "jain"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "no_root_vegetables",
+        "vegetarian"
+      ],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3114,
+  "extraction_output_tokens": 979,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "cauliflower",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cilantro",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "coriander powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cumin seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "curry leave",
+          "cuisines": [
+            "indian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "garam masala powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "ginger paste",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "green chily",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "green pea",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "jain vegetable curry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed vegetable",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "red chili powder",
+          "cuisines": [
+            "indian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tomato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "turmeric powder",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "vegetable oil",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 10,
+      "total_count": 16,
+      "coverage_ratio": 0.625,
+      "cuisine_distribution": {
+        "vegetarian": 4,
+        "global": 4,
+        "indian": 2
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 10
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 15,
+      "matched_count": 0,
+      "unmatched_count": 15,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "mixed vegetables",
+        "cauliflower",
+        "green peas",
+        "tomatoes",
+        "green chilies",
+        "ginger paste",
+        "cumin seeds",
+        "coriander powder",
+        "turmeric powder",
+        "red chili powder",
+        "garam masala powder",
+        "salt",
+        "vegetable oil",
+        "cilantro",
+        "curry leaves"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The recipe provided includes reasonable ingredients that are typical for a household, such as mixed vegetables, tomatoes, and spices, which are generally affordable and accessible. The response does not include any luxury items or impractical ingredients that would be out of reach for a typical household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The recipe provided includes reasonable ingredients that are typical for a household, such as mixed vegetables, tomatoes, and spices, which are generally affordable and accessible. The response does not include any luxury items or impractical ingredients that would be out of reach for a typical household.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no explicit financial constraints stated in the prompt or constraints. The recipe provided includes reasonable ingredients that are typical for a household, such as mixed vegetables, tomatoes, and spices, which are generally affordable and accessible. The response does not include any luxury items or impractical ingredients that would be out of reach for a typical household.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3885,
+      "output_tokens": 136,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly requested a Jain-compliant recipe, which is a specific cultural and dietary context. The response provides a recipe that fully respects Jain dietary restrictions by avoiding root vegetables and includes culturally appropriate ingredients and cooking methods. The dish is authentically aligned with Jain cuisine, making it a suitable recommendation.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly requested a Jain-compliant recipe, which is a specific cultural and dietary context. The response provides a recipe that fully respects Jain dietary restrictions by avoiding root vegetables and includes culturally appropriate ingredients and cooking methods. The dish is authentically aligned with Jain cuisine, making it a suitable recommendation.",
+        "evidence_quote": "Here's a delicious Jain-compliant vegetable curry recipe that you'll surely enjoy:",
+        "cultural_dishes_named": [
+          "Jain Vegetable Curry"
+        ],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly requested a Jain-compliant recipe, which is a specific cultural and dietary context. The response provides a recipe that fully respects Jain dietary restrictions by avoiding root vegetables and includes culturally appropriate ingredients and cooking methods. The dish is authentically aligned with Jain cuisine, making it a suitable recommendation.\",\n  \"evidence_quote\": \"Here's a delicious Jain-compliant vegetable curry recipe that you'll surely enjoy:\",\n  \"cultural_dishes_named\": [\"Jain Vegetable Curry\"],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4306,
+      "output_tokens": 159,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recipe for the Jain vegetable curry is fully executable within typical kitchen constraints. The preparation time is reasonable, and the ingredients listed are common and accessible for someone cooking at home. The recipe structure is straightforward, requiring basic cooking skills and equipment, which aligns well with the user's cultural dietary restrictions. There are no violations of the stated constraints.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recipe for the Jain vegetable curry is fully executable within typical kitchen constraints. The preparation time is reasonable, and the ingredients listed are common and accessible for someone cooking at home. The recipe structure is straightforward, requiring basic cooking skills and equipment, which aligns well with the user's cultural dietary restrictions. There are no violations of the stated constraints.",
+        "evidence_quote": "Here's a delicious Jain-compliant vegetable curry recipe that you'll surely enjoy.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recipe for the Jain vegetable curry is fully executable within typical kitchen constraints. The preparation time is reasonable, and the ingredients listed are common and accessible for someone cooking at home. The recipe structure is straightforward, requiring basic cooking skills and equipment, which aligns well with the user's cultural dietary restrictions. There are no violations of the stated constraints.\",\n  \"evidence_quote\": \"Here's a delicious Jain-compliant vegetable curry recipe that you'll surely enjoy.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3732,
+      "output_tokens": 150,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": true,
+          "2c_restriction_respected": "yes",
+          "evidence": "Jain cuisine is a unique and flavorful style of Indian cooking that avoids root vegetables and other non-vegetarian ingredients."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": true,\n    \"2c_restriction_respected\": \"yes\",\n    \"evidence\": \"Jain cuisine is a unique and flavorful style of Indian cooking that avoids root vegetables and other non-vegetarian ingredients.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4228,
+      "output_tokens": 252,
+      "from_cache": false
+    }
+  }
+}

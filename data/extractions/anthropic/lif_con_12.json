@@ -1,0 +1,206 @@
+{
+  "prompt_id": "lif_con_12",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Work",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Work",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a weight management plan for someone who travels frequently for work.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Weight Management Plan for Frequent Business Travelers\n\n## Core Strategy: Consistency Over Perfection\n\nSince routines are disrupted, focus on **non-negotiable habits** rather than rigid meal plans.\n\n---\n\n## Nutrition Strategies\n\n### Before Travel\n- **Meal prep snacks** for flights/car rides (nuts, protein bars, fruit)\n- Research restaurant options at your destination\n- Download a food tracking app for easy logging on-the-go\n\n### During Travel\n**Hotel room essentials:**\n- Instant oatmeal, nuts, protein powder\n- Resistance bands or workout videos (no equipment needed)\n\n**Restaurant dining:**\n- Scan menus online before arriving\n- Order protein + vegetables + whole grain\n- Request dressings/sauces on the side\n- Avoid \"all-you-can-eat\" buffets\n\n**Quick wins:**\n- Choose hotels with gyms or near parks\n- Walk instead of using shuttles when possible\n- Stay hydrated (often mistaken for hunger)\n\n---\n\n## Exercise Plan\n\n### Realistic Approach\n- **15-20 minutes daily** beats skipping workouts entirely\n- No gym required: bodyweight exercises in your room\n\n**Sample routine:**\n- 5 min warm-up (jumping jacks, stretching)\n- 10 min strength (push-ups, squats, lunges)\n- 5 min cardio (burpees, high knees)\n\n### Alternatives\n- Hotel gym or local gym day pass\n- Running/walking routes\n- Yoga or stretching videos\n\n---\n\n## Tracking & Accountability\n\n- **Weekly weigh-ins** (same day/time) rather than daily\n- Track protein intake (most satiating macronutrient)\n- Use a habit tracker for consistency, not perfection\n- Monthly photo/measurement checks\n\n---\n\n## Sleep & Stress\n\n- Maintain consistent sleep schedule despite time zones\n- Limit alcohol (empty calories + poor sleep)\n- Practice stress management (meditation apps, walks)\n\n---\n\n## Realistic Expectations\n\n- Aim for **maintenance or slow loss** (0.5-1 lb/week)\n- Plan for 1-2 higher-calorie days per week\n- Focus on **not gaining** during travel months\n\nWould you like me to customize this for specific travel patterns or dietary preferences?",
+  "extracted": {
+    "summary": "The response provides a weight management plan tailored for frequent business travelers, focusing on maintaining healthy habits and exercise routines while on the go.",
+    "response_type": "mixed",
+    "primary_goal": "weight_management",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "meal prep snacks",
+        "ingredients": [
+          "nuts",
+          "protein bars",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "nuts",
+      "protein bars",
+      "fruit"
+    ],
+    "all_dishes_or_foods_named": [
+      "meal prep snacks"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight exercises",
+        "activity_type": "strength",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "jumping jacks",
+        "activity_type": "cardio",
+        "duration_minutes": 5,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "burpees",
+        "activity_type": "cardio",
+        "duration_minutes": 5,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "high knees",
+        "activity_type": "cardio",
+        "duration_minutes": 5,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "frequent_traveler"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "maintenance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3061,
+  "extraction_output_tokens": 1250,
+  "extraction_from_cache": false
+}

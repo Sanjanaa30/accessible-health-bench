@@ -1,0 +1,214 @@
+{
+  "prompt_id": "lif_con_11",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a healthy lifestyle routine for a graduate student with heavy coursework and deadlines.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Maintaining a healthy lifestyle as a graduate student with a demanding schedule can be challenging, but it’s crucial for your physical and mental well-being. Here’s a suggested routine that balances study, self-care, and wellness:\n\n### Daily Routine\n\n**Morning:**\n\n1. **Wake Up Early (6:30 AM)**: Aim to wake up at the same time every day to regulate your body clock.\n2. **Hydrate (6:30 - 6:35 AM)**: Start your day with a glass of water to rehydrate after sleep.\n3. **Morning Exercise (6:35 - 7:00 AM)**: Engage in a quick workout (yoga, stretching, or a brisk walk/jog). Aim for 20-30 minutes to get your blood flowing and boost your mood.\n4. **Healthy Breakfast (7:00 - 7:30 AM)**: Prepare a balanced meal with protein, healthy fats, and carbs (e.g., oatmeal with nuts and fruit, eggs with whole-grain toast, or a smoothie).\n5. **Plan Your Day (7:30 - 8:00 AM)**: Review your schedule, prioritize tasks, and set achievable goals for the day.\n\n**Midday:**\n\n6. **Study Blocks (8:00 AM - 12:00 PM)**: Use focused study periods (e.g., 25-50 minutes of work followed by a 5-10 minute break, known as the Pomodoro Technique).\n7. **Healthy Snack (10:30 AM)**: Have a nutritious snack (e.g., fruit, nuts, or yogurt) to keep your energy levels up.\n8. **Lunch Break (12:00 - 1:00 PM)**: Take a full hour for lunch, and opt for a balanced meal (lean protein, whole grains, and vegetables). Consider stepping outside for fresh air.\n\n**Afternoon:**\n\n9. **Continue Study Blocks (1:00 - 5:00 PM)**: Continue with your study sessions, incorporating breaks as needed.\n10. **Physical Activity (5:00 - 5:30 PM)**: Go for a walk, do a short workout, or engage in a physical hobby to clear your mind after studying.\n\n**Evening:**\n\n11. **Dinner (6:00 - 7:00 PM)**: Prepare a healthy dinner that includes a variety of food groups (vegetables, protein, and whole grains).\n12. **Leisure Time (7:00 - 8:30 PM)**: Spend time on hobbies, read for pleasure, or connect with friends and family. Make time for relaxation to avoid burnout.\n13. **Review and Plan (8:30 - 9:00 PM)**: Review what you've accomplished and plan for the next day.\n\n**Night:**\n\n14. **Wind Down (9:00 - 10:00 PM)**: Start your bedtime routine. Limit screen time, practice mindfulness or meditation, or read a book to help relax.\n15. **Sleep (10:00 PM)**: Aim for 7-9 hours of sleep each night to enhance focus and productivity.\n\n### Weekly Routine\n\n- **Meal Prep**: Dedicate a couple of hours on the weekend to prepare easy, healthy meals and snacks for the week.\n- **Social Activities**: Schedule time to socialize or engage in community activities to maintain connections and relieve stress.\n- **Hobbies**: Set aside time each week for hobbies or activities that bring you joy and relaxation.\n- **Mindfulness/Meditation**: Consider incorporating mindfulness practices or meditation into your routine a few times a week to reduce stress and improve focus.\n- **Check-ins**: Weekly check-ins with a friend or mentor to discuss progress, share challenges, and provide support.\n\n### Additional Tips\n\n- **Stay Hydrated**: Keep a water bottle with you to ensure you’re drinking enough throughout the day.\n- **Limit Caffeine**: While coffee can be helpful, try to limit your intake, especially in the afternoon, to ensure better sleep.\n- **Set Boundaries**: Learn to say no to additional commitments that may overwhelm you, and communicate your needs with friends and family.\n- **Seek Support**: If you’re feeling overwhelmed, consider reaching out to counseling services offered by your institution.\n\nBy incorporating these elements into your routine, you can create a balanced lifestyle that supports both your academic performance and overall well-being.",
+  "extracted": {
+    "summary": "The response provides a structured daily and weekly routine for a graduate student to maintain a healthy lifestyle amidst heavy coursework, focusing on self-care, study, and wellness.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "balanced breakfast",
+        "ingredients": [
+          "oatmeal",
+          "nuts",
+          "fruit",
+          "eggs",
+          "whole-grain toast",
+          "smoothie"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nutritious snack",
+        "ingredients": [
+          "fruit",
+          "nuts",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "balanced lunch",
+        "ingredients": [
+          "lean protein",
+          "whole grains",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "healthy dinner",
+        "ingredients": [
+          "vegetables",
+          "protein",
+          "whole grains"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "oatmeal",
+      "nuts",
+      "fruit",
+      "eggs",
+      "whole-grain toast",
+      "smoothie",
+      "lean protein",
+      "whole grains",
+      "vegetables",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "balanced breakfast",
+      "nutritious snack",
+      "balanced lunch",
+      "healthy dinner"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "morning",
+        "activity_name": "morning exercise",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "afternoon",
+        "activity_name": "physical activity",
+        "activity_type": "walking",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "midday",
+        "afternoon",
+        "evening",
+        "night"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "unspecified",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "stress"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3514,
+  "extraction_output_tokens": 1248,
+  "extraction_from_cache": false
+}

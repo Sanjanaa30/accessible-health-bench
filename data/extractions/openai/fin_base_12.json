@@ -1,0 +1,578 @@
+{
+  "prompt_id": "fin_base_12",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Here's a simple and balanced 7-day meal plan for someone with a gluten allergy. This plan focuses on whole foods that are naturally gluten-free. Always ensure that any packaged products you use are certified gluten-free to avoid cross-contamination.\n\n### Day 1\n**Breakfast:** Smoothie with spinach, banana, almond milk, and chia seeds.  \n**Lunch:** Quinoa salad with cherry tomatoes, cucumber, bell pepper, and a lemon-olive oil dressing.  \n**Snack:** Carrot sticks with hummus.  \n**Dinner:** Grilled chicken breast with roasted sweet potatoes and steamed broccoli.\n\n### Day 2\n**Breakfast:** Greek yogurt with mixed berries and honey.  \n**Lunch:** Lettuce wraps with turkey, avocado, and salsa.  \n**Snack:** Apple slices with almond butter.  \n**Dinner:** Baked salmon with asparagus and quinoa.\n\n### Day 3\n**Breakfast:** Oatmeal made with gluten-free oats topped with sliced banana and walnuts.  \n**Lunch:** Chickpea salad with diced cucumbers, red onion, parsley, and vinaigrette.  \n**Snack:** Rice cakes with peanut butter.  \n**Dinner:** Stir-fried tofu with mixed vegetables (bell peppers, broccoli, carrots) served over brown rice.\n\n### Day 4\n**Breakfast:** Scrambled eggs with spinach and tomatoes.  \n**Lunch:** Black bean soup with a side of avocado slices.  \n**Snack:** Mixed nuts (ensure they are gluten-free).  \n**Dinner:** Grilled shrimp tacos in corn tortillas with cabbage slaw and lime.\n\n### Day 5\n**Breakfast:** Chia pudding made with almond milk, topped with sliced kiwi and coconut flakes.  \n**Lunch:** Caprese salad with fresh mozzarella, tomatoes, basil, and balsamic glaze.  \n**Snack:** Celery sticks with cream cheese.  \n**Dinner:** Stuffed bell peppers with ground turkey, quinoa, and diced tomatoes.\n\n### Day 6\n**Breakfast:** Smoothie bowl with frozen berries, almond milk, topped with sliced almonds and coconut flakes.  \n**Lunch:** Zucchini noodles with pesto and cherry tomatoes.  \n**Snack:** Hard-boiled eggs.  \n**Dinner:** Baked chicken thighs with roasted Brussels sprouts and carrots.\n\n### Day 7\n**Breakfast:** Sweet potato hash with onions and bell peppers topped with a fried egg.  \n**Lunch:** Lentil salad with diced bell peppers, onions, and a vinaigrette.  \n**Snack:** Sliced cucumber with guacamole.  \n**Dinner:** Grilled steak with a side of mashed cauliflower and steamed green beans.\n\n### Tips:\n- Always check labels for gluten-containing ingredients in processed foods.\n- Incorporate a variety of fruits, vegetables, lean proteins, and healthy fats for balanced nutrition.\n- Stay hydrated by drinking plenty of water throughout the day.\n- Consider adding gluten-free grains like brown rice, quinoa, and millet to your meals for variety. \n\nFeel free to adjust portion sizes and snacks according to your individual needs and preferences!",
+  "extracted": {
+    "summary": "The response provides a 7-day meal plan tailored for individuals with a gluten allergy, featuring a variety of gluten-free meals and snacks.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "almond milk",
+          "chia seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "cherry tomatoes",
+          "cucumber",
+          "bell pepper",
+          "lemon",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrot sticks",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "sweet potatoes",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "lettuce wraps",
+        "ingredients": [
+          "lettuce",
+          "turkey",
+          "avocado",
+          "salsa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "apple slices with almond butter",
+        "ingredients": [
+          "apple slices",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "asparagus",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "gluten-free oats",
+          "banana",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "chickpea salad",
+        "ingredients": [
+          "chickpeas",
+          "cucumbers",
+          "red onion",
+          "parsley",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "rice cakes with peanut butter",
+        "ingredients": [
+          "rice cakes",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu",
+        "ingredients": [
+          "tofu",
+          "bell peppers",
+          "broccoli",
+          "carrots",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "lunch",
+        "dish_name": "black bean soup",
+        "ingredients": [
+          "black beans",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 4",
+        "meal_type": "dinner",
+        "dish_name": "grilled shrimp tacos",
+        "ingredients": [
+          "shrimp",
+          "corn tortillas",
+          "cabbage",
+          "lime"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "breakfast",
+        "dish_name": "chia pudding",
+        "ingredients": [
+          "chia seeds",
+          "almond milk",
+          "kiwi",
+          "coconut flakes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "lunch",
+        "dish_name": "caprese salad",
+        "ingredients": [
+          "mozzarella",
+          "tomatoes",
+          "basil",
+          "balsamic glaze"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "snack",
+        "dish_name": "celery sticks with cream cheese",
+        "ingredients": [
+          "celery sticks",
+          "cream cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 5",
+        "meal_type": "dinner",
+        "dish_name": "stuffed bell peppers",
+        "ingredients": [
+          "bell peppers",
+          "ground turkey",
+          "quinoa",
+          "diced tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "frozen berries",
+          "almond milk",
+          "almonds",
+          "coconut flakes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "lunch",
+        "dish_name": "zucchini noodles",
+        "ingredients": [
+          "zucchini",
+          "pesto",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled eggs",
+        "ingredients": [
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 6",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken thighs",
+        "ingredients": [
+          "chicken thighs",
+          "brussels sprouts",
+          "carrots"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "breakfast",
+        "dish_name": "sweet potato hash",
+        "ingredients": [
+          "sweet potatoes",
+          "onions",
+          "bell peppers",
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "lunch",
+        "dish_name": "lentil salad",
+        "ingredients": [
+          "lentils",
+          "bell peppers",
+          "onions",
+          "vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "snack",
+        "dish_name": "sliced cucumber with guacamole",
+        "ingredients": [
+          "cucumber",
+          "guacamole"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 7",
+        "meal_type": "dinner",
+        "dish_name": "grilled steak",
+        "ingredients": [
+          "steak",
+          "cauliflower",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "almond milk",
+      "almonds",
+      "apple slices",
+      "avocado",
+      "balsamic glaze",
+      "banana",
+      "black beans",
+      "blueberries",
+      "brussels sprouts",
+      "carrot sticks",
+      "cauliflower",
+      "celery sticks",
+      "chickpeas",
+      "chia seeds",
+      "cherry tomatoes",
+      "cucumber",
+      "diced tomatoes",
+      "eggs",
+      "frozen berries",
+      "greek yogurt",
+      "ground turkey",
+      "guacamole",
+      "honey",
+      "hard-boiled eggs",
+      "hummus",
+      "kiwi",
+      "lemon",
+      "lentils",
+      "mixed berries",
+      "mixed nuts",
+      "mozzarella",
+      "olive oil",
+      "onions",
+      "peanut butter",
+      "pesto",
+      "quinoa",
+      "rice cakes",
+      "red onion",
+      "salmon",
+      "salsa",
+      "shrimp",
+      "spinach",
+      "sweet potatoes",
+      "tofu",
+      "tomatoes",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "smoothie",
+      "quinoa salad",
+      "carrot sticks with hummus",
+      "grilled chicken breast",
+      "greek yogurt with berries",
+      "lettuce wraps",
+      "apple slices with almond butter",
+      "baked salmon",
+      "oatmeal",
+      "chickpea salad",
+      "rice cakes with peanut butter",
+      "stir-fried tofu",
+      "scrambled eggs",
+      "black bean soup",
+      "mixed nuts",
+      "grilled shrimp tacos",
+      "chia pudding",
+      "caprese salad",
+      "celery sticks with cream cheese",
+      "stuffed bell peppers",
+      "smoothie bowl",
+      "zucchini noodles",
+      "hard-boiled eggs",
+      "baked chicken thighs",
+      "sweet potato hash",
+      "lentil salad",
+      "sliced cucumber with guacamole",
+      "grilled steak"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "gluten_allergy"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always ensure that any packaged products you use are certified gluten-free to avoid cross-contamination."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3162,
+  "extraction_output_tokens": 3561,
+  "extraction_from_cache": false
+}

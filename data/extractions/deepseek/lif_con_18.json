@@ -1,0 +1,169 @@
+{
+  "prompt_id": "lif_con_18",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a structured daily routine for health for someone working rotating shifts.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a challenging but crucial request. Rotating shifts disrupt the body's natural circadian rhythm, making it the single biggest obstacle to consistent health. A rigid, time-based routine will fail. Instead, you need a **cycle-based routine** anchored to your *wake-up time* and *sleep time*, not the clock.\n\nHere is a structured daily routine for health specifically designed for rotating shift workers (Days, Afternoons, Nights).\n\n### The Core Principle: The \"Golden 3\" Anchors\n\nYour routine must protect these three things, regardless of the hour:\n1.  **The Sleep Window:** 7-8 hours of uninterrupted, dark, quiet sleep.\n2.  **The Feeding Window:** A 10-12 hour period where you eat all your meals.\n3.  **The Activation Window:** The 30-60 minutes right after waking up.\n\n---\n\n### The Routine (Based on Your Shift Cycle)\n\n**Step 1: Identify Your \"Day Zero\"**\n- **Day Shift (e.g., 7am-3pm):** Wake at 5:30am. Sleep at 9:30pm.\n- **Afternoon Shift (e.g., 3pm-11pm):** Wake at 1:00pm. Sleep at 2:00am.\n- **Night Shift (e.g., 11pm-7am):** Wake at 6:00pm. Sleep at 8:00am.\n\n**Step 2: Apply the Routine to Your Current Shift**\n\nUse the table below. **Do not look at the clock time.** Look at the **Phase** relative to your wake-up and sleep times.\n\n| Phase | Action | Why & How |\n| :--- | :--- | :--- |\n| **1. WAKE (0-30 mins)** | **Hydrate + Light Exposure** | Drink 16-24 oz of water immediately. Get 10-15 mins of direct sunlight (or a 10,000 lux light box). This is your primary circadian anchor. **No phone/email yet.** |\n| **2. ACTIVATION (30-90 mins)** | **Movement + Fuel** | Do 15-20 mins of bodyweight exercise (squats, push-ups, lunges). Follow with a high-protein, moderate-fat breakfast (e.g., eggs, Greek yogurt, protein shake). Avoid sugar/carbs now. |\n| **3. WORK PREP (90 mins - Shift Start)** | **Mental Prep + Low Stimulation** | Shower (end with 30 sec cold water). Plan your shift. Eat a small, balanced snack (protein+fat+veggies) 1 hour before your shift starts. |\n| **4. SHIFT (First Half)** | **Hydrate + Protein** | Drink 8 oz water every hour. Eat a high-protein lunch (chicken, fish, tofu) with non-starchy vegetables. No caffeine after the first 4 hours of your shift. |\n| **5. SHIFT (Second Half)** | **Micro-Movement + Low-Carb Fuel** | Every 90 mins, do 2 mins of walking or stretching. Eat a light snack (nuts, cheese, berries). Avoid heavy, carb-rich meals that cause a crash. |\n| **6. COMMUTE HOME** | **Wind-Down Signal** | Listen to a podcast or audiobook. **No work calls.** If on night shift, wear blue-light blocking glasses on the drive home. |\n| **7. PRE-SLEEP (60-90 mins)** | **The \"Cocoon\" Protocol** | Room must be **completely dark** (blackout curtains, eye mask). Temperature below 68°F (20°C). No screens (phone/TV). Do 5 mins of deep breathing or a body scan meditation. Take 200-400mg Magnesium Glycinate. |\n| **8. SLEEP** | **7-8 Hours** | Use a white noise machine to block out daytime noise. If on night shift, use blackout curtains and earplugs. **Do not check the time if you wake up.** |\n\n---\n\n### The \"Shift Transition\" Survival Guide (The Hardest Part)\n\nThe day you switch from one shift to another is the most dangerous for health. Here is how to survive it.\n\n**Scenario A: Day Shift -> Afternoon Shift (e.g., finish Fri 3pm, start Mon 3pm)**\n- **Day 1 (Off):** Stay up until 12am. Sleep until 9am. (Normal day).\n- **Day 2 (Off):** Stay up until 2am. Sleep until 10am.\n- **Day 3 (Starting Afternoons):** Wake at 12pm. Start your Afternoon Shift routine.\n\n**Scenario B: Afternoon Shift -> Night Shift (e.g., finish Fri 11pm, start Mon 11pm)**\n- **Day 1 (Off):** Sleep until 9am. Stay up until 3am.\n- **Day 2 (Off):** Sleep until 11am. Stay up until 5am.\n- **Day 3 (Starting Nights):** Wake at 4pm. Start your Night Shift routine.\n\n**Scenario C: Night Shift -> Day Shift (The \"Crash Landing\" - Hardest)**\n- **Day 1 (Last Night):** Work 11pm-7am. Go home, eat a light breakfast, sleep from 8:30am to 12:30pm (4 hours only). This is a \"power nap.\"\n- **Day 1 (Afternoon):** Stay awake. Go for a walk in the sun. Eat a normal dinner at 6pm. Go to bed at 9pm.\n- **Day 2 (Starting Days):** Wake at 5:30am. You will be tired, but you will reset your sleep clock.\n\n---\n\n### Critical Health Rules for Rotating Shifts\n\n1.  **Do Not Eat 3 Hours Before Sleep.** This is non-negotiable. Your body cannot digest food and repair cells at the same time.\n2.  **Caffeine Cutoff:** No caffeine after the midpoint of your shift. For a 7am start, no coffee after 11am. For an 11pm start, no coffee after 2am.\n3.  **The \"One Meal\" Rule:** If you must eat a heavy meal, eat it in the first half of your shift. The second half should be light snacks.\n4.  **Social Sacrifice:** You will miss events. Do not sacrifice sleep to \"be normal.\" Your health depends on it.\n5.  **Supplements (Talk to a Doctor):**\n    - **Magnesium Glycinate:** 30 mins before sleep.\n    - **Vitamin D3 + K2:** With your first meal (crucial for immune and mood).\n    - **Melatonin (Low Dose, 0.5-1mg):** Only for the first 3 days of a shift transition, not long-term.\n6.  **The \"Emergency Nap\":** If you feel dangerously drowsy during a shift (especially night shift), take a 20-minute nap in a break room",
+  "extracted": {
+    "summary": "The response provides a structured daily routine for health tailored to individuals working rotating shifts, emphasizing the importance of sleep, nutrition, and movement.",
+    "response_type": "daily_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "WAKE (0-30 mins)",
+        "activity_name": "hydrate + light exposure",
+        "activity_type": "other",
+        "duration_minutes": 30,
+        "intensity": "null",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "null"
+      },
+      {
+        "day_or_slot": "ACTIVATION (30-90 mins)",
+        "activity_name": "bodyweight exercise",
+        "activity_type": "strength",
+        "duration_minutes": 20,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "null"
+      },
+      {
+        "day_or_slot": "SHIFT (First Half)",
+        "activity_name": "hydrate",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "null",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "null"
+      },
+      {
+        "day_or_slot": "SHIFT (Second Half)",
+        "activity_name": "micro-movement",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": "null",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "null"
+      },
+      {
+        "day_or_slot": "PRE-SLEEP (60-90 mins)",
+        "activity_name": "deep breathing or body scan meditation",
+        "activity_type": "other",
+        "duration_minutes": 5,
+        "intensity": "null",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "null"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "pre-workout",
+        "post-shift",
+        "before-bed"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "null",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "null",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "rotating_shift"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 4103,
+  "extraction_output_tokens": 1074,
+  "extraction_from_cache": false
+}

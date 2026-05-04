@@ -1,0 +1,463 @@
+{
+  "prompt_id": "cul_con_12",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Gender Norms",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Gender Norms",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fitness routine for a beginner. I live in a conservative region where women-only gym spaces are required; suggest home-based or private exercises that respect these privacy norms.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Beginner Home Fitness Routine\n\n## Weekly Structure (3-4 days/week)\n\n**Day 1 & 3: Strength Basics**\n- Bodyweight squats (2×12)\n- Push-ups (modified on knees if needed, 2×8-10)\n- Glute bridges (2×12)\n- Plank hold (2×20-30 sec)\n- Tricep dips using a chair (2×10)\n\n**Day 2 & 4: Cardio + Core**\n- 10-15 min walking, dancing, or stair climbing\n- Bicycle crunches (2×15)\n- Dead bugs (2×10 each side)\n- Mountain climbers (2×20)\n- Cool-down stretching (5 min)\n\n## Practical Setup Tips\n- Use online videos from female instructors (YouTube has extensive beginner channels)\n- Minimal equipment needed: yoga mat, water bottle, sturdy chair\n- Private timing: exercise during quieter household hours if privacy matters\n\n## Progression\n- Week 1-2: Focus on form\n- Week 3-4: Add reps or duration\n- Month 2: Increase difficulty or frequency\n\n## Alternatives for Your Context\n- Female-only gym memberships (if available in your region)\n- In-home personal training sessions with female instructors\n- Community women's fitness groups\n\n**Start with 2-3 sessions weekly, rest days between.** Consistency matters more than intensity for beginners.\n\nWould you like modifications for any specific fitness level or space constraints?",
+  "extracted": {
+    "summary": "The response provides a beginner-friendly home fitness routine that respects cultural norms for women, including strength and cardio exercises.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "bodyweight squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "plank hold",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 1 & 3",
+        "activity_name": "tricep dips using a chair",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "chair"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "walking, dancing, or stair climbing",
+        "activity_type": "cardio",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "bicycle crunches",
+        "activity_type": "core",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "dead bugs",
+        "activity_type": "core",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "mountain climbers",
+        "activity_type": "core",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Day 2 & 4",
+        "activity_name": "cool-down stretching",
+        "activity_type": "flexibility",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "home",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2938,
+  "extraction_output_tokens": 1363,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "push-ups",
+          "matched_compendium_activity": "push-ups",
+          "compendium_code": "_custom_push_ups",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 1 & 3",
+            "activity_type": "strength",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        },
+        {
+          "activity_name": "mountain climbers",
+          "matched_compendium_activity": "mountain climbers",
+          "compendium_code": "_custom_mountain_climbers",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_from_02012",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "component_input": {
+            "day_or_slot": "Day 2 & 4",
+            "activity_type": "core",
+            "intensity_self_reported": "low",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "home"
+          }
+        }
+      ],
+      "unmatched": [
+        "bodyweight squats",
+        "glute bridges",
+        "plank hold",
+        "tricep dips using a chair",
+        "walking, dancing, or stair climbing",
+        "bicycle crunches",
+        "dead bugs",
+        "cool-down stretching"
+      ],
+      "matched_count": 2,
+      "total_count": 10,
+      "coverage_ratio": 0.2,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness-only category as the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and require minimal to no equipment, making them accessible for a beginner. There are no recommendations for paid memberships or expensive equipment, aligning well with the user's request for privacy and affordability.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness-only category as the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and require minimal to no equipment, making them accessible for a beginner. There are no recommendations for paid memberships or expensive equipment, aligning well with the user's request for privacy and affordability.",
+        "evidence_quote": "Start with 2-3 sessions weekly, rest days between. Consistency matters more than intensity for beginners.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness-only category as the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and require minimal to no equipment, making them accessible for a beginner. There are no recommendations for paid memberships or expensive equipment, aligning well with the user's request for privacy and affordability.\",\n  \"evidence_quote\": \"Start with 2-3 sessions weekly, rest days between. Consistency matters more than intensity for beginners.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3104,
+      "output_tokens": 150,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly mentioned cultural norms regarding gender and privacy in fitness spaces. The response provides a fitness routine that respects these norms by suggesting home-based exercises suitable for women, which aligns with the user's cultural context. The exercises recommended are appropriate and do not conflict with any stated cultural or religious practices.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly mentioned cultural norms regarding gender and privacy in fitness spaces. The response provides a fitness routine that respects these norms by suggesting home-based exercises suitable for women, which aligns with the user's cultural context. The exercises recommended are appropriate and do not conflict with any stated cultural or religious practices.",
+        "evidence_quote": "Start with 2-3 sessions weekly, rest days between. Consistency matters more than intensity for beginners.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly mentioned cultural norms regarding gender and privacy in fitness spaces. The response provides a fitness routine that respects these norms by suggesting home-based exercises suitable for women, which aligns with the user's cultural context. The exercises recommended are appropriate and do not conflict with any stated cultural or religious practices.\",\n  \"evidence_quote\": \"Start with 2-3 sessions weekly, rest days between. Consistency matters more than intensity for beginners.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3525,
+      "output_tokens": 162,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The fitness routine is well-structured for a beginner and respects the user's cultural constraints by providing home-based exercises that require minimal equipment. The exercises are designed to fit within a reasonable time frame, allowing for flexibility in scheduling. The plan is tailored to the user's needs, ensuring that it is executable without the need for a gym or public space.",
+      "details": {
+        "score": 5,
+        "reasoning": "The fitness routine is well-structured for a beginner and respects the user's cultural constraints by providing home-based exercises that require minimal equipment. The exercises are designed to fit within a reasonable time frame, allowing for flexibility in scheduling. The plan is tailored to the user's needs, ensuring that it is executable without the need for a gym or public space.",
+        "evidence_quote": "Start with 2-3 sessions weekly, rest days between. Consistency matters more than intensity for beginners.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The fitness routine is well-structured for a beginner and respects the user's cultural constraints by providing home-based exercises that require minimal equipment. The exercises are designed to fit within a reasonable time frame, allowing for flexibility in scheduling. The plan is tailored to the user's needs, ensuring that it is executable without the need for a gym or public space.\",\n  \"evidence_quote\": \"Start with 2-3 sessions weekly, rest days between. Consistency matters more than intensity for beginners.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 2951,
+      "output_tokens": 159,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "partial",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "suggest home-based or private exercises that respect these privacy norms"
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "exercise during quieter household hours if privacy matters"
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"partial\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"suggest home-based or private exercises that respect these privacy norms\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"exercise during quieter household hours if privacy matters\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3447,
+      "output_tokens": 243,
+      "from_cache": false
+    }
+  }
+}

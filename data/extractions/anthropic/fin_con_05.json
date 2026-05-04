@@ -1,0 +1,130 @@
+{
+  "prompt_id": "fin_con_05",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Provide a recipe for a healthy chicken dinner. The total cost must be under $4 for the whole meal.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Healthy Chicken Dinner\n**Serves 2 | Total Cost: ~$3.50**\n\n## Ingredients\n- 1 lb chicken breast (~$2.00)\n- 2 cups frozen mixed vegetables (~$0.80)\n- 1 cup rice (~$0.30)\n- 1 tbsp oil (~$0.10)\n- Salt, pepper, garlic powder to taste (~$0.30)\n\n## Instructions\n\n1. **Cook rice** (15-20 min): Boil 1 cup rice in 2 cups water with a pinch of salt\n\n2. **Prepare chicken** (10 min): \n   - Cut breast into bite-sized pieces\n   - Season with salt, pepper, and garlic powder\n\n3. **Cook chicken** (8-10 min):\n   - Heat oil in a skillet over medium-high heat\n   - Cook chicken until golden and internal temp reaches 165°F\n\n4. **Add vegetables** (5 min):\n   - Stir in frozen vegetables\n   - Cook until heated through\n\n5. **Combine**: Mix cooked rice with chicken and vegetable mixture\n\n## Nutrition Highlights\n- High in lean protein\n- Whole grain carbs (if using brown rice)\n- Vegetables provide fiber and vitamins\n- Low in added fats\n\n**Money-saving tips**: Buy chicken on sale, use store-brand frozen vegetables, buy rice in bulk",
+  "extracted": {
+    "summary": "The response provides a budget-friendly recipe for a healthy chicken dinner that serves two people, costing approximately $3.50.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "healthy chicken dinner",
+        "ingredients": [
+          "chicken breast",
+          "frozen mixed vegetables",
+          "rice",
+          "oil",
+          "salt",
+          "pepper",
+          "garlic powder"
+        ],
+        "estimated_cost_usd": 3.5,
+        "prep_time_minutes": 10,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 2"
+      }
+    ],
+    "all_ingredients": [
+      "chicken breast",
+      "frozen mixed vegetables",
+      "rice",
+      "oil",
+      "salt",
+      "pepper",
+      "garlic powder"
+    ],
+    "all_dishes_or_foods_named": [
+      "healthy chicken dinner"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 3.5,
+      "cost_period": "per meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "couple",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2900,
+  "extraction_output_tokens": 859,
+  "extraction_from_cache": false
+}

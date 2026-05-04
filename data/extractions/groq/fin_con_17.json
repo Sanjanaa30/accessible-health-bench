@@ -1,0 +1,144 @@
+{
+  "prompt_id": "fin_con_17",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Shared Resources",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Shared Resources",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a family of five. We are sharing one small hotel-style microwave as our only kitchen appliance.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the limitation of having only a small hotel-style microwave as your kitchen appliance, I've come up with a healthy dinner idea that's quick, easy, and can be prepared in the microwave. Here's a suggestion for a family of five:\n\n**Microwaveable Chicken Fajitas with Vegetables**\n\nIngredients:\n\n* 1 pack of boneless, skinless chicken breast or thighs (cut into thin strips)\n* 1 bell pepper (any color), sliced\n* 1 small onion, sliced\n* 2 cloves of garlic, minced\n* 1 cup of frozen mixed vegetables (such as peas, carrots, and corn)\n* 1 tablespoon of olive oil\n* 1 packet of fajita seasoning (or make your own with chili powder, cumin, and paprika)\n* 5 small whole-wheat tortillas\n* Optional toppings: shredded cheese, sour cream, salsa, avocado, and cilantro\n\nInstructions:\n\n1. In a microwave-safe bowl, combine the chicken, bell pepper, onion, and garlic. Drizzle with olive oil and sprinkle with fajita seasoning. Mix well.\n2. Microwave on high for 3-4 minutes, or until the chicken is cooked through and the vegetables are tender.\n3. Add the frozen mixed vegetables to the bowl and stir to combine. Microwave for an additional 1-2 minutes, or until the vegetables are thawed and heated through.\n4. Warm the tortillas by wrapping them in a damp paper towel and microwaving for 20-30 seconds.\n5. Assemble the fajitas by placing a portion of the chicken and vegetable mixture onto a tortilla and adding your desired toppings.\n\n**Additional Tips:**\n\n* To ensure food safety, make sure to cook the chicken to an internal temperature of 165°F (74°C).\n* If you have a microwave with a turntable, use it to promote even cooking.\n* Consider using a microwave-safe container with a lid to help retain moisture and promote even cooking.\n* You can also add other toppings such as diced tomatoes, shredded lettuce, or diced avocado to make the dish more flavorful and nutritious.\n\nThis meal is not only delicious, but it's also a great way to get your daily dose of protein, fiber, and vitamins. The chicken and vegetables provide a good source of lean protein and fiber, while the whole-wheat tortillas add complex carbohydrates. Enjoy your microwaveable chicken fajitas!",
+  "extracted": {
+    "summary": "The response suggests a healthy dinner of microwaveable chicken fajitas with vegetables for a family of five, utilizing only a small hotel-style microwave.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "microwaveable chicken fajitas",
+        "ingredients": [
+          "boneless skinless chicken breast or thighs",
+          "bell pepper",
+          "onion",
+          "garlic",
+          "frozen mixed vegetables",
+          "olive oil",
+          "fajita seasoning",
+          "whole-wheat tortillas",
+          "shredded cheese",
+          "sour cream",
+          "salsa",
+          "avocado",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "microwave",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "bell pepper",
+      "boneless skinless chicken breast or thighs",
+      "cilantro",
+      "fajita seasoning",
+      "frozen mixed vegetables",
+      "garlic",
+      "olive oil",
+      "onion",
+      "shredded cheese",
+      "salsa",
+      "sour cream",
+      "whole-wheat tortillas"
+    ],
+    "all_dishes_or_foods_named": [
+      "microwaveable chicken fajitas"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": true,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "To ensure food safety, make sure to cook the chicken to an internal temperature of 165°F (74°C)."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3099,
+  "extraction_output_tokens": 983,
+  "extraction_from_cache": false
+}

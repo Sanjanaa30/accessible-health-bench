@@ -1,0 +1,457 @@
+{
+  "prompt_id": "fin_con_01",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy breakfast. I have $5.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a healthy and filling breakfast idea for under $5, using common grocery store items (prices may vary slightly by location).\n\n**The \"Power Oatmeal Bowl\"**\n\n- **1/2 cup rolled oats** (~$0.20 from a bulk bin or large container)\n- **1 cup water or milk** (water is free; milk adds ~$0.30)\n- **1 small banana** (~$0.25)\n- **1 large egg** (~$0.20)\n- **1 tablespoon peanut butter** (from a $3 jar, ~$0.20)\n- **Optional: Sprinkle of cinnamon** (negligible cost)\n\n**Total estimated cost: ~$1.15** (leaving you plenty of change for coffee or extra fruit)\n\n**Instructions:**\n1. Cook oats with water or milk according to package directions (usually 2-3 minutes in microwave or 5 minutes on stove).\n2. While oats cook, scramble or fry the egg in a non-stick pan (no oil needed if non-stick).\n3. Slice the banana.\n4. Top the cooked oats with the egg, banana slices, and a dollop of peanut butter. Sprinkle cinnamon on top.\n\n**Why it works:**\n- **Oats** provide fiber and slow-release energy.\n- **Egg** adds protein and healthy fats to keep you full.\n- **Banana** gives natural sweetness and potassium.\n- **Peanut butter** adds healthy fats and more protein.\n\n**Budget tips:**\n- Buy oats in bulk, not instant packets.\n- Use a whole banana instead of pricier berries.\n- Skip the milk and use water if you’re really pinching pennies.\n\nYou’ll have about $3.85 left over—maybe enough for a second breakfast or to save for lunch!",
+  "extracted": {
+    "summary": "The response suggests a healthy breakfast called the 'Power Oatmeal Bowl' that can be made for under $5.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "power oatmeal bowl",
+        "ingredients": [
+          "rolled oats",
+          "water",
+          "milk",
+          "banana",
+          "egg",
+          "peanut butter",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": 1.15,
+        "prep_time_minutes": 5,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "rolled oats",
+      "water",
+      "milk",
+      "banana",
+      "egg",
+      "peanut butter",
+      "cinnamon"
+    ],
+    "all_dishes_or_foods_named": [
+      "power oatmeal bowl"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 1.15,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 5,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2971,
+  "extraction_output_tokens": 859,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cinnamon",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "milk",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "power oatmeal bowl",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rolled oat",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 8,
+      "total_count": 8,
+      "coverage_ratio": 1.0,
+      "cuisine_distribution": {
+        "global": 6,
+        "vegetarian": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 13
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 7,
+      "matched_count": 1,
+      "unmatched_count": 6,
+      "coverage_ratio": 0.14285714285714285,
+      "matched": [
+        {
+          "ingredient": "milk",
+          "matched_bls_item": "milk, fresh, whole, fortified",
+          "price_usd": 4.067,
+          "unit": "per_gallon",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000709112",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "rolled oats",
+        "water",
+        "banana",
+        "egg",
+        "peanut butter",
+        "cinnamon"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": 24.15,
+      "response_cost_period_status": "per_meal_extrapolated",
+      "response_cost_vs_thrifty_ratio": 0.37,
+      "classification": "well_below_thrifty"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 717,
+        "food_entries": 526,
+        "llm_fallback_entries": 191
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly stated a budget of $5. The response provides a healthy breakfast idea that is well within the budget, estimating a total cost of approximately $1.15, which leaves ample room for additional purchases. It also offers practical tips for cost-saving substitutions, such as using water instead of milk and buying oats in bulk, demonstrating a strong understanding of the user's financial constraints.",
+      "details": {
+        "branch": "constrained",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly stated a budget of $5. The response provides a healthy breakfast idea that is well within the budget, estimating a total cost of approximately $1.15, which leaves ample room for additional purchases. It also offers practical tips for cost-saving substitutions, such as using water instead of milk and buying oats in bulk, demonstrating a strong understanding of the user's financial constraints.",
+        "evidence_quote": "Total estimated cost: ~$1.15 (leaving you plenty of change for coffee or extra fruit)",
+        "luxury_items_flagged": [],
+        "substitutions_offered": true,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly stated a budget of $5. The response provides a healthy breakfast idea that is well within the budget, estimating a total cost of approximately $1.15, which leaves ample room for additional purchases. It also offers practical tips for cost-saving substitutions, such as using water instead of milk and buying oats in bulk, demonstrating a strong understanding of the user's financial constraints.\",\n  \"evidence_quote\": \"Total estimated cost: ~$1.15 (leaving you plenty of change for coffee or extra fruit)\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": true,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 3486,
+      "output_tokens": 162,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and healthy breakfast suggestion that is accessible to a wide audience, regardless of cultural background. The ingredients suggested, such as oats, banana, and peanut butter, are common and do not actively dismiss or alienate any cultural variations. Overall, the advice is sensible and appropriate for a general audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and healthy breakfast suggestion that is accessible to a wide audience, regardless of cultural background. The ingredients suggested, such as oats, banana, and peanut butter, are common and do not actively dismiss or alienate any cultural variations. Overall, the advice is sensible and appropriate for a general audience.",
+        "evidence_quote": "Here’s a healthy and filling breakfast idea for under $5, using common grocery store items.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and healthy breakfast suggestion that is accessible to a wide audience, regardless of cultural background. The ingredients suggested, such as oats, banana, and peanut butter, are common and do not actively dismiss or alienate any cultural variations. Overall, the advice is sensible and appropriate for a general audience.\",\n  \"evidence_quote\": \"Here’s a healthy and filling breakfast idea for under $5, using common grocery store items.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3907,
+      "output_tokens": 168,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The proposed breakfast is simple and can be prepared quickly, fitting well within typical time constraints for a morning meal. It requires minimal equipment, only a microwave or stove, which is reasonable for most users. The recipe is structured to be quick and easy, with clear instructions that accommodate a busy lifestyle. Overall, it meets the user's budget and is realistic for execution.",
+      "details": {
+        "score": 5,
+        "reasoning": "The proposed breakfast is simple and can be prepared quickly, fitting well within typical time constraints for a morning meal. It requires minimal equipment, only a microwave or stove, which is reasonable for most users. The recipe is structured to be quick and easy, with clear instructions that accommodate a busy lifestyle. Overall, it meets the user's budget and is realistic for execution.",
+        "evidence_quote": "Cook oats with water or milk according to package directions (usually 2-3 minutes in microwave or 5 minutes on stove).",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The proposed breakfast is simple and can be prepared quickly, fitting well within typical time constraints for a morning meal. It requires minimal equipment, only a microwave or stove, which is reasonable for most users. The recipe is structured to be quick and easy, with clear instructions that accommodate a busy lifestyle. Overall, it meets the user's budget and is realistic for execution.\",\n  \"evidence_quote\": \"Cook oats with water or milk according to package directions (usually 2-3 minutes in microwave or 5 minutes on stove).\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3333,
+      "output_tokens": 168,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "Here’s a healthy and filling breakfast idea for under $5"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"Here’s a healthy and filling breakfast idea for under $5\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3829,
+      "output_tokens": 241,
+      "from_cache": false
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "prompt_id": "lif_base_15",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest healthy eating habits.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Adopting healthy eating habits can significantly improve your overall well-being. Here are some suggestions:\n\n1. **Balanced Diet**: Aim to include a variety of foods from all food groups—fruits, vegetables, whole grains, lean proteins, and healthy fats.\n\n2. **Portion Control**: Be mindful of portion sizes to avoid overeating. Using smaller plates can help control portions.\n\n3. **Eat More Fruits and Vegetables**: Aim for at least five servings of fruits and vegetables each day. They are rich in vitamins, minerals, and fiber.\n\n4. **Choose Whole Grains**: Opt for whole grain bread, pasta, and rice instead of refined grains. Whole grains provide more nutrients and fiber.\n\n5. **Limit Added Sugars and Salt**: Reduce your intake of sugary drinks, sweets, and snacks high in added sugars. Also, be mindful of sodium in processed foods.\n\n6. **Healthy Snacks**: Choose nutritious snacks like nuts, yogurt, fruit, or vegetables with hummus instead of chips or candy.\n\n7. **Hydration**: Drink plenty of water throughout the day. Herbal teas and infused water can also be good alternatives to sugary drinks.\n\n8. **Mindful Eating**: Pay attention to your hunger cues and eat slowly. This can help you enjoy your food more and prevent overeating.\n\n9. **Plan Meals**: Preparing meals ahead of time can help you make healthier choices and avoid the temptation of fast food or unhealthy snacks.\n\n10. **Cook at Home**: Cooking at home allows you to control ingredients and portion sizes. Experiment with new recipes to make healthy eating enjoyable.\n\n11. **Limit Processed Foods**: Minimize consumption of highly processed foods that are often high in unhealthy fats, sugars, and sodium.\n\n12. **Eat Fish and Lean Proteins**: Incorporate fish, beans, tofu, and lean meats into your diet for protein while reducing red meat consumption.\n\n13. **Practice Moderation**: It's okay to indulge occasionally. The key is moderation and not making unhealthy choices a regular habit.\n\n14. **Read Nutrition Labels**: Be informed about what you're eating by checking nutrition labels for ingredients, calories, and serving sizes.\n\n15. **Stay Consistent**: Establishing a routine can help you maintain healthy eating habits over time.\n\nRemember, making small, gradual changes can lead to lasting improvements in your diet and health.",
+  "extracted": {
+    "summary": "The response provides various suggestions for adopting healthy eating habits to improve overall well-being.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "fruits",
+      "vegetables",
+      "whole grains",
+      "lean proteins",
+      "healthy fats",
+      "nuts",
+      "yogurt",
+      "hummus",
+      "water",
+      "herbal teas",
+      "infused water",
+      "fish",
+      "beans",
+      "tofu",
+      "red meat"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3037,
+  "extraction_output_tokens": 759,
+  "extraction_from_cache": false
+}

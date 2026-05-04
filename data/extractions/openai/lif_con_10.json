@@ -1,0 +1,468 @@
+{
+  "prompt_id": "lif_con_10",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Health",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Health",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Give a weekly diet and workout routine for someone recovering from burnout and low energy.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Recovering from burnout and low energy requires a gentle approach that focuses on nourishing the body, mind, and spirit. Below is a weekly diet and workout routine designed to support recovery, enhance energy levels, and promote overall well-being. Always consult with a healthcare professional before starting any new diet or exercise program, especially if you have pre-existing health conditions.\n\n### Weekly Diet Plan\n\n#### General Guidelines:\n- Focus on whole, nutrient-dense foods.\n- Stay hydrated; aim for at least 8 cups of water per day.\n- Eat smaller, more frequent meals to maintain energy levels.\n- Incorporate a variety of colors in fruits and vegetables.\n\n#### Daily Meals:\n**Breakfast Options:**\n1. Overnight oats with chia seeds, almond milk, and topped with berries and nuts.\n2. Smoothie with spinach, banana, protein powder, almond butter, and almond milk.\n3. Greek yogurt with honey, walnuts, and sliced apple.\n\n**Snack Ideas:**\n- A piece of fruit (banana, apple, or orange).\n- Handful of mixed nuts or seeds.\n- Veggie sticks (carrots, cucumber, bell peppers) with hummus.\n\n**Lunch Options:**\n1. Quinoa salad with mixed greens, chickpeas, cherry tomatoes, cucumber, and lemon dressing.\n2. Whole grain wrap with turkey or hummus, spinach, and sliced veggies.\n3. Lentil soup with a side of whole grain bread.\n\n**Snack Ideas:**\n- Rice cakes with almond butter.\n- Cottage cheese with pineapple.\n- Dark chocolate square (70% cacao or higher).\n\n**Dinner Options:**\n1. Grilled salmon with steamed broccoli and sweet potato.\n2. Stir-fried tofu with mixed vegetables and brown rice.\n3. Baked chicken breast with quinoa and roasted Brussels sprouts.\n\n**Hydration:**\n- Herbal teas (e.g., chamomile, peppermint) or infuse water with fruits.\n- Limit caffeine and alcohol, especially in the recovery phase.\n\n### Weekly Workout Routine\n\n#### General Guidelines:\n- Focus on low-impact exercises that promote relaxation and energy restoration.\n- Incorporate activities that you enjoy to make it sustainable.\n- Aim for 30 minutes of movement most days, with rest days as needed.\n\n#### Weekly Schedule:\n\n**Monday: Gentle Yoga (30 minutes)**\n- Focus on restorative poses and deep breathing.\n\n**Tuesday: Nature Walk (30-45 minutes)**\n- Walk at a comfortable pace in a park or green space.\n\n**Wednesday: Strength Training (Bodyweight) (30 minutes)**\n- Squats, push-ups (modified if needed), lunges, and planks.\n- 2 sets of 10-12 reps for each exercise, focusing on form and control.\n\n**Thursday: Restorative Yoga or Stretching (30 minutes)**\n- Emphasize flexibility and deep relaxation.\n\n**Friday: Light Cardio (30 minutes)**\n- Choose an activity like cycling, swimming, or brisk walking at a comfortable pace.\n\n**Saturday: Mindful Movement (30 minutes)**\n- Tai chi, Pilates, or dance class focusing on enjoyment and movement quality.\n\n**Sunday: Rest or Gentle Activity**\n- Free day for rest, meditation, or gentle stretching.\n\n### Additional Tips for Recovery:\n- Prioritize sleep; aim for 7-9 hours each night.\n- Practice mindfulness or meditation to reduce stress.\n- Consider journaling to process thoughts and feelings.\n- Engage in hobbies or activities that bring joy and fulfillment.\n\n### Conclusion\nRecovery from burnout is a gradual process, so be patient and kind to yourself. Adjust the diet and workout routine as needed to fit your personal preferences and energy levels. Listening to your body is key to ensuring a sustainable and effective recovery journey.",
+  "extracted": {
+    "summary": "The response provides a weekly diet and workout routine aimed at supporting recovery from burnout and low energy, emphasizing nourishing foods and gentle exercises.",
+    "response_type": "mixed",
+    "primary_goal": "recovery",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "chia seeds",
+          "almond milk",
+          "berries",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "protein powder",
+          "almond butter",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt",
+        "ingredients": [
+          "greek yogurt",
+          "honey",
+          "walnuts",
+          "apple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruit",
+        "ingredients": [
+          "banana",
+          "apple",
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "veggie sticks with hummus",
+        "ingredients": [
+          "carrots",
+          "cucumber",
+          "bell peppers",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "mixed greens",
+          "chickpeas",
+          "cherry tomatoes",
+          "cucumber",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "whole grain wrap",
+        "ingredients": [
+          "whole grain wrap",
+          "turkey",
+          "hummus",
+          "spinach",
+          "veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "rice cakes with almond butter",
+        "ingredients": [
+          "rice cakes",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with pineapple",
+        "ingredients": [
+          "cottage cheese",
+          "pineapple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "dark chocolate",
+        "ingredients": [
+          "dark chocolate"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fried tofu",
+        "ingredients": [
+          "tofu",
+          "mixed vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "quinoa",
+          "brussels sprouts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "herbal tea",
+        "ingredients": [
+          "herbal tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "apple",
+      "banana",
+      "berries",
+      "broccoli",
+      "brussels sprouts",
+      "carrots",
+      "chickpeas",
+      "chicken breast",
+      "cottage cheese",
+      "cucumber",
+      "dark chocolate",
+      "eggs",
+      "fruit",
+      "greek yogurt",
+      "honey",
+      "herbal tea",
+      "hummus",
+      "lentils",
+      "mixed greens",
+      "mixed nuts",
+      "mixed vegetables",
+      "oats",
+      "pineapple",
+      "protein powder",
+      "quinoa",
+      "rice cakes",
+      "salmon",
+      "spinach",
+      "sweet potato",
+      "tofu",
+      "turkey",
+      "veggies",
+      "walnuts"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "smoothie",
+      "greek yogurt",
+      "fruit",
+      "mixed nuts",
+      "veggie sticks with hummus",
+      "quinoa salad",
+      "whole grain wrap",
+      "lentil soup",
+      "rice cakes with almond butter",
+      "cottage cheese with pineapple",
+      "dark chocolate",
+      "grilled salmon",
+      "stir-fried tofu",
+      "baked chicken breast",
+      "herbal tea"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "gentle yoga",
+        "activity_type": "yoga",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "nature walk",
+        "activity_type": "walking",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "strength training (bodyweight)",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "restorative yoga or stretching",
+        "activity_type": "yoga",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "light cardio",
+        "activity_type": "cardio",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "mindful movement",
+        "activity_type": "dance",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "rest or gentle activity",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "burnout"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq2_cultural"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "Always consult with a healthcare professional before starting any new diet or exercise program, especially if you have pre-existing health conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3361,
+  "extraction_output_tokens": 2831,
+  "extraction_from_cache": false
+}

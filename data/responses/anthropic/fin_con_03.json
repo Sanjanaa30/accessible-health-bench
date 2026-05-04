@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_03",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a list of \"superfoods\" I should add to my diet that are available at a discount dollar store.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Superfoods at Dollar Stores\n\n**Canned & Shelf-Stable:**\n- Canned beans (black, pinto, chickpeas) - protein and fiber\n- Canned fish (tuna, salmon) - omega-3s and protein\n- Canned vegetables - still nutritious, often cheaper than fresh\n- Oats - affordable whole grain staple\n- Peanut butter - protein and healthy fats\n- Nuts and seeds (if available) - micronutrients\n\n**Produce (when in season/available):**\n- Bananas - potassium, usually very cheap\n- Eggs - complete protein\n- Frozen vegetables - often cheaper than fresh, equally nutritious\n- Carrots - affordable, nutrient-dense root vegetable\n\n**Other Options:**\n- Whole wheat bread\n- Greek yogurt (sometimes discounted)\n- Dried beans and lentils\n\n**A note:** Dollar stores vary widely in selection and quality. Stick with items in their original packaging when possible, and check expiration dates. The \"superfood\" concept is somewhat marketing-driven—consistency with affordable basics (beans, eggs, oats, frozen vegetables) matters more than chasing trendy items.\n\nThe best diet is one you can actually afford and maintain long-term.",
+  "input_tokens": 32,
+  "output_tokens": 295,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:29:32.041930"
+}

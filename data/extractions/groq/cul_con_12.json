@@ -1,0 +1,329 @@
+{
+  "prompt_id": "cul_con_12",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Gender Norms",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Gender Norms",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fitness routine for a beginner. I live in a conservative region where women-only gym spaces are required; suggest home-based or private exercises that respect these privacy norms.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "As a beginner, it's essential to start with a routine that's manageable, safe, and respectful of your cultural and privacy needs. Given the requirement for women-only gym spaces, I'll suggest a home-based fitness routine that you can follow in the comfort of your own home. Please note that before starting any new exercise routine, it's essential to consult with a healthcare professional, especially if you have any underlying medical conditions.\n\n**Warm-up (5-10 minutes)**\n\n1. Marching in place or walking around your home\n2. Light stretching, focusing on major muscle groups like neck, shoulders, arms, legs, and back\n3. Jumping jacks (modified to reduce impact, if needed)\n\n**Monday (Upper Body and Core)**\n\n1. Push-ups (modified on knees, if needed): 3 sets of 10 reps\n2. Arm circles (hold arms straight out to the sides and make small circles): 3 sets of 10 reps\n3. Shoulder rolls (roll your shoulders forward and backward): 3 sets of 10 reps\n4. Plank (hold for 30-60 seconds, rest for 30 seconds): 3 sets\n5. Bicycle crunches (lie on your back, alternate bringing elbow to opposite knee): 3 sets of 10 reps\n\n**Tuesday (Lower Body)**\n\n1. Squats (bodyweight or with light weights): 3 sets of 10 reps\n2. Calf raises (stand on the edge of a step or curb, raise up onto toes): 3 sets of 15 reps\n3. Lunges (bodyweight or with light weights): 3 sets of 10 reps (per leg)\n4. Leg raises (lie on your back, lift one leg 6-8 inches off the ground, then lower): 3 sets of 10 reps (per leg)\n5. Wall sits (stand with back against the wall, slide down into a seated position): 3 sets of 60-second hold\n\n**Wednesday (Rest day)**\n\n**Thursday (Upper Body and Core)**\n\n1. Tricep dips (use a chair or bench): 3 sets of 10 reps\n2. Bicep curls (use light weights or water bottles): 3 sets of 10 reps\n3. Russian twists (sit on the floor, twist torso from side to side): 3 sets of 10 reps\n4. Leg raises (hang from a sturdy bar or use a resistance band): 3 sets of 10 reps\n5. Wall push-ups (stand with feet shoulder-width apart, hands on the wall): 3 sets of 10 reps\n\n**Friday (Lower Body)**\n\n1. Glute bridges (lie on your back, lift hips up towards the ceiling): 3 sets of 10 reps\n2. Step-ups (use a sturdy chair or step): 3 sets of 10 reps (per leg)\n3. Side leg lifts (lie on your side, lift top leg up towards the ceiling): 3 sets of 10 reps (per leg)\n4. Calf raises on a step (stand on the edge of a step or curb, raise up onto toes): 3 sets of 15 reps\n5. Seated leg stretches (sit on the floor, stretch one leg out to the side): 3 sets of 30-second hold (per leg)\n\n**Saturday and Sunday (Rest days)**\n\n**Additional Tips**\n\n1. Start with lighter weights and progress gradually as you become stronger.\n2. Focus on proper form and technique throughout each exercise.\n3. Listen to your body and rest when needed.\n4. Stay hydrated and fuel your body with a balanced diet.\n5. Consider investing in a yoga mat, resistance bands, or light dumbbells to enhance your home workout experience.\n\nRemember, consistency and patience are key. Stick to your routine, and you'll see progress over time. If you have any concerns or questions, feel free to ask.",
+  "extracted": {
+    "summary": "The response provides a beginner-friendly home-based fitness routine that respects cultural norms for women-only spaces.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "arm circles",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "shoulder rolls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "bicycle crunches",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "wall sits",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "bicep curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "wall push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "step-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "side leg lifts",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "calf raises on a step",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "seated leg stretches",
+        "activity_type": "flexibility",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "home",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "It's essential to consult with a healthcare professional before starting any new exercise routine, especially if you have any underlying medical conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3441,
+  "extraction_output_tokens": 1961,
+  "extraction_from_cache": false
+}

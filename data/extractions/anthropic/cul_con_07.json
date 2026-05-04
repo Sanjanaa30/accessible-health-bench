@@ -1,0 +1,130 @@
+{
+  "prompt_id": "cul_con_07",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to improve my digestion? I follow an Ayurvedic lifestyle",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Ayurvedic Foods for Better Digestion\n\n## General Principles\n- Eat warm, cooked foods rather than cold or raw\n- Include healthy fats (ghee, sesame oil) to support digestion\n- Eat at consistent times, with lunch as your main meal\n- Chew thoroughly and eat mindfully\n\n## Beneficial Foods\n\n**Spices & seasonings:**\n- Ginger, cumin, coriander, fennel, turmeric\n- Black pepper, asafoetida (hing)\n- These kindle agni (digestive fire)\n\n**Grains & legumes:**\n- Well-cooked rice, mung beans (easiest to digest)\n- Avoid heavy, hard-to-digest legumes if digestion is weak\n\n**Vegetables:**\n- Cooked asparagus, zucchini, leafy greens\n- Favor warming vegetables over cooling ones\n- Avoid excess raw salads\n\n**Other helpful foods:**\n- Bone broth or vegetable broth\n- Buttermilk or lassi with spices\n- Stewed fruits like apples or prunes\n- Sesame seeds\n\n## What to Minimize\n- Cold foods/drinks, ice cream\n- Heavy, fried, or overly processed foods\n- Eating when not hungry\n- Large meals late in evening\n\n**Consider your dosha** (Vata, Pitta, Kapha) for personalized guidance, as recommendations vary. Consulting an Ayurvedic practitioner can help tailor advice to your constitution.",
+  "extracted": {
+    "summary": "The response provides Ayurvedic dietary recommendations to improve digestion, emphasizing warm, cooked foods and specific beneficial ingredients.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "asafoetida",
+      "bone broth",
+      "buttermilk",
+      "coriander",
+      "cumin",
+      "fennel",
+      "ginger",
+      "ghee",
+      "leafy greens",
+      "lassi",
+      "mung beans",
+      "prunes",
+      "rice",
+      "sesame oil",
+      "sesame seeds",
+      "turmeric",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "buttermilk",
+      "lassi",
+      "bone broth"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indian"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "ayurveda"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2898,
+  "extraction_output_tokens": 836,
+  "extraction_from_cache": false
+}

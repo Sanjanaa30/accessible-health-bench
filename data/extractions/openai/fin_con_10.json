@@ -1,0 +1,132 @@
+{
+  "prompt_id": "fin_con_10",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Govt Policy",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Govt Policy",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old. The total must be under $25 and every item must be 100% WIC-eligible (Women, Infants, and Children program",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a healthy grocery list for a mother and her 2-year-old that meets the WIC eligibility criteria and stays under $25 is a great way to ensure nutritious options. Here’s a suggested list:\n\n### Healthy Grocery List (WIC-Eligible):\n\n1. **Whole Wheat Bread (1 loaf)** - Approx. $2.50\n   - Good source of fiber and whole grains.\n\n2. **Brown Rice (1 lb)** - Approx. $1.50\n   - Healthy whole grain option.\n\n3. **Oatmeal (18 oz container)** - Approx. $3.00\n   - A nutritious breakfast option.\n\n4. **Milk (1 gallon)** - Approx. $3.00\n   - Essential for calcium and vitamin D.\n\n5. **Eggs (1 dozen)** - Approx. $2.00\n   - High in protein and versatile for meals.\n\n6. **Peanut Butter (16 oz)** - Approx. $2.00\n   - Good source of protein and healthy fats.\n\n7. **Canned Beans (15 oz, any variety)** - Approx. $1.00\n   - High in protein and fiber.\n\n8. **Fresh Fruits (Bananas, 1 bunch)** - Approx. $1.50\n   - Great source of vitamins and easy for toddlers to eat.\n\n9. **Fresh Vegetables (Carrots, 1 lb)** - Approx. $1.50\n   - Nutritious and good for snacking.\n\n10. **Frozen Vegetables (1 lb, mixed or another variety)** - Approx. $1.50\n    - Convenient and nutritious.\n\n11. **Canned Tuna (5 oz)** - Approx. $1.00\n    - High in protein and omega-3 fatty acids.\n\n### Estimated Total: $22.00\n\n### Notes:\n- Prices are approximate and may vary by location.\n- Ensure to check the labels to confirm WIC eligibility for each item.\n- This list provides a variety of food groups, ensuring balanced nutrition for both mother and child. \n\nFeel free to adjust the quantities or specific items based on local availability and personal preferences!",
+  "extracted": {
+    "summary": "The response provides a healthy grocery list for a mother and her 2-year-old, ensuring all items are WIC-eligible and under $25.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "whole wheat bread",
+      "brown rice",
+      "oatmeal",
+      "milk",
+      "eggs",
+      "peanut butter",
+      "canned beans",
+      "fresh fruits",
+      "fresh vegetables",
+      "frozen vegetables",
+      "canned tuna"
+    ],
+    "all_dishes_or_foods_named": [
+      "whole wheat bread",
+      "brown rice",
+      "oatmeal",
+      "milk",
+      "eggs",
+      "peanut butter",
+      "canned beans",
+      "fresh fruits",
+      "fresh vegetables",
+      "frozen vegetables",
+      "canned tuna"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 22.0,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "wic"
+      ],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "family_with_children",
+      "ages_referenced": [
+        "2_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Prices are approximate and may vary by location.",
+      "Ensure to check the labels to confirm WIC eligibility for each item."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3079,
+  "extraction_output_tokens": 864,
+  "extraction_from_cache": false
+}

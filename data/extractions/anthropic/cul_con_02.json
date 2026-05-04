@@ -1,0 +1,295 @@
+{
+  "prompt_id": "cul_con_02",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "West African Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "West African Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a 3-day meal plan for a healthy heart. I only cook West African cuisine (specifically Nigerian staples).",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# 3-Day Heart-Healthy Nigerian Meal Plan\n\n## Day 1\n\n**Breakfast:** Oatmeal with banana and groundnuts\n- Steel-cut oats with cinnamon, sliced banana, crushed unsalted groundnuts, and a drizzle of honey\n\n**Lunch:** Vegetable soup with lean fish\n- Tomato-based vegetable soup (carrots, spinach, celery, tomatoes) with grilled catfish\n- Served with brown rice or boiled yam\n\n**Dinner:** Baked tilapia with steamed vegetables\n- Herb-seasoned baked tilapia (lemon, garlic, ginger)\n- Steamed broccoli and sweet potato\n\n---\n\n## Day 2\n\n**Breakfast:** Akamu (cornmeal) with okra soup\n- Smooth cornmeal porridge with light okra soup (minimal palm oil, lean meat)\n\n**Lunch:** Jollof rice with grilled chicken\n- Brown rice jollof with tomatoes, onions, and minimal oil\n- Skinless grilled chicken breast\n\n**Dinner:** Moi moi with salad\n- Steamed bean pudding (use egg whites, reduce oil)\n- Fresh garden salad with lemon dressing\n\n---\n\n## Day 3\n\n**Breakfast:** Scrambled eggs with whole wheat bread\n- 2 eggs (mostly whites) with whole grain bread and sliced tomatoes\n\n**Lunch:** Egusi soup with fish\n- Melon seed soup with spinach and grilled catfish\n- Served with cassava fufu or boiled plantain\n\n**Dinner:** Pepper soup with vegetables\n- Spiced fish pepper soup with carrots, celery, and ginger\n- Side of brown rice\n\n---\n\n## Heart-Healthy Tips for Nigerian Cooking\n- **Reduce palm oil** or use in minimal amounts\n- **Grill or bake** instead of deep-frying\n- **Use lean proteins**: fish, skinless chicken, legumes\n- **Increase vegetables** in soups and stews\n- **Limit processed seasonings**; use fresh herbs and spices\n- **Choose whole grains** over white rice/refined carbs",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan featuring heart-healthy Nigerian dishes, emphasizing the use of lean proteins and vegetables.",
+    "response_type": "meal_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana and groundnuts",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "groundnuts",
+          "cinnamon",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "vegetable soup with lean fish",
+        "ingredients": [
+          "tomato",
+          "carrots",
+          "spinach",
+          "celery",
+          "grilled catfish",
+          "brown rice",
+          "yam"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "baked tilapia with steamed vegetables",
+        "ingredients": [
+          "tilapia",
+          "broccoli",
+          "sweet potato",
+          "lemon",
+          "garlic",
+          "ginger"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "akamu with okra soup",
+        "ingredients": [
+          "cornmeal",
+          "okra",
+          "lean meat"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "jollof rice with grilled chicken",
+        "ingredients": [
+          "brown rice",
+          "tomatoes",
+          "onions",
+          "grilled chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "moi moi with salad",
+        "ingredients": [
+          "bean",
+          "egg whites",
+          "salad",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with whole wheat bread",
+        "ingredients": [
+          "eggs",
+          "whole wheat bread",
+          "tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "egusi soup with fish",
+        "ingredients": [
+          "melon seeds",
+          "spinach",
+          "grilled catfish",
+          "cassava fufu",
+          "plantain"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "pepper soup with vegetables",
+        "ingredients": [
+          "fish",
+          "carrots",
+          "celery",
+          "ginger",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "akamu",
+      "banana",
+      "bean",
+      "baked tilapia",
+      "brown rice",
+      "carrots",
+      "cassava fufu",
+      "celery",
+      "eggs",
+      "egusi",
+      "garlic",
+      "ginger",
+      "grilled catfish",
+      "grilled chicken",
+      "groundnuts",
+      "melon seeds",
+      "moi moi",
+      "okra",
+      "onions",
+      "salad",
+      "scrambled eggs",
+      "sweet potato",
+      "tilapia",
+      "tomatoes",
+      "whole wheat bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "akamu",
+      "baked tilapia",
+      "egusi soup",
+      "jollof rice",
+      "moi moi",
+      "oatmeal",
+      "pepper soup",
+      "vegetable soup"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "west_african_nigerian"
+      ],
+      "culturally_specific_dishes": [
+        "akamu",
+        "egusi soup",
+        "jollof rice",
+        "moi moi",
+        "pepper soup"
+      ],
+      "ingredients_culturally_anchored": [
+        "groundnuts",
+        "melon seeds"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "heart_health"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3028,
+  "extraction_output_tokens": 1766,
+  "extraction_from_cache": false
+}

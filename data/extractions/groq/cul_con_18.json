@@ -1,0 +1,164 @@
+{
+  "prompt_id": "cul_con_18",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Heritage",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Heritage",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a way to improve cardio. Include movements from 'Irish Step Dance' or 'Cèilidh' patterns as a way to connect with Celtic heritage through fitness.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Improving cardio while connecting with Celtic heritage through fitness can be achieved by incorporating movements from Irish Step Dance or Cèilidh patterns into your workout routine. Here's a suggested way to do so:\n\n**Warm-up (5-10 minutes)**\n\n1. Start with light cardio such as jogging in place, jumping jacks, or cycling to get your heart rate up.\n2. Incorporate some dynamic stretching to loosen up your muscles, such as leg swings, arm circles, and hip rotations.\n\n**Irish Step Dance-inspired Cardio Routine (20-30 minutes)**\n\n1. **Jig Step**: Begin with a basic jig step, where you step out to the side with one foot and bring the other foot to meet it. Alternate feet and move your arms to the rhythm of traditional Irish music. (3 sets of 30 seconds, with 30 seconds rest in between)\n2. **Reel Step**: Move on to a reel step, where you step out to the side and then bring the other foot to meet it, while keeping your upper body still. Focus on quick footwork and light, bouncy movements. (3 sets of 30 seconds, with 30 seconds rest in between)\n3. **Hornpipe Step**: Incorporate a hornpipe step, where you step out to the side and then bring the other foot to meet it, while keeping your upper body still. Emphasize the \"click\" of your feet on the floor. (3 sets of 30 seconds, with 30 seconds rest in between)\n4. **Cèilidh-inspired Movement**: Incorporate some Cèilidh-inspired movements, such as the \"Dashing White Sergeant\" or \"The Gay Gordons\". These dances involve simple footwork, such as stepping to the side and then bringing the other foot to meet it, while moving around a circle or in a line. (3 sets of 30 seconds, with 30 seconds rest in between)\n\n**High-Intensity Interval Training (HIIT) (15-20 minutes)**\n\n1. Alternate between 30 seconds of high-intensity Irish Step Dance-inspired movements (such as the jig or reel steps) and 30 seconds of rest or low-intensity movement (such as marching in place or walking).\n2. Repeat this pattern for 15-20 minutes, resting for 1-2 minutes between sets.\n\n**Cool-down (5-10 minutes)**\n\n1. Finish your workout with some static stretches to cool down your muscles, such as hamstring, quadriceps, and calf stretches.\n2. End with some deep breathing exercises to relax and center yourself.\n\n**Tips and Variations**\n\n* Incorporate traditional Irish music or Cèilidh music to set the mood and pace for your workout.\n* Add some arm movements, such as holding your arms straight out to the sides or bringing them in towards your body, to enhance the cardiovascular benefits.\n* Incorporate some strength training exercises, such as squats or lunges, to target specific muscle groups.\n* Invite friends or family members to join you in your workout and make it a fun, social experience.\n* Consider taking a class or workshop to learn more about Irish Step Dance or Cèilidh dancing and to improve your technique.\n\nBy incorporating Irish Step Dance and Cèilidh patterns into your cardio workout, you'll not only improve your cardiovascular fitness but also connect with your Celtic heritage and have fun while doing it!",
+  "extracted": {
+    "summary": "The response suggests improving cardio by incorporating movements from Irish Step Dance and Cèilidh patterns into a workout routine, including warm-up, cardio exercises, HIIT, and cool-down.",
+    "response_type": "fitness_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "jig step",
+        "activity_type": "dance",
+        "duration_minutes": 3,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "reel step",
+        "activity_type": "dance",
+        "duration_minutes": 3,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "hornpipe step",
+        "activity_type": "dance",
+        "duration_minutes": 3,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "Cèilidh-inspired movement",
+        "activity_type": "dance",
+        "duration_minutes": 3,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "high-intensity interval training",
+        "activity_type": "hiit",
+        "duration_minutes": 15,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "celtic"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3330,
+  "extraction_output_tokens": 1039,
+  "extraction_from_cache": false
+}

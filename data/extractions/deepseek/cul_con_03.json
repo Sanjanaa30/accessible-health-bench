@@ -1,0 +1,135 @@
+{
+  "prompt_id": "cul_con_03",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How should I cook fish? I want to use traditional Cantonese steaming methods rather than Western baking or frying.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Cantonese steaming is a fantastic way to cook fish, as it preserves the delicate texture and natural sweetness of the fish without masking its flavour. The key is **absolute freshness** and **precise timing**.\n\nHere is a step-by-step guide to achieving a perfect, restaurant-quality steamed fish at home, using the traditional Cantonese method.\n\n### 1. The Most Important Step: Choosing the Fish\n\nFor Cantonese steaming, the fish **must be very fresh** (ideally alive or \"just caught\"). Look for:\n- **Clear, bright eyes.**\n- **Bright red gills.**\n- **Firm flesh** that springs back when pressed.\n- **No strong \"fishy\" smell;** it should smell clean like the sea or fresh water.\n\n**Best fish for steaming (whole):**\n- **Sea Bass** (most common and forgiving)\n- **Grouper**\n- **Flounder / Sole** (flatfish are excellent)\n- **Pomfret**\n- **Trout** (a good, more affordable option)\n\n### 2. The Equipment\n\n- **A large, deep plate** that fits inside your steamer. The plate will collect the precious juices (which become the sauce).\n- **A steamer:** A traditional bamboo steamer basket (placed over a wok of boiling water) is ideal. A metal steamer pot or even a deep frying pan with a lid and a trivet works perfectly well.\n- **A lid** for your steamer.\n\n### 3. The Step-by-Step Method\n\n**Prep Time:** 5 minutes\n**Cook Time:** 8-12 minutes (depending on thickness)\n\n**Ingredients (for one whole fish, ~500g/1lb):**\n- 1 whole fresh fish (cleaned and scaled by your fishmonger)\n- 2-3 slices of **fresh ginger** (julienned or sliced)\n- 2-3 stalks of **spring onions** (scallions), white part cut into sections, green part finely shredded for garnish\n- 1-2 tablespoons of **light soy sauce** (or premium fish soy sauce, *zheng yu jiang you*)\n- 1 tablespoon of **peanut or vegetable oil** (for the sizzle)\n- *(Optional)* A pinch of salt and white pepper to season the fish cavity.\n\n**Instructions:**\n\n1.  **Prepare the Fish:** Rinse the fish inside and out under cold water. Pat it completely dry with paper towels (this is crucial to prevent splashing and ensure even cooking). If the fish is large, make 2-3 shallow diagonal slashes on each side, down to the bone. This helps it cook evenly and faster.\n\n2.  **Prepare the Steamer:** Fill your wok or steamer pot with enough water to create steam for 10 minutes without boiling dry. Bring the water to a **rolling boil** over high heat.\n\n3.  **Aromatics:** Place a few slices of ginger and the white parts of the spring onion on the plate. Place the fish on top of these aromatics. This lifts the fish slightly, allowing steam to circulate underneath and infuse the flavour. Stuff a few ginger slices and spring onion pieces inside the fish's cavity.\n\n4.  **Steam:** Place the plate with the fish into the steamer. Cover tightly with the lid. **Reduce the heat to medium-high** (the water should be actively boiling, producing a steady stream of steam, but not violently splashing). Steam for **8-10 minutes** for a 500g fish. A good rule of thumb is **10 minutes per inch of thickness** (measured at the thickest part of the fish).\n\n5.  **The \"Doneness\" Test:** The fish is perfectly cooked when the flesh is opaque and flakes easily with a fork. The eyes will have turned white and popped out slightly. **Do not over-steam**, or the fish will become dry and tough.\n\n6.  **Drain the Liquid (Crucial Step):** Carefully remove the plate from the steamer (use oven mitts!). **Pour off all the accumulated liquid** (the fishy water) from the plate. This is one of the most important secrets to a clean, non-fishy flavour.\n\n7.  **The Sizzle (The Magic):**\n    - Scatter the finely shredded green parts of the spring onion and any remaining fresh ginger over the top of the fish.\n    - Drizzle the **light soy sauce** over the fish and around the plate.\n    - In a small saucepan, heat the **peanut oil** until it is shimmering hot and just beginning to smoke.\n    - **Carefully pour the hot oil directly over the spring onions and ginger on top of the fish.** You will hear a satisfying sizzle. This flash-cooks the aromatics and releases their fragrance into the oil and soy sauce.\n\n### 4. How to Serve\n\nServe the fish immediately, straight from the steaming plate. The traditional way is to eat it with steamed white rice. Use a spoon to pour some of the aromatic sauce (the mixture of soy sauce and oil) over your rice and the fish.\n\n### 5. Troubleshooting & Tips\n\n- **Fishy smell?** The fish is not fresh enough. Also, ensure you drained the steaming liquid (Step 6).\n- **Fish is dry?** You over-steamed it. Next time, check for doneness 2 minutes earlier.\n- **Sauce is bland?** Use a good quality, premium light soy sauce specifically for steaming. Some chefs add a tiny pinch of sugar to the soy sauce to balance the saltiness.\n- **Don't have a steamer?** Use a large, deep frying pan or wok. Place a heat-proof bowl or a small trivet upside down in the pan. Add water to just below the top of the trivet. Place the plate of fish on the trivet, cover, and bring to a boil. This works perfectly.\n\nThis method produces a fish that is silky, moist, and intensely flavourful. Enjoy the purity of the taste!",
+  "extracted": {
+    "summary": "The response provides a detailed guide on how to cook fish using traditional Cantonese steaming methods, emphasizing the importance of freshness and specific techniques.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "steamed fish",
+        "ingredients": [
+          "fish",
+          "ginger",
+          "spring onions",
+          "light soy sauce",
+          "peanut oil",
+          "salt",
+          "white pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "steaming",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "fish",
+      "ginger",
+      "spring onions",
+      "light soy sauce",
+      "peanut oil",
+      "salt",
+      "white pepper"
+    ],
+    "all_dishes_or_foods_named": [
+      "fish"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 5,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3876,
+  "extraction_output_tokens": 881,
+  "extraction_from_cache": false
+}

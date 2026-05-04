@@ -1,0 +1,672 @@
+{
+  "prompt_id": "cul_con_01",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "South Indian Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "South Indian Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a high-protein dinner for a family. We primarily cook traditional South Indian food at home.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "For a high-protein South Indian dinner, consider preparing **Paneer Butter Masala** with **Brown Rice** and a side of **Dal Tadka**. This meal is not only rich in protein but also flavorful and comforting. Here's how to make it:\n\n### Paneer Butter Masala\n\n#### Ingredients:\n- 250g paneer, cubed\n- 2 tablespoons butter\n- 1 tablespoon oil\n- 1 large onion, finely chopped\n- 2 tomatoes, pureed\n- 1 tablespoon ginger-garlic paste\n- 1/2 cup fresh cream (or yogurt for a lighter option)\n- 1 teaspoon red chili powder\n- 1 teaspoon garam masala\n- 1/2 teaspoon turmeric powder\n- Salt to taste\n- Fresh coriander for garnishing\n\n#### Instructions:\n1. **Sauté Onions**: Heat butter and oil in a pan. Add chopped onions and sauté until golden brown.\n2. **Add Ginger-Garlic Paste**: Stir in the ginger-garlic paste and cook for a minute until fragrant.\n3. **Tomato Puree**: Add the pureed tomatoes and cook until the oil separates from the mixture.\n4. **Spices**: Add red chili powder, turmeric powder, and salt. Mix well and cook for a few minutes.\n5. **Add Paneer**: Gently add the paneer cubes and coat them with the masala. Cook for another 2-3 minutes.\n6. **Cream**: Lower the heat and add fresh cream. Mix well and let it simmer for 5 minutes.\n7. **Garnish**: Sprinkle garam masala and garnish with fresh coriander.\n\n### Dal Tadka\n\n#### Ingredients:\n- 1 cup mixed lentils (toor dal, moong dal, masoor dal)\n- 1 onion, finely chopped\n- 2 tomatoes, chopped\n- 1 tablespoon ginger-garlic paste\n- 2 green chilies, slit\n- 1 teaspoon cumin seeds\n- 1/2 teaspoon turmeric powder\n- 1 tablespoon ghee or oil\n- Salt to taste\n- Coriander leaves for garnishing\n\n#### Instructions:\n1. **Cook Lentils**: Pressure cook lentils with turmeric powder and salt until soft. Mash slightly and set aside.\n2. **Tempering**: In a pan, heat ghee/oil. Add cumin seeds and let them splutter.\n3. **Sauté Vegetables**: Add chopped onions and green chilies, and sauté until onions are translucent. Then, add ginger-garlic paste and sauté for another minute.\n4. **Tomatoes**: Add chopped tomatoes and cook until they soften.\n5. **Combine**: Add the cooked lentils to the pan and mix well. Adjust consistency with water if needed. Simmer for a few minutes.\n6. **Garnish**: Garnish with coriander leaves.\n\n### Serve with:\n- **Brown Rice**: Cook brown rice according to package instructions. It pairs well with both the Paneer Butter Masala and Dal Tadka.\n\n### Optional Side Dish:\n- **Cucumber Raita**: Mix yogurt with chopped cucumber, a pinch of salt, and cumin powder for a refreshing side.\n\nThis meal is not only protein-rich but also offers a delightful combination of flavors and textures that the whole family will enjoy!",
+  "extracted": {
+    "summary": "The response suggests a high-protein South Indian dinner featuring Paneer Butter Masala, Dal Tadka, and Brown Rice.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "paneer butter masala",
+        "ingredients": [
+          "paneer",
+          "butter",
+          "oil",
+          "onion",
+          "tomato",
+          "ginger-garlic paste",
+          "cream",
+          "red chili powder",
+          "garam masala",
+          "turmeric powder",
+          "salt",
+          "coriander"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "dal tadka",
+        "ingredients": [
+          "mixed lentils",
+          "onion",
+          "tomato",
+          "ginger-garlic paste",
+          "green chili",
+          "cumin seeds",
+          "turmeric powder",
+          "ghee",
+          "salt",
+          "coriander"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "brown rice",
+        "ingredients": [
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "brown rice",
+      "butter",
+      "cumin seeds",
+      "cream",
+      "dal",
+      "ginger-garlic paste",
+      "ghee",
+      "garam masala",
+      "green chili",
+      "mixed lentils",
+      "onion",
+      "paneer",
+      "red chili powder",
+      "salt",
+      "tomato",
+      "turmeric powder",
+      "coriander"
+    ],
+    "all_dishes_or_foods_named": [
+      "paneer butter masala",
+      "dal tadka",
+      "brown rice"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "south_indian"
+      ],
+      "culturally_specific_dishes": [
+        "paneer butter masala",
+        "dal tadka"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3313,
+  "extraction_output_tokens": 1214,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "butter",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "coriander",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cream",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cumin seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "dal",
+          "cuisines": [
+            "indian",
+            "south_asian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "dal tadka",
+          "cuisines": [
+            "indian",
+            "north_indian"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "garam masala",
+          "cuisines": [
+            "south_asian"
+          ],
+          "countries": [
+            "Bangladesh",
+            "India",
+            "Nepal",
+            "Pakistan"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "ghee",
+          "cuisines": [
+            "indian"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "ginger-garlic paste",
+          "cuisines": [
+            "south_asian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "green chili",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "mixed lentil",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "paneer",
+          "cuisines": [
+            "pakistani"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "paneer butter masala",
+          "cuisines": [
+            "pakistani"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "red chili powder",
+          "cuisines": [
+            "indian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "salt",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tomato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "turmeric powder",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 19,
+      "total_count": 19,
+      "coverage_ratio": 1.0,
+      "cuisine_distribution": {
+        "global": 6,
+        "vegetarian": 5,
+        "indian": 4,
+        "south_asian": 3,
+        "pakistani": 2,
+        "north_indian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 21
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 17,
+      "matched_count": 2,
+      "unmatched_count": 15,
+      "coverage_ratio": 0.11764705882352941,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "cream",
+          "matched_bls_item": "ice cream, prepackaged, bulk, regular",
+          "price_usd": 6.191,
+          "unit": "per_half_gallon",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000710411",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "butter",
+        "cumin seeds",
+        "dal",
+        "ginger-garlic paste",
+        "ghee",
+        "garam masala",
+        "green chili",
+        "mixed lentils",
+        "onion",
+        "paneer",
+        "red chili powder",
+        "salt",
+        "tomato",
+        "turmeric powder",
+        "coriander"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "family_with_children",
+      "household_size": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": null,
+      "person_count": 4,
+      "adjustment_factor": 1.0,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 217.0,
+        "low": 284.9,
+        "moderate": 352.7,
+        "liberal": 417.7
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 717,
+        "food_entries": 526,
+        "llm_fallback_entries": 191
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The suggested meal, which includes Paneer Butter Masala, Dal Tadka, and Brown Rice, utilizes ingredients that are reasonable and typical for a household cooking South Indian cuisine. The ingredients listed are mainstream and accessible, making the meal practical for a typical family.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The suggested meal, which includes Paneer Butter Masala, Dal Tadka, and Brown Rice, utilizes ingredients that are reasonable and typical for a household cooking South Indian cuisine. The ingredients listed are mainstream and accessible, making the meal practical for a typical family.",
+        "evidence_quote": "This meal is not only rich in protein but also flavorful and comforting.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The suggested meal, which includes Paneer Butter Masala, Dal Tadka, and Brown Rice, utilizes ingredients that are reasonable and typical for a household cooking South Indian cuisine. The ingredients listed are mainstream and accessible, making the meal practical for a typical family.\",\n  \"evidence_quote\": \"This meal is not only rich in protein but also flavorful and comforting.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4681,
+      "output_tokens": 150,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 4,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly requested a high-protein dinner rooted in South Indian cuisine. The response provides culturally appropriate dishes such as Paneer Butter Masala and Dal Tadka, which are aligned with South Indian culinary traditions. However, the inclusion of brown rice and cream, while not inappropriate, introduces a slight Western influence, preventing a perfect score.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 4,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly requested a high-protein dinner rooted in South Indian cuisine. The response provides culturally appropriate dishes such as Paneer Butter Masala and Dal Tadka, which are aligned with South Indian culinary traditions. However, the inclusion of brown rice and cream, while not inappropriate, introduces a slight Western influence, preventing a perfect score.",
+        "evidence_quote": "For a high-protein South Indian dinner, consider preparing Paneer Butter Masala with Brown Rice and a side of Dal Tadka.",
+        "cultural_dishes_named": [
+          "Paneer Butter Masala",
+          "Dal Tadka"
+        ],
+        "western_centricity_observed": "moderate",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 4,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly requested a high-protein dinner rooted in South Indian cuisine. The response provides culturally appropriate dishes such as Paneer Butter Masala and Dal Tadka, which are aligned with South Indian culinary traditions. However, the inclusion of brown rice and cream, while not inappropriate, introduces a slight Western influence, preventing a perfect score.\",\n  \"evidence_quote\": \"For a high-protein South Indian dinner, consider preparing Paneer Butter Masala with Brown Rice and a side of Dal Tadka.\",\n  \"cultural_dishes_named\": [\"Paneer Butter Masala\", \"Dal Tadka\"],\n  \"western_centricity_observed\": \"moderate\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5102,
+      "output_tokens": 183,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The proposed meal plan is largely executable within the constraints of cooking traditional South Indian food. The recipes for Paneer Butter Masala and Dal Tadka are familiar to South Indian cuisine and can be prepared with common kitchen equipment. However, the total preparation time may exceed typical expectations for a weeknight dinner, especially if the user has limited time. The plan is well-structured around the cultural constraint, but it could benefit from more explicit time-saving adaptations.",
+      "details": {
+        "score": 4,
+        "reasoning": "The proposed meal plan is largely executable within the constraints of cooking traditional South Indian food. The recipes for Paneer Butter Masala and Dal Tadka are familiar to South Indian cuisine and can be prepared with common kitchen equipment. However, the total preparation time may exceed typical expectations for a weeknight dinner, especially if the user has limited time. The plan is well-structured around the cultural constraint, but it could benefit from more explicit time-saving adaptations.",
+        "evidence_quote": "This meal is not only protein-rich but also offers a delightful combination of flavors and textures that the whole family will enjoy!",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The proposed meal plan is largely executable within the constraints of cooking traditional South Indian food. The recipes for Paneer Butter Masala and Dal Tadka are familiar to South Indian cuisine and can be prepared with common kitchen equipment. However, the total preparation time may exceed typical expectations for a weeknight dinner, especially if the user has limited time. The plan is well-structured around the cultural constraint, but it could benefit from more explicit time-saving adaptations.\",\n  \"evidence_quote\": \"This meal is not only protein-rich but also offers a delightful combination of flavors and textures that the whole family will enjoy!\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4528,
+      "output_tokens": 186,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "For a high-protein South Indian dinner, consider preparing Paneer Butter Masala with Brown Rice and a side of Dal Tadka."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"For a high-protein South Indian dinner, consider preparing Paneer Butter Masala with Brown Rice and a side of Dal Tadka.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5024,
+      "output_tokens": 257,
+      "from_cache": false
+    }
+  }
+}

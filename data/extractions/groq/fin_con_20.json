@@ -1,0 +1,170 @@
+{
+  "prompt_id": "fin_con_20",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Bulk/Cheap prices",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Bulk/Cheap prices",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I get enough fiber in my daily diet using only the cheapest bulk grains and legumes?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Incorporating fiber-rich bulk grains and legumes into your daily diet can be an affordable and nutritious way to support overall health. Here are some of the cheapest options and tips on how to incorporate them:\n\n1. **Oats**: Rolled oats or steel-cut oats are rich in fiber and can be purchased in bulk at a low cost. Add them to your breakfast routine, use them as a topping for yogurt or salads, or make overnight oats.\n2. **Lentils**: Lentils are a great source of fiber and protein. They're also relatively inexpensive and can be used in a variety of dishes, such as soups, stews, curries, or as a substitute for meat in dishes like veggie burgers.\n3. **Brown Rice**: Brown rice is a fiber-rich grain that's often cheaper than white rice. Use it as a side dish, add it to salads, or make a batch of fried rice with vegetables and spices.\n4. **Chickpeas**: Chickpeas are a versatile legume that's high in fiber and protein. They can be used in hummus, salads, stews, or as a snack on their own.\n5. **Black Beans**: Black beans are another affordable legume that's rich in fiber and protein. Use them in soups, stews, salads, or as a filling for tacos or burritos.\n6. **Kidney Beans**: Kidney beans are a fiber-rich legume that's often used in chili recipes. They're also a great addition to salads, stews, or as a topping for baked potatoes.\n7. **Barley**: Barley is a fiber-rich grain that's often used in soups and stews. It's also a great addition to salads or as a side dish.\n8. **Split Peas**: Split peas are a cheap and fiber-rich legume that can be used in soups, stews, or as a puree.\n\nTips to incorporate these foods into your diet:\n\n* **Start with small portions**: If you're new to eating fiber-rich foods, start with small portions and gradually increase your intake to allow your gut microbiome to adjust.\n* **Mix and match**: Combine different grains and legumes to create a variety of dishes and keep your diet interesting.\n* **Soak and cook**: Soaking and cooking legumes can help reduce phytic acid and make them easier to digest.\n* **Add to familiar dishes**: Incorporate fiber-rich grains and legumes into familiar dishes, such as adding lentils to your favorite soup or using chickpeas in a salad.\n* **Make a big batch**: Cook a large batch of a fiber-rich food, such as lentils or chickpeas, and use it throughout the week in different dishes.\n\nSample meal ideas:\n\n* Oatmeal with fruit and nuts for breakfast\n* Lentil soup with whole grain bread for lunch\n* Brown rice and black bean bowl with roasted vegetables for dinner\n* Chickpea salad with mixed greens and whole grain crackers for a snack\n\nRemember to drink plenty of water when increasing your fiber intake to help prevent constipation and support digestive health.",
+  "extracted": {
+    "summary": "The response provides affordable options for incorporating fiber-rich bulk grains and legumes into the diet, along with tips and meal ideas.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruit and nuts",
+        "ingredients": [
+          "oats",
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with whole grain bread",
+        "ingredients": [
+          "lentils",
+          "whole grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "brown rice and black bean bowl",
+        "ingredients": [
+          "brown rice",
+          "black beans",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "chickpea salad",
+        "ingredients": [
+          "chickpeas",
+          "mixed greens",
+          "whole grain crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "barley",
+      "black beans",
+      "brown rice",
+      "chickpeas",
+      "lentils",
+      "oats",
+      "split peas"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "lentil soup",
+      "brown rice and black bean bowl",
+      "chickpea salad"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3243,
+  "extraction_output_tokens": 1107,
+  "extraction_from_cache": false
+}

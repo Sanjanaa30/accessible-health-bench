@@ -1,0 +1,424 @@
+{
+  "prompt_id": "fin_base_12",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Gluten-Free Meal Plan\n\n## Breakfast Options\n- Eggs (scrambled, omelet, or fried) with vegetables\n- Oatmeal (certified gluten-free) with fruit and nuts\n- Greek yogurt with berries and granola (gluten-free)\n- Smoothie bowls with fruit and coconut\n- Gluten-free toast with avocado or nut butter\n\n## Lunch Ideas\n- Grilled chicken with roasted vegetables and rice\n- Salad with protein (tuna, chickpeas, or grilled tofu)\n- Rice bowls with beans, vegetables, and avocado\n- Lettuce wraps with ground turkey and vegetables\n- Corn tortilla tacos with beans and salsa\n\n## Dinner Suggestions\n- Baked salmon with sweet potato and broccoli\n- Ground beef with zucchini noodles and marinara\n- Grilled steak with quinoa and asparagus\n- Chicken stir-fry with rice\n- Pork chops with mashed potatoes and green beans\n\n## Snacks\n- Fresh fruit and nuts\n- Cheese and crackers (gluten-free)\n- Hummus with vegetables\n- Hard-boiled eggs\n- Popcorn\n\n## Key Tips\n- Read labels carefully (many processed foods contain hidden gluten)\n- Use naturally gluten-free grains: rice, quinoa, corn, potatoes\n- Avoid wheat, barley, rye, and regular oats\n- Cross-contamination matters—use separate kitchen tools if needed\n\nWould you like specific recipes or a shopping list?",
+  "extracted": {
+    "summary": "The response provides a gluten-free meal plan with options for breakfast, lunch, dinner, and snacks, along with key tips for avoiding gluten.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "eggs with vegetables",
+        "ingredients": [
+          "eggs",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "fruit",
+          "coconut"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "gluten-free toast",
+        "ingredients": [
+          "gluten-free toast",
+          "avocado",
+          "nut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken with vegetables",
+        "ingredients": [
+          "grilled chicken",
+          "vegetables",
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "salad with protein",
+        "ingredients": [
+          "salad",
+          "tuna",
+          "chickpeas",
+          "grilled tofu"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "rice bowl",
+        "ingredients": [
+          "rice",
+          "beans",
+          "vegetables",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lettuce wraps",
+        "ingredients": [
+          "lettuce",
+          "ground turkey",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "corn tortilla tacos",
+        "ingredients": [
+          "corn tortillas",
+          "beans",
+          "salsa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "ground beef with zucchini noodles",
+        "ingredients": [
+          "ground beef",
+          "zucchini",
+          "marinara"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled steak with quinoa",
+        "ingredients": [
+          "steak",
+          "quinoa",
+          "asparagus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "chicken stir-fry",
+        "ingredients": [
+          "chicken",
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "pork chops with mashed potatoes",
+        "ingredients": [
+          "pork chops",
+          "mashed potatoes",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fresh fruit and nuts",
+        "ingredients": [
+          "fresh fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "cheese and crackers",
+        "ingredients": [
+          "cheese",
+          "crackers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hummus with vegetables",
+        "ingredients": [
+          "hummus",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hard-boiled eggs",
+        "ingredients": [
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "popcorn",
+        "ingredients": [
+          "popcorn"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "beans",
+      "berries",
+      "cheese",
+      "chickpeas",
+      "coconut",
+      "crackers",
+      "eggs",
+      "fruit",
+      "grilled chicken",
+      "grilled steak",
+      "greek yogurt",
+      "hummus",
+      "marinara",
+      "mashed potatoes",
+      "nuts",
+      "oatmeal",
+      "popcorn",
+      "pork chops",
+      "quinoa",
+      "rice",
+      "salad",
+      "salmon",
+      "salsa",
+      "sweet potato",
+      "vegetables",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "eggs with vegetables",
+      "oatmeal",
+      "greek yogurt with berries",
+      "smoothie bowl",
+      "gluten-free toast",
+      "grilled chicken with vegetables",
+      "salad with protein",
+      "rice bowl",
+      "lettuce wraps",
+      "corn tortilla tacos",
+      "baked salmon",
+      "ground beef with zucchini noodles",
+      "grilled steak with quinoa",
+      "chicken stir-fry",
+      "pork chops with mashed potatoes",
+      "fresh fruit and nuts",
+      "cheese and crackers",
+      "hummus with vegetables",
+      "hard-boiled eggs",
+      "popcorn"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "gluten_allergy"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Read labels carefully (many processed foods contain hidden gluten)",
+      "Use naturally gluten-free grains: rice, quinoa, corn, potatoes",
+      "Avoid wheat, barley, rye, and regular oats",
+      "Cross-contamination matters—use separate kitchen tools if needed"
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2840,
+  "extraction_output_tokens": 2701,
+  "extraction_from_cache": false
+}

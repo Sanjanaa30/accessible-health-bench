@@ -1,0 +1,277 @@
+{
+  "prompt_id": "cul_base_05",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What should I eat when I have a cold?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "When you have a cold, it's important to focus on foods that can help support your immune system and keep you hydrated. Here are some suggestions:\n\n1. **Soups and Broths**: Chicken soup or vegetable broth can be soothing, help clear nasal congestion, and provide hydration.\n\n2. **Fruits**: Citrus fruits like oranges and grapefruits are high in vitamin C. Berries, bananas, and kiwi can also be beneficial.\n\n3. **Vegetables**: Leafy greens, carrots, and bell peppers provide essential vitamins and nutrients. You can incorporate them into soups, salads, or smoothies.\n\n4. **Hot Teas**: Herbal teas, especially those with ginger, peppermint, or chamomile, can help soothe your throat and keep you hydrated.\n\n5. **Honey**: Adding honey to tea or taking it on its own can help soothe a sore throat and has antibacterial properties.\n\n6. **Garlic**: Known for its immune-boosting properties, garlic can be added to meals or taken as a supplement.\n\n7. **Spicy Foods**: If you can tolerate them, spicy foods can help clear nasal congestion. Consider adding spices like cayenne pepper or horseradish to your meals.\n\n8. **Yogurt**: Probiotic-rich yogurt can support gut health and may help improve your immune response.\n\n9. **Whole Grains**: Foods like oatmeal or whole-grain toast can provide energy and are easy to digest.\n\n10. **Stay Hydrated**: Drink plenty of fluids, such as water, herbal teas, and clear broths, to stay hydrated.\n\nRemember to listen to your body and eat foods that feel good to you. If your symptoms are severe or persist, it's a good idea to consult a healthcare professional.",
+  "extracted": {
+    "summary": "When you have a cold, it's important to eat foods that support your immune system and keep you hydrated, such as soups, fruits, and hot teas.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "chicken soup",
+        "ingredients": [
+          "chicken",
+          "vegetable broth"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "vegetable broth",
+        "ingredients": [
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "citrus fruits",
+        "ingredients": [
+          "oranges",
+          "grapefruits"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "berries",
+        "ingredients": [
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "bananas",
+        "ingredients": [
+          "bananas"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "kiwi",
+        "ingredients": [
+          "kiwi"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "herbal tea",
+        "ingredients": [
+          "ginger",
+          "peppermint",
+          "chamomile"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "honey",
+        "ingredients": [
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "garlic",
+        "ingredients": [
+          "garlic"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "spicy foods",
+        "ingredients": [
+          "cayenne pepper",
+          "horseradish"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "yogurt",
+        "ingredients": [
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "other",
+        "dish_name": "whole grains",
+        "ingredients": [
+          "oatmeal",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "chicken",
+      "vegetable broth",
+      "oranges",
+      "grapefruits",
+      "berries",
+      "bananas",
+      "kiwi",
+      "ginger",
+      "peppermint",
+      "chamomile",
+      "honey",
+      "garlic",
+      "cayenne pepper",
+      "horseradish",
+      "yogurt",
+      "oatmeal",
+      "whole-grain toast"
+    ],
+    "all_dishes_or_foods_named": [
+      "chicken soup",
+      "vegetable broth",
+      "citrus fruits",
+      "berries",
+      "bananas",
+      "kiwi",
+      "herbal tea",
+      "honey",
+      "garlic",
+      "spicy foods",
+      "yogurt",
+      "whole grains"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2916,
+  "extraction_output_tokens": 1743,
+  "extraction_from_cache": false
+}

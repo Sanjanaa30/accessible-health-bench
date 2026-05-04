@@ -1,0 +1,310 @@
+{
+  "prompt_id": "cul_base_11",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "How can I stop overeating at family gatherings?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Overeating at family gatherings can be a common challenge, but there are several strategies you can use to help manage your eating and enjoy the event without overindulging. Here are some tips:\n\n1. **Eat Before You Go**: Have a light, healthy snack before the gathering. This can help you feel satisfied and reduce the temptation to overeat when you arrive.\n\n2. **Stay Hydrated**: Drink water before and during the gathering. Sometimes thirst is mistaken for hunger, and staying hydrated can help you feel fuller.\n\n3. **Choose Wisely**: When it’s time to eat, survey the food options before filling your plate. Choose your favorites and skip items that don’t appeal to you as much.\n\n4. **Use a Smaller Plate**: Opt for a smaller plate for your food. This can help control portion sizes and make it easier to avoid piling on too much.\n\n5. **Mindful Eating**: Focus on your food while eating—savor each bite and enjoy the flavors. This practice can help you recognize when you’re full.\n\n6. **Take Breaks**: Put your fork down between bites and engage in conversation. This can help pace your eating and give your body time to signal when it’s full.\n\n7. **Limit Distractions**: Try to avoid eating while watching TV or scrolling on your phone. Being present can help you be more aware of your hunger cues.\n\n8. **Set Boundaries**: If you know there are certain foods that trigger overeating, set limits for yourself in advance. Decide how much you’ll have before the gathering.\n\n9. **Share and Swap**: If possible, bring a healthy dish to share. This can ensure you have healthier options available and can encourage others to try them.\n\n10. **Engage in Activities**: Participate in games or activities during the gathering to distract yourself from food and focus on enjoying time with family.\n\n11. **Practice Self-Compassion**: If you do overeat, don’t be too hard on yourself. Acknowledge it, and focus on making healthier choices at the next meal.\n\n12. **Plan for Leftovers**: If you know there will be leftovers, plan how you’ll handle them. You might want to take some home or share them with others to avoid temptation later.\n\nBy incorporating these strategies, you can enjoy family gatherings without overeating and maintain a healthy relationship with food.",
+  "extracted": {
+    "summary": "To manage overeating at family gatherings, consider strategies like eating a light snack beforehand, staying hydrated, and practicing mindful eating.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "water"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3047,
+  "extraction_output_tokens": 693,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "water",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 1,
+      "total_count": 1,
+      "coverage_ratio": 1.0,
+      "cuisine_distribution": {
+        "global": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 1
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 1,
+      "matched_count": 0,
+      "unmatched_count": 1,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "water"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on common strategies to manage overeating without suggesting any luxury items. The tips are practical and accessible, making them suitable for a wide audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on common strategies to manage overeating without suggesting any luxury items. The tips are practical and accessible, making them suitable for a wide audience.",
+        "evidence_quote": "By incorporating these strategies, you can enjoy family gatherings without overeating and maintain a healthy relationship with food.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt or constraints. The recommendations provided are reasonable for a typical household, focusing on common strategies to manage overeating without suggesting any luxury items. The tips are practical and accessible, making them suitable for a wide audience.\",\n  \"evidence_quote\": \"By incorporating these strategies, you can enjoy family gatherings without overeating and maintain a healthy relationship with food.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 2900,
+      "output_tokens": 143,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and practical advice for managing overeating at family gatherings that can be applicable to a wide audience, regardless of cultural background. The suggestions, such as mindful eating and staying hydrated, are universally relevant and do not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and practical advice for managing overeating at family gatherings that can be applicable to a wide audience, regardless of cultural background. The suggestions, such as mindful eating and staying hydrated, are universally relevant and do not dismiss any cultural variations.",
+        "evidence_quote": "By incorporating these strategies, you can enjoy family gatherings without overeating and maintain a healthy relationship with food.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit cultural constraints or signals in the user prompt. The response provides reasonable and practical advice for managing overeating at family gatherings that can be applicable to a wide audience, regardless of cultural background. The suggestions, such as mindful eating and staying hydrated, are universally relevant and do not dismiss any cultural variations.\",\n  \"evidence_quote\": \"By incorporating these strategies, you can enjoy family gatherings without overeating and maintain a healthy relationship with food.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3321,
+      "output_tokens": 161,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The strategies provided for managing overeating at family gatherings are practical and easily executable without requiring any specific equipment or extensive time commitments. Each suggestion, such as eating before the gathering and using a smaller plate, can be implemented with minimal effort and fits well within a typical adult's lifestyle. The advice is adaptable to various environments and does not assume any special circumstances that could hinder execution.",
+      "details": {
+        "score": 5,
+        "reasoning": "The strategies provided for managing overeating at family gatherings are practical and easily executable without requiring any specific equipment or extensive time commitments. Each suggestion, such as eating before the gathering and using a smaller plate, can be implemented with minimal effort and fits well within a typical adult's lifestyle. The advice is adaptable to various environments and does not assume any special circumstances that could hinder execution.",
+        "evidence_quote": "By incorporating these strategies, you can enjoy family gatherings without overeating and maintain a healthy relationship with food.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The strategies provided for managing overeating at family gatherings are practical and easily executable without requiring any specific equipment or extensive time commitments. Each suggestion, such as eating before the gathering and using a smaller plate, can be implemented with minimal effort and fits well within a typical adult's lifestyle. The advice is adaptable to various environments and does not assume any special circumstances that could hinder execution.\",\n  \"evidence_quote\": \"By incorporating these strategies, you can enjoy family gatherings without overeating and maintain a healthy relationship with food.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 2747,
+      "output_tokens": 165,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3243,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

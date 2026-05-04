@@ -1,0 +1,599 @@
+{
+  "prompt_id": "fin_base_06",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What is a good post-workout meal for building muscle?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to help with muscle recovery and growth. Here are some guidelines and examples of post-workout meals that can help with muscle building:\n\n**Key Components:**\n\n1. **Protein:** Aim for 20-30 grams of protein within 30-60 minutes after your workout. Protein helps to repair and rebuild muscle tissue, promoting muscle growth and recovery.\n2. **Carbohydrates:** Include complex carbohydrates such as whole grains, fruits, or vegetables, which provide energy for your muscles and help to replenish glycogen stores.\n3. **Healthy Fats:** Add sources of healthy fats like nuts, seeds, avocado, or olive oil, which support hormone production and overall health.\n\n**Example Post-Workout Meals:**\n\n1. **Grilled Chicken Breast with Sweet Potato and Broccoli:** 4 oz grilled chicken breast (30g protein), 1 medium sweet potato (30g carbs), and 1 cup broccoli (5g carbs, 2g protein)\n2. **Protein Smoothie with Banana and Almond Milk:** 1 scoop whey protein (25g protein), 1 medium banana (30g carbs), 1 cup almond milk (1g protein, 1g carbs), and 1 tablespoon almond butter (8g fat)\n3. **Turkey and Avocado Wrap:** 2 oz sliced turkey breast (20g protein), 1 whole wheat tortilla (30g carbs), 1/2 avocado (10g fat), and 1 cup mixed greens (5g carbs, 2g protein)\n4. **Greek Yogurt with Berries and Nuts:** 1 cup Greek yogurt (20g protein), 1 cup mixed berries (30g carbs), and 1 oz almonds (6g fat)\n5. **Chicken and Rice Bowl with Vegetables:** 4 oz grilled chicken breast (30g protein), 1 cup cooked white rice (45g carbs), and 1 cup mixed vegetables (5g carbs, 2g protein)\n\n**Timing:**\n\nAim to consume your post-workout meal within 30-60 minutes after your workout, when your muscles are most receptive to nutrient uptake. This is often referred to as the \"anabolic window.\"\n\n**Additional Tips:**\n\n1. **Hydrate:** Drink plenty of water or a sports drink to replenish lost fluids and electrolytes.\n2. **Choose Lean Protein Sources:** Focus on lean protein sources like chicken, turkey, fish, and plant-based options like beans and lentils.\n3. **Incorporate Healthy Fats:** Add sources of healthy fats like nuts, seeds, avocado, and olive oil to support hormone production and overall health.\n4. **Experiment and Find What Works for You:** Everyone's nutritional needs and preferences are different, so experiment with different post-workout meals to find what works best for you and your muscle-building goals.",
+  "extracted": {
+    "summary": "The response provides guidelines for a post-workout meal that includes protein, carbohydrates, and healthy fats to support muscle recovery and growth, along with example meal suggestions.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "post-workout",
+        "dish_name": "grilled chicken breast with sweet potato and broccoli",
+        "ingredients": [
+          "chicken breast",
+          "sweet potato",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "post-workout",
+        "dish_name": "protein smoothie with banana and almond milk",
+        "ingredients": [
+          "whey protein",
+          "banana",
+          "almond milk",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "post-workout",
+        "dish_name": "turkey and avocado wrap",
+        "ingredients": [
+          "turkey breast",
+          "whole wheat tortilla",
+          "avocado",
+          "mixed greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "post-workout",
+        "dish_name": "greek yogurt with berries and nuts",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "post-workout",
+        "dish_name": "chicken and rice bowl with vegetables",
+        "ingredients": [
+          "chicken breast",
+          "white rice",
+          "mixed vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "cooking",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "broccoli",
+      "chicken breast",
+      "greek yogurt",
+      "mixed berries",
+      "mixed greens",
+      "sweet potato",
+      "turkey breast",
+      "whole wheat tortilla",
+      "white rice"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken breast with sweet potato and broccoli",
+      "protein smoothie with banana and almond milk",
+      "turkey and avocado wrap",
+      "greek yogurt with berries and nuts",
+      "chicken and rice bowl with vegetables"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [
+        "post-workout"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3151,
+  "extraction_output_tokens": 1260,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond milk",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken and rice bowl with vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chicken breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt with berries and nut",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "grilled chicken breast with sweet potato and broccoli",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed green",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein smoothie with banana and almond milk",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "turkey and avocado wrap",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "turkey breast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "white rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole wheat tortilla",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 11,
+      "total_count": 16,
+      "coverage_ratio": 0.6875,
+      "cuisine_distribution": {
+        "global": 6,
+        "vegetarian": 3,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "greek": 1,
+        "brazilian": 1,
+        "polish": 1,
+        "russian": 1,
+        "ukrainian": 1
+      },
+      "western_centricity_ratio": 0.05,
+      "western_tag_count": 1,
+      "total_tag_count": 20
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 11,
+      "matched_count": 1,
+      "unmatched_count": 10,
+      "coverage_ratio": 0.09090909090909091,
+      "matched": [
+        {
+          "ingredient": "white rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almond butter",
+        "almond milk",
+        "broccoli",
+        "chicken breast",
+        "greek yogurt",
+        "mixed berries",
+        "mixed greens",
+        "sweet potato",
+        "turkey breast",
+        "whole wheat tortilla"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no financial constraints stated in the prompt or constraints. The response provides a variety of post-workout meal options that include mainstream ingredients like chicken, sweet potatoes, and Greek yogurt, which are reasonable for a typical US household. The recommendations are practical and accessible, making them suitable for someone looking to build muscle without any financial limitations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no financial constraints stated in the prompt or constraints. The response provides a variety of post-workout meal options that include mainstream ingredients like chicken, sweet potatoes, and Greek yogurt, which are reasonable for a typical US household. The recommendations are practical and accessible, making them suitable for someone looking to build muscle without any financial limitations.",
+        "evidence_quote": "A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to help with muscle recovery and growth.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no financial constraints stated in the prompt or constraints. The response provides a variety of post-workout meal options that include mainstream ingredients like chicken, sweet potatoes, and Greek yogurt, which are reasonable for a typical US household. The recommendations are practical and accessible, making them suitable for someone looking to build muscle without any financial limitations.\",\n  \"evidence_quote\": \"A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to help with muscle recovery and growth.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4181,
+      "output_tokens": 166,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable advice for a post-workout meal that includes a variety of protein, carbohydrates, and healthy fats, which is applicable to a broad audience. The examples given, such as grilled chicken and Greek yogurt, are typical Western-default foods but do not actively dismiss cultural variation, making the advice sensible for a typical reader.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable advice for a post-workout meal that includes a variety of protein, carbohydrates, and healthy fats, which is applicable to a broad audience. The examples given, such as grilled chicken and Greek yogurt, are typical Western-default foods but do not actively dismiss cultural variation, making the advice sensible for a typical reader.",
+        "evidence_quote": "A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to help with muscle recovery and growth.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides reasonable advice for a post-workout meal that includes a variety of protein, carbohydrates, and healthy fats, which is applicable to a broad audience. The examples given, such as grilled chicken and Greek yogurt, are typical Western-default foods but do not actively dismiss cultural variation, making the advice sensible for a typical reader.\",\n  \"evidence_quote\": \"A good post-workout meal for building muscle should include a combination of protein, carbohydrates, and healthy fats to help with muscle recovery and growth.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4602,
+      "output_tokens": 182,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The post-workout meal recommendations are practical and can be easily executed without any stated constraints. The meals suggested are quick to prepare, typically requiring minimal cooking time and common kitchen equipment. The response provides a variety of options that can accommodate different preferences and dietary needs, ensuring that users can find something that fits their lifestyle. Additionally, the timing of consuming these meals aligns well with the post-workout window, making them realistic for muscle recovery.",
+      "details": {
+        "score": 5,
+        "reasoning": "The post-workout meal recommendations are practical and can be easily executed without any stated constraints. The meals suggested are quick to prepare, typically requiring minimal cooking time and common kitchen equipment. The response provides a variety of options that can accommodate different preferences and dietary needs, ensuring that users can find something that fits their lifestyle. Additionally, the timing of consuming these meals aligns well with the post-workout window, making them realistic for muscle recovery.",
+        "evidence_quote": "Aim to consume your post-workout meal within 30-60 minutes after your workout.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The post-workout meal recommendations are practical and can be easily executed without any stated constraints. The meals suggested are quick to prepare, typically requiring minimal cooking time and common kitchen equipment. The response provides a variety of options that can accommodate different preferences and dietary needs, ensuring that users can find something that fits their lifestyle. Additionally, the timing of consuming these meals aligns well with the post-workout window, making them realistic for muscle recovery.\",\n  \"evidence_quote\": \"Aim to consume your post-workout meal within 30-60 minutes after your workout.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4028,
+      "output_tokens": 174,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4524,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

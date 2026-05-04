@@ -1,0 +1,716 @@
+{
+  "prompt_id": "fin_base_20",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "How can I get enough fiber in my daily diet",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Getting enough fiber in your daily diet can have numerous health benefits, including promoting regular bowel movements, lowering cholesterol levels, and controlling blood sugar levels. Here are some tips to help you increase your fiber intake:\n\n1. **Eat a variety of fruits and vegetables**: Fruits and vegetables are rich in fiber, so aim to include a variety of them in your diet. Some high-fiber options include:\n\t* Berries (raspberries, strawberries, blueberries)\n\t* Leafy greens (spinach, kale, broccoli)\n\t* Cruciferous vegetables (cauliflower, Brussels sprouts, cabbage)\n\t* Citrus fruits (oranges, grapefruits, lemons)\n2. **Incorporate whole grains**: Whole grains, such as:\n\t* Brown rice\n\t* Quinoa\n\t* Whole wheat bread\n\t* Whole grain pasta\n\t* Oats\n3. **Legumes are a great source of fiber**: Legumes, such as:\n\t* Beans (kidney beans, black beans, chickpeas)\n\t* Lentils\n\t* Peas\n4. **Nuts and seeds are fiber-rich**: Almonds, chia seeds, flaxseeds, and pumpkin seeds are all high in fiber.\n5. **Incorporate fiber-rich snacks**: Snack on:\n\t* Fresh fruit\n\t* Raw vegetables with hummus\n\t* Trail mix with nuts and seeds\n\t* Whole grain crackers with avocado or peanut butter\n6. **Drink plenty of water**: Adequate hydration helps fiber move through your digestive system and prevents constipation.\n7. **Gradually increase your fiber intake**: If you're not used to eating a high-fiber diet, it's essential to increase your intake gradually to allow your gut microbiome to adjust. A sudden increase in fiber can cause digestive discomfort, such as bloating, gas, and stomach cramps.\n8. **Consider a fiber supplement**: If you're having trouble getting enough fiber from whole foods, consider taking a fiber supplement. However, always consult with a healthcare professional before adding any supplements to your diet.\n\n**Daily fiber recommendations**:\n\n* The American Heart Association recommends 25-30 grams of fiber per day.\n* The Academy of Nutrition and Dietetics recommends 38 grams of fiber per day for men and 25 grams per day for women.\n\n**Tips for tracking your fiber intake**:\n\n* Use a food diary or mobile app to track your daily fiber intake.\n* Read food labels to check the fiber content of packaged foods.\n* Aim to include a source of fiber at each meal and snack.\n\nRemember, increasing your fiber intake can have numerous health benefits, but it's essential to do so gradually and in conjunction with a balanced diet and a healthy lifestyle.",
+  "extracted": {
+    "summary": "To increase fiber intake, include a variety of fruits, vegetables, whole grains, legumes, nuts, and seeds in your diet, and consider fiber supplements if necessary.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "almonds",
+      "avocado",
+      "beans",
+      "berries",
+      "broccoli",
+      "brown rice",
+      "cabbage",
+      "cauliflower",
+      "chia seeds",
+      "citrus fruits",
+      "flaxseeds",
+      "grapefruits",
+      "hummus",
+      "kidney beans",
+      "kale",
+      "lentils",
+      "lemons",
+      "oranges",
+      "peas",
+      "pumpkin seeds",
+      "quinoa",
+      "raw vegetables",
+      "strawberries",
+      "trail mix",
+      "whole grain crackers",
+      "whole grain pasta",
+      "whole wheat bread",
+      "oats"
+    ],
+    "all_dishes_or_foods_named": [
+      "hummus",
+      "trail mix"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol",
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional before adding any supplements to your diet."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3113,
+  "extraction_output_tokens": 896,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "broccoli",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "brown rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cabbage",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cauliflower",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "citrus fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "flaxseed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "grapefruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "kale",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "kidney bean",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "lemon",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "lentils",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "orange",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pea",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "pumpkin seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "raw vegetable",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "strawberry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "trail mix",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain cracker",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain pasta",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole wheat bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 21,
+      "total_count": 28,
+      "coverage_ratio": 0.75,
+      "cuisine_distribution": {
+        "vegetarian": 15,
+        "global": 5,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 23
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 28,
+      "matched_count": 3,
+      "unmatched_count": 25,
+      "coverage_ratio": 0.10714285714285714,
+      "matched": [
+        {
+          "ingredient": "brown rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "grapefruits",
+          "matched_bls_item": "grapefruit",
+          "price_usd": 1.483,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000711311",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "bls"
+        },
+        {
+          "ingredient": "whole wheat bread",
+          "matched_bls_item": "bread, whole wheat, pan",
+          "price_usd": 2.747,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almonds",
+        "avocado",
+        "beans",
+        "berries",
+        "broccoli",
+        "cabbage",
+        "cauliflower",
+        "chia seeds",
+        "citrus fruits",
+        "flaxseeds",
+        "hummus",
+        "kidney beans",
+        "kale",
+        "lentils",
+        "lemons",
+        "oranges",
+        "peas",
+        "pumpkin seeds",
+        "quinoa",
+        "raw vegetables",
+        "strawberries",
+        "trail mix",
+        "whole grain crackers",
+        "whole grain pasta",
+        "oats"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided for increasing fiber intake are reasonable and include a variety of mainstream ingredients that a typical household would likely purchase, such as fruits, vegetables, whole grains, and legumes. The response does not include any luxury items that would be considered impractical for a typical household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided for increasing fiber intake are reasonable and include a variety of mainstream ingredients that a typical household would likely purchase, such as fruits, vegetables, whole grains, and legumes. The response does not include any luxury items that would be considered impractical for a typical household.",
+        "evidence_quote": "Eat a variety of fruits and vegetables: Fruits and vegetables are rich in fiber, so aim to include a variety of them in your diet.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The recommendations provided for increasing fiber intake are reasonable and include a variety of mainstream ingredients that a typical household would likely purchase, such as fruits, vegetables, whole grains, and legumes. The response does not include any luxury items that would be considered impractical for a typical household.\",\n  \"evidence_quote\": \"Eat a variety of fruits and vegetables: Fruits and vegetables are rich in fiber, so aim to include a variety of them in your diet.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5064,
+      "output_tokens": 167,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no stated cultural constraints or specific cultural context in the user prompt. The response provides reasonable and sensible advice for increasing fiber intake that is broadly applicable to a wide audience. It includes a variety of fiber-rich foods such as fruits, vegetables, whole grains, and legumes, which are generally accepted across many cultures.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no stated cultural constraints or specific cultural context in the user prompt. The response provides reasonable and sensible advice for increasing fiber intake that is broadly applicable to a wide audience. It includes a variety of fiber-rich foods such as fruits, vegetables, whole grains, and legumes, which are generally accepted across many cultures.",
+        "evidence_quote": "Getting enough fiber in your daily diet can have numerous health benefits, including promoting regular bowel movements, lowering cholesterol levels, and controlling blood sugar levels.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no stated cultural constraints or specific cultural context in the user prompt. The response provides reasonable and sensible advice for increasing fiber intake that is broadly applicable to a wide audience. It includes a variety of fiber-rich foods such as fruits, vegetables, whole grains, and legumes, which are generally accepted across many cultures.\",\n  \"evidence_quote\": \"Getting enough fiber in your daily diet can have numerous health benefits, including promoting regular bowel movements, lowering cholesterol levels, and controlling blood sugar levels.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5485,
+      "output_tokens": 169,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recommendations for increasing fiber intake are practical and can be easily integrated into a typical daily routine. The suggestions include a variety of foods that are generally accessible and do not require specialized equipment or extensive preparation time. The plan accommodates a range of dietary preferences and is adaptable to different lifestyles, making it fully executable for a typical adult.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recommendations for increasing fiber intake are practical and can be easily integrated into a typical daily routine. The suggestions include a variety of foods that are generally accessible and do not require specialized equipment or extensive preparation time. The plan accommodates a range of dietary preferences and is adaptable to different lifestyles, making it fully executable for a typical adult.",
+        "evidence_quote": "Aim to include a source of fiber at each meal and snack.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recommendations for increasing fiber intake are practical and can be easily integrated into a typical daily routine. The suggestions include a variety of foods that are generally accessible and do not require specialized equipment or extensive preparation time. The plan accommodates a range of dietary preferences and is adaptable to different lifestyles, making it fully executable for a typical adult.\",\n  \"evidence_quote\": \"Aim to include a source of fiber at each meal and snack.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4911,
+      "output_tokens": 147,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5407,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

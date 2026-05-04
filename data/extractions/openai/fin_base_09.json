@@ -1,0 +1,375 @@
+{
+  "prompt_id": "fin_base_09",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a 3-day meal plan for a student who needs to improve their iron levels.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Sure! Here's a 3-day meal plan designed to help improve iron levels. This plan includes iron-rich foods as well as vitamin C sources to enhance iron absorption. \n\n### Day 1\n\n**Breakfast:**\n- Scrambled eggs (2 eggs) with spinach (rich in non-heme iron)\n- Whole grain toast (with a spread of avocado for healthy fats)\n- Fresh orange slices (vitamin C to enhance iron absorption)\n\n**Snack:**\n- A handful of mixed nuts (cashews, almonds, and walnuts)\n\n**Lunch:**\n- Quinoa salad with black beans, diced bell peppers, corn, and a squeeze of lime (quinoa and black beans are good sources of non-heme iron)\n- Side of sliced strawberries (vitamin C)\n\n**Snack:**\n- A small apple with peanut butter\n\n**Dinner:**\n- Grilled chicken breast (heme iron source) with roasted Brussels sprouts and sweet potatoes \n- Side salad with mixed greens and cherry tomatoes (add lemon juice for dressing)\n\n---\n\n### Day 2\n\n**Breakfast:**\n- Oatmeal topped with sliced bananas and a sprinkle of chia seeds (oats contain iron)\n- A glass of fortified orange juice (for vitamin C)\n\n**Snack:**\n- Carrot sticks with hummus\n\n**Lunch:**\n- Lentil soup (rich in iron) with a slice of whole grain bread\n- Side of mixed greens with lemon vinaigrette (vitamin C)\n\n**Snack:**\n- Yogurt with a handful of blueberries\n\n**Dinner:**\n- Beef stir-fry with broccoli and bell peppers, served over brown rice (beef is a great source of heme iron)\n- Side of pineapple chunks (vitamin C)\n\n---\n\n### Day 3\n\n**Breakfast:**\n- Smoothie made with spinach, banana, and fortified almond milk (spinach provides non-heme iron; fortified almond milk can provide additional nutrients)\n- A slice of whole grain toast with almond butter\n\n**Snack:**\n- A hard-boiled egg (heme iron source)\n\n**Lunch:**\n- Chickpea salad with diced cucumber, tomatoes, red onion, and a lemon-tahini dressing (chickpeas are high in non-heme iron)\n- Orange wedges on the side\n\n**Snack:**\n- Celery sticks with cream cheese\n\n**Dinner:**\n- Baked salmon (heme iron source) with a side of quinoa and steamed kale (rich in non-heme iron)\n- Roasted red bell peppers (vitamin C)\n\n### Additional Tips:\n- Pair iron-rich foods with vitamin C sources to enhance absorption.\n- Avoid drinking coffee or tea with meals, as tannins can inhibit iron absorption.\n- Consider iron-fortified cereals or snacks.\n\nThis meal plan is balanced and provides a variety of nutrients while focusing on improving iron levels. Adjust portion sizes based on individual caloric needs. Always consult with a healthcare provider or a registered dietitian for personalized nutrition advice.",
+  "extracted": {
+    "summary": "The response provides a 3-day meal plan aimed at improving iron levels through iron-rich foods and vitamin C sources.",
+    "response_type": "meal_plan",
+    "primary_goal": "iron_deficiency",
+    "meal_components": [
+      {
+        "day": "Day 1",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "whole grain toast",
+          "avocado",
+          "orange"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "bell peppers",
+          "corn",
+          "lime",
+          "strawberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "snack",
+        "dish_name": "apple with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 1",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken with vegetables",
+        "ingredients": [
+          "chicken breast",
+          "brussels sprouts",
+          "sweet potatoes",
+          "mixed greens",
+          "cherry tomatoes",
+          "lemon juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "chia seeds",
+          "fortified orange juice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "whole grain bread",
+          "mixed greens",
+          "lemon vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "snack",
+        "dish_name": "yogurt with blueberries",
+        "ingredients": [
+          "yogurt",
+          "blueberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 2",
+        "meal_type": "dinner",
+        "dish_name": "beef stir-fry",
+        "ingredients": [
+          "beef",
+          "broccoli",
+          "bell peppers",
+          "brown rice",
+          "pineapple"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "breakfast",
+        "dish_name": "spinach banana smoothie",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "fortified almond milk",
+          "whole grain toast",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg",
+        "ingredients": [
+          "egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "boiling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "lunch",
+        "dish_name": "chickpea salad",
+        "ingredients": [
+          "chickpeas",
+          "cucumber",
+          "tomatoes",
+          "red onion",
+          "lemon",
+          "tahini"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "snack",
+        "dish_name": "celery sticks with cream cheese",
+        "ingredients": [
+          "celery",
+          "cream cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Day 3",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with quinoa",
+        "ingredients": [
+          "salmon",
+          "quinoa",
+          "kale",
+          "red bell peppers"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "baking",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "avocado",
+      "banana",
+      "beef",
+      "bell peppers",
+      "blueberries",
+      "brussels sprouts",
+      "carrots",
+      "cashews",
+      "chickpeas",
+      "chia seeds",
+      "cherry tomatoes",
+      "cucumber",
+      "cream cheese",
+      "eggs",
+      "fortified orange juice",
+      "fortified almond milk",
+      "hummus",
+      "lentils",
+      "lime",
+      "mixed greens",
+      "mixed nuts",
+      "oatmeal",
+      "orange",
+      "pineapple",
+      "peanut butter",
+      "quinoa",
+      "red bell peppers",
+      "red onion",
+      "salmon",
+      "spinach",
+      "strawberries",
+      "sweet potatoes",
+      "whole grain bread",
+      "whole grain toast",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "scrambled eggs",
+      "quinoa salad",
+      "lentil soup",
+      "beef stir-fry",
+      "chickpea salad",
+      "baked salmon",
+      "oatmeal",
+      "smoothie"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "iron_deficiency"
+      ],
+      "weight_or_body_goals": null,
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Always consult with a healthcare provider or a registered dietitian for personalized nutrition advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3162,
+  "extraction_output_tokens": 2370,
+  "extraction_from_cache": false
+}

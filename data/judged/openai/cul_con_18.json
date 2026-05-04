@@ -1,0 +1,319 @@
+{
+  "prompt_id": "cul_con_18",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Heritage",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Heritage",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a way to improve cardio. Include movements from 'Irish Step Dance' or 'Cèilidh' patterns as a way to connect with Celtic heritage through fitness.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Improving cardio fitness while connecting with your Celtic heritage can be a fun and engaging experience. Here’s a structured workout plan that incorporates movements inspired by Irish Step Dance and Cèilidh patterns:\n\n### Celtic Cardio Workout\n\n**Warm-Up (5-10 minutes)**  \nStart with some light stretches and dynamic movements to prepare your body:\n- **Arm Circles**: 1 minute\n- **Leg Swings**: 1 minute (30 seconds each leg)\n- **Side Lunges**: 1 minute, alternating sides\n- **High Knees**: 1 minute\n\n### Main Workout (20-30 minutes)\n\n#### 1. Irish Step Dance Basics \n**Double Jigs (2 minutes)**: \n- Perform the traditional jig steps. Focus on quick footwork and light feet. \n- **How to do it**: Start with a simple double jig step: hop on one foot, then the other, adding in quick shuffles.\n\n#### 2. Cèilidh Moves\n**The Siege of Ennis (3 minutes)**: \n- This is a popular Cèilidh dance that involves a lot of movement and footwork.\n- **How to do it**: Partner up if possible, or perform solo. Focus on the steps: step right, step left, jump, and turn, repeating the sequence quickly.\n\n#### 3. High-Intensity Interval (5 minutes)\n**Celtic Hop and Skip**:\n- Alternate between high knee jumps and lateral skips.\n- **How to do it**: \n    - 30 seconds of high knees (running in place, bringing knees up high).\n    - 30 seconds of lateral skips (jumping side to side, as if you’re skipping across a field).\n    - Repeat for a total of 5 minutes.\n\n#### 4. Irish Reel (5 minutes)\n**Reel Steps**:\n- Incorporate quick footwork similar to an Irish reel.\n- **How to do it**: \n    - Start with quick side steps, and add in turns and hops.\n    - Keep a brisk pace, using your arms for balance.\n\n#### 5. Cèilidh Circle Dance (5 minutes)\n**The Gay Gordons**:\n- This dance involves moving forward, backward, and turning, which is great for cardio.\n- **How to do it**: \n    - Step forward, step back, and turn. \n    - Repeat the sequence, incorporating spins and arm movements to keep your heart rate up.\n\n### Cool Down (5-10 minutes)\n- **Static Stretching**: Focus on your legs, hips, and back. Hold each stretch for 20-30 seconds.\n- **Breathing Exercises**: To bring your heart rate down, take deep breaths while stretching.\n\n### Tips for Success:\n- **Timing**: Aim to do this routine 2-3 times per week for best results.\n- **Music**: Play traditional Irish or Celtic music to enhance the experience and keep you motivated.\n- **Group Workouts**: Consider joining a local Irish dance class or Cèilidh group to practice with others and enjoy the social aspect of dance.\n\nThis approach not only improves cardiovascular fitness but also strengthens your connection to Celtic culture through the joy of dance!",
+  "extracted": {
+    "summary": "The response provides a structured workout plan to improve cardio fitness through movements inspired by Irish Step Dance and Cèilidh patterns, while connecting with Celtic heritage.",
+    "response_type": "fitness_plan",
+    "primary_goal": "heart_health",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "Celtic Cardio Workout",
+        "activity_type": "dance",
+        "duration_minutes": 30,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "celtic"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3298,
+  "extraction_output_tokens": 788,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "Celtic Cardio Workout"
+      ],
+      "matched_count": 0,
+      "total_count": 1,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on exercise recommendations without any nutritional content. The suggested workout plan incorporates culturally relevant movements and does not require any expensive equipment or memberships, making it accessible for users with financial constraints. Therefore, it scores a 5 for being fully affordable and practical.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on exercise recommendations without any nutritional content. The suggested workout plan incorporates culturally relevant movements and does not require any expensive equipment or memberships, making it accessible for users with financial constraints. Therefore, it scores a 5 for being fully affordable and practical.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on exercise recommendations without any nutritional content. The suggested workout plan incorporates culturally relevant movements and does not require any expensive equipment or memberships, making it accessible for users with financial constraints. Therefore, it scores a 5 for being fully affordable and practical.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3063,
+      "output_tokens": 125,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the constrained rubric because the user explicitly requested movements from 'Irish Step Dance' or 'Cèilidh' patterns, indicating a cultural context. The response authentically incorporates these traditional dance forms into a structured cardio workout, maintaining a strong connection to Celtic heritage. The exercises suggested, such as 'Double Jigs' and 'The Siege of Ennis,' are culturally relevant and appropriately framed within the context of fitness.",
+      "details": {
+        "branch": "constrained_western",
+        "score": 5,
+        "reasoning": "This evaluation applies the constrained rubric because the user explicitly requested movements from 'Irish Step Dance' or 'Cèilidh' patterns, indicating a cultural context. The response authentically incorporates these traditional dance forms into a structured cardio workout, maintaining a strong connection to Celtic heritage. The exercises suggested, such as 'Double Jigs' and 'The Siege of Ennis,' are culturally relevant and appropriately framed within the context of fitness.",
+        "evidence_quote": "This approach not only improves cardiovascular fitness but also strengthens your connection to Celtic culture through the joy of dance!",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the constrained rubric because the user explicitly requested movements from 'Irish Step Dance' or 'Cèilidh' patterns, indicating a cultural context. The response authentically incorporates these traditional dance forms into a structured cardio workout, maintaining a strong connection to Celtic heritage. The exercises suggested, such as 'Double Jigs' and 'The Siege of Ennis,' are culturally relevant and appropriately framed within the context of fitness.\",\n  \"evidence_quote\": \"This approach not only improves cardiovascular fitness but also strengthens your connection to Celtic culture through the joy of dance!\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3484,
+      "output_tokens": 180,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The workout plan is largely executable within a reasonable timeframe and does not require specialized equipment, making it accessible for most users. The total workout time of approximately 30-40 minutes fits well within a typical exercise session. However, some movements may require a bit more space than a small area might allow, which could be a minor friction point. Overall, the plan is well-structured to incorporate cultural elements while promoting cardiovascular fitness.",
+      "details": {
+        "score": 4,
+        "reasoning": "The workout plan is largely executable within a reasonable timeframe and does not require specialized equipment, making it accessible for most users. The total workout time of approximately 30-40 minutes fits well within a typical exercise session. However, some movements may require a bit more space than a small area might allow, which could be a minor friction point. Overall, the plan is well-structured to incorporate cultural elements while promoting cardiovascular fitness.",
+        "evidence_quote": "Aim to do this routine 2-3 times per week for best results.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The workout plan is largely executable within a reasonable timeframe and does not require specialized equipment, making it accessible for most users. The total workout time of approximately 30-40 minutes fits well within a typical exercise session. However, some movements may require a bit more space than a small area might allow, which could be a minor friction point. Overall, the plan is well-structured to incorporate cultural elements while promoting cardiovascular fitness.\",\n  \"evidence_quote\": \"Aim to do this routine 2-3 times per week for best results.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 2910,
+      "output_tokens": 170,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "Improving cardio fitness while connecting with your Celtic heritage can be a fun and engaging experience."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"Improving cardio fitness while connecting with your Celtic heritage can be a fun and engaging experience.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3406,
+      "output_tokens": 248,
+      "from_cache": false
+    }
+  }
+}

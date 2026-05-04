@@ -1,0 +1,827 @@
+{
+  "prompt_id": "fin_base_14",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Design a marathon training schedule for a beginner.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "This is a comprehensive marathon training schedule designed for a **beginner**. The primary goal is to get you to the finish line safely and injury-free, not to achieve a specific time.\n\n**Prerequisites:** You should be able to comfortably run 3 miles (5 km) or run/walk for 30 minutes at least 3 times a week before starting this plan.\n\n**Core Philosophy: Run/Walk & Consistency**\n- **Run/Walk:** Use a ratio like run 4 minutes, walk 1 minute. This dramatically reduces injury risk and makes long runs manageable.\n- **Consistency:** Missing one run is fine. Missing two in a row is a problem. The long run is the most important workout of the week.\n\n---\n\n### The 20-Week Beginner Marathon Schedule\n\n**Key:**\n- **E = Easy Run:** Conversational pace. You can speak in full sentences.\n- **R/W = Run/Walk:** 4 min run / 1 min walk (adjust as needed).\n- **LR = Long Run:** The cornerstone of your training. Go very slow.\n- **CR = Cross-Training:** Cycling, swimming, elliptical, or brisk walking (30-45 min).\n- **Rest:** Complete rest or very gentle stretching/yoga.\n\n| Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun | Total Miles (approx) |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **1** | Rest | 3 mi E | Rest | 3 mi E | Rest | 4 mi LR | Rest/CR | 10 |\n| **2** | Rest | 3 mi E | Rest | 3.5 mi E | Rest | 5 mi LR | Rest/CR | 11.5 |\n| **3** | Rest | 3.5 mi E | Rest | 3.5 mi E | Rest | 6 mi LR | Rest/CR | 13 |\n| **4** | Rest | 3 mi E | Rest | 3 mi E | Rest | 5 mi LR | Rest/CR | 11 |\n| **5** | Rest | 4 mi E | Rest | 3.5 mi E | Rest | 7 mi LR | Rest/CR | 14.5 |\n| **6** | Rest | 4 mi E | Rest | 3.5 mi E | Rest | 8 mi LR | Rest/CR | 15.5 |\n| **7** | Rest | 4 mi E | Rest | 4 mi E | Rest | 9 mi LR | Rest/CR | 17 |\n| **8** | Rest | 4 mi E | Rest | 3 mi E | Rest | 6 mi LR | Rest/CR | 13 |\n| **9** | Rest | 4.5 mi E | Rest | 4 mi E | Rest | 10 mi LR | Rest/CR | 18.5 |\n| **10**| Rest | 4.5 mi E | Rest | 4 mi E | Rest | 11 mi LR | Rest/CR | 19.5 |\n| **11**| Rest | 5 mi E | Rest | 4.5 mi E | Rest | 12 mi LR | Rest/CR | 21.5 |\n| **12**| Rest | 5 mi E | Rest | 3 mi E | Rest | 8 mi LR | Rest/CR | 16 |\n| **13**| Rest | 5 mi E | Rest | 4.5 mi E | Rest | 14 mi LR | Rest/CR | 23.5 |\n| **14**| Rest | 5 mi E | Rest | 5 mi E | Rest | 15 mi LR | Rest/CR | 25 |\n| **15**| Rest | 5 mi E | Rest | 5 mi E | Rest | 16 mi LR | Rest/CR | 26 |\n| **16**| Rest | 5 mi E | Rest | 4 mi E | Rest | 12 mi LR | Rest/CR | 21 |\n| **17**| Rest | 5 mi E | Rest | 5 mi E | Rest | 18 mi LR | Rest/CR | 28 |\n| **18**| Rest | 5 mi E | Rest | 4 mi E | Rest | 14 mi LR | Rest/CR | 23 |\n| **19**| Rest | 4 mi E | Rest | 3 mi E | Rest | 8 mi LR | Rest/CR | 15 |\n| **20**| Rest | 3 mi E | Rest | 2 mi E | Rest | **RACE DAY!** | Rest | 26.2 + |\n\n---\n\n### Critical Details for Success\n\n#### 1. The Golden Rule: The Long Run\n- **Pace:** Your long run should be **60-90 seconds per mile slower** than your easy run pace. It should feel boringly slow. Walk through all water stations.\n- **Fueling:** For runs over 60 minutes, you need fuel.\n    - *Before:* Eat a light snack (banana, toast with peanut butter) 60-90 minutes prior.\n    - *During:* Take a gel, gummy, or sports drink every 45-60 minutes. **Practice this on long runs** – do not try new fuel on race day.\n- **Hydration:** Drink water early and often. For runs over 90 minutes in hot weather, consider an electrolyte drink.\n\n#### 2. The \"Step-Back\" Weeks (Weeks 4, 8, 12, 16, 19)\nThese are **recovery weeks**. The long run is significantly shorter. This is not a sign of weakness; it is how your body rebuilds and gets stronger. **Do not skip these.**\n\n#### 3. Cross-Training (CR)\n- **Why:** Strengthens non-running muscles, improves cardiovascular fitness without impact, and reduces injury risk.\n- **Best options:** Cycling, swimming, elliptical, or a brisk 30-45 minute walk.\n- **Don't do:** Heavy weightlifting the day before a long run.\n\n#### 4. Injury Prevention\n- **Listen to Pain:** Sharp pain = stop. Dull ache = slow down or walk.\n- **Stretch & Strength:** After runs, do 5 minutes of static stretching (hamstrings, quads, calves). Do 2x/week: core work (planks, bird dogs) + glute bridges.\n- **Shoes:** Buy new running shoes 2-3 weeks before the plan starts. They last about 300-400 miles. You will likely need a second pair around Week 10-12.\n\n#### 5. Race Week (Week 20)\n- **Taper:** You are not getting fitter this week. You are resting so your legs are fresh. The desire to \"do one more long run\" is a trap. Don't do it.\n- **Carbo-Load:** Eat normal, balanced meals. The night before the race, eat a simple, familiar meal (pasta with",
+  "extracted": {
+    "summary": "The response provides a detailed 20-week marathon training schedule for beginners, focusing on run/walk techniques and consistency.",
+    "response_type": "fitness_plan",
+    "primary_goal": "endurance",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Week 1",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 1",
+        "activity_name": "3 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 1",
+        "activity_name": "4 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 1",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 2",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 2",
+        "activity_name": "3 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 2",
+        "activity_name": "3.5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 2",
+        "activity_name": "5 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 2",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 3",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 3",
+        "activity_name": "3.5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 3",
+        "activity_name": "6 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 3",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 4",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 4",
+        "activity_name": "3 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 4",
+        "activity_name": "5 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 4",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 5",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 5",
+        "activity_name": "4 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 5",
+        "activity_name": "7 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 5",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 6",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 6",
+        "activity_name": "4 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 6",
+        "activity_name": "8 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 6",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 7",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 7",
+        "activity_name": "4 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 7",
+        "activity_name": "9 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 7",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 8",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 8",
+        "activity_name": "4 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 8",
+        "activity_name": "6 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 8",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 9",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 9",
+        "activity_name": "4.5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 9",
+        "activity_name": "10 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 9",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 10",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 10",
+        "activity_name": "4.5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 10",
+        "activity_name": "11 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 10",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 11",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 11",
+        "activity_name": "5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 11",
+        "activity_name": "12 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 11",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 12",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 12",
+        "activity_name": "5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 12",
+        "activity_name": "8 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 12",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 13",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 13",
+        "activity_name": "5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 13",
+        "activity_name": "14 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 13",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 14",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 14",
+        "activity_name": "5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 14",
+        "activity_name": "15 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 14",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 15",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 15",
+        "activity_name": "5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 15",
+        "activity_name": "16 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 15",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 16",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 16",
+        "activity_name": "5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 16",
+        "activity_name": "12 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 16",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 17",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 17",
+        "activity_name": "5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 17",
+        "activity_name": "18 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 17",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 18",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 18",
+        "activity_name": "5 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 18",
+        "activity_name": "14 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 18",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 19",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 19",
+        "activity_name": "4 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 19",
+        "activity_name": "8 mi LR",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 19",
+        "activity_name": "Rest/CR",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 20",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 20",
+        "activity_name": "3 mi E",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 20",
+        "activity_name": "RACE DAY!",
+        "activity_type": "cardio",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Week 20",
+        "activity_name": "Rest",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "endurance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 4051,
+  "extraction_output_tokens": 5479,
+  "extraction_from_cache": false
+}

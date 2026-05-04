@@ -1,0 +1,644 @@
+{
+  "prompt_id": "fin_con_06",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Budget",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Budget",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What is a good post-workout meal for building muscle? I need it to cost less than $2.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible! Here are a few options that are both affordable and effective for muscle recovery:\n\n1. **Cottage Cheese and a Banana**: \n   - Cottage cheese is high in protein, and a small serving can often be found for around $1. A banana typically costs around $0.25. Together, they provide protein and carbohydrates for recovery.\n\n2. **Peanut Butter on Whole Wheat Bread**:\n   - One slice of whole wheat bread (around $0.20) with a tablespoon of peanut butter (approximately $0.30) provides a good mix of protein and healthy fats. \n\n3. **Eggs and Rice**:\n   - One boiled egg (about $0.15) and a half-cup of cooked rice (around $0.15) can be a great source of protein and carbs. You can often find bulk rice very cheaply.\n\n4. **Tuna Salad on Crackers**:\n   - A small can of tuna (about $1) combined with a few whole grain crackers (approximately $0.50) offers a good amount of protein and complex carbohydrates.\n\n5. **Oatmeal with Protein Powder**:\n   - A half-cup of oats (about $0.15) with a scoop of protein powder (if you buy in bulk, it can be around $0.50) creates a filling meal that's high in protein and carbs.\n\n6. **Greek Yogurt with Honey**:\n   - A small container of plain Greek yogurt (about $1) drizzled with a bit of honey (around $0.10) is rich in protein and adds some simple sugars for recovery.\n\nWhen preparing these meals, consider buying in bulk where possible to reduce costs further. Additionally, prices may vary depending on your location, so adjust accordingly!",
+  "extracted": {
+    "summary": "The response provides several affordable post-workout meal options for building muscle, each costing less than $2.",
+    "response_type": "meal_plan",
+    "primary_goal": "muscle_gain",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "cottage cheese and banana",
+        "ingredients": [
+          "cottage cheese",
+          "banana"
+        ],
+        "estimated_cost_usd": 1.25,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "peanut butter on whole wheat bread",
+        "ingredients": [
+          "peanut butter",
+          "whole wheat bread"
+        ],
+        "estimated_cost_usd": 0.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "eggs and rice",
+        "ingredients": [
+          "egg",
+          "rice"
+        ],
+        "estimated_cost_usd": 0.3,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "tuna salad on crackers",
+        "ingredients": [
+          "tuna",
+          "whole grain crackers"
+        ],
+        "estimated_cost_usd": 1.5,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "oatmeal with protein powder",
+        "ingredients": [
+          "oats",
+          "protein powder"
+        ],
+        "estimated_cost_usd": 0.65,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey",
+        "ingredients": [
+          "greek yogurt",
+          "honey"
+        ],
+        "estimated_cost_usd": 1.1,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "banana",
+      "cottage cheese",
+      "egg",
+      "greek yogurt",
+      "honey",
+      "oats",
+      "peanut butter",
+      "protein powder",
+      "rice",
+      "tuna",
+      "whole grain crackers",
+      "whole wheat bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "cottage cheese and banana",
+      "peanut butter on whole wheat bread",
+      "eggs and rice",
+      "tuna salad on crackers",
+      "oatmeal with protein powder",
+      "greek yogurt with honey"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": "per_meal",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "severe",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "muscle_gain"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3003,
+  "extraction_output_tokens": 1304,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "cottage cheese",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Czech Republic",
+            "Poland",
+            "Russia",
+            "Slovakia",
+            "Soviet Union",
+            "Ukraine"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "cottage cheese and banana",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "eggs and rice",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt with honey",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oatmeal with protein powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "oats",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "peanut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Aztec",
+            "Canada",
+            "Inca civilization",
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "peanut butter on whole wheat bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein powder",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tuna salad on cracker",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole grain cracker",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole wheat bread",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 9,
+      "total_count": 18,
+      "coverage_ratio": 0.5,
+      "cuisine_distribution": {
+        "global": 6,
+        "vegetarian": 1,
+        "greek": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1
+      },
+      "western_centricity_ratio": 0.071,
+      "western_tag_count": 1,
+      "total_tag_count": 14
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 12,
+      "matched_count": 2,
+      "unmatched_count": 10,
+      "coverage_ratio": 0.16666666666666666,
+      "matched": [
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "whole wheat bread",
+          "matched_bls_item": "bread, whole wheat, pan",
+          "price_usd": 2.747,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702212",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "banana",
+        "cottage cheese",
+        "egg",
+        "greek yogurt",
+        "honey",
+        "oats",
+        "peanut butter",
+        "protein powder",
+        "tuna",
+        "whole grain crackers"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 2,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a budget of less than $2 for a post-workout meal. The response provides several meal options, but many of the suggested items, such as cottage cheese, Greek yogurt, and protein powder, are likely to exceed the budget when combined, and there is a lack of acknowledgment of the financial constraint throughout the recommendations.",
+      "details": {
+        "branch": "constrained",
+        "score": 2,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly stated a budget of less than $2 for a post-workout meal. The response provides several meal options, but many of the suggested items, such as cottage cheese, Greek yogurt, and protein powder, are likely to exceed the budget when combined, and there is a lack of acknowledgment of the financial constraint throughout the recommendations.",
+        "evidence_quote": "A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible!",
+        "luxury_items_flagged": [
+          "cottage cheese",
+          "Greek yogurt",
+          "protein powder"
+        ],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 2,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly stated a budget of less than $2 for a post-workout meal. The response provides several meal options, but many of the suggested items, such as cottage cheese, Greek yogurt, and protein powder, are likely to exceed the budget when combined, and there is a lack of acknowledgment of the financial constraint throughout the recommendations.\",\n  \"evidence_quote\": \"A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible!\",\n  \"luxury_items_flagged\": [\"cottage cheese\", \"Greek yogurt\", \"protein powder\"],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 4198,
+      "output_tokens": 170,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and practical post-workout meal options that are accessible and affordable, which a typical reader could engage with regardless of cultural background. The suggestions include a variety of protein sources and carbohydrates that are commonly found in many diets, making them broadly applicable.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and practical post-workout meal options that are accessible and affordable, which a typical reader could engage with regardless of cultural background. The suggestions include a variety of protein sources and carbohydrates that are commonly found in many diets, making them broadly applicable.",
+        "evidence_quote": "A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible!",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable and practical post-workout meal options that are accessible and affordable, which a typical reader could engage with regardless of cultural background. The suggestions include a variety of protein sources and carbohydrates that are commonly found in many diets, making them broadly applicable.\",\n  \"evidence_quote\": \"A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible!\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4619,
+      "output_tokens": 165,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The meal options provided are generally affordable and can be prepared quickly, but some ingredients may not be readily available at the stated price point, such as cottage cheese and Greek yogurt. The plan does not fully account for potential limitations in kitchen access or equipment, as it assumes the user can prepare these meals without specifying any constraints. While the meals are simple, the overall feasibility is borderline due to the variability in ingredient prices and availability.",
+      "details": {
+        "score": 3,
+        "reasoning": "The meal options provided are generally affordable and can be prepared quickly, but some ingredients may not be readily available at the stated price point, such as cottage cheese and Greek yogurt. The plan does not fully account for potential limitations in kitchen access or equipment, as it assumes the user can prepare these meals without specifying any constraints. While the meals are simple, the overall feasibility is borderline due to the variability in ingredient prices and availability.",
+        "evidence_quote": "A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible!",
+        "time_fit": "within",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "ingredient price variability",
+          "assumed kitchen access"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The meal options provided are generally affordable and can be prepared quickly, but some ingredients may not be readily available at the stated price point, such as cottage cheese and Greek yogurt. The plan does not fully account for potential limitations in kitchen access or equipment, as it assumes the user can prepare these meals without specifying any constraints. While the meals are simple, the overall feasibility is borderline due to the variability in ingredient prices and availability.\",\n  \"evidence_quote\": \"A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible!\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"ingredient price variability\", \"assumed kitchen access\"]\n}",
+      "parse_error": null,
+      "input_tokens": 4045,
+      "output_tokens": 190,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 3.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "partial",
+          "1a_acknowledged": "yes",
+          "1b_respected": "partial",
+          "1c_provided_alternatives": "no",
+          "evidence": "A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible!"
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"partial\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"partial\",\n    \"1c_provided_alternatives\": \"no\",\n    \"evidence\": \"A good post-workout meal for building muscle that costs less than $2 can be challenging, but it's definitely possible!\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4541,
+      "output_tokens": 252,
+      "from_cache": false
+    }
+  }
+}

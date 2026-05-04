@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_12",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Medical Expense",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Medical Expense",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a meal plan for someone with a gluten allergy. I am living on a fixed disability income and cannot afford the \"gluten-free\" premium brands; provide the cheapest natural alternatives.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Gluten-Free Meal Plan\n\n## Naturally Gluten-Free Staples (Cheapest Options)\n\n**Grains & Starches:**\n- Rice (bulk white/brown rice)\n- Potatoes and sweet potatoes\n- Corn (polenta, cornmeal)\n- Oats (certified GF if needed, or skip—naturally GF but often cross-contaminated)\n- Beans and lentils\n\n**Proteins:**\n- Eggs\n- Canned tuna/sardines\n- Chicken (buy whole or on sale)\n- Ground meat (cheaper cuts)\n- Dried beans/lentils\n- Peanut butter\n\n**Produce:**\n- Seasonal vegetables (carrots, cabbage, onions, frozen mixed veggies)\n- Bananas, apples, oranges\n- Canned vegetables/fruit (no added sugar)\n\n## Sample Weekly Plan\n\n**Breakfasts:** Eggs, oatmeal, rice porridge, bananas with peanut butter\n\n**Lunches:** Rice + beans + salsa, baked potatoes + canned tuna, lentil soup\n\n**Dinners:** Chicken + rice + vegetables, ground meat tacos (corn tortillas), bean chili\n\n**Snacks:** Hard-boiled eggs, fruit, popcorn (plain, air-popped)\n\n## Money-Saving Tips\n\n- Buy store brands (usually cheaper and naturally GF)\n- Check labels for hidden gluten—most whole foods don't contain it\n- Buy in bulk\n- Avoid pre-made \"gluten-free\" products entirely\n\nWould you like specific recipes or help with a shopping list?",
+  "input_tokens": 49,
+  "output_tokens": 389,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:38:12.242774"
+}

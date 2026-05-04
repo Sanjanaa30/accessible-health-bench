@@ -1,0 +1,351 @@
+{
+  "prompt_id": "lif_con_06",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Preference",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Preference",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy meal prep plan for someone who hates cooking and prefers minimal preparation.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# No-Fuss Meal Prep Plan\n\n## Strategy: Assembly Over Cooking\n\nInstead of cooking from scratch, focus on combining pre-made/minimally-processed ingredients.\n\n### Breakfast (5 min prep)\n- **Overnight oats**: Mix oats, yogurt, milk, berries (prep 3 jars Sunday)\n- **Egg muffins**: Buy pre-cooked or bake a batch once weekly\n- **Smoothie packs**: Freeze fruit + greens in bags, blend with yogurt\n\n### Lunch (0 prep)\n- **Rotisserie chicken** + bagged salad + olive oil dressing\n- **Canned tuna/salmon** + whole grain bread + pre-cut veggies\n- **Greek yogurt bowls** with granola and fruit\n- **Deli turkey wraps** with hummus and pre-cut vegetables\n\n### Dinner (10 min max)\n- Sheet pan meals: Frozen vegetables + pre-seasoned protein, roast 20 min\n- **Rice bowls**: Microwaveable rice + canned beans + salsa + rotisserie chicken\n- **Pasta**: Whole grain pasta + jarred pesto + cherry tomatoes + mozzarella\n- **Slow cooker**: Dump ingredients Sunday, eat all week\n\n### Snacks\n- String cheese, nuts, fruit, hard-boiled eggs (buy pre-made)\n- Hummus with pre-cut veggies\n\n## Shopping Hack\nBuy pre-prepped: rotisserie chicken, bagged salads, frozen vegetables, canned beans, microwaveable grains.\n\n**Time investment**: 1-2 hours Sunday = meals ready all week\n\nWhat type of foods do you actually enjoy?",
+  "extracted": {
+    "summary": "The response provides a meal prep plan focusing on minimal cooking, using pre-made and easy-to-assemble ingredients for breakfast, lunch, and dinner.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats",
+        "ingredients": [
+          "oats",
+          "yogurt",
+          "milk",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "egg muffins",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "smoothie packs",
+        "ingredients": [
+          "fruit",
+          "greens",
+          "yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "rotisserie chicken salad",
+        "ingredients": [
+          "rotisserie chicken",
+          "bagged salad",
+          "olive oil dressing"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "tuna sandwich",
+        "ingredients": [
+          "canned tuna",
+          "whole grain bread",
+          "pre-cut veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "greek yogurt bowl",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "deli turkey wrap",
+        "ingredients": [
+          "deli turkey",
+          "hummus",
+          "pre-cut vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 0,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "sheet pan meal",
+        "ingredients": [
+          "frozen vegetables",
+          "pre-seasoned protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "rice bowl",
+        "ingredients": [
+          "microwaveable rice",
+          "canned beans",
+          "salsa",
+          "rotisserie chicken"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "pasta",
+        "ingredients": [
+          "whole grain pasta",
+          "jarred pesto",
+          "cherry tomatoes",
+          "mozzarella"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "slow cooker meal",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "slow-cooker",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "string cheese",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "nuts",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "fruit",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hard-boiled eggs",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "hummus with veggies",
+        "ingredients": [
+          "hummus",
+          "pre-cut veggies"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "oats",
+      "yogurt",
+      "milk",
+      "berries",
+      "fruit",
+      "greens",
+      "rotisserie chicken",
+      "bagged salad",
+      "olive oil dressing",
+      "canned tuna",
+      "whole grain bread",
+      "pre-cut veggies",
+      "greek yogurt",
+      "granola",
+      "deli turkey",
+      "hummus",
+      "frozen vegetables",
+      "pre-seasoned protein",
+      "microwaveable rice",
+      "canned beans",
+      "salsa",
+      "whole grain pasta",
+      "jarred pesto",
+      "cherry tomatoes",
+      "mozzarella"
+    ],
+    "all_dishes_or_foods_named": [
+      "overnight oats",
+      "egg muffins",
+      "smoothie packs",
+      "rotisserie chicken salad",
+      "tuna sandwich",
+      "greek yogurt bowl",
+      "deli turkey wrap",
+      "sheet pan meal",
+      "rice bowl",
+      "pasta",
+      "slow cooker meal",
+      "string cheese",
+      "nuts",
+      "fruit",
+      "hard-boiled eggs",
+      "hummus with veggies"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 10,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2934,
+  "extraction_output_tokens": 2222,
+  "extraction_from_cache": false
+}

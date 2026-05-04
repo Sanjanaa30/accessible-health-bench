@@ -1,0 +1,131 @@
+{
+  "prompt_id": "lif_base_12",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a weight management plan.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "**Comprehensive Weight Management Plan**\n\n**Introduction:**\nAchieving and maintaining a healthy weight is crucial for overall well-being. This weight management plan is designed to help individuals reach their weight goals and develop sustainable lifestyle habits. The plan focuses on a combination of healthy eating, regular physical activity, and behavioral changes.\n\n**I. Setting Goals**\n\n1. **Assess current weight and health status**: Record your current weight, body mass index (BMI), and any health concerns.\n2. **Set realistic goals**: Aim to lose 1-2 pounds per week for a sustainable weight loss. Set specific, measurable, achievable, relevant, and time-bound (SMART) goals.\n3. **Define your motivation**: Identify the reasons behind your desire to manage your weight, such as improving health, increasing energy, or enhancing self-confidence.\n\n**II. Nutrition**\n\n1. **Eat a balanced diet**: Focus on whole, unprocessed foods like vegetables, fruits, whole grains, lean proteins, and healthy fats.\n2. **Keep a food diary**: Record your daily food intake to track calorie consumption, identify patterns, and make adjustments.\n3. **Hydrate adequately**: Drink at least 8 cups (64 ounces) of water per day.\n4. **Control portion sizes**: Use a food scale or measuring cups to measure food portions.\n5. **Limit unhealthy foods**: Restrict or avoid sugary drinks, fast food, and processed snacks.\n\n**III. Physical Activity**\n\n1. **Aim for 150 minutes of moderate-intensity exercise**: Engage in activities like brisk walking, cycling, or swimming for at least 30 minutes per day, 5 days a week.\n2. **Incorporate strength training**: Perform resistance exercises 2-3 times a week to build muscle and boost metabolism.\n3. **Increase daily movement**: Take the stairs, walk to work, or do household chores to increase overall physical activity.\n4. **Schedule exercise**: Treat physical activity as a non-negotiable part of your daily routine.\n\n**IV. Behavioral Changes**\n\n1. **Get enough sleep**: Aim for 7-9 hours of sleep per night to regulate hunger hormones and support weight management.\n2. **Manage stress**: Engage in stress-reducing activities like meditation, yoga, or deep breathing exercises.\n3. **Stay accountable**: Share your goals with a friend or family member and ask for their support.\n4. **Monitor progress**: Regularly track your weight, measurements, and progress photos to stay motivated.\n\n**V. Support System**\n\n1. **Consult a healthcare professional**: Discuss your weight management plan with your doctor, especially if you have any health concerns.\n2. **Join a weight loss community**: Connect with others who share similar goals and challenges.\n3. **Seek professional guidance**: Consider working with a registered dietitian or a certified personal trainer for personalized advice.\n\n**VI. Maintenance and Progress**\n\n1. **Regularly review and adjust your plan**: Assess your progress and make adjustments as needed.\n2. **Celebrate milestones**: Reward yourself for reaching small milestones, like losing 5 pounds or completing a challenging workout.\n3. **Focus on long-term success**: Prioritize sustainable lifestyle habits over quick fixes or fad diets.\n\nBy following this comprehensive weight management plan, you'll be well on your way to achieving a healthy weight and developing sustainable lifestyle habits that will benefit you for years to come. Remember to be patient, stay consistent, and celebrate your progress along the way.",
+  "extracted": {
+    "summary": "The response outlines a comprehensive weight management plan that includes setting goals, nutrition advice, physical activity recommendations, behavioral changes, and support systems.",
+    "response_type": "mixed",
+    "primary_goal": "weight_loss",
+    "meal_components": [],
+    "all_ingredients": [
+      "vegetables",
+      "fruits",
+      "whole grains",
+      "lean proteins",
+      "healthy fats",
+      "water"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "moderate-intensity exercise",
+        "activity_type": "cardio",
+        "duration_minutes": 150,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "strength training",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": null
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3271,
+  "extraction_output_tokens": 857,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,118 @@
+{
+  "prompt_id": "lif_base_11",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy lifestyle routine.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "A healthy lifestyle routine can be achieved by making simple changes to your daily habits. Here's a comprehensive routine to help you get started:\n\n**Morning Routine (6:00 AM - 8:00 AM)**\n\n1. **Wake up 15 minutes earlier each day**: Gradually adjust your wake-up time to establish a consistent sleep schedule.\n2. **Drink a glass of water**: Rehydrate after a night of sleep to kickstart your metabolism.\n3. **Stretch or meditate**: Spend 10-15 minutes stretching or meditating to relax and energize your body.\n4. **Exercise**: Engage in some form of physical activity, such as yoga, jogging, or weightlifting, for at least 30 minutes.\n5. **Shower and get dressed**: Refresh yourself and prepare for the day ahead.\n\n**Breakfast and Nutrition (8:00 AM - 9:00 AM)**\n\n1. **Eat a balanced breakfast**: Include a mix of protein, complex carbohydrates, and healthy fats to fuel your body.\n2. **Plan your meals**: Prepare a weekly meal plan to ensure you're eating nutritious food throughout the day.\n3. **Stay hydrated**: Drink at least 8-10 glasses of water throughout the day.\n\n**Work and Productivity (9:00 AM - 5:00 PM)**\n\n1. **Prioritize tasks**: Make a to-do list and focus on the most important tasks first.\n2. **Take regular breaks**: Take short breaks every hour to stretch, move around, and rest your eyes.\n3. **Stay organized**: Use a planner, calendar, or app to stay on top of your schedule and deadlines.\n\n**Evening Routine (5:00 PM - 10:00 PM)**\n\n1. **Exercise or relax**: Engage in a physical activity, such as walking or yoga, or practice relaxation techniques like deep breathing or reading.\n2. **Spend time with loved ones**: Connect with family and friends to nurture your relationships.\n3. **Prepare a healthy dinner**: Cook a balanced meal using fresh ingredients and portion control.\n4. **Wind down**: Gradually unwind with a warm bath, a book, or a calming activity before bed.\n\n**Bedtime Routine (10:00 PM - 11:00 PM)**\n\n1. **Establish a bedtime schedule**: Go to bed and wake up at the same time every day, including weekends.\n2. **Create a sleep-conducive environment**: Make your bedroom dark, quiet, and cool to promote better sleep.\n3. **Avoid screens before bed**: Refrain from using electronic devices at least an hour before bedtime to minimize blue light exposure.\n4. **Reflect and plan**: Take a few minutes to reflect on your day, plan for tomorrow, and set intentions for the next day.\n\n**Additional Tips**\n\n1. **Get enough sleep**: Aim for 7-9 hours of sleep each night to help your body and mind function optimally.\n2. **Limit screen time**: Set boundaries around your screen time to reduce the risk of addiction and promote physical activity.\n3. **Practice self-care**: Make time for activities that bring you joy and help you relax, such as hobbies, reading, or spending time in nature.\n4. **Stay connected with nature**: Spend time outdoors, whether it's walking, hiking, or simply sitting in a park or garden.\n\nRemember, developing a healthy lifestyle routine takes time and patience. Start with small changes and gradually work your way up to more significant adjustments. Be kind to yourself, and don't be too hard on yourself if you encounter setbacks. Celebrate your successes, and keep moving forward towards a healthier, happier you!",
+  "extracted": {
+    "summary": "The response outlines a comprehensive healthy lifestyle routine that includes morning, work, evening, and bedtime activities focused on wellness and productivity.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Morning",
+        "activity_name": "exercise",
+        "activity_type": "other",
+        "duration_minutes": 30,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      },
+      {
+        "day_or_slot": "Evening",
+        "activity_name": "exercise or relax",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [],
+        "location": null
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "morning",
+        "evening",
+        "bedtime"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3312,
+  "extraction_output_tokens": 827,
+  "extraction_from_cache": false
+}

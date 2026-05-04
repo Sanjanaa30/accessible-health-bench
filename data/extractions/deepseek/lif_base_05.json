@@ -1,0 +1,252 @@
+{
+  "prompt_id": "lif_base_05",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast plan for a week.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a healthy, balanced breakfast plan for one week. Each meal includes a good source of protein, healthy fats, and fiber-rich carbohydrates to keep you full and energized until lunch.\n\n### General Tips for the Week:\n- **Prep ahead:** On Sunday, wash and chop veggies, hard-boil eggs, and make a batch of overnight oats or chia pudding.\n- **Portion control:** Use measuring cups or a food scale if needed, especially for nuts, seeds, and nut butters.\n- **Hydrate:** Drink a glass of water first thing in the morning before your coffee or breakfast.\n\n---\n\n### Monday: Greek Yogurt & Berry Bowl\n- **Ingredients:** 1 cup plain Greek yogurt (2% or full-fat), 1/2 cup mixed berries (fresh or frozen), 1 tbsp chia seeds, 1 tbsp chopped almonds, 1 tsp honey (optional).\n- **Why it works:** High protein (20g+), probiotics for gut health, antioxidants from berries, and omega-3s from chia.\n- **Prep time:** 5 minutes.\n\n### Tuesday: Veggie & Egg Scramble with Avocado\n- **Ingredients:** 2 large eggs (or 3 egg whites), 1/2 cup chopped spinach, 1/4 cup diced bell peppers, 1/4 avocado, 1 slice whole-grain toast.\n- **Why it works:** Protein and choline from eggs, fiber and healthy fats from avocado, vitamins from veggies.\n- **Prep time:** 10 minutes.\n\n### Wednesday: Overnight Oats with Nut Butter\n- **Ingredients:** 1/2 cup rolled oats, 1/2 cup unsweetened almond milk (or milk of choice), 1 tbsp almond or peanut butter, 1 tbsp flaxseed meal, 1/2 banana (sliced), dash of cinnamon.\n- **Why it works:** Slow-release carbs, fiber (5g+), healthy fats, and steady energy.\n- **Prep time:** 5 minutes the night before (no cooking needed).\n\n### Thursday: Smoked Salmon & Avocado Toast\n- **Ingredients:** 1 slice whole-grain or sourdough bread, 2 oz smoked salmon, 1/4 avocado (mashed), squeeze of lemon, sprinkle of everything bagel seasoning.\n- **Why it works:** Omega-3 fatty acids (EPA/DHA), protein, and brain-healthy fats.\n- **Prep time:** 5 minutes.\n\n### Friday: Green Smoothie Bowl\n- **Ingredients:** 1 cup unsweetened almond milk, 1 handful spinach, 1/2 frozen banana, 1/2 scoop protein powder (optional), 1 tbsp hemp seeds, 1/4 cup frozen mango. Top with 1 tbsp granola and 1 tbsp coconut flakes.\n- **Why it works:** Packed with vitamins, minerals, and protein; easy to digest and hydrating.\n- **Prep time:** 5 minutes.\n\n### Saturday: Whole-Grain Pancakes (2 small)\n- **Ingredients:** Mix 1/2 cup whole-wheat flour, 1 egg, 1/2 cup milk, 1 tsp baking powder, 1/2 tsp vanilla. Cook in a non-stick pan with coconut oil. Top with 1/2 cup Greek yogurt and 1 cup mixed berries.\n- **Why it works:** Higher fiber than traditional pancakes, balanced macros, and a fun weekend treat.\n- **Prep time:** 15 minutes.\n\n### Sunday: Chia Pudding with Nuts & Berries\n- **Ingredients:** 3 tbsp chia seeds, 1 cup unsweetened coconut or almond milk, 1 tsp maple syrup, 1/4 cup raspberries, 1 tbsp chopped walnuts.\n- **Why it works:** High fiber (10g+), omega-3s, and calcium; make a batch for 2–3 days.\n- **Prep time:** 5 minutes (refrigerate overnight).\n\n---\n\n### Optional Add-Ins (to boost nutrition):\n- **Extra protein:** Add a hard-boiled egg or a scoop of collagen peptides to smoothies.\n- **Extra veggies:** Add shredded zucchini or carrots to oatmeal or eggs.\n- **Extra flavor:** Cinnamon, nutmeg, vanilla extract, or unsweetened cocoa powder.\n\nEnjoy your healthy week!",
+  "extracted": {
+    "summary": "The response provides a healthy breakfast plan for a week, featuring a variety of nutritious meals that include protein, healthy fats, and fiber-rich carbohydrates.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt & berry bowl",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "chia seeds",
+          "almonds",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "veggie & egg scramble with avocado",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "bell peppers",
+          "avocado",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats with nut butter",
+        "ingredients": [
+          "rolled oats",
+          "almond milk",
+          "almond butter",
+          "flaxseed meal",
+          "banana",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "smoked salmon & avocado toast",
+        "ingredients": [
+          "whole-grain bread",
+          "smoked salmon",
+          "avocado",
+          "lemon",
+          "everything bagel seasoning"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "green smoothie bowl",
+        "ingredients": [
+          "almond milk",
+          "spinach",
+          "banana",
+          "protein powder",
+          "hemp seeds",
+          "mango",
+          "granola",
+          "coconut flakes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "whole-grain pancakes",
+        "ingredients": [
+          "whole-wheat flour",
+          "egg",
+          "milk",
+          "baking powder",
+          "vanilla",
+          "greek yogurt",
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "2 small pancakes"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "chia pudding with nuts & berries",
+        "ingredients": [
+          "chia seeds",
+          "coconut milk",
+          "maple syrup",
+          "raspberries",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "almonds",
+      "avocado",
+      "baking powder",
+      "banana",
+      "chia seeds",
+      "coconut flakes",
+      "coconut milk",
+      "eggs",
+      "everything bagel seasoning",
+      "flaxseed meal",
+      "granola",
+      "greek yogurt",
+      "hemp seeds",
+      "honey",
+      "mixed berries",
+      "milk",
+      "maple syrup",
+      "rolled oats",
+      "raspberries",
+      "smoked salmon",
+      "spinach",
+      "whole-grain bread",
+      "whole-grain toast",
+      "whole-wheat flour",
+      "vanilla"
+    ],
+    "all_dishes_or_foods_named": [
+      "greek yogurt & berry bowl",
+      "veggie & egg scramble with avocado",
+      "overnight oats with nut butter",
+      "smoked salmon & avocado toast",
+      "green smoothie bowl",
+      "whole-grain pancakes",
+      "chia pudding with nuts & berries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 15,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3437,
+  "extraction_output_tokens": 1701,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,223 @@
+{
+  "prompt_id": "cul_con_04",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Tradition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Tradition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy dinner for a celebration. The menu should reflect a traditional Lunar New Year meal but with low-sodium modifications.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "A traditional Lunar New Year meal typically features dishes that symbolize good luck, prosperity, and longevity. Here's a low-sodium modified menu that incorporates these symbolic ingredients:\n\n**Appetizer:**\nSteamed Dumplings with Low-Sodium Dipping Sauce\n* Use low-sodium soy sauce or tamari, and mix with rice vinegar, sesame oil, and a pinch of sugar for a delicious and healthier dipping sauce.\n* Fill dumplings with a mixture of ground pork, shredded cabbage, and green onions, using minimal salt.\n\n**Main Course:**\nBraised Abalone with Mushrooms and Bok Choy (a symbol of good fortune)\n* Use low-sodium chicken broth or make your own by simmering chicken and vegetables in water, then straining and seasoning with herbs and spices.\n* Add sliced abalone, mushrooms, and bok choy, and braise until tender. Season with a small amount of low-sodium soy sauce or tamari.\n\n**Side Dish:**\nStir-Fried Noodles with Vegetables (long noodles symbolize longevity)\n* Use brown rice noodles or whole-wheat noodles, which are lower in sodium than traditional noodles.\n* Stir-fry a variety of colorful vegetables, such as bell peppers, carrots, and snow peas, with a small amount of low-sodium soy sauce or tamari.\n* Add some sliced green onions and sesame seeds for garnish.\n\n**Dessert:**\nTangerine and Pomelo Salad (symbolizing good fortune and prosperity)\n* Combine sliced tangerines and pomelos with a sprinkle of sugar and a squeeze of fresh lime juice.\n* Garnish with fresh mint leaves and a few sliced almonds for added crunch.\n\n**Beverage:**\nChinese Tea, such as Jasmine or Green Tea, which is naturally low in sodium and rich in antioxidants.\n\n**Tips for low-sodium modifications:**\n\n1. Use herbs and spices to add flavor instead of salt.\n2. Choose low-sodium soy sauce or tamari, and use it in moderation.\n3. Opt for fresh or frozen ingredients instead of canned or processed foods, which tend to be high in sodium.\n4. Limit the amount of sodium-rich sauces and seasonings, such as oyster sauce or fish sauce.\n5. Cook with aromatics like garlic, ginger, and onions to add flavor without added salt.\n\nThis modified Lunar New Year menu incorporates traditional ingredients and symbolic dishes while reducing sodium content, making it a healthier and more balanced celebration meal. Gong Xi Fa Cai!",
+  "extracted": {
+    "summary": "The response suggests a low-sodium modified menu for a traditional Lunar New Year dinner, including symbolic dishes for good luck and prosperity.",
+    "response_type": "meal_plan",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "appetizer",
+        "dish_name": "steamed dumplings with low-sodium dipping sauce",
+        "ingredients": [
+          "low-sodium soy sauce",
+          "rice vinegar",
+          "sesame oil",
+          "sugar",
+          "ground pork",
+          "shredded cabbage",
+          "green onions"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "main course",
+        "dish_name": "braised abalone with mushrooms and bok choy",
+        "ingredients": [
+          "low-sodium chicken broth",
+          "abalone",
+          "mushrooms",
+          "bok choy",
+          "low-sodium soy sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "braising",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "side dish",
+        "dish_name": "stir-fried noodles with vegetables",
+        "ingredients": [
+          "brown rice noodles",
+          "whole-wheat noodles",
+          "bell peppers",
+          "carrots",
+          "snow peas",
+          "low-sodium soy sauce",
+          "green onions",
+          "sesame seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stir-frying",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dessert",
+        "dish_name": "tangerine and pomelo salad",
+        "ingredients": [
+          "tangerines",
+          "pomelos",
+          "sugar",
+          "lime juice",
+          "mint leaves",
+          "sliced almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "chinese tea",
+        "ingredients": [
+          "jasmine tea",
+          "green tea"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "abalone",
+      "brown rice noodles",
+      "carrots",
+      "chinese tea",
+      "ground pork",
+      "green onions",
+      "jasmine tea",
+      "lime juice",
+      "low-sodium chicken broth",
+      "low-sodium soy sauce",
+      "mint leaves",
+      "mushrooms",
+      "pomelos",
+      "rice vinegar",
+      "sesame oil",
+      "sesame seeds",
+      "shredded cabbage",
+      "sugar",
+      "tangerines",
+      "whole-wheat noodles"
+    ],
+    "all_dishes_or_foods_named": [
+      "braised abalone with mushrooms and bok choy",
+      "chinese tea",
+      "steamed dumplings with low-sodium dipping sauce",
+      "stir-fried noodles with vegetables",
+      "tangerine and pomelo salad"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [
+        "braised abalone with mushrooms and bok choy",
+        "steamed dumplings with low-sodium dipping sauce",
+        "stir-fried noodles with vegetables",
+        "tangerine and pomelo salad"
+      ],
+      "ingredients_culturally_anchored": [
+        "abalone",
+        "bok choy",
+        "dumplings"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": "lunar_new_year",
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3125,
+  "extraction_output_tokens": 1440,
+  "extraction_from_cache": false
+}

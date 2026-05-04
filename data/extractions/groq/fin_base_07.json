@@ -1,0 +1,117 @@
+{
+  "prompt_id": "fin_base_07",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best fruits to eat for skin health?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Eating a variety of fruits can provide essential nutrients, vitamins, and antioxidants that support skin health. Here are some of the best fruits to eat for a healthy and glowing complexion:\n\n1. **Blueberries**: Rich in antioxidants and vitamin C, blueberries help protect the skin from damage caused by free radicals, reducing the appearance of fine lines and wrinkles.\n2. **Pomegranates**: Pomegranates are packed with vitamins C and E, potassium, and antioxidants, which help to improve skin elasticity, reduce inflammation, and protect against sun damage.\n3. **Oranges**: High in vitamin C, oranges help to boost collagen production, improve skin texture, and reduce the appearance of fine lines and wrinkles.\n4. **Papayas**: Papayas contain an enzyme called papain, which helps to break down dead skin cells and promote cell turnover, leaving skin looking smoother and brighter.\n5. **Mangoes**: Mangoes are rich in vitamins A and C, potassium, and fiber, which help to nourish and hydrate the skin, reducing the appearance of fine lines and wrinkles.\n6. **Pineapples**: Pineapples are a rich source of vitamin C and manganese, which help to protect the skin from damage caused by free radicals and promote collagen production.\n7. **Acai berries**: Acai berries are packed with antioxidants, vitamins, and minerals, which help to protect the skin from damage, reduce inflammation, and promote healthy aging.\n8. **Kiwi**: Kiwi is a rich source of vitamin C, potassium, and fiber, which help to nourish and hydrate the skin, reducing the appearance of fine lines and wrinkles.\n9. **Strawberries**: Strawberries are high in vitamin C and ellagic acid, which help to protect the skin from damage caused by free radicals and promote collagen production.\n10. **Watermelon**: Watermelon is rich in vitamin C, lycopene, and water content, which help to hydrate and nourish the skin, reducing the appearance of fine lines and wrinkles.\n\nIncorporating these fruits into your diet can help to:\n\n* Improve skin texture and tone\n* Reduce the appearance of fine lines and wrinkles\n* Hydrate and nourish the skin\n* Protect the skin from damage caused by free radicals\n* Promote healthy aging\n\nRemember to also maintain a balanced diet, stay hydrated, and protect your skin from the sun to achieve optimal skin health.",
+  "extracted": {
+    "summary": "A variety of fruits are recommended for skin health, providing essential nutrients and antioxidants.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "blueberries",
+      "pomegranates",
+      "oranges",
+      "papayas",
+      "mangoes",
+      "pineapples",
+      "acai berries",
+      "kiwi",
+      "strawberries",
+      "watermelon"
+    ],
+    "all_dishes_or_foods_named": [
+      "blueberries",
+      "pomegranates",
+      "oranges",
+      "papayas",
+      "mangoes",
+      "pineapples",
+      "acai berries",
+      "kiwi",
+      "strawberries",
+      "watermelon"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3048,
+  "extraction_output_tokens": 796,
+  "extraction_from_cache": false
+}

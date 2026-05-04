@@ -1,0 +1,99 @@
+{
+  "prompt_id": "cul_base_19",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Is it okay to skip meals for health reasons?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "While skipping meals may seem like a convenient or even healthy option, it's generally not recommended for most people. Here's why:\n\n**Reasons to avoid skipping meals:**\n\n1. **Nutrient deficiencies**: Skipping meals can lead to inadequate nutrient intake, including vitamins, minerals, and macronutrients like protein, healthy fats, and complex carbohydrates.\n2. **Blood sugar control**: Skipping meals can cause blood sugar levels to fluctuate, leading to energy crashes, mood swings, and potentially even diabetes or insulin resistance.\n3. **Metabolism slowdown**: Eating regularly helps maintain a healthy metabolism. Skipping meals can cause your metabolism to slow down, making it harder to lose weight or maintain weight loss.\n4. **Loss of muscle mass**: Inadequate protein intake, which can occur when skipping meals, can lead to muscle loss and weakness.\n5. **Decreased energy**: Skipping meals can leave you feeling fatigued, lethargic, and unable to focus or perform daily activities.\n\n**When might skipping meals be acceptable?**\n\n1. **Intermittent fasting**: Certain types of intermittent fasting, such as 16:8 or 5:2, can be beneficial for some people, particularly those with insulin resistance or type 2 diabetes. However, it's essential to consult with a healthcare professional before starting any fasting regimen.\n2. **Medical procedures**: In some cases, skipping meals may be necessary before medical procedures, such as surgery or certain tests, to ensure patient safety.\n3. **Digestive issues**: If you have a digestive condition like gastroparesis or inflammatory bowel disease, your healthcare provider may recommend skipping meals or following a specific eating schedule to manage symptoms.\n\n**Who should not skip meals?**\n\n1. **Children and adolescents**: Skipping meals can hinder growth and development in young people.\n2. **Pregnant or breastfeeding women**: Adequate nutrition is crucial for fetal development and milk production.\n3. **Older adults**: Skipping meals can lead to malnutrition, weakness, and increased risk of falls and other health problems.\n4. **People with certain medical conditions**: Those with diabetes, hypoglycemia, or other conditions that require careful blood sugar management should not skip meals without consulting their healthcare provider.\n\nIn summary, while there may be some exceptions, skipping meals is generally not recommended for most people. If you're considering skipping meals for health reasons, consult with a healthcare professional or registered dietitian to determine the best approach for your individual needs.",
+  "extracted": {
+    "summary": "Skipping meals is generally not recommended due to potential health risks, though there are exceptions for certain individuals and situations.",
+    "response_type": "advisory",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "diabetes"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult with a healthcare professional before starting any fasting regimen."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3067,
+  "extraction_output_tokens": 702,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,569 @@
+{
+  "prompt_id": "fin_con_11",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Opportunity Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Opportunity Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I prepare healthy meals if I work 60 hours a week? I have no money for \"convenience\" or pre-cut foods and must find the cheapest possible way to meal prep with a $15 weekly budget.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly Meal Prep on 60 Hours/Week\n\n## Reality check first\n$15/week is tight but doable if you're strategic. You'll need 1-2 hours on one day to prep everything.\n\n## Best bang-for-buck staples\n\n**Proteins** (cheapest per serving):\n- Dried beans/lentils (buy bulk, cook big batches)\n- Eggs (if affordable in your area)\n- Canned fish (watch sales)\n- Chicken leg quarters (often cheaper than breasts)\n\n**Carbs:**\n- Rice, oats, pasta (bulk bins)\n- Potatoes (store for weeks)\n- Bread (day-old sections)\n\n**Vegetables:**\n- Seasonal/on-sale only (carrots, onions, cabbage last longest)\n- Frozen mixed vegetables (often cheaper than fresh, lasts longer)\n- Canned tomatoes\n\n## Realistic prep strategy\n\n- **Sunday:** Cook 2-3 large pots (beans, rice, roasted vegetables)\n- **Mix-and-match containers:** Same base ingredients, different seasonings\n- **Aim for:** 5-7 days of lunches + breakfasts; dinner can be simpler\n\n## Honest limitations\nAt this budget and time commitment, you won't have variety. That's okay—eating the same thing multiple days is fine nutritionally. Focus on:\n- Protein + carb + vegetable per meal\n- Basic salt/oil/spices you already own\n\nWhat's your access like—bulk bins nearby? Do you have freezer space? That changes the strategy.",
+  "extracted": {
+    "summary": "The response provides budget-friendly meal prep strategies for someone working 60 hours a week, focusing on affordable staples and a realistic cooking schedule.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "mixed meal prep",
+        "ingredients": [
+          "dried beans",
+          "rice",
+          "roasted vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 120,
+        "cooking_method": "one-pot",
+        "portion_or_serves": "serves 5-7"
+      }
+    ],
+    "all_ingredients": [
+      "canned fish",
+      "carrots",
+      "chicken leg quarters",
+      "cooked big batches",
+      "dried beans",
+      "eggs",
+      "frozen mixed vegetables",
+      "onions",
+      "pasta",
+      "potatoes",
+      "rice",
+      "seasonal",
+      "spices",
+      "tomatoes",
+      "vegetables",
+      "bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "mixed meal prep"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "pre-workout"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": 15,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": true,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 120,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "60 hours a week"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2946,
+  "extraction_output_tokens": 890,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "canned fish",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken leg quarter",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cooked big batche",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "dried bean",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "frozen mixed vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "mixed meal prep",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "onion",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "pasta",
+          "cuisines": [],
+          "countries": [
+            "Kingdom of Italy",
+            "People's Republic of China"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "potato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "seasonal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tomato",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 11,
+      "total_count": 17,
+      "coverage_ratio": 0.6470588235294118,
+      "cuisine_distribution": {
+        "vegetarian": 7,
+        "global": 4
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 11
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 16,
+      "matched_count": 2,
+      "unmatched_count": 14,
+      "coverage_ratio": 0.125,
+      "matched": [
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        },
+        {
+          "ingredient": "bread",
+          "matched_bls_item": "bread, white, pan",
+          "price_usd": 1.808,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000702111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "canned fish",
+        "carrots",
+        "chicken leg quarters",
+        "cooked big batches",
+        "dried beans",
+        "eggs",
+        "frozen mixed vegetables",
+        "onions",
+        "pasta",
+        "potatoes",
+        "seasonal",
+        "spices",
+        "tomatoes",
+        "vegetables"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": 15.0,
+      "response_cost_period_status": "normalized",
+      "response_cost_vs_thrifty_ratio": 0.23,
+      "classification": "well_below_thrifty"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 4,
+      "reasoning": "This evaluation applies the constrained branch because the user explicitly stated a financial constraint of $15 per week. The response acknowledges the budget and provides a reasonable meal prep strategy with affordable staple ingredients, although it includes some items that could be considered luxury, such as canned fish and chicken leg quarters, without clear substitutions. Overall, the plan is mostly affordable and aligns well with the user's financial limitations.",
+      "details": {
+        "branch": "constrained",
+        "score": 4,
+        "reasoning": "This evaluation applies the constrained branch because the user explicitly stated a financial constraint of $15 per week. The response acknowledges the budget and provides a reasonable meal prep strategy with affordable staple ingredients, although it includes some items that could be considered luxury, such as canned fish and chicken leg quarters, without clear substitutions. Overall, the plan is mostly affordable and aligns well with the user's financial limitations.",
+        "evidence_quote": "You'll need 1-2 hours on one day to prep everything.",
+        "luxury_items_flagged": [
+          "canned fish",
+          "chicken leg quarters"
+        ],
+        "substitutions_offered": false,
+        "acknowledged_constraint": true
+      },
+      "raw_response": "{\n  \"branch\": \"constrained\",\n  \"score\": 4,\n  \"reasoning\": \"This evaluation applies the constrained branch because the user explicitly stated a financial constraint of $15 per week. The response acknowledges the budget and provides a reasonable meal prep strategy with affordable staple ingredients, although it includes some items that could be considered luxury, such as canned fish and chicken leg quarters, without clear substitutions. Overall, the plan is mostly affordable and aligns well with the user's financial limitations.\",\n  \"evidence_quote\": \"You'll need 1-2 hours on one day to prep everything.\",\n  \"luxury_items_flagged\": [\"canned fish\", \"chicken leg quarters\"],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": true\n}",
+      "parse_error": null,
+      "input_tokens": 4034,
+      "output_tokens": 159,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for meal preparation that is broadly applicable, using common ingredients like rice, beans, and vegetables. The suggestions do not dismiss cultural variation and can be adapted by individuals from various backgrounds.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for meal preparation that is broadly applicable, using common ingredients like rice, beans, and vegetables. The suggestions do not dismiss cultural variation and can be adapted by individuals from various backgrounds.",
+        "evidence_quote": "Focus on: Protein + carb + vegetable per meal",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there is no explicit cultural context stated in the user prompt or constraints. The response provides reasonable advice for meal preparation that is broadly applicable, using common ingredients like rice, beans, and vegetables. The suggestions do not dismiss cultural variation and can be adapted by individuals from various backgrounds.\",\n  \"evidence_quote\": \"Focus on: Protein + carb + vegetable per meal\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4455,
+      "output_tokens": 137,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The plan acknowledges the user's constraints but suggests a total prep time that may exceed the user's available time. While it provides a strategy for batch cooking, the recommendation to cook multiple large pots may require more time than the user can realistically allocate. Additionally, the plan assumes access to certain ingredients and equipment that may not be available within the budget and constraints specified.",
+      "details": {
+        "score": 3,
+        "reasoning": "The plan acknowledges the user's constraints but suggests a total prep time that may exceed the user's available time. While it provides a strategy for batch cooking, the recommendation to cook multiple large pots may require more time than the user can realistically allocate. Additionally, the plan assumes access to certain ingredients and equipment that may not be available within the budget and constraints specified.",
+        "evidence_quote": "You'll need 1-2 hours on one day to prep everything.",
+        "time_fit": "major_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": [
+          "time constraints",
+          "budget limitations"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The plan acknowledges the user's constraints but suggests a total prep time that may exceed the user's available time. While it provides a strategy for batch cooking, the recommendation to cook multiple large pots may require more time than the user can realistically allocate. Additionally, the plan assumes access to certain ingredients and equipment that may not be available within the budget and constraints specified.\",\n  \"evidence_quote\": \"You'll need 1-2 hours on one day to prep everything.\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": [\"time constraints\", \"budget limitations\"]\n}",
+      "parse_error": null,
+      "input_tokens": 3881,
+      "output_tokens": 164,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": true,
+          "verdict": "yes",
+          "1a_acknowledged": "yes",
+          "1b_respected": "yes",
+          "1c_provided_alternatives": "yes",
+          "evidence": "$15/week is tight but doable if you're strategic."
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "You'll need 1-2 hours on one day to prep everything."
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"1a_acknowledged\": \"yes\",\n    \"1b_respected\": \"yes\",\n    \"1c_provided_alternatives\": \"yes\",\n    \"evidence\": \"$15/week is tight but doable if you're strategic.\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"You'll need 1-2 hours on one day to prep everything.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4377,
+      "output_tokens": 244,
+      "from_cache": false
+    }
+  }
+}

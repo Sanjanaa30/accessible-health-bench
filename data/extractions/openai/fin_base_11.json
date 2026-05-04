@@ -1,0 +1,121 @@
+{
+  "prompt_id": "fin_base_11",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "How can I prepare healthy meals if I work 60 hours a week?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Preparing healthy meals while working long hours can be challenging, but with some planning and organization, it is definitely achievable. Here are some strategies to help you prepare healthy meals efficiently:\n\n### 1. **Meal Planning**\n   - **Plan Ahead**: Dedicate some time each week to plan your meals. Choose recipes that are quick to prepare or can be made in bulk.\n   - **Create a Menu**: Write down a menu for the week that includes breakfast, lunch, dinner, and snacks.\n\n### 2. **Batch Cooking**\n   - **Cook in Bulk**: Prepare large quantities of meals on your days off. Soups, stews, casseroles, and grain bowls are great options.\n   - **Portion Control**: Divide cooked meals into individual portions and store them in containers for easy grab-and-go options.\n\n### 3. **Quick and Easy Recipes**\n   - **Focus on Simplicity**: Look for recipes with minimal ingredients and quick cooking times. Stir-fries, salads, and sheet pan meals can be prepared in under 30 minutes.\n   - **Use a Slow Cooker or Instant Pot**: These appliances can save time and allow you to prepare meals with little hands-on time.\n\n### 4. **Healthy Snacks**\n   - **Prepare Quick Snacks**: Have healthy snacks ready, such as cut vegetables, hummus, nuts, and yogurt, to avoid reaching for unhealthy options.\n   - **Batch Snack Preparation**: Prepare snack bags or containers on your days off.\n\n### 5. **Use Freezer-Friendly Meals**\n   - **Freeze Portions**: Many cooked meals freeze well. Label and date containers to keep track of what you have.\n   - **Prep Freezer Meals**: Spend some time making meals specifically for the freezer that can be cooked straight from frozen.\n\n### 6. **Smart Grocery Shopping**\n   - **Make a Shopping List**: Stick to your meal plan and make a list to avoid impulse buys.\n   - **Choose Convenience Wisely**: Consider pre-cut vegetables, pre-marinated proteins, or frozen fruits and vegetables to save time.\n\n### 7. **Healthy Convenience Items**\n   - **Stock Up on Staples**: Keep items like whole grains (brown rice, quinoa), canned beans, frozen veggies, and lean proteins on hand for quick meals.\n   - **Healthy Ready-Made Options**: If time is very tight, consider healthy pre-packaged meals or meal kits from the grocery store.\n\n### 8. **Incorporate Leftovers**\n   - **Make Extra**: When cooking, always make a little more to have leftovers for lunch or dinner the next day.\n   - **Creative Leftover Use**: Use leftovers in new ways, such as transforming roasted veggies into a salad or grains into a grain bowl.\n\n### 9. **Stay Hydrated**\n   - **Drink Water**: Staying hydrated can help with energy levels and reduce the temptation to snack unnecessarily.\n\n### 10. **Mindful Eating**\n   - **Take Time to Eat**: Even with a busy schedule, try to set aside time to enjoy your meals, which can help prevent overeating and improve digestion.\n\nBy implementing these strategies, you can maintain a healthy diet even with a demanding work schedule. Prioritizing meal prep and planning will help you stay on track while saving time and energy during your busy week.",
+  "extracted": {
+    "summary": "The response provides strategies for preparing healthy meals efficiently while working long hours, including meal planning, batch cooking, and quick recipes.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "beans",
+      "brown rice",
+      "canned beans",
+      "cut vegetables",
+      "frozen fruits",
+      "frozen vegetables",
+      "grain bowls",
+      "hummus",
+      "lean proteins",
+      "nuts",
+      "quinoa",
+      "salads",
+      "soups",
+      "stews",
+      "vegetables",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "casseroles",
+      "grain bowls",
+      "salads",
+      "soups",
+      "stews",
+      "stir-fries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": null,
+      "requires_oven": null,
+      "requires_microwave_only": null,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "manual_labor"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3247,
+  "extraction_output_tokens": 820,
+  "extraction_from_cache": false
+}

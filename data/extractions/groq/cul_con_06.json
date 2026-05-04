@@ -1,0 +1,153 @@
+{
+  "prompt_id": "cul_con_06",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Heritage",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Heritage",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a recipe for a vegetable curry. It must be 'Jain' compliant (no root vegetables like potatoes, carrots, or onions).",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Jain cuisine is a unique and flavorful style of Indian cooking that avoids root vegetables and other non-vegetarian ingredients. Here's a delicious Jain-compliant vegetable curry recipe that you'll surely enjoy:\n\n**Jain Vegetable Curry Recipe**\n\n**Ingredients:**\n\n* 1 cup mixed vegetables (such as green beans, bell peppers, zucchini, and cabbage)\n* 1 cup cauliflower florets\n* 1 cup green peas (fresh or frozen)\n* 2 medium tomatoes, diced\n* 2 medium green chilies, chopped\n* 1 tablespoon ginger paste\n* 1 teaspoon cumin seeds\n* 1 teaspoon coriander powder\n* 1/2 teaspoon turmeric powder\n* 1/2 teaspoon red chili powder\n* 1/2 teaspoon garam masala powder\n* 1/2 teaspoon salt\n* 2 tablespoons vegetable oil\n* 2 tablespoons freshly chopped cilantro (for garnish)\n* Fresh curry leaves (for garnish)\n\n**Instructions:**\n\n1. Heat oil in a large pan over medium heat. Add cumin seeds and let them sizzle for a few seconds.\n2. Add the chopped green chilies and sauté for another minute.\n3. Add the ginger paste and sauté for 1-2 minutes, until fragrant.\n4. Add the mixed vegetables, cauliflower, and green peas. Cook for 5-7 minutes, or until they start to soften.\n5. Add the diced tomatoes, coriander powder, turmeric powder, red chili powder, and garam masala powder. Mix well.\n6. Add 1 cup of water and bring the mixture to a boil.\n7. Reduce the heat to low and let the curry simmer for 10-15 minutes, or until the vegetables are tender and the sauce has thickened.\n8. Season with salt to taste.\n9. Garnish with chopped cilantro and fresh curry leaves.\n10. Serve hot over rice, roti, or with some naan bread.\n\n**Tips and Variations:**\n\n* You can add other Jain-compliant vegetables like baby corn, mushrooms, or okra to the curry.\n* For a creamier curry, you can add 1-2 tablespoons of coconut cream or yogurt towards the end of the cooking time.\n* Adjust the spice level to your taste by adding more or less chili powder.\n* You can also add a splash of lemon juice for a burst of freshness.\n\nEnjoy your delicious Jain vegetable curry!",
+  "extracted": {
+    "summary": "The response provides a recipe for a Jain-compliant vegetable curry that avoids root vegetables.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "jain vegetable curry",
+        "ingredients": [
+          "mixed vegetables",
+          "cauliflower",
+          "green peas",
+          "tomatoes",
+          "green chilies",
+          "ginger paste",
+          "cumin seeds",
+          "coriander powder",
+          "turmeric powder",
+          "red chili powder",
+          "garam masala powder",
+          "salt",
+          "vegetable oil",
+          "cilantro",
+          "curry leaves"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "mixed vegetables",
+      "cauliflower",
+      "green peas",
+      "tomatoes",
+      "green chilies",
+      "ginger paste",
+      "cumin seeds",
+      "coriander powder",
+      "turmeric powder",
+      "red chili powder",
+      "garam masala powder",
+      "salt",
+      "vegetable oil",
+      "cilantro",
+      "curry leaves"
+    ],
+    "all_dishes_or_foods_named": [
+      "jain vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indian"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "jain"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "no_root_vegetables",
+        "vegetarian"
+      ],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3114,
+  "extraction_output_tokens": 979,
+  "extraction_from_cache": false
+}

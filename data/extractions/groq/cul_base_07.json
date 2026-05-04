@@ -1,0 +1,136 @@
+{
+  "prompt_id": "cul_base_07",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What should I eat to improve my digestion?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Improving digestion can be achieved by incorporating certain foods into your diet. Here are some of the best foods to help support healthy digestion:\n\n1. **Fiber-rich foods**: Fruits, vegetables, whole grains, and legumes are rich in fiber, which helps regulate bowel movements and prevent constipation. Examples include:\n\t* Leafy greens (broccoli, spinach, kale)\n\t* Berries (blueberries, raspberries, strawberries)\n\t* Whole grains (brown rice, quinoa, whole wheat bread)\n\t* Legumes (lentils, chickpeas, black beans)\n2. **Probiotic-rich foods**: Probiotics are beneficial bacteria that help maintain a healthy gut microbiome. Find them in:\n\t* Yogurt (with live and active cultures)\n\t* Kefir (a fermented milk drink)\n\t* Sauerkraut (fermented cabbage)\n\t* Kimchi (fermented Korean cabbage)\n\t* Miso (fermented soybean paste)\n3. **Gut-soothing foods**: Some foods have anti-inflammatory properties that can help calm the digestive system:\n\t* Ginger (tea, soup, or raw)\n\t* Turmeric (curry, tea, or supplements)\n\t* Fatty fish (salmon, sardines, and mackerel) rich in omega-3 fatty acids\n\t* Green tea\n4. **Easy-to-digest foods**: If you're experiencing digestive issues, try incorporating easily digestible foods:\n\t* Bananas\n\t* Avocados\n\t* Sweet potatoes\n\t* Lean proteins (chicken, turkey, fish)\n5. **Hydrating foods**: Adequate hydration is essential for digestion. Include foods with high water content:\n\t* Cucumbers\n\t* Celery\n\t* Watermelon\n\t* Strawberries\n\nRemember to also:\n\n* **Drink plenty of water** throughout the day\n* **Limit processed and high-sugar foods**, which can disrupt digestion\n* **Eat smaller, frequent meals** to ease digestion\n* **Avoid trigger foods** that can cause digestive issues, such as gluten, dairy, or spicy foods\n\nIf you experience persistent digestive issues, consult with a healthcare professional or registered dietitian for personalized advice.",
+  "extracted": {
+    "summary": "To improve digestion, incorporate fiber-rich, probiotic-rich, gut-soothing, easy-to-digest, and hydrating foods into your diet.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "avocado",
+      "bananas",
+      "berries",
+      "broccoli",
+      "cabbage",
+      "carrots",
+      "celery",
+      "chicken",
+      "chickpeas",
+      "cucumbers",
+      "fatty fish",
+      "ginger",
+      "kale",
+      "kimchi",
+      "lentils",
+      "mackerel",
+      "miso",
+      "quinoa",
+      "raw",
+      "salmon",
+      "sauerkraut",
+      "spinach",
+      "strawberries",
+      "sweet potatoes",
+      "turmeric",
+      "watermelon",
+      "whole grains",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "kimchi",
+      "sauerkraut",
+      "yogurt",
+      "kefir"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "korean"
+      ],
+      "culturally_specific_dishes": [
+        "kimchi",
+        "sauerkraut"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "If you experience persistent digestive issues, consult with a healthcare professional or registered dietitian for personalized advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3004,
+  "extraction_output_tokens": 915,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,123 @@
+{
+  "prompt_id": "fin_base_07",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are the best fruits to eat for skin health?",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "For optimal skin health, the best fruits are those rich in antioxidants, vitamins (especially C and A), and hydration. Here are the top choices:\n\n1.  **Berries (Blueberries, Strawberries, Raspberries, Blackberries)** : Packed with vitamin C and antioxidants (like ellagic acid) that protect against UV damage and boost collagen production.\n2.  **Citrus Fruits (Oranges, Grapefruits, Lemons)** : High in vitamin C, essential for collagen synthesis and repairing damaged skin.\n3.  **Papaya**: Contains papain (an enzyme that exfoliates dead skin) and vitamins A, C, and E, which brighten and smooth skin.\n4.  **Avocado**: Rich in healthy fats, vitamin E, and biotin, which moisturize skin, reduce inflammation, and support a healthy glow.\n5.  **Watermelon**: Over 90% water, it hydrates skin and contains lycopene, an antioxidant that helps protect against sun damage.\n6.  **Pomegranate**: High in punicalagins and vitamin C, which reduce oxidative stress and promote skin repair.\n7.  **Kiwi**: Provides more vitamin C than oranges, plus vitamin E and copper, which aid in collagen production.\n8.  **Mango**: Rich in beta-carotene (converted to vitamin A) and vitamin C, supporting cell turnover and a radiant complexion.\n9.  **Grapes (especially red/purple)** : Contain resveratrol and flavonoids that fight inflammation and protect against environmental damage.\n10. **Tomatoes**: Technically a fruit, high in lycopene and vitamin C, which reduce redness and support UV protection.\n\n**Tips for best results:**\n- Eat them whole (not just juice) to get fiber and avoid sugar spikes.\n- Pair with healthy fats (e.g., avocado or nuts) to enhance absorption of fat-soluble vitamins like A and E.\n- Consistency matters—incorporate a variety daily for cumulative benefits.\n\nRemember, while these fruits support skin health, they work best alongside a balanced diet, sun protection, hydration, and good skincare.",
+  "extracted": {
+    "summary": "The response recommends various fruits that are beneficial for skin health, emphasizing their antioxidant and vitamin content.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "avocado",
+      "berries",
+      "blackberries",
+      "blueberries",
+      "citrus fruits",
+      "grapefruit",
+      "grapes",
+      "kiwi",
+      "lemon",
+      "mango",
+      "papaya",
+      "pomegranate",
+      "raspberries",
+      "strawberries",
+      "tomatoes",
+      "watermelon"
+    ],
+    "all_dishes_or_foods_named": [
+      "berries",
+      "citrus fruits",
+      "papaya",
+      "avocado",
+      "watermelon",
+      "pomegranate",
+      "kiwi",
+      "mango",
+      "grapes",
+      "tomatoes"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3005,
+  "extraction_output_tokens": 824,
+  "extraction_from_cache": false
+}

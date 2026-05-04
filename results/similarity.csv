@@ -1,0 +1,241 @@
+provider,pair_key,category,category_type,baseline_id,constrained_id,cosine_full,cosine_ingredients,cosine_structural,jaccard_ingredients,baseline_ing_count,constrained_ing_count,baseline_chars,constrained_chars,embedding_model
+openai,cul_01,cultural,South Indian Cuisine,cul_base_01,cul_con_01,0.3773,0.2505,0.0444,0.9655,13,17,2328,2682,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_02,cultural,West African Cuisine,cul_base_02,cul_con_02,0.1541,0.0967,0.013,0.8481,48,43,2271,2671,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_03,cultural,Cultural/Cuisine,cul_base_03,cul_con_03,0.2716,0.2644,0.2965,1.0,9,8,2060,2791,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_04,cultural,Cultural/Tradition,cul_base_04,cul_con_04,0.38,0.2185,0.0143,0.9778,21,25,2414,2048,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_05,cultural,Medicinal,cul_base_05,cul_con_05,0.294,0.2434,0.026,0.8571,17,15,1591,2564,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_06,cultural,Heritage,cul_base_06,cul_con_06,0.1362,0.0591,0.0314,0.6897,21,17,2531,2249,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_07,cultural,Tradition,cul_base_07,cul_con_07,0.2429,0.1501,0.0,0.8421,28,16,2510,3017,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_08,cultural,Religious,cul_base_08,cul_con_08,0.2217,0.1748,0.0,0.7059,8,14,2708,3338,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_09,cultural,Medicinal Fit,cul_base_09,cul_con_09,0.2141,1.0,0.0855,0.0,0,0,2543,3942,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_10,cultural,Social Nutrition,cul_base_10,cul_con_10,0.3632,0.7975,0.253,1.0,1,12,1765,3139,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_11,cultural,Middle Eastern Cuisine,cul_base_11,cul_con_11,0.0872,0.6425,0.0,0.75,1,4,2262,2739,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_12,cultural,Gender Norms,cul_base_12,cul_con_12,0.124,1.0,0.0212,0.0,0,0,2774,3237,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_13,cultural,Urban Environment,cul_base_13,cul_con_13,0.4869,1.0,0.0283,0.0,0,0,1265,2578,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_14,cultural,Tradition,cul_base_14,cul_con_14,0.2731,0.1109,0.1943,0.881,24,23,1951,2945,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_15,cultural,Community Labor,cul_base_15,cul_con_15,0.1834,1.0,0.063,0.0,0,0,2153,3128,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_16,cultural,Religious Fasting,cul_base_16,cul_con_16,0.337,0.2042,0.0,0.8148,8,24,1762,2527,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_17,cultural,Cuisine,cul_base_17,cul_con_17,0.1606,0.1981,0.0512,0.875,7,11,939,1707,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_18,cultural,Heritage,cul_base_18,cul_con_18,0.4465,1.0,0.0889,0.0,0,0,3521,2690,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_19,cultural,Religious,cul_base_19,cul_con_19,0.4229,1.0,0.0,0.0,0,0,1704,3429,sentence-transformers/all-MiniLM-L6-v2
+openai,cul_20,cultural,Tradition,cul_base_20,cul_con_20,0.2234,0.3131,0.0085,0.92,12,15,2964,3068,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_01,financial,Budget,fin_base_01,fin_con_01,0.5406,0.278,0.0,1.0,6,8,1055,936,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_02,financial,Access,fin_base_02,fin_con_02,0.0853,0.0597,0.0392,0.6538,17,18,1601,1795,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_03,financial,Budget,fin_base_03,fin_con_03,0.2602,0.1977,0.2168,0.9167,16,10,2074,1452,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_04,financial,Budget,fin_base_04,fin_con_04,0.1917,0.1546,0.0999,0.7903,57,18,2156,1615,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_05,financial,Budget,fin_base_05,fin_con_05,0.3373,0.149,0.0,0.6667,12,8,2216,1968,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_06,financial,Budget,fin_base_06,fin_con_06,0.2792,0.1361,0.0633,0.8214,21,12,1580,1592,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_07,financial,Lowest Cost,fin_base_07,fin_con_07,0.1758,0.0529,0.0,0.5556,13,13,1857,1971,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_08,financial,Fixed Income,fin_base_08,fin_con_08,0.1862,0.1132,0.0414,0.6842,23,27,2076,2870,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_09,financial,Energy Cost,fin_base_09,fin_con_09,0.0767,0.1853,0.0283,0.661,37,42,2560,2976,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_10,financial,Govt Policy,fin_base_10,fin_con_10,0.2978,0.1433,0.0,0.8571,29,11,2064,1626,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_11,financial,Opportunity Cost,fin_base_11,fin_con_11,0.151,0.1388,0.1574,0.8571,16,16,3073,3172,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_12,financial,Medical Expense,fin_base_12,fin_con_12,0.1077,0.1183,0.0098,0.697,46,40,2774,3230,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_13,financial,Cross-Category,fin_base_13,fin_con_13,0.1376,0.1504,0.0302,0.9032,24,10,3072,2937,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_14,financial,Cross-Category,fin_base_14,fin_con_14,0.2311,1.0,0.0115,0.0,0,0,3069,3978,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_15,financial,Cross-Category,fin_base_15,fin_con_15,0.1202,0.1898,0.2642,0.8444,21,31,2857,2410,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_16,financial,Food Scarsity,fin_base_16,fin_con_16,0.1229,0.0988,0.0414,0.5862,25,16,1954,2786,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_17,financial,Shared Resources,fin_base_17,fin_con_17,0.1842,0.2113,0.0786,0.8182,14,12,2227,2053,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_18,financial,Seasonal/Inflation,fin_base_18,fin_con_18,0.32,0.4521,0.0559,1.0,8,2,569,958,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_19,financial,Weight Loss,fin_base_19,fin_con_19,0.1688,0.1932,0.0357,0.9688,49,17,3877,2791,sentence-transformers/all-MiniLM-L6-v2
+openai,fin_20,financial,Bulk/Cheap prices,fin_base_20,fin_con_20,0.1547,0.116,0.3298,0.7037,21,14,2044,2781,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_01,lifestyle,Time,lif_base_01,lif_con_01,0.0907,0.1344,0.0595,0.7766,68,47,3142,3066,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_02,lifestyle,Time,lif_base_02,lif_con_02,0.1304,1.0,0.0874,0.0,0,0,3362,2621,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_03,lifestyle,Schedule,lif_base_03,lif_con_03,0.1998,0.1307,0.0784,0.7344,55,26,3455,2788,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_04,lifestyle,Equipment,lif_base_04,lif_con_04,0.1088,1.0,0.0154,0.0,0,0,2888,2704,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_05,lifestyle,Time,lif_base_05,lif_con_05,0.1217,0.0581,0.0,0.6667,21,19,2427,2784,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_06,lifestyle,Preference,lif_base_06,lif_con_06,0.11,0.0948,0.0045,0.8824,34,23,3647,3624,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_07,lifestyle,Equipment,lif_base_07,lif_con_07,0.1673,1.0,0.0724,1.0,32,0,3783,3028,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_08,lifestyle,Schedule,lif_base_08,lif_con_08,0.0783,0.0651,0.0035,0.6667,57,47,4227,4146,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_09,lifestyle,Work,lif_base_09,lif_con_09,0.2182,1.0,0.0563,0.0,0,0,2515,2880,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_10,lifestyle,Health,lif_base_10,lif_con_10,0.2619,0.1062,0.0622,0.6667,53,35,4675,3467,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_11,lifestyle,Schedule,lif_base_11,lif_con_11,0.1837,0.1264,0.0146,0.7895,13,10,3101,3697,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_12,lifestyle,Work,lif_base_12,lif_con_12,0.2042,0.2562,0.1803,1.0,24,6,4232,4053,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_13,lifestyle,Schedule,lif_base_13,lif_con_13,0.1264,0.1369,0.0222,0.5,11,7,2996,3307,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_14,lifestyle,Equipment,lif_base_14,lif_con_14,0.1221,0.1077,0.0439,0.7941,47,35,3986,3468,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_15,lifestyle,Access,lif_base_15,lif_con_15,0.1453,0.1516,0.0,0.6667,15,17,2309,2617,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_16,lifestyle,Time,lif_base_16,lif_con_16,0.1417,0.0656,0.064,0.625,24,31,3170,3631,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_17,lifestyle,Behavioral,lif_base_17,lif_con_17,0.2264,1.0,0.1075,1.0,8,0,3231,3200,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_18,lifestyle,Schedule,lif_base_18,lif_con_18,0.1413,0.1108,0.0076,0.6667,15,17,3356,3878,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_19,lifestyle,Equipment,lif_base_19,lif_con_19,0.175,0.0829,0.087,0.82,24,35,2031,3222,sentence-transformers/all-MiniLM-L6-v2
+openai,lif_20,lifestyle,Health,lif_base_20,lif_con_20,0.1276,0.1018,0.0134,0.8286,23,18,3224,3864,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_01,cultural,South Indian Cuisine,cul_base_01,cul_con_01,0.342,0.3367,0.0419,1.0,11,14,964,1133,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_02,cultural,West African Cuisine,cul_base_02,cul_con_02,0.2964,0.1831,0.0056,0.8929,37,25,1176,1661,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_03,cultural,Cultural/Cuisine,cul_base_03,cul_con_03,0.3247,0.3198,0.2389,1.0,4,9,935,1122,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_04,cultural,Cultural/Tradition,cul_base_04,cul_con_04,0.3544,0.1721,0.0241,0.9286,14,16,838,1268,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_05,cultural,Medicinal,cul_base_05,cul_con_05,0.5617,0.2304,0.0,0.8929,20,11,1027,1169,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_06,cultural,Heritage,cul_base_06,cul_con_06,0.1624,0.1931,0.0,0.8333,12,16,1071,1184,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_07,cultural,Tradition,cul_base_07,cul_con_07,0.441,0.1673,0.0414,0.9024,28,17,923,1166,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_08,cultural,Religious,cul_base_08,cul_con_08,0.3196,0.138,0.0,0.7778,8,14,1132,1498,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_09,cultural,Medicinal Fit,cul_base_09,cul_con_09,0.3568,1.0,0.1696,0.0,0,0,1183,2997,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_10,cultural,Social Nutrition,cul_base_10,cul_con_10,0.3597,1.0,0.2219,0.0,0,0,1102,1732,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_11,cultural,Middle Eastern Cuisine,cul_base_11,cul_con_11,0.3423,1.0,0.2576,1.0,0,3,1224,1457,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_12,cultural,Gender Norms,cul_base_12,cul_con_12,0.2253,1.0,0.0267,0.0,0,0,1079,1208,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_13,cultural,Urban Environment,cul_base_13,cul_con_13,0.5023,1.0,0.1048,0.0,0,0,731,1316,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_14,cultural,Tradition,cul_base_14,cul_con_14,0.2239,0.1658,0.274,0.6667,9,3,1226,1339,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_15,cultural,Community Labor,cul_base_15,cul_con_15,0.4274,1.0,0.0712,0.0,0,0,947,1432,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_16,cultural,Religious Fasting,cul_base_16,cul_con_16,0.3193,0.4374,0.0,1.0,5,19,1138,1140,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_17,cultural,Cuisine,cul_base_17,cul_con_17,0.2556,0.1905,0.2965,0.8929,21,10,868,974,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_18,cultural,Heritage,cul_base_18,cul_con_18,0.5111,1.0,0.0357,0.0,0,0,1053,1242,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_19,cultural,Religious,cul_base_19,cul_con_19,0.5706,1.0,0.0,0.0,0,0,1106,1551,sentence-transformers/all-MiniLM-L6-v2
+anthropic,cul_20,cultural,Tradition,cul_base_20,cul_con_20,0.4789,0.3722,0.0353,1.0,5,18,1190,2552,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_01,financial,Budget,fin_base_01,fin_con_01,0.1896,0.2059,0.0409,0.8,18,6,902,733,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_02,financial,Access,fin_base_02,fin_con_02,0.1802,0.035,0.0,0.6,17,18,766,990,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_03,financial,Budget,fin_base_03,fin_con_03,0.4016,0.1858,0.2168,0.8684,23,20,1021,1106,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_04,financial,Budget,fin_base_04,fin_con_04,0.2318,0.0958,0.0,0.7143,33,21,829,831,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_05,financial,Budget,fin_base_05,fin_con_05,0.373,0.1826,0.0,0.8,11,7,1131,1033,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_06,financial,Budget,fin_base_06,fin_con_06,0.2097,0.0908,0.0605,0.76,21,10,904,899,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_07,financial,Lowest Cost,fin_base_07,fin_con_07,0.4232,0.1234,0.0,0.6,12,9,1094,1042,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_08,financial,Fixed Income,fin_base_08,fin_con_08,0.2348,0.2761,0.1814,0.8846,22,7,934,1178,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_09,financial,Energy Cost,fin_base_09,fin_con_09,0.2281,0.1348,0.027,0.9194,37,30,1222,2091,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_10,financial,Govt Policy,fin_base_10,fin_con_10,0.3793,0.1047,0.0,0.7647,28,14,952,839,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_11,financial,Opportunity Cost,fin_base_11,fin_con_11,0.2213,0.1405,0.3963,0.8889,14,16,1234,1256,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_12,financial,Medical Expense,fin_base_12,fin_con_12,0.1529,0.1274,0.0438,0.8333,27,15,1233,1208,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_13,financial,Cross-Category,fin_base_13,fin_con_13,0.3109,0.2133,0.0363,0.92,17,10,1364,1146,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_14,financial,Cross-Category,fin_base_14,fin_con_14,0.3068,1.0,0.0193,0.0,0,0,2686,1252,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_15,financial,Cross-Category,fin_base_15,fin_con_15,0.4118,0.2341,0.2642,0.9615,18,9,1107,1161,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_16,financial,Food Scarsity,fin_base_16,fin_con_16,0.2468,0.0842,0.0,0.6957,16,14,977,1269,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_17,financial,Shared Resources,fin_base_17,fin_con_17,0.235,0.17,0.0772,0.8421,10,12,868,991,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_18,financial,Seasonal/Inflation,fin_base_18,fin_con_18,0.2632,0.3163,0.045,0.9167,9,4,597,945,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_19,financial,Weight Loss,fin_base_19,fin_con_19,0.2598,0.179,0.0615,0.9483,44,17,2160,1316,sentence-transformers/all-MiniLM-L6-v2
+anthropic,fin_20,financial,Bulk/Cheap prices,fin_base_20,fin_con_20,0.293,0.2166,0.0414,0.931,20,11,1024,1063,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_01,lifestyle,Time,lif_base_01,lif_con_01,0.1563,0.0939,0.0521,0.807,38,30,1788,2115,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_02,lifestyle,Time,lif_base_02,lif_con_02,0.3659,1.0,0.0143,0.0,0,0,989,1148,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_03,lifestyle,Schedule,lif_base_03,lif_con_03,0.2297,0.0682,0.0145,0.75,14,16,1452,3361,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_04,lifestyle,Equipment,lif_base_04,lif_con_04,0.2341,1.0,0.0288,0.0,0,0,1021,1078,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_05,lifestyle,Time,lif_base_05,lif_con_05,0.3772,0.1761,0.0,0.871,26,9,1041,1092,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_06,lifestyle,Preference,lif_base_06,lif_con_06,0.2238,0.1257,0.003,0.9388,27,25,1256,1290,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_07,lifestyle,Equipment,lif_base_07,lif_con_07,0.2266,1.0,0.0615,1.0,6,0,1135,1149,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_08,lifestyle,Schedule,lif_base_08,lif_con_08,0.2914,0.1949,0.0539,0.913,13,12,1290,1367,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_09,lifestyle,Work,lif_base_09,lif_con_09,0.3269,1.0,0.0831,0.0,0,0,1187,1464,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_10,lifestyle,Health,lif_base_10,lif_con_10,0.2298,0.0986,0.0426,0.75,23,22,2178,1932,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_11,lifestyle,Schedule,lif_base_11,lif_con_11,0.4606,1.0,0.06,1.0,4,0,1169,1358,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_12,lifestyle,Work,lif_base_12,lif_con_12,0.2428,0.33,0.129,0.9167,10,3,3063,1996,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_13,lifestyle,Schedule,lif_base_13,lif_con_13,0.3577,0.4928,0.0173,0.8333,6,1,1088,1239,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_14,lifestyle,Equipment,lif_base_14,lif_con_14,0.1362,0.114,0.0274,0.806,44,36,2366,3542,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_15,lifestyle,Access,lif_base_15,lif_con_15,0.1805,0.196,0.0,0.7222,9,14,1314,1471,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_16,lifestyle,Time,lif_base_16,lif_con_16,0.2097,0.2564,0.0585,1.0,17,14,2947,3409,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_17,lifestyle,Behavioral,lif_base_17,lif_con_17,0.3858,1.0,0.2624,1.0,8,0,1166,1479,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_18,lifestyle,Schedule,lif_base_18,lif_con_18,0.205,0.3695,0.0542,0.8636,5,20,1121,4018,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_19,lifestyle,Equipment,lif_base_19,lif_con_19,0.3286,0.1455,0.0751,0.9574,30,19,1068,1275,sentence-transformers/all-MiniLM-L6-v2
+anthropic,lif_20,lifestyle,Health,lif_base_20,lif_con_20,0.2653,0.18,0.0089,0.913,13,12,1618,1610,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_01,cultural,South Indian Cuisine,cul_base_01,cul_con_01,0.3644,0.2961,0.051,0.9444,14,24,2849,2427,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_02,cultural,West African Cuisine,cul_base_02,cul_con_02,0.2017,0.1894,0.0078,0.9178,53,26,4424,5751,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_03,cultural,Cultural/Cuisine,cul_base_03,cul_con_03,0.2097,0.3217,0.2965,0.963,21,7,4820,5145,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_04,cultural,Cultural/Tradition,cul_base_04,cul_con_04,0.2763,0.1995,0.0066,0.9744,19,21,2865,5256,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_05,cultural,Medicinal,cul_base_05,cul_con_05,0.243,0.3113,0.1301,0.8966,15,17,2223,5988,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_06,cultural,Heritage,cul_base_06,cul_con_06,0.1566,0.1613,0.0,0.9286,23,22,3664,4162,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_07,cultural,Tradition,cul_base_07,cul_con_07,0.212,0.2208,0.2658,1.0,34,9,1868,5810,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_08,cultural,Religious,cul_base_08,cul_con_08,0.2948,0.1888,0.0,0.7,11,15,1981,6894,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_09,cultural,Medicinal Fit,cul_base_09,cul_con_09,0.3489,1.0,0.1026,0.0,0,0,4375,5994,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_10,cultural,Social Nutrition,cul_base_10,cul_con_10,0.195,1.0,0.2078,1.0,0,6,5702,6109,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_11,cultural,Middle Eastern Cuisine,cul_base_11,cul_con_11,0.213,0.2095,0.156,0.9412,5,13,5238,4414,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_12,cultural,Gender Norms,cul_base_12,cul_con_12,0.0972,1.0,0.0085,0.0,0,0,3383,4665,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_13,cultural,Urban Environment,cul_base_13,cul_con_13,0.5544,1.0,0.3209,0.0,0,0,1126,5667,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_14,cultural,Tradition,cul_base_14,cul_con_14,0.4016,0.263,0.2309,0.9545,9,37,371,5426,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_15,cultural,Community Labor,cul_base_15,cul_con_15,0.2124,1.0,0.0611,0.0,0,0,4651,6479,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_16,cultural,Religious Fasting,cul_base_16,cul_con_16,0.2001,0.2232,0.2935,0.9107,34,27,6217,5931,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_17,cultural,Cuisine,cul_base_17,cul_con_17,0.226,0.1656,0.0,0.9474,8,12,1630,3246,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_18,cultural,Heritage,cul_base_18,cul_con_18,0.3007,1.0,0.0777,0.0,0,0,4130,4855,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_19,cultural,Religious,cul_base_19,cul_con_19,0.4859,1.0,0.0,0.0,0,0,493,5511,sentence-transformers/all-MiniLM-L6-v2
+deepseek,cul_20,cultural,Tradition,cul_base_20,cul_con_20,0.4373,0.4314,0.022,1.0,21,25,5551,4943,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_01,financial,Budget,fin_base_01,fin_con_01,0.2553,0.1746,0.0043,0.8,11,7,1366,1416,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_02,financial,Access,fin_base_02,fin_con_02,0.1095,0.0859,0.0392,0.7647,22,20,4191,4453,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_03,financial,Budget,fin_base_03,fin_con_03,0.2153,0.1431,0.2642,0.8421,22,22,3952,6016,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_04,financial,Budget,fin_base_04,fin_con_04,0.133,0.081,0.0,0.7377,45,32,5055,4523,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_05,financial,Budget,fin_base_05,fin_con_05,0.1659,0.1854,0.0,0.8261,16,11,3516,2996,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_06,financial,Budget,fin_base_06,fin_con_06,0.2501,0.2896,0.079,1.0,13,4,4959,1639,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_07,financial,Lowest Cost,fin_base_07,fin_con_07,0.2015,0.2362,0.2168,0.9,16,6,1902,3777,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_08,financial,Fixed Income,fin_base_08,fin_con_08,0.2499,0.1868,0.0524,0.8667,20,14,5217,5147,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_09,financial,Energy Cost,fin_base_09,fin_con_09,0.1212,0.0666,0.045,0.8136,37,33,4860,4807,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_10,financial,Govt Policy,fin_base_10,fin_con_10,0.2998,0.1927,0.0,0.92,41,13,5729,3699,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_11,financial,Opportunity Cost,fin_base_11,fin_con_11,0.1784,0.2403,0.0133,0.9737,27,12,5641,5438,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_12,financial,Medical Expense,fin_base_12,fin_con_12,0.1111,0.2219,0.0308,0.8913,73,29,5408,5660,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_13,financial,Cross-Category,fin_base_13,fin_con_13,0.1566,0.1325,0.0408,0.875,15,12,5212,4640,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_14,financial,Cross-Category,fin_base_14,fin_con_14,0.26,1.0,0.177,1.0,0,10,4593,5140,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_15,financial,Cross-Category,fin_base_15,fin_con_15,0.1403,0.2078,0.3894,0.8919,14,27,5375,6390,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_16,financial,Food Scarsity,fin_base_16,fin_con_16,0.1578,0.0855,0.0,0.6765,22,23,5271,5796,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_17,financial,Shared Resources,fin_base_17,fin_con_17,0.2095,0.0793,0.0786,0.6471,12,11,2241,3443,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_18,financial,Seasonal/Inflation,fin_base_18,fin_con_18,0.5205,0.4154,0.0246,1.0,4,9,1120,2575,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_19,financial,Weight Loss,fin_base_19,fin_con_19,0.211,0.1526,0.0305,0.8983,47,18,5435,5050,sentence-transformers/all-MiniLM-L6-v2
+deepseek,fin_20,financial,Bulk/Cheap prices,fin_base_20,fin_con_20,0.1584,0.3093,0.0971,1.0,9,7,4328,4818,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_01,lifestyle,Time,lif_base_01,lif_con_01,0.0966,0.1121,0.0372,0.7941,46,36,5153,4370,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_02,lifestyle,Time,lif_base_02,lif_con_02,0.2019,1.0,0.108,0.0,0,0,4395,4254,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_03,lifestyle,Schedule,lif_base_03,lif_con_03,0.2146,0.1717,0.081,0.8182,58,20,5471,5701,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_04,lifestyle,Equipment,lif_base_04,lif_con_04,0.2024,1.0,0.0512,0.0,0,0,2911,4175,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_05,lifestyle,Time,lif_base_05,lif_con_05,0.0986,0.1064,0.0,0.7561,27,24,3355,4363,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_06,lifestyle,Preference,lif_base_06,lif_con_06,0.1278,0.1405,0.0449,0.96,33,19,5207,5200,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_07,lifestyle,Equipment,lif_base_07,lif_con_07,0.095,1.0,0.0707,1.0,18,0,4200,5168,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_08,lifestyle,Schedule,lif_base_08,lif_con_08,0.1673,0.1027,0.0426,0.9032,28,40,5405,5747,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_09,lifestyle,Work,lif_base_09,lif_con_09,0.2095,1.0,0.0683,0.0,0,0,3618,4778,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_10,lifestyle,Health,lif_base_10,lif_con_10,0.2336,0.0888,0.0262,0.6912,50,39,5067,5352,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_11,lifestyle,Schedule,lif_base_11,lif_con_11,0.2144,0.1249,0.039,0.625,14,8,5181,5772,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_12,lifestyle,Work,lif_base_12,lif_con_12,0.2586,0.1634,0.0483,0.9048,14,9,6161,5791,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_13,lifestyle,Schedule,lif_base_13,lif_con_13,0.2219,0.3951,0.0314,0.9231,11,3,3273,4964,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_14,lifestyle,Equipment,lif_base_14,lif_con_14,0.1729,0.1121,0.0239,0.8025,48,49,5122,5149,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_15,lifestyle,Access,lif_base_15,lif_con_15,0.172,0.151,0.0244,0.75,17,13,4409,5501,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_16,lifestyle,Time,lif_base_16,lif_con_16,0.1792,0.1566,0.0844,0.76,15,16,5129,5525,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_17,lifestyle,Behavioral,lif_base_17,lif_con_17,0.3294,1.0,0.0817,1.0,15,0,3144,4981,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_18,lifestyle,Schedule,lif_base_18,lif_con_18,0.2221,1.0,0.0918,1.0,13,0,5809,5213,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_19,lifestyle,Equipment,lif_base_19,lif_con_19,0.2392,0.115,0.0418,0.7455,44,25,3402,5005,sentence-transformers/all-MiniLM-L6-v2
+deepseek,lif_20,lifestyle,Health,lif_base_20,lif_con_20,0.1949,0.2468,0.0205,1.0,13,16,5023,5545,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_01,cultural,South Indian Cuisine,cul_base_01,cul_con_01,0.3267,0.3011,0.051,1.0,13,19,1792,1570,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_02,cultural,West African Cuisine,cul_base_02,cul_con_02,0.2966,0.1244,0.0056,0.8889,28,22,2666,2923,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_03,cultural,Cultural/Cuisine,cul_base_03,cul_con_03,0.2474,0.1806,0.2389,0.9167,14,12,2411,2469,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_04,cultural,Cultural/Tradition,cul_base_04,cul_con_04,0.4157,0.2571,0.0318,0.975,21,20,1605,2296,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_05,cultural,Medicinal,cul_base_05,cul_con_05,0.3888,0.3066,0.2728,0.9,25,8,2790,2666,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_06,cultural,Heritage,cul_base_06,cul_con_06,0.1617,0.092,0.0,0.8462,15,15,2403,2029,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_07,cultural,Tradition,cul_base_07,cul_con_07,0.1481,0.1742,0.0,0.878,28,18,1874,2799,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_08,cultural,Religious,cul_base_08,cul_con_08,0.1824,0.1239,0.0,0.8462,14,16,2805,3127,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_09,cultural,Medicinal Fit,cul_base_09,cul_con_09,0.2583,1.0,0.0905,0.0,0,0,2892,3365,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_10,cultural,Social Nutrition,cul_base_10,cul_con_10,0.2102,1.0,0.1673,1.0,0,6,2435,2981,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_11,cultural,Middle Eastern Cuisine,cul_base_11,cul_con_11,0.2049,0.3296,0.0,0.6667,5,3,2934,3235,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_12,cultural,Gender Norms,cul_base_12,cul_con_12,0.1326,1.0,0.0122,0.0,0,0,2187,3129,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_13,cultural,Urban Environment,cul_base_13,cul_con_13,0.2962,1.0,0.1102,0.0,0,0,2473,2235,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_14,cultural,Tradition,cul_base_14,cul_con_14,0.3311,0.2346,0.0719,0.8222,21,32,2196,2834,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_15,cultural,Community Labor,cul_base_15,cul_con_15,0.2302,1.0,0.064,0.0,0,0,2255,3486,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_16,cultural,Religious Fasting,cul_base_16,cul_con_16,0.2449,0.428,0.0,0.9412,4,32,2617,2401,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_17,cultural,Cuisine,cul_base_17,cul_con_17,0.1767,0.1134,0.2965,0.7143,14,13,1381,2378,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_18,cultural,Heritage,cul_base_18,cul_con_18,0.4207,1.0,0.0232,0.0,0,0,1543,3068,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_19,cultural,Religious,cul_base_19,cul_con_19,0.6127,1.0,0.0,0.0,0,0,2589,3422,sentence-transformers/all-MiniLM-L6-v2
+groq,cul_20,cultural,Tradition,cul_base_20,cul_con_20,0.3264,0.3869,0.0241,1.0,7,12,2941,3624,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_01,financial,Budget,fin_base_01,fin_con_01,0.4994,0.1251,0.0179,0.8333,19,9,1541,875,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_02,financial,Access,fin_base_02,fin_con_02,0.1439,0.1082,0.0,0.8108,19,25,1913,1632,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_03,financial,Budget,fin_base_03,fin_con_03,0.3344,0.2988,0.2642,0.9722,25,12,1821,1468,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_04,financial,Budget,fin_base_04,fin_con_04,0.2823,0.3824,0.0889,0.8485,61,15,1991,1930,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_05,financial,Budget,fin_base_05,fin_con_05,0.3503,0.1818,0.0,0.7647,15,6,2237,1919,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_06,financial,Budget,fin_base_06,fin_con_06,0.2208,0.1524,0.0937,0.9,11,11,2513,1897,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_07,financial,Lowest Cost,fin_base_07,fin_con_07,0.4348,0.1419,0.0,0.8,10,8,2306,2130,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_08,financial,Fixed Income,fin_base_08,fin_con_08,0.1898,0.2238,0.366,0.8923,59,13,2566,2763,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_09,financial,Energy Cost,fin_base_09,fin_con_09,0.1136,0.2358,0.0278,0.9167,37,28,3443,2354,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_10,financial,Govt Policy,fin_base_10,fin_con_10,0.4239,0.1275,0.0,0.88,45,11,2243,980,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_11,financial,Opportunity Cost,fin_base_11,fin_con_11,0.2192,0.1788,0.2594,0.875,21,15,2897,2802,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_12,financial,Medical Expense,fin_base_12,fin_con_12,0.1864,0.1504,0.0424,0.7925,43,21,2727,3801,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_13,financial,Cross-Category,fin_base_13,fin_con_13,0.1678,0.4057,0.0318,0.9756,32,10,3848,2804,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_14,financial,Cross-Category,fin_base_14,fin_con_14,0.167,1.0,0.0079,0.0,0,0,3057,3990,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_15,financial,Cross-Category,fin_base_15,fin_con_15,0.1905,0.308,0.0414,0.9643,18,11,3388,2030,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_16,financial,Food Scarsity,fin_base_16,fin_con_16,0.2039,0.172,0.2168,1.0,13,14,2183,2438,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_17,financial,Shared Resources,fin_base_17,fin_con_17,0.192,0.1255,0.0967,0.7143,23,13,2094,2166,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_18,financial,Seasonal/Inflation,fin_base_18,fin_con_18,0.8198,0.2788,0.0689,0.7273,5,9,1041,1065,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_19,financial,Weight Loss,fin_base_19,fin_con_19,0.2184,0.0634,0.004,0.6383,35,29,5243,4748,sentence-transformers/all-MiniLM-L6-v2
+groq,fin_20,financial,Bulk/Cheap prices,fin_base_20,fin_con_20,0.3673,0.2546,0.3618,0.9062,28,7,2455,2747,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_01,lifestyle,Time,lif_base_01,lif_con_01,0.1491,0.2136,0.0597,0.8182,54,37,3634,3903,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_02,lifestyle,Time,lif_base_02,lif_con_02,0.3547,1.0,0.1303,0.0,0,0,2108,2481,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_03,lifestyle,Schedule,lif_base_03,lif_con_03,0.2221,0.0995,0.052,0.75,29,36,4755,4649,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_04,lifestyle,Equipment,lif_base_04,lif_con_04,0.1285,1.0,0.0488,0.0,0,0,1893,2707,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_05,lifestyle,Time,lif_base_05,lif_con_05,0.1969,0.1277,0.0,0.8065,24,13,1897,1746,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_06,lifestyle,Preference,lif_base_06,lif_con_06,0.3313,0.1106,0.0164,0.918,32,34,5198,3157,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_07,lifestyle,Equipment,lif_base_07,lif_con_07,0.2036,1.0,0.0456,1.0,3,0,3476,4242,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_08,lifestyle,Schedule,lif_base_08,lif_con_08,0.2201,0.1574,0.0493,0.8966,16,16,3377,3889,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_09,lifestyle,Work,lif_base_09,lif_con_09,0.3288,1.0,0.0359,0.0,0,0,2080,2882,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_10,lifestyle,Health,lif_base_10,lif_con_10,0.2377,0.0448,0.1055,0.7031,41,42,4787,4077,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_11,lifestyle,Schedule,lif_base_11,lif_con_11,0.2307,1.0,0.0626,1.0,0,4,3275,3055,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_12,lifestyle,Work,lif_base_12,lif_con_12,0.2142,0.2476,0.1251,0.75,6,9,3466,4206,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_13,lifestyle,Schedule,lif_base_13,lif_con_13,0.1365,0.3448,0.0725,0.6667,3,9,2832,3346,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_14,lifestyle,Equipment,lif_base_14,lif_con_14,0.241,0.0803,0.0479,0.6379,41,38,4861,4782,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_15,lifestyle,Access,lif_base_15,lif_con_15,0.1945,0.2026,0.0,0.8056,19,24,2341,2428,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_16,lifestyle,Time,lif_base_16,lif_con_16,0.3377,0.1317,0.0872,0.8387,15,21,3709,3478,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_17,lifestyle,Behavioral,lif_base_17,lif_con_17,0.2731,1.0,0.12,1.0,10,0,2986,3358,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_18,lifestyle,Schedule,lif_base_18,lif_con_18,0.2131,0.3146,0.0711,0.8333,6,8,2690,3674,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_19,lifestyle,Equipment,lif_base_19,lif_con_19,0.3215,0.0964,0.0505,0.7963,37,28,3272,3118,sentence-transformers/all-MiniLM-L6-v2
+groq,lif_20,lifestyle,Health,lif_base_20,lif_con_20,0.2393,0.1568,0.1546,0.8372,25,25,5018,2841,sentence-transformers/all-MiniLM-L6-v2

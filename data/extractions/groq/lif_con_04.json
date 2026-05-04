@@ -1,0 +1,335 @@
+{
+  "prompt_id": "lif_con_04",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Equipment",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Equipment",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Suggest a weekly workout plan for someone who cannot go to the gym and can only exercise at home in a small space.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Given the constraints of exercising at home in a small space, I've created a weekly workout plan that requires minimal equipment and can be adapted to fit a small area. This plan focuses on bodyweight exercises, which are effective for building strength, improving flexibility, and increasing cardiovascular endurance.\n\n**Monday (Upper Body):**\n\n1. Warm-up: 5-10 minutes of light cardio (jogging in place, jumping jacks, etc.)\n2. Push-ups: 3 sets of 10-12 reps\n3. Tricep dips (using a chair or bench): 3 sets of 10-12 reps\n4. Arm circles (holding light weights or water bottles): 3 sets of 10-12 reps\n5. Plank: 3 sets of 30-60 seconds\n6. Cool-down: 5-10 minutes of stretching\n\n**Tuesday (Lower Body):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Squats: 3 sets of 10-12 reps\n3. Lunges: 3 sets of 10-12 reps (per leg)\n4. Calf raises: 3 sets of 12-15 reps\n5. Glute bridges: 3 sets of 10-12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Wednesday (Rest day)**\n\n**Thursday (Core):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Russian twists (using a light weight or medicine ball): 3 sets of 10-12 reps\n3. Leg raises (hanging leg raises or lying leg raises): 3 sets of 10-12 reps\n4. Bicycle crunches: 3 sets of 10-12 reps\n5. Plank: 3 sets of 30-60 seconds\n6. Cool-down: 5-10 minutes of stretching\n\n**Friday (Upper Body):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Incline push-ups (using a chair or bench): 3 sets of 10-12 reps\n3. Bicep curls (using light weights or water bottles): 3 sets of 10-12 reps\n4. Tricep extensions (using light weights or water bottles): 3 sets of 10-12 reps\n5. Shoulder press (using light weights or water bottles): 3 sets of 10-12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Saturday (Lower Body):**\n\n1. Warm-up: 5-10 minutes of light cardio\n2. Step-ups (using a chair or bench): 3 sets of 10-12 reps (per leg)\n3. Wall sits: 3 sets of 60-90 seconds\n4. Calf raises: 3 sets of 12-15 reps\n5. Glute bridges: 3 sets of 10-12 reps\n6. Cool-down: 5-10 minutes of stretching\n\n**Sunday (Rest day or active recovery)**\n\n**Additional Tips:**\n\n* Start with lighter reps and sets, and gradually increase as you build strength and endurance.\n* Focus on proper form and technique throughout each exercise.\n* Incorporate high-intensity interval training (HIIT) by adding short bursts of intense cardio (20-30 seconds) followed by rest periods (1-2 minutes).\n* Stay hydrated and listen to your body, taking rest days as needed.\n* Consider investing in a few pieces of equipment, such as resistance bands or a jump rope, to add variety to your workouts.\n\nRemember, consistency and patience are key. Stick to the plan, and you'll see improvements in your overall fitness and well-being.",
+  "extracted": {
+    "summary": "The response provides a weekly workout plan designed for home exercise in a small space, focusing on bodyweight exercises with minimal equipment.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "tricep dips",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "arm circles",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "russian twists",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "leg raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "bicycle crunches",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "incline push-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "bicep curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "tricep extensions",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "shoulder press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "step-ups",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "wall sits",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "calf raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "glute bridges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "rest day or active recovery",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small-space"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3390,
+  "extraction_output_tokens": 2018,
+  "extraction_from_cache": false
+}

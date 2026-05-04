@@ -1,0 +1,182 @@
+{
+  "prompt_id": "fin_base_01",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast for a student.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "A healthy breakfast for a student can provide the energy and nutrients needed to perform well in school. Here's a balanced breakfast idea:\n\n**Option 1: Oatmeal with Fresh Fruit and Nuts**\n\n* 1 cup cooked oatmeal with low-fat milk or a non-dairy alternative (such as almond milk)\n* 1/2 cup mixed fresh berries (such as blueberries, strawberries, or bananas)\n* 1 tablespoon chopped walnuts or almonds\n* 1 hard-boiled egg or a slice of whole-grain toast with avocado spread\n\n**Option 2: Greek Yogurt Parfait**\n\n* 6 ounces Greek yogurt\n* 1/2 cup mixed fresh berries\n* 1/4 cup granola or muesli\n* 1/2 cup sliced banana or other fresh fruit\n* 1 tablespoon honey or maple syrup (optional)\n\n**Option 3: Whole-Grain Toast with Avocado and Eggs**\n\n* 2 slices whole-grain toast\n* 1/2 avocado, mashed\n* 2 eggs, scrambled or fried\n* Salt and pepper to taste\n* Optional: 1/4 cup cherry tomatoes or spinach leaves\n\n**Tips:**\n\n* Choose whole grains, such as brown rice, quinoa, or whole-wheat bread, for complex carbohydrates and fiber.\n* Include a source of protein, such as eggs, Greek yogurt, or nuts, to help build and repair muscles.\n* Add fresh fruit for natural sweetness, fiber, and vitamins.\n* Limit added sugars, saturated fats, and refined carbohydrates.\n* Stay hydrated by drinking water or a low-sugar beverage, such as unsweetened tea or coffee.\n\nRemember, a healthy breakfast should be balanced, satisfying, and easy to prepare. Encourage your student to experiment with different ingredients and find a breakfast routine that works for them.",
+  "extracted": {
+    "summary": "The response provides three healthy breakfast options for students, emphasizing balanced nutrition and easy preparation.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fresh fruit and nuts",
+        "ingredients": [
+          "oatmeal",
+          "low-fat milk",
+          "almond milk",
+          "mixed fresh berries",
+          "walnuts",
+          "almonds",
+          "hard-boiled egg",
+          "whole-grain toast",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "mixed fresh berries",
+          "granola",
+          "muesli",
+          "banana",
+          "honey",
+          "maple syrup"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "whole-grain toast with avocado and eggs",
+        "ingredients": [
+          "whole-grain toast",
+          "avocado",
+          "eggs",
+          "salt",
+          "pepper",
+          "cherry tomatoes",
+          "spinach leaves"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "frying",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "oatmeal",
+      "low-fat milk",
+      "almond milk",
+      "mixed fresh berries",
+      "walnuts",
+      "almonds",
+      "hard-boiled egg",
+      "whole-grain toast",
+      "avocado",
+      "greek yogurt",
+      "granola",
+      "muesli",
+      "banana",
+      "honey",
+      "maple syrup",
+      "salt",
+      "pepper",
+      "cherry tomatoes",
+      "spinach leaves"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "greek yogurt parfait",
+      "whole-grain toast with avocado and eggs"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2924,
+  "extraction_output_tokens": 1203,
+  "extraction_from_cache": false
+}

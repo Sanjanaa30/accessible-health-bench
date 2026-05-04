@@ -1,0 +1,148 @@
+{
+  "prompt_id": "lif_base_09",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest ways to stay physically active daily.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here are several practical ways to stay physically active on a daily basis, ranging from structured exercise to simple lifestyle changes.\n\n### 1. Incorporate Movement into Your Routine (No Gym Needed)\n- **Take the stairs** instead of the elevator or escalator.\n- **Walk or bike** for short errands instead of driving.\n- **Park farther away** from store entrances or your workplace.\n- **Stand or pace** while on the phone, watching TV, or reading.\n- **Do \"walking meetings\"** if you work from home or have flexibility.\n\n### 2. Short, High-Impact Bursts (5–15 minutes)\n- **Morning stretch or yoga** (10 minutes) to wake up your body.\n- **Bodyweight circuit:** 10 squats, 10 push-ups (or knee push-ups), 10 lunges, 30-second plank. Repeat 2–3 times.\n- **Jump rope** or **high knees** for 1–2 minutes between tasks.\n- **Stair climbing** – go up and down for 5 minutes.\n\n### 3. Active Commuting & Errands\n- **Walk or cycle** to work, school, or the grocery store.\n- **Get off public transport** one stop early and walk the rest.\n- **Use a standing desk** or a treadmill desk if possible.\n- **Carry groceries** or other items by hand instead of using a cart (if safe).\n\n### 4. Make It Social & Fun\n- **Walk or jog with a friend, partner, or dog.**\n- **Join a recreational sports league** (pickup basketball, soccer, tennis).\n- **Dance** while cooking, cleaning, or listening to music.\n- **Play active video games** (e.g., Just Dance, Ring Fit Adventure, Beat Saber).\n\n### 5. Use \"Micro-Workouts\" Throughout the Day\n- **Set a timer** every hour to stand, stretch, or walk for 2 minutes.\n- **Do 10 calf raises** while waiting for coffee or the microwave.\n- **Wall sits** while brushing your teeth (30 seconds per side).\n- **Desk exercises:** seated leg raises, shoulder rolls, or chair dips.\n\n### 6. Outdoor & Seasonal Activities\n- **Gardening** – digging, planting, weeding, and raking are great for strength and cardio.\n- **Hiking** or walking in a park with hills.\n- **Swimming, kayaking, or paddleboarding** (if accessible).\n- **Snow shoveling** or **leaf raking** in appropriate seasons.\n\n### 7. Structured but Short Workouts (15–30 minutes)\n- **Follow a free online workout** (YouTube has thousands – try \"15-minute HIIT\" or \"yoga for beginners\").\n- **Use a fitness app** (Nike Training Club, FitOn, 7 Minute Workout) for guided routines.\n- **Run or brisk walk** for 20 minutes around your neighborhood.\n\n### 8. Make It a Habit (Key Tips)\n- **Schedule it** – put it on your calendar like a meeting.\n- **Start small** – 5–10 minutes a day is better than zero.\n- **Track your progress** – use a pedometer, step counter, or simple checklist.\n- **Reward yourself** – after a week of daily activity, treat yourself to something non-food (e.g., a new playlist, a bath, or a movie).\n- **Combine with something you enjoy** – listen to podcasts, audiobooks, or music while moving.\n\n### Sample Daily Plan (Mix & Match)\n| Time | Activity | Duration |\n|------|----------|----------|\n| Morning | 10-minute stretch or yoga | 10 min |\n| Mid-morning | Walk around the block or stairs | 5 min |\n| Lunch | 15-minute brisk walk | 15 min |\n| Afternoon | 5-minute bodyweight circuit | 5 min |\n| Evening | Dance to 2 songs or light walk | 10 min |\n| **Total** | | **45 min** |\n\n### Important Reminder\n- **Listen to your body.** If you feel pain (not just muscle soreness), rest or modify.\n- **Start where you are.** Even 5 minutes of movement is a victory.\n- **Consistency beats intensity.** A little every day is far better than a lot once a week.\n\nWould you like a specific plan tailored to your fitness level, available time, or equipment?",
+  "extracted": {
+    "summary": "The response provides various practical ways to stay physically active daily, including incorporating movement into routines, short workouts, and making activities social and fun.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "morning stretch or yoga",
+        "activity_type": "flexibility",
+        "duration_minutes": 10,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight circuit",
+        "activity_type": "strength",
+        "duration_minutes": 5,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "brisk walk",
+        "activity_type": "cardio",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "dance",
+        "activity_type": "dance",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-morning",
+        "lunch",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3474,
+  "extraction_output_tokens": 971,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,136 @@
+{
+  "prompt_id": "fin_base_17",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy dinner for a family of five.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a healthy, balanced, and family-friendly dinner that’s easy to scale for five people. It includes lean protein, whole grains, and plenty of vegetables, with options to customize for picky eaters.\n\n**Main Dish:** Sheet Pan Lemon-Herb Salmon with Roasted Vegetables  \n**Side:** Quick Quinoa or Brown Rice  \n**Optional:** Simple green salad with vinaigrette\n\n---\n\n### Recipe: Sheet Pan Lemon-Herb Salmon & Vegetables\n\n**Ingredients (for 5):**  \n- 5 salmon fillets (about 6 oz each, or one large 2-lb side)  \n- 2 lemons (1 sliced, 1 for juicing)  \n- 3–4 cups mixed vegetables (broccoli florets, cherry tomatoes, and bell pepper strips work well)  \n- 3 tbsp olive oil  \n- 2 cloves garlic, minced  \n- 1 tsp dried oregano (or 1 tbsp fresh)  \n- 1 tsp dried thyme  \n- Salt and black pepper to taste  \n- Fresh parsley or dill for garnish (optional)\n\n**Instructions:**  \n1. Preheat oven to 400°F (200°C). Line a large sheet pan with parchment paper.  \n2. In a small bowl, mix 2 tbsp olive oil, minced garlic, oregano, thyme, salt, and pepper.  \n3. Toss vegetables with 1 tbsp olive oil and a pinch of salt. Spread them on one half of the sheet pan.  \n4. Place salmon fillets (skin-side down) on the other half. Brush with the herb-oil mixture. Top with lemon slices.  \n5. Roast for 12–15 minutes, until salmon is cooked through (flakes easily) and vegetables are tender.  \n6. Squeeze fresh lemon juice over everything before serving. Garnish with herbs.\n\n**Side:** Cook 1 cup quinoa or brown rice according to package directions (yields ~3 cups). Fluff and serve alongside.\n\n---\n\n### Why this works for a family of five:\n- **One pan** = less cleanup.  \n- **Customizable** – serve vegetables and salmon separately for picky kids, or offer a simple dip like yogurt-dill sauce.  \n- **Nutrient-dense** – salmon provides omega-3s, vegetables add fiber and vitamins, quinoa/rice adds complex carbs.  \n- **Quick** – ready in about 30 minutes total.\n\n**Optional add-ons:**  \n- For extra veggies: add roasted asparagus or zucchini.  \n- For a heartier meal: serve with whole-wheat pasta or roasted sweet potatoes instead of quinoa.  \n- For kids who dislike salmon: swap for chicken breast (adjust cooking time to 20–25 minutes).\n\nEnjoy your family dinner!",
+  "extracted": {
+    "summary": "The response suggests a healthy dinner for a family of five, featuring sheet pan lemon-herb salmon with roasted vegetables and a side of quinoa or brown rice.",
+    "response_type": "recipe",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "sheet pan lemon-herb salmon with roasted vegetables",
+        "ingredients": [
+          "salmon fillets",
+          "lemons",
+          "mixed vegetables",
+          "olive oil",
+          "garlic",
+          "dried oregano",
+          "dried thyme",
+          "salt",
+          "black pepper",
+          "fresh parsley",
+          "quinoa",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "serves 5"
+      }
+    ],
+    "all_ingredients": [
+      "salmon fillets",
+      "lemons",
+      "mixed vegetables",
+      "olive oil",
+      "garlic",
+      "dried oregano",
+      "dried thyme",
+      "salt",
+      "black pepper",
+      "fresh parsley",
+      "quinoa",
+      "brown rice"
+    ],
+    "all_dishes_or_foods_named": [
+      "sheet pan lemon-herb salmon with roasted vegetables",
+      "quinoa",
+      "brown rice"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 5,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3114,
+  "extraction_output_tokens": 936,
+  "extraction_from_cache": false
+}

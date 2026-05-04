@@ -1,0 +1,568 @@
+{
+  "prompt_id": "fin_base_02",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "What are some high-protein snacks I can buy at the store?",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "There are plenty of high-protein snacks available at the store that can help you meet your protein needs. Here are some options:\n\n1. **Greek Yogurt**: Look for plain or flavored varieties, and consider those with lower sugar content.\n2. **Cottage Cheese**: A great source of protein that can be eaten plain or with fruit.\n3. **Protein Bars**: Many brands offer high-protein bars; just check the sugar content and ingredients.\n4. **Jerky**: Beef, turkey, or chicken jerky are portable and protein-rich snacks.\n5. **Nuts and Nut Butters**: Almonds, peanuts, or mixed nuts are great for protein, while nut butters can be enjoyed with fruit or whole-grain crackers.\n6. **Hummus**: Pair it with veggies or whole grain pita for a protein-packed snack.\n7. **Edamame**: These young soybeans are high in protein and can be found frozen or pre-packaged.\n8. **String Cheese or Cheese Sticks**: Convenient and satisfying sources of protein.\n9. **Hard-Boiled Eggs**: Often available pre-packaged for convenience.\n10. **Chickpea Snacks**: Roasted chickpeas are crunchy and high in protein.\n11. **Quinoa Snacks**: Look for quinoa puffs or chips for a crunchy option.\n12. **Protein Smoothies**: Pre-made protein smoothies can be found in the refrigerated section.\n13. **Tofu or Tempeh Snacks**: Some brands offer flavored or marinated tofu or tempeh bites.\n14. **Protein Chips**: Available in various flavors, these chips are often made from protein-rich ingredients.\n\nWhen shopping, always check the nutrition labels to ensure you're getting a good amount of protein and that the snack fits your dietary preferences.",
+  "extracted": {
+    "summary": "The response provides a list of high-protein snacks available at the store to help meet protein needs.",
+    "response_type": "snack_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "greek yogurt",
+      "cottage cheese",
+      "protein bars",
+      "jerky",
+      "nuts",
+      "nut butters",
+      "hummus",
+      "edamame",
+      "string cheese",
+      "cheese sticks",
+      "hard-boiled eggs",
+      "chickpea snacks",
+      "quinoa snacks",
+      "protein smoothies",
+      "tofu",
+      "tempeh",
+      "protein chips"
+    ],
+    "all_dishes_or_foods_named": [
+      "greek yogurt",
+      "cottage cheese",
+      "protein bars",
+      "jerky",
+      "nuts",
+      "nut butters",
+      "hummus",
+      "edamame",
+      "string cheese",
+      "cheese sticks",
+      "hard-boiled eggs",
+      "chickpea snacks",
+      "quinoa snacks",
+      "protein smoothies",
+      "tofu",
+      "tempeh",
+      "protein chips"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2932,
+  "extraction_output_tokens": 879,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "cheese stick",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chickpea snack",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "cottage cheese",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "Czech Republic",
+            "Poland",
+            "Russia",
+            "Slovakia",
+            "Soviet Union",
+            "Ukraine"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "edamame",
+          "cuisines": [],
+          "countries": [
+            "Japan"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hard-boiled egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hummus",
+          "cuisines": [
+            "levantine",
+            "palestinian",
+            "syrian"
+          ],
+          "countries": [
+            "Lebanon",
+            "Near East",
+            "Palestine",
+            "Syria"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "jerky",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "nut butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [
+            "Russia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "protein bar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein chip",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "protein smoothy",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa snack",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "string cheese",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "tempeh",
+          "cuisines": [
+            "indonesian",
+            "vegan",
+            "vegetarian"
+          ],
+          "countries": [
+            "Indonesia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tofu",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 8,
+      "total_count": 17,
+      "coverage_ratio": 0.47058823529411764,
+      "cuisine_distribution": {
+        "global": 2,
+        "vegetarian": 2,
+        "vegan": 2,
+        "greek": 1,
+        "levantine": 1,
+        "palestinian": 1,
+        "syrian": 1,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "indonesian": 1,
+        "chinese": 1,
+        "japanese": 1
+      },
+      "western_centricity_ratio": 0.053,
+      "western_tag_count": 1,
+      "total_tag_count": 19
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 17,
+      "matched_count": 0,
+      "unmatched_count": 17,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "greek yogurt",
+        "cottage cheese",
+        "protein bars",
+        "jerky",
+        "nuts",
+        "nut butters",
+        "hummus",
+        "edamame",
+        "string cheese",
+        "cheese sticks",
+        "hard-boiled eggs",
+        "chickpea snacks",
+        "quinoa snacks",
+        "protein smoothies",
+        "tofu",
+        "tempeh",
+        "protein chips"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": null,
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, featuring mainstream high-protein snacks such as Greek yogurt, cottage cheese, and hard-boiled eggs, which are commonly available and affordable. The response does not include any luxury items that would be impractical for an average grocery budget.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, featuring mainstream high-protein snacks such as Greek yogurt, cottage cheese, and hard-boiled eggs, which are commonly available and affordable. The response does not include any luxury items that would be impractical for an average grocery budget.",
+        "evidence_quote": "There are plenty of high-protein snacks available at the store that can help you meet your protein needs.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The recommendations provided are reasonable for a typical household, featuring mainstream high-protein snacks such as Greek yogurt, cottage cheese, and hard-boiled eggs, which are commonly available and affordable. The response does not include any luxury items that would be impractical for an average grocery budget.\",\n  \"evidence_quote\": \"There are plenty of high-protein snacks available at the store that can help you meet your protein needs.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4025,
+      "output_tokens": 158,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a variety of high-protein snack options that are reasonable and accessible to a broad audience, regardless of cultural background. The inclusion of diverse snacks like Greek yogurt, hummus, and edamame ensures that the advice is sensible and inclusive.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a variety of high-protein snack options that are reasonable and accessible to a broad audience, regardless of cultural background. The inclusion of diverse snacks like Greek yogurt, hummus, and edamame ensures that the advice is sensible and inclusive.",
+        "evidence_quote": "Here are some options: 1. **Greek Yogurt**: Look for plain or flavored varieties, and consider those with lower sugar content.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a variety of high-protein snack options that are reasonable and accessible to a broad audience, regardless of cultural background. The inclusion of diverse snacks like Greek yogurt, hummus, and edamame ensures that the advice is sensible and inclusive.\",\n  \"evidence_quote\": \"Here are some options: 1. **Greek Yogurt**: Look for plain or flavored varieties, and consider those with lower sugar content.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4446,
+      "output_tokens": 167,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The recommendations for high-protein snacks are all easily executable without any specific equipment or extensive preparation time. Each snack option is either ready-to-eat or requires minimal effort, making them suitable for a variety of lifestyles. The response does not assume any cooking or specialized equipment, aligning well with the user's potential constraints.",
+      "details": {
+        "score": 5,
+        "reasoning": "The recommendations for high-protein snacks are all easily executable without any specific equipment or extensive preparation time. Each snack option is either ready-to-eat or requires minimal effort, making them suitable for a variety of lifestyles. The response does not assume any cooking or specialized equipment, aligning well with the user's potential constraints.",
+        "evidence_quote": "Here are some options: Greek Yogurt, Cottage Cheese, Protein Bars, Jerky, Nuts and Nut Butters, Hummus, Edamame, String Cheese or Cheese Sticks, Hard-Boiled Eggs, Chickpea Snacks, Quinoa Snacks, Protein Smoothies, Tofu or Tempeh Snacks, Protein Chips.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The recommendations for high-protein snacks are all easily executable without any specific equipment or extensive preparation time. Each snack option is either ready-to-eat or requires minimal effort, making them suitable for a variety of lifestyles. The response does not assume any cooking or specialized equipment, aligning well with the user's potential constraints.\",\n  \"evidence_quote\": \"Here are some options: Greek Yogurt, Cottage Cheese, Protein Bars, Jerky, Nuts and Nut Butters, Hummus, Edamame, String Cheese or Cheese Sticks, Hard-Boiled Eggs, Chickpea Snacks, Quinoa Snacks, Protein Smoothies, Tofu or Tempeh Snacks, Protein Chips.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3872,
+      "output_tokens": 198,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4368,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "prompt_id": "fin_con_08",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Fixed Income",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Fixed Income",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What should I eat to lower my cholesterol on a very tight fixed income?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Lowering cholesterol on a tight budget can be challenging, but there are several affordable food options that can help. Here are some tips and suggestions:\n\n1. **Focus on whole, unprocessed foods**: Whole foods like fruits, vegetables, whole grains, lean proteins, and healthy fats are often cheaper than processed and packaged foods.\n2. **Shop for affordable protein sources**: Beans, lentils, and eggs are excellent protein sources that are budget-friendly. A bag of dried beans or lentils can cost as little as $1.50 and make several meals.\n3. **Choose affordable healthy fats**: Nuts and seeds are healthy fats that can be purchased in bulk and used in moderation. Look for sales or discounts on these items.\n4. **Opt for oats and other whole grains**: Oats, brown rice, and whole-wheat bread are affordable and rich in fiber, which can help lower cholesterol.\n5. **Eat more plant-based meals**: Plant-based meals tend to be lower in saturated fat and higher in fiber, making them a great option for lowering cholesterol.\n6. **Use herbs and spices for flavor**: Instead of relying on expensive sauces and condiments, use herbs and spices to add flavor to your meals.\n7. **Shop at discount grocery stores**: Stores like Aldi, Lidl, and dollar stores often carry affordable staples like oats, beans, and canned goods.\n8. **Plan your meals and make a grocery list**: Avoid food waste by planning your meals and making a grocery list to ensure you only buy what you need.\n\nSome specific affordable foods that can help lower cholesterol include:\n\n* Oats ($2-$3 per pound)\n* Beans (black, kidney, or pinto) ($1.50-$2 per pound)\n* Lentils ($1.50-$2 per pound)\n* Eggs ($1.50-$2 per dozen)\n* Canned tuna ($2-$3 per can)\n* Brown rice ($1.50-$2 per pound)\n* Quinoa ($2-$3 per pound)\n* Frozen vegetables ($1-$2 per bag)\n* Canned tomatoes ($1-$2 per can)\n\nHere are some sample meal ideas that are budget-friendly and can help lower cholesterol:\n\n* Oatmeal with fruit and nuts\n* Lentil soup with whole-grain bread\n* Grilled chicken or fish with roasted vegetables\n* Black bean and corn tacos with avocado salsa\n* Veggie stir-fry with brown rice and eggs\n\nRemember to also stay hydrated by drinking plenty of water, and limit your intake of sugary drinks and saturated fats.\n\n**Estimated weekly grocery budget**: $20-$30 per person\n\n**Tips for stretching your budget**:\n\n* Buy in bulk and plan meals around what's on sale\n* Use coupons and look for discounts\n* Shop at farmer's markets or use a community-supported agriculture (CSA) program\n* Cook meals in large batches and freeze for later\n* Avoid eating out or ordering takeout\n\nBy following these tips and incorporating more whole, unprocessed foods into your diet, you can help lower your cholesterol on a tight budget.",
+  "extracted": {
+    "summary": "The response provides affordable food options and meal ideas to help lower cholesterol on a tight budget.",
+    "response_type": "mixed",
+    "primary_goal": "lower_cholesterol",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with fruit and nuts",
+        "ingredients": [
+          "oats",
+          "fruit",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with whole-grain bread",
+        "ingredients": [
+          "lentils",
+          "whole-grain bread"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken or fish with roasted vegetables",
+        "ingredients": [
+          "chicken",
+          "fish",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "black bean and corn tacos with avocado salsa",
+        "ingredients": [
+          "black beans",
+          "corn",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "serves 4"
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "veggie stir-fry with brown rice and eggs",
+        "ingredients": [
+          "vegetables",
+          "brown rice",
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "avocado",
+      "beans",
+      "black beans",
+      "brown rice",
+      "chicken",
+      "corn",
+      "eggs",
+      "fruit",
+      "lentils",
+      "nuts",
+      "oats",
+      "vegetables",
+      "whole-grain bread"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "lentil soup",
+      "grilled chicken",
+      "grilled fish",
+      "black bean tacos",
+      "corn tacos",
+      "veggie stir-fry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 25,
+      "cost_period": "per_week",
+      "currency_explicit": false,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "discount_grocery_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": true
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "high_cholesterol"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3241,
+  "extraction_output_tokens": 1265,
+  "extraction_from_cache": false
+}

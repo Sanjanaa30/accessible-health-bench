@@ -1,0 +1,137 @@
+{
+  "prompt_id": "fin_con_10",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Govt Policy",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Govt Policy",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy grocery list for a mother and a 2-year-old. The total must be under $25 and every item must be 100% WIC-eligible (Women, Infants, and Children program",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# WIC-Eligible Grocery List Under $25\n\n## Proteins\n- **Eggs** (1 dozen) - $2.50\n- **Peanut butter** (18 oz) - $2.00\n- **Canned beans** (2 cans) - $1.00\n\n## Dairy\n- **Milk** (1 gallon) - $3.50\n- **Cheese** (8 oz block) - $2.50\n- **Yogurt** (32 oz) - $2.50\n\n## Grains\n- **Whole wheat bread** - $2.50\n- **Whole grain cereal** (low sugar) - $3.00\n- **Brown rice** (2 lb bag) - $1.50\n\n## Fruits & Vegetables\n- **Apples** (3 lb bag) - $2.00\n- **Bananas** (1 lb) - $0.60\n- **Carrots** (2 lb bag) - $1.00\n- **Canned pumpkin** (15 oz) - $0.80\n\n## Infant Formula/Cereal (if needed)\n- **Infant cereal** (8 oz) - $2.00\n\n**Total: ~$24.90**\n\n---\n\n## Tips\n- Check your state's WIC website for current approved brands\n- Prices vary by location; adjust quantities as needed\n- All items are soft/mashable for toddlers\n- Avoid honey for children under 1 year",
+  "extracted": {
+    "summary": "The response provides a healthy grocery list for a mother and a 2-year-old, ensuring all items are WIC-eligible and under $25.",
+    "response_type": "grocery_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "apples",
+      "bananas",
+      "brown rice",
+      "canned beans",
+      "canned pumpkin",
+      "cheese",
+      "eggs",
+      "infant cereal",
+      "milk",
+      "peanut butter",
+      "yogurt",
+      "whole grain cereal",
+      "whole wheat bread",
+      "carrots"
+    ],
+    "all_dishes_or_foods_named": [
+      "canned beans",
+      "canned pumpkin",
+      "infant cereal",
+      "peanut butter",
+      "yogurt",
+      "whole grain cereal",
+      "whole wheat bread",
+      "milk",
+      "cheese",
+      "eggs",
+      "brown rice",
+      "apples",
+      "bananas",
+      "carrots"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": 24.9,
+      "cost_period": "per_week",
+      "currency_explicit": true,
+      "cost_breakdown_provided": true,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "wic"
+      ],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 2,
+      "household_type": "family_with_children",
+      "ages_referenced": [
+        "2_year_old"
+      ],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Prices vary by location; adjust quantities as needed."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2950,
+  "extraction_output_tokens": 883,
+  "extraction_from_cache": false
+}

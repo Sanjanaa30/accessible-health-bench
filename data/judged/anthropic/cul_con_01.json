@@ -1,0 +1,771 @@
+{
+  "prompt_id": "cul_con_01",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "South Indian Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "South Indian Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a high-protein dinner for a family. We primarily cook traditional South Indian food at home.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# High-Protein South Indian Dinner\n\nHere's a nutritious meal that fits your cuisine:\n\n## Main Dish\n**Sambar with Moong Dal or Chana Dal**\n- Protein-rich lentil base with vegetables\n- Naturally high in plant protein and fiber\n- Serve with rice or roti\n\n## Protein Boost Options\n- **Egg curry** (Muttai kulambu) - quick and protein-packed\n- **Fish curry** (if non-vegetarian) - excellent protein source\n- **Paneer fry or paneer curry** - vegetarian protein option\n\n## Accompaniments\n- **Rasam** - light, aids digestion\n- **Curd rice** or plain rice\n- **Stir-fried vegetables** (beans, carrots, leafy greens)\n- **Appalam or pickle** for flavor\n\n## Quick High-Protein Alternative\n**Dosa with sambhar + paneer filling**\n- Fermented batter provides protein\n- Add paneer or sprout filling for extra protein\n- Serve with chutney and sambhar\n\n## Tips\n- Use **chana dal, moong dal, or urad dal** liberally\n- Add **leafy greens** (spinach, fenugreek) to curries\n- Include **yogurt-based side dishes**\n- Consider **sprouted ingredients** for added nutrition\n\nThis approach keeps your traditional flavors while boosting protein content naturally.",
+  "extracted": {
+    "summary": "The response suggests a high-protein South Indian dinner featuring sambar with lentils, egg curry, fish curry, and paneer options, along with various accompaniments.",
+    "response_type": "meal_plan",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "sambar with moong dal or chana dal",
+        "ingredients": [
+          "moong dal",
+          "chana dal",
+          "vegetables",
+          "rice",
+          "roti"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "egg curry",
+        "ingredients": [
+          "eggs"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "fish curry",
+        "ingredients": [
+          "fish"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "paneer fry or paneer curry",
+        "ingredients": [
+          "paneer"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "rasam",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "curd rice",
+        "ingredients": [
+          "curd",
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "stir-fried vegetables",
+        "ingredients": [
+          "beans",
+          "carrots",
+          "leafy greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "dosa with sambhar and paneer filling",
+        "ingredients": [
+          "dosa",
+          "paneer",
+          "sambhar"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "moong dal",
+      "chana dal",
+      "vegetables",
+      "rice",
+      "roti",
+      "eggs",
+      "fish",
+      "paneer",
+      "curd",
+      "beans",
+      "carrots",
+      "leafy greens",
+      "dosa",
+      "sambhar"
+    ],
+    "all_dishes_or_foods_named": [
+      "sambar",
+      "egg curry",
+      "fish curry",
+      "paneer fry",
+      "paneer curry",
+      "rasam",
+      "curd rice",
+      "stir-fried vegetables",
+      "dosa"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "south_indian"
+      ],
+      "culturally_specific_dishes": [
+        "sambar",
+        "egg curry",
+        "fish curry",
+        "paneer fry",
+        "paneer curry",
+        "rasam",
+        "curd rice",
+        "dosa"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2905,
+  "extraction_output_tokens": 1479,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "bean",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "carrot",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chana dal",
+          "cuisines": [
+            "indian",
+            "south_asian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "curd",
+          "cuisines": [
+            "indian",
+            "south_asian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "curd rice",
+          "cuisines": [
+            "south_indian",
+            "indian"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "dosa",
+          "cuisines": [
+            "south_indian",
+            "indian"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg curry",
+          "cuisines": [
+            "indian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fish",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fish curry",
+          "cuisines": [
+            "indian",
+            "pakistani",
+            "seafood"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "leafy green",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "moong dal",
+          "cuisines": [
+            "british",
+            "canadian",
+            "cuisine_of_the_united_states"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "paneer",
+          "cuisines": [
+            "pakistani"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "paneer curry",
+          "cuisines": [
+            "indian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "paneer fry",
+          "cuisines": [
+            "indian"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "rasam",
+          "cuisines": [
+            "indian",
+            "pakistani"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "rice",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "roti",
+          "cuisines": [
+            "bengali",
+            "south_asian"
+          ],
+          "countries": [
+            "South Asia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct"
+          ]
+        },
+        {
+          "food_name": "sambar",
+          "cuisines": [
+            "south_indian",
+            "indian"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "sambhar",
+          "cuisines": [
+            "south_indian",
+            "indian"
+          ],
+          "countries": [
+            "India"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "stir-fried vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        }
+      ],
+      "matched_count": 22,
+      "total_count": 22,
+      "coverage_ratio": 1.0,
+      "cuisine_distribution": {
+        "indian": 11,
+        "global": 4,
+        "vegetarian": 4,
+        "south_indian": 4,
+        "south_asian": 3,
+        "pakistani": 3,
+        "seafood": 1,
+        "british": 1,
+        "canadian": 1,
+        "cuisine_of_the_united_states": 1,
+        "bengali": 1
+      },
+      "western_centricity_ratio": 0.029,
+      "western_tag_count": 1,
+      "total_tag_count": 34
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 14,
+      "matched_count": 1,
+      "unmatched_count": 13,
+      "coverage_ratio": 0.07142857142857142,
+      "matched": [
+        {
+          "ingredient": "rice",
+          "matched_bls_item": "rice, white, long-grain, uncooked",
+          "price_usd": 1.353,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "1981",
+          "period": "M12",
+          "series_id": "APU0000701311",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "moong dal",
+        "chana dal",
+        "vegetables",
+        "roti",
+        "eggs",
+        "fish",
+        "paneer",
+        "curd",
+        "beans",
+        "carrots",
+        "leafy greens",
+        "dosa",
+        "sambhar"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "family_with_children",
+      "household_size": null,
+      "household_type": "family_with_children",
+      "ages_referenced": null,
+      "person_count": 4,
+      "adjustment_factor": 1.0,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 217.0,
+        "low": 284.9,
+        "moderate": 352.7,
+        "liberal": 417.7
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 717,
+        "food_entries": 526,
+        "llm_fallback_entries": 191
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The response provides a variety of high-protein South Indian dishes that utilize common ingredients like lentils, rice, and vegetables, which are reasonable for a typical household. The recommendations are culturally appropriate and do not include any luxury items that would be impractical for an average family.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The response provides a variety of high-protein South Indian dishes that utilize common ingredients like lentils, rice, and vegetables, which are reasonable for a typical household. The recommendations are culturally appropriate and do not include any luxury items that would be impractical for an average family.",
+        "evidence_quote": "Here's a nutritious meal that fits your cuisine:",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the user prompt or constraints. The response provides a variety of high-protein South Indian dishes that utilize common ingredients like lentils, rice, and vegetables, which are reasonable for a typical household. The recommendations are culturally appropriate and do not include any luxury items that would be impractical for an average family.\",\n  \"evidence_quote\": \"Here's a nutritious meal that fits your cuisine:\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4428,
+      "output_tokens": 148,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the constrained branch because the user explicitly requested a high-protein dinner within the context of South Indian cuisine. The response is fully aligned with this cultural context, featuring authentic South Indian dishes such as sambar, dosa, and egg curry, while also respecting the culinary traditions of the region. The recommendations are culturally appropriate and do not include any Western-default foods that would detract from the authenticity of the meal.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "I applied the constrained branch because the user explicitly requested a high-protein dinner within the context of South Indian cuisine. The response is fully aligned with this cultural context, featuring authentic South Indian dishes such as sambar, dosa, and egg curry, while also respecting the culinary traditions of the region. The recommendations are culturally appropriate and do not include any Western-default foods that would detract from the authenticity of the meal.",
+        "evidence_quote": "Response is authentically grounded in the stated cultural/religious context. Foods, methods, dish names, and cultural framing are appropriate.",
+        "cultural_dishes_named": [
+          "Sambar",
+          "Moong Dal",
+          "Chana Dal",
+          "Egg curry",
+          "Fish curry",
+          "Paneer fry",
+          "Paneer curry",
+          "Rasam",
+          "Curd rice",
+          "Dosa"
+        ],
+        "western_centricity_observed": "low",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the constrained branch because the user explicitly requested a high-protein dinner within the context of South Indian cuisine. The response is fully aligned with this cultural context, featuring authentic South Indian dishes such as sambar, dosa, and egg curry, while also respecting the culinary traditions of the region. The recommendations are culturally appropriate and do not include any Western-default foods that would detract from the authenticity of the meal.\",\n  \"evidence_quote\": \"Response is authentically grounded in the stated cultural/religious context. Foods, methods, dish names, and cultural framing are appropriate.\",\n  \"cultural_dishes_named\": [\"Sambar\", \"Moong Dal\", \"Chana Dal\", \"Egg curry\", \"Fish curry\", \"Paneer fry\", \"Paneer curry\", \"Rasam\", \"Curd rice\", \"Dosa\"],\n  \"western_centricity_observed\": \"low\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4849,
+      "output_tokens": 224,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The meal plan is fully executable within the constraints of cooking traditional South Indian food. The suggested dishes, such as sambar with moong dal and egg curry, are typical and feasible for a family setting. The plan includes a variety of protein-rich options that can be prepared using common kitchen equipment, and the time required for preparation aligns well with typical family dinner schedules.",
+      "details": {
+        "score": 5,
+        "reasoning": "The meal plan is fully executable within the constraints of cooking traditional South Indian food. The suggested dishes, such as sambar with moong dal and egg curry, are typical and feasible for a family setting. The plan includes a variety of protein-rich options that can be prepared using common kitchen equipment, and the time required for preparation aligns well with typical family dinner schedules.",
+        "evidence_quote": "This approach keeps your traditional flavors while boosting protein content naturally.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The meal plan is fully executable within the constraints of cooking traditional South Indian food. The suggested dishes, such as sambar with moong dal and egg curry, are typical and feasible for a family setting. The plan includes a variety of protein-rich options that can be prepared using common kitchen equipment, and the time required for preparation aligns well with typical family dinner schedules.\",\n  \"evidence_quote\": \"This approach keeps your traditional flavors while boosting protein content naturally.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 4275,
+      "output_tokens": 154,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "yes",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "This approach keeps your traditional flavors while boosting protein content naturally."
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"yes\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"This approach keeps your traditional flavors while boosting protein content naturally.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4771,
+      "output_tokens": 242,
+      "from_cache": false
+    }
+  }
+}

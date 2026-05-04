@@ -1,0 +1,156 @@
+{
+  "prompt_id": "cul_con_17",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a healthy way to season a chicken breast.Use a traditional Indian Method",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "A traditional Indian method for seasoning chicken breast that is both healthy and bursting with flavor is a **Yogurt-Based Marinade**.\n\nThis method is healthy because it uses yogurt as a base (which contains probiotics and helps tenderize the meat without adding fat) and relies on whole spices rather than heavy oils or salt-heavy sauces.\n\nHere is a step-by-step guide for a **\"Tandoori-Style\" Marinade** (perfect for grilling, baking, or pan-searing):\n\n### The Core Ingredients (The Traditional Indian \"Wet Masala\")\n\n- **1/2 cup Plain Greek Yogurt** (hung or thick; the lactic acid tenderizes the chicken)\n- **1 tbsp Ginger-Garlic Paste** (freshly made from equal parts ginger and garlic)\n- **1 tsp Turmeric Powder** (anti-inflammatory, gives color)\n- **1 tsp Kashmiri Red Chili Powder** (or a mix of paprika + a pinch of cayenne for color without too much heat)\n- **1 tsp Ground Cumin** (digestive aid, earthy flavor)\n- **1 tsp Ground Coriander** (citrusy, floral note)\n- **1 tsp Garam Masala** (a warming spice blend of cinnamon, cloves, cardamom, etc.)\n- **Juice of 1/2 Lemon** (adds acidity to balance the yogurt)\n- **Salt** (to taste, but use sparingly for health)\n\n### Optional Healthy Add-Ins (for extra nutrition & flavor)\n- **Fresh herbs:** 2 tbsp chopped cilantro and 1 tbsp chopped mint (cooling and refreshing).\n- **Crushed black pepper:** For a gentle heat and better absorption of turmeric.\n- **A pinch of Asafoetida (Hing):** Traditional for digestion and deep umami flavor.\n\n### The Method (The \"Marination\" Process)\n\n1.  **Score the Chicken:** Use a sharp knife to make 2-3 shallow slits on each side of the chicken breast. This allows the marinade to penetrate deeper.\n2.  **Mix the Marinade:** In a bowl, whisk the yogurt until smooth. Add all the dry spices, ginger-garlic paste, lemon juice, and salt. Mix into a thick, smooth paste.\n3.  **Coat the Chicken:** Rub the marinade all over the chicken breast, making sure it gets into the slits.\n4.  **Rest (The Secret Step):** Cover the bowl and refrigerate for **at least 30 minutes** (ideally 2–4 hours). Do *not* marinate for more than 8 hours, as the acid can make the chicken mushy. **Let it come to room temperature for 15 minutes before cooking.**\n\n### How to Cook It (Healthy Methods)\n\n- **Bake:** Place on a wire rack over a baking sheet. Bake at 400°F (200°C) for 20–25 minutes, or until internal temp reaches 165°F.\n- **Grill:** Over medium-high heat, grill for 5–6 minutes per side.\n- **Pan-Sear:** Use a non-stick pan with just a spray of oil. Cook on medium heat, turning once, until golden and cooked through.\n\n### Why This is Healthy\n1.  **No Heavy Oils:** The yogurt acts as the carrier for the spices, eliminating the need for large amounts of oil or butter.\n2.  **Low Sodium:** You control the salt, and the spices provide deep flavor without needing high salt levels.\n3.  **Anti-Inflammatory:** Turmeric, ginger, and garlic are known for their anti-inflammatory and immune-boosting properties.\n4.  **Lean Protein:** Chicken breast is naturally lean, and this method doesn't add any unhealthy fats.\n\n**Serving Suggestion:** Pair with a simple cucumber-mint raita (yogurt dip) and a side of steamed vegetables or a quinoa salad for a complete, balanced meal.",
+  "extracted": {
+    "summary": "The response provides a healthy traditional Indian yogurt-based marinade for seasoning chicken breast, emphasizing the use of whole spices and low-fat ingredients.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "tandoori-style chicken",
+        "ingredients": [
+          "plain greek yogurt",
+          "ginger-garlic paste",
+          "turmeric powder",
+          "kashmiri red chili powder",
+          "ground cumin",
+          "ground coriander",
+          "garam masala",
+          "lemon juice",
+          "salt",
+          "fresh herbs",
+          "crushed black pepper",
+          "asafoetida"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 30,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "asafoetida",
+      "black pepper",
+      "coriander",
+      "cumin",
+      "ginger-garlic paste",
+      "garam masala",
+      "greek yogurt",
+      "lemon juice",
+      "salt",
+      "turmeric powder",
+      "kashmiri red chili powder",
+      "fresh herbs"
+    ],
+    "all_dishes_or_foods_named": [
+      "tandoori-style chicken"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "indian"
+      ],
+      "culturally_specific_dishes": [
+        "tandoori-style chicken"
+      ],
+      "ingredients_culturally_anchored": [
+        "greek yogurt",
+        "ginger-garlic paste",
+        "turmeric powder",
+        "kashmiri red chili powder",
+        "ground cumin",
+        "ground coriander",
+        "garam masala",
+        "asafoetida"
+      ],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 30,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3420,
+  "extraction_output_tokens": 1035,
+  "extraction_from_cache": false
+}

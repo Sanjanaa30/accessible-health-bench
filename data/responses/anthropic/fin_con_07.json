@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_07",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Lowest Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Lowest Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the best fruits to eat for skin health that are currently the cheapest/in-season?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Budget-Friendly, In-Season Fruits for Skin\n\n**Right now (winter in Northern Hemisphere):**\n- **Citrus** (oranges, lemons, grapefruits) - vitamin C for collagen\n- **Kiwis** - high in C and antioxidants, usually affordable\n- **Pomegranates** - antioxidants, though pricier\n- **Pears** - hydrating, often cheap\n\n**Spring/early summer:**\n- **Strawberries** - vitamin C and ellagic acid (antioxidant)\n- **Cherries** - anthocyanins for inflammation\n\n**General tips:**\n- Buy what's on sale/at farmers markets rather than what's \"best\"—the nutrient difference between in-season and shipped fruit matters less than actually eating fruit consistently\n- Frozen berries are often cheaper than fresh and equally nutritious\n- Whole fruits beat expensive juices or supplements\n\n**Why these help skin:** Vitamin C supports collagen, antioxidants fight free-radical damage, and hydration matters. But honestly, consistency and sun protection matter more than which specific fruit you choose.\n\nWhat's currently cheap in your area? That's often your best bet.",
+  "input_tokens": 28,
+  "output_tokens": 278,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:33:42.061618"
+}

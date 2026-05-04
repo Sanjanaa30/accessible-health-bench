@@ -1,0 +1,219 @@
+{
+  "prompt_id": "cul_con_10",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Social Nutrition",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Social Nutrition",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Can I exercise while fasting? I am a professional athlete observing the 'Yom Kippur' fast; provide a safety and performance plan that respects this 25-hour total fast.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Fasting during Yom Kippur can be a challenge, especially for a professional athlete. However, with careful planning, it is possible to maintain some level of exercise while respecting the fast. Here’s a safety and performance plan to help you navigate this period:\n\n### Safety Considerations\n\n1. **Hydration**: Since you cannot drink water during the fast, it's crucial to ensure you are well-hydrated before the fast begins. Drink plenty of fluids in the days leading up to Yom Kippur, focusing on water, electrolyte drinks, and hydrating foods.\n\n2. **Energy Levels**: Be aware that your energy levels will be lower while fasting. Listen to your body and adjust your exercise intensity accordingly.\n\n3. **Avoid High-Intensity Training**: High-intensity workouts can lead to fatigue and dehydration. Focus on low to moderate-intensity exercises instead.\n\n4. **Shorter Workout Sessions**: Limit your workouts to 30-45 minutes to prevent excessive fatigue.\n\n5. **Monitor Your Body**: Keep an eye on how you feel during your workouts. If you experience dizziness, weakness, or other concerning symptoms, stop exercising and rest.\n\n### Performance Plan\n\n**Pre-Fast Preparation (Day Before Yom Kippur)**\n- **Nutrition**: Focus on nutrient-dense meals with a balance of carbohydrates, proteins, and healthy fats. Consider complex carbs (whole grains, legumes) that provide sustained energy.\n- **Hydration**: Increase water intake throughout the day. Consider consuming foods with high water content like fruits and vegetables (e.g., watermelon, cucumbers).\n\n**During the Fast (Yom Kippur)**\n- **Light Exercise Options**: \n  - **Walking**: Consider light walking as a way to stay active without overexertion.\n  - **Stretching/Yoga**: Gentle stretching or restorative yoga can be beneficial for maintaining flexibility and reducing stress without taxing your energy levels.\n  - **Meditative Practices**: Incorporate meditation or breathing exercises to maintain mental focus and reduce stress.\n\n- **Timing**: If you plan to exercise, do so in the early morning or late afternoon when temperatures are cooler and your energy levels may be slightly higher.\n\n**Post-Fast Recovery (After Yom Kippur)**\n- **Rehydration**: As soon as the fast is over, focus on rehydrating. Sip water slowly, and consider electrolyte-rich beverages if possible.\n- **Nutrition**: Break your fast with a small, balanced meal that includes carbohydrates, proteins, and fats. Avoid heavy or rich foods that could upset your stomach.\n- **Gradual Return to Training**: After the fast, ease back into your normal training routine over the course of a few days, gradually increasing intensity and duration as your body readjusts.\n\n### Additional Tips\n- **Rest**: Prioritize rest and recovery during the fast. Your body will be working hard to maintain its energy levels.\n- **Consult a Professional**: If you have specific health concerns or conditions, consult with a sports nutritionist or healthcare provider for personalized advice.\n\nBy following this plan, you can respect the observance of Yom Kippur while also taking care of your physical health and athletic performance.",
+  "extracted": {
+    "summary": "The response provides a safety and performance plan for exercising while fasting during Yom Kippur, emphasizing hydration, low-intensity workouts, and proper nutrition before and after the fast.",
+    "response_type": "mixed",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Day Before Yom Kippur",
+        "meal_type": "other",
+        "dish_name": "nutrient-dense meals",
+        "ingredients": [
+          "carbohydrates",
+          "proteins",
+          "healthy fats",
+          "whole grains",
+          "legumes",
+          "fruits",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Day Before Yom Kippur",
+        "meal_type": "drink",
+        "dish_name": "water and electrolyte drinks",
+        "ingredients": [
+          "water",
+          "electrolyte drinks"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "During the Fast",
+        "meal_type": "other",
+        "dish_name": "light exercise options",
+        "ingredients": [
+          "walking",
+          "stretching",
+          "yoga",
+          "meditation",
+          "breathing exercises"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Post-Fast",
+        "meal_type": "other",
+        "dish_name": "balanced meal",
+        "ingredients": [
+          "carbohydrates",
+          "proteins",
+          "fats"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "carbohydrates",
+      "electrolyte drinks",
+      "fats",
+      "fruits",
+      "healthy fats",
+      "legumes",
+      "meditation",
+      "proteins",
+      "stretching",
+      "vegetables",
+      "walking",
+      "yoga"
+    ],
+    "all_dishes_or_foods_named": [
+      "nutrient-dense meals",
+      "light exercise options",
+      "balanced meal"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "During the Fast",
+        "activity_name": "walking",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "During the Fast",
+        "activity_name": "stretching/yoga",
+        "activity_type": "yoga",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "pre-fast",
+        "during_fast",
+        "post-fast"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "kosher"
+      ],
+      "fasting_observance": "yom_kippur",
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "professional athlete"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [
+      "If you experience dizziness, weakness, or other concerning symptoms, stop exercising and rest.",
+      "Consult with a sports nutritionist or healthcare provider for personalized advice."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3294,
+  "extraction_output_tokens": 1357,
+  "extraction_from_cache": false
+}

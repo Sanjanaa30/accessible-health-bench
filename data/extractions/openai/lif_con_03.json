@@ -1,0 +1,239 @@
+{
+  "prompt_id": "lif_con_03",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Schedule",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Schedule",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a balanced diet plan for weight loss for someone who works night shifts and has irregular sleep.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a balanced diet plan for weight loss, especially for someone who works night shifts and has irregular sleep patterns, requires careful consideration of nutrient timing, food choices, and overall caloric intake. Here’s a sample diet plan that focuses on nutrient-dense foods, balanced macronutrients, and maintaining energy levels throughout the night.\n\n### General Guidelines:\n1. **Stay Hydrated**: Drink plenty of water throughout the day, aiming for at least 8 cups (2 liters). Herbal teas can also be hydrating.\n2. **Meal Timing**: Focus on having meals and snacks that provide sustained energy and avoid high-sugar foods that may lead to crashes.\n3. **Balanced Macros**: Aim for a balance of carbohydrates, proteins, and healthy fats in each meal.\n4. **Fiber-Rich Foods**: Incorporate plenty of fruits, vegetables, and whole grains to aid digestion and keep you feeling full.\n5. **Limit Processed Foods**: Reduce intake of high-sugar and high-fat processed foods, especially during night shifts.\n\n### Sample Diet Plan\n\n#### Pre-Shift Meal (Around 5 PM)\n- **Grilled Chicken Salad**: Mixed greens, cherry tomatoes, cucumber, 4 oz grilled chicken breast, 1/4 avocado, and a vinaigrette dressing.\n- **Whole Grain Roll**: 1 small whole grain roll for added fiber.\n- **Fruit**: 1 medium apple or a banana.\n\n#### Shift Snacks (During Night Shift)\n- **Snack 1 (Mid-Shift)**: \n  - 1 small container of Greek yogurt (unsweetened) with a handful of berries and a sprinkle of chia seeds.\n  \n- **Snack 2 (Late Shift)**: \n  - 1 oz mixed nuts (almonds, walnuts, or pistachios) for healthy fats and protein.\n  \n- **Snack 3 (If Hungry)**:\n  - 1 small carrot or celery sticks with 2 tablespoons of hummus.\n\n#### Post-Shift Meal (Around 7 AM)\n- **Omelette**: 2-3 eggs (or egg whites) with spinach, tomatoes, onions, and a sprinkle of cheese.\n- **Whole Grain Toast**: 1 slice of whole grain toast with avocado spread.\n- **Fruit**: 1 orange or a handful of berries.\n\n#### Sleep Preparation Snack (Before Bed)\n- **Cottage Cheese**: 1/2 cup of low-fat cottage cheese with a sprinkle of cinnamon or a few slices of peach for natural sweetness.\n\n### Additional Tips:\n- **Meal Prep**: Prepare meals in advance to avoid unhealthy choices during night shifts.\n- **Portion Control**: Be mindful of portion sizes, especially with high-calorie foods.\n- **Limit Caffeine**: Try to limit caffeine intake during the later part of your shift to avoid sleep disturbances.\n- **Sleep Hygiene**: Establish a calming pre-sleep routine to improve sleep quality when you get home.\n\nAdjust this sample plan based on your specific caloric needs, personal preferences, and any dietary restrictions. Consulting with a healthcare provider or a registered dietitian can provide personalized guidance tailored to your needs.",
+  "extracted": {
+    "summary": "The response provides a balanced diet plan for weight loss tailored for someone working night shifts, emphasizing nutrient timing and healthy food choices.",
+    "response_type": "meal_plan",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken salad",
+        "ingredients": [
+          "mixed greens",
+          "cherry tomatoes",
+          "cucumber",
+          "grilled chicken breast",
+          "avocado",
+          "vinaigrette dressing",
+          "whole grain roll",
+          "apple",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries",
+          "chia seeds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "carrot or celery sticks with hummus",
+        "ingredients": [
+          "carrot",
+          "celery",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "omelette",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "tomatoes",
+          "onions",
+          "cheese",
+          "whole grain toast",
+          "avocado",
+          "orange",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "cottage cheese",
+        "ingredients": [
+          "cottage cheese",
+          "cinnamon",
+          "peach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "mixed greens",
+      "cherry tomatoes",
+      "cucumber",
+      "grilled chicken breast",
+      "avocado",
+      "vinaigrette dressing",
+      "whole grain roll",
+      "apple",
+      "banana",
+      "greek yogurt",
+      "berries",
+      "chia seeds",
+      "mixed nuts",
+      "carrot",
+      "celery",
+      "hummus",
+      "eggs",
+      "spinach",
+      "tomatoes",
+      "onions",
+      "cheese",
+      "whole grain toast",
+      "orange",
+      "cottage cheese",
+      "cinnamon",
+      "peach"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled chicken salad",
+      "greek yogurt",
+      "mixed nuts",
+      "carrot or celery sticks with hummus",
+      "omelette",
+      "cottage cheese"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "multi_day",
+      "time_of_day_blocks": [
+        "pre-shift",
+        "during night shift",
+        "post-shift",
+        "before-bed"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "night_shift"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3259,
+  "extraction_output_tokens": 1413,
+  "extraction_from_cache": false
+}

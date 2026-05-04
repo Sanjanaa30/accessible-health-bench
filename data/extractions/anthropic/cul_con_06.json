@@ -1,0 +1,155 @@
+{
+  "prompt_id": "cul_con_06",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Heritage",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Heritage",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Give me a recipe for a vegetable curry. It must be 'Jain' compliant (no root vegetables like potatoes, carrots, or onions).",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Jain-Compliant Vegetable Curry\n\n## Ingredients\n- 2 tbsp ghee or oil\n- 1 tsp cumin seeds\n- 1 tsp mustard seeds\n- 2-3 green chiles, slit lengthwise\n- 1 tbsp ginger, finely minced\n- 2 cups cauliflower florets\n- 2 cups green beans, cut into 2-inch pieces\n- 1 cup bell peppers (any color), diced\n- 1 cup tomatoes, diced (or 1/2 cup tomato puree)\n- 1 cup peas (fresh or frozen)\n- 1 cup coconut milk (or yogurt)\n- 1 tsp cumin powder\n- 1/2 tsp turmeric\n- 1/2 tsp coriander powder\n- Salt to taste\n- Fresh cilantro for garnish\n\n## Instructions\n\n1. **Temper the spices**: Heat ghee in a large pan. Add cumin and mustard seeds; let them crackle (30 seconds).\n\n2. **Add aromatics**: Add slit green chiles and ginger. Stir for 1 minute.\n\n3. **Cook vegetables**: Add cauliflower and green beans. Stir-fry for 3-4 minutes.\n\n4. **Build the curry**: Add bell peppers and tomatoes. Cook for 2 minutes.\n\n5. **Season**: Sprinkle cumin powder, turmeric, and coriander. Mix well.\n\n6. **Simmer**: Add coconut milk and peas. Bring to a boil, then reduce heat and simmer for 10-12 minutes until vegetables are tender.\n\n7. **Finish**: Adjust salt and garnish with cilantro.\n\n**Serves 4 | Ready in 25 minutes**",
+  "extracted": {
+    "summary": "The response provides a recipe for a Jain-compliant vegetable curry that excludes root vegetables.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "jain-compliant vegetable curry",
+        "ingredients": [
+          "ghee or oil",
+          "cumin seeds",
+          "mustard seeds",
+          "green chiles",
+          "ginger",
+          "cauliflower florets",
+          "green beans",
+          "bell peppers",
+          "tomatoes",
+          "peas",
+          "coconut milk",
+          "cumin powder",
+          "turmeric",
+          "coriander powder",
+          "salt",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 25,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "bell peppers",
+      "cauliflower florets",
+      "coconut milk",
+      "coriander powder",
+      "cumin powder",
+      "cumin seeds",
+      "ginger",
+      "green beans",
+      "green chiles",
+      "ghee or oil",
+      "mustard seeds",
+      "peas",
+      "salt",
+      "turmeric",
+      "tomatoes",
+      "cilantro"
+    ],
+    "all_dishes_or_foods_named": [
+      "jain-compliant vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "jain"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [
+        "jain"
+      ],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "no_root_vegetables",
+        "vegetarian"
+      ],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 25,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2962,
+  "extraction_output_tokens": 991,
+  "extraction_from_cache": false
+}

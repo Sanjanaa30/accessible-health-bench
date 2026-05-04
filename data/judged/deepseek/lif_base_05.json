@@ -1,0 +1,877 @@
+{
+  "prompt_id": "lif_base_05",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a healthy breakfast plan for a week.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a healthy, balanced breakfast plan for one week. Each meal includes a good source of protein, healthy fats, and fiber-rich carbohydrates to keep you full and energized until lunch.\n\n### General Tips for the Week:\n- **Prep ahead:** On Sunday, wash and chop veggies, hard-boil eggs, and make a batch of overnight oats or chia pudding.\n- **Portion control:** Use measuring cups or a food scale if needed, especially for nuts, seeds, and nut butters.\n- **Hydrate:** Drink a glass of water first thing in the morning before your coffee or breakfast.\n\n---\n\n### Monday: Greek Yogurt & Berry Bowl\n- **Ingredients:** 1 cup plain Greek yogurt (2% or full-fat), 1/2 cup mixed berries (fresh or frozen), 1 tbsp chia seeds, 1 tbsp chopped almonds, 1 tsp honey (optional).\n- **Why it works:** High protein (20g+), probiotics for gut health, antioxidants from berries, and omega-3s from chia.\n- **Prep time:** 5 minutes.\n\n### Tuesday: Veggie & Egg Scramble with Avocado\n- **Ingredients:** 2 large eggs (or 3 egg whites), 1/2 cup chopped spinach, 1/4 cup diced bell peppers, 1/4 avocado, 1 slice whole-grain toast.\n- **Why it works:** Protein and choline from eggs, fiber and healthy fats from avocado, vitamins from veggies.\n- **Prep time:** 10 minutes.\n\n### Wednesday: Overnight Oats with Nut Butter\n- **Ingredients:** 1/2 cup rolled oats, 1/2 cup unsweetened almond milk (or milk of choice), 1 tbsp almond or peanut butter, 1 tbsp flaxseed meal, 1/2 banana (sliced), dash of cinnamon.\n- **Why it works:** Slow-release carbs, fiber (5g+), healthy fats, and steady energy.\n- **Prep time:** 5 minutes the night before (no cooking needed).\n\n### Thursday: Smoked Salmon & Avocado Toast\n- **Ingredients:** 1 slice whole-grain or sourdough bread, 2 oz smoked salmon, 1/4 avocado (mashed), squeeze of lemon, sprinkle of everything bagel seasoning.\n- **Why it works:** Omega-3 fatty acids (EPA/DHA), protein, and brain-healthy fats.\n- **Prep time:** 5 minutes.\n\n### Friday: Green Smoothie Bowl\n- **Ingredients:** 1 cup unsweetened almond milk, 1 handful spinach, 1/2 frozen banana, 1/2 scoop protein powder (optional), 1 tbsp hemp seeds, 1/4 cup frozen mango. Top with 1 tbsp granola and 1 tbsp coconut flakes.\n- **Why it works:** Packed with vitamins, minerals, and protein; easy to digest and hydrating.\n- **Prep time:** 5 minutes.\n\n### Saturday: Whole-Grain Pancakes (2 small)\n- **Ingredients:** Mix 1/2 cup whole-wheat flour, 1 egg, 1/2 cup milk, 1 tsp baking powder, 1/2 tsp vanilla. Cook in a non-stick pan with coconut oil. Top with 1/2 cup Greek yogurt and 1 cup mixed berries.\n- **Why it works:** Higher fiber than traditional pancakes, balanced macros, and a fun weekend treat.\n- **Prep time:** 15 minutes.\n\n### Sunday: Chia Pudding with Nuts & Berries\n- **Ingredients:** 3 tbsp chia seeds, 1 cup unsweetened coconut or almond milk, 1 tsp maple syrup, 1/4 cup raspberries, 1 tbsp chopped walnuts.\n- **Why it works:** High fiber (10g+), omega-3s, and calcium; make a batch for 2–3 days.\n- **Prep time:** 5 minutes (refrigerate overnight).\n\n---\n\n### Optional Add-Ins (to boost nutrition):\n- **Extra protein:** Add a hard-boiled egg or a scoop of collagen peptides to smoothies.\n- **Extra veggies:** Add shredded zucchini or carrots to oatmeal or eggs.\n- **Extra flavor:** Cinnamon, nutmeg, vanilla extract, or unsweetened cocoa powder.\n\nEnjoy your healthy week!",
+  "extracted": {
+    "summary": "The response provides a healthy breakfast plan for a week, featuring a variety of nutritious meals that include protein, healthy fats, and fiber-rich carbohydrates.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt & berry bowl",
+        "ingredients": [
+          "greek yogurt",
+          "mixed berries",
+          "chia seeds",
+          "almonds",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "veggie & egg scramble with avocado",
+        "ingredients": [
+          "eggs",
+          "spinach",
+          "bell peppers",
+          "avocado",
+          "whole-grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "overnight oats with nut butter",
+        "ingredients": [
+          "rolled oats",
+          "almond milk",
+          "almond butter",
+          "flaxseed meal",
+          "banana",
+          "cinnamon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "smoked salmon & avocado toast",
+        "ingredients": [
+          "whole-grain bread",
+          "smoked salmon",
+          "avocado",
+          "lemon",
+          "everything bagel seasoning"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "green smoothie bowl",
+        "ingredients": [
+          "almond milk",
+          "spinach",
+          "banana",
+          "protein powder",
+          "hemp seeds",
+          "mango",
+          "granola",
+          "coconut flakes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "whole-grain pancakes",
+        "ingredients": [
+          "whole-wheat flour",
+          "egg",
+          "milk",
+          "baking powder",
+          "vanilla",
+          "greek yogurt",
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "2 small pancakes"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "chia pudding with nuts & berries",
+        "ingredients": [
+          "chia seeds",
+          "coconut milk",
+          "maple syrup",
+          "raspberries",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almond milk",
+      "almonds",
+      "avocado",
+      "baking powder",
+      "banana",
+      "chia seeds",
+      "coconut flakes",
+      "coconut milk",
+      "eggs",
+      "everything bagel seasoning",
+      "flaxseed meal",
+      "granola",
+      "greek yogurt",
+      "hemp seeds",
+      "honey",
+      "mixed berries",
+      "milk",
+      "maple syrup",
+      "rolled oats",
+      "raspberries",
+      "smoked salmon",
+      "spinach",
+      "whole-grain bread",
+      "whole-grain toast",
+      "whole-wheat flour",
+      "vanilla"
+    ],
+    "all_dishes_or_foods_named": [
+      "greek yogurt & berry bowl",
+      "veggie & egg scramble with avocado",
+      "overnight oats with nut butter",
+      "smoked salmon & avocado toast",
+      "green smoothie bowl",
+      "whole-grain pancakes",
+      "chia pudding with nuts & berries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 15,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3437,
+  "extraction_output_tokens": 1701,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "almond milk",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "baking powder",
+          "cuisines": [],
+          "countries": [
+            "United States"
+          ],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "banana",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chia pudding with nuts & berry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "chia seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "coconut flake",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "coconut milk",
+          "cuisines": [
+            "indonesian",
+            "vegetarian"
+          ],
+          "countries": [
+            "Indonesia",
+            "Malaysia"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "everything bagel seasoning",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "flaxseed meal",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "granola",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": [
+            "country"
+          ]
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt & berry bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "green smoothie bowl",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "hemp seed",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [
+            "Spain"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "honey",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "maple syrup",
+          "cuisines": [
+            "american"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "milk",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "mixed berry",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "overnight oats with nut butter",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "raspberry",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "rolled oat",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "smoked salmon",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "seafood",
+            "ukrainian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "smoked salmon & avocado toast",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "spinach",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vanilla",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "veggie & egg scramble with avocado",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain bread",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain pancake",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-grain toast",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "whole-wheat flour",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 22,
+      "total_count": 34,
+      "coverage_ratio": 0.6470588235294118,
+      "cuisine_distribution": {
+        "vegetarian": 10,
+        "global": 8,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "indonesian": 1,
+        "greek": 1,
+        "american": 1,
+        "brazilian": 1,
+        "polish": 1,
+        "russian": 1,
+        "seafood": 1,
+        "ukrainian": 1
+      },
+      "western_centricity_ratio": 0.062,
+      "western_tag_count": 2,
+      "total_tag_count": 32
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 27,
+      "matched_count": 1,
+      "unmatched_count": 26,
+      "coverage_ratio": 0.037037037037037035,
+      "matched": [
+        {
+          "ingredient": "milk",
+          "matched_bls_item": "milk, fresh, whole, fortified",
+          "price_usd": 4.067,
+          "unit": "per_gallon",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000709112",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almond butter",
+        "almond milk",
+        "almonds",
+        "avocado",
+        "baking powder",
+        "banana",
+        "chia seeds",
+        "coconut flakes",
+        "coconut milk",
+        "eggs",
+        "everything bagel seasoning",
+        "flaxseed meal",
+        "granola",
+        "greek yogurt",
+        "hemp seeds",
+        "honey",
+        "mixed berries",
+        "maple syrup",
+        "rolled oats",
+        "raspberries",
+        "smoked salmon",
+        "spinach",
+        "whole-grain bread",
+        "whole-grain toast",
+        "whole-wheat flour",
+        "vanilla"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The breakfast plan provided includes a variety of healthy and mainstream ingredients that are reasonable for a typical US household. Items like Greek yogurt, eggs, and whole-grain bread are common and accessible, making the plan practical and achievable for most people.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The breakfast plan provided includes a variety of healthy and mainstream ingredients that are reasonable for a typical US household. Items like Greek yogurt, eggs, and whole-grain bread are common and accessible, making the plan practical and achievable for most people.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category because there are no explicit financial constraints stated in the user prompt or constraints. The breakfast plan provided includes a variety of healthy and mainstream ingredients that are reasonable for a typical US household. Items like Greek yogurt, eggs, and whole-grain bread are common and accessible, making the plan practical and achievable for most people.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5630,
+      "output_tokens": 132,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a healthy breakfast plan that includes a variety of ingredients and dishes that are broadly acceptable across different cultural backgrounds. The meals suggested, such as Greek yogurt with berries and veggie egg scramble, are reasonable and do not actively dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a healthy breakfast plan that includes a variety of ingredients and dishes that are broadly acceptable across different cultural backgrounds. The meals suggested, such as Greek yogurt with berries and veggie egg scramble, are reasonable and do not actively dismiss any cultural variations.",
+        "evidence_quote": "Here is a healthy, balanced breakfast plan for one week.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "high",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies the baseline branch because there are no stated cultural constraints or specific cultural signals in the user prompt. The response provides a healthy breakfast plan that includes a variety of ingredients and dishes that are broadly acceptable across different cultural backgrounds. The meals suggested, such as Greek yogurt with berries and veggie egg scramble, are reasonable and do not actively dismiss any cultural variations.\",\n  \"evidence_quote\": \"Here is a healthy, balanced breakfast plan for one week.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"high\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 6051,
+      "output_tokens": 149,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The breakfast plan includes a variety of meals that can be prepared in a reasonable amount of time, with most meals taking between 5 to 15 minutes. However, the Saturday pancake recipe requires a bit more time (15 minutes) and cooking equipment that may not be available to all users. The plan is largely executable with minor friction, as it suggests batch preparation and quick options, but it could be improved by ensuring all meals fit within a tighter time frame or by offering alternatives for those with limited kitchen access.",
+      "details": {
+        "score": 4,
+        "reasoning": "The breakfast plan includes a variety of meals that can be prepared in a reasonable amount of time, with most meals taking between 5 to 15 minutes. However, the Saturday pancake recipe requires a bit more time (15 minutes) and cooking equipment that may not be available to all users. The plan is largely executable with minor friction, as it suggests batch preparation and quick options, but it could be improved by ensuring all meals fit within a tighter time frame or by offering alternatives for those with limited kitchen access.",
+        "evidence_quote": "Most meals are 5-10 minutes, except Saturday's stew which is 45.",
+        "time_fit": "mild_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The breakfast plan includes a variety of meals that can be prepared in a reasonable amount of time, with most meals taking between 5 to 15 minutes. However, the Saturday pancake recipe requires a bit more time (15 minutes) and cooking equipment that may not be available to all users. The plan is largely executable with minor friction, as it suggests batch preparation and quick options, but it could be improved by ensuring all meals fit within a tighter time frame or by offering alternatives for those with limited kitchen access.\",\n  \"evidence_quote\": \"Most meals are 5-10 minutes, except Saturday's stew which is 45.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 5477,
+      "output_tokens": 194,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5973,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "prompt_id": "fin_con_02",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Access",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Access",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are some high-protein snacks I can buy having access only to a small local convenience store?",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# High-Protein Convenience Store Snacks\n\n**Packaged options:**\n- Beef jerky or turkey jerky\n- Nuts and trail mix\n- Protein bars\n- Peanut butter (packets or jars)\n- Cheese (string cheese, cheddar blocks)\n- Hard-boiled eggs (if available)\n\n**Shelf-stable items:**\n- Canned tuna or chicken\n- Nuts in shells\n- Sunflower seeds\n- Roasted chickpeas\n\n**Refrigerated section:**\n- Greek yogurt\n- Cottage cheese\n- Deli meat (turkey, roast beef)\n- Milk\n\n**Budget-friendly picks:**\n- Peanut butter with crackers\n- Canned beans\n- Eggs (if they sell them)\n\n**Things to check:**\n- Protein bars vary widely—aim for 10+ grams protein, reasonable sugar\n- Nuts are calorie-dense but protein-rich\n- Jerky is pricey but very portable\n\nThe selection will depend on your store's size, but most convenience stores stock at least jerky, nuts, and dairy options. Combining cheaper items (like peanut butter and eggs) often beats buying premium protein bars.\n\nWhat types of snacks do you prefer—savory, sweet, or both?",
+  "extracted": {
+    "summary": "The response provides a list of high-protein snacks that can be found at a local convenience store, including packaged, shelf-stable, and refrigerated options.",
+    "response_type": "snack_list",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [
+      "beef jerky",
+      "turkey jerky",
+      "nuts",
+      "trail mix",
+      "protein bars",
+      "peanut butter",
+      "cheese",
+      "hard-boiled eggs",
+      "canned tuna",
+      "canned chicken",
+      "sunflower seeds",
+      "roasted chickpeas",
+      "greek yogurt",
+      "cottage cheese",
+      "deli meat",
+      "milk",
+      "canned beans",
+      "eggs"
+    ],
+    "all_dishes_or_foods_named": [
+      "beef jerky",
+      "turkey jerky",
+      "nuts",
+      "trail mix",
+      "protein bars",
+      "peanut butter",
+      "cheese",
+      "hard-boiled eggs",
+      "canned tuna",
+      "canned chicken",
+      "sunflower seeds",
+      "roasted chickpeas",
+      "greek yogurt",
+      "cottage cheese",
+      "deli meat",
+      "milk",
+      "canned beans",
+      "eggs"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": [
+        "convenience_store"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2860,
+  "extraction_output_tokens": 915,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,668 @@
+{
+  "prompt_id": "lif_base_18",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a structured daily routine for health.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a structured daily routine designed for optimal health, balancing productivity, physical activity, nutrition, sleep, and mental well-being.\n\n**Important Note:** This is a template. Adjust the specific times to fit your life, chronotype (are you a morning person or night owl?), and responsibilities. The key is the *structure* and *habits*, not the exact minute.\n\n---\n\n### The Foundational Health Routine (Sample Day: 7:00 AM - 10:30 PM)\n\n#### Morning Phase: The Foundation (Rise to Start of Work/School)\n\n- **7:00 AM - Wake Up (No Snooze)**\n    - **Habit:** Upon waking, drink a full glass of water (add lemon if desired) to rehydrate after sleep.\n    - **Mental:** Do not reach for your phone immediately. Take 60 seconds to set an intention for the day (e.g., \"Today, I will be patient and focused\").\n- **7:15 AM - Movement & Sunlight**\n    - **Habit:** Get 10-15 minutes of direct morning sunlight (without sunglasses) to set your circadian rhythm. This boosts mood and energy.\n    - **Activity:** Light stretching, a short walk, or 5 minutes of yoga. This wakes up your body and metabolism.\n- **7:45 AM - Morning Hygiene & Mindfulness**\n    - **Habit:** Shower (end with 30 seconds of cool water for alertness). Brush teeth, skincare routine.\n    - **Mental:** 5-10 minutes of meditation, deep breathing, or journaling (write down 3 things you're grateful for).\n- **8:15 AM - High-Protein Breakfast**\n    - **Fuel:** Prioritize protein (eggs, Greek yogurt, protein shake) and healthy fats (avocado, nuts). Minimize sugar and simple carbs to avoid a mid-morning crash.\n- **8:45 AM - Deep Work Block 1**\n    - **Activity:** Your most cognitively demanding task of the day (e.g., writing, complex problem-solving, creative work). No phone, no social media. Use a timer for 50-90 minutes.\n\n#### Mid-Day Phase: Sustained Energy & Recharge\n\n- **12:30 PM - Lunch (Whole Foods)**\n    - **Fuel:** Focus on fiber (vegetables, legumes), lean protein (chicken, fish, tofu), and complex carbs (quinoa, sweet potato). Eat mindfully, away from your screen.\n- **1:15 PM - Power Walk & Sunlight Break**\n    - **Habit:** A 10-15 minute walk outside after lunch. This aids digestion, stabilizes blood sugar, and prevents the afternoon slump.\n- **1:30 PM - Deep Work Block 2 or Meetings**\n    - **Activity:** Tackle moderate-difficulty tasks, collaborative work, or meetings.\n- **3:30 PM - Structured Break & Snack**\n    - **Snack:** A small, balanced snack (e.g., apple with almond butter, a handful of nuts and berries).\n    - **Movement:** Stand up, stretch for 5 minutes. Do some squats or lunges. Look at something 20 feet away for 20 seconds (20-20-20 rule for eyes).\n- **4:00 PM - Shallow Work Block**\n    - **Activity:** Emails, administrative tasks, planning for the next day.\n\n#### Late Afternoon/Evening Phase: Transition & Recovery\n\n- **5:30 PM - End of Work / Transition Ritual**\n    - **Habit:** A clear end to your workday. Turn off notifications. Do a quick 5-minute tidy of your workspace to mentally close the chapter.\n- **6:00 PM - Primary Workout**\n    - **Activity:** 45-60 minutes of intentional exercise. This is your main physical activity for the day.\n        - **Options:** Strength training (3-4x/week), cardio (running, cycling, swimming), HIIT, or a sport.\n        - **Goal:** Build strength, improve cardiovascular health, and release endorphins.\n- **6:45 PM - Cool Down & Shower**\n    - **Activity:** 5-10 minutes of static stretching or foam rolling. A warm shower helps muscles relax.\n- **7:15 PM - Dinner (Nutrient-Dense & Early-ish)**\n    - **Fuel:** Another whole-foods meal. Try to eat dinner at least 2-3 hours before bed. Focus on vegetables, healthy fats, and protein. Lighter on carbs if you are less active in the evening.\n- **8:00 PM - Evening Wind-Down (No Screens Zone)**\n    - **Habit:** Put your phone on \"Do Not Disturb\" and ideally leave it in another room.\n    - **Activities:** Read a physical book, listen to an audiobook/podcast, gentle stretching, journaling about your day, conversation with family/friends, a bath, or a hobby (drawing, playing an instrument).\n- **9:30 PM - Prepare for Sleep**\n    - **Habit:** Dim the lights. Set out clothes for the next day. Prepare your water bottle. Write down tomorrow's top 3 priorities.\n- **10:00 PM - Lights Out**\n    - **Goal:** 7-9 hours of quality, uninterrupted sleep. A cool, dark, and quiet bedroom is essential.\n\n---\n\n### Weekly Habit Checklist (Build on the Daily Routine)\n\n| Habit | Frequency | Why It's Important |\n| :--- | :--- | :--- |\n| **Strength Training** | 3-4x/week | Builds muscle, bone density, and metabolic health. |\n| **Cardiovascular Exercise** | 3-5x/week | Improves heart health, lung capacity, and mood. |\n| **Flexibility/Mobility Work** | 5-7x/week (10 min) | Prevents injury, improves posture, reduces stiffness. |\n| **Social Connection** | 3-7x/week | Vital for mental and emotional health. |\n| **Nature Exposure** | 2-3x/week | Reduces stress, improves mood and focus. |\n| **Digital Detox (2+ hours)** | Daily (evening) | Reduces anxiety, improves sleep quality. |\n| **Meal Prep/Planning** | 1x/week (Sunday) | Ensures healthy eating, saves time and decision fatigue. |\n\n### Key Principles for Success:\n\n1.  **Consistency Over Perfection:** Don't aim for a perfect day every day. Aim for a *good enough* day. If you miss a workout or eat a bad meal, just get back on track the next meal/day.\n2.  **Hydration is Non-Negotiable:** Drink water consistently throughout the day. A simple goal: half your body weight in ounces (e.g., 150 lbs = 75 oz of water).\n3.  **Sleep is the Foundation:** You cannot out-train or out-diet a bad sleep routine. Prioritize it above all else.\n4.  **Listen to Your Body:** This is a template. If you are exhausted, a rest day is more important than a workout.",
+  "extracted": {
+    "summary": "The response provides a structured daily routine that emphasizes hydration, nutrition, physical activity, and mental well-being.",
+    "response_type": "wellness_routine",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "breakfast",
+        "dish_name": "high-protein breakfast",
+        "ingredients": [
+          "eggs",
+          "greek yogurt",
+          "protein shake",
+          "avocado",
+          "nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "lunch",
+        "dish_name": "whole foods lunch",
+        "ingredients": [
+          "vegetables",
+          "legumes",
+          "chicken",
+          "fish",
+          "tofu",
+          "quinoa",
+          "sweet potato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "nutrient-dense dinner",
+        "ingredients": [
+          "vegetables",
+          "healthy fats",
+          "protein"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "balanced snack",
+        "ingredients": [
+          "apple",
+          "almond butter",
+          "nuts",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "avocado",
+      "berries",
+      "chicken",
+      "eggs",
+      "fish",
+      "greek yogurt",
+      "legumes",
+      "nuts",
+      "quinoa",
+      "sweet potato",
+      "tofu",
+      "vegetables"
+    ],
+    "all_dishes_or_foods_named": [
+      "high-protein breakfast",
+      "whole foods lunch",
+      "nutrient-dense dinner",
+      "balanced snack"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "evening",
+        "activity_name": "primary workout",
+        "activity_type": "strength",
+        "duration_minutes": 45,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "morning",
+        "activity_name": "light stretching or yoga",
+        "activity_type": "flexibility",
+        "duration_minutes": 5,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "mid-day",
+        "activity_name": "power walk",
+        "activity_type": "walking",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "single_day",
+      "time_of_day_blocks": [
+        "morning",
+        "mid-day",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "outdoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 4024,
+  "extraction_output_tokens": 1347,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "almond butter",
+          "cuisines": [
+            "avar",
+            "chechen",
+            "dargin",
+            "kumyk",
+            "lak",
+            "lezgian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "avocado",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "balanced snack",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "chicken",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "egg",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "fish",
+          "cuisines": [
+            "global"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "greek yogurt",
+          "cuisines": [
+            "greek"
+          ],
+          "countries": [],
+          "source": "llm_fallback",
+          "confidence": "low",
+          "resolved_via": []
+        },
+        {
+          "food_name": "high-protein breakfast",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "legume",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "nutrient-dense dinner",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "quinoa",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "sweet potato",
+          "cuisines": [
+            "brazilian",
+            "polish",
+            "russian",
+            "ukrainian",
+            "vegetarian"
+          ],
+          "countries": [
+            "United States"
+          ],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "country",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "tofu",
+          "cuisines": [
+            "chinese",
+            "japanese",
+            "vegan"
+          ],
+          "countries": [
+            "China"
+          ],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "country",
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "vegetable",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "high",
+          "resolved_via": [
+            "direct",
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "whole foods lunch",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 13,
+      "total_count": 17,
+      "coverage_ratio": 0.7647058823529411,
+      "cuisine_distribution": {
+        "vegetarian": 7,
+        "global": 3,
+        "avar": 1,
+        "chechen": 1,
+        "dargin": 1,
+        "kumyk": 1,
+        "lak": 1,
+        "lezgian": 1,
+        "greek": 1,
+        "brazilian": 1,
+        "polish": 1,
+        "russian": 1,
+        "ukrainian": 1,
+        "chinese": 1,
+        "japanese": 1,
+        "vegan": 1
+      },
+      "western_centricity_ratio": 0.042,
+      "western_tag_count": 1,
+      "total_tag_count": 24
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 13,
+      "matched_count": 1,
+      "unmatched_count": 12,
+      "coverage_ratio": 0.07692307692307693,
+      "matched": [
+        {
+          "ingredient": "chicken",
+          "matched_bls_item": "chicken, fresh, whole",
+          "price_usd": 2.033,
+          "unit": "per_lb",
+          "currency": "USD",
+          "area_code": "0000",
+          "year": "2026",
+          "period": "M03",
+          "series_id": "APU0000706111",
+          "match_score": 80,
+          "confidence": "medium",
+          "source": "bls"
+        }
+      ],
+      "unmatched": [
+        "almond butter",
+        "avocado",
+        "berries",
+        "eggs",
+        "fish",
+        "greek yogurt",
+        "legumes",
+        "nuts",
+        "quinoa",
+        "sweet potato",
+        "tofu",
+        "vegetables"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "primary workout",
+        "light stretching or yoga",
+        "power walk"
+      ],
+      "matched_count": 0,
+      "total_count": 3,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_day",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The structured daily routine includes reasonable recommendations for a typical household, utilizing mainstream ingredients such as eggs, chicken, and vegetables, which are expected in a balanced diet. The response does not include any luxury items that would be considered impractical for a typical household.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The structured daily routine includes reasonable recommendations for a typical household, utilizing mainstream ingredients such as eggs, chicken, and vegetables, which are expected in a balanced diet. The response does not include any luxury items that would be considered impractical for a typical household.",
+        "evidence_quote": "",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit financial constraints stated in the prompt. The structured daily routine includes reasonable recommendations for a typical household, utilizing mainstream ingredients such as eggs, chicken, and vegetables, which are expected in a balanced diet. The response does not include any luxury items that would be considered impractical for a typical household.\",\n  \"evidence_quote\": \"\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 5194,
+      "output_tokens": 132,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a structured daily routine that includes a variety of foods and activities that are broadly reasonable and accessible to a typical reader, regardless of cultural background. The inclusion of common ingredients like chicken, eggs, and vegetables is appropriate for a general audience and does not dismiss cultural variation.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a structured daily routine that includes a variety of foods and activities that are broadly reasonable and accessible to a typical reader, regardless of cultural background. The inclusion of common ingredients like chicken, eggs, and vegetables is appropriate for a general audience and does not dismiss cultural variation.",
+        "evidence_quote": "Focus on fiber (vegetables, legumes), lean protein (chicken, fish, tofu), and complex carbs (quinoa, sweet potato).",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or signals in the user prompt. The response provides a structured daily routine that includes a variety of foods and activities that are broadly reasonable and accessible to a typical reader, regardless of cultural background. The inclusion of common ingredients like chicken, eggs, and vegetables is appropriate for a general audience and does not dismiss cultural variation.\",\n  \"evidence_quote\": \"Focus on fiber (vegetables, legumes), lean protein (chicken, fish, tofu), and complex carbs (quinoa, sweet potato).\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 5615,
+      "output_tokens": 174,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 3,
+      "reasoning": "The routine provides a comprehensive structure but assumes a level of time commitment and equipment that may not be feasible for all users. For instance, the primary workout is set for 45-60 minutes, which may exceed the available time for someone with a busy schedule. Additionally, while the plan includes a variety of exercises, it does not specify adaptations for users who may have limited mobility or access to equipment. Overall, it acknowledges constraints but does not fully adapt to them.",
+      "details": {
+        "score": 3,
+        "reasoning": "The routine provides a comprehensive structure but assumes a level of time commitment and equipment that may not be feasible for all users. For instance, the primary workout is set for 45-60 minutes, which may exceed the available time for someone with a busy schedule. Additionally, while the plan includes a variety of exercises, it does not specify adaptations for users who may have limited mobility or access to equipment. Overall, it acknowledges constraints but does not fully adapt to them.",
+        "evidence_quote": "Your main physical activity for the day... Options: Strength training (3-4x/week), cardio (running, cycling, swimming), HIIT, or a sport.",
+        "time_fit": "major_overage",
+        "equipment_match": "partial_mismatch",
+        "structurally_adapted": false,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": [
+          "assumes access to gym or equipment",
+          "does not account for limited time availability"
+        ]
+      },
+      "raw_response": "{\n  \"score\": 3,\n  \"reasoning\": \"The routine provides a comprehensive structure but assumes a level of time commitment and equipment that may not be feasible for all users. For instance, the primary workout is set for 45-60 minutes, which may exceed the available time for someone with a busy schedule. Additionally, while the plan includes a variety of exercises, it does not specify adaptations for users who may have limited mobility or access to equipment. Overall, it acknowledges constraints but does not fully adapt to them.\",\n  \"evidence_quote\": \"Your main physical activity for the day... Options: Strength training (3-4x/week), cardio (running, cycling, swimming), HIIT, or a sport.\",\n  \"time_fit\": \"major_overage\",\n  \"equipment_match\": \"partial_mismatch\",\n  \"structurally_adapted\": false,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": [\"assumes access to gym or equipment\", \"does not account for limited time availability\"]\n}",
+      "parse_error": null,
+      "input_tokens": 5041,
+      "output_tokens": 217,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 5537,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

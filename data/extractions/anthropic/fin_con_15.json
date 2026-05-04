@@ -1,0 +1,119 @@
+{
+  "prompt_id": "fin_con_15",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Cross-Category",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Cross-Category",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "What are the best superfoods for heart health and energy? I can only shop at a food pantry that mostly provides canned goods and dry grains.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "Good news—you can build heart-healthy, energizing meals from pantry staples:\n\n**Canned goods to prioritize:**\n- **Beans** (black, kidney, pinto) - fiber, protein, minerals\n- **Fish** (sardines, canned salmon) - omega-3s are excellent for heart health\n- **Tomatoes** - lycopene and potassium\n- **Vegetables** (carrots, green beans, peas) - nutrients and fiber\n\n**Dry grains:**\n- **Oats** - soluble fiber helps cholesterol\n- **Brown rice** - B vitamins for energy\n- **Whole wheat pasta** - sustained energy\n- **Lentils/split peas** - protein + fiber combo\n\n**Practical combinations:**\n- Bean + grain meals (rice and beans, lentil soup)\n- Canned fish on whole grain toast\n- Oatmeal with canned fruit if available\n\n**Budget tip:** Beans and grains together create complete proteins, so you get more nutritional value per dollar.\n\n**One caution:** Canned goods can be high in sodium. If you have access to rinsing water, draining and rinsing canned beans/vegetables reduces salt by ~40%.\n\nDoes your pantry sometimes have fresh items, or access to any frozen vegetables? That would add options. Also worth asking pantry staff if they have whole grain options—some do.",
+  "extracted": {
+    "summary": "The response provides a list of heart-healthy superfoods that can be sourced from a food pantry, focusing on canned goods and dry grains.",
+    "response_type": "grocery_list",
+    "primary_goal": "heart_health",
+    "meal_components": [],
+    "all_ingredients": [
+      "beans",
+      "fish",
+      "tomatoes",
+      "vegetables",
+      "oats",
+      "brown rice",
+      "whole wheat pasta",
+      "lentils",
+      "split peas"
+    ],
+    "all_dishes_or_foods_named": [
+      "lentil soup"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "tight",
+      "uses_bulk_or_dry_goods": true,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [
+        "food_pantry"
+      ],
+      "store_types_referenced": [
+        "food_pantry"
+      ]
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": true
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": true,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Canned goods can be high in sodium. Rinsing can reduce salt."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2907,
+  "extraction_output_tokens": 782,
+  "extraction_from_cache": false
+}

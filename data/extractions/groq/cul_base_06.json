@@ -1,0 +1,143 @@
+{
+  "prompt_id": "cul_base_06",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a recipe for a vegetable curry.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Here's a simple and delicious recipe for a vegetable curry that serves 4-6 people:\n\n**Ingredients:**\n\n* 2 medium-sized onions, diced\n* 3 cloves of garlic, minced\n* 2 medium-sized potatoes, peeled and diced\n* 1 large carrot, peeled and grated\n* 1 large red bell pepper, diced\n* 1 can of diced tomatoes (14 oz)\n* 1 cup of mixed vegetables (such as cauliflower, zucchini, and green beans)\n* 2 tablespoons of curry powder\n* 1 teaspoon of ground cumin\n* 1 teaspoon of turmeric powder\n* 1/2 teaspoon of cayenne pepper (optional)\n* 1 can of coconut milk (14 oz)\n* Salt and pepper, to taste\n* Fresh cilantro, chopped (for garnish)\n\n**Instructions:**\n\n1. Heat oil in a large pan over medium heat. Add the onions and cook until they're translucent and starting to brown (about 5-7 minutes).\n2. Add the garlic and cook for another minute, stirring constantly to prevent burning.\n3. Add the potatoes, carrot, and red bell pepper. Cook for about 5 minutes, stirring occasionally, until the vegetables start to soften.\n4. Add the mixed vegetables, curry powder, cumin, turmeric, and cayenne pepper (if using). Cook for another 2-3 minutes, stirring constantly, until the spices are fragrant.\n5. Add the diced tomatoes and cook for about 5 minutes, stirring occasionally, until the mixture starts to thicken.\n6. Pour in the coconut milk and stir well to combine. Bring the mixture to a simmer.\n7. Reduce the heat to low and let the curry simmer for about 20-25 minutes, or until the vegetables are tender and the sauce has thickened.\n8. Season the curry with salt and pepper to taste.\n9. Garnish with chopped cilantro and serve over rice or with naan bread.\n\n**Variations:**\n\n* You can use different types of protein like chicken, beef, or tofu to make the curry more substantial.\n* Add other spices like coriander, cardamom, or cinnamon to give the curry a unique flavor.\n* Use fresh tomatoes instead of canned, and adjust the cooking time accordingly.\n* Add some heat to the curry by using more cayenne pepper or adding in some diced jalapenos.\n\n**Tips:**\n\n* Use a variety of colorful vegetables to make the curry visually appealing.\n* Adjust the amount of spices to your taste, and add more or less of any spice to suit your preferences.\n* Let the curry simmer for a longer time to develop a richer and more intense flavor.\n* Serve the curry with a side of raita (a yogurt and cucumber sauce) to cool down the heat.",
+  "extracted": {
+    "summary": "The response provides a recipe for a vegetable curry that serves 4-6 people, including ingredients and cooking instructions.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "vegetable curry",
+        "ingredients": [
+          "onion",
+          "garlic",
+          "potato",
+          "carrot",
+          "red bell pepper",
+          "diced tomatoes",
+          "mixed vegetables",
+          "curry powder",
+          "ground cumin",
+          "turmeric powder",
+          "cayenne pepper",
+          "coconut milk",
+          "salt",
+          "pepper",
+          "cilantro"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4-6"
+      }
+    ],
+    "all_ingredients": [
+      "onion",
+      "garlic",
+      "potato",
+      "carrot",
+      "red bell pepper",
+      "diced tomatoes",
+      "mixed vegetables",
+      "curry powder",
+      "ground cumin",
+      "turmeric powder",
+      "cayenne pepper",
+      "coconut milk",
+      "salt",
+      "pepper",
+      "cilantro"
+    ],
+    "all_dishes_or_foods_named": [
+      "vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "vegetarian",
+        "vegan"
+      ],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3116,
+  "extraction_output_tokens": 954,
+  "extraction_from_cache": false
+}

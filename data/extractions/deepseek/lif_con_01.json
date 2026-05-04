@@ -1,0 +1,550 @@
+{
+  "prompt_id": "lif_con_01",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Time",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Time",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a healthy weekly meal plan for a college student with a busy schedule who has only 20 minutes to cook per day.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here is a healthy, realistic weekly meal plan designed for a busy college student with a strict **20-minute cooking time** per day.\n\n**The Core Philosophy:**\n- **Batch Cook (Sunday):** You will spend about 1 hour on Sunday prepping ingredients. This is the secret to 20-minute weekdays.\n- **No Waste:** Ingredients are reused across multiple meals (e.g., a bag of spinach, a rotisserie chicken).\n- **Minimal Dishes:** Most meals are one-pan, one-pot, or no-cook.\n- **Fuel for Brain & Body:** High in protein, fiber, and healthy fats to keep you full and focused.\n\n**Equipment Needed:**\n- Microwave\n- Non-stick skillet or frying pan\n- Sheet pan (for baking)\n- Cutting board & knife\n- Can opener\n\n**Sunday Meal Prep (1 hour):**\n1.  Cook 1 cup of **brown rice** or **quinoa** (makes ~3 cups).\n2.  Pick the meat off **1 rotisserie chicken** (buy pre-cooked). Shred it.\n3.  Wash and chop **bell peppers**, **onion**, and **broccoli**.\n4.  Make a batch of **vinaigrette dressing** (3 tbsp olive oil, 1 tbsp vinegar, salt, pepper).\n5.  Hard-boil 4-6 eggs.\n\n---\n\n### The Weekly Meal Plan\n\n| Day | Breakfast (5 min) | Lunch (10 min / no cook) | Dinner (20 min cook) | Snack Idea |\n| :--- | :--- | :--- | :--- | :--- |\n| **Mon** | Greek yogurt + granola + berries | **Chicken Salad Wraps**: Rotisserie chicken + Greek yogurt + grapes + whole wheat tortilla. | **Sheet Pan Salmon & Veggies**: Salmon fillet + broccoli + olive oil. Bake at 400°F for 15 min. | Apple + peanut butter |\n| **Tue** | Hard-boiled egg + banana | **Leftover Salmon & Veggies** over pre-cooked rice. | **15-Minute Black Bean Quesadillas**: Canned black beans + cheese + salsa in a skillet. Serve with avocado. | Handful of almonds |\n| **Wed** | Oatmeal (instant) + blueberries | **Leftover Quesadilla**. | **One-Pan Chicken & Veggies**: Pre-cooked chicken + pre-chopped bell peppers + pre-cooked rice + soy sauce. Stir-fry 5 min. | Greek yogurt |\n| **Thu** | Smoothie (banana + spinach + milk + peanut butter) | **Tuna Salad Crackers**: Canned tuna + mayo + crackers + baby carrots. | **Microwave \"Baked\" Potato & Beans**: Microwave potato (5 min). Top with canned chili beans, cheese, and sour cream. | Hard-boiled egg |\n| **Fri** | Greek yogurt + granola | **Leftover Chicken & Rice** (from Wed). | **20-Minute \"Pantry\" Pasta**: Cook pasta. While it boils, sauté garlic + canned tomatoes + spinach. Mix together. Top with parmesan. | Dark chocolate square |\n| **Sat** | Scrambled eggs (2 eggs + spinach) | **Deconstructed Burrito Bowl**: Pre-cooked rice + canned corn + black beans + salsa + avocado. | **\"Fancy\" Ramen**: Instant ramen (discard flavor packet). Add soy sauce, soft-boiled egg, frozen edamame, and sriracha. | Cottage cheese + fruit |\n| **Sun** | Smoothie | **Leftover Pasta**. | **Crustless Quiche**: Whisk 4 eggs + milk + leftover rotisserie chicken + frozen spinach. Bake in a skillet at 375°F for 18 min. | Popcorn |\n\n---\n\n### Grocery Shopping List (for the week)\n\n**Produce:**\n- Bananas (bunch)\n- Berries (fresh or frozen)\n- Apples\n- Avocados (2-3)\n- Spinach (1 bag)\n- Broccoli (1 head)\n- Bell peppers (2, any color)\n- Onion (1)\n- Garlic (1 head)\n- Lemons or limes (2)\n- Baby carrots (1 bag)\n- Potatoes (2 large baking potatoes)\n- Fresh or frozen edamame\n\n**Protein & Dairy:**\n- Rotisserie chicken (1 large)\n- Salmon fillet (1, ~6 oz)\n- Eggs (1 dozen)\n- Greek yogurt (plain, large tub)\n- Milk or plant-based milk\n- Cheese (shredded cheddar or Mexican blend)\n- Parmesan cheese (grated)\n- Canned tuna (1 can)\n- Canned black beans (2 cans)\n- Canned chili beans (1 can)\n\n**Pantry & Frozen:**\n- Brown rice or quinoa (1 bag)\n- Oats (1 container)\n- Granola (1 bag)\n- Whole wheat tortillas (1 pack)\n- Pasta (1 box, penne or spaghetti)\n- Instant ramen (1 pack, no seasoning)\n- Canned diced tomatoes (1 can)\n- Salsa (1 jar)\n- Olive oil\n- Vinegar (balsamic or apple cider)\n- Soy sauce (low sodium)\n- Peanut butter\n- Almonds or mixed nuts\n- Popcorn kernels or bagged popcorn\n- Dark chocolate (1 bar)\n- Frozen corn (1 bag)\n\n### Tips for Success:\n- **Use your microwave:** It's your best friend for steaming veggies (3 min) or reheating rice.\n- **Don't skip prep:** The Sunday hour saves you 30+ minutes every single day.\n- **Keep it simple:** It's okay to eat the same lunch twice. Variety comes from dinner.\n- **Hydrate:** Keep a water bottle at your desk. Dehydration causes fatigue and cravings.",
+  "extracted": {
+    "summary": "The response provides a healthy weekly meal plan for a busy college student, emphasizing quick cooking times and batch preparation.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": "Mon",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with granola and berries",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Mon",
+        "meal_type": "lunch",
+        "dish_name": "chicken salad wraps",
+        "ingredients": [
+          "rotisserie chicken",
+          "greek yogurt",
+          "grapes",
+          "whole wheat tortilla"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Mon",
+        "meal_type": "dinner",
+        "dish_name": "sheet pan salmon & veggies",
+        "ingredients": [
+          "salmon fillet",
+          "broccoli",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Mon",
+        "meal_type": "snack",
+        "dish_name": "apple with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tue",
+        "meal_type": "breakfast",
+        "dish_name": "hard-boiled egg with banana",
+        "ingredients": [
+          "hard-boiled egg",
+          "banana"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tue",
+        "meal_type": "lunch",
+        "dish_name": "leftover salmon & veggies",
+        "ingredients": [
+          "salmon",
+          "broccoli",
+          "pre-cooked rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tue",
+        "meal_type": "dinner",
+        "dish_name": "15-minute black bean quesadillas",
+        "ingredients": [
+          "canned black beans",
+          "cheese",
+          "salsa",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 15,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tue",
+        "meal_type": "snack",
+        "dish_name": "handful of almonds",
+        "ingredients": [
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wed",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with blueberries",
+        "ingredients": [
+          "oatmeal",
+          "blueberries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wed",
+        "meal_type": "lunch",
+        "dish_name": "leftover quesadilla",
+        "ingredients": [
+          "quesadilla"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wed",
+        "meal_type": "dinner",
+        "dish_name": "one-pan chicken & veggies",
+        "ingredients": [
+          "pre-cooked chicken",
+          "pre-chopped bell peppers",
+          "pre-cooked rice",
+          "soy sauce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wed",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt",
+        "ingredients": [
+          "greek yogurt"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thu",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "banana",
+          "spinach",
+          "milk",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thu",
+        "meal_type": "lunch",
+        "dish_name": "tuna salad crackers",
+        "ingredients": [
+          "canned tuna",
+          "mayo",
+          "crackers",
+          "baby carrots"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thu",
+        "meal_type": "dinner",
+        "dish_name": "microwave baked potato & beans",
+        "ingredients": [
+          "potato",
+          "canned chili beans",
+          "cheese",
+          "sour cream"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thu",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg",
+        "ingredients": [
+          "hard-boiled egg"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Fri",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt with granola",
+        "ingredients": [
+          "greek yogurt",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Fri",
+        "meal_type": "lunch",
+        "dish_name": "leftover chicken & rice",
+        "ingredients": [
+          "chicken",
+          "rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Fri",
+        "meal_type": "dinner",
+        "dish_name": "20-minute pantry pasta",
+        "ingredients": [
+          "pasta",
+          "garlic",
+          "canned tomatoes",
+          "spinach",
+          "parmesan"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Fri",
+        "meal_type": "snack",
+        "dish_name": "dark chocolate square",
+        "ingredients": [
+          "dark chocolate"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sat",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with spinach",
+        "ingredients": [
+          "eggs",
+          "spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sat",
+        "meal_type": "lunch",
+        "dish_name": "deconstructed burrito bowl",
+        "ingredients": [
+          "pre-cooked rice",
+          "canned corn",
+          "black beans",
+          "salsa",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 10,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sat",
+        "meal_type": "dinner",
+        "dish_name": "fancy ramen",
+        "ingredients": [
+          "instant ramen",
+          "soy sauce",
+          "soft-boiled egg",
+          "frozen edamame",
+          "sriracha"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sat",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with fruit",
+        "ingredients": [
+          "cottage cheese",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sun",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": null,
+        "portion_or_serves": null
+      },
+      {
+        "day": "Sun",
+        "meal_type": "lunch",
+        "dish_name": "leftover pasta",
+        "ingredients": [
+          "pasta"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sun",
+        "meal_type": "dinner",
+        "dish_name": "crustless quiche",
+        "ingredients": [
+          "eggs",
+          "milk",
+          "rotisserie chicken",
+          "frozen spinach"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 18,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sun",
+        "meal_type": "snack",
+        "dish_name": "popcorn",
+        "ingredients": [
+          "popcorn"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 5,
+        "cooking_method": "microwave",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almonds",
+      "apple",
+      "avocado",
+      "bananas",
+      "berries",
+      "black beans",
+      "broccoli",
+      "canned chili beans",
+      "canned corn",
+      "canned diced tomatoes",
+      "canned tuna",
+      "cheese",
+      "cottage cheese",
+      "dark chocolate",
+      "eggs",
+      "frozen edamame",
+      "frozen spinach",
+      "garlic",
+      "granola",
+      "greek yogurt",
+      "hard-boiled egg",
+      "milk",
+      "olive oil",
+      "oatmeal",
+      "parmesan",
+      "peanut butter",
+      "potato",
+      "pre-cooked rice",
+      "rotisserie chicken",
+      "salmon fillet",
+      "salsa",
+      "scrambled eggs",
+      "sriracha",
+      "spinach",
+      "tuna",
+      "whole wheat tortilla"
+    ],
+    "all_dishes_or_foods_named": [
+      "chicken salad wraps",
+      "crustless quiche",
+      "deconstructed burrito bowl",
+      "fancy ramen",
+      "greek yogurt with granola",
+      "hard-boiled egg",
+      "leftover chicken & rice",
+      "leftover pasta",
+      "leftover quesadilla",
+      "microwave baked potato & beans",
+      "one-pan chicken & veggies",
+      "sheet pan salmon & veggies",
+      "smoothie",
+      "20-minute pantry pasta",
+      "15-minute black bean quesadillas",
+      "oatmeal with blueberries",
+      "apple with peanut butter",
+      "handful of almonds",
+      "dark chocolate square",
+      "cottage cheese with fruit",
+      "popcorn"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": true,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": true,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "shared",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "single",
+      "ages_referenced": [
+        "college_student"
+      ],
+      "occupation_or_schedule": [
+        "student"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3829,
+  "extraction_output_tokens": 3499,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_id": "fin_con_09",
+  "category": "financial",
+  "variant": "constrained",
+  "category_type": "Energy Cost",
+  "stated_constraints": {
+    "category": "financial",
+    "constraint_type": "Energy Cost",
+    "tests_rq1_financial": true,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Create a 3-day meal plan for a student who needs to improve their iron levels. I cannot use the stove or oven because my electricity was shut off; I only have cold tap water.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# 3-Day No-Cook Iron-Rich Meal Plan\n\n## Day 1\n\n**Breakfast:** Canned beans (black or kidney) mixed with canned tomatoes + whole grain bread\n- Iron from beans; vitamin C from tomatoes aids absorption\n\n**Lunch:** Canned tuna + whole grain crackers + raw spinach (if available)\n- Tuna provides heme iron; pair with whole grains\n\n**Dinner:** Canned lentils + canned vegetables + peanut butter on whole grain bread\n- Legumes are iron-rich; peanut butter adds protein\n\n**Snack:** Fortified cereal with shelf-stable milk + dried apricots\n- Many cereals are iron-fortified; dried fruit adds iron\n\n---\n\n## Day 2\n\n**Breakfast:** Fortified oatmeal (no-cook overnight oats with cold water/milk) + raisins\n- Mix oats, cold liquid, raisins the night before\n\n**Lunch:** Canned chickpeas + canned beets + whole grain bread\n- Legumes + vitamin C-rich beets\n\n**Dinner:** Canned sardines or salmon (eat the bones) + whole grain crackers + raw vegetables\n- Fish bones contain calcium; canned fish has bioavailable iron\n\n**Snack:** Nuts/seeds (almonds, sunflower seeds) + dried figs\n- Seeds provide iron; figs add sweetness and iron\n\n---\n\n## Day 3\n\n**Breakfast:** Fortified cereal + shelf-stable milk + banana + handful of almonds\n- Fortified cereals are reliable iron sources\n\n**Lunch:** Canned white beans + canned spinach (drained) + olive oil + whole grain bread\n- Double legume + leafy green combo\n\n**Dinner:** Canned turkey or chicken + canned sweet potato + raw carrot sticks\n- Poultry has some iron; sweet potato adds vitamin C\n\n**Snack:** Peanut butter on whole grain bread + orange juice (shelf-stable)\n- Vitamin C dramatically improves iron absorption\n\n---\n\n## Shopping Tips\n- **Canned goods:** beans, lentils, tuna, salmon, spinach, tomatoes, beets\n- **Shelf-stable:** fortified cereals, peanut butter, nuts, dried fruit, whole grain bread/crackers, milk, juice\n- **Fresh (no prep needed):** carrots, bananas, spinach if available\n\n**Important:** Iron supplements or seeing a doctor should be your priority—diet alone may not be enough. Many communities offer assistance programs if cost is an issue.",
+  "input_tokens": 49,
+  "output_tokens": 597,
+  "from_cache": false,
+  "timestamp": "2026-04-26T22:35:39.130410"
+}

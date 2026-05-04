@@ -1,0 +1,141 @@
+{
+  "prompt_id": "cul_con_03",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Cultural/Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Cultural/Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How should I cook fish? I want to use traditional Cantonese steaming methods rather than Western baking or frying.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Cantonese Steamed Fish\n\n## Basic Setup\n- Use a whole fish (sea bass, grouper, or similar work well)\n- Clean and score the skin diagonally on both sides\n- Place on a heatproof plate that fits in your steamer\n- Add 1-2 inches of water to the pot and bring to a boil\n\n## Classic Preparation\n\n**Simple version:**\n- Season the fish with salt, white pepper, and a drizzle of oil\n- Steam for 8-12 minutes depending on size (roughly 10 minutes per pound)\n- The flesh should flake easily when done\n\n**With aromatics:**\n- Stuff the cavity with ginger slices, scallions, and cilantro\n- Layer more on top before steaming\n\n## Finishing Sauce (key step)\nAfter steaming, pour off excess liquid and drizzle with:\n- Hot oil (heated until shimmering)\n- Soy sauce or superior soy sauce\n- Fresh scallions and ginger\n- Optionally: sesame oil, cilantro\n\nThe hot oil \"wakes up\" the flavors and adds richness.\n\n## Tips\n- Don't overcrowd the steamer\n- Keep the heat consistent\n- Timing depends on fish thickness—test with a fork\n- The gentleness of steaming preserves delicate texture and natural flavor\n\nWhat size fish are you planning to cook?",
+  "extracted": {
+    "summary": "The response provides a detailed recipe for cooking fish using traditional Cantonese steaming methods, including preparation steps and a finishing sauce.",
+    "response_type": "recipe",
+    "primary_goal": "cultural_celebration",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "cantonese steamed fish",
+        "ingredients": [
+          "whole fish",
+          "salt",
+          "white pepper",
+          "oil",
+          "ginger",
+          "scallions",
+          "cilantro",
+          "soy sauce",
+          "sesame oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "steaming",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "whole fish",
+      "salt",
+      "white pepper",
+      "oil",
+      "ginger",
+      "scallions",
+      "cilantro",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "all_dishes_or_foods_named": [
+      "cantonese steamed fish"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "cantonese"
+      ],
+      "culturally_specific_dishes": [
+        "cantonese steamed fish"
+      ],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2892,
+  "extraction_output_tokens": 907,
+  "extraction_from_cache": false
+}

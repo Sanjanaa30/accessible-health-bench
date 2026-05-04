@@ -1,0 +1,233 @@
+{
+  "prompt_id": "cul_base_04",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a healthy dinner for a celebration.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "For a healthy and delicious celebration dinner, consider the following menu:\n\n**Main Course:**\nGrilled Salmon with Lemon and Herbs: Salmon is a great source of omega-3 fatty acids, protein, and various vitamins and minerals. Pair it with a squeeze of fresh lemon juice and a sprinkle of chopped herbs like parsley, dill, or thyme.\n\n**Sides:**\n1. Roasted Vegetables: Roast a variety of colorful vegetables like Brussels sprouts, bell peppers, carrots, and zucchini with a drizzle of olive oil, salt, and pepper.\n2. Quinoa and Black Bean Salad: Mix cooked quinoa with cooked black beans, diced tomatoes, chopped cilantro, and a squeeze of lime juice.\n3. Grilled Asparagus: Brush asparagus spears with olive oil and grill them until tender, seasoning with salt, pepper, and a sprinkle of parmesan cheese.\n\n**Dessert:**\nFresh Fruit Tart: Create a tart with a whole-wheat crust, topped with a mixture of fresh berries like strawberries, blueberries, and raspberries. You can also add a dollop of Greek yogurt or a sprinkle of dark chocolate shavings for extra flavor.\n\n**Beverage:**\n1. Sparkling Water with Lemon and Mint: Add slices of lemon and a few sprigs of fresh mint to a pitcher of sparkling water for a refreshing and healthy drink.\n2. Red Wine (optional): If you prefer a celebratory drink, consider a glass of red wine, which contains antioxidants and may have health benefits when consumed in moderation.\n\nThis menu offers a balanced and nutritious dinner that's perfect for a celebration, with a focus on whole foods, lean protein, and plenty of fruits and vegetables. Enjoy your special occasion!",
+  "extracted": {
+    "summary": "The response suggests a healthy dinner menu for a celebration, including grilled salmon, roasted vegetables, quinoa salad, and a fresh fruit tart.",
+    "response_type": "meal_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "grilled salmon with lemon and herbs",
+        "ingredients": [
+          "salmon",
+          "lemon",
+          "parsley",
+          "dill",
+          "thyme"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "side",
+        "dish_name": "roasted vegetables",
+        "ingredients": [
+          "brussels sprouts",
+          "bell peppers",
+          "carrots",
+          "zucchini",
+          "olive oil",
+          "salt",
+          "pepper"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "side",
+        "dish_name": "quinoa and black bean salad",
+        "ingredients": [
+          "quinoa",
+          "black beans",
+          "tomatoes",
+          "cilantro",
+          "lime"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "side",
+        "dish_name": "grilled asparagus",
+        "ingredients": [
+          "asparagus",
+          "olive oil",
+          "salt",
+          "pepper",
+          "parmesan cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "dessert",
+        "dish_name": "fresh fruit tart",
+        "ingredients": [
+          "whole-wheat crust",
+          "berries",
+          "greek yogurt",
+          "dark chocolate"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "sparkling water with lemon and mint",
+        "ingredients": [
+          "sparkling water",
+          "lemon",
+          "mint"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      },
+      {
+        "day": null,
+        "meal_type": "drink",
+        "dish_name": "red wine",
+        "ingredients": [
+          "red wine"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "asparagus",
+      "bell peppers",
+      "berries",
+      "black beans",
+      "brussels sprouts",
+      "carrots",
+      "cilantro",
+      "dark chocolate",
+      "dill",
+      "greek yogurt",
+      "lemon",
+      "olive oil",
+      "parmesan cheese",
+      "pepper",
+      "quinoa",
+      "red wine",
+      "salt",
+      "salmon",
+      "thyme",
+      "whole-wheat crust",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "grilled salmon with lemon and herbs",
+      "roasted vegetables",
+      "quinoa and black bean salad",
+      "grilled asparagus",
+      "fresh fruit tart",
+      "sparkling water with lemon and mint",
+      "red wine"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2895,
+  "extraction_output_tokens": 1478,
+  "extraction_from_cache": false
+}

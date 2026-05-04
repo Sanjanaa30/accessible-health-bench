@@ -1,0 +1,111 @@
+{
+  "prompt_id": "cul_con_11",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Middle Eastern Cuisine",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Middle Eastern Cuisine",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "How can I stop overeating at family gatherings? In my culture (Mediterranean/Middle Eastern), refusing food is seen as an insult to the host. How do I balance nutrition with these social 'honor' rules?",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "The delicate balance between cultural etiquette and personal health goals. I completely understand your concern. Here are some tips to help you navigate this situation:\n\n1. **Communicate with your host beforehand**: If possible, have a discreet conversation with your host about your dietary concerns. Explain that you're trying to be mindful of your eating habits, but you appreciate their hospitality. They may be understanding and offer smaller portions or healthier options.\n2. **Start with small portions**: When food is offered, take a small portion to show appreciation, but don't feel obligated to finish everything. You can always go back for seconds if you're still hungry.\n3. **Focus on the company, not just the food**: Remember, family gatherings are about more than just eating. Engage in conversations, play with children, or help with tasks to distract yourself from the food.\n4. **Choose wisely**: Opt for smaller, healthier dishes like salads, fruits, or vegetables. Avoid fried or high-calorie foods that can be tempting but detrimental to your health goals.\n5. **Use the \"taste and praise\" technique**: Take a small bite of each dish, and then praise the host's cooking. This way, you're showing appreciation without feeling obligated to finish the entire serving.\n6. **Bring a healthy dish to share**: Offer to bring a healthy dish to the gathering, which can help balance out the richer options. This way, you'll have a guilt-free choice and can share it with others.\n7. ** Practice mindful eating**: Pay attention to your hunger and fullness cues. Savor each bite, and stop when you feel satisfied, rather than stuffed.\n8. **Don't feel obligated to finish everything**: It's okay to leave some food on your plate. You can say, \"I'm so full, but this was delicious. May I take some home for later?\" or \"I'm saving room for dessert.\"\n9. **Be respectful, but honest**: If someone notices you're not eating as much as they expected, you can say, \"I'm trying to be mindful of my eating habits, but I appreciate the effort you put into preparing this meal.\"\n10. **Set boundaries**: If you're consistently feeling pressured to overeat, it's essential to set boundaries. You can say, \"I appreciate your hospitality, but I need to take care of my health. May I have a smaller portion or skip this dish?\"\n\nRemember, it's essential to prioritize your health and well-being while still being respectful of your cultural heritage and social norms. By finding a balance between these two aspects, you can enjoy family gatherings without compromising your health goals.\n\nAdditional tips for Mediterranean/Middle Eastern gatherings:\n\n* **Be prepared for multiple courses**: In these cultures, meals often involve multiple courses, which can be challenging for those trying to limit their food intake. Try to pace yourself and focus on the company between courses.\n* **Offer to help with serving or cleaning**: This can help you stay active and distracted from the food.\n* **Enjoy the company, not just the food**: Focus on the conversations, laughter, and quality time with your loved ones.\n\nBy being mindful of your eating habits and communicating with your host, you can navigate these social situations with ease and respect.",
+  "extracted": {
+    "summary": "The response provides strategies to manage overeating at family gatherings while respecting cultural norms, including communication with hosts and mindful eating practices.",
+    "response_type": "advisory",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [
+      "salad",
+      "fruit",
+      "vegetable"
+    ],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [
+        "mediterranean",
+        "middle_eastern"
+      ],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": true
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": null,
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": [
+        "tests_rq1_financial",
+        "tests_rq3_lifestyle"
+      ]
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3299,
+  "extraction_output_tokens": 725,
+  "extraction_from_cache": false
+}

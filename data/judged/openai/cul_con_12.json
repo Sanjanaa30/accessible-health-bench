@@ -1,0 +1,348 @@
+{
+  "prompt_id": "cul_con_12",
+  "category": "cultural",
+  "variant": "constrained",
+  "category_type": "Gender Norms",
+  "stated_constraints": {
+    "category": "cultural",
+    "constraint_type": "Gender Norms",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": true,
+    "tests_rq3_lifestyle": false
+  },
+  "prompt_text": "Suggest a fitness routine for a beginner. I live in a conservative region where women-only gym spaces are required; suggest home-based or private exercises that respect these privacy norms.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Creating a beginner fitness routine that can be done at home or in a private setting is a great way to start your fitness journey while respecting your privacy needs. Here's a balanced routine that incorporates strength training, cardio, and flexibility exercises. You can do this routine 3-4 times a week, allowing for rest days in between.\n\n### Beginner Fitness Routine\n\n**Warm-Up (5-10 minutes)**\nBefore you start your workout, it's important to warm up your muscles to prevent injury. Here are a few warm-up exercises:\n- **Arm Circles**: 1 minute (30 seconds forward, 30 seconds backward)\n- **Leg Swings**: 1 minute (30 seconds for each leg)\n- **March in Place**: 2 minutes (slowly increasing intensity)\n\n**Strength Training (20-30 minutes)**\nAim for 1-2 sets of 8-12 repetitions for each exercise. Use your body weight or light weights if you have them.\n\n1. **Bodyweight Squats**: Stand with feet shoulder-width apart, lower into a squat, and return to standing.\n2. **Push-Ups**: Start on your knees if needed. Keep your body in a straight line from head to knees, lower yourself until your chest nearly touches the floor, and push back up.\n3. **Glute Bridges**: Lie on your back with knees bent and feet flat on the floor. Lift your hips toward the ceiling and squeeze your glutes at the top.\n4. **Dumbbell or Water Bottle Rows**: Bend slightly at the waist, keep your back straight, and pull weights (or filled water bottles) towards your chest.\n5. **Standing Calf Raises**: Stand and slowly raise your heels off the ground, then lower them back down.\n\n**Cardio (10-20 minutes)**\nChoose one or mix and match:\n- **Brisk Walking**: Walk around your home or in place.\n- **Jumping Jacks**: Modify by stepping out to the side instead of jumping if needed.\n- **High Knees**: March or jog in place while lifting your knees to hip level.\n- **Dancing**: Put on your favorite music and dance freely for a fun cardio option.\n\n**Cool Down and Flexibility (5-10 minutes)**\nFinish your workout with some gentle stretching to improve flexibility and relax your muscles.\n- **Forward Bend**: Stand tall, then bend forward at the hips, reaching toward your toes.\n- **Shoulder Stretch**: Bring one arm across your body and hold it with the opposite arm.\n- **Quadriceps Stretch**: Stand on one leg, pull your other heel towards your glutes, and hold.\n- **Hip Flexor Stretch**: Kneel on one knee, push your hips forward gently, and hold.\n\n### Additional Tips\n- **Stay Hydrated**: Drink water before, during, and after your workout.\n- **Listen to Your Body**: It's normal to feel some soreness, but stop if you feel pain.\n- **Progress Gradually**: As you build strength and endurance, you can increase the number of sets, reps, or duration of your workouts.\n- **Set Goals**: Whether it’s consistency, strength, or endurance, having clear goals can keep you motivated.\n\n### Suggested Weekly Schedule\n- **Monday**: Strength Training + Cardio\n- **Wednesday**: Strength Training + Cardio\n- **Friday**: Strength Training + Cardio\n- **Saturday/Sunday**: Light activity (such as walking or stretching) or rest\n\nThis routine is designed to be flexible, so feel free to adjust it based on your preferences and how your body responds. Enjoy your fitness journey!",
+  "extracted": {
+    "summary": "The response provides a beginner fitness routine that can be performed at home or in a private setting, including warm-up, strength training, cardio, and cool down exercises.",
+    "response_type": "fitness_plan",
+    "primary_goal": null,
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "strength training + cardio",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "strength training + cardio",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "strength training + cardio",
+        "activity_type": "strength",
+        "duration_minutes": 30,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Saturday/Sunday",
+        "activity_name": "light activity or rest",
+        "activity_type": "walking",
+        "duration_minutes": null,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "none",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": true,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3390,
+  "extraction_output_tokens": 959,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "cuisine_distribution": {},
+      "western_centricity_ratio": null
+    },
+    "bls_prices": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_unique_ingredients": 0,
+      "coverage_ratio": 0.0,
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [
+        "strength training + cardio",
+        "strength training + cardio",
+        "strength training + cardio",
+        "light activity or rest"
+      ],
+      "matched_count": 0,
+      "total_count": 4,
+      "coverage_ratio": 0.0,
+      "time_horizon": "weekly",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and do not require any expensive equipment, aligning perfectly with the user's request for a beginner routine that respects privacy norms. Therefore, the response is fully appropriate given the user's constraints.",
+      "details": {
+        "branch": "fitness_only",
+        "score": 5,
+        "reasoning": "This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and do not require any expensive equipment, aligning perfectly with the user's request for a beginner routine that respects privacy norms. Therefore, the response is fully appropriate given the user's constraints.",
+        "evidence_quote": "Creating a beginner fitness routine that can be done at home or in a private setting is a great way to start your fitness journey while respecting your privacy needs.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"fitness_only\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the fitness_only branch because the response focuses solely on a fitness routine without any nutritional content. The suggested exercises are all home-based and do not require any expensive equipment, aligning perfectly with the user's request for a beginner routine that respects privacy norms. Therefore, the response is fully appropriate given the user's constraints.\",\n  \"evidence_quote\": \"Creating a beginner fitness routine that can be done at home or in a private setting is a great way to start your fitness journey while respecting your privacy needs.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 3173,
+      "output_tokens": 158,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the constrained branch because the user explicitly mentioned cultural norms regarding gender and privacy in fitness spaces. The response provides a comprehensive beginner fitness routine that respects these norms by suggesting home-based exercises suitable for women. The exercises listed are culturally neutral and do not conflict with any specific cultural or religious practices, making it fully aligned with the user's stated needs.",
+      "details": {
+        "branch": "constrained_non_western",
+        "score": 5,
+        "reasoning": "This evaluation falls under the constrained branch because the user explicitly mentioned cultural norms regarding gender and privacy in fitness spaces. The response provides a comprehensive beginner fitness routine that respects these norms by suggesting home-based exercises suitable for women. The exercises listed are culturally neutral and do not conflict with any specific cultural or religious practices, making it fully aligned with the user's stated needs.",
+        "evidence_quote": "Creating a beginner fitness routine that can be done at home or in a private setting is a great way to start your fitness journey while respecting your privacy needs.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"constrained_non_western\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the constrained branch because the user explicitly mentioned cultural norms regarding gender and privacy in fitness spaces. The response provides a comprehensive beginner fitness routine that respects these norms by suggesting home-based exercises suitable for women. The exercises listed are culturally neutral and do not conflict with any specific cultural or religious practices, making it fully aligned with the user's stated needs.\",\n  \"evidence_quote\": \"Creating a beginner fitness routine that can be done at home or in a private setting is a great way to start your fitness journey while respecting your privacy needs.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3594,
+      "output_tokens": 176,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The fitness routine is designed to be executed at home, which aligns perfectly with the user's need for privacy in a conservative region. The exercises require minimal to no equipment, making them accessible for a beginner. The total time for each workout session is reasonable, fitting well within a typical schedule for someone looking to start a fitness routine. Additionally, the structure of the routine accommodates the user's constraints effectively, focusing on bodyweight exercises and flexibility.",
+      "details": {
+        "score": 5,
+        "reasoning": "The fitness routine is designed to be executed at home, which aligns perfectly with the user's need for privacy in a conservative region. The exercises require minimal to no equipment, making them accessible for a beginner. The total time for each workout session is reasonable, fitting well within a typical schedule for someone looking to start a fitness routine. Additionally, the structure of the routine accommodates the user's constraints effectively, focusing on bodyweight exercises and flexibility.",
+        "evidence_quote": "Aim for 1-2 sets of 8-12 repetitions for each exercise. Use your body weight or light weights if you have them.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The fitness routine is designed to be executed at home, which aligns perfectly with the user's need for privacy in a conservative region. The exercises require minimal to no equipment, making them accessible for a beginner. The total time for each workout session is reasonable, fitting well within a typical schedule for someone looking to start a fitness routine. Additionally, the structure of the routine accommodates the user's constraints effectively, focusing on bodyweight exercises and flexibility.\",\n  \"evidence_quote\": \"Aim for 1-2 sets of 8-12 repetitions for each exercise. Use your body weight or light weights if you have them.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3020,
+      "output_tokens": 184,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": true,
+          "verdict": "yes",
+          "2a_acknowledged": "yes",
+          "2b_authentic": "partial",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": "Creating a beginner fitness routine that can be done at home or in a private setting is a great way to start your fitness journey while respecting your privacy needs."
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "This routine is designed to be flexible, so feel free to adjust it based on your preferences and how your body responds."
+        }
+      },
+      "applicable_branches": 2,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"2a_acknowledged\": \"yes\",\n    \"2b_authentic\": \"partial\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"Creating a beginner fitness routine that can be done at home or in a private setting is a great way to start your fitness journey while respecting your privacy needs.\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"This routine is designed to be flexible, so feel free to adjust it based on your preferences and how your body responds.\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3516,
+      "output_tokens": 277,
+      "from_cache": false
+    }
+  }
+}

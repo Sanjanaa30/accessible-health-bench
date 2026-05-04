@@ -1,0 +1,549 @@
+{
+  "prompt_id": "fin_base_19",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Create a meal plan to help with weight loss.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# 7-Day Weight Loss Meal Plan\n\n## Principles\n- 1,500-1,800 calories/day (adjust based on your needs)\n- High protein, moderate carbs, healthy fats\n- Whole foods, minimal processed items\n- Plenty of water and fiber\n\n---\n\n## **MONDAY**\n- **Breakfast:** Egg white omelet (2 eggs) with spinach, whole wheat toast\n- **Lunch:** Grilled chicken breast, brown rice, steamed broccoli\n- **Snack:** Greek yogurt with berries\n- **Dinner:** Baked salmon, sweet potato, green beans\n\n## **TUESDAY**\n- **Breakfast:** Oatmeal with banana and almonds\n- **Lunch:** Turkey and veggie wrap, side salad\n- **Snack:** Apple with almond butter\n- **Dinner:** Lean ground turkey tacos (lettuce wraps), black beans\n\n## **WEDNESDAY**\n- **Breakfast:** Greek yogurt parfait with granola and fruit\n- **Lunch:** Tuna salad with mixed greens\n- **Snack:** Celery with hummus\n- **Dinner:** Grilled chicken, quinoa, roasted vegetables\n\n## **THURSDAY**\n- **Breakfast:** Veggie scramble with whole grain toast\n- **Lunch:** Lentil soup, side salad\n- **Snack:** Berries and cottage cheese\n- **Dinner:** Baked white fish, wild rice, asparagus\n\n## **FRIDAY**\n- **Breakfast:** Smoothie (protein powder, spinach, berries, almond milk)\n- **Lunch:** Grilled chicken bowl with vegetables and brown rice\n- **Snack:** String cheese and grapes\n- **Dinner:** Lean beef stir-fry with broccoli and brown rice\n\n## **SATURDAY**\n- **Breakfast:** Whole grain pancakes with fruit\n- **Lunch:** Chickpea salad with cucumber and tomato\n- **Snack:** Mixed nuts (small portion)\n- **Dinner:** Turkey meatballs with zucchini noodles and marinara\n\n## **SUNDAY**\n- **Breakfast:** Scrambled eggs with mushrooms and whole wheat toast\n- **Lunch:** Baked chicken breast, sweet potato, Brussels sprouts\n- **Snack:** Pear and almonds\n- **Dinner:** Vegetable soup, grilled lean steak, side salad\n\n---\n\n## **Tips for Success**\n✓ Drink 8+ glasses of water daily\n✓ Prep meals in advance\n✓ Use smaller plates\n✓ Eat slowly and mindfully\n✓ Include regular exercise\n✓ Get adequate sleep\n✓ Track your intake\n\n**Important:** Consult a doctor or registered dietitian before starting any weight loss plan, especially if you have health conditions.",
+  "extracted": {
+    "summary": "The response provides a 7-day meal plan aimed at weight loss, emphasizing whole foods and balanced nutrition.",
+    "response_type": "meal_plan",
+    "primary_goal": "weight_loss",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "egg white omelet",
+        "ingredients": [
+          "egg whites",
+          "spinach",
+          "whole wheat toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "brown rice",
+          "broccoli"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with berries",
+        "ingredients": [
+          "greek yogurt",
+          "berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "green beans"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "turkey and veggie wrap",
+        "ingredients": [
+          "turkey",
+          "vegetables",
+          "wrap",
+          "salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "apple with almond butter",
+        "ingredients": [
+          "apple",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "lean ground turkey tacos",
+        "ingredients": [
+          "ground turkey",
+          "black beans",
+          "lettuce"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "greek yogurt parfait",
+        "ingredients": [
+          "greek yogurt",
+          "granola",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "tuna salad",
+        "ingredients": [
+          "tuna",
+          "mixed greens"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "celery with hummus",
+        "ingredients": [
+          "celery",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "grilled chicken",
+        "ingredients": [
+          "chicken",
+          "quinoa",
+          "vegetables"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "veggie scramble",
+        "ingredients": [
+          "vegetables",
+          "whole grain toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup",
+        "ingredients": [
+          "lentils",
+          "salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "berries and cottage cheese",
+        "ingredients": [
+          "berries",
+          "cottage cheese"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "baked white fish",
+        "ingredients": [
+          "white fish",
+          "wild rice",
+          "asparagus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie",
+        "ingredients": [
+          "protein powder",
+          "spinach",
+          "berries",
+          "almond milk"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken bowl",
+        "ingredients": [
+          "chicken",
+          "vegetables",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "string cheese and grapes",
+        "ingredients": [
+          "string cheese",
+          "grapes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "lean beef stir-fry",
+        "ingredients": [
+          "beef",
+          "broccoli",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "breakfast",
+        "dish_name": "whole grain pancakes",
+        "ingredients": [
+          "whole grain flour",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "lunch",
+        "dish_name": "chickpea salad",
+        "ingredients": [
+          "chickpeas",
+          "cucumber",
+          "tomato"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "snack",
+        "dish_name": "mixed nuts",
+        "ingredients": [
+          "mixed nuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "small portion"
+      },
+      {
+        "day": "Saturday",
+        "meal_type": "dinner",
+        "dish_name": "turkey meatballs",
+        "ingredients": [
+          "turkey",
+          "zucchini",
+          "marinara"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs",
+        "ingredients": [
+          "eggs",
+          "mushrooms",
+          "whole wheat toast"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "lunch",
+        "dish_name": "baked chicken breast",
+        "ingredients": [
+          "chicken breast",
+          "sweet potato",
+          "brussels sprouts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "snack",
+        "dish_name": "pear and almonds",
+        "ingredients": [
+          "pear",
+          "almonds"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Sunday",
+        "meal_type": "dinner",
+        "dish_name": "vegetable soup",
+        "ingredients": [
+          "vegetables",
+          "steak",
+          "salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almonds",
+      "apple",
+      "asparagus",
+      "baked chicken breast",
+      "baked salmon",
+      "berries",
+      "black beans",
+      "broccoli",
+      "brussels sprouts",
+      "cottage cheese",
+      "chickpeas",
+      "chicken",
+      "chicken breast",
+      "celery",
+      "eggs",
+      "egg whites",
+      "fruit",
+      "granola",
+      "grapes",
+      "greek yogurt",
+      "hummus",
+      "lentils",
+      "lean beef",
+      "lean ground turkey",
+      "mixed greens",
+      "mixed nuts",
+      "mushrooms",
+      "oatmeal",
+      "pear",
+      "protein powder",
+      "quinoa",
+      "salad",
+      "salmon",
+      "string cheese",
+      "sweet potato",
+      "turkey",
+      "vegetables",
+      "veggie scramble",
+      "whole grain flour",
+      "whole grain toast",
+      "wrap",
+      "wild rice",
+      "zucchini"
+    ],
+    "all_dishes_or_foods_named": [
+      "baked chicken breast",
+      "baked salmon",
+      "chickpea salad",
+      "egg white omelet",
+      "greek yogurt parfait",
+      "lean beef stir-fry",
+      "lean ground turkey tacos",
+      "lentil soup",
+      "mixed nuts",
+      "oatmeal",
+      "scrambled eggs",
+      "smoothie",
+      "turkey meatballs",
+      "veggie scramble",
+      "vegetable soup",
+      "whole grain pancakes",
+      "turkey and veggie wrap"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "weight_loss"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Consult a doctor or registered dietitian before starting any weight loss plan, especially if you have health conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3077,
+  "extraction_output_tokens": 3427,
+  "extraction_from_cache": false
+}

@@ -1,0 +1,575 @@
+{
+  "prompt_id": "lif_con_12",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Work",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Work",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Create a weight management plan for someone who travels frequently for work.",
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5-20251001",
+  "response_text": "# Weight Management Plan for Frequent Business Travelers\n\n## Core Strategy: Consistency Over Perfection\n\nSince routines are disrupted, focus on **non-negotiable habits** rather than rigid meal plans.\n\n---\n\n## Nutrition Strategies\n\n### Before Travel\n- **Meal prep snacks** for flights/car rides (nuts, protein bars, fruit)\n- Research restaurant options at your destination\n- Download a food tracking app for easy logging on-the-go\n\n### During Travel\n**Hotel room essentials:**\n- Instant oatmeal, nuts, protein powder\n- Resistance bands or workout videos (no equipment needed)\n\n**Restaurant dining:**\n- Scan menus online before arriving\n- Order protein + vegetables + whole grain\n- Request dressings/sauces on the side\n- Avoid \"all-you-can-eat\" buffets\n\n**Quick wins:**\n- Choose hotels with gyms or near parks\n- Walk instead of using shuttles when possible\n- Stay hydrated (often mistaken for hunger)\n\n---\n\n## Exercise Plan\n\n### Realistic Approach\n- **15-20 minutes daily** beats skipping workouts entirely\n- No gym required: bodyweight exercises in your room\n\n**Sample routine:**\n- 5 min warm-up (jumping jacks, stretching)\n- 10 min strength (push-ups, squats, lunges)\n- 5 min cardio (burpees, high knees)\n\n### Alternatives\n- Hotel gym or local gym day pass\n- Running/walking routes\n- Yoga or stretching videos\n\n---\n\n## Tracking & Accountability\n\n- **Weekly weigh-ins** (same day/time) rather than daily\n- Track protein intake (most satiating macronutrient)\n- Use a habit tracker for consistency, not perfection\n- Monthly photo/measurement checks\n\n---\n\n## Sleep & Stress\n\n- Maintain consistent sleep schedule despite time zones\n- Limit alcohol (empty calories + poor sleep)\n- Practice stress management (meditation apps, walks)\n\n---\n\n## Realistic Expectations\n\n- Aim for **maintenance or slow loss** (0.5-1 lb/week)\n- Plan for 1-2 higher-calorie days per week\n- Focus on **not gaining** during travel months\n\nWould you like me to customize this for specific travel patterns or dietary preferences?",
+  "extracted": {
+    "summary": "The response provides a weight management plan tailored for frequent business travelers, focusing on maintaining healthy habits and exercise routines while on the go.",
+    "response_type": "mixed",
+    "primary_goal": "weight_management",
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "meal prep snacks",
+        "ingredients": [
+          "nuts",
+          "protein bars",
+          "fruit"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": null
+      }
+    ],
+    "all_ingredients": [
+      "nuts",
+      "protein bars",
+      "fruit"
+    ],
+    "all_dishes_or_foods_named": [
+      "meal prep snacks"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": null,
+        "activity_name": "bodyweight exercises",
+        "activity_type": "strength",
+        "duration_minutes": 15,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "jumping jacks",
+        "activity_type": "cardio",
+        "duration_minutes": 5,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "push-ups",
+        "activity_type": "strength",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "lunges",
+        "activity_type": "strength",
+        "duration_minutes": 10,
+        "intensity": "moderate",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "burpees",
+        "activity_type": "cardio",
+        "duration_minutes": 5,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      },
+      {
+        "day_or_slot": null,
+        "activity_name": "high knees",
+        "activity_type": "cardio",
+        "duration_minutes": 5,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "small_indoor"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "open_ended",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": true
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": true,
+      "kitchen_access_assumption": "hotel_microwave",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "small_indoor",
+      "addresses_time_scarcity": true,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [
+        "frequent_traveler"
+      ],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [
+        "maintenance"
+      ],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3061,
+  "extraction_output_tokens": 1250,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "fruit",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "meal prep snack",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "nut",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "protein bar",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 2,
+      "total_count": 4,
+      "coverage_ratio": 0.5,
+      "cuisine_distribution": {
+        "vegetarian": 2
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 2
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 3,
+      "matched_count": 0,
+      "unmatched_count": 3,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "nuts",
+        "protein bars",
+        "fruit"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [
+        {
+          "activity_name": "jumping jacks",
+          "matched_compendium_activity": "jumping jacks",
+          "compendium_code": "_custom_jumping_jacks",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_from_02012",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "duration_minutes": 5.0,
+          "estimated_kcal_70kg": 46.7,
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "cardio",
+            "intensity_self_reported": "high",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small_indoor"
+          }
+        },
+        {
+          "activity_name": "push-ups",
+          "matched_compendium_activity": "push-ups",
+          "compendium_code": "_custom_push_ups",
+          "category": "conditioning",
+          "met_value": 3.8,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02085",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "duration_minutes": 10.0,
+          "estimated_kcal_70kg": 44.3,
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small_indoor"
+          }
+        },
+        {
+          "activity_name": "squats",
+          "matched_compendium_activity": "squats",
+          "compendium_code": "_custom_squats",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "duration_minutes": 10.0,
+          "estimated_kcal_70kg": 58.3,
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small_indoor"
+          }
+        },
+        {
+          "activity_name": "lunges",
+          "matched_compendium_activity": "lunges",
+          "compendium_code": "_custom_lunges",
+          "category": "conditioning",
+          "met_value": 5.0,
+          "intensity_band": "moderate",
+          "compendium_source": "estimate_from_02022",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "duration_minutes": 10.0,
+          "estimated_kcal_70kg": 58.3,
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "strength",
+            "intensity_self_reported": "moderate",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small_indoor"
+          }
+        },
+        {
+          "activity_name": "burpees",
+          "matched_compendium_activity": "burpees",
+          "compendium_code": "_custom_burpees",
+          "category": "conditioning",
+          "met_value": 8.0,
+          "intensity_band": "vigorous",
+          "compendium_source": "estimate_from_02012",
+          "snapshot_date": "2024-01",
+          "match_score": 100,
+          "confidence": "high",
+          "source": "compendium_2024",
+          "duration_minutes": 5.0,
+          "estimated_kcal_70kg": 46.7,
+          "component_input": {
+            "day_or_slot": null,
+            "activity_type": "cardio",
+            "intensity_self_reported": "high",
+            "equipment_needed": [
+              "none"
+            ],
+            "location": "small_indoor"
+          }
+        }
+      ],
+      "unmatched": [
+        "bodyweight exercises",
+        "high knees"
+      ],
+      "matched_count": 5,
+      "total_count": 7,
+      "coverage_ratio": 0.7142857142857143,
+      "time_horizon": "open_ended",
+      "total_logged_minutes": 40.0,
+      "total_logged_kcal_70kg": 254.3,
+      "light_minutes": 0.0,
+      "moderate_minutes": 30.0,
+      "vigorous_minutes": 10.0,
+      "moderate_equivalent_minutes": 50.0,
+      "feasibility_assessment": "indeterminate_horizon",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation is based on a baseline prompt since there are no explicit financial constraints stated. The recommendations provided in the response are reasonable for a typical household, focusing on accessible and mainstream ingredients like nuts, protein bars, and fruits. The plan emphasizes practical strategies for maintaining a healthy lifestyle while traveling, which aligns well with the needs of an average consumer.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation is based on a baseline prompt since there are no explicit financial constraints stated. The recommendations provided in the response are reasonable for a typical household, focusing on accessible and mainstream ingredients like nuts, protein bars, and fruits. The plan emphasizes practical strategies for maintaining a healthy lifestyle while traveling, which aligns well with the needs of an average consumer.",
+        "evidence_quote": "Focus on non-negotiable habits rather than rigid meal plans.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation is based on a baseline prompt since there are no explicit financial constraints stated. The recommendations provided in the response are reasonable for a typical household, focusing on accessible and mainstream ingredients like nuts, protein bars, and fruits. The plan emphasizes practical strategies for maintaining a healthy lifestyle while traveling, which aligns well with the needs of an average consumer.\",\n  \"evidence_quote\": \"Focus on non-negotiable habits rather than rigid meal plans.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 4085,
+      "output_tokens": 144,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the prompt. The response provides reasonable and practical advice for weight management that can be applicable to a wide audience, regardless of cultural background. It includes common foods and exercise recommendations that are broadly acceptable and does not dismiss any cultural variations.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "I applied the baseline branch because there are no explicit cultural constraints or signals in the prompt. The response provides reasonable and practical advice for weight management that can be applicable to a wide audience, regardless of cultural background. It includes common foods and exercise recommendations that are broadly acceptable and does not dismiss any cultural variations.",
+        "evidence_quote": "Focus on non-negotiable habits rather than rigid meal plans.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"I applied the baseline branch because there are no explicit cultural constraints or signals in the prompt. The response provides reasonable and practical advice for weight management that can be applicable to a wide audience, regardless of cultural background. It includes common foods and exercise recommendations that are broadly acceptable and does not dismiss any cultural variations.\",\n  \"evidence_quote\": \"Focus on non-negotiable habits rather than rigid meal plans.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 4506,
+      "output_tokens": 143,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 4,
+      "reasoning": "The plan is largely feasible for someone who travels frequently, with a focus on non-negotiable habits and quick meal prep. The exercise recommendations are adaptable to hotel rooms and require no equipment, which aligns well with the user's constraints. However, some aspects, like the suggestion to research restaurant options, may require more time than the user has available, leading to a minor friction in execution.",
+      "details": {
+        "score": 4,
+        "reasoning": "The plan is largely feasible for someone who travels frequently, with a focus on non-negotiable habits and quick meal prep. The exercise recommendations are adaptable to hotel rooms and require no equipment, which aligns well with the user's constraints. However, some aspects, like the suggestion to research restaurant options, may require more time than the user has available, leading to a minor friction in execution.",
+        "evidence_quote": "Focus on non-negotiable habits rather than rigid meal plans.",
+        "time_fit": "mild_overage",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": true,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 4,\n  \"reasoning\": \"The plan is largely feasible for someone who travels frequently, with a focus on non-negotiable habits and quick meal prep. The exercise recommendations are adaptable to hotel rooms and require no equipment, which aligns well with the user's constraints. However, some aspects, like the suggestion to research restaurant options, may require more time than the user has available, leading to a minor friction in execution.\",\n  \"evidence_quote\": \"Focus on non-negotiable habits rather than rigid meal plans.\",\n  \"time_fit\": \"mild_overage\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": true,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 3932,
+      "output_tokens": 162,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": 5.0,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": true,
+          "verdict": "yes",
+          "3a_acknowledged": "yes",
+          "3b_executable": "yes",
+          "3c_structurally_adapted": "partial",
+          "evidence": "focus on non-negotiable habits rather than rigid meal plans"
+        }
+      },
+      "applicable_branches": 1,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": true,\n    \"verdict\": \"yes\",\n    \"3a_acknowledged\": \"yes\",\n    \"3b_executable\": \"yes\",\n    \"3c_structurally_adapted\": \"partial\",\n    \"evidence\": \"focus on non-negotiable habits rather than rigid meal plans\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 4428,
+      "output_tokens": 241,
+      "from_cache": false
+    }
+  }
+}

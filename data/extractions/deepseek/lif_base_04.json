@@ -1,0 +1,318 @@
+{
+  "prompt_id": "lif_base_04",
+  "category": "lifestyle",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a weekly workout plan.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a balanced weekly workout plan designed for **general fitness, fat loss, and muscle tone**. It combines strength training, cardio, and recovery.\n\n*Note: Adjust weights, reps, and intensity based on your current fitness level. Always warm up for 5–10 minutes (e.g., light jog, dynamic stretches) and cool down/stretch afterward.*\n\n---\n\n### Weekly Schedule\n\n| Day | Focus | Example Workout |\n|------|-------|----------------|\n| **Monday** | Full Body Strength (Push Focus) | Squats, Bench Press (or Push-ups), Overhead Press, Plank |\n| **Tuesday** | Low-Intensity Cardio + Core | 30–40 min brisk walk, jog, or cycling + 10 min core work |\n| **Wednesday** | Full Body Strength (Pull Focus) | Deadlifts (or Romanian Deadlifts), Bent-over Rows, Pull-ups (or Lat Pulldowns), Farmer’s Walk |\n| **Thursday** | Active Recovery or Yoga | 20–30 min stretching, foam rolling, or a gentle yoga flow |\n| **Friday** | Full Body Strength (Legs + Power) | Goblet Squats, Lunges, Hip Thrusts, Box Jumps (or Step-ups) |\n| **Saturday** | HIIT + Accessories | 20 min HIIT (e.g., sprint intervals, burpees, jump rope) + 15 min biceps/triceps/shoulders |\n| **Sunday** | Rest or Light Activity | Complete rest, or a long walk, hike, or leisurely swim |\n\n---\n\n### Detailed Workout Examples\n\n**Monday – Push Focus (Full Body)**\n- **Squats:** 3 sets of 8–10 reps\n- **Bench Press (or Push-ups):** 3 sets of 8–12 reps\n- **Overhead Press (Dumbbell or Barbell):** 3 sets of 8–10 reps\n- **Plank:** 3 sets of 30–60 seconds\n\n**Wednesday – Pull Focus (Full Body)**\n- **Deadlifts (or Romanian Deadlifts):** 3 sets of 6–8 reps\n- **Bent-over Rows:** 3 sets of 8–10 reps\n- **Pull-ups (or Lat Pulldowns):** 3 sets of as many reps as possible (AMRAP)\n- **Farmer’s Walk:** 3 sets of 30–45 seconds (heavy dumbbells in each hand)\n\n**Friday – Legs + Power**\n- **Goblet Squats:** 3 sets of 10–12 reps\n- **Walking Lunges:** 3 sets of 10 reps per leg\n- **Hip Thrusts:** 3 sets of 10–12 reps\n- **Box Jumps (or Step-ups):** 3 sets of 6–8 reps (focus on explosive movement)\n\n**Saturday – HIIT + Accessories**\n- **HIIT:** 20 minutes (e.g., 30 sec sprint / 90 sec walk, repeat 8 times)\n- **Bicep Curls:** 3 sets of 12–15 reps\n- **Tricep Dips (or Overhead Extensions):** 3 sets of 10–12 reps\n- **Lateral Raises:** 3 sets of 12–15 reps\n\n---\n\n### Key Principles\n\n- **Progressive Overload:** Each week, try to add a small amount of weight, an extra rep, or one more set.\n- **Rest Between Sets:** 60–90 seconds for strength, 30–60 seconds for HIIT.\n- **Nutrition & Hydration:** Eat enough protein (0.7–1g per pound of bodyweight) and drink water throughout the day.\n- **Listen to Your Body:** If you’re sore or tired, swap a hard day for active recovery. Overtraining leads to injury.\n\n---\n\nWould you like me to adjust this plan for a specific goal (e.g., muscle building, weight loss, home vs. gym), or provide alternative exercises if you don’t have equipment?",
+  "extracted": {
+    "summary": "The response provides a balanced weekly workout plan that includes strength training, cardio, and recovery activities.",
+    "response_type": "fitness_plan",
+    "primary_goal": "overall_wellness",
+    "meal_components": [],
+    "all_ingredients": [],
+    "all_dishes_or_foods_named": [],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "bench press (or push-ups)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "overhead press",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "plank",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "brisk walk, jog, or cycling",
+        "activity_type": "cardio",
+        "duration_minutes": 40,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Tuesday",
+        "activity_name": "core work",
+        "activity_type": "strength",
+        "duration_minutes": 10,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "deadlifts (or romanian deadlifts)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "bent-over rows",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "pull-ups (or lat pulldowns)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "gym"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "farmer’s walk",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Thursday",
+        "activity_name": "stretching, foam rolling, or gentle yoga flow",
+        "activity_type": "flexibility",
+        "duration_minutes": 30,
+        "intensity": "low",
+        "equipment_needed": [
+          "mat"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "goblet squats",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "walking lunges",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "hip thrusts",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "box jumps (or step-ups)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "20 min HIIT",
+        "activity_type": "hiit",
+        "duration_minutes": 20,
+        "intensity": "high",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "bicep curls",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "tricep dips (or overhead extensions)",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Saturday",
+        "activity_name": "lateral raises",
+        "activity_type": "strength",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "dumbbells"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Sunday",
+        "activity_name": "rest or light activity",
+        "activity_type": "other",
+        "duration_minutes": null,
+        "intensity": null,
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": false,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": false,
+      "requires_electricity": false,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3392,
+  "extraction_output_tokens": 1959,
+  "extraction_from_cache": false
+}

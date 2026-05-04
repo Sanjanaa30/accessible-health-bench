@@ -1,0 +1,154 @@
+{
+  "prompt_id": "cul_base_06",
+  "category": "cultural",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Give me a recipe for a vegetable curry.",
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "response_text": "Sure! Here's a simple and delicious recipe for a vegetable curry that serves about 4 people.\n\n### Vegetable Curry Recipe\n\n#### Ingredients\n\n- **For the Curry:**\n  - 2 tablespoons vegetable oil (or coconut oil)\n  - 1 large onion, finely chopped\n  - 2-3 cloves garlic, minced\n  - 1-inch piece of ginger, grated\n  - 1-2 green chilies, slit (adjust to taste)\n  - 1 teaspoon cumin seeds\n  - 1 teaspoon mustard seeds (optional)\n  - 1 teaspoon turmeric powder\n  - 1 teaspoon ground coriander\n  - 1 teaspoon garam masala\n  - 1 can (400 ml) coconut milk\n  - 1 can (400 g) diced tomatoes (or 2 fresh tomatoes, chopped)\n  - Salt, to taste\n\n- **Vegetables (choose your favorites or what you have on hand):**\n  - 2 medium potatoes, diced\n  - 1 cup cauliflower florets\n  - 1 cup carrots, sliced\n  - 1 cup green beans, chopped\n  - 1 bell pepper, diced\n  - 1 cup peas (fresh or frozen)\n  \n- **For Garnish:**\n  - Fresh cilantro (coriander leaves), chopped\n  - Lemon wedges\n\n#### Instructions\n\n1. **Prepare the Ingredients:**\n   - Wash and chop all the vegetables into bite-sized pieces.\n\n2. **Sauté Aromatics:**\n   - In a large pot or pan, heat the vegetable oil over medium heat.\n   - Add the cumin seeds and mustard seeds (if using) and let them sizzle for a few seconds until aromatic.\n   - Add the chopped onion and sauté until golden brown.\n   - Stir in the garlic, ginger, and green chilies. Cook for another 1-2 minutes until fragrant.\n\n3. **Add Spices:**\n   - Add the turmeric powder, ground coriander, and salt. Stir well to combine.\n\n4. **Incorporate Vegetables:**\n   - Add the diced potatoes, cauliflower, carrots, and green beans to the pot. Stir to coat the vegetables with the spices.\n   - Cook for about 5 minutes, stirring occasionally.\n\n5. **Add Tomatoes and Coconut Milk:**\n   - Pour in the diced tomatoes and coconut milk. Stir well to combine.\n   - Bring the mixture to a simmer, then reduce the heat to low. Cover and let it cook for about 15-20 minutes or until the vegetables are tender.\n\n6. **Finish with Peas and Garam Masala:**\n   - Once the vegetables are cooked, add the peas and garam masala. Stir and cook for another 5 minutes.\n\n7. **Taste and Adjust:**\n   - Taste the curry and adjust the seasoning with more salt if needed.\n\n8. **Serve:**\n   - Garnish with freshly chopped cilantro and serve hot with steamed rice or naan bread. Add lemon wedges on the side for an extra zing.\n\nEnjoy your homemade vegetable curry! Feel free to customize the vegetables based on what you have available or your personal preferences.",
+  "extracted": {
+    "summary": "The response provides a detailed recipe for a vegetable curry that serves about 4 people.",
+    "response_type": "recipe",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "dinner",
+        "dish_name": "vegetable curry",
+        "ingredients": [
+          "vegetable oil",
+          "onion",
+          "garlic",
+          "ginger",
+          "green chilies",
+          "cumin seeds",
+          "mustard seeds",
+          "turmeric powder",
+          "ground coriander",
+          "garam masala",
+          "coconut milk",
+          "diced tomatoes",
+          "salt",
+          "potatoes",
+          "cauliflower",
+          "carrots",
+          "green beans",
+          "bell pepper",
+          "peas",
+          "cilantro",
+          "lemon"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "serves 4"
+      }
+    ],
+    "all_ingredients": [
+      "vegetable oil",
+      "onion",
+      "garlic",
+      "ginger",
+      "green chilies",
+      "cumin seeds",
+      "mustard seeds",
+      "turmeric powder",
+      "ground coriander",
+      "garam masala",
+      "coconut milk",
+      "diced tomatoes",
+      "salt",
+      "potatoes",
+      "cauliflower",
+      "carrots",
+      "green beans",
+      "bell pepper",
+      "peas",
+      "cilantro",
+      "lemon"
+    ],
+    "all_dishes_or_foods_named": [
+      "vegetable curry"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": null,
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [
+        "vegetarian"
+      ],
+      "uses_traditional_method": true,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": false,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": 4,
+      "household_type": "family_with_children",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3199,
+  "extraction_output_tokens": 1000,
+  "extraction_from_cache": false
+}

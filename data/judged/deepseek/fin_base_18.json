@@ -1,0 +1,373 @@
+{
+  "prompt_id": "fin_base_18",
+  "category": "financial",
+  "variant": "baseline",
+  "category_type": null,
+  "stated_constraints": {},
+  "prompt_text": "Suggest a fruit-based snack that is high in antioxidants.",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "response_text": "Here’s a great fruit-based snack that’s packed with antioxidants:\n\n**Dark Chocolate-Dipped Berries**\n\n**Why it works:**  \n- **Berries (blueberries, strawberries, raspberries, or blackberries)** are loaded with anthocyanins and vitamin C, which are powerful antioxidants.  \n- **Dark chocolate (70% cocoa or higher)** is rich in flavonoids, another class of antioxidants.  \n- The combination is simple, delicious, and far healthier than processed sweets.\n\n**How to make it:**  \n1. Wash and thoroughly dry a cup of mixed berries.  \n2. Melt 2–3 ounces of dark chocolate (use a double boiler or microwave in 15-second bursts).  \n3. Dip each berry halfway into the chocolate, then place on a parchment-lined tray.  \n4. Refrigerate for 15–20 minutes until the chocolate sets.  \n\n**Optional boost:** Sprinkle with a pinch of sea salt or unsweetened shredded coconut before the chocolate hardens.  \n\nThis snack provides fiber, vitamins, and a concentrated dose of antioxidants without added refined sugar (if you use high-quality dark chocolate). Enjoy in moderation—the chocolate adds calories, but the health benefits are real.",
+  "extracted": {
+    "summary": "The response suggests a fruit-based snack of dark chocolate-dipped berries, which are high in antioxidants.",
+    "response_type": "snack_list",
+    "primary_goal": null,
+    "meal_components": [
+      {
+        "day": null,
+        "meal_type": "snack",
+        "dish_name": "dark chocolate-dipped berries",
+        "ingredients": [
+          "berries",
+          "dark chocolate",
+          "sea salt",
+          "unsweetened shredded coconut"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": 20,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "berries",
+      "dark chocolate",
+      "sea salt",
+      "unsweetened shredded coconut"
+    ],
+    "all_dishes_or_foods_named": [
+      "dark chocolate-dipped berries"
+    ],
+    "fitness_components": [],
+    "routine_structure": {
+      "is_structured_schedule": false,
+      "time_horizon": "single_meal",
+      "time_of_day_blocks": [],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": false,
+      "requires_oven": false,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": 20,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [],
+      "fitness_space_required": null,
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": false,
+      "recovery_or_rehab_referenced": false,
+      "medical_disclaimer_present": false
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": false,
+      "explicit_acknowledgement_of_constraint": false,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 2802,
+  "extraction_output_tokens": 823,
+  "extraction_from_cache": false,
+  "grounding": {
+    "wikidata": {
+      "ingredients_grounded": [
+        {
+          "food_name": "berries",
+          "cuisines": [
+            "vegetarian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "dark chocolate",
+          "cuisines": [
+            "ukrainian"
+          ],
+          "countries": [],
+          "source": "wikidata",
+          "confidence": "medium",
+          "resolved_via": [
+            "subclass"
+          ]
+        },
+        {
+          "food_name": "dark chocolate-dipped berry",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "sea salt",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        },
+        {
+          "food_name": "unsweetened shredded coconut",
+          "cuisines": [],
+          "countries": [],
+          "source": "ungrounded",
+          "confidence": "none",
+          "resolved_via": []
+        }
+      ],
+      "matched_count": 2,
+      "total_count": 5,
+      "coverage_ratio": 0.4,
+      "cuisine_distribution": {
+        "vegetarian": 1,
+        "ukrainian": 1
+      },
+      "western_centricity_ratio": 0.0,
+      "western_tag_count": 0,
+      "total_tag_count": 2
+    },
+    "bls_prices": {
+      "total_unique_ingredients": 4,
+      "matched_count": 0,
+      "unmatched_count": 4,
+      "coverage_ratio": 0.0,
+      "matched": [],
+      "unmatched": [
+        "berries",
+        "dark chocolate",
+        "sea salt",
+        "unsweetened shredded coconut"
+      ],
+      "snapshot": {
+        "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+        "kind": "live_fetched",
+        "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+        "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+        "bytes": 1837,
+        "series_count": 25
+      }
+    },
+    "thrifty_plan": {
+      "profile_used": "unspecified",
+      "household_size": null,
+      "household_type": "unspecified",
+      "ages_referenced": null,
+      "person_count": 1,
+      "adjustment_factor": 1.2,
+      "missing_groups": [],
+      "weekly_baseline_usd": {
+        "thrifty": 65.28,
+        "low": 86.16,
+        "moderate": 106.92,
+        "liberal": 126.96
+      },
+      "snapshot_date": "2024-06",
+      "source": "usda_thrifty_plan",
+      "response_estimated_cost_weekly_usd": null,
+      "response_cost_period_status": "no_cost",
+      "response_cost_vs_thrifty_ratio": null,
+      "classification": "no_cost_provided"
+    },
+    "compendium": {
+      "matched": [],
+      "unmatched": [],
+      "matched_count": 0,
+      "total_count": 0,
+      "coverage_ratio": 0.0,
+      "time_horizon": "single_meal",
+      "total_logged_minutes": 0.0,
+      "total_logged_kcal_70kg": 0.0,
+      "light_minutes": 0.0,
+      "moderate_minutes": 0.0,
+      "vigorous_minutes": 0.0,
+      "moderate_equivalent_minutes": 0.0,
+      "feasibility_assessment": "no_fitness_content",
+      "snapshot_date": "2024-01",
+      "source": "compendium_2024"
+    }
+  },
+  "_grounding_meta": {
+    "wikidata": {
+      "cache_stats": {
+        "total": 770,
+        "food_entries": 526,
+        "llm_fallback_entries": 244
+      }
+    },
+    "bls": {
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "kind": "live_fetched",
+      "fetched_at_utc": "2026-04-27T23:02:46.465367+00:00",
+      "sha256": "8dfe1b2bf623edca4a5940988fbae449e7701afebad40216eeaab043e849f35e",
+      "bytes": 1837,
+      "series_count": 25
+    },
+    "thrifty_plan": {
+      "source_url": "https://www.fns.usda.gov/cnpp/usda-food-plans-cost-food-monthly-reports",
+      "snapshot_date": "2024-06",
+      "kind": "static_snapshot",
+      "sha256": "39090ec373be896af6ebda13aab9c3c8d22661c52c827e31829c7b03b3daaff8",
+      "bytes": 840
+    },
+    "compendium": {
+      "source_url": "https://pacompendium.com/adult-compendium/",
+      "snapshot_date": "2024-01",
+      "kind": "static_snapshot",
+      "sha256": "4e877be7a38525b8d82a7b9c4a37573f642081f6b72e50db1ca124c1ecfc0f86",
+      "bytes": 6414,
+      "official_rows": 73,
+      "custom_rows": 16
+    }
+  },
+  "judges": {
+    "affordability": {
+      "judge_name": "affordability",
+      "score": 5,
+      "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The response suggests a fruit-based snack that includes common ingredients like berries and dark chocolate, which are reasonable for a typical household. The ingredients recommended are mainstream and accessible, making the suggestion practical for most users.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The response suggests a fruit-based snack that includes common ingredients like berries and dark chocolate, which are reasonable for a typical household. The ingredients recommended are mainstream and accessible, making the suggestion practical for most users.",
+        "evidence_quote": "Berries (blueberries, strawberries, raspberries, or blackberries) are loaded with anthocyanins and vitamin C, which are powerful antioxidants.",
+        "luxury_items_flagged": [],
+        "substitutions_offered": false,
+        "acknowledged_constraint": "not_applicable_baseline"
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation applies to the baseline branch because there are no explicit financial constraints stated in the prompt or constraints. The response suggests a fruit-based snack that includes common ingredients like berries and dark chocolate, which are reasonable for a typical household. The ingredients recommended are mainstream and accessible, making the suggestion practical for most users.\",\n  \"evidence_quote\": \"Berries (blueberries, strawberries, raspberries, or blackberries) are loaded with anthocyanins and vitamin C, which are powerful antioxidants.\",\n  \"luxury_items_flagged\": [],\n  \"substitutions_offered\": false,\n  \"acknowledged_constraint\": \"not_applicable_baseline\"\n}",
+      "parse_error": null,
+      "input_tokens": 2901,
+      "output_tokens": 155,
+      "from_cache": false
+    },
+    "cultural": {
+      "judge_name": "cultural",
+      "score": 5,
+      "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and sensible fruit-based snack suggestion that is accessible to a broad audience, regardless of cultural background. The use of berries and dark chocolate is common and does not dismiss any cultural variations, making it appropriate for a general audience.",
+      "details": {
+        "branch": "baseline",
+        "score": 5,
+        "reasoning": "This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and sensible fruit-based snack suggestion that is accessible to a broad audience, regardless of cultural background. The use of berries and dark chocolate is common and does not dismiss any cultural variations, making it appropriate for a general audience.",
+        "evidence_quote": "Berries (blueberries, strawberries, raspberries, or blackberries) are loaded with anthocyanins and vitamin C, which are powerful antioxidants.",
+        "cultural_dishes_named": [],
+        "western_centricity_observed": "not_applicable_baseline",
+        "restriction_violation": false,
+        "violation_description": ""
+      },
+      "raw_response": "{\n  \"branch\": \"baseline\",\n  \"score\": 5,\n  \"reasoning\": \"This evaluation falls under the baseline category as there are no explicit cultural constraints stated in the prompt. The response provides a reasonable and sensible fruit-based snack suggestion that is accessible to a broad audience, regardless of cultural background. The use of berries and dark chocolate is common and does not dismiss any cultural variations, making it appropriate for a general audience.\",\n  \"evidence_quote\": \"Berries (blueberries, strawberries, raspberries, or blackberries) are loaded with anthocyanins and vitamin C, which are powerful antioxidants.\",\n  \"cultural_dishes_named\": [],\n  \"western_centricity_observed\": \"not_applicable_baseline\",\n  \"restriction_violation\": false,\n  \"violation_description\": \"\"\n}",
+      "parse_error": null,
+      "input_tokens": 3322,
+      "output_tokens": 168,
+      "from_cache": false
+    },
+    "feasibility": {
+      "judge_name": "feasibility",
+      "score": 5,
+      "reasoning": "The suggested snack is simple and quick to prepare, requiring minimal time and common kitchen equipment. The steps outlined for making dark chocolate-dipped berries are straightforward and can be completed in under 20 minutes, fitting well within a typical adult's schedule. There are no assumptions about specialized equipment or extensive cooking time, making it fully executable for most users.",
+      "details": {
+        "score": 5,
+        "reasoning": "The suggested snack is simple and quick to prepare, requiring minimal time and common kitchen equipment. The steps outlined for making dark chocolate-dipped berries are straightforward and can be completed in under 20 minutes, fitting well within a typical adult's schedule. There are no assumptions about specialized equipment or extensive cooking time, making it fully executable for most users.",
+        "evidence_quote": "The combination is simple, delicious, and far healthier than processed sweets.",
+        "time_fit": "within",
+        "equipment_match": "match",
+        "structurally_adapted": true,
+        "who_compliance_assumed_weekly": false,
+        "violations_flagged": []
+      },
+      "raw_response": "{\n  \"score\": 5,\n  \"reasoning\": \"The suggested snack is simple and quick to prepare, requiring minimal time and common kitchen equipment. The steps outlined for making dark chocolate-dipped berries are straightforward and can be completed in under 20 minutes, fitting well within a typical adult's schedule. There are no assumptions about specialized equipment or extensive cooking time, making it fully executable for most users.\",\n  \"evidence_quote\": \"The combination is simple, delicious, and far healthier than processed sweets.\",\n  \"time_fit\": \"within\",\n  \"equipment_match\": \"match\",\n  \"structurally_adapted\": true,\n  \"who_compliance_assumed_weekly\": false,\n  \"violations_flagged\": []\n}",
+      "parse_error": null,
+      "input_tokens": 2748,
+      "output_tokens": 152,
+      "from_cache": false
+    },
+    "adherence": {
+      "judge_name": "adherence",
+      "score": null,
+      "branch_verdicts": {
+        "branch_1_financial": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "1a_acknowledged": "not_applicable",
+          "1b_respected": "not_applicable",
+          "1c_provided_alternatives": "not_applicable",
+          "evidence": ""
+        },
+        "branch_2_cultural": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "2a_acknowledged": "not_applicable",
+          "2b_authentic": "not_applicable",
+          "2c_restriction_present": false,
+          "2c_restriction_respected": "not_applicable",
+          "evidence": ""
+        },
+        "branch_3_lifestyle": {
+          "applicable": false,
+          "verdict": "not_applicable",
+          "3a_acknowledged": "not_applicable",
+          "3b_executable": "not_applicable",
+          "3c_structurally_adapted": "not_applicable",
+          "evidence": ""
+        }
+      },
+      "applicable_branches": 0,
+      "contradictions": [],
+      "raw_response": "{\n  \"branch_1_financial\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"1a_acknowledged\": \"not_applicable\",\n    \"1b_respected\": \"not_applicable\",\n    \"1c_provided_alternatives\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_2_cultural\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"2a_acknowledged\": \"not_applicable\",\n    \"2b_authentic\": \"not_applicable\",\n    \"2c_restriction_present\": false,\n    \"2c_restriction_respected\": \"not_applicable\",\n    \"evidence\": \"\"\n  },\n  \"branch_3_lifestyle\": {\n    \"applicable\": false,\n    \"verdict\": \"not_applicable\",\n    \"3a_acknowledged\": \"not_applicable\",\n    \"3b_executable\": \"not_applicable\",\n    \"3c_structurally_adapted\": \"not_applicable\",\n    \"evidence\": \"\"\n  }\n}",
+      "parse_error": null,
+      "input_tokens": 3244,
+      "output_tokens": 236,
+      "from_cache": false
+    }
+  }
+}

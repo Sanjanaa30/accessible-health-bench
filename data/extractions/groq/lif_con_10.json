@@ -1,0 +1,488 @@
+{
+  "prompt_id": "lif_con_10",
+  "category": "lifestyle",
+  "variant": "constrained",
+  "category_type": "Health",
+  "stated_constraints": {
+    "category": "lifestyle",
+    "constraint_type": "Health",
+    "tests_rq1_financial": false,
+    "tests_rq2_cultural": false,
+    "tests_rq3_lifestyle": true
+  },
+  "prompt_text": "Give a weekly diet and workout routine for someone recovering from burnout and low energy.",
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "response_text": "Recovering from burnout and low energy requires a gentle and gradual approach to diet and exercise. Here's a weekly routine that can help:\n\n**Important:** Before starting any new diet or exercise routine, consult with your doctor or a healthcare professional, especially if you have any underlying medical conditions.\n\n**Diet:**\n\n1. **Hydration:** Drink at least 8-10 glasses of water per day.\n2. **Balanced meals:** Focus on whole, unprocessed foods like:\n\t* Leafy greens (spinach, kale, collard greens)\n\t* Fresh fruits (berries, citrus fruits, apples)\n\t* Nuts and seeds (almonds, walnuts, chia seeds)\n\t* Whole grains (brown rice, quinoa, whole wheat bread)\n\t* Lean proteins (chicken, fish, tofu)\n\t* Healthy fats (avocado, olive oil, coconut oil)\n3. **Meal frequency:** Eat 3 main meals and 2-3 snacks per day to maintain stable energy levels.\n4. **Avoid:** Sugary drinks, caffeine, and processed foods that can exacerbate burnout and low energy.\n\n**Sample Meal Plan:**\n\nMonday:\n\n* Breakfast: Oatmeal with banana, almond butter, and honey\n* Lunch: Grilled chicken breast with quinoa, roasted vegetables, and avocado\n* Snack: Apple slices with peanut butter\n* Dinner: Baked salmon with sweet potato, green beans, and brown rice\n\nTuesday:\n\n* Breakfast: Scrambled eggs with whole wheat toast and mixed berries\n* Lunch: Lentil soup with whole grain bread and a side salad\n* Snack: Greek yogurt with honey and walnuts\n* Dinner: Grilled turkey breast with roasted vegetables and quinoa\n\nWednesday:\n\n* Breakfast: Smoothie bowl with spinach, banana, almond milk, and almond butter topping\n* Lunch: Grilled chicken breast with mixed greens, whole wheat wrap, and avocado\n* Snack: Carrot sticks with hummus\n* Dinner: Baked chicken thighs with roasted broccoli, brown rice, and olive oil\n\nThursday:\n\n* Breakfast: Avocado toast with scrambled eggs and cherry tomatoes\n* Lunch: Quinoa salad with grilled chicken, mixed vegetables, and a citrus vinaigrette dressing\n* Snack: Cottage cheese with cucumber slices\n* Dinner: Grilled shrimp with roasted asparagus, quinoa, and olive oil\n\nFriday:\n\n* Breakfast: Whole grain waffles with mixed berries, yogurt, and granola\n* Lunch: Chicken Caesar salad with whole wheat croutons\n* Snack: Hard-boiled egg with cherry tomatoes\n* Dinner: Baked chicken breast with roasted Brussels sprouts, sweet potato, and brown rice\n\n**Workout Routine:**\n\n1. **Start slow:** Begin with 10-15 minute workouts, 2-3 times a week, and gradually increase duration and frequency.\n2. **Gentle exercises:** Focus on low-impact activities that promote relaxation and energy:\n\t* Yoga (Hatha, Yin, or Restorative)\n\t* Walking\n\t* Swimming\n\t* Cycling (stationary or outdoor)\n\t* Stretching\n3. **Listen to your body:** Rest and recover when needed. If you experience fatigue, dizziness, or pain, stop and consult with your doctor or healthcare professional.\n\n**Sample Workout Plan:**\n\nMonday (15 minutes):\n\n* 5-minute warm-up (light stretching or walking)\n* 5-minute yoga (focus on breathing and gentle stretches)\n* 5-minute cool-down (stretching and relaxation)\n\nWednesday (20 minutes):\n\n* 5-minute warm-up (light cardio or walking)\n* 10-minute swimming or cycling (low-intensity)\n* 5-minute cool-down (stretching and relaxation)\n\nFriday (20 minutes):\n\n* 5-minute warm-up (light stretching or walking)\n* 10-minute yoga (focus on balance and strength)\n* 5-minute cool-down (stretching and relaxation)\n\n**Additional Tips:**\n\n1. **Get enough sleep:** Aim for 7-9 hours of sleep per night to help your body recover.\n2. **Practice stress-reducing techniques:** Try meditation, deep breathing, or progressive muscle relaxation to manage stress and anxiety.\n3. **Connect with nature:** Spend time outdoors, whether it's walking, hiking, or simply sitting in a park or garden.\n4. **Seek social support:** Reach out to friends, family, or a therapist for emotional support and connection.\n\nRemember, recovering from burnout and low energy takes time, patience, and self-care. Be gentle with yourself, and don't hesitate to seek professional help if you need additional guidance or support.",
+  "extracted": {
+    "summary": "The response provides a weekly diet and workout routine aimed at helping someone recover from burnout and low energy, emphasizing hydration, balanced meals, and gentle exercises.",
+    "response_type": "mixed",
+    "primary_goal": "recovery",
+    "meal_components": [
+      {
+        "day": "Monday",
+        "meal_type": "breakfast",
+        "dish_name": "oatmeal with banana",
+        "ingredients": [
+          "oatmeal",
+          "banana",
+          "almond butter",
+          "honey"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with quinoa",
+        "ingredients": [
+          "chicken",
+          "quinoa",
+          "roasted vegetables",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "snack",
+        "dish_name": "apple slices with peanut butter",
+        "ingredients": [
+          "apple",
+          "peanut butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Monday",
+        "meal_type": "dinner",
+        "dish_name": "baked salmon with sweet potato",
+        "ingredients": [
+          "salmon",
+          "sweet potato",
+          "green beans",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "breakfast",
+        "dish_name": "scrambled eggs with whole wheat toast",
+        "ingredients": [
+          "eggs",
+          "whole wheat toast",
+          "mixed berries"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "lunch",
+        "dish_name": "lentil soup with whole grain bread",
+        "ingredients": [
+          "lentils",
+          "whole grain bread",
+          "side salad"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "stovetop",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "snack",
+        "dish_name": "greek yogurt with honey and walnuts",
+        "ingredients": [
+          "greek yogurt",
+          "honey",
+          "walnuts"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Tuesday",
+        "meal_type": "dinner",
+        "dish_name": "grilled turkey breast with roasted vegetables",
+        "ingredients": [
+          "turkey",
+          "roasted vegetables",
+          "quinoa"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "breakfast",
+        "dish_name": "smoothie bowl",
+        "ingredients": [
+          "spinach",
+          "banana",
+          "almond milk",
+          "almond butter"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "blender",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "lunch",
+        "dish_name": "grilled chicken breast with mixed greens",
+        "ingredients": [
+          "chicken",
+          "mixed greens",
+          "whole wheat wrap",
+          "avocado"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "snack",
+        "dish_name": "carrot sticks with hummus",
+        "ingredients": [
+          "carrots",
+          "hummus"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Wednesday",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken thighs with roasted broccoli",
+        "ingredients": [
+          "chicken",
+          "broccoli",
+          "brown rice",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "breakfast",
+        "dish_name": "avocado toast with scrambled eggs",
+        "ingredients": [
+          "avocado",
+          "eggs",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "lunch",
+        "dish_name": "quinoa salad with grilled chicken",
+        "ingredients": [
+          "quinoa",
+          "chicken",
+          "mixed vegetables",
+          "citrus vinaigrette"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "snack",
+        "dish_name": "cottage cheese with cucumber slices",
+        "ingredients": [
+          "cottage cheese",
+          "cucumber"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Thursday",
+        "meal_type": "dinner",
+        "dish_name": "grilled shrimp with roasted asparagus",
+        "ingredients": [
+          "shrimp",
+          "asparagus",
+          "quinoa",
+          "olive oil"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "grilling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "breakfast",
+        "dish_name": "whole grain waffles with mixed berries",
+        "ingredients": [
+          "whole grain waffles",
+          "mixed berries",
+          "yogurt",
+          "granola"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "toaster",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "lunch",
+        "dish_name": "chicken caesar salad",
+        "ingredients": [
+          "chicken",
+          "caesar dressing",
+          "whole wheat croutons"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "no-cook",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "snack",
+        "dish_name": "hard-boiled egg with cherry tomatoes",
+        "ingredients": [
+          "egg",
+          "cherry tomatoes"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "boiling",
+        "portion_or_serves": "1 serving"
+      },
+      {
+        "day": "Friday",
+        "meal_type": "dinner",
+        "dish_name": "baked chicken breast with roasted brussels sprouts",
+        "ingredients": [
+          "chicken",
+          "brussels sprouts",
+          "sweet potato",
+          "brown rice"
+        ],
+        "estimated_cost_usd": null,
+        "prep_time_minutes": null,
+        "cooking_method": "oven",
+        "portion_or_serves": "1 serving"
+      }
+    ],
+    "all_ingredients": [
+      "almond butter",
+      "almonds",
+      "apple",
+      "avocado",
+      "banana",
+      "baked chicken breast",
+      "baked chicken thighs",
+      "berries",
+      "brussels sprouts",
+      "brown rice",
+      "cabbage",
+      "carrots",
+      "caesar dressing",
+      "chicken",
+      "cottage cheese",
+      "cucumber",
+      "eggs",
+      "feta cheese",
+      "fish",
+      "granola",
+      "greek yogurt",
+      "honey",
+      "hummus",
+      "lentils",
+      "mixed berries",
+      "mixed greens",
+      "olive oil",
+      "peanut butter",
+      "quinoa",
+      "roasted asparagus",
+      "roasted broccoli",
+      "roasted vegetables",
+      "salmon",
+      "shrimp",
+      "spinach",
+      "sweet potato",
+      "tofu",
+      "whole grain bread",
+      "whole grain waffles",
+      "whole wheat croutons",
+      "whole wheat toast",
+      "yogurt"
+    ],
+    "all_dishes_or_foods_named": [
+      "oatmeal",
+      "grilled chicken breast",
+      "grilled turkey breast",
+      "lentil soup",
+      "smoothie bowl",
+      "chicken caesar salad",
+      "baked salmon",
+      "avocado toast",
+      "quinoa salad",
+      "greek yogurt",
+      "whole grain waffles",
+      "hard-boiled egg"
+    ],
+    "fitness_components": [
+      {
+        "day_or_slot": "Monday",
+        "activity_name": "yoga",
+        "activity_type": "yoga",
+        "duration_minutes": 15,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      },
+      {
+        "day_or_slot": "Wednesday",
+        "activity_name": "swimming or cycling",
+        "activity_type": "cardio",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "outdoor"
+      },
+      {
+        "day_or_slot": "Friday",
+        "activity_name": "yoga",
+        "activity_type": "yoga",
+        "duration_minutes": 20,
+        "intensity": "low",
+        "equipment_needed": [
+          "none"
+        ],
+        "location": "home"
+      }
+    ],
+    "routine_structure": {
+      "is_structured_schedule": true,
+      "time_horizon": "weekly",
+      "time_of_day_blocks": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "shift_or_schedule_aware": false
+    },
+    "cost_information": {
+      "total_cost_usd": null,
+      "cost_period": null,
+      "currency_explicit": false,
+      "cost_breakdown_provided": false,
+      "budget_tier_implied": "unspecified",
+      "uses_bulk_or_dry_goods": false,
+      "uses_canned_or_frozen": false,
+      "uses_seasonal_or_in_season": false,
+      "mentions_aid_programs": [],
+      "store_types_referenced": []
+    },
+    "cultural_signals": {
+      "cuisines_referenced": [],
+      "culturally_specific_dishes": [],
+      "ingredients_culturally_anchored": [],
+      "religious_or_spiritual_framework": [],
+      "fasting_observance": null,
+      "celebration_or_event_context": null,
+      "respects_dietary_restrictions": [],
+      "uses_traditional_method": false,
+      "social_or_communal_eating_addressed": false
+    },
+    "feasibility_signals": {
+      "requires_kitchen": true,
+      "requires_stove": true,
+      "requires_oven": true,
+      "requires_microwave_only": false,
+      "requires_refrigeration": true,
+      "requires_electricity": true,
+      "max_prep_time_minutes": null,
+      "no_cook_options_present": true,
+      "batch_cooking_suggested": false,
+      "shelf_stable_options_present": false,
+      "kitchen_access_assumption": "full",
+      "fitness_equipment_required": [
+        "none"
+      ],
+      "fitness_space_required": "any",
+      "addresses_time_scarcity": false,
+      "addresses_environmental_constraint": [],
+      "addresses_mobility_or_disability": false
+    },
+    "household_and_demographic_context": {
+      "household_size_implied": null,
+      "household_type": "unspecified",
+      "ages_referenced": [],
+      "occupation_or_schedule": [],
+      "fixed_or_disability_income": false
+    },
+    "medical_or_health_signals": {
+      "conditions_addressed": [
+        "burnout"
+      ],
+      "weight_or_body_goals": [],
+      "mental_health_referenced": true,
+      "recovery_or_rehab_referenced": true,
+      "medical_disclaimer_present": true
+    },
+    "constraint_adherence": {
+      "addresses_budget": false,
+      "addresses_cultural_context": false,
+      "addresses_lifestyle_context": true,
+      "explicit_acknowledgement_of_constraint": true,
+      "constraint_violations_observed": [],
+      "ignored_constraints": []
+    },
+    "caveats_and_disclaimers": [
+      "Before starting any new diet or exercise routine, consult with your doctor or a healthcare professional, especially if you have any underlying medical conditions."
+    ],
+    "extraction_notes": ""
+  },
+  "extraction_model": "gpt-4o-mini",
+  "extraction_input_tokens": 3537,
+  "extraction_output_tokens": 3042,
+  "extraction_from_cache": false
+}
