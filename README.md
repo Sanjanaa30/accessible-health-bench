@@ -43,9 +43,9 @@ Section 7: Visualizations (8 paper-quality figures + scorecard)
 
 ---
 
-## Phase-by-phase summary (in plain language)
+## Phase-by-phase summary
 
-### Phase 1 — Dataset Construction (complete)
+### Phase 1 — Dataset Construction
 
 We hand-authored **120 prompts** representing realistic users. Each prompt has a baseline (no constraint) and a constrained version (constraint added). The pairing is what lets us compare: did the model change its answer when the constraint was introduced?
 
@@ -62,7 +62,7 @@ Example pair:
 
 Outputs: [data/prompts.jsonl](data/prompts.jsonl) · [data/LLM_Prompts.csv](data/LLM_Prompts.csv) · [scripts/csv_to_jsonl.py](scripts/csv_to_jsonl.py)
 
-### Phase 2 — Generation (complete, 480/480)
+### Phase 2 — Generation
 
 We sent every one of the 120 prompts to four large language models. Each call goes through a **unified multi-provider client** with SQLite caching, so we never pay for the same call twice.
 
@@ -83,7 +83,7 @@ Generation params: `temperature=0.7`, `max_tokens=1500` (uniform across provider
 
 Outputs: [src/clients/unified_llm.py](src/clients/unified_llm.py) · [src/generate.py](src/generate.py) · [src/config.py](src/config.py) · `data/responses/` (committed — 480 raw responses)
 
-### Phase 3 — Structured Extraction (complete, 480/480)
+### Phase 3 — Structured Extraction
 
 Each model's free-form answer was reorganized into a **fixed JSON record with 15 sections** — things like "all ingredients listed," "all dishes named," "cost information," "cultural signals," and so on. This step is just sorting; no opinions, no scoring. We use GPT-4o-mini for it (run at deterministic settings so the output is repeatable). The point is to make the next phases easy: a judge can look up "did the response give a total cost?" without re-reading the whole reply. There's also a small `extraction_notes` field where the extractor can flag anything that looked unclear.
 
@@ -95,7 +95,7 @@ We had to raise the output-length cap twice during piloting (2500 → 4000 → 8
 
 Outputs: [src/extract.py](src/extract.py) · [src/validate_extractions.py](src/validate_extractions.py) · [prompts/extraction.txt](prompts/extraction.txt) · `data/extractions/` (committed — 480 structured JSONs)
 
-### Phase 4 — External Grounding (complete, 480/480)
+### Phase 4 — External Grounding
 
 We enriched each extracted record against **four authoritative external sources** so judges and classifiers can reason against real numbers, not just LLM opinions.
 
@@ -129,7 +129,7 @@ Now we have two piles: the Wikidata answers from Pass 1 and the LLM answers from
 
 Outputs: [src/ground_all.py](src/ground_all.py) · [src/coverage_report.py](src/coverage_report.py) · [src/download_external_data.py](src/download_external_data.py) · `data/enriched/summary.json` (committed; per-record JSONs gitignored — regenerable from responses + grounding scripts) · `data/external/` (committed reference data)
 
-### Phase 5 — Evaluation (complete, all 5 tracks)
+### Phase 5 — Evaluation
 
 Phase 5 evaluated all 480 responses in **five different ways**.
 
@@ -238,7 +238,7 @@ All Phase 5 signals + Phase 4 grounding metrics are joined into [results/scores.
 
 Outputs: [src/aggregate_scores.py](src/aggregate_scores.py)
 
-### Phase 6 — Human Validation (complete, N=15)
+### Phase 6 — Human Validation (with N=15)
 
 Both authors hand-rated **15 responses** on the same 1-to-5 scale the LLM judges use, working from the same written rubric ([prompts/human_scoring_guide.md](prompts/human_scoring_guide.md)). The 15 responses were carefully picked to cover all four providers, all three categories (financial / cultural / lifestyle), and both branches (10 constrained + 5 baseline) — so they're a fair mini-sample of the full 480. Each author submitted their CSV **before discussing scores**, so the ratings stayed independent.
 
@@ -256,7 +256,7 @@ Both authors hand-rated **15 responses** on the same 1-to-5 scale the LLM judges
 
 Outputs: [src/sample_validation_set.py](src/sample_validation_set.py) · [src/compute_kappa.py](src/compute_kappa.py) · [results/validation/](results/validation/) (committed) · [results/kappa_report.csv](results/kappa_report.csv) (committed)
 
-### Section 7 — Visualizations (complete, 8 figures)
+### Section 7 — Visualizations
 
 Eight figures, each generated directly from the project's CSV results by [src/generate_phase7_figures.py](src/generate_phase7_figures.py). Two additional exploratory plots (`adaptivity_curves` and `distance_distributions`) are produced for diagnostic use.
 
