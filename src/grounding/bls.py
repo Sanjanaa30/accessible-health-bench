@@ -3,33 +3,6 @@ src/grounding/bls.py
 
 Phase 4b — Affordability grounding via BLS Average Retail Food Prices.
 
-Fuzzy-matches each ingredient against data/external/bls_prices.csv (built by
-src/download_external_data.py). Returns the matching item's real US average
-retail price, the unit it's priced in, the year/period of the observation,
-and the BLS series ID.
-
-We deliberately do NOT compute a "total cost" estimate here. BLS prices are
-in mixed units (per lb, per dozen, per gallon, ...); naive summation produces
-a meaningless number. The affordability judge is responsible for converting
-unit prices to a per-meal/per-week cost using portion sizes.
-
-Used by:
-  - Affordability judge: per-ingredient unit price + provenance
-  - Coverage report: % of ingredients groundable in BLS
-
-Usage:
-    from src.grounding.bls import BLSGrounder
-    g = BLSGrounder()
-
-    r = g.lookup("rice")
-    # -> {"matched_bls_item": "rice, white, long-grain, uncooked",
-    #     "price_usd": 0.87, "unit": "per_lb", "year": "2024", "period": "M06",
-    #     "series_id": "APU0000701311", "confidence": "high",
-    #     "match_score": 100, "source": "bls"}
-
-    batch = g.lookup_batch(["rice", "salt", "egusi"])      # per-ingredient list
-    report = g.coverage_report(["rice", "salt", "egusi"])  # aggregate stats
-
 CLI:
     python -m src.grounding.bls --test rice "chicken breast" eggs salt
     python -m src.grounding.bls --stats

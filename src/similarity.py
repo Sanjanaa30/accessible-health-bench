@@ -13,25 +13,6 @@ distance signals between the responses, per model:
                                     (response_type + meal/fitness skeleton)
   4. jaccard_distance_ingredients — set-based, length-invariant; complements (2)
 
-Why four signals?
-  - Distance (1) measures overall response change.
-  - Distance (2) measures ingredient-level wording change but is sensitive
-    to length differences (a baseline of 25 ingredients vs a constrained of
-    8 produces low similarity even when overlap is high).
-  - Distance (4) corrects for that: pure set overlap, length-invariant,
-    using the same normalize_food_name as Phase 4 grounding so "oats"
-    and "oat" don't count as different ingredients.
-  - Distance (3) measures plan-structure change independent of wording
-    (did the meal structure or workout layout actually shift?).
-
-Together they let the paper distinguish:
-  - Surface rewording  (high cosine_full, low jaccard, low structural)
-  - Genuine ingredient swap  (high cosine_full, high jaccard, low structural)
-  - Plan restructure  (high cosine_full, low jaccard, high structural)
-  - True adaptation  (all three high)
-
-Output: results/similarity.csv — one row per (prompt_pair_id, provider).
-
 Run from repo root:
     python -m src.similarity                              # full run
     python -m src.similarity --providers openai           # one provider

@@ -11,15 +11,6 @@ and writes enriched output to data/enriched/.
   4c. USDA Cost of Food at Home    (RQ1 — affordability calibration)
   4d. Compendium activities        (RQ3 — fitness feasibility)
 
-Each enriched file is the original extraction record plus a top-level
-`grounding` block consumed by the Phase 5 judges, plus a `_grounding_meta`
-block recording snapshot dates and SHA256s for paper-quality reproducibility.
-
-Three-pass design:
-  Pass 1: ground every extraction (Wikidata accumulates misses in-process).
-  Pass 2: one batched LLM-fallback call resolves all Wikidata misses.
-  Pass 3: finalize each in-memory result with the fallback cuisines and write.
-
 Run from repo root:
     python -m src.ground_all                  # full run, restart-safe
     python -m src.ground_all --pilot 5        # 5 extractions per provider

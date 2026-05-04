@@ -13,9 +13,6 @@ Output:
   results/arena_matrix.csv         — long format: pair × dimension cell stats
   console table with Wilson 95% CIs
 
-Wilson score 95% CIs are reported alongside win rates so reviewers can see
-the actual uncertainty (which is non-trivial at N=60 prompts × 6 pairs).
-
 Run:
     python -m src.arena_eval                              # full run
     python -m src.arena_eval --pilot 5                    # 5 prompts/category

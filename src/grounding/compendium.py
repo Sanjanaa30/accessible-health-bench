@@ -13,36 +13,6 @@ Used by:
   - Lifestyle Feasibility judge: real time + energy commitment, WHO compliance
   - Coverage report: % of fitness components groundable in the Compendium
 
-Design notes:
-  * The grounder reports `total_logged_minutes` — the sum of duration_minutes
-    across the components it received. It does NOT extrapolate to a week
-    unless given an explicit `time_horizon`. Mis-labeling a single day's
-    minutes as "weekly" is the easiest way to mis-bucket WHO compliance,
-    so we keep the labeling honest.
-  * WHO 2020 guideline equivalence: 1 min vigorous (MET >= 6.0) = 2 min
-    moderate (MET 3.0-5.9). Reported as `moderate_equivalent_minutes`.
-  * Calories use kcal = MET * weight_kg * (minutes / 60), at 70 kg.
-  * The CSV's `source` column distinguishes official Compendium 2024 rows
-    (MET trusted) from `_custom_*` rows whose MET is a local estimate
-    derived from a similar official entry. The grounder passes this
-    distinction through so the judge can weight accordingly.
-
-Citation:
-  Herrmann SD, Willis EA, Ainsworth BE, et al. (2024). 2024 Adult Compendium
-  of Physical Activities. Journal of Sport and Health Science 13(1):6-12.
-
-Usage:
-    from src.grounding.compendium import CompendiumGrounder
-    g = CompendiumGrounder()
-
-    r = g.lookup("push-ups", duration_minutes=10)
-
-    matches = g.lookup_batch([
-        {"activity_name": "push-ups", "duration_minutes": 10},
-        {"activity_name": "running 6 mph", "duration_minutes": 30},
-    ])
-    report = g.coverage_report(components, time_horizon="weekly")
-
 CLI:
     python -m src.grounding.compendium --test "push-ups" "running 6 mph" yoga
     python -m src.grounding.compendium --stats

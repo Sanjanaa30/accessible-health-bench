@@ -9,9 +9,6 @@ data/extractions/ for:
   - Suspicious empty extractions
   - Per-provider counts
 
-Run from repo root:
-    python -m src.validate_extractions
-
 This is a pure local script — no API calls, no cost. Run after
 every extraction batch to catch problems before Phase 4.
 """

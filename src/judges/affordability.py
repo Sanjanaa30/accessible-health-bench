@@ -1,12 +1,6 @@
 """
 src/judges/affordability.py — RQ1 judge.
 
-Run on one enriched record:
-    from src.judges.affordability import AffordabilityJudge
-    judge = AffordabilityJudge()
-    result = judge.evaluate(enriched_record)
-    print(result.score, result.reasoning)
-
 CLI:
     python -m src.judges.affordability data/enriched/openai/fin_con_01.json
 """

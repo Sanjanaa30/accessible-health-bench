@@ -9,12 +9,6 @@ For aggregation purposes, we also derive a 1-5 numeric score from the
 three branches: average of branch verdicts where each verdict maps to
 {yes:5, partial:3, no:1}; "not_applicable" branches are excluded.
 
-Usage:
-    from src.judges.adherence import AdherenceJudge
-    judge = AdherenceJudge()
-    result = judge.evaluate(enriched_record)
-    print(result.score)              # numeric for aggregation, may be None
-    print(result.branch_verdicts)    # full structured DAG output
 """
 
 import json

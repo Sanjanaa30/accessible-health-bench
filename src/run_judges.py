@@ -7,13 +7,6 @@ Reads:  data/enriched/{provider}/{prompt_id}.json
 Writes: data/judged/{provider}/{prompt_id}.json — extends the enriched
         record with a "judges" block holding each judge's full output.
 
-Resumable — skips judge calls that already produced a clean result for
-the requested judge in the existing judged file. Re-runs judges where
-parse_error was set on the prior attempt. Saves after each successful
-judge so a mid-record crash never loses partial work.
-
-Cost-aware: every judge call goes through UnifiedLLM's SQLite cache.
-
 Run:
     python -m src.run_judges                         # full run, all 4 judges
     python -m src.run_judges --pilot 5               # 5 records per provider

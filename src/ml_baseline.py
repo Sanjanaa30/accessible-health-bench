@@ -8,28 +8,6 @@ distances, Jaccard, grounding metrics) to predict whether a response
 "adhered" to its stated constraint, using human labels from Phase 6 as
 ground truth.
 
-Why this matters for the paper:
-  - Provides an interpretable counterpoint to the LLM judges. Reviewers
-    can see exactly which features drive the prediction.
-  - Reveals which non-LLM signal is the strongest predictor of adherence
-    (cosine distance? Jaccard? western-centricity?).
-  - Lets us compare LLM-judge accuracy vs. a simple linear model trained
-    on hand-crafted features.
-
-Methodology choices, justified:
-  - Features standardized via StandardScaler so coefficient magnitudes are
-    interpretable (each feature contributes per-standard-deviation, not
-    per-raw-unit).
-  - LeaveOneOut CV is used because N=30 is too small for k-fold to be
-    stable (with k=5, a single fold has only 6 test samples).
-  - Wilson 95% CI on accuracy reflects the small-N uncertainty honestly.
-  - Only 4-5 features are used to keep ratio of features-to-samples sane.
-
-Output:
-  results/ml_baseline.csv          — per-fold predictions
-  results/ml_baseline_summary.csv  — summary stats (accuracy, CI, coefficients)
-  console summary
-
 Run from repo root:
     python -m src.ml_baseline
     python -m src.ml_baseline --target b1_financial    # train per-RQ

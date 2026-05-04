@@ -12,27 +12,6 @@ Used by:
     (which is what SNAP allotments approximate) or above the liberal tier?
   - Coverage report: how many responses had a household that USDA covers?
 
-Design notes:
-  * USDA's published table lists per-person weekly costs by age-sex group.
-  * For mixed households, sum the per-person rows for each member, then
-    apply USDA's small-household adjustment scalar (per USDA footnote, e.g.
-    family-of-1 +20%, family-of-2 +10%, family-of-7+ -10%).
-  * `family_with_children` profile uses USDA's published "reference family
-    of four" composition (2 adults 19-50 + 1 child 6-8 + 1 child 9-11) so
-    numbers reproduce USDA's own reports.
-
-Usage:
-    from src.grounding.thrifty_plan import ThriftyPlanGrounder
-    g = ThriftyPlanGrounder()
-
-    baseline = g.estimate_for_household(
-        household_size=4, household_type="family_with_children",
-    )
-    bucket = g.classify_household_response(
-        response_estimated_cost_usd=180.0,
-        household_size=4, household_type="family_with_children",
-    )
-
 CLI:
     python -m src.grounding.thrifty_plan --household-type family_with_children
     python -m src.grounding.thrifty_plan --household-type single_parent --household-size 3 --cost 75

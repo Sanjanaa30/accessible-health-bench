@@ -8,26 +8,6 @@ hits are cached forever in data/wikidata_cache.sqlite. Misses are accumulated
 across a session and resolved in a SINGLE batched LLM call at the end so the
 fallback cost stays low.
 
-Lookup strategy (for one food name):
-  1. Cache check — return immediately on hit.
-  2. EntitySearch via MWAPI to find candidate Wikidata entities by label OR
-     alias (so "egusi" resolves even though its primary label differs).
-  3. For each candidate, attempt three cuisine-resolution paths:
-       (a) direct P2012 ("cuisine") — typically set on dishes only
-       (b) walk P31/P279* subclass chain and look for P2012 on parent class
-       (c) P495 ("country of origin") as a confidence-medium fallback
-  4. If still no cuisine, queue the food for the LLM batch fallback.
-
-Usage:
-    from src.grounding.wikidata import WikidataGrounder
-    g = WikidataGrounder()
-    r = g.lookup("rice")
-    # -> {"cuisines": [...], "countries": [...], "source": "wikidata", ...}
-
-    # For a list of foods + LLM fallback in one batched call:
-    results = g.lookup_batch(["rice", "egusi", "kichari"])
-    fallback_results = g.resolve_misses()
-
 CLI smoke test:
     python -m src.grounding.wikidata --test rice quinoa egusi salmon dal
     python -m src.grounding.wikidata --stats

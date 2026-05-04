@@ -4,27 +4,6 @@ src/clients/unified_llm.py
 Unified interface for OpenAI, Anthropic, DeepSeek, and Groq with SQLite-backed
 caching. Every call is hashed and cached — re-running a script never re-pays.
 
-Usage:
-    from src.clients.unified_llm import UnifiedLLM
-
-    client = UnifiedLLM()
-    response = client.generate(
-        provider="openai",
-        prompt="Give me a healthy breakfast for a student.",
-    )
-    print(response["text"])
-    print(response["from_cache"])  # True if served from cache
-
-Returns a dict:
-    {
-        "text": "...",
-        "provider": "openai",
-        "model": "gpt-4o-mini",
-        "from_cache": False,
-        "input_tokens": 12,
-        "output_tokens": 380,
-        "timestamp": "2026-04-26T14:32:11",
-    }
 """
 
 import hashlib
