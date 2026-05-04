@@ -1,4 +1,4 @@
-# How Accessible Is AI Nutrition and Fitness Advice? — A Case Study of Four LLMs
+# Accessibility and Bias in AI Nutrition and Fitness Advice — A Case Study of Four LLMs
 
 > A small case study of how four widely-used LLMs handle nutrition and fitness advice when users state real-world constraints — a tight grocery budget, a non-Western kitchen, or a 12-hour work shift.
 > We measured how much each model actually adapted, and how their answers compared head-to-head.
