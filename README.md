@@ -1,14 +1,54 @@
-# Accessible Health Bench
+# AccessibleHealthBench
 
-A benchmark for evaluating large language models on accessible health-information tasks across four dimensions — affordability, cultural appropriateness, adherence to stated constraints, and feasibility — with Wikidata-grounded enrichment and LLM-as-judge scoring. The benchmark probes whether models maintain quality and constraint-following when prompts include real-world accessibility constraints (limited budget, cultural food norms, lifestyle limitations).
+> A reproducible benchmark testing whether four major Large Language Models adapt their nutrition and fitness advice when users state real-world constraints — financial, cultural, and lifestyle.
 
-## Status
+**Authors:** Sanjana Shivanand · Sai Snigdha Nadella · Binghamton University
 
-**Phase 1 — Dataset Construction:** complete.
+**Snapshot:** 2026-04-29 — covering Phases 1 through 7
 
-- 120 prompts authored across 3 categories (financial, cultural, lifestyle), 60 base prompts × 2 variants (baseline / constrained). See [data/prompts.jsonl](data/prompts.jsonl).
-- Source spreadsheet: [data/LLM_Prompts.csv](data/LLM_Prompts.csv).
-- Conversion script: [scripts/csv_to_jsonl.py](scripts/csv_to_jsonl.py) — emits one JSON object per prompt with fields `id`, `category`, `variant`, `prompt_text`, `category_type`, and `stated_constraints` (the structured ground truth consumed by the DAGMetric judge).
+**Total project cost:** under $5 in API spend across 480 LLM responses + judging + arena comparisons.
+
+---
+
+## What this project asks
+
+Many people now use AI chatbots for diet and exercise advice. But these chatbots may quietly assume the user has lots of money, a flexible schedule, a fully equipped kitchen, and follows a Western diet. We test whether they actually adapt when users tell them otherwise.
+
+We focus on three concrete questions:
+
+- **RQ1 — Financial accessibility:** When a user says they have $30/week for groceries, do models actually swap salmon for lentils, mention SNAP/WIC, and stay within the budget?
+- **RQ2 — Cultural bias:** When a user says they cook traditional South Indian food, do models engage substantively (sambar, dal, tadka), or default to Western food with a token cultural mention?
+- **RQ3 — Lifestyle constraints:** When a user says they work 12-hour shifts and have 20 minutes to cook, do models actually deliver 20-minute meals, or produce a generic 7-day plan?
+
+---
+
+## What we built
+
+A six-phase reproducible pipeline running on **120 prompts × 4 LLMs = 480 responses**, plus visualizations in Section 7 of the report.
+
+```
+Phase 1: Dataset (120 prompts, 60 base × 2 variants)
+   ↓
+Phase 2: Generation (480 responses, cached)
+   ↓
+Phase 3: Extraction (GPT-4o-mini → 10-block JSON schema)
+   ↓
+Phase 4: Grounding (Wikidata + BLS + USDA + Compendium)
+   ↓
+Phase 5: Evaluation (5 tracks: judges, Sentence-BERT, logistic regression, ArenaGEval, aggregation)
+   ↓
+Phase 6: Human validation (N=15, both authors)
+   ↓
+Section 7: Visualizations (8 paper-quality figures + scorecard)
+```
+
+---
+
+## Phase-by-phase summary (in plain language)
+
+### Phase 1 — Dataset Construction (complete)
+
+We hand-authored **120 prompts** representing realistic users. Each prompt has a baseline (no constraint) and a constrained version (constraint added). The pairing is what lets us compare: did the model change its answer when the constraint was introduced?
 
 | Category   | Baseline | Constrained | Total |
 |------------|----------|-------------|-------|
@@ -17,214 +57,302 @@ A benchmark for evaluating large language models on accessible health-informatio
 | Lifestyle  | 20       | 20          | 40    |
 | **Total**  | **60**   | **60**      | **120** |
 
-**Phase 2 — Generation:** complete.
+Example pair:
+- `fin_base_01`: "Suggest a healthy breakfast."
+- `fin_con_01`: "Suggest a healthy breakfast. I have $5."
 
-- Unified multi-provider LLM client implemented in [src/clients/unified_llm.py](src/clients/unified_llm.py) with SQLite-backed caching at `data/llm_cache.sqlite`. Wraps OpenAI, Anthropic, DeepSeek, and Groq behind one interface so identical calls are billed once.
-- Centralized model + path config in [src/config.py](src/config.py) — single source of truth for model IDs, generation parameters, and pipeline paths.
-- Generation driver in [src/generate.py](src/generate.py) — loops over all 120 prompts × 4 providers (480 responses), saves each to `data/responses/{provider}/{prompt_id}.json`, and is restart-safe (skips already-saved files; cache hits are free).
-- **Provider lineup change:** Gemini was replaced with DeepSeek mid-run because Gemini's free-tier quota and `gemini-1.5-flash` v1beta deprecation made full coverage unreliable. The 20 partial Gemini responses were discarded; all 120 DeepSeek responses generated cleanly.
-- **Final response counts** under [data/responses/](data/responses/):
+Outputs: [data/prompts.jsonl](data/prompts.jsonl) · [data/LLM_Prompts.csv](data/LLM_Prompts.csv) · [scripts/csv_to_jsonl.py](scripts/csv_to_jsonl.py)
 
-| Provider  | Saved | Expected | Status   |
-|-----------|-------|----------|----------|
-| OpenAI    | 120   | 120      | Complete |
-| Anthropic | 120   | 120      | Complete |
-| DeepSeek  | 120   | 120      | Complete |
-| Groq      | 120   | 120      | Complete |
-| **Total** | **480** | **480** | **100%** |
+### Phase 2 — Generation (complete, 480/480)
 
-**Models used (April 2026)**
+We sent every one of the 120 prompts to four large language models. Each call goes through a **unified multi-provider client** with SQLite caching, so we never pay for the same call twice.
 
-| Provider  | Model ID                          | Display name      |
-|-----------|-----------------------------------|-------------------|
-| OpenAI    | `gpt-4o-mini`                     | GPT-4o-mini       |
-| Anthropic | `claude-haiku-4-5-20251001`       | Claude Haiku 4.5  |
-| DeepSeek  | `deepseek-v4-flash`               | DeepSeek V4 Flash |
-| Groq      | `llama-3.3-70b-versatile`         | Llama 3.3 70B     |
+**Models used (April 2026):**
+
+| Provider  | Model ID                          | Display name      | Saved |
+|-----------|-----------------------------------|-------------------|-------|
+| OpenAI    | `gpt-4o-mini`                     | GPT-4o-mini       | 120 / 120 |
+| Anthropic | `claude-haiku-4-5-20251001`       | Claude Haiku 4.5  | 120 / 120 |
+| DeepSeek  | `deepseek-v4-flash`               | DeepSeek V4 Flash | 120 / 120 |
+| Groq      | `llama-3.3-70b-versatile`         | Llama 3.3 70B     | 120 / 120 |
 
 Generation params: `temperature=0.7`, `max_tokens=1500` (uniform across providers).
 
-**Phase 3 — Extraction:** complete (480 / 480, validated).
+**Provider lineup change:** Gemini was originally part of the lineup but was replaced with DeepSeek mid-run because the free-tier quota was too restrictive and `gemini-1.5-flash` was retired during the run. The 20 partial Gemini responses were discarded.
 
-- Extraction driver in [src/extract.py](src/extract.py) reads each free-text response from [data/responses/](data/responses/) and uses **GPT-4o-mini** (`temperature=0`, `max_tokens=8000`) to convert it into a strict structured-JSON object saved at `data/extractions/{provider}/{prompt_id}.json`.
-- Extraction prompt template lives in [prompts/extraction.txt](prompts/extraction.txt) — the schema covers all three response shapes the benchmark elicits (nutrition, fitness, lifestyle/wellness) and exposes ten top-level blocks the downstream judges consume:
-  - `summary`, `response_type`, `primary_goal`
-  - `meal_components`, `all_ingredients`, `all_dishes_or_foods_named`
-  - `fitness_components`, `routine_structure`
-  - `cost_information` (budget tier, aid programs, store types)
-  - `cultural_signals` (cuisines, religious/spiritual frameworks, fasting observances, celebrations)
-  - `feasibility_signals` (kitchen access, equipment, environmental constraints)
-  - `household_and_demographic_context`
-  - `medical_or_health_signals`
-  - `constraint_adherence` (DAGMetric ground truth)
-  - `caveats_and_disclaimers`, `extraction_notes`
-- Validator [src/validate_extractions.py](src/validate_extractions.py) confirms each file is valid JSON and flags suspicious classifications (e.g., `response_type='fitness_plan'` with empty component arrays).
-- **Token-limit lessons:** the extraction `max_tokens` was raised twice — 2500 → 4000 → 8000 — because the dense schema can produce 14k+ characters of JSON for full 7-day plans. Final pass produced 478 clean files and 2 suspicious-but-valid Anthropic outputs (advisory-style responses with no concrete plan items, manually verified).
-- **Cost note:** because the unified client caches by `(provider, model, prompt, params)`, every parameter bump invalidates the cache and forces fresh API calls — keep this in mind before changing extraction parameters.
+Outputs: [src/clients/unified_llm.py](src/clients/unified_llm.py) · [src/generate.py](src/generate.py) · [src/config.py](src/config.py) · `data/responses/` (gitignored)
 
-**Phase 4 — Grounding:** complete (480 / 480 enriched).
+### Phase 3 — Structured Extraction (complete, 480/480)
 
-Each extraction is enriched against four external knowledge sources, producing a `grounding` block consumed by the Phase 5 judges plus a `_grounding_meta` block recording snapshot dates and SHA256s for paper-quality reproducibility.
+Each free-text response was converted by GPT-4o-mini (temperature=0, max_tokens=8000) into a **strict 10-block structured JSON**. This makes downstream scoring tractable — judges read fields like `cost_information.total_cost_usd` instead of free prose.
 
-| Source | Module | Purpose | Cache |
+The 10 schema blocks: `summary`, `response_type`, `primary_goal`, `meal_components`, `all_ingredients`, `all_dishes_or_foods_named`, `fitness_components`, `routine_structure`, `cost_information`, `cultural_signals`, `feasibility_signals`, `household_and_demographic_context`, `medical_or_health_signals`, `constraint_adherence`, `caveats_and_disclaimers`.
+
+We had to raise `max_tokens` twice (2500 → 4000 → 8000) because dense 7-day plans can produce 14k+ characters of JSON. Final pass: 478 cleanly-parsed files + 2 advisory-style outputs flagged as suspicious-but-valid.
+
+Outputs: [src/extract.py](src/extract.py) · [src/validate_extractions.py](src/validate_extractions.py) · [prompts/extraction.txt](prompts/extraction.txt) · `data/extractions/` (gitignored)
+
+### Phase 4 — External Grounding (complete, 480/480)
+
+We enriched each extracted record against **four authoritative external sources** so judges and classifiers can reason against real numbers, not just LLM opinions.
+
+| Source | Module | Purpose | RQ |
 |---|---|---|---|
-| Wikidata SPARQL + LLM fallback | [src/grounding/wikidata.py](src/grounding/wikidata.py) | Cuisine origin tags for ingredients/dishes (RQ2) | `data/wikidata_cache.sqlite` |
-| BLS Average Retail Food Prices | [src/grounding/bls.py](src/grounding/bls.py) | Per-ingredient unit prices (RQ1) | `data/external/bls_prices.csv` |
-| USDA Cost of Food at Home | [src/grounding/thrifty_plan.py](src/grounding/thrifty_plan.py) | Household-level weekly cost benchmarks (RQ1) | `data/external/usda_thrifty_plan.csv` |
-| 2024 Adult Compendium of Physical Activities | [src/grounding/compendium.py](src/grounding/compendium.py) | MET values + WHO 2020 bucketing (RQ3) | `data/external/compendium_activities.csv` |
+| Wikidata SPARQL + LLM fallback | [src/grounding/wikidata.py](src/grounding/wikidata.py) | Cuisine origin tags | RQ2 |
+| BLS Average Retail Food Prices | [src/grounding/bls.py](src/grounding/bls.py) | Per-ingredient unit prices | RQ1 |
+| USDA Cost of Food at Home | [src/grounding/thrifty_plan.py](src/grounding/thrifty_plan.py) | Household-level weekly cost benchmarks | RQ1 |
+| 2024 Adult Compendium of Physical Activities | [src/grounding/compendium.py](src/grounding/compendium.py) | MET energy values + WHO 2020 weekly compliance | RQ3 |
 
-External reference data is built once via [src/download_external_data.py](src/download_external_data.py); the script writes a `data/external/MANIFEST.json` snapshot manifest so judges can record provenance.
-
-**Three-pass orchestrator** in [src/ground_all.py](src/ground_all.py):
-1. Ground each extraction; Wikidata accumulates misses across the entire run.
-2. Single batched LLM-fallback call resolves all accumulated cuisine misses (one call instead of N).
-3. Finalize and write all 480 enriched files to [data/enriched/](data/enriched/).
-
-**Coverage outcomes (480 responses, after fallback):**
+**Phase 4 coverage outcomes (averaged across applicable responses):**
 
 | Metric | Constrained (n=240) | Baseline (n=240) | Notes |
 |---|---|---|---|
-| Wikidata cuisine coverage | 52.4% | 60.1% | Constrained prompts introduce more region-specific ingredients that Wikidata can't always classify |
-| BLS price coverage | 6.6% | 4.8% | Thin — BLS staple list (25 items) doesn't cover most international ingredients; affordability judge will lean on USDA Thrifty calibration |
-| Compendium fitness coverage | 19.4% | 12.4% | Of fitness-bearing responses (89 constrained / 86 baseline) |
-| Western centricity ratio | 3.8% | 4.2% | Constrained prompts produce slightly *less* Western content |
-| Cost extractable | 13% | 0% | "Normalized" or "per_meal_extrapolated"; cultural/lifestyle prompts naturally have none |
+| Wikidata cuisine coverage | 52.4% | 60.1% | Constrained prompts add region-specific items |
+| BLS price coverage | 6.6% | 4.8% | Thin — BLS list has only 25 staples; international items often missed |
+| Compendium fitness coverage | 19.4% | 12.4% | Of fitness-bearing responses (89 / 86 respectively) |
+| Western-centricity ratio | 3.8% | 4.2% | Constrained prompts produce slightly LESS Western content |
+| Any cost mentioned | 13% (of 240) | 0% | RQ1-specific quantification rate is **32.5%** of financial-constrained — see RQ1 results below |
 
-`per_meal` budgets (e.g. "I have $5") are extrapolated to per-week using a 3-meals/day × 7-day = 21× multiplier and flagged as `per_meal_extrapolated` in [src/ground_all.py](src/ground_all.py) so the assumption is disclosable.
+**Three-pass orchestrator** in [src/ground_all.py](src/ground_all.py):
+1. Ground each extraction; Wikidata accumulates misses across the run.
+2. One batched LLM-fallback call resolves all accumulated cuisine misses (one call instead of N).
+3. Finalize and write all 480 enriched files.
 
-**Phase 4 reporter** [src/coverage_report.py](src/coverage_report.py) emits five paper-ready CSVs to [results/](results/) (split by `--variant constrained` or `--variant baseline`):
-- `coverage_report.csv` — one row per response, all metrics
-- `coverage_summary.csv` — provider × category aggregates (Table 1)
-- `thrifty_classification.csv` — RQ1 affordability bucket distribution
-- `feasibility_assessment.csv` — RQ3 WHO compliance distribution
-- `cuisine_distribution.csv` — RQ2 top cuisines per provider × category
+Outputs: [src/ground_all.py](src/ground_all.py) · [src/coverage_report.py](src/coverage_report.py) · [src/download_external_data.py](src/download_external_data.py) · `data/enriched/` (gitignored) · `data/external/` (committed reference data)
 
-**Mini-pilot** [scripts/mini_pilot.py](scripts/mini_pilot.py) grounds exactly 6 prompts (one per sub-category) across all 4 providers — used to verify all three RQ pipelines fire end-to-end before scaling.
+### Phase 5 — Evaluation (complete, all 5 tracks)
 
-**Phase 5 — Evaluation:** in progress. Five tracks running in parallel:
+Phase 5 ran five complementary evaluation tracks on the 480 enriched responses. Total Phase 5 cost: **~$2.30** (judges $1.49 initial + $0.79 rerun after rubric fix; arena $0.30; Sentence-BERT $0; aggregation $0).
 
-| Track | Module | Status | Output |
-|---|---|---|---|
-| A. Four LLM judges (G-Eval + DAGMetric) | `src/judges/` + `src/run_judges.py` | TODO | `results/judge_scores.csv` |
-| **B. Sentence-BERT similarity** | [src/similarity.py](src/similarity.py) | **complete** | [results/similarity.csv](results/similarity.csv) |
-| C. Logistic regression baseline | [src/ml_baseline.py](src/ml_baseline.py) | gated on Phase 6 labels | `results/ml_baseline.csv` |
-| D. ArenaGEval pairwise | [src/arena_eval.py](src/arena_eval.py) | TODO | `results/arena_matrix.csv` |
-| E. Aggregation | [src/aggregate.py](src/aggregate.py) | TODO | `results/scores.csv` |
+#### Track A — LLM-as-Judge Scoring
 
-### Phase 5 Track B — Semantic adaptation (Sentence-BERT) — complete
+Four GPT-4o-mini judges scored each response 1-5 on **affordability, cultural appropriateness, lifestyle feasibility**, plus per-RQ yes/partial/no adherence verdicts. We discovered and fixed two rubric bugs during pilot runs (baseline-vs-constrained branch confusion + cross-firing between dimensions). Final result: absolute scores cluster very tightly across providers, especially on subjective dimensions.
 
-Computes four distance signals between every (baseline, constrained) prompt-pair response per model. 60 prompt pairs × 4 providers = **240 paired comparisons** in [results/similarity.csv](results/similarity.csv).
+| Provider | Affordability | Cultural | Feasibility | Adherence |
+|---|---|---|---|---|
+| DeepSeek V4 Flash | 4.97 | 5.00 | 4.32 | 4.92 |
+| Anthropic Haiku 4.5 | 4.83 | 4.99 | 4.25 | 4.92 |
+| GPT-4o-mini | 4.80 | 4.96 | 4.18 | 4.84 |
+| Llama 3.3 70B (Groq) | 4.88 | 4.97 | 4.08 | 4.95 |
 
-**Four complementary signals** (per [src/similarity.py](src/similarity.py)):
-1. `cosine_full` — Sentence-BERT (`all-MiniLM-L6-v2`) on full response text, chunked-and-mean-pooled for inputs > 1000 chars to avoid silent truncation.
-2. `cosine_ingredients` — Sentence-BERT on the joined ingredient string.
-3. `cosine_structural` — Sentence-BERT on a synthetic structural digest (response_type + meal_types + activity_types + kitchen access).
-4. `jaccard_ingredients` — Set-based, length-invariant ingredient overlap. Uses the same `normalize_food_name` as Phase 4 grounding so `oats`/`oat` collapse to one set element.
+**Note the ceiling effect:** 94–98% of constrained responses scored 5/5 on cultural and adherence. Feasibility was the only dimension where absolute scoring produced a real distribution (33.8% / 51.2% / 14.2% at scores 5 / 4 / 3 on constrained-lifestyle).
 
-**Headline result — model adaptation magnitude (cosine_full mean, n=20 per cell):**
+#### Track B — Sentence-BERT Similarity
+
+For every (baseline, constrained) prompt pair, we measured how much the response changed using four distance signals: full-text cosine, ingredient-list cosine, structural-digest cosine, and Jaccard set distance. 240 paired comparisons.
+
+**Headline result — adaptation magnitude (cosine_full mean):**
 
 | Provider | Cultural | Financial | Lifestyle |
 |---|---|---|---|
-| Anthropic Haiku 4.5 | **0.369** | **0.278** | 0.272 |
+| Anthropic Haiku 4.5 | **0.369** | 0.278 | 0.272 |
 | Llama 3.3 70B (Groq) | 0.281 | 0.286 | 0.239 |
 | DeepSeek V4 Flash | 0.282 | 0.205 | 0.193 |
 | GPT-4o-mini | 0.270 | 0.206 | **0.154** |
 
-Anthropic adapts the most across all three categories; OpenAI's GPT-4o-mini adapts the least. The gap between the most-adaptive cell (Anthropic cultural, 0.369) and the least-adaptive cell (OpenAI lifestyle, 0.154) is **2.4×**, consistent across signals.
+Spread between the most-adaptive and least-adaptive cell: **2.4×**. Models do NOT all respond to constraints equally.
 
-**Pooled diagnostic:** mean cosine_full = 0.253, median = 0.224, between-cell σ = 0.054 (where each "cell" is one provider × category combination, n=20). Just below the soft "adaptive" threshold (mean ≥ 0.25, σ ≥ 0.06), but the per-cell spread is the real signal — uniform rigidity would have produced σ ≪ 0.04.
+**Bimodality finding:** Jaccard distance is bimodal across every model — a small spike near 0 (mostly-overlapping ingredients) and a large mass at 0.6–1.0 (near-complete replacement). Models switch between "keep" and "rewrite" modes rather than gradually substituting.
 
-**Methodological finding — multi-signal design pays off.** Cosine and Jaccard tell different stories on financial prompts:
-- `cosine_ingredients` (mean 0.21) suggests modest ingredient change.
-- `jaccard_ingredients` (mean 0.80) reveals that ~80% of ingredients are actually replaced.
+#### Track C — Logistic Regression Baseline
 
-Cosine alone hides the swap because list lengths and surface phrasing stay similar. Jaccard catches what embedding similarity can't.
+A small interpretable classifier was trained on five non-LLM features (cosine_full, cosine_ingredients, jaccard_ingredients, Western-centricity ratio, response-length ratio) to predict whether human raters considered a response "adherent" — using leave-one-out cross-validation at N=15.
 
-**Bimodality of Jaccard across all four models** (visible in `results/figures/distance_distributions.png`): per-model histograms show two modes — a small spike near 0 (mostly-overlapping ingredients) and a large mass at 0.6–1.0 (near-complete replacement). Models effectively choose between *keep* and *rewrite* rather than gradually substituting.
+| Target dimension | N | Class balance | Accuracy | Top feature (β) |
+|---|---|---|---|---|
+| Affordability | 15 | 13 / 2 (imbalanced) | 73.3% (CI 48–89%) | cosine_full (−0.34) |
+| **Cultural** | 15 | 9 / 6 (balanced) | 73.3% (CI 48–89%) | **western_centricity (−1.07)** |
+| Feasibility | 15 | 15 / 0 (no negative class) | Cannot train | n/a (no class-0) |
 
-**Structural change is uniformly minimal.** `cosine_structural` mean is 0.07 across all 12 cells (range 0.049–0.112). Models update content but rarely restructure (meal layout / fitness skeleton stays the same). Worth one paragraph of paper discussion.
+**The strongest single quantitative finding in the project:** the **Wikidata-derived Western-centricity ratio is the dominant predictor of cultural non-adherence (β = −1.07, more than 2× any other feature)**. The negative direction means: more Western content → less cultural adherence. This validates that the Phase 4 grounding pipeline produces a real, downstream-useful, interpretable signal.
 
-**Visualizations** ([src/plot_adaptivity.py](src/plot_adaptivity.py)):
-- [results/figures/adaptivity_curves.png](results/figures/adaptivity_curves.png) (+ `.pdf`) — 2×2 panel of box plots with scatter overlay, one per signal, grouped by provider × category. Headline figure.
-- [results/figures/distance_distributions.png](results/figures/distance_distributions.png) (+ `.pdf`) — Per-model step histograms of all four signals. Reveals the Jaccard bimodality.
-- [results/adaptivity_summary.csv](results/adaptivity_summary.csv) — n / mean / std / median / IQR / min / max per (provider, category, signal). 48 rows. Goes in the paper as Table 2.
+#### Track D — ArenaGEval Pairwise Comparison
 
-**Reproducibility:** all embeddings cached at `data/embeddings_cache.{keys.json, vectors.npy}`. The `embedding_model` field is recorded on every row of `results/similarity.csv` so future readers can verify which model produced the numbers (`sentence-transformers/all-MiniLM-L6-v2`, dim=384). Deterministic: same input → identical embeddings on every run.
+We presented every pair of model responses to GPT-4o-mini side-by-side on a stratified 60-prompt subset (20 per category, all constrained). Position randomized deterministically per (prompt, pair, dimension) so reruns hit the LLM cache. **1,080 comparisons total at $0.30**.
 
-**Repository scaffold:** complete. Source files for the four judges (Track A), arena evaluation (Track D), aggregation (Track E), and ML baseline (Track C, gated on Phase 6 labels) are stubbed in [src/](src/).
+**Per-provider win rates (aggregated across all 6 model pairs):**
+
+| Provider | Affordability | Cultural | Feasibility |
+|---|---|---|---|
+| DeepSeek V4 Flash | **78.9%** | **83.3%** | **87.2%** |
+| Anthropic Haiku 4.5 | 63.7% | 36.7% | 51.7% |
+| GPT-4o-mini | 32.2% | 50.0% | 41.7% |
+| Llama 3.3 70B (Groq) | 24.7% | 29.8% | 19.4% |
+
+**Pairwise comparison reveals what absolute scoring hides.** Same data, different evaluation method: absolute scores differ by 0.04 points on cultural; pairwise differs by **53.5 percentage points** on cultural. The provider ranking — **DeepSeek > Anthropic > OpenAI > Groq** — is consistent across all three dimensions.
+
+#### Track E — Aggregation
+
+All Phase 5 signals plus Phase 4 grounding metrics joined into [results/scores.csv](results/scores.csv) (480 rows, one per response) plus three derived summary tables.
+
+Outputs: [src/run_judges.py](src/run_judges.py) · [src/judges/](src/judges/) · [src/similarity.py](src/similarity.py) · [src/ml_baseline.py](src/ml_baseline.py) · [src/arena_eval.py](src/arena_eval.py) · [src/aggregate_scores.py](src/aggregate_scores.py)
+
+### Phase 6 — Human Validation (complete, N=15)
+
+Both authors independently scored a stratified **15-response sample** (10 constrained + 5 baseline, balanced across providers and categories) on the same four dimensions the LLM judges produce, using a written rubric ([prompts/human_scoring_guide.md](prompts/human_scoring_guide.md)) that mirrors the judge rubrics. CSVs were submitted before discussing scores to keep ratings independent.
+
+**Within-1-point agreement** is our main validation metric (more robust to ceiling effects than Cohen's kappa):
+
+| Dimension | Inter-human within ±1 | LLM judge vs human-average within ±1 |
+|---|---|---|
+| Affordability | 73% (11/15) | **80%** (12/15) |
+| Cultural | 40% (6/15) | 60% (9/15) |
+| Feasibility | 87% (13/15) | **93%** (14/15) |
+
+**The LLM judges agree with human ratings on most responses** — feasibility highest (93% within ±1, because it ties to concrete things like time and equipment), cultural lowest (60%, because it's the most subjective dimension where even the two humans agreed only 40%).
+
+Cohen's kappa was computed for completeness (`results/kappa_report.csv`) but values were low (0.08–0.23) due to the ceiling effect — when humans rate everything 4 or 5, kappa is mathematically driven toward zero. Within-1-point is the meaningful validation metric here.
+
+Outputs: [src/sample_validation_set.py](src/sample_validation_set.py) · [src/compute_kappa.py](src/compute_kappa.py) · [results/validation/](results/validation/) (committed) · [results/kappa_report.csv](results/kappa_report.csv) (gitignored)
+
+### Section 7 — Visualizations (complete, 8 figures)
+
+Eight paper-quality figures generated from real CSVs by [src/generate_phase7_figures.py](src/generate_phase7_figures.py). All figures saved as both PNG (display) and PDF (paper-quality vector) in `results/figures/` (gitignored — regenerable).
+
+| Figure | What it shows |
+|---|---|
+| **1A** | 80% ingredient replacement vs 32.5% cost quantification — visual evidence of "models change food but rarely commit to a price" |
+| **1B** | Affordability ranking (DeepSeek 78.9% > Anthropic 63.7% > OpenAI 32.2% > Groq 24.7%) with Wilson 95% CIs |
+| **2A** | Logistic regression coefficients for cultural target — Western-centricity dominates at β = −1.07 (>2× any other feature) |
+| **2B** | Adaptation magnitude vs pairwise quality — Anthropic adapts most but DeepSeek wins more pairwise |
+| **3A** | Stacked score distribution showing cultural/adherence pile at 5/5 (94–98%) while feasibility shows real distribution |
+| **3B** | Grouped bars across 3 RQs × 4 providers — lifestyle has the widest spread |
+| **5** | Phase 6 within-1-point agreement (inter-human + LLM-vs-human, three dimensions) |
+| **6** | **Overall scorecard** — 4 × 3 heatmap of arena win rates with row + column averages |
+
+---
+
+## Combined Findings by Research Question
+
+### RQ1 — Financial Accessibility
+
+**Yes, but quality differs sharply across providers, and bigger changes are not necessarily better changes.**
+
+- Models replace ~80% of ingredients when a budget is stated (Phase 5 Track B Jaccard distance).
+- Only **32.5% (n = 26 of 80)** of financial-constrained responses commit to a quantified total cost we can check against the budget; the remaining 67.5% recommend foods without saying how much the plan would cost.
+- When models DO quote a cost, it spans the full USDA Thrifty / Low / Moderate / Liberal range — some are SNAP-realistic, others quietly land 50%+ above the budget.
+- Pairwise quality ranking: **DeepSeek 78.9% > Anthropic 63.7% > OpenAI 32.2% > Groq 24.7%**.
+- Logistic regression: cosine_full distance is the top feature (β = −0.34, negative). Larger response rewrites correlate with WORSE human-rated affordability.
+- Phase 6 within-1-point: 80% (judge vs human average).
+
+### RQ2 — Cultural Bias
+
+**Yes — and this is the project's clearest finding.**
+
+- Western-centricity averages 3.8% on constrained vs 4.2% on baselines — models DO produce some non-Western content when asked.
+- **The Wikidata Western-centricity ratio is the dominant predictor of cultural non-adherence (β = −1.07, more than 2× any other feature).** This validates the Phase 4 grounding pipeline as producing a real, downstream-useful signal: more Western content → less cultural adherence.
+- Pairwise: **DeepSeek 83.3% > OpenAI 50.0% > Anthropic 36.7% > Groq 29.8%**.
+- Anthropic adapts MOST aggressively in Sentence-BERT distance (cosine 0.369) yet ranks 3rd in pairwise cultural quality — change magnitude ≠ change quality.
+- Phase 6 within-1-point: 60% (judge vs human). Cultural is the most subjective dimension; even the two humans agreed only 40%.
+
+### RQ3 — Lifestyle Constraints
+
+**Mostly yes, with notable quality gaps.**
+
+- All four models meet a basic feasibility floor — no human-rated response in our sample scored below 2.5.
+- But "feasible" ≠ "well-tailored." Only 33.8% of constrained-lifestyle responses scored a perfect 5; 14.2% landed in borderline (3) territory.
+- Compendium MET coverage was only 19.4% — models often promise fitness with vague phrasings ("light cardio") rather than concrete activities.
+- Pairwise: **DeepSeek 87.2% > Anthropic 51.7% > OpenAI 41.7% > Groq 19.4%** — the WIDEST provider gap of any RQ.
+- Phase 6 within-1-point: **93%** (judge vs human, the highest agreement of any dimension — feasibility ties to concrete anchors like time and equipment).
+
+### Overall — Bias and Accessibility Scorecard
+
+The Section 7 scorecard summarizes everything in a single 4 × 3 grid (Figure 6):
+
+| | Affordability | Cultural | Feasibility | Overall |
+|---|---|---|---|---|
+| **DeepSeek** | 78.9% | 83.3% | 87.2% | **83.1%** (uniformly green) |
+| **Anthropic** | 63.7% | 36.7% | 51.7% | 50.7% (mixed) |
+| **OpenAI** | 32.2% | 50.0% | 41.7% | 41.3% (mixed) |
+| **Groq** | 24.7% | 29.8% | 19.4% | **24.6%** (uniformly red) |
+
+**DeepSeek consistently produces the most accessible advice across every research question; Groq consistently produces the least accessible.** Anthropic and OpenAI are mixed — good on one dimension and weak on another.
+
+---
+
+## Main Limitations (5 disclosed)
+
+1. **Small human-validation sample (N = 15).** We planned 30; trimmed to 15 for timeline. Per-RQ DAG-branch logistic regression couldn't train; we pivoted to dimension-level classifiers.
+2. **Both human raters are project authors.** Convenience sample, not blind. Future work should recruit external raters.
+3. **ArenaGEval pairwise judge is a single LLM (GPT-4o-mini).** Stylistic-alignment bias risk — DeepSeek and GPT-4o-mini may share preferences. Cross-validate with another LLM judge.
+4. **BLS price coverage is thin (~7%).** Only 25 staples; international items (egusi, kichari, halloumi) miss. Affordability judge leans on USDA Thrifty Plan calibration.
+5. **Absolute LLM-as-judge scoring is severely ceiling-pressed.** 94–98% scored 5/5 on cultural and adherence even after rubric fixes. Mitigated via pairwise + within-1-point, but absolute scoring on these dimensions cannot differentiate models.
+
+---
 
 ## Project structure
 
 ```
 accessible-health-bench/
 ├── data/
-│   ├── LLM_Prompts.csv               # source spreadsheet (120 rows)
-│   ├── prompts.jsonl                 # converted, validated prompts
-│   ├── responses/                    # raw model responses (480, gitignored)
-│   ├── extractions/                  # structured JSON (480, gitignored)
-│   ├── enriched/                     # extractions + grounding (480, gitignored)
-│   ├── external/                     # BLS / USDA / Compendium reference CSVs
-│   ├── llm_cache.sqlite              # cached API calls (gitignored)
-│   └── wikidata_cache.sqlite         # cached SPARQL queries (gitignored)
+│   ├── LLM_Prompts.csv               # source spreadsheet (committed)
+│   ├── prompts.jsonl                 # 120 prompts (committed)
+│   ├── responses/                    # raw LLM responses (gitignored, 480)
+│   ├── extractions/                  # structured JSON (gitignored, 480)
+│   ├── enriched/                     # grounded records (gitignored, 480)
+│   ├── judged/                       # LLM judge outputs (gitignored, 480)
+│   ├── external/                     # BLS / USDA / Compendium reference CSVs (committed)
+│   ├── *.sqlite                      # API + SPARQL caches (gitignored)
+│   └── embeddings_cache.*            # Sentence-BERT cache (gitignored)
 ├── src/
 │   ├── config.py                     # model IDs, paths, generation params
 │   ├── clients/unified_llm.py        # multi-provider LLM client w/ caching
-│   ├── generate.py                   # Phase 2 — 480 responses
-│   ├── extract.py                    # Phase 3 — structured extraction
+│   ├── generate.py                   # Phase 2
+│   ├── extract.py                    # Phase 3
 │   ├── validate_extractions.py       # Phase 3 validator
-│   ├── download_external_data.py     # Phase 4 prep — build reference CSVs
+│   ├── download_external_data.py     # Phase 4 prep
 │   ├── grounding/
 │   │   ├── wikidata.py               # SPARQL + LLM-fallback cuisine grounder
 │   │   ├── bls.py                    # BLS staple-price grounder
-│   │   ├── thrifty_plan.py           # USDA cost calibration grounder
+│   │   ├── thrifty_plan.py           # USDA cost calibration
 │   │   └── compendium.py             # 2024 Compendium MET / WHO grounder
 │   ├── ground_all.py                 # Phase 4 orchestrator (3-pass)
 │   ├── coverage_report.py            # Phase 4 reporter — 5 paper CSVs
-│   ├── similarity.py                 # Phase 5 Track B — 4 distance signals
-│   ├── plot_adaptivity.py            # Phase 5 Track B — figures + diagnostic
-│   ├── judges/                       # Phase 5 Track A — G-Eval / DAGMetric (TODO)
-│   ├── arena_eval.py                 # Phase 5 Track D — pairwise matrix (TODO)
-│   ├── ml_baseline.py                # Phase 5 Track C — logistic baseline (gated)
-│   └── aggregate.py                  # Phase 5 Track E — combine into scores.csv (TODO)
-├── prompts/                          # version-controlled judge prompt templates
-│   └── extraction.txt                # Phase 3 extraction template
+│   ├── similarity.py                 # Phase 5 Track B — Sentence-BERT
+│   ├── plot_adaptivity.py            # Track B figures (legacy)
+│   ├── judges/                       # Phase 5 Track A
+│   │   ├── base.py                   # shared G-Eval judge runner
+│   │   ├── affordability.py
+│   │   ├── cultural.py
+│   │   ├── feasibility.py
+│   │   └── adherence.py              # DAGMetric judge
+│   ├── run_judges.py                 # Track A orchestrator (resumable)
+│   ├── ml_baseline.py                # Track C — logistic regression
+│   ├── arena_eval.py                 # Track D — ArenaGEval pairwise
+│   ├── aggregate_scores.py           # Track E — master scores.csv
+│   ├── sample_validation_set.py      # Phase 6 sampler
+│   ├── compute_kappa.py              # Phase 6 — Cohen's kappa + within-1
+│   └── generate_phase7_figures.py    # Section 7 — 8 figures
+├── prompts/                          # judge templates + scoring guide
+│   ├── extraction.txt
+│   ├── judge_affordability.txt
+│   ├── judge_cultural.txt
+│   ├── judge_adherence_dag.txt
+│   ├── judge_feasibility.txt
+│   └── human_scoring_guide.md        # Phase 6 rubric
 ├── scripts/
-│   ├── csv_to_jsonl.py               # CSV → JSONL converter
-│   └── mini_pilot.py                 # Phase 4 6-prompt × 4-provider verifier
-├── notebooks/                        # 01_eda, 02_results, 03_figures
-├── dashboard/                        # React + Vite results viewer
+│   ├── csv_to_jsonl.py
+│   ├── mini_pilot.py
+│   └── generate_progress_report.py   # build the PDF report
 ├── results/
-│   ├── coverage_report.csv           # Phase 4 per-response (480 rows)
-│   ├── coverage_summary.csv          # Phase 4 aggregates (Table 1)
-│   ├── thrifty_classification.csv    # Phase 4 — RQ1 cost buckets
-│   ├── feasibility_assessment.csv    # Phase 4 — RQ3 WHO buckets
-│   ├── cuisine_distribution.csv      # Phase 4 — RQ2 top cuisines
-│   ├── similarity.csv                # Phase 5 Track B (240 rows)
-│   ├── adaptivity_summary.csv        # Phase 5 Track B (Table 2)
-│   ├── figures/
-│   │   ├── adaptivity_curves.png     # Phase 5 Track B — headline figure
-│   │   └── distance_distributions.png# Phase 5 Track B — bimodality figure
-│   ├── constrained/                  # constrained-only Phase 4 CSVs
-│   └── baseline/                     # baseline-only Phase 4 CSVs
-└── paper/main.tex
+│   ├── *.csv                         # gitignored, regenerable
+│   ├── figures/                      # gitignored, regenerable
+│   ├── validation/                   # COMMITTED (human ratings + manifest)
+│   ├── baseline/                     # gitignored
+│   └── constrained/                  # gitignored
+└── paper/
+    ├── main.tex                      # placeholder for future LaTeX paper
+    └── AccessibleHealthBench_progress_report.pdf   # COMMITTED — final deliverable
 ```
 
-## Roadmap
-
-- **Phase 5 (current):**
-  - ✅ Track B (Sentence-BERT similarity) complete — see results above.
-  - ⬜ Track A: write `prompts/judge_*.txt` templates + implement `src/judges/*.py` + `src/run_judges.py` orchestrator. ~25 min, ~$3.50 to run on full 480.
-  - ⬜ Track D: implement [src/arena_eval.py](src/arena_eval.py) for the 4×4 model-vs-model preference matrix on a 30-prompt subset. ~10 min, ~$0.50.
-  - ⬜ Track E: implement [src/aggregate.py](src/aggregate.py) to join Tracks A/B/D + Phase 4 coverage into `results/scores.csv`.
-  - ⬜ Track C (logistic regression baseline) — gated on Phase 6 manual-validation labels.
-- **Phase 6 — Analysis:** Cohen's kappa inter-rater validation against a 30-sample manual set; logistic regression trained on those labels; figures; React dashboard build; paper draft.
+---
 
 ## Setup
 
 1. Create and activate a virtual environment:
    ```powershell
    python -m venv .venv
-   .\.venv\Scripts\Activate.ps1     # PowerShell
+   .\.venv\Scripts\Activate.ps1     # PowerShell on Windows
    # or:  source .venv/Scripts/activate    # Git Bash on Windows
    # or:  source .venv/bin/activate        # macOS / Linux
    ```
@@ -238,85 +366,64 @@ accessible-health-bench/
    ```
    Add values for `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `DEEPSEEK_API_KEY`, `GROQ_API_KEY`. **Never commit `.env`.**
 
-## Common commands
+---
 
-Regenerate the prompt set from CSV:
-```
+## How to run the full pipeline (in order)
+
+```powershell
+# Phase 1 — regenerate prompts (only if you edit the CSV)
 python scripts/csv_to_jsonl.py
-```
 
-Run a small generation pilot (5 prompts × 4 providers = 20 calls):
-```
-python -m src.generate --pilot 5
-```
-
-Run the full generation pass (120 prompts × 4 providers = 480 calls; cached calls are free):
-```
+# Phase 2 — generation (~25 min on first run, instant on rerun via cache)
 python -m src.generate
-```
 
-Run extraction on every saved response (skips files already extracted):
-```
+# Phase 3 — extraction (~10 min, uses cache)
 python -m src.extract
-```
-
-Run extraction in pilot mode (first N responses per provider):
-```
-python -m src.extract --pilot 10
-```
-
-Validate every extracted file (parse-error + suspicious-content heuristics):
-```
 python -m src.validate_extractions
-```
 
-Smoke-test the unified client across all 4 providers (~$0.05):
-```
-python -m src.clients.unified_llm
-```
-
-Build external reference data (one-time, ~30 sec; persists for 30 days):
-```
+# Phase 4 — grounding (one-time external data + ~1 hr first run)
 python -m src.download_external_data
-```
-
-Smoke-test each grounder individually before scaling:
-```
-python -m src.grounding.wikidata --test rice quinoa egusi salmon dal kichari kimchi
-python -m src.grounding.bls       --test rice "ground beef" eggs salt
-python -m src.grounding.thrifty_plan --household-type single
-python -m src.grounding.compendium --test "push-ups" "running 6 mph" yoga "irish step dance" salt
-```
-
-Run the targeted 6-prompt mini-pilot (verifies all three RQ pipelines fire end-to-end):
-```
-python scripts/mini_pilot.py
-```
-
-Run the full Phase 4 grounding pass (~1 hour first time; restart-safe):
-```
 python -m src.ground_all
-```
-
-Run a Phase 4 grounding pilot (5 extractions per provider):
-```
-python -m src.ground_all --pilot 5
-```
-
-Generate the 5 paper-ready CSVs (split by variant):
-```
 python -m src.coverage_report
-python -m src.coverage_report --variant constrained --out-dir results/constrained
-python -m src.coverage_report --variant baseline    --out-dir results/baseline
+
+# Phase 5 — evaluation
+python -m src.similarity                   # Track B (~5 min cold, ~30s warm)
+python -m src.run_judges                   # Track A (~25 min, ~$1.50)
+python -m src.arena_eval                   # Track D (~30 min, ~$0.30)
+python -m src.ml_baseline --target cultural  # Track C
+python -m src.aggregate_scores             # Track E
+
+# Phase 6 — human validation (manual rating step in the middle)
+python -m src.sample_validation_set --n 15  # generates rater CSVs
+# (each author fills in their CSV independently)
+python -m src.compute_kappa                # computes agreement metrics
+
+# Section 7 — visualizations
+python -m src.generate_phase7_figures      # produces 8 figures
+
+# Build the progress report PDF
+python scripts/generate_progress_report.py
 ```
 
-Phase 5 Track B — compute Sentence-BERT distance signals:
-```
-python -m src.similarity --pilot 5     # 5 pair_keys × 4 providers — verify
-python -m src.similarity               # full 240-pair run (~5 min cold, ~30s warm cache)
-```
+**Cost summary:** under $5 total across Phases 5 + 6.
 
-Phase 5 Track B — plot the Adaptivity Curve and distance distributions:
-```
-python -m src.plot_adaptivity
-```
+---
+
+## Key outputs to look at
+
+- **[paper/AccessibleHealthBench_progress_report.pdf](paper/AccessibleHealthBench_progress_report.pdf)** — the headline deliverable, ~30 pages with all phases, findings, figures, limitations, and conclusion.
+- **[results/scores.csv](results/scores.csv)** (gitignored, regenerable) — master scores table, 480 rows × ~30 columns.
+- **[results/figures/](results/figures/)** (gitignored, regenerable) — 8 PNG/PDF figures produced by `src/generate_phase7_figures.py`.
+- **[results/validation/](results/validation/)** (committed) — human-rated CSVs + reproducibility manifest.
+- **[data/external/MANIFEST.json](data/external/MANIFEST.json)** — SHA256 hashes pinning the BLS / USDA / Compendium reference data snapshot used in this report.
+
+---
+
+## Academic integrity note
+
+Every artifact in this repository is real:
+- All 480 LLM responses came from real API calls billed to our keys.
+- All extractions, grounding queries, similarity computations, judge scores, and arena comparisons used real model output.
+- Both human raters in Phase 6 are the project authors; we scored independently and submitted our CSVs before discussing.
+- No data is fabricated; all limitations are disclosed in Section 8 of the report.
+- A reviewer can reproduce every numerical claim in the report from the committed code + reference data + cache.
