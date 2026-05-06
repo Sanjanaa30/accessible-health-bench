@@ -32,7 +32,7 @@ Phase 3: Extraction (GPT-4o-mini → 10-block JSON schema)
    ↓
 Phase 4: Grounding (Wikidata + BLS + USDA + Compendium)
    ↓
-Phase 5: Evaluation (5 tracks: judges, Sentence-BERT, logistic regression, ArenaGEval, aggregation)
+Phase 5: Evaluation (5 tracks: judges, Sentence-BERT, logistic regression, arena pairwise, aggregation)
    ↓
 Phase 6: Human validation (N=15, both authors)
    ↓
@@ -363,14 +363,14 @@ accessible-health-bench/
 │   ├── coverage_report.py            # Phase 4 reporter
 │   ├── similarity.py                 # Phase 5 Track B — Sentence-BERT
 │   ├── judges/                       # Phase 5 Track A judges
-│   │   ├── base.py                   # shared G-Eval judge runner
+│   │   ├── base.py                   # shared LLM judge runner
 │   │   ├── affordability.py
 │   │   ├── cultural.py
 │   │   ├── feasibility.py
-│   │   └── adherence.py              # DAGMetric judge
+│   │   └── adherence.py              # DAG-style adherence judge (yes/partial/no)
 │   ├── run_judges.py                 # Track A orchestrator (resumable)
 │   ├── ml_baseline.py                # Track C — logistic regression
-│   ├── arena_eval.py                 # Track D — ArenaGEval pairwise
+│   ├── arena_eval.py                 # Track D — arena-style pairwise comparison
 │   ├── aggregate_scores.py           # Track E — master scores.csv
 │   ├── sample_validation_set.py      # Phase 6 sampler
 │   ├── compute_kappa.py              # Phase 6 — Cohen's kappa + within-1
