@@ -456,8 +456,8 @@ python -m src.generate_phase7_figures      # produces 8 figures
 
 ## Key outputs to look at
 
-- **[results/scores.csv](results/scores.csv)** — master scores table, 480 rows × ~30 columns. Every claim in this README traces back to a row of this file.
-- **[results/figures/](results/figures/)** — 10 PNG figures produced by [src/generate_phase7_figures.py](src/generate_phase7_figures.py); 8 are featured in the report, 2 are exploratory diagnostics.
+- **[results/scores.csv](results/scores.csv)** — master scores table, 480 rows × 30 columns. Every claim in this README traces back to a row of this file.
+- **[results/figures/](results/figures/)** — 10 PNG figures produced by [src/generate_phase7_figures.py](src/generate_phase7_figures.py); 8 are featured in this README's Section 7 table, 2 are exploratory diagnostics.
 - **[results/validation/](results/validation/)** — human-rated CSVs + reproducibility manifest from Phase 6.
 - **[data/external/MANIFEST.json](data/external/MANIFEST.json)** — SHA256 hashes pinning the BLS / USDA / Compendium reference data snapshot.
 
